@@ -1,1 +1,60 @@
-{"updatedAt": "2026-08-10T00:10:00.000Z", "items": []}
+{
+  "updatedAt": "2026-08-10T00:10:00.000Z",
+  "items": [
+    {
+      "id": "disc-2086578009382023469",
+      "tweetId": "2086578009382023469",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-10T00:00:00.000Z",
+      "reviewedAt": null,
+      "score": 55,
+      "reasons": ["has-video", "signal:introducing", "engagement:likes", "engagement:views", "manual-x-search", "indie-dev"],
+      "post": {
+        "tweetId": "2086578009382023469",
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "authorHandle": "yoheinakajima",
+        "authorName": "Yohei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "text": "You don’t need new ways to talk to your agents, you need new ways for your agents to talk to you 🫵 (do you?)\n\nIntroducing Remoko: your mobile agent relay\n\nhttps://remoko.app/\n\nI wanted a way for my long-running agents to send me iOS push notifications via MCP: questions, approvals, check-ins, feedback, update/cancel, execution reports, etc\n\nsince I had to make it a testflight, you can try it too with your Codex, Claude Code, etc:",
+        "createdAt": "2026-08-09T22:18:58.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 33000,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4"
+          }
+        ],
+        "metrics": { "likeCount": 72, "repostCount": 8, "replyCount": 34, "viewCount": 8205 }
+      },
+      "watchlist": {
+        "handle": "yoheinakajima",
+        "company": "Remoko",
+        "category": "ai",
+        "tags": ["agents", "mobile", "mcp", "notifications", "indie"]
+      },
+      "draft": {
+        "id": "plv-disc-2086578009382023469",
+        "slug": "remoko-mobile-agent-relay-3469",
+        "title": "Remoko — mobile agent relay for iOS push notifications",
+        "product": "Remoko",
+        "company": "Yohei Nakajima",
+        "description": "Mobile agent relay that lets long-running AI agents (Codex, Claude Code etc.) send iOS push notifications via MCP for questions, approvals, check-ins, feedback and reports. Available via TestFlight.",
+        "category": "ai",
+        "tags": ["agents", "mobile", "mcp", "notifications", "indie", "auto-discovery"],
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "tweetId": "2086578009382023469",
+        "authorName": "Yohei",
+        "authorHandle": "yoheinakajima",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "poster": "/posters/remoko-mobile-agent-relay-3469.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4",
+        "publishedAt": "2026-08-09T22:18:58.000Z",
+        "durationSeconds": 33,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok X search. Indie builder (babyAGI creator) shipping practical agent infra.",
+      "issueUrl": null
+    }
+  ]
+}
