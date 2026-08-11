@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-08-09T00:10:00.000Z",
+  "updatedAt": "2026-08-11T08:00:00.000Z",
   "items": [
+    {
+      "id": "disc-2086845030568743030",
+      "tweetId": "2086845030568743030",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-11T08:00:00.000Z",
+      "reviewedAt": null,
+      "score": 85,
+      "reasons": ["has-video", "signal:announce", "signal:raised", "engagement:likes", "engagement:views", "manual-x-search", "yc"],
+      "post": {
+        "tweetId": "2086845030568743030",
+        "tweetUrl": "https://x.com/OfficialAmogh/status/2086845030568743030",
+        "authorHandle": "OfficialAmogh",
+        "authorName": "amogh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957309857864044544/NHEcPEEQ.jpg",
+        "text": "hey! super excited to announce human behavior v2 ;)\n\nwe raised $5M from @paulg, @ycombinator, @generalcatalyst, @vercel to put your company on autopilot\n\nproduct analytics told you what happened … human behavior now just handles it",
+        "createdAt": "2026-08-10T16:00:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 48896,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086832356925825024/vid/avc1/1920x1080/q9yEI6xKDFSSr97C.mp4"
+          }
+        ],
+        "metrics": { "likeCount": 547, "repostCount": 119, "replyCount": 202, "viewCount": 162778 }
+      },
+      "watchlist": {
+        "handle": "OfficialAmogh",
+        "company": "Human Behavior",
+        "category": "ai",
+        "tags": ["analytics", "agents", "yc", "product"]
+      },
+      "draft": {
+        "id": "plv-disc-2086845030568743030",
+        "slug": "human-behavior-v2-3030",
+        "title": "Human Behavior v2 — AI that handles product analytics",
+        "product": "Human Behavior",
+        "company": "Human Behavior",
+        "description": "Human Behavior v2 turns product analytics into an always-on AI agent that watches users, funnels, errors and behavior, then acts. Raised $5M from Paul Graham, YC, General Catalyst and Vercel. YC X25.",
+        "category": "ai",
+        "tags": ["analytics", "agents", "yc", "product", "auto-discovery"],
+        "tweetUrl": "https://x.com/OfficialAmogh/status/2086845030568743030",
+        "tweetId": "2086845030568743030",
+        "authorName": "amogh",
+        "authorHandle": "OfficialAmogh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957309857864044544/NHEcPEEQ.jpg",
+        "poster": "/posters/human-behavior-v2-3030.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086832356925825024/vid/avc1/1920x1080/q9yEI6xKDFSSr97C.mp4",
+        "publishedAt": "2026-08-10T16:00:01.000Z",
+        "durationSeconds": 49,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok built-in X search. High-signal YC product launch with strong engagement and official demo video.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086910382569066807",
+      "tweetId": "2086910382569066807",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-11T08:00:00.000Z",
+      "reviewedAt": null,
+      "score": 70,
+      "reasons": ["has-video", "signal:now available", "official", "manual-x-search"],
+      "post": {
+        "tweetId": "2086910382569066807",
+        "tweetUrl": "https://x.com/grok/status/2086910382569066807",
+        "authorHandle": "grok",
+        "authorName": "Grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "text": "Try the new Voice connector in Grok. Generate voice memos, turn daily events into a personalized podcast, or create automations for a daily brief.\n\nNow available for everyone on iOS, Android, and Web - no setting required.",
+        "createdAt": "2026-08-10T20:19:42.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 16938,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086910355553320960/vid/avc1/1920x1080/ObxRTo-h48UsTxaE.mp4"
+          }
+        ],
+        "metrics": { "likeCount": 538, "repostCount": 58, "replyCount": 67, "viewCount": 151401 }
+      },
+      "watchlist": {
+        "handle": "grok",
+        "company": "xAI",
+        "category": "ai",
+        "tags": ["voice", "connector", "grok", "xai"]
+      },
+      "draft": {
+        "id": "plv-disc-2086910382569066807",
+        "slug": "grok-voice-connector-6807",
+        "title": "Grok Voice connector — memos, podcasts & daily briefs",
+        "product": "Grok Voice Connector",
+        "company": "xAI",
+        "description": "Grok's new Voice connector is live for everyone: generate voice memos, turn daily events into a personalized podcast, or create automations for a daily brief. Available on iOS, Android and Web with zero setup.",
+        "category": "ai",
+        "tags": ["voice", "connector", "grok", "xai", "auto-discovery"],
+        "tweetUrl": "https://x.com/grok/status/2086910382569066807",
+        "tweetId": "2086910382569066807",
+        "authorName": "Grok",
+        "authorHandle": "grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "poster": "/posters/grok-voice-connector-6807.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086910355553320960/vid/avc1/1920x1080/ObxRTo-h48UsTxaE.mp4",
+        "publishedAt": "2026-08-10T20:19:42.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok X search. Official xAI/Grok product feature launch video.",
+      "issueUrl": null
+    },
     {
       "id": "disc-2086215846104572104",
       "tweetId": "2086215846104572104",
