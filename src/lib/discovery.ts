@@ -23,6 +23,7 @@ export {
   isValidWatchlistEntry,
   knownTweetIds,
   mergeInbox,
+  mergeInboxItems,
   normalizeHandle,
   pickBestVideoUrl,
   pickPreviewImage,
