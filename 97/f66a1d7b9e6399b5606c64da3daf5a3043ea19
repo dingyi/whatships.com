@@ -1,0 +1,22 @@
+AGENTS.md
+  h_f786d994c98af1 72-75
+scripts/discovery/logic.mjs
+  h_f786d994c98af1 510-566
+scripts/merge-inbox.mjs
+  h_f786d994c98af1 1-55
+src/lib/discovery.ts
+  h_f786d994c98af1 26
+tests/inbox.test.ts
+  h_f786d994c98af1 3,141-193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "97f66a1d7b9e6399b5606c64da3daf5a3043ea19",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
