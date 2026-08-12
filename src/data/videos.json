@@ -30701,5 +30701,31 @@
     "durationSeconds": 45,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-spotify-xirp",
+    "slug": "spotify-xirp",
+    "title": "Spotify Xirp — vendor-neutral agentic dev environment",
+    "product": "Xirp",
+    "company": "Spotify",
+    "description": "Vendor-neutral agentic development environment from Spotify — one place to manage agent sessions across Claude, Gemini CLI and Codex. Used by 1,300+ Spotify engineers, now open to try.",
+    "category": "developer-tools",
+    "tags": [
+      "xirp",
+      "spotify",
+      "agents",
+      "ide"
+    ],
+    "tweetUrl": "https://x.com/SpotifyEng/status/2086795659651191106",
+    "tweetId": "2086795659651191106",
+    "authorName": "Spotify Engineering",
+    "authorHandle": "SpotifyEng",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1920831680006266880/kCG31WD4.jpg",
+    "poster": "/posters/spotify-xirp.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2086795560451768320/vid/avc1/1920x1080/MJ8UQYacdgYA6ZxK.mp4",
+    "publishedAt": "2026-08-10T12:43:50.000Z",
+    "durationSeconds": 65,
+    "featured": false,
+    "status": "published"
   }
 ]
