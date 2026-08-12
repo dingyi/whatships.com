@@ -507,3 +507,60 @@ export function mergeInbox(existing, candidates, { now = new Date(), issueByTwee
     pending: items.filter((item) => item.reviewStatus === "pending").length,
   };
 }
+
+/**
+ * Merge complete inbox items (from another inbox.json, e.g. a discovery PR
+ * branch) into the review inbox. Unlike mergeInbox, incoming entries are
+ * already inbox items, so their reviewStatus / notes / draft are kept as-is.
+ * Existing pending items get score/reasons/post refreshed; reviewed items are
+ * never touched.
+ */
+export function mergeInboxItems(existing, incoming, { now = new Date() } = {}) {
+  const previous = Array.isArray(existing?.items) ? existing.items : [];
+  const byTweet = new Map(previous.map((item) => [item.tweetId, item]));
+  const discoveredAt = now.toISOString();
+  let added = 0;
+
+  for (const item of Array.isArray(incoming) ? incoming : []) {
+    const tweetId = item?.tweetId ?? item?.post?.tweetId;
+    if (!tweetId) continue;
+    if (byTweet.has(tweetId)) {
+      const current = byTweet.get(tweetId);
+      if (current.reviewStatus === "pending") {
+        byTweet.set(tweetId, {
+          ...item,
+          ...current,
+          score: item.score ?? current.score,
+          reasons: item.reasons ?? current.reasons,
+          post: item.post ?? current.post,
+          watchlist: item.watchlist ?? current.watchlist,
+        });
+      }
+      continue;
+    }
+
+    byTweet.set(tweetId, {
+      ...item,
+      tweetId,
+      reviewStatus: item.reviewStatus ?? "pending",
+      discoveredAt: item.discoveredAt ?? discoveredAt,
+    });
+    added += 1;
+  }
+
+  const items = [...byTweet.values()].sort(
+    (a, b) =>
+      Date.parse(b.discoveredAt) - Date.parse(a.discoveredAt) ||
+      b.score - a.score,
+  );
+
+  return {
+    inbox: {
+      updatedAt: discoveredAt,
+      items,
+    },
+    added,
+    total: items.length,
+    pending: items.filter((item) => item.reviewStatus === "pending").length,
+  };
+}

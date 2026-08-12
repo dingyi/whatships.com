@@ -69,6 +69,10 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 - Admin review queue: `src/data/inbox.json` + `/admin`
   (`scripts/apply-inbox.mjs` merges approved drafts).
 - Weekly discovery: `scripts/discovery/` + `src/data/watchlist.json`.
+- Discovery PRs sometimes rewrite `inbox.json` wholesale instead of
+  appending — merging several directly drops pending candidates. Union them
+  with `node scripts/merge-inbox.mjs <file.json> [...]` (dedupes by
+  `tweetId`, never touches reviewed items), then close the PRs.
 
 ## Conventions
 

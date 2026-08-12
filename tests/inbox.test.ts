@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { candidateToInboxItem, mergeInbox } from "@/lib/discovery";
+import { candidateToInboxItem, mergeInbox, mergeInboxItems } from "@/lib/discovery";
 import {
   approvedCatalogEntries,
   filterInbox,
@@ -136,5 +136,58 @@ describe("mergeInbox", () => {
     });
     expect(item.reviewStatus).toBe("pending");
     expect(item.id).toBe("disc-1");
+  });
+});
+
+describe("mergeInboxItems", () => {
+  it("unions items by tweetId without dropping existing ones", () => {
+    const existing = {
+      updatedAt: "2026-08-09T00:00:00.000Z",
+      items: [sampleItem({ tweetId: "1" }), sampleItem({ tweetId: "2" })],
+    };
+    const incoming = [
+      sampleItem({ tweetId: "2", score: 90 }),
+      sampleItem({ tweetId: "3" }),
+    ];
+
+    const { inbox, added, total } = mergeInboxItems(existing, incoming, {
+      now: new Date("2026-08-12T00:00:00.000Z"),
+    });
+    expect(added).toBe(1);
+    expect(total).toBe(3);
+    expect(inbox.items.map((i: InboxItem) => i.tweetId).sort()).toEqual([
+      "1",
+      "2",
+      "3",
+    ]);
+    // pending duplicate refreshes the score from the incoming item
+    expect(inbox.items.find((i: InboxItem) => i.tweetId === "2")?.score).toBe(
+      90,
+    );
+  });
+
+  it("keeps incoming review fields and never touches reviewed items", () => {
+    const existing = {
+      updatedAt: "2026-08-09T00:00:00.000Z",
+      items: [
+        sampleItem({ tweetId: "1", reviewStatus: "approved", score: 10 }),
+      ],
+    };
+    const incoming = [
+      sampleItem({ tweetId: "1", score: 99 }),
+      sampleItem({
+        tweetId: "2",
+        reviewStatus: "rejected",
+        notes: "duplicate",
+      }),
+    ];
+
+    const { inbox } = mergeInboxItems(existing, incoming);
+    expect(
+      inbox.items.find((i: InboxItem) => i.tweetId === "1")?.score,
+    ).toBe(10);
+    const rejected = inbox.items.find((i: InboxItem) => i.tweetId === "2");
+    expect(rejected?.reviewStatus).toBe("rejected");
+    expect(rejected?.notes).toBe("duplicate");
   });
 });
