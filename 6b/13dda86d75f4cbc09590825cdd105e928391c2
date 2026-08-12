@@ -1,0 +1,14 @@
+pnpm-lock.yaml
+  h_f786d994c98af1 25,1712-1713,5301
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6b13dda86d75f4cbc09590825cdd105e928391c2",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
