@@ -1,0 +1,16 @@
+docs/discovery/2026-08-11-daily-zh.md
+  h_f786d994c98af1 1-103
+src/data/inbox.json
+  h_f786d994c98af1 2,11-16,32-37,43-47,57-62,85-91,107-112,118-122,132-138,161-165,181-186,192-197,207-213,236-240,256-261,267-272,282-288,303-760
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "98b2e833c762d2e59e498bca707756b33f5f6501",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
