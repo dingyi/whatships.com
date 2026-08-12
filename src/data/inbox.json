@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T00:10:00.000Z",
+  "updatedAt": "2026-08-12T00:10:00.000Z",
   "items": [
     {
       "id": "disc-2086215846104572104",
@@ -8,7 +8,12 @@
       "discoveredAt": "2026-08-09T00:10:00.000Z",
       "reviewedAt": null,
       "score": 48,
-      "reasons": ["has-video", "signal:now live", "signal:launch", "manual-x-search"],
+      "reasons": [
+        "has-video",
+        "signal:now live",
+        "signal:launch",
+        "manual-x-search"
+      ],
       "post": {
         "tweetId": "2086215846104572104",
         "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
@@ -24,13 +29,22 @@
             "videoUrl": "https://video.twimg.com/amplify_video/2086214578728263682/vid/avc1/1836x1080/ym1QiCzYtb6oAAt9.mp4"
           }
         ],
-        "metrics": { "likeCount": 14, "repostCount": 6, "replyCount": 2, "viewCount": 1651 }
+        "metrics": {
+          "likeCount": 14,
+          "repostCount": 6,
+          "replyCount": 2,
+          "viewCount": 1651
+        }
       },
       "watchlist": {
         "handle": "swarms_corp",
         "company": "Swarms",
         "category": "ai",
-        "tags": ["agents", "multi-agent", "builder"]
+        "tags": [
+          "agents",
+          "multi-agent",
+          "builder"
+        ]
       },
       "draft": {
         "id": "plv-disc-2086215846104572104",
@@ -40,7 +54,12 @@
         "company": "Swarms",
         "description": "Turn a single task description into a complete, ready-to-run AI agent team with specialized roles, system prompts, models and parameters. Review/edit before running; export as JSON/CSV/cURL/Python/TypeScript/Go. Available on Swarms Cloud and API.",
         "category": "ai",
-        "tags": ["agents", "multi-agent", "builder", "auto-discovery"],
+        "tags": [
+          "agents",
+          "multi-agent",
+          "builder",
+          "auto-discovery"
+        ],
         "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
         "tweetId": "2086215846104572104",
         "authorName": "swarms",
@@ -63,7 +82,13 @@
       "discoveredAt": "2026-08-09T00:10:00.000Z",
       "reviewedAt": null,
       "score": 52,
-      "reasons": ["has-video", "signal:introducing", "engagement:likes", "engagement:views", "manual-x-search"],
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "engagement:likes",
+        "engagement:views",
+        "manual-x-search"
+      ],
       "post": {
         "tweetId": "2085629541385736662",
         "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
@@ -79,13 +104,22 @@
             "videoUrl": "https://video.twimg.com/amplify_video/2085628368826077184/vid/avc1/1280x720/2y15BkiCz9CvfrIB.mp4"
           }
         ],
-        "metrics": { "likeCount": 250, "repostCount": 30, "replyCount": 40, "viewCount": 25112 }
+        "metrics": {
+          "likeCount": 250,
+          "repostCount": 30,
+          "replyCount": 40,
+          "viewCount": 25112
+        }
       },
       "watchlist": {
         "handle": "krea_ai",
         "company": "Krea",
         "category": "ai",
-        "tags": ["video", "generative", "seedance"]
+        "tags": [
+          "video",
+          "generative",
+          "seedance"
+        ]
       },
       "draft": {
         "id": "plv-disc-2085629541385736662",
@@ -95,7 +129,13 @@
         "company": "Krea",
         "description": "Seedance 2.5 is live on Krea: up to 30 seconds of continuous video, full multi-shot sequences, and up to 50 references per generation. Powered by ByteDance model.",
         "category": "ai",
-        "tags": ["video", "generative", "seedance", "krea", "auto-discovery"],
+        "tags": [
+          "video",
+          "generative",
+          "seedance",
+          "krea",
+          "auto-discovery"
+        ],
         "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
         "tweetId": "2085629541385736662",
         "authorName": "Krea",
@@ -118,7 +158,11 @@
       "discoveredAt": "2026-08-09T00:10:00.000Z",
       "reviewedAt": null,
       "score": 42,
-      "reasons": ["has-video", "signal:just shipped", "manual-x-search"],
+      "reasons": [
+        "has-video",
+        "signal:just shipped",
+        "manual-x-search"
+      ],
       "post": {
         "tweetId": "2086130857098563600",
         "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
@@ -134,13 +178,23 @@
             "videoUrl": "https://video.twimg.com/amplify_video/2086127992627970048/vid/avc1/2382x1786/byT-GJXKA_qJYHhd.mp4"
           }
         ],
-        "metrics": { "likeCount": 18, "repostCount": 2, "replyCount": 5, "viewCount": 3832 }
+        "metrics": {
+          "likeCount": 18,
+          "repostCount": 2,
+          "replyCount": 5,
+          "viewCount": 3832
+        }
       },
       "watchlist": {
         "handle": "daniel_mac8",
         "company": "grapevine",
         "category": "developer-tools",
-        "tags": ["claude-code", "plugin", "agents", "open-source"]
+        "tags": [
+          "claude-code",
+          "plugin",
+          "agents",
+          "open-source"
+        ]
       },
       "draft": {
         "id": "plv-disc-2086130857098563600",
@@ -150,7 +204,13 @@
         "company": "Dan McAteer",
         "description": "Open-source Claude Code plugin that lets sessions share context via a local graph. When two sessions touch the same file, grapevine drops an advisory note so Claude can decide whether to message the other session. Free & experimental.",
         "category": "developer-tools",
-        "tags": ["claude-code", "plugin", "agents", "open-source", "auto-discovery"],
+        "tags": [
+          "claude-code",
+          "plugin",
+          "agents",
+          "open-source",
+          "auto-discovery"
+        ],
         "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
         "tweetId": "2086130857098563600",
         "authorName": "Dan McAteer",
@@ -173,7 +233,11 @@
       "discoveredAt": "2026-08-09T00:10:00.000Z",
       "reviewedAt": null,
       "score": 40,
-      "reasons": ["has-video", "signal:launched", "manual-x-search"],
+      "reasons": [
+        "has-video",
+        "signal:launched",
+        "manual-x-search"
+      ],
       "post": {
         "tweetId": "2086128168776421376",
         "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
@@ -189,13 +253,23 @@
             "videoUrl": "https://video.twimg.com/amplify_video/2086128127701573632/vid/avc1/1080x1920/yKyGTAYI8Qdpgz8C.mp4"
           }
         ],
-        "metrics": { "likeCount": 19, "repostCount": 4, "replyCount": 3, "viewCount": 74077 }
+        "metrics": {
+          "likeCount": 19,
+          "repostCount": 4,
+          "replyCount": 3,
+          "viewCount": 74077
+        }
       },
       "watchlist": {
         "handle": "Sunny_Gulati",
         "company": "apna.live",
         "category": "consumer",
-        "tags": ["saas", "local-business", "india", "whatsapp"]
+        "tags": [
+          "saas",
+          "local-business",
+          "india",
+          "whatsapp"
+        ]
       },
       "draft": {
         "id": "plv-disc-2086128168776421376",
@@ -205,7 +279,13 @@
         "company": "apna.live",
         "description": "Build a professional website for local Indian businesses in minutes using their Google reviews, services and photos. Enquiries land on WhatsApp. From ₹149/mo. Day-1 traction: 13 sites live across 4 states.",
         "category": "consumer",
-        "tags": ["saas", "local-business", "india", "whatsapp", "auto-discovery"],
+        "tags": [
+          "saas",
+          "local-business",
+          "india",
+          "whatsapp",
+          "auto-discovery"
+        ],
         "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
         "tweetId": "2086128168776421376",
         "authorName": "Sunny Gulati",
@@ -220,6 +300,464 @@
       },
       "notes": "Indie SaaS launch focused on Indian local businesses. Strong day-1 traction narrative.",
       "issueUrl": null
+    },
+    {
+      "id": "disc-2086578009382023469",
+      "tweetId": "2086578009382023469",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-10T00:00:00.000Z",
+      "reviewedAt": null,
+      "score": 55,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "engagement:likes",
+        "engagement:views",
+        "manual-x-search",
+        "indie-dev"
+      ],
+      "post": {
+        "tweetId": "2086578009382023469",
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "authorHandle": "yoheinakajima",
+        "authorName": "Yohei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "text": "You don’t need new ways to talk to your agents, you need new ways for your agents to talk to you 🫵 (do you?)\n\nIntroducing Remoko: your mobile agent relay\n\nhttps://remoko.app/\n\nI wanted a way for my long-running agents to send me iOS push notifications via MCP: questions, approvals, check-ins, feedback, update/cancel, execution reports, etc\n\nsince I had to make it a testflight, you can try it too with your Codex, Claude Code, etc:",
+        "createdAt": "2026-08-09T22:18:58.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 33000,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 72,
+          "repostCount": 8,
+          "replyCount": 34,
+          "viewCount": 8205
+        }
+      },
+      "watchlist": {
+        "handle": "yoheinakajima",
+        "company": "Remoko",
+        "category": "ai",
+        "tags": [
+          "agents",
+          "mobile",
+          "mcp",
+          "notifications",
+          "indie"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086578009382023469",
+        "slug": "remoko-mobile-agent-relay-3469",
+        "title": "Remoko — mobile agent relay for iOS push notifications",
+        "product": "Remoko",
+        "company": "Yohei Nakajima",
+        "description": "Mobile agent relay that lets long-running AI agents (Codex, Claude Code etc.) send iOS push notifications via MCP for questions, approvals, check-ins, feedback and reports. Available via TestFlight.",
+        "category": "ai",
+        "tags": [
+          "agents",
+          "mobile",
+          "mcp",
+          "notifications",
+          "indie",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "tweetId": "2086578009382023469",
+        "authorName": "Yohei",
+        "authorHandle": "yoheinakajima",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "poster": "/posters/remoko-mobile-agent-relay-3469.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4",
+        "publishedAt": "2026-08-09T22:18:58.000Z",
+        "durationSeconds": 33,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok X search. Indie builder (babyAGI creator) shipping practical agent infra.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086845030568743030",
+      "tweetId": "2086845030568743030",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-11T08:00:00.000Z",
+      "reviewedAt": null,
+      "score": 85,
+      "reasons": [
+        "has-video",
+        "signal:announce",
+        "signal:raised",
+        "engagement:likes",
+        "engagement:views",
+        "manual-x-search",
+        "yc"
+      ],
+      "post": {
+        "tweetId": "2086845030568743030",
+        "tweetUrl": "https://x.com/OfficialAmogh/status/2086845030568743030",
+        "authorHandle": "OfficialAmogh",
+        "authorName": "amogh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957309857864044544/NHEcPEEQ.jpg",
+        "text": "hey! super excited to announce human behavior v2 ;)\n\nwe raised $5M from @paulg, @ycombinator, @generalcatalyst, @vercel to put your company on autopilot\n\nproduct analytics told you what happened … human behavior now just handles it",
+        "createdAt": "2026-08-10T16:00:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 48896,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086832356925825024/vid/avc1/1920x1080/q9yEI6xKDFSSr97C.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 547,
+          "repostCount": 119,
+          "replyCount": 202,
+          "viewCount": 162778
+        }
+      },
+      "watchlist": {
+        "handle": "OfficialAmogh",
+        "company": "Human Behavior",
+        "category": "ai",
+        "tags": [
+          "analytics",
+          "agents",
+          "yc",
+          "product"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086845030568743030",
+        "slug": "human-behavior-v2-3030",
+        "title": "Human Behavior v2 — AI that handles product analytics",
+        "product": "Human Behavior",
+        "company": "Human Behavior",
+        "description": "Human Behavior v2 turns product analytics into an always-on AI agent that watches users, funnels, errors and behavior, then acts. Raised $5M from Paul Graham, YC, General Catalyst and Vercel. YC X25.",
+        "category": "ai",
+        "tags": [
+          "analytics",
+          "agents",
+          "yc",
+          "product",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OfficialAmogh/status/2086845030568743030",
+        "tweetId": "2086845030568743030",
+        "authorName": "amogh",
+        "authorHandle": "OfficialAmogh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957309857864044544/NHEcPEEQ.jpg",
+        "poster": "/posters/human-behavior-v2-3030.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086832356925825024/vid/avc1/1920x1080/q9yEI6xKDFSSr97C.mp4",
+        "publishedAt": "2026-08-10T16:00:01.000Z",
+        "durationSeconds": 49,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok built-in X search. High-signal YC product launch with strong engagement and official demo video.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086910382569066807",
+      "tweetId": "2086910382569066807",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-11T08:00:00.000Z",
+      "reviewedAt": null,
+      "score": 70,
+      "reasons": [
+        "has-video",
+        "signal:now available",
+        "official",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2086910382569066807",
+        "tweetUrl": "https://x.com/grok/status/2086910382569066807",
+        "authorHandle": "grok",
+        "authorName": "Grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "text": "Try the new Voice connector in Grok. Generate voice memos, turn daily events into a personalized podcast, or create automations for a daily brief.\n\nNow available for everyone on iOS, Android, and Web - no setting required.",
+        "createdAt": "2026-08-10T20:19:42.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 16938,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086910355553320960/vid/avc1/1920x1080/ObxRTo-h48UsTxaE.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 538,
+          "repostCount": 58,
+          "replyCount": 67,
+          "viewCount": 151401
+        }
+      },
+      "watchlist": {
+        "handle": "grok",
+        "company": "xAI",
+        "category": "ai",
+        "tags": [
+          "voice",
+          "connector",
+          "grok",
+          "xai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086910382569066807",
+        "slug": "grok-voice-connector-6807",
+        "title": "Grok Voice connector — memos, podcasts & daily briefs",
+        "product": "Grok Voice Connector",
+        "company": "xAI",
+        "description": "Grok's new Voice connector is live for everyone: generate voice memos, turn daily events into a personalized podcast, or create automations for a daily brief. Available on iOS, Android and Web with zero setup.",
+        "category": "ai",
+        "tags": [
+          "voice",
+          "connector",
+          "grok",
+          "xai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/grok/status/2086910382569066807",
+        "tweetId": "2086910382569066807",
+        "authorName": "Grok",
+        "authorHandle": "grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "poster": "/posters/grok-voice-connector-6807.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086910355553320960/vid/avc1/1920x1080/ObxRTo-h48UsTxaE.mp4",
+        "publishedAt": "2026-08-10T20:19:42.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok X search. Official xAI/Grok product feature launch video.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2087224798078517251",
+      "tweetId": "2087224798078517251",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-12T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 95,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "signal:beta",
+        "signal:launched",
+        "manual-x-search",
+        "high-engagement"
+      ],
+      "post": {
+        "tweetId": "2087224798078517251",
+        "tweetUrl": "https://x.com/bot/status/2087224798078517251",
+        "authorHandle": "bot",
+        "authorName": "Grok Bot",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
+        "text": "Introducing Grok Bot, now in early beta.\n\nBots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work.",
+        "createdAt": "2026-08-11T17:09:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 105982,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/1280x720/QEwGx2N77OSsiKpg.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 17525,
+          "repostCount": 1994,
+          "replyCount": 1576,
+          "viewCount": 7985541
+        }
+      },
+      "watchlist": {
+        "handle": "bot",
+        "company": "xAI",
+        "category": "ai",
+        "tags": [
+          "agents",
+          "grok",
+          "bot",
+          "teammate"
+        ]
+      },
+      "draft": {
+        "id": "plv-grok-bot-early-beta",
+        "slug": "grok-bot-early-beta",
+        "title": "Grok Bot — AI teammates that do real work",
+        "product": "Grok Bot",
+        "company": "xAI",
+        "description": "Grok Bot is an AI teammate that signs into your tools, performs multi-step real work autonomously, and returns finished results. Early beta available for SuperGrok Heavy, Cursor Ultra and Cursor Teams Premium on desktop and iOS.",
+        "category": "ai",
+        "tags": [
+          "grok",
+          "agents",
+          "bot",
+          "xai",
+          "teammate"
+        ],
+        "tweetUrl": "https://x.com/bot/status/2087224798078517251",
+        "tweetId": "2087224798078517251",
+        "authorName": "Grok Bot",
+        "authorHandle": "bot",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
+        "poster": "/posters/grok-bot-early-beta.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/1280x720/QEwGx2N77OSsiKpg.mp4",
+        "publishedAt": "2026-08-11T17:09:05.000Z",
+        "durationSeconds": 106,
+        "featured": false,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "disc-2087228998321414629",
+      "tweetId": "2087228998321414629",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-12T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 88,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "signal:available today",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087228998321414629",
+        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
+        "authorHandle": "soniox_ai",
+        "authorName": "Soniox",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
+        "text": "Introducing Soniox TTS v2, our most powerful text-to-speech model yet.\n\nSoniox TTS v2 brings extraordinary voice quality, expressive control through audio tags, exceptional precision, high-fidelity voice cloning, more than 60 languages, natural language mixing, and low-latency streaming together in one model.\n\nBuilt from the ground up with a new model architecture, audio codec, and highly optimized inference engine, Soniox TTS v2 delivers frontier TTS at just $0.70 per generated hour.\n\nAvailable globally today as tts-rt-v2.",
+        "createdAt": "2026-08-11T17:25:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 133546,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 239,
+          "repostCount": 23,
+          "replyCount": 28,
+          "viewCount": 18586
+        }
+      },
+      "watchlist": {
+        "handle": "soniox_ai",
+        "company": "Soniox",
+        "category": "ai",
+        "tags": [
+          "tts",
+          "speech",
+          "voice",
+          "cloning"
+        ]
+      },
+      "draft": {
+        "id": "plv-soniox-tts-v2",
+        "slug": "soniox-tts-v2",
+        "title": "Soniox TTS v2 — frontier text-to-speech at $0.70/hr",
+        "product": "Soniox TTS v2",
+        "company": "Soniox",
+        "description": "New TTS model with high-fidelity voice cloning, 60+ languages, expressive audio tags, natural language mixing and low-latency streaming. Frontier quality at $0.70 per generated hour. Available globally as tts-rt-v2.",
+        "category": "ai",
+        "tags": [
+          "tts",
+          "speech",
+          "voice-cloning",
+          "soniox"
+        ],
+        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
+        "tweetId": "2087228998321414629",
+        "authorName": "Soniox",
+        "authorHandle": "soniox_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
+        "poster": "/posters/soniox-tts-v2.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4",
+        "publishedAt": "2026-08-11T17:25:46.000Z",
+        "durationSeconds": 134,
+        "featured": false,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "disc-2087231350134980830",
+      "tweetId": "2087231350134980830",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-12T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 90,
+      "reasons": [
+        "has-video",
+        "signal:now in preview",
+        "signal:launched",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087231350134980830",
+        "tweetUrl": "https://x.com/OpenAI/status/2087231350134980830",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems.",
+        "createdAt": "2026-08-11T17:35:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 45253,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/1920x1080/EP9rmYYnFHcbCcf8.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 8166,
+          "repostCount": 610,
+          "replyCount": 539,
+          "viewCount": 822811
+        }
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "chatgpt",
+          "desktop",
+          "linux",
+          "codex"
+        ]
+      },
+      "draft": {
+        "id": "plv-chatgpt-linux-desktop",
+        "slug": "chatgpt-linux-desktop",
+        "title": "ChatGPT Desktop — now in preview on Linux",
+        "product": "ChatGPT Desktop for Linux",
+        "company": "OpenAI",
+        "description": "ChatGPT desktop app arrives on Linux (preview). Integrates ChatGPT, ChatGPT Work and Codex. Supports Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44 on x64 and ARM64.",
+        "category": "ai",
+        "tags": [
+          "chatgpt",
+          "linux",
+          "desktop",
+          "openai",
+          "codex"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2087231350134980830",
+        "tweetId": "2087231350134980830",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/chatgpt-linux-desktop.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/1920x1080/EP9rmYYnFHcbCcf8.mp4",
+        "publishedAt": "2026-08-11T17:35:07.000Z",
+        "durationSeconds": 45,
+        "featured": false,
+        "status": "draft"
+      }
     }
   ]
 }
