@@ -14,7 +14,7 @@ import {
   type ReactNode,
   type HTMLAttributes,
 } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { Select as SelectPrimitive } from "@base-ui/react/select";
 import type { IconComponent } from "@/lib/icon-context";
