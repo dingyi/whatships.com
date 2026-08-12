@@ -1,0 +1,16 @@
+src/components/ui/dialog.tsx
+  h_f786d994c98af1 9,82
+src/components/ui/select.tsx
+  h_f786d994c98af1 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "af525a3ff797c11c8fb6c2712eb414ead5c4867b",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
