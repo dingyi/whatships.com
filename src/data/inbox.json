@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T00:10:00.000Z",
+  "updatedAt": "2026-08-12T03:13:41.769Z",
   "items": [
     {
       "id": "disc-2086215846104572104",
@@ -537,82 +537,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2087224798078517251",
-      "tweetId": "2087224798078517251",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-12T00:10:00.000Z",
-      "reviewedAt": null,
-      "score": 95,
-      "reasons": [
-        "has-video",
-        "signal:introducing",
-        "signal:beta",
-        "signal:launched",
-        "manual-x-search",
-        "high-engagement"
-      ],
-      "post": {
-        "tweetId": "2087224798078517251",
-        "tweetUrl": "https://x.com/bot/status/2087224798078517251",
-        "authorHandle": "bot",
-        "authorName": "Grok Bot",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
-        "text": "Introducing Grok Bot, now in early beta.\n\nBots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work.",
-        "createdAt": "2026-08-11T17:09:05.000Z",
-        "media": [
-          {
-            "type": "video",
-            "durationMs": 105982,
-            "videoUrl": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/1280x720/QEwGx2N77OSsiKpg.mp4"
-          }
-        ],
-        "metrics": {
-          "likeCount": 17525,
-          "repostCount": 1994,
-          "replyCount": 1576,
-          "viewCount": 7985541
-        }
-      },
-      "watchlist": {
-        "handle": "bot",
-        "company": "xAI",
-        "category": "ai",
-        "tags": [
-          "agents",
-          "grok",
-          "bot",
-          "teammate"
-        ]
-      },
-      "draft": {
-        "id": "plv-grok-bot-early-beta",
-        "slug": "grok-bot-early-beta",
-        "title": "Grok Bot — AI teammates that do real work",
-        "product": "Grok Bot",
-        "company": "xAI",
-        "description": "Grok Bot is an AI teammate that signs into your tools, performs multi-step real work autonomously, and returns finished results. Early beta available for SuperGrok Heavy, Cursor Ultra and Cursor Teams Premium on desktop and iOS.",
-        "category": "ai",
-        "tags": [
-          "grok",
-          "agents",
-          "bot",
-          "xai",
-          "teammate"
-        ],
-        "tweetUrl": "https://x.com/bot/status/2087224798078517251",
-        "tweetId": "2087224798078517251",
-        "authorName": "Grok Bot",
-        "authorHandle": "bot",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
-        "poster": "/posters/grok-bot-early-beta.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/1280x720/QEwGx2N77OSsiKpg.mp4",
-        "publishedAt": "2026-08-11T17:09:05.000Z",
-        "durationSeconds": 106,
-        "featured": false,
-        "status": "draft"
-      }
-    },
-    {
       "id": "disc-2087228998321414629",
       "tweetId": "2087228998321414629",
       "reviewStatus": "pending",
@@ -681,80 +605,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4",
         "publishedAt": "2026-08-11T17:25:46.000Z",
         "durationSeconds": 134,
-        "featured": false,
-        "status": "draft"
-      }
-    },
-    {
-      "id": "disc-2087231350134980830",
-      "tweetId": "2087231350134980830",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-12T00:10:00.000Z",
-      "reviewedAt": null,
-      "score": 90,
-      "reasons": [
-        "has-video",
-        "signal:now in preview",
-        "signal:launched",
-        "manual-x-search"
-      ],
-      "post": {
-        "tweetId": "2087231350134980830",
-        "tweetUrl": "https://x.com/OpenAI/status/2087231350134980830",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems.",
-        "createdAt": "2026-08-11T17:35:07.000Z",
-        "media": [
-          {
-            "type": "video",
-            "durationMs": 45253,
-            "videoUrl": "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/1920x1080/EP9rmYYnFHcbCcf8.mp4"
-          }
-        ],
-        "metrics": {
-          "likeCount": 8166,
-          "repostCount": 610,
-          "replyCount": 539,
-          "viewCount": 822811
-        }
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "chatgpt",
-          "desktop",
-          "linux",
-          "codex"
-        ]
-      },
-      "draft": {
-        "id": "plv-chatgpt-linux-desktop",
-        "slug": "chatgpt-linux-desktop",
-        "title": "ChatGPT Desktop — now in preview on Linux",
-        "product": "ChatGPT Desktop for Linux",
-        "company": "OpenAI",
-        "description": "ChatGPT desktop app arrives on Linux (preview). Integrates ChatGPT, ChatGPT Work and Codex. Supports Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44 on x64 and ARM64.",
-        "category": "ai",
-        "tags": [
-          "chatgpt",
-          "linux",
-          "desktop",
-          "openai",
-          "codex"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2087231350134980830",
-        "tweetId": "2087231350134980830",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/chatgpt-linux-desktop.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/1920x1080/EP9rmYYnFHcbCcf8.mp4",
-        "publishedAt": "2026-08-11T17:35:07.000Z",
-        "durationSeconds": 45,
         "featured": false,
         "status": "draft"
       }
