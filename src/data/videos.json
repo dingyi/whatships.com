@@ -30885,5 +30885,32 @@
     "durationSeconds": 104,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-kitbitz-illustrations",
+    "slug": "kitbitz-illustrations",
+    "title": "Kitbitz — 2,000+ free hand-drawn illustrations",
+    "product": "Kitbitz",
+    "company": "Kitbitz",
+    "description": "2,000+ free hand-drawn illustrations for your projects — 13 kits, SVG + PNG, full Figma libraries, CC0.",
+    "category": "design",
+    "tags": [
+      "kitbitz",
+      "illustrations",
+      "figma",
+      "free",
+      "cc0"
+    ],
+    "tweetUrl": "https://x.com/CaptXcellent/status/2087808898837123210",
+    "tweetId": "2087808898837123210",
+    "authorName": "CaptainExcellent✨",
+    "authorHandle": "CaptXcellent",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2087094381979340800/tvjZwnew.jpg",
+    "poster": "/posters/kitbitz-illustrations.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2087808156533452800/vid/avc1/1280x720/8nCMlx-_l6CdWle1.mp4?tag=14",
+    "publishedAt": "2026-08-13T07:50:05.000Z",
+    "durationSeconds": 49,
+    "featured": false,
+    "status": "published"
   }
 ]
