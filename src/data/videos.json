@@ -30859,5 +30859,31 @@
     "durationSeconds": 14,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-space-virtual-drive",
+    "slug": "space-virtual-drive",
+    "title": "Space — a virtual drive, what Dropbox was meant to be",
+    "product": "Space",
+    "company": "Space",
+    "description": "Space expands your computer's storage with the cloud while keeping every file instantly accessible to the whole team — its virtual drive lets every app, agent and workflow work natively as if files were local.",
+    "category": "productivity",
+    "tags": [
+      "space",
+      "storage",
+      "cloud",
+      "virtual-drive"
+    ],
+    "tweetUrl": "https://x.com/byjasonz/status/2086857670318068162",
+    "tweetId": "2086857670318068162",
+    "authorName": "Jason Zhao",
+    "authorHandle": "byjasonz",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
+    "poster": "/posters/space-virtual-drive.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2086857427161579521/vid/avc1/3324x2160/_5LWOpdCVdc2oCKw.mp4",
+    "publishedAt": "2026-08-10T16:50:15.000Z",
+    "durationSeconds": 104,
+    "featured": false,
+    "status": "published"
   }
 ]
