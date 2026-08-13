@@ -1,385 +1,420 @@
 {
-  "updatedAt": "2026-08-12T03:13:41.769Z",
+  "updatedAt": "2026-08-13T09:02:02.154Z",
   "items": [
     {
-      "id": "disc-2086215846104572104",
-      "tweetId": "2086215846104572104",
+      "id": "disc-2087652849702641848",
+      "tweetId": "2087652849702641848",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "discoveredAt": "2026-08-13T00:09:00.000Z",
       "reviewedAt": null,
-      "score": 48,
+      "score": 55,
       "reasons": [
         "has-video",
         "signal:now live",
-        "signal:launch",
+        "engagement:views",
         "manual-x-search"
       ],
       "post": {
-        "tweetId": "2086215846104572104",
-        "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
-        "authorHandle": "swarms_corp",
-        "authorName": "swarms",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
-        "text": "Auto Agent Builder is now live on Swarms 👾🤖\n\nTurn a single task into a complete AI agent team. Describe what you want to accomplish, and Auto Agent Builder generates a ready-to-run roster of agents with specialized roles, system prompts, models, and parameters.\n\nHighlights\n\n• Generate an entire agent team from one task\n• Automatically divide responsibilities across specialized agents\n• Review and edit every agent before running it\n• Choose an exact team size or let the builder determine the smallest team needed\n• Export agents as JSON, CSV, cURL, Python, TypeScript, or Go\n• Take generated agents directly into your Swarms workflows\n• Available through both the Swarms Cloud interface and API",
-        "createdAt": "2026-08-08T22:19:52.000Z",
+        "tweetId": "2087652849702641848",
+        "tweetUrl": "https://x.com/Jarvixdotlive/status/2087652849702641848",
+        "authorHandle": "Jarvixdotlive",
+        "authorName": "Jarvix",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2079913375866163200/6AoBXmb5.jpg",
+        "text": "🚀 Global Launch: Jarvix, Your Context OS is now live! \n\nMeet the next generation of personalized AI built around your context, your taste, and your way of thinking.\n\n#JarvixOS transforms how you work with AI by understanding your patterns, carrying your context across agents, https://t.co/rTch3LZTXx",
+        "createdAt": "2026-08-12T21:30:00.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 74466,
-            "videoUrl": "https://video.twimg.com/amplify_video/2086214578728263682/vid/avc1/1836x1080/ym1QiCzYtb6oAAt9.mp4"
+            "durationMs": 94946,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087540948037435392/vid/avc1/2560x1440/poV1oZNUmTjMH5mQ.mp4"
           }
-        ],
-        "metrics": {
-          "likeCount": 14,
-          "repostCount": 6,
-          "replyCount": 2,
-          "viewCount": 1651
-        }
+        ]
       },
       "watchlist": {
-        "handle": "swarms_corp",
-        "company": "Swarms",
+        "handle": "Jarvixdotlive",
+        "company": "Jarvix",
         "category": "ai",
         "tags": [
+          "context",
           "agents",
-          "multi-agent",
-          "builder"
+          "personalization"
         ]
       },
       "draft": {
-        "id": "plv-disc-2086215846104572104",
-        "slug": "swarms-auto-agent-builder-2104",
-        "title": "Swarms Auto Agent Builder — task to full agent team",
-        "product": "Auto Agent Builder",
-        "company": "Swarms",
-        "description": "Turn a single task description into a complete, ready-to-run AI agent team with specialized roles, system prompts, models and parameters. Review/edit before running; export as JSON/CSV/cURL/Python/TypeScript/Go. Available on Swarms Cloud and API.",
+        "id": "plv-disc-2087652849702641848",
+        "slug": "jarvix-context-os",
+        "title": "Jarvix — Context OS for your AI agents",
+        "product": "Jarvix",
+        "company": "Jarvix",
+        "description": "Personalized AI Context OS: carry your context across sessions and agents (Codex, Claude Code, Gemini etc.), build a personal AI model, and coordinate multiple agents as one team.",
         "category": "ai",
         "tags": [
+          "context",
           "agents",
-          "multi-agent",
-          "builder",
-          "auto-discovery"
+          "personalization",
+          "manual-x-search"
         ],
-        "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
-        "tweetId": "2086215846104572104",
-        "authorName": "swarms",
-        "authorHandle": "swarms_corp",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
-        "poster": "/posters/swarms-auto-agent-builder-2104.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2086214578728263682/vid/avc1/1836x1080/ym1QiCzYtb6oAAt9.mp4",
-        "publishedAt": "2026-08-08T22:19:52.000Z",
-        "durationSeconds": 74,
+        "tweetUrl": "https://x.com/Jarvixdotlive/status/2087652849702641848",
+        "tweetId": "2087652849702641848",
+        "authorName": "Jarvix",
+        "authorHandle": "Jarvixdotlive",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2079913375866163200/6AoBXmb5.jpg",
+        "poster": "/posters/jarvix-context-os.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087540948037435392/vid/avc1/2560x1440/poV1oZNUmTjMH5mQ.mp4",
+        "publishedAt": "2026-08-12T21:30:00.000Z",
+        "durationSeconds": 95,
         "featured": false,
         "status": "draft"
       },
-      "notes": "Manual discovery via Grok X search. Official product launch video.",
+      "notes": "From PR #24 (2026-08-13 Grok X search); its inbox.json write failed, items rebuilt from the doc + syndication.",
       "issueUrl": null
     },
     {
-      "id": "disc-2085629541385736662",
-      "tweetId": "2085629541385736662",
+      "id": "disc-2087682908576416172",
+      "tweetId": "2087682908576416172",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "discoveredAt": "2026-08-13T00:09:00.000Z",
       "reviewedAt": null,
       "score": 52,
       "reasons": [
         "has-video",
         "signal:introducing",
-        "engagement:likes",
-        "engagement:views",
         "manual-x-search"
       ],
       "post": {
-        "tweetId": "2085629541385736662",
-        "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
-        "authorHandle": "krea_ai",
-        "authorName": "Krea",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
-        "text": "introducing Seedance 2.5.\n\n30 seconds of continuous video, full multi-shot sequences, and up to 50 references.\n\ntry it now 👇",
-        "createdAt": "2026-08-07T07:30:06.000Z",
+        "tweetId": "2087682908576416172",
+        "tweetUrl": "https://x.com/vercel_dev/status/2087682908576416172",
+        "authorHandle": "vercel_dev",
+        "authorName": "Vercel Developers",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978602411490205696/oLOuP7a2.png",
+        "text": "Introducing Vercel Managed Images.\n\nVercel Sandbox now ships with:\n▪︎ Ubuntu as the default OS\n▪︎ Preinstalled coding agents (𝚌𝚘𝚍𝚎𝚡, 𝚌𝚕𝚊𝚞𝚍𝚎…)\n▪︎ Customizable, open source base images\n\nTry the new base image:\n$ 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 https://t.co/QZy4OyG3rp",
+        "createdAt": "2026-08-12T23:29:27.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 35035,
-            "videoUrl": "https://video.twimg.com/amplify_video/2085628368826077184/vid/avc1/1280x720/2y15BkiCz9CvfrIB.mp4"
+            "durationMs": 17183,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087682895582474240/vid/avc1/1280x720/CWwE-xpEQH2ZMqBC.mp4?tag=14"
           }
-        ],
-        "metrics": {
-          "likeCount": 250,
-          "repostCount": 30,
-          "replyCount": 40,
-          "viewCount": 25112
-        }
+        ]
       },
       "watchlist": {
-        "handle": "krea_ai",
-        "company": "Krea",
-        "category": "ai",
+        "handle": "vercel_dev",
+        "company": "Vercel",
+        "category": "developer-tools",
         "tags": [
-          "video",
-          "generative",
-          "seedance"
+          "vercel",
+          "sandbox",
+          "agents",
+          "images"
         ]
       },
       "draft": {
-        "id": "plv-disc-2085629541385736662",
-        "slug": "krea-seedance-2-5-6662",
-        "title": "Krea Seedance 2.5 — 30s multi-shot, 50 references",
-        "product": "Seedance 2.5",
-        "company": "Krea",
-        "description": "Seedance 2.5 is live on Krea: up to 30 seconds of continuous video, full multi-shot sequences, and up to 50 references per generation. Powered by ByteDance model.",
-        "category": "ai",
+        "id": "plv-disc-2087682908576416172",
+        "slug": "vercel-managed-images",
+        "title": "Vercel Managed Images — agent-ready sandboxes",
+        "product": "Vercel Managed Images",
+        "company": "Vercel",
+        "description": "Vercel Sandbox now ships Ubuntu by default with preinstalled coding agents (Codex, Claude etc.) and customizable open-source base images. Try with `npx sandbox@latest sh`.",
+        "category": "developer-tools",
         "tags": [
-          "video",
-          "generative",
-          "seedance",
-          "krea",
-          "auto-discovery"
+          "vercel",
+          "sandbox",
+          "agents",
+          "images",
+          "manual-x-search"
         ],
-        "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
-        "tweetId": "2085629541385736662",
-        "authorName": "Krea",
-        "authorHandle": "krea_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
-        "poster": "/posters/krea-seedance-2-5-6662.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2085628368826077184/vid/avc1/1280x720/2y15BkiCz9CvfrIB.mp4",
-        "publishedAt": "2026-08-07T07:30:06.000Z",
-        "durationSeconds": 35,
+        "tweetUrl": "https://x.com/vercel_dev/status/2087682908576416172",
+        "tweetId": "2087682908576416172",
+        "authorName": "Vercel Developers",
+        "authorHandle": "vercel_dev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978602411490205696/oLOuP7a2.png",
+        "poster": "/posters/vercel-managed-images.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087682895582474240/vid/avc1/1280x720/CWwE-xpEQH2ZMqBC.mp4?tag=14",
+        "publishedAt": "2026-08-12T23:29:27.000Z",
+        "durationSeconds": 17,
         "featured": false,
         "status": "draft"
       },
-      "notes": "Manual discovery. Official Krea launch of Seedance 2.5 (already on Runway; this is the Krea integration video).",
+      "notes": "From PR #24 (2026-08-13 Grok X search); its inbox.json write failed, items rebuilt from the doc + syndication.",
       "issueUrl": null
     },
     {
-      "id": "disc-2086130857098563600",
-      "tweetId": "2086130857098563600",
+      "id": "disc-2087310458206199832",
+      "tweetId": "2087310458206199832",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "discoveredAt": "2026-08-13T00:09:00.000Z",
       "reviewedAt": null,
-      "score": 42,
+      "score": 50,
       "reasons": [
         "has-video",
-        "signal:just shipped",
+        "signal:now available",
         "manual-x-search"
       ],
       "post": {
-        "tweetId": "2086130857098563600",
-        "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
-        "authorHandle": "daniel_mac8",
-        "authorName": "Dan McAteer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1972999017551249408/kNdZGnUv.jpg",
-        "text": "Claude Coders: I just shipped 'grapevine 🍇'\n\nYour Claude Code sessions can now talk to each other, but by default they're blind to what each other are doing.\n\n'grapevine 🍇' is a Claude Code plugin that fixes that.\n\ngrapevine 🍇 is open-source, free and experimental. Try it out at the link below 👇.",
-        "createdAt": "2026-08-08T16:42:09.000Z",
+        "tweetId": "2087310458206199832",
+        "tweetUrl": "https://x.com/grok/status/2087310458206199832",
+        "authorHandle": "grok",
+        "authorName": "Grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "text": "Imagine Image 2.0 now available on our API: precise editing, infographics, ads, game assets, UI/UX mockups, storyboards, and more.\n\nTry it on our playground: https://t.co/u3faJUB79A\n\nhttps://t.co/sIXIWKMw0M",
+        "createdAt": "2026-08-11T22:49:28.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 28178,
-            "videoUrl": "https://video.twimg.com/amplify_video/2086127992627970048/vid/avc1/2382x1786/byT-GJXKA_qJYHhd.mp4"
+            "durationMs": 31066,
+            "videoUrl": "https://video.twimg.com/amplify_video/2085931288716869633/vid/avc1/3000x2000/mynmy0DlBzBFp0ug.mp4"
           }
-        ],
-        "metrics": {
-          "likeCount": 18,
-          "repostCount": 2,
-          "replyCount": 5,
-          "viewCount": 3832
-        }
+        ]
       },
       "watchlist": {
-        "handle": "daniel_mac8",
-        "company": "grapevine",
-        "category": "developer-tools",
+        "handle": "grok",
+        "company": "xAI",
+        "category": "ai",
         "tags": [
-          "claude-code",
-          "plugin",
-          "agents",
-          "open-source"
+          "grok",
+          "imagine",
+          "image-generation",
+          "api"
         ]
       },
       "draft": {
-        "id": "plv-disc-2086130857098563600",
-        "slug": "grapevine-claude-code-plugin-3600",
-        "title": "grapevine 🍇 — Claude Code sessions talk to each other",
-        "product": "grapevine",
-        "company": "Dan McAteer",
-        "description": "Open-source Claude Code plugin that lets sessions share context via a local graph. When two sessions touch the same file, grapevine drops an advisory note so Claude can decide whether to message the other session. Free & experimental.",
-        "category": "developer-tools",
+        "id": "plv-disc-2087310458206199832",
+        "slug": "grok-imagine-image-2-0",
+        "title": "Grok Imagine Image 2.0 — now in the API",
+        "product": "Imagine Image 2.0",
+        "company": "xAI",
+        "description": "Imagine Image 2.0 is available on the Grok API: precise editing, infographics, ads, game assets, UI/UX mockups, storyboards and more. Try it in the playground.",
+        "category": "ai",
         "tags": [
-          "claude-code",
-          "plugin",
-          "agents",
-          "open-source",
-          "auto-discovery"
+          "grok",
+          "imagine",
+          "image-generation",
+          "api",
+          "manual-x-search"
         ],
-        "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
-        "tweetId": "2086130857098563600",
-        "authorName": "Dan McAteer",
-        "authorHandle": "daniel_mac8",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1972999017551249408/kNdZGnUv.jpg",
-        "poster": "/posters/grapevine-claude-code-plugin-3600.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2086127992627970048/vid/avc1/2382x1786/byT-GJXKA_qJYHhd.mp4",
-        "publishedAt": "2026-08-08T16:42:09.000Z",
-        "durationSeconds": 28,
+        "tweetUrl": "https://x.com/grok/status/2087310458206199832",
+        "tweetId": "2087310458206199832",
+        "authorName": "Grok",
+        "authorHandle": "grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "poster": "/posters/grok-imagine-image-2-0.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2085931288716869633/vid/avc1/3000x2000/mynmy0DlBzBFp0ug.mp4",
+        "publishedAt": "2026-08-11T22:49:28.000Z",
+        "durationSeconds": 31,
         "featured": false,
         "status": "draft"
       },
-      "notes": "Indie open-source plugin. Note: Anthropic/ClaudeDevs also shipped native session messaging around the same time; this is a community alternative.",
+      "notes": "From PR #24 (2026-08-13 Grok X search); its inbox.json write failed, items rebuilt from the doc + syndication.",
       "issueUrl": null
     },
     {
-      "id": "disc-2086128168776421376",
-      "tweetId": "2086128168776421376",
+      "id": "disc-2087679110600343659",
+      "tweetId": "2087679110600343659",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "discoveredAt": "2026-08-13T00:09:00.000Z",
       "reviewedAt": null,
-      "score": 40,
+      "score": 44,
       "reasons": [
         "has-video",
-        "signal:launched",
+        "signal:introducing",
         "manual-x-search"
       ],
       "post": {
-        "tweetId": "2086128168776421376",
-        "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
-        "authorHandle": "Sunny_Gulati",
-        "authorName": "Sunny Gulati",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1990501961490415616/JNfo2gK_.jpg",
-        "text": "Launched https://apna.live/ today 🚀\n\nWe build local Indian businesses a professional website in minutes - their Google reviews, services & photos, with enquiries landing on WhatsApp. From ₹149/mo.\n\nDay 1, just from WhatsApp status: 13 sites live across 4 states - a restaurant with 44,000+ reviews to a soap brand in Dehradun.\n\nAb har business ki apni online pehchaan. 🇮🇳",
-        "createdAt": "2026-08-08T16:31:28.000Z",
+        "tweetId": "2087679110600343659",
+        "tweetUrl": "https://x.com/tashviai/status/2087679110600343659",
+        "authorHandle": "tashviai",
+        "authorName": "Tashvi AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2005664772688396288/0tXRf-2O.jpg",
+        "text": "Introducing Imagine in Tashvi AI.\n\nGenerate multiple jewelry design directions in bulk from one idea.\n\nExplore more styles, shapes, and variations faster, then refine the concepts you like most. https://t.co/EqA8CCNZwv",
+        "createdAt": "2026-08-12T23:14:21.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 28608,
-            "videoUrl": "https://video.twimg.com/amplify_video/2086128127701573632/vid/avc1/1080x1920/yKyGTAYI8Qdpgz8C.mp4"
+            "durationMs": 28908,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087678653685448704/vid/avc1/1146x720/RqLOPO1Pn5SfPmvt.mp4?tag=14"
           }
-        ],
-        "metrics": {
-          "likeCount": 19,
-          "repostCount": 4,
-          "replyCount": 3,
-          "viewCount": 74077
-        }
+        ]
       },
       "watchlist": {
-        "handle": "Sunny_Gulati",
-        "company": "apna.live",
-        "category": "consumer",
+        "handle": "tashviai",
+        "company": "Tashvi AI",
+        "category": "design",
         "tags": [
-          "saas",
-          "local-business",
-          "india",
-          "whatsapp"
+          "jewelry",
+          "design",
+          "generative"
         ]
       },
       "draft": {
-        "id": "plv-disc-2086128168776421376",
-        "slug": "apna-live-website-builder-1376",
-        "title": "apna.live — professional websites for local Indian businesses in minutes",
-        "product": "apna.live",
-        "company": "apna.live",
-        "description": "Build a professional website for local Indian businesses in minutes using their Google reviews, services and photos. Enquiries land on WhatsApp. From ₹149/mo. Day-1 traction: 13 sites live across 4 states.",
-        "category": "consumer",
+        "id": "plv-disc-2087679110600343659",
+        "slug": "tashvi-imagine-jewelry",
+        "title": "Tashvi Imagine — jewelry designs from one idea",
+        "product": "Tashvi Imagine",
+        "company": "Tashvi AI",
+        "description": "Imagine in Tashvi AI: generate multiple jewelry design directions in bulk from one idea, explore styles, shapes and variations fast, then refine.",
+        "category": "design",
         "tags": [
-          "saas",
-          "local-business",
-          "india",
-          "whatsapp",
-          "auto-discovery"
+          "jewelry",
+          "design",
+          "generative",
+          "manual-x-search"
         ],
-        "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
-        "tweetId": "2086128168776421376",
-        "authorName": "Sunny Gulati",
-        "authorHandle": "Sunny_Gulati",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1990501961490415616/JNfo2gK_.jpg",
-        "poster": "/posters/apna-live-website-builder-1376.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2086128127701573632/vid/avc1/1080x1920/yKyGTAYI8Qdpgz8C.mp4",
-        "publishedAt": "2026-08-08T16:31:28.000Z",
+        "tweetUrl": "https://x.com/tashviai/status/2087679110600343659",
+        "tweetId": "2087679110600343659",
+        "authorName": "Tashvi AI",
+        "authorHandle": "tashviai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2005664772688396288/0tXRf-2O.jpg",
+        "poster": "/posters/tashvi-imagine-jewelry.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087678653685448704/vid/avc1/1146x720/RqLOPO1Pn5SfPmvt.mp4?tag=14",
+        "publishedAt": "2026-08-12T23:14:21.000Z",
         "durationSeconds": 29,
         "featured": false,
         "status": "draft"
       },
-      "notes": "Indie SaaS launch focused on Indian local businesses. Strong day-1 traction narrative.",
+      "notes": "From PR #24 (2026-08-13 Grok X search); its inbox.json write failed, items rebuilt from the doc + syndication.",
       "issueUrl": null
     },
     {
-      "id": "disc-2086578009382023469",
-      "tweetId": "2086578009382023469",
+      "id": "disc-2087662158012457226",
+      "tweetId": "2087662158012457226",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-10T00:00:00.000Z",
+      "discoveredAt": "2026-08-13T00:09:00.000Z",
       "reviewedAt": null,
-      "score": 55,
+      "score": 40,
       "reasons": [
         "has-video",
-        "signal:introducing",
-        "engagement:likes",
-        "engagement:views",
-        "manual-x-search",
-        "indie-dev"
+        "signal:now live",
+        "manual-x-search"
       ],
       "post": {
-        "tweetId": "2086578009382023469",
-        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
-        "authorHandle": "yoheinakajima",
-        "authorName": "Yohei",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
-        "text": "You don’t need new ways to talk to your agents, you need new ways for your agents to talk to you 🫵 (do you?)\n\nIntroducing Remoko: your mobile agent relay\n\nhttps://remoko.app/\n\nI wanted a way for my long-running agents to send me iOS push notifications via MCP: questions, approvals, check-ins, feedback, update/cancel, execution reports, etc\n\nsince I had to make it a testflight, you can try it too with your Codex, Claude Code, etc:",
-        "createdAt": "2026-08-09T22:18:58.000Z",
+        "tweetId": "2087662158012457226",
+        "tweetUrl": "https://x.com/baibai_cx/status/2087662158012457226",
+        "authorHandle": "baibai_cx",
+        "authorName": "BaiBai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2034415121787719680/Q6-nMgEa.jpg",
+        "text": "BaiBai is now live to the public.\n\nThe first PropAMM + aggregator, native to @base.\n\nBetter prices than any DEX you've used -- guaranteed. https://t.co/NmoeVfNbM2",
+        "createdAt": "2026-08-12T22:07:00.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 33000,
-            "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4"
+            "durationMs": 34920,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087662137313484800/vid/avc1/1280x720/n1Za7jfDdW0zwCkV.mp4?tag=14"
           }
-        ],
-        "metrics": {
-          "likeCount": 72,
-          "repostCount": 8,
-          "replyCount": 34,
-          "viewCount": 8205
-        }
+        ]
       },
       "watchlist": {
-        "handle": "yoheinakajima",
-        "company": "Remoko",
-        "category": "ai",
+        "handle": "baibai_cx",
+        "company": "BaiBai",
+        "category": "other",
         "tags": [
-          "agents",
-          "mobile",
-          "mcp",
-          "notifications",
-          "indie"
+          "crypto",
+          "base",
+          "dex",
+          "aggregator"
         ]
       },
       "draft": {
-        "id": "plv-disc-2086578009382023469",
-        "slug": "remoko-mobile-agent-relay-3469",
-        "title": "Remoko — mobile agent relay for iOS push notifications",
-        "product": "Remoko",
-        "company": "Yohei Nakajima",
-        "description": "Mobile agent relay that lets long-running AI agents (Codex, Claude Code etc.) send iOS push notifications via MCP for questions, approvals, check-ins, feedback and reports. Available via TestFlight.",
-        "category": "ai",
+        "id": "plv-disc-2087662158012457226",
+        "slug": "baibai-propamm-aggregator",
+        "title": "BaiBai — PropAMM + aggregator on Base",
+        "product": "BaiBai",
+        "company": "BaiBai",
+        "description": "The first PropAMM + aggregator native to Base, now live to the public — professional market makers quote directly onchain with guaranteed better prices than any DEX. Tokenized equities planned.",
+        "category": "other",
         "tags": [
-          "agents",
-          "mobile",
-          "mcp",
-          "notifications",
-          "indie",
-          "auto-discovery"
+          "crypto",
+          "base",
+          "dex",
+          "aggregator",
+          "manual-x-search"
         ],
-        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
-        "tweetId": "2086578009382023469",
-        "authorName": "Yohei",
-        "authorHandle": "yoheinakajima",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
-        "poster": "/posters/remoko-mobile-agent-relay-3469.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4",
-        "publishedAt": "2026-08-09T22:18:58.000Z",
-        "durationSeconds": 33,
+        "tweetUrl": "https://x.com/baibai_cx/status/2087662158012457226",
+        "tweetId": "2087662158012457226",
+        "authorName": "BaiBai",
+        "authorHandle": "baibai_cx",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2034415121787719680/Q6-nMgEa.jpg",
+        "poster": "/posters/baibai-propamm-aggregator.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087662137313484800/vid/avc1/1280x720/n1Za7jfDdW0zwCkV.mp4?tag=14",
+        "publishedAt": "2026-08-12T22:07:00.000Z",
+        "durationSeconds": 35,
         "featured": false,
         "status": "draft"
       },
-      "notes": "Manual discovery via Grok X search. Indie builder (babyAGI creator) shipping practical agent infra.",
+      "notes": "From PR #24 (2026-08-13 Grok X search); its inbox.json write failed, items rebuilt from the doc + syndication.",
       "issueUrl": null
+    },
+    {
+      "id": "disc-2087228998321414629",
+      "tweetId": "2087228998321414629",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-12T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 88,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "signal:available today",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087228998321414629",
+        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
+        "authorHandle": "soniox_ai",
+        "authorName": "Soniox",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
+        "text": "Introducing Soniox TTS v2, our most powerful text-to-speech model yet.\n\nSoniox TTS v2 brings extraordinary voice quality, expressive control through audio tags, exceptional precision, high-fidelity voice cloning, more than 60 languages, natural language mixing, and low-latency streaming together in one model.\n\nBuilt from the ground up with a new model architecture, audio codec, and highly optimized inference engine, Soniox TTS v2 delivers frontier TTS at just $0.70 per generated hour.\n\nAvailable globally today as tts-rt-v2.",
+        "createdAt": "2026-08-11T17:25:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 133546,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 239,
+          "repostCount": 23,
+          "replyCount": 28,
+          "viewCount": 18586
+        }
+      },
+      "watchlist": {
+        "handle": "soniox_ai",
+        "company": "Soniox",
+        "category": "ai",
+        "tags": [
+          "tts",
+          "speech",
+          "voice",
+          "cloning"
+        ]
+      },
+      "draft": {
+        "id": "plv-soniox-tts-v2",
+        "slug": "soniox-tts-v2",
+        "title": "Soniox TTS v2 — frontier text-to-speech at $0.70/hr",
+        "product": "Soniox TTS v2",
+        "company": "Soniox",
+        "description": "New TTS model with high-fidelity voice cloning, 60+ languages, expressive audio tags, natural language mixing and low-latency streaming. Frontier quality at $0.70 per generated hour. Available globally as tts-rt-v2.",
+        "category": "ai",
+        "tags": [
+          "tts",
+          "speech",
+          "voice-cloning",
+          "soniox"
+        ],
+        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
+        "tweetId": "2087228998321414629",
+        "authorName": "Soniox",
+        "authorHandle": "soniox_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
+        "poster": "/posters/soniox-tts-v2.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4",
+        "publishedAt": "2026-08-11T17:25:46.000Z",
+        "durationSeconds": 134,
+        "featured": false,
+        "status": "draft"
+      }
     },
     {
       "id": "disc-2086845030568743030",
@@ -537,77 +572,384 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2087228998321414629",
-      "tweetId": "2087228998321414629",
+      "id": "disc-2086578009382023469",
+      "tweetId": "2086578009382023469",
       "reviewStatus": "pending",
-      "discoveredAt": "2026-08-12T00:10:00.000Z",
+      "discoveredAt": "2026-08-10T00:00:00.000Z",
       "reviewedAt": null,
-      "score": 88,
+      "score": 55,
       "reasons": [
         "has-video",
         "signal:introducing",
-        "signal:available today",
-        "manual-x-search"
+        "engagement:likes",
+        "engagement:views",
+        "manual-x-search",
+        "indie-dev"
       ],
       "post": {
-        "tweetId": "2087228998321414629",
-        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
-        "authorHandle": "soniox_ai",
-        "authorName": "Soniox",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
-        "text": "Introducing Soniox TTS v2, our most powerful text-to-speech model yet.\n\nSoniox TTS v2 brings extraordinary voice quality, expressive control through audio tags, exceptional precision, high-fidelity voice cloning, more than 60 languages, natural language mixing, and low-latency streaming together in one model.\n\nBuilt from the ground up with a new model architecture, audio codec, and highly optimized inference engine, Soniox TTS v2 delivers frontier TTS at just $0.70 per generated hour.\n\nAvailable globally today as tts-rt-v2.",
-        "createdAt": "2026-08-11T17:25:46.000Z",
+        "tweetId": "2086578009382023469",
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "authorHandle": "yoheinakajima",
+        "authorName": "Yohei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "text": "You don’t need new ways to talk to your agents, you need new ways for your agents to talk to you 🫵 (do you?)\n\nIntroducing Remoko: your mobile agent relay\n\nhttps://remoko.app/\n\nI wanted a way for my long-running agents to send me iOS push notifications via MCP: questions, approvals, check-ins, feedback, update/cancel, execution reports, etc\n\nsince I had to make it a testflight, you can try it too with your Codex, Claude Code, etc:",
+        "createdAt": "2026-08-09T22:18:58.000Z",
         "media": [
           {
             "type": "video",
-            "durationMs": 133546,
-            "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4"
+            "durationMs": 33000,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4"
           }
         ],
         "metrics": {
-          "likeCount": 239,
-          "repostCount": 23,
-          "replyCount": 28,
-          "viewCount": 18586
+          "likeCount": 72,
+          "repostCount": 8,
+          "replyCount": 34,
+          "viewCount": 8205
         }
       },
       "watchlist": {
-        "handle": "soniox_ai",
-        "company": "Soniox",
+        "handle": "yoheinakajima",
+        "company": "Remoko",
         "category": "ai",
         "tags": [
-          "tts",
-          "speech",
-          "voice",
-          "cloning"
+          "agents",
+          "mobile",
+          "mcp",
+          "notifications",
+          "indie"
         ]
       },
       "draft": {
-        "id": "plv-soniox-tts-v2",
-        "slug": "soniox-tts-v2",
-        "title": "Soniox TTS v2 — frontier text-to-speech at $0.70/hr",
-        "product": "Soniox TTS v2",
-        "company": "Soniox",
-        "description": "New TTS model with high-fidelity voice cloning, 60+ languages, expressive audio tags, natural language mixing and low-latency streaming. Frontier quality at $0.70 per generated hour. Available globally as tts-rt-v2.",
+        "id": "plv-disc-2086578009382023469",
+        "slug": "remoko-mobile-agent-relay-3469",
+        "title": "Remoko — mobile agent relay for iOS push notifications",
+        "product": "Remoko",
+        "company": "Yohei Nakajima",
+        "description": "Mobile agent relay that lets long-running AI agents (Codex, Claude Code etc.) send iOS push notifications via MCP for questions, approvals, check-ins, feedback and reports. Available via TestFlight.",
         "category": "ai",
         "tags": [
-          "tts",
-          "speech",
-          "voice-cloning",
-          "soniox"
+          "agents",
+          "mobile",
+          "mcp",
+          "notifications",
+          "indie",
+          "auto-discovery"
         ],
-        "tweetUrl": "https://x.com/soniox_ai/status/2087228998321414629",
-        "tweetId": "2087228998321414629",
-        "authorName": "Soniox",
-        "authorHandle": "soniox_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2077706493344813056/Ro2nAXz5.jpg",
-        "poster": "/posters/soniox-tts-v2.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2087228870151831552/vid/avc1/1280x720/x02GjYYpnDfFOcNq.mp4",
-        "publishedAt": "2026-08-11T17:25:46.000Z",
-        "durationSeconds": 134,
+        "tweetUrl": "https://x.com/yoheinakajima/status/2086578009382023469",
+        "tweetId": "2086578009382023469",
+        "authorName": "Yohei",
+        "authorHandle": "yoheinakajima",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1452754543217831938/T2O-66Yy.jpg",
+        "poster": "/posters/remoko-mobile-agent-relay-3469.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086577949562859520/vid/avc1/1920x1080/6XCoKRnLxaOGZekJ.mp4",
+        "publishedAt": "2026-08-09T22:18:58.000Z",
+        "durationSeconds": 33,
         "featured": false,
         "status": "draft"
-      }
+      },
+      "notes": "Manual discovery via Grok X search. Indie builder (babyAGI creator) shipping practical agent infra.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2085629541385736662",
+      "tweetId": "2085629541385736662",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 52,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "engagement:likes",
+        "engagement:views",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2085629541385736662",
+        "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
+        "authorHandle": "krea_ai",
+        "authorName": "Krea",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
+        "text": "introducing Seedance 2.5.\n\n30 seconds of continuous video, full multi-shot sequences, and up to 50 references.\n\ntry it now 👇",
+        "createdAt": "2026-08-07T07:30:06.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 35035,
+            "videoUrl": "https://video.twimg.com/amplify_video/2085628368826077184/vid/avc1/1280x720/2y15BkiCz9CvfrIB.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 250,
+          "repostCount": 30,
+          "replyCount": 40,
+          "viewCount": 25112
+        }
+      },
+      "watchlist": {
+        "handle": "krea_ai",
+        "company": "Krea",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "seedance"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2085629541385736662",
+        "slug": "krea-seedance-2-5-6662",
+        "title": "Krea Seedance 2.5 — 30s multi-shot, 50 references",
+        "product": "Seedance 2.5",
+        "company": "Krea",
+        "description": "Seedance 2.5 is live on Krea: up to 30 seconds of continuous video, full multi-shot sequences, and up to 50 references per generation. Powered by ByteDance model.",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "seedance",
+          "krea",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/krea_ai/status/2085629541385736662",
+        "tweetId": "2085629541385736662",
+        "authorName": "Krea",
+        "authorHandle": "krea_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
+        "poster": "/posters/krea-seedance-2-5-6662.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2085628368826077184/vid/avc1/1280x720/2y15BkiCz9CvfrIB.mp4",
+        "publishedAt": "2026-08-07T07:30:06.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery. Official Krea launch of Seedance 2.5 (already on Runway; this is the Krea integration video).",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086215846104572104",
+      "tweetId": "2086215846104572104",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 48,
+      "reasons": [
+        "has-video",
+        "signal:now live",
+        "signal:launch",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2086215846104572104",
+        "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
+        "authorHandle": "swarms_corp",
+        "authorName": "swarms",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
+        "text": "Auto Agent Builder is now live on Swarms 👾🤖\n\nTurn a single task into a complete AI agent team. Describe what you want to accomplish, and Auto Agent Builder generates a ready-to-run roster of agents with specialized roles, system prompts, models, and parameters.\n\nHighlights\n\n• Generate an entire agent team from one task\n• Automatically divide responsibilities across specialized agents\n• Review and edit every agent before running it\n• Choose an exact team size or let the builder determine the smallest team needed\n• Export agents as JSON, CSV, cURL, Python, TypeScript, or Go\n• Take generated agents directly into your Swarms workflows\n• Available through both the Swarms Cloud interface and API",
+        "createdAt": "2026-08-08T22:19:52.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 74466,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086214578728263682/vid/avc1/1836x1080/ym1QiCzYtb6oAAt9.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 14,
+          "repostCount": 6,
+          "replyCount": 2,
+          "viewCount": 1651
+        }
+      },
+      "watchlist": {
+        "handle": "swarms_corp",
+        "company": "Swarms",
+        "category": "ai",
+        "tags": [
+          "agents",
+          "multi-agent",
+          "builder"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086215846104572104",
+        "slug": "swarms-auto-agent-builder-2104",
+        "title": "Swarms Auto Agent Builder — task to full agent team",
+        "product": "Auto Agent Builder",
+        "company": "Swarms",
+        "description": "Turn a single task description into a complete, ready-to-run AI agent team with specialized roles, system prompts, models and parameters. Review/edit before running; export as JSON/CSV/cURL/Python/TypeScript/Go. Available on Swarms Cloud and API.",
+        "category": "ai",
+        "tags": [
+          "agents",
+          "multi-agent",
+          "builder",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/swarms_corp/status/2086215846104572104",
+        "tweetId": "2086215846104572104",
+        "authorName": "swarms",
+        "authorHandle": "swarms_corp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
+        "poster": "/posters/swarms-auto-agent-builder-2104.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086214578728263682/vid/avc1/1836x1080/ym1QiCzYtb6oAAt9.mp4",
+        "publishedAt": "2026-08-08T22:19:52.000Z",
+        "durationSeconds": 74,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Manual discovery via Grok X search. Official product launch video.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086130857098563600",
+      "tweetId": "2086130857098563600",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:just shipped",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2086130857098563600",
+        "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
+        "authorHandle": "daniel_mac8",
+        "authorName": "Dan McAteer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1972999017551249408/kNdZGnUv.jpg",
+        "text": "Claude Coders: I just shipped 'grapevine 🍇'\n\nYour Claude Code sessions can now talk to each other, but by default they're blind to what each other are doing.\n\n'grapevine 🍇' is a Claude Code plugin that fixes that.\n\ngrapevine 🍇 is open-source, free and experimental. Try it out at the link below 👇.",
+        "createdAt": "2026-08-08T16:42:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 28178,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086127992627970048/vid/avc1/2382x1786/byT-GJXKA_qJYHhd.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 18,
+          "repostCount": 2,
+          "replyCount": 5,
+          "viewCount": 3832
+        }
+      },
+      "watchlist": {
+        "handle": "daniel_mac8",
+        "company": "grapevine",
+        "category": "developer-tools",
+        "tags": [
+          "claude-code",
+          "plugin",
+          "agents",
+          "open-source"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086130857098563600",
+        "slug": "grapevine-claude-code-plugin-3600",
+        "title": "grapevine 🍇 — Claude Code sessions talk to each other",
+        "product": "grapevine",
+        "company": "Dan McAteer",
+        "description": "Open-source Claude Code plugin that lets sessions share context via a local graph. When two sessions touch the same file, grapevine drops an advisory note so Claude can decide whether to message the other session. Free & experimental.",
+        "category": "developer-tools",
+        "tags": [
+          "claude-code",
+          "plugin",
+          "agents",
+          "open-source",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/daniel_mac8/status/2086130857098563600",
+        "tweetId": "2086130857098563600",
+        "authorName": "Dan McAteer",
+        "authorHandle": "daniel_mac8",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1972999017551249408/kNdZGnUv.jpg",
+        "poster": "/posters/grapevine-claude-code-plugin-3600.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086127992627970048/vid/avc1/2382x1786/byT-GJXKA_qJYHhd.mp4",
+        "publishedAt": "2026-08-08T16:42:09.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Indie open-source plugin. Note: Anthropic/ClaudeDevs also shipped native session messaging around the same time; this is a community alternative.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2086128168776421376",
+      "tweetId": "2086128168776421376",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-09T00:10:00.000Z",
+      "reviewedAt": null,
+      "score": 40,
+      "reasons": [
+        "has-video",
+        "signal:launched",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2086128168776421376",
+        "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
+        "authorHandle": "Sunny_Gulati",
+        "authorName": "Sunny Gulati",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990501961490415616/JNfo2gK_.jpg",
+        "text": "Launched https://apna.live/ today 🚀\n\nWe build local Indian businesses a professional website in minutes - their Google reviews, services & photos, with enquiries landing on WhatsApp. From ₹149/mo.\n\nDay 1, just from WhatsApp status: 13 sites live across 4 states - a restaurant with 44,000+ reviews to a soap brand in Dehradun.\n\nAb har business ki apni online pehchaan. 🇮🇳",
+        "createdAt": "2026-08-08T16:31:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 28608,
+            "videoUrl": "https://video.twimg.com/amplify_video/2086128127701573632/vid/avc1/1080x1920/yKyGTAYI8Qdpgz8C.mp4"
+          }
+        ],
+        "metrics": {
+          "likeCount": 19,
+          "repostCount": 4,
+          "replyCount": 3,
+          "viewCount": 74077
+        }
+      },
+      "watchlist": {
+        "handle": "Sunny_Gulati",
+        "company": "apna.live",
+        "category": "consumer",
+        "tags": [
+          "saas",
+          "local-business",
+          "india",
+          "whatsapp"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2086128168776421376",
+        "slug": "apna-live-website-builder-1376",
+        "title": "apna.live — professional websites for local Indian businesses in minutes",
+        "product": "apna.live",
+        "company": "apna.live",
+        "description": "Build a professional website for local Indian businesses in minutes using their Google reviews, services and photos. Enquiries land on WhatsApp. From ₹149/mo. Day-1 traction: 13 sites live across 4 states.",
+        "category": "consumer",
+        "tags": [
+          "saas",
+          "local-business",
+          "india",
+          "whatsapp",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Sunny_Gulati/status/2086128168776421376",
+        "tweetId": "2086128168776421376",
+        "authorName": "Sunny Gulati",
+        "authorHandle": "Sunny_Gulati",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990501961490415616/JNfo2gK_.jpg",
+        "poster": "/posters/apna-live-website-builder-1376.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2086128127701573632/vid/avc1/1080x1920/yKyGTAYI8Qdpgz8C.mp4",
+        "publishedAt": "2026-08-08T16:31:28.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Indie SaaS launch focused on Indian local businesses. Strong day-1 traction narrative.",
+      "issueUrl": null
     }
   ]
 }
