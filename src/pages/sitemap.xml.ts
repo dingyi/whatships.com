@@ -5,6 +5,7 @@ export const GET = () => {
   const paths = [
     "/",
     "/about/",
+    "/tools/",
     "/submit/",
     ...publishedVideos.map((video) => `/videos/${video.slug}/`),
   ];
