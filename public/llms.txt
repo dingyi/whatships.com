@@ -9,7 +9,7 @@
 - [Home](https://whatships.com/): the full video directory with category
   filter and search.
 - [Tools](https://whatships.com/tools/): editors, motion studios, and
-  mockup tools for making launch videos.
+  mockup tools for making launch videos or mockups.
 - [About](https://whatships.com/about/): what the site is and how curation
   works.
 - [Submit](https://whatships.com/submit/): propose a launch video for review.

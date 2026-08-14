@@ -48,5 +48,35 @@
     "url": "https://www.butter.video/",
     "category": "motion",
     "poster": "/posters/tools/butter.webp"
+  },
+  {
+    "id": "tool-heygen",
+    "slug": "heygen",
+    "name": "HeyGen",
+    "tagline": "Create realistic AI videos in minutes",
+    "description": "Create AI videos from text, image, or audio — complete with narration, captions, visuals, and animations.",
+    "url": "https://heygen.com/",
+    "category": "ai",
+    "poster": "/posters/tools/heygen.webp"
+  },
+  {
+    "id": "tool-motionvid",
+    "slug": "motionvid",
+    "name": "MotionVid",
+    "tagline": "AI motion graphics in seconds",
+    "description": "Create professional motion graphics and animated videos from text, drawings, or images. No After Effects required.",
+    "url": "https://motionvid.ai/",
+    "category": "motion",
+    "poster": "/posters/tools/motionvid.webp"
+  },
+  {
+    "id": "tool-capcut",
+    "slug": "capcut",
+    "name": "CapCut",
+    "tagline": "All-in-one AI video editor",
+    "description": "Video editor with AI tools, smart templates, and effects. Desktop, mobile, and web.",
+    "url": "https://www.capcut.com/",
+    "category": "editor",
+    "poster": "/posters/tools/capcut.webp"
   }
 ]
