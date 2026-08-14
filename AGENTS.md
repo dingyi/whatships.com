@@ -73,6 +73,12 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
   appending — merging several directly drops pending candidates. Union them
   with `node scripts/merge-inbox.mjs <file.json> [...]` (dedupes by
   `tweetId`, never touches reviewed items), then close the PRs.
+- PRs that ship only a markdown doc (no inbox entries): rebuild the
+  candidates straight from the tweet links with
+  `node scripts/rebuild-inbox.mjs --from <doc.md>` (or pass URLs/IDs
+  directly; `--dry-run` inspects without writing). It fetches syndication
+  data, dedupes against `videos.json` + the inbox, and falls back to
+  category `other` for handles missing from `watchlist.json`.
 
 ## Conventions
 
