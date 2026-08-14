@@ -1,0 +1,16 @@
+AGENTS.md
+  h_f786d994c98af1 76-81
+scripts/rebuild-inbox.mjs
+  h_f786d994c98af1 1-195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "330fe70bc3c77dd83cb361d2b5314ffae70bc40d",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
