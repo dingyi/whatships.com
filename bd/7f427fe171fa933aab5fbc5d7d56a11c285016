@@ -1,0 +1,16 @@
+docs/discovery/2026-08-14-zh-summary.md
+  h_f786d994c98af1 1-68
+src/data/inbox.json
+  h_f786d994c98af1 2,4-489
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bd7f427fe171fa933aab5fbc5d7d56a11c285016",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
