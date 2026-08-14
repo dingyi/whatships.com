@@ -1,6 +1,492 @@
 {
-  "updatedAt": "2026-08-13T09:02:02.154Z",
+  "updatedAt": "2026-08-14T00:28:10.038Z",
   "items": [
+    {
+      "id": "disc-2087947721936359705",
+      "tweetId": "2087947721936359705",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:preview",
+        "engagement:views",
+        "engagement:likes",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087947721936359705",
+        "tweetUrl": "https://x.com/OpenAI/status/2087947721936359705",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed.\n\nLaunching first in the OpenAI API to a select group of customers with expanded access to more businesses as capacity grows. https://t.co/a5dleofiDJ",
+        "createdAt": "2026-08-13T17:01:43.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 44000,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087946208128237568/vid/avc1/3840x2160/f5AzYlplkSGF4UxX.mp4"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "gpt-5-6",
+          "ultrafast",
+          "cerebras",
+          "api"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2087947721936359705",
+        "slug": "gpt-5-6-sol-ultrafast",
+        "title": "GPT-5.6 Sol Ultrafast — up to 14x, powered by Cerebras",
+        "product": "Ultrafast mode",
+        "company": "OpenAI",
+        "description": "Preview of Ultrafast mode: GPT-5.6 Sol runs up to 14x faster (up to 750 tokens/s, powered by Cerebras). First rolling out to select OpenAI API customers; built for realtime voice, support, coding, design, finance research and security response.",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "gpt-5-6",
+          "ultrafast",
+          "cerebras",
+          "api",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2087947721936359705",
+        "tweetId": "2087947721936359705",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/gpt-5-6-sol-ultrafast.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087946208128237568/vid/avc1/3840x2160/f5AzYlplkSGF4UxX.mp4",
+        "publishedAt": "2026-08-13T17:01:43.000Z",
+        "durationSeconds": 44,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2087996496088297746",
+      "tweetId": "2087996496088297746",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 58,
+      "reasons": [
+        "has-video",
+        "signal:rolling out",
+        "engagement:views",
+        "engagement:likes",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087996496088297746",
+        "tweetUrl": "https://x.com/OpenAI/status/2087996496088297746",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "ChatGPT can now remember your activity across the apps and websites on your computer.\n\nWith Computer History in the desktop app, future interactions feel more personalized and require less explanation. https://t.co/WHZPxPp31R",
+        "createdAt": "2026-08-13T20:15:32.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 28309,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087996446595485696/vid/avc1/3840x2160/2iL13PIzQoVpntqE.mp4"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "chatgpt",
+          "desktop",
+          "memory",
+          "openai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2087996496088297746",
+        "slug": "chatgpt-computer-history",
+        "title": "ChatGPT — Computer History remembers app activity",
+        "product": "ChatGPT Computer History",
+        "company": "OpenAI",
+        "description": "ChatGPT desktop can now remember your activity history across apps and websites on your computer, with timeline review, selective clearing and pause/resume. Rolling out globally to Pro, Business and Enterprise.",
+        "category": "ai",
+        "tags": [
+          "chatgpt",
+          "desktop",
+          "memory",
+          "openai",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2087996496088297746",
+        "tweetId": "2087996496088297746",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/chatgpt-computer-history.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087996446595485696/vid/avc1/3840x2160/2iL13PIzQoVpntqE.mp4",
+        "publishedAt": "2026-08-13T20:15:32.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2087944862272459214",
+      "tweetId": "2087944862272459214",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 54,
+      "reasons": [
+        "has-video",
+        "signal:now",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087944862272459214",
+        "tweetUrl": "https://x.com/figma/status/2087944862272459214",
+        "authorHandle": "figma",
+        "authorName": "Figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "text": "/You-can-now-create-and-use-skills-without-leaving-Figma\n\n→ Create a skill with Figma agent\n→ Publish a skill to Community\n→ Save other skills from Community and try them using the “/” command https://t.co/60YpFDDTsV",
+        "createdAt": "2026-08-13T16:50:21.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 34416,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087942684258578432/vid/avc1/1920x1080/TYhJa_gQquCSgg9T.mp4"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "figma",
+        "company": "Figma",
+        "category": "design",
+        "tags": [
+          "figma",
+          "skills",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2087944862272459214",
+        "slug": "figma-skills",
+        "title": "Figma Skills — agent skills inside Figma",
+        "product": "Figma Skills",
+        "company": "Figma",
+        "description": "Create skills with an agent inside Figma, publish them to Community, save others' skills, and try them directly via the \"/\" command.",
+        "category": "design",
+        "tags": [
+          "figma",
+          "skills",
+          "agents",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/figma/status/2087944862272459214",
+        "tweetId": "2087944862272459214",
+        "authorName": "Figma",
+        "authorHandle": "figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "poster": "/posters/figma-skills.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087942684258578432/vid/avc1/1920x1080/TYhJa_gQquCSgg9T.mp4",
+        "publishedAt": "2026-08-13T16:50:21.000Z",
+        "durationSeconds": 34,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2087947287620366787",
+      "tweetId": "2087947287620366787",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 53,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087947287620366787",
+        "tweetUrl": "https://x.com/Replit/status/2087947287620366787",
+        "authorHandle": "Replit",
+        "authorName": "Replit ⠕",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2031733558952464384/ERrHv3jK.jpg",
+        "text": "If everyone's building the same thing, we build what's next.\n\nHear from the team that built Replit Design, and learn why we set out to reinvent the design process for the age of AI.\n\nThe next era of design, for everyone.\n\nhttps://t.co/PFJqv1DWmD https://t.co/1uA21zyOnl",
+        "createdAt": "2026-08-13T17:00:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 115933,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087924760940257280/vid/avc1/1920x1080/oLR33O1lHShNPz6b.mp4"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Replit",
+        "company": "Replit",
+        "category": "design",
+        "tags": [
+          "replit",
+          "design",
+          "ai",
+          "workflow"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2087947287620366787",
+        "slug": "replit-design",
+        "title": "Replit Design — reinventing design for the AI era",
+        "product": "Replit Design",
+        "company": "Replit",
+        "description": "Replit Design is official — reinventing the design process for the AI era, where design, code and deploy become one continuous AI workflow.",
+        "category": "design",
+        "tags": [
+          "replit",
+          "design",
+          "ai",
+          "workflow",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/Replit/status/2087947287620366787",
+        "tweetId": "2087947287620366787",
+        "authorName": "Replit ⠕",
+        "authorHandle": "Replit",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2031733558952464384/ERrHv3jK.jpg",
+        "poster": "/posters/replit-design.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087924760940257280/vid/avc1/1920x1080/oLR33O1lHShNPz6b.mp4",
+        "publishedAt": "2026-08-13T17:00:00.000Z",
+        "durationSeconds": 116,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2087941307624980753",
+      "tweetId": "2087941307624980753",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 52,
+      "reasons": [
+        "has-video",
+        "signal:now",
+        "engagement:views",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2087941307624980753",
+        "tweetUrl": "https://x.com/cursor_ai/status/2087941307624980753",
+        "authorHandle": "cursor_ai",
+        "authorName": "Cursor",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
+        "text": "Cloud agents now start 3x faster so you can hand them ambitious, long-running tasks to execute from start to finish.\n\nThis performance improvement comes from builds: ready-to-use development environments that Cursor prepares continuously in the background, at no additional cost. https://t.co/0JrSQomAob",
+        "createdAt": "2026-08-13T16:36:14.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 19900,
+            "videoUrl": "https://video.twimg.com/amplify_video/2087940772037529601/vid/avc1/1920x1080/c7nX3-FfK-MUkDb8.mp4"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cursor_ai",
+        "company": "Cursor",
+        "category": "developer-tools",
+        "tags": [
+          "cursor",
+          "cloud-agents",
+          "builds"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2087941307624980753",
+        "slug": "cursor-cloud-agent-builds",
+        "title": "Cursor Builds — cloud agents start 3x faster",
+        "product": "Cursor Builds",
+        "company": "Cursor",
+        "description": "Cursor cloud agents now start 3x faster thanks to builds: ready-to-go dev environments prepared continuously in the background at no extra cost. Failed builds never ship — agents fall back to the last good one.",
+        "category": "developer-tools",
+        "tags": [
+          "cursor",
+          "cloud-agents",
+          "builds",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/cursor_ai/status/2087941307624980753",
+        "tweetId": "2087941307624980753",
+        "authorName": "Cursor",
+        "authorHandle": "cursor_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
+        "poster": "/posters/cursor-cloud-agent-builds.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2087940772037529601/vid/avc1/1920x1080/c7nX3-FfK-MUkDb8.mp4",
+        "publishedAt": "2026-08-13T16:36:14.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2088018757189009515",
+      "tweetId": "2088018757189009515",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 51,
+      "reasons": [
+        "has-video",
+        "signal:now",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2088018757189009515",
+        "tweetUrl": "https://x.com/vercel/status/2088018757189009515",
+        "authorHandle": "vercel",
+        "authorName": "Vercel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT.png",
+        "text": "Connect your coding agents to AI Gateway with a single command.\n\n• Auto-configure 8 popular coding harnesses\n• 300+ models from 30+ providers, no markup\n• Open-weight models with ZDR &amp; US inference\n\n▲ ~/ vercel ai-gateway coding-agents setup https://t.co/fOMg7Q6h6i",
+        "createdAt": "2026-08-13T21:43:59.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 30314,
+            "videoUrl": "https://video.twimg.com/amplify_video/2088018736645373952/vid/avc1/1280x720/xRL7019Ke3XHyaVg.mp4?tag=14"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "vercel",
+        "company": "Vercel",
+        "category": "developer-tools",
+        "tags": [
+          "vercel",
+          "ai-gateway",
+          "coding-agents",
+          "models"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2088018757189009515",
+        "slug": "vercel-ai-gateway-coding-agents",
+        "title": "Vercel AI Gateway — one command connects coding agents",
+        "product": "Vercel AI Gateway",
+        "company": "Vercel",
+        "description": "Connect coding agents to AI Gateway with one command — auto-configures 8 popular coding harnesses, 300+ models from 30+ providers at no markup, open-weight models with ZDR and US inference. `vercel ai-gateway coding-agents setup`.",
+        "category": "developer-tools",
+        "tags": [
+          "vercel",
+          "ai-gateway",
+          "coding-agents",
+          "models",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/vercel/status/2088018757189009515",
+        "tweetId": "2088018757189009515",
+        "authorName": "Vercel",
+        "authorHandle": "vercel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT.png",
+        "poster": "/posters/vercel-ai-gateway-coding-agents.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2088018736645373952/vid/avc1/1280x720/xRL7019Ke3XHyaVg.mp4?tag=14",
+        "publishedAt": "2026-08-13T21:43:59.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2088036818768032224",
+      "tweetId": "2088036818768032224",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-14T00:11:00.000Z",
+      "reviewedAt": null,
+      "score": 46,
+      "reasons": [
+        "has-video",
+        "signal:introducing",
+        "manual-x-search"
+      ],
+      "post": {
+        "tweetId": "2088036818768032224",
+        "tweetUrl": "https://x.com/Circuitlyapp/status/2088036818768032224",
+        "authorHandle": "Circuitlyapp",
+        "authorName": "Circuitly",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1925267551631941639/_SkU3Olm.jpg",
+        "text": "Introducing Circuitly’s agentic harness for PCB design. \nIt connects AI agents to native design data, engineering tools, and company context so they can do useful, reviewable work. \nHardware teams can now try our schematic and PCB review capabilities free: https://t.co/VGEmckW1Ty https://t.co/HkklxNc96g",
+        "createdAt": "2026-08-13T22:55:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "durationMs": 58266,
+            "videoUrl": "https://video.twimg.com/amplify_video/2088036332509741056/vid/avc1/1280x720/w9drTPKXtP4j81cz.mp4?tag=14"
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Circuitlyapp",
+        "company": "Circuitly",
+        "category": "hardware",
+        "tags": [
+          "circuitly",
+          "pcb",
+          "hardware",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2088036818768032224",
+        "slug": "circuitly-pcb-design",
+        "title": "Circuitly — an agentic harness for PCB design",
+        "product": "Circuitly",
+        "company": "Circuitly",
+        "description": "An agentic harness for PCB design: connect AI agents to native design data, engineering tools and company context so they do useful, reviewable work. Hardware teams can try schematic and PCB review free.",
+        "category": "hardware",
+        "tags": [
+          "circuitly",
+          "pcb",
+          "hardware",
+          "agents",
+          "manual-x-search"
+        ],
+        "tweetUrl": "https://x.com/Circuitlyapp/status/2088036818768032224",
+        "tweetId": "2088036818768032224",
+        "authorName": "Circuitly",
+        "authorHandle": "Circuitlyapp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1925267551631941639/_SkU3Olm.jpg",
+        "poster": "/posters/circuitly-pcb-design.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2088036332509741056/vid/avc1/1280x720/w9drTPKXtP4j81cz.mp4?tag=14",
+        "publishedAt": "2026-08-13T22:55:46.000Z",
+        "durationSeconds": 58,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "From PR #32 (2026-08-14 Grok X search); PR carried only the doc, items rebuilt via syndication.",
+      "issueUrl": null
+    },
     {
       "id": "disc-2087652849702641848",
       "tweetId": "2087652849702641848",
