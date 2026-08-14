@@ -1,0 +1,28 @@
+public/llms.txt
+  h_f786d994c98af1 11-12
+src/components/PageHeader.tsx
+  h_f786d994c98af1 15,98-104,145-151
+src/components/SiteFooter.astro
+  h_f786d994c98af1 10-11
+src/data/tools.json
+  h_f786d994c98af1 1-52
+src/lib/tools.ts
+  h_f786d994c98af1 1-40
+src/pages/sitemap.xml.ts
+  h_f786d994c98af1 8
+src/pages/tools.astro
+  h_f786d994c98af1 1-116
+tests/tools.test.ts
+  h_f786d994c98af1 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0c9bf318b6b192cfd87ce2486c57319d0ac4eb96",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
