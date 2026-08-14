@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tool-osmo",
+    "slug": "osmo",
+    "name": "Osmo",
+    "tagline": "Make stories that move",
+    "description": "AI-native video editor for product launch videos and motion graphics. Turn ideas, Figma files, and footage into polished, on-brand animations built as editable code.",
+    "url": "https://osmo.inc/",
+    "category": "ai",
+    "poster": "/posters/tools/osmo.webp"
+  },
+  {
+    "id": "tool-opencut",
+    "slug": "opencut",
+    "name": "OpenCut",
+    "tagline": "The open source video editor",
+    "description": "A simple but powerful video editor that gets the job done, in the browser. An open-source CapCut alternative for web, desktop, and mobile.",
+    "url": "https://opencut.app/",
+    "category": "editor",
+    "poster": "/posters/tools/opencut.webp"
+  },
+  {
+    "id": "tool-ultramock",
+    "slug": "ultramock",
+    "name": "Ultramock",
+    "tagline": "Cinematic UI mockups",
+    "description": "Create premium, highly customizable videos, visuals, and 3D mockups that showcase UI designs, websites, and apps — in the browser.",
+    "url": "https://www.ultramock.io/",
+    "category": "mockup",
+    "poster": "/posters/tools/ultramock.webp"
+  },
+  {
+    "id": "tool-movo",
+    "slug": "movo",
+    "name": "MOVO",
+    "tagline": "Motion templates for teams",
+    "description": "Motion templates for teams and creatives — made by humans, powered by AI. Animate in the browser, with no downloads or installs.",
+    "url": "https://movo.video/",
+    "category": "templates",
+    "poster": "/posters/tools/movo.webp"
+  },
+  {
+    "id": "tool-butter",
+    "slug": "butter",
+    "name": "Butter",
+    "tagline": "A video editor you can build on",
+    "description": "The first video editor and design platform built with creative code. Remix custom motion tools, effects, and blocks directly on the timeline.",
+    "url": "https://www.butter.video/",
+    "category": "motion",
+    "poster": "/posters/tools/butter.webp"
+  }
+]

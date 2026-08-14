@@ -1,0 +1,116 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import {
+  gridPoster,
+  publishedTools,
+  toolCategoryLabel,
+  toolHost,
+} from "@/lib/tools";
+---
+
+<BaseLayout
+  title="Tools — whatships.com"
+  description="A curated directory of editors, motion studios, and mockup tools for making launch videos."
+>
+  <PageHeader active="tools" client:load />
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <h1 id="hero-title">Tools for making launch videos</h1>
+        <p class="hero__copy">
+          A curated set of editors, motion studios, and mockup tools
+          for product films.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="directory"
+      id="directory"
+      aria-labelledby="hero-title"
+    >
+      <div class="video-grid">
+        {
+          publishedTools.map((tool, index) => {
+            const small = gridPoster(tool.poster);
+            const host = toolHost(tool.url);
+            const category = toolCategoryLabel(tool.category);
+            return (
+              <article class="video-card">
+                <span class="corner one" aria-hidden="true" />
+                <span class="corner two" aria-hidden="true" />
+                <span class="corner three" aria-hidden="true" />
+                <span class="corner four" aria-hidden="true" />
+                <div class="video-card__main">
+                  <a
+                    class="video-card__media"
+                    href={tool.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${tool.name} website`}
+                  >
+                    <img
+                      src={small}
+                      srcset={`${small} 960w, ${tool.poster} 1440w`}
+                      sizes="(max-width: 699px) calc(100vw - 34px), 420px"
+                      alt=""
+                      loading={index < 6 ? "eager" : "lazy"}
+                      fetchpriority={index === 0 ? "high" : undefined}
+                      width="1440"
+                      height="810"
+                    />
+                    <span class="video-card__hover-label" aria-hidden="true">
+                      <span>Visit site</span>
+                    </span>
+                  </a>
+                  <div class="video-card__body">
+                    <div>
+                      <h2>
+                        <a href={tool.url} target="_blank" rel="noreferrer">
+                          {tool.name}
+                        </a>
+                      </h2>
+                      <p class="video-card__location">{tool.tagline}</p>
+                      <p class="video-card__meta">
+                        {category}
+                        <span aria-hidden="true"> · </span>
+                        {host}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="video-card__external"
+                  href={tool.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${tool.name} website`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </a>
+              </article>
+            );
+          })
+        }
+      </div>
+    </section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
