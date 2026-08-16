@@ -31873,5 +31873,31 @@
     "durationSeconds": 125,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-rxlingo",
+    "slug": "rxlingo",
+    "title": "RXlingo — turn scrolling X into English practice",
+    "product": "RXlingo",
+    "company": "RXlingo",
+    "description": "A Chrome extension that turns browsing X into English practice. Launch film from @83dwn.",
+    "category": "productivity",
+    "tags": [
+      "rxlingo",
+      "chrome",
+      "english",
+      "extension"
+    ],
+    "tweetUrl": "https://x.com/83dwn/status/2087383696445735182",
+    "tweetId": "2087383696445735182",
+    "authorName": "diff.w",
+    "authorHandle": "83dwn",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2042269816665354240/ZER4ib3f.jpg",
+    "poster": "/posters/rxlingo.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2087382895329488896/vid/avc1/1440x1080/ZiU4Z5VBpoPxv0cd.mp4",
+    "publishedAt": "2026-08-12T03:40:29.000Z",
+    "durationSeconds": 77,
+    "featured": false,
+    "status": "published"
   }
 ]
