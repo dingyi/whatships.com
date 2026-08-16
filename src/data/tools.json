@@ -88,5 +88,15 @@
     "url": "https://preview.io/",
     "category": "ai",
     "poster": "/posters/tools/preview.webp"
+  },
+  {
+    "id": "tool-uicamera",
+    "slug": "uicamera",
+    "name": "ui.camera",
+    "tagline": "Product photography for software",
+    "description": "Create studio-quality photos and videos of software from your UI, right in the browser.",
+    "url": "https://ui.camera/",
+    "category": "mockup",
+    "poster": "/posters/tools/uicamera.webp"
   }
 ]
