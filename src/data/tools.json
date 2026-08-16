@@ -98,5 +98,15 @@
     "url": "https://ui.camera/",
     "category": "mockup",
     "poster": "/posters/tools/uicamera.webp"
+  },
+  {
+    "id": "tool-pilotcut",
+    "slug": "pilotcut",
+    "name": "PilotCut",
+    "tagline": "The video editor that does the editing",
+    "description": "Tell your AI agent the video you want. PilotCut turns it into real cuts, B-roll, and layouts on a native Mac timeline — footage never leaves your machine.",
+    "url": "https://www.pilotcut.com/",
+    "category": "editor",
+    "poster": "/posters/tools/pilotcut.webp"
   }
 ]
