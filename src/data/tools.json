@@ -168,5 +168,15 @@
     "url": "https://fliki.ai/",
     "category": "ai",
     "poster": "/posters/tools/fliki.webp"
+  },
+  {
+    "id": "tool-rednow",
+    "slug": "rednow",
+    "name": "RedNow",
+    "tagline": "See the script behind any video",
+    "description": "Paste a TikTok, YouTube, Shorts, or Reels link. RedNow extracts transcripts, scenes, and hooks, then turns viral videos into reusable scripts.",
+    "url": "https://rednow.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/rednow.webp"
   }
 ]
