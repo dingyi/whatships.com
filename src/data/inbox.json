@@ -1,4 +1,193 @@
 {
-  "updatedAt": "2026-08-16T13:01:02.272Z",
-  "items": []
+  "updatedAt": "2026-08-17T04:11:53.456Z",
+  "items": [
+    {
+      "id": "disc-2089081008423645680",
+      "tweetId": "2089081008423645680",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-17T04:11:53.456Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2089081008423645680",
+        "tweetUrl": "https://x.com/kirillk_web3/status/2089081008423645680",
+        "authorHandle": "kirillk_web3",
+        "authorName": "Kirill",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1993759164468752384/zEekCUZh.jpg",
+        "text": "this is dangerous! you can design your whole house with AI now.\n\n@DraftedAI just shipped V2, and it turns a rough idea into a real floor plan in seconds.\n\n&gt; place the rooms where you want them, hit generate, and it fills in the rest\n&gt; want the garage by the kitchen? put them https://t.co/4SLHjnRPBk",
+        "createdAt": "2026-08-16T20:05:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2089063926591860736/vid/avc1/3228x2160/QtYEiUsFS4K14j1a.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089063926591860736/img/TEoi83BNXt-C7Xzf.jpg",
+            "durationMs": 17461
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "kirillk_web3",
+        "company": "Kirill",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2089081008423645680",
+        "slug": "kirill-645680",
+        "title": "this is dangerous! you can design your whole house with AI now. @DraftedAI just shipped V2, and i…",
+        "product": "Kirill",
+        "company": "Kirill",
+        "description": "this is dangerous! you can design your whole house with AI now. @DraftedAI just shipped V2, and it turns a rough idea into a real floor plan in seconds. &gt; place the rooms where you want them, hit generate, and it fills in the rest &gt; want the garage by the kitchen? put them",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/kirillk_web3/status/2089081008423645680",
+        "tweetId": "2089081008423645680",
+        "authorName": "Kirill",
+        "authorHandle": "kirillk_web3",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1993759164468752384/zEekCUZh.jpg",
+        "poster": "/posters/kirill-645680.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2089063926591860736/vid/avc1/3228x2160/QtYEiUsFS4K14j1a.mp4",
+        "publishedAt": "2026-08-16T20:05:00.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2088970738275365360",
+      "tweetId": "2088970738275365360",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-17T04:11:53.083Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2088970738275365360",
+        "tweetUrl": "https://x.com/warpdotdev/status/2088970738275365360",
+        "authorHandle": "warpdotdev",
+        "authorName": "Warp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069148113299021825/oNGzRbtf.jpg",
+        "text": "Agents like Claude Code can run terminal commands for you. But what if you could invite agents like CC into your already running terminal sessions?\n\nAsk for agent help in vim, in SQL REPLs, in other TUIs?\n\nThat's what the Warp Agent CLI does. Eng Kevin Yang shows how it works: https://t.co/77l9gyb2nH",
+        "createdAt": "2026-08-16T12:46:49.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2088970498075955200/vid/avc1/3840x2160/JZWhOIeXgH8A1n6w.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088970498075955200/img/Y3DS2t_Cq7O_ICLg.jpg",
+            "durationMs": 113947
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "warpdotdev",
+        "company": "Warp",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2088970738275365360",
+        "slug": "warp-365360",
+        "title": "Agents like Claude Code can run terminal commands for you. But what if you could invite agents li…",
+        "product": "Warp",
+        "company": "Warp",
+        "description": "Agents like Claude Code can run terminal commands for you. But what if you could invite agents like CC into your already running terminal sessions? Ask for agent help in vim, in SQL REPLs, in other TUIs? That's what the Warp Agent CLI does. Eng Kevin Yang shows how it works:",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/warpdotdev/status/2088970738275365360",
+        "tweetId": "2088970738275365360",
+        "authorName": "Warp",
+        "authorHandle": "warpdotdev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069148113299021825/oNGzRbtf.jpg",
+        "poster": "/posters/warp-365360.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2088970498075955200/vid/avc1/3840x2160/JZWhOIeXgH8A1n6w.mp4",
+        "publishedAt": "2026-08-16T12:46:49.000Z",
+        "durationSeconds": 114,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2089057545998479457",
+      "tweetId": "2089057545998479457",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-17T04:11:52.647Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2089057545998479457",
+        "tweetUrl": "https://x.com/github/status/2089057545998479457",
+        "authorHandle": "github",
+        "authorName": "GitHub",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "text": "👉 Copilot code review depth is now up to you. Balanced depth is now generally available.\n\nSelect Balanced for deeper analysis and more thorough reviews on your pull requests, or choose Lite for straightforward changes.\n\nSet the default depth at the org or repo level, or select https://t.co/bPHloyNidB",
+        "createdAt": "2026-08-16T18:31:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2089057356449464321/vid/avc1/1280x720/EwTICiQVnsJjg2Cb.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/media/HP3Sv_yXAAAClbb.jpg",
+            "durationMs": 105872
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "github",
+        "company": "GitHub",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2089057545998479457",
+        "slug": "github-479457",
+        "title": "👉 Copilot code review depth is now up to you. Balanced depth is now generally available. Select…",
+        "product": "GitHub",
+        "company": "GitHub",
+        "description": "👉 Copilot code review depth is now up to you. Balanced depth is now generally available. Select Balanced for deeper analysis and more thorough reviews on your pull requests, or choose Lite for straightforward changes. Set the default depth at the org or repo level, or select",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/github/status/2089057545998479457",
+        "tweetId": "2089057545998479457",
+        "authorName": "GitHub",
+        "authorHandle": "github",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "poster": "/posters/github-479457.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2089057356449464321/vid/avc1/1280x720/EwTICiQVnsJjg2Cb.mp4?tag=14",
+        "publishedAt": "2026-08-16T18:31:46.000Z",
+        "durationSeconds": 106,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    }
+  ]
 }
