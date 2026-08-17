@@ -31899,5 +31899,80 @@
     "durationSeconds": 77,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-draftedai-v2",
+    "slug": "draftedai-v2",
+    "title": "DraftedAI V2 — rough idea to a floor plan in seconds",
+    "product": "DraftedAI V2",
+    "company": "DraftedAI",
+    "description": "Place rooms, hit generate, and V2 fills in the rest. Edit walls, doors, and windows, then switch looks and render. 5x better room matching, 60% faster.",
+    "category": "design",
+    "tags": [
+      "draftedai",
+      "floor-plan",
+      "ai"
+    ],
+    "tweetUrl": "https://x.com/kirillk_web3/status/2089081008423645680",
+    "tweetId": "2089081008423645680",
+    "authorName": "Kirill",
+    "authorHandle": "kirillk_web3",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1993759164468752384/zEekCUZh.jpg",
+    "poster": "/posters/draftedai-v2.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2089063926591860736/vid/avc1/3228x2160/QtYEiUsFS4K14j1a.mp4",
+    "publishedAt": "2026-08-16T20:05:00.000Z",
+    "durationSeconds": 17,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-warp-agent-cli-sessions",
+    "slug": "warp-agent-cli-sessions",
+    "title": "Warp Agent CLI — invite agents into a live terminal",
+    "product": "Warp Agent CLI",
+    "company": "Warp",
+    "description": "Invite agents like Claude Code into an already running terminal session. Ask for help in vim, SQL REPLs, and other TUIs without leaving the session.",
+    "category": "developer-tools",
+    "tags": [
+      "warp",
+      "cli",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/warpdotdev/status/2088970738275365360",
+    "tweetId": "2088970738275365360",
+    "authorName": "Warp",
+    "authorHandle": "warpdotdev",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2069148113299021825/oNGzRbtf.jpg",
+    "poster": "/posters/warp-agent-cli-sessions.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2088970498075955200/vid/avc1/3840x2160/JZWhOIeXgH8A1n6w.mp4",
+    "publishedAt": "2026-08-16T12:46:49.000Z",
+    "durationSeconds": 114,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-github-copilot-balanced-depth",
+    "slug": "github-copilot-balanced-depth",
+    "title": "GitHub Copilot — Balanced review depth is now GA",
+    "product": "GitHub Copilot",
+    "company": "GitHub",
+    "description": "Copilot code review depth is now yours to choose. Balanced is generally available for deeper PR analysis; Lite stays for simple changes. Set the default at org or repo level.",
+    "category": "developer-tools",
+    "tags": [
+      "github",
+      "copilot",
+      "code-review"
+    ],
+    "tweetUrl": "https://x.com/github/status/2089057545998479457",
+    "tweetId": "2089057545998479457",
+    "authorName": "GitHub",
+    "authorHandle": "github",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+    "poster": "/posters/github-copilot-balanced-depth.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2089057356449464321/vid/avc1/1280x720/EwTICiQVnsJjg2Cb.mp4?tag=14",
+    "publishedAt": "2026-08-16T18:31:46.000Z",
+    "durationSeconds": 106,
+    "featured": false,
+    "status": "published"
   }
 ]
