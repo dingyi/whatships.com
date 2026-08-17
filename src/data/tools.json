@@ -178,5 +178,15 @@
     "url": "https://rednow.ai/",
     "category": "ai",
     "poster": "/posters/tools/rednow.webp"
+  },
+  {
+    "id": "tool-yarn",
+    "slug": "yarn",
+    "name": "Yarn",
+    "tagline": "Video for agentic GTM teams",
+    "description": "Yarn lets startup teams make extraordinary content at warp speed. Feature launches, custom demos, walkthroughs, and explainers — no video experience required.",
+    "url": "https://www.yarn.so/",
+    "category": "ai",
+    "poster": "/posters/tools/yarn.webp"
   }
 ]
