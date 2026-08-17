@@ -108,5 +108,65 @@
     "url": "https://www.pilotcut.com/",
     "category": "editor",
     "poster": "/posters/tools/pilotcut.webp"
+  },
+  {
+    "id": "tool-ngram",
+    "slug": "ngram",
+    "name": "ngram",
+    "tagline": "Polished, on-brand videos for product teams",
+    "description": "Describe what you need. ngram scripts, storyboards, and produces — you review and ship. Turn docs, screenshots, and recordings into polished videos.",
+    "url": "https://www.ngram.com/",
+    "category": "ai",
+    "poster": "/posters/tools/ngram.webp"
+  },
+  {
+    "id": "tool-descript",
+    "slug": "descript",
+    "name": "Descript",
+    "tagline": "Edit video as easily as editing text",
+    "description": "Record, transcribe, edit, and publish in one tool. Descript makes editing video and audio as easy as editing text.",
+    "url": "https://www.descript.com/",
+    "category": "editor",
+    "poster": "/posters/tools/descript.webp"
+  },
+  {
+    "id": "tool-veed",
+    "slug": "veed",
+    "name": "VEED",
+    "tagline": "Create pro videos in the blink of AI",
+    "description": "Generate and edit in one workflow. Create talking heads, edit with AI, dub videos, and add subtitles — all in VEED.",
+    "url": "https://www.veed.io/",
+    "category": "editor",
+    "poster": "/posters/tools/veed.webp"
+  },
+  {
+    "id": "tool-clipchamp",
+    "slug": "clipchamp",
+    "name": "Clipchamp",
+    "tagline": "Create professional videos in the browser",
+    "description": "Microsoft's online video editor. Record, edit, and share HD videos with AI tools, templates, and royalty-free stock — no download required.",
+    "url": "https://clipchamp.com/en/",
+    "category": "editor",
+    "poster": "/posters/tools/clipchamp.webp"
+  },
+  {
+    "id": "tool-runway",
+    "slug": "runway",
+    "name": "Runway",
+    "tagline": "Generate cinematic AI video",
+    "description": "AI media platform for generating and editing video. Text-to-video, image-to-video, and a suite of generative models for product films.",
+    "url": "https://runway.com/",
+    "category": "ai",
+    "poster": "/posters/tools/runway.webp"
+  },
+  {
+    "id": "tool-fliki",
+    "slug": "fliki",
+    "name": "Fliki",
+    "tagline": "Turn text into videos with AI voices",
+    "description": "Turn text, scripts, and blog posts into videos with 2,000+ AI voices in 80+ languages. No camera or editing skills needed.",
+    "url": "https://fliki.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/fliki.webp"
   }
 ]
