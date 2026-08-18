@@ -5,7 +5,6 @@ import {
   ExternalLink,
   LogOut,
   RotateCcw,
-  Save,
   X,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -18,7 +17,12 @@ import {
   SelectItem,
   SelectTrigger,
 } from "@/components/ui/select";
-import { CATEGORIES, type CategoryId } from "@/lib/catalog";
+import {
+  CATEGORIES,
+  categoryLabel,
+  formatPublishedAt,
+  type CategoryId,
+} from "@/lib/catalog";
 import {
   filterInbox,
   type InboxFile,
@@ -40,6 +44,29 @@ interface Props {
   passwordHash: string;
   /** Dev-only open access when no password configured. */
   openAccess: boolean;
+}
+
+const FILTERS = [
+  ["pending", "Pending"],
+  ["approved", "Approved"],
+  ["rejected", "Rejected"],
+  ["all", "All"],
+] as const;
+
+function Corners() {
+  return (
+    <>
+      <span className="corner one" aria-hidden="true" />
+      <span className="corner two" aria-hidden="true" />
+      <span className="corner three" aria-hidden="true" />
+      <span className="corner four" aria-hidden="true" />
+    </>
+  );
+}
+
+function previewUrl(item: InboxItem) {
+  return item.post.media.find((media) => media.previewImageUrl)?.previewImageUrl
+    ?? null;
 }
 
 export default function AdminApp({
@@ -71,7 +98,6 @@ export default function AdminApp({
     }
   }, [openAccess, passwordHash]);
 
-  // Restore local working copy after auth
   useEffect(() => {
     if (!authed) return;
     try {
@@ -94,17 +120,18 @@ export default function AdminApp({
   );
 
   const selected =
-    items.find((item) => item.id === selectedId) ??
-    items[0] ??
-    inbox.items.find((item) => item.id === selectedId) ??
-    null;
-
+    items.find((item) => item.id === selectedId) ?? items[0] ?? null;
   useEffect(() => {
     if (!selected && items[0]) setSelectedId(items[0].id);
   }, [items, selected]);
 
   const counts = useMemo(() => {
-    const base = { pending: 0, approved: 0, rejected: 0, all: inbox.items.length };
+    const base = {
+      pending: 0,
+      approved: 0,
+      rejected: 0,
+      all: inbox.items.length,
+    };
     for (const item of inbox.items) {
       base[item.reviewStatus] += 1;
     }
@@ -157,12 +184,11 @@ export default function AdminApp({
   }
 
   function updateItem(id: string, updater: (item: InboxItem) => InboxItem) {
-    const nextItems = inbox.items.map((item) =>
-      item.id === id ? updater(item) : item,
-    );
     persist({
       updatedAt: new Date().toISOString(),
-      items: nextItems,
+      items: inbox.items.map((item) =>
+        item.id === id ? updater(item) : item,
+      ),
     });
   }
 
@@ -222,186 +248,254 @@ export default function AdminApp({
 
   if (!authed) {
     return (
-      <div className="admin-login">
-        <p className="eyebrow">Admin</p>
-        <h1>Review queue</h1>
-        <p className="admin-lead">
-          Password-protects the discovery inbox. This is a soft gate for a
-          personal static site—do not put secrets in candidate metadata.
-        </p>
-        {!passwordHash && !openAccess ? (
-          <p className="admin-banner admin-banner--warn">
-            Set <code>ADMIN_PASSWORD</code> in the environment before building
-            to enable login.
-          </p>
-        ) : null}
-        {openAccess ? (
-          <p className="admin-banner">
-            Dev open-access mode (no <code>ADMIN_PASSWORD</code>).
-          </p>
-        ) : null}
-        <form className="admin-login__form" onSubmit={onLogin}>
-          {!openAccess ? (
-            <label className="admin-field">
-              <span>Password</span>
-              <Input
-                type="password"
-                autoComplete="current-password"
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-                placeholder="Admin password"
-              />
-            </label>
+      <main className="submit-page admin-login">
+        <form className="submit-form" onSubmit={onLogin}>
+          <div className="submit-intro">
+            <p className="eyebrow">Admin</p>
+            <h1>Review the discovery inbox</h1>
+            <p className="submit-lead">
+              Password-protects the review queue. This is a soft gate for a
+              personal static site — do not put secrets in candidate metadata.
+            </p>
+          </div>
+
+          {!passwordHash && !openAccess ? (
+            <p className="admin-banner admin-banner--warn">
+              Set <code>ADMIN_PASSWORD</code> in the environment before building
+              to enable login.
+            </p>
           ) : null}
-          {authError ? <p className="admin-error">{authError}</p> : null}
-          <Button type="submit" className="admin-primary">
-            Enter admin
-          </Button>
+          {openAccess ? (
+            <p className="admin-banner">
+              Dev open-access mode (no <code>ADMIN_PASSWORD</code>).
+            </p>
+          ) : null}
+
+          <fieldset className="submit-fieldset">
+            <legend>Sign in</legend>
+            {!openAccess ? (
+              <label className="submit-field">
+                <span>Password</span>
+                <Input
+                  type="password"
+                  name="password"
+                  autoComplete="current-password"
+                  value={password}
+                  onChange={(event) => setPassword(event.target.value)}
+                  placeholder="Admin password…"
+                />
+              </label>
+            ) : null}
+            {authError ? (
+              <p className="submit-error" role="alert">
+                {authError}
+              </p>
+            ) : null}
+          </fieldset>
+
+          <div className="submit-actions">
+            <Button type="submit" className="submit-button" size="lg">
+              Enter admin
+            </Button>
+          </div>
         </form>
-      </div>
+      </main>
     );
   }
 
+  const resultLabel =
+    filter === "all"
+      ? items.length === 1
+        ? "item"
+        : "items"
+      : filter;
+
   return (
-    <div className="admin-app">
-      <header className="admin-toolbar">
-        <div>
+    <main className="admin-app">
+
+      <section className="hero admin-hero" aria-labelledby="admin-title">
+        <div className="hero__inner">
           <p className="eyebrow">Admin</p>
-          <h1>Discovery inbox</h1>
-          <p className="admin-lead">
-            {counts.pending} pending · {counts.approved} approved ·{" "}
-            {counts.rejected} rejected
-            {dirty ? " · local changes unsaved to repo" : ""}
+          <h1 id="admin-title">Discovery inbox</h1>
+          <p className="hero__copy">
+            Review auto-discovered launch films before they enter the catalog.
           </p>
         </div>
-        <div className="admin-toolbar__actions">
-          <Button type="button" variant="secondary" onClick={downloadInbox}>
-            <Download size={15} />
-            Download inbox.json
-          </Button>
-          {dirty ? (
-            <Button type="button" variant="secondary" onClick={resetLocalDraft}>
-              <RotateCcw size={15} />
-              Reset local
-            </Button>
-          ) : null}
-          {!openAccess ? (
-            <Button type="button" variant="ghost" onClick={logout}>
-              <LogOut size={15} />
-              Log out
-            </Button>
-          ) : null}
-        </div>
-      </header>
-
-      {message ? (
-        <p className="admin-banner" role="status">
-          {message}
-        </p>
-      ) : null}
-
-      <div className="admin-filters" role="group" aria-label="Review status">
-        {(
-          [
-            ["pending", "Pending"],
-            ["approved", "Approved"],
-            ["rejected", "Rejected"],
-            ["all", "All"],
-          ] as const
-        ).map(([id, label]) => (
-          <button
-            key={id}
-            type="button"
-            aria-pressed={filter === id}
-            className={filter === id ? "is-active" : ""}
-            onClick={() => setFilter(id)}
-          >
-            {label}
-            <span>{counts[id]}</span>
-          </button>
-        ))}
-      </div>
-
-      <div className="admin-layout">
-        <aside className="admin-list" aria-label="Candidates">
-          {items.length === 0 ? (
-            <p className="admin-empty">No items in this filter.</p>
-          ) : (
-            items.map((item) => {
-              const preview =
-                item.post.media.find((m) => m.previewImageUrl)?.previewImageUrl ||
-                null;
-              return (
-                <button
-                  key={item.id}
-                  type="button"
-                  className={`admin-list__item${
-                    selected?.id === item.id ? " is-selected" : ""
-                  }`}
-                  onClick={() => setSelectedId(item.id)}
-                >
-                  <div className="admin-list__thumb">
-                    {preview ? (
-                      <img src={preview} alt="" loading="lazy" />
-                    ) : (
-                      <span />
-                    )}
-                  </div>
-                  <div className="admin-list__meta">
-                    <strong>{item.draft.title}</strong>
-                    <span>
-                      {item.watchlist.company} · score {item.score}
-                    </span>
-                    <em data-status={item.reviewStatus}>{item.reviewStatus}</em>
-                  </div>
-                </button>
-              );
-            })
-          )}
-        </aside>
-
-        <section className="admin-detail">
-          {!selected ? (
-            <p className="admin-empty">Select a candidate to review.</p>
-          ) : (
-            <ItemEditor
-              key={selected.id}
-              item={selected}
-              copied={copied}
-              onPatch={(patch) =>
-                updateItem(selected.id, (item) => upsertDraftFields(item, patch))
-              }
-              onNotes={(notes) =>
-                updateItem(selected.id, (item) => ({ ...item, notes }))
-              }
-              onStatus={(status) => setStatus(selected.id, status)}
-              onCopy={() => copyDraft(selected)}
-            />
-          )}
-        </section>
-      </div>
-
-      <section className="admin-help">
-        <h2>
-          <Save size={16} /> Workflow
-        </h2>
-        <ol>
-          <li>Review pending items; edit metadata; Approve or Reject.</li>
-          <li>
-            <strong>Download inbox.json</strong> and replace{" "}
-            <code>src/data/inbox.json</code> in the repo.
-          </li>
-          <li>
-            Run <code>pnpm inbox:apply</code> to merge approved drafts into{" "}
-            <code>videos.json</code>.
-          </li>
-          <li>
-            Run <code>pnpm posters:capture</code> for new slugs, then commit &amp;
-            deploy.
-          </li>
-        </ol>
       </section>
-    </div>
+
+      <section
+        className="directory admin-directory"
+        aria-labelledby="admin-title"
+      >
+        <div className="directory-toolbar">
+          <div className="directory-controls">
+            <div className="admin-filters" role="group" aria-label="Review status">
+              {FILTERS.map(([id, label]) => (
+                <button
+                  key={id}
+                  type="button"
+                  aria-pressed={filter === id}
+                  className={filter === id ? "is-active" : ""}
+                  onClick={() => setFilter(id)}
+                >
+                  {label}
+                  <span>{counts[id]}</span>
+                </button>
+              ))}
+            </div>
+            <p className="result-count">
+              {items.length} {resultLabel}
+              {dirty ? " · unsaved" : ""}
+            </p>
+          </div>
+          <div className="admin-toolbar__actions">
+            <Button
+              type="button"
+              variant="tertiary"
+              className="admin-chrome"
+              leadingIcon={Download}
+              onClick={downloadInbox}
+            >
+              Download inbox.json
+            </Button>
+            {dirty ? (
+              <Button
+                type="button"
+                variant="tertiary"
+                className="admin-chrome"
+                leadingIcon={RotateCcw}
+                onClick={resetLocalDraft}
+              >
+                Reset local
+              </Button>
+            ) : null}
+            {!openAccess ? (
+              <Button
+                type="button"
+                variant="ghost"
+                className="admin-chrome"
+                leadingIcon={LogOut}
+                onClick={logout}
+              >
+                Log out
+              </Button>
+            ) : null}
+          </div>
+        </div>
+
+        {message ? (
+          <p className="admin-banner" role="status" aria-live="polite">
+            {message}
+          </p>
+        ) : null}
+
+        {items.length === 0 ? (
+          <div className="empty-state">
+            <Corners />
+            <h2>No items in this filter.</h2>
+            <p>
+              {filter === "all"
+                ? "The discovery inbox is empty."
+                : `No ${filter} candidates.`}
+            </p>
+            {filter !== "pending" && counts.pending > 0 ? (
+              <button type="button" onClick={() => setFilter("pending")}>
+                Show pending
+              </button>
+            ) : null}
+          </div>
+        ) : (
+          <div className="admin-workspace">
+            <aside className="admin-list" aria-label="Candidates">
+              <Corners />
+              <div className="admin-list__scroll">
+                {items.map((item) => {
+                  const preview = previewUrl(item);
+                  const isSelected = selected?.id === item.id;
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      className={`admin-list__item${isSelected ? " is-selected" : ""}`}
+                      aria-current={isSelected ? "true" : undefined}
+                      onClick={() => setSelectedId(item.id)}
+                    >
+                      <div className="admin-list__thumb">
+                        {preview ? (
+                          <img src={preview} alt="" loading="lazy" />
+                        ) : (
+                          <span aria-hidden="true" />
+                        )}
+                      </div>
+                      <div className="admin-list__meta">
+                        <strong>{item.draft.title}</strong>
+                        <span>
+                          {item.watchlist.company}
+                          <span aria-hidden="true"> · </span>
+                          {categoryLabel(item.draft.category)}
+                          <span aria-hidden="true"> · </span>
+                          {formatPublishedAt(item.discoveredAt)}
+                        </span>
+                        <em data-status={item.reviewStatus}>
+                          {item.reviewStatus}
+                          <span aria-hidden="true"> · </span>
+                          score {item.score}
+                        </em>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </aside>
+
+            <section className="admin-detail" aria-label="Candidate editor">
+              <Corners />
+              {selected ? (
+                <ItemEditor
+                  key={selected.id}
+                  item={selected}
+                  copied={copied}
+                  onPatch={(patch) =>
+                    updateItem(selected.id, (item) =>
+                      upsertDraftFields(item, patch),
+                    )
+                  }
+                  onNotes={(notes) =>
+                    updateItem(selected.id, (item) => ({ ...item, notes }))
+                  }
+                  onStatus={(status) => setStatus(selected.id, status)}
+                  onCopy={() => copyDraft(selected)}
+                />
+              ) : (
+                <div className="admin-empty">
+                  <h2>Select a candidate to review.</h2>
+                  <p>Pick an item from the queue.</p>
+                </div>
+              )}
+            </section>
+          </div>
+        )}
+
+        <section className="admin-help" aria-labelledby="admin-workflow">
+          <h2 id="admin-workflow">Workflow</h2>
+          <ol>
+            <li>Review pending items; edit metadata; Approve or Reject.</li>
+            <li>
+              <strong>Download inbox.json</strong> and replace{" "}
+              <code>src/data/inbox.json</code> in the repo.
+            </li>
+            <li>
+              Run <code>pnpm inbox:apply</code> to merge approved drafts into{" "}
+              <code>videos.json</code>.
+            </li>
+            <li>
+              Run <code>pnpm posters:capture</code> for new slugs, then commit
+              and deploy.
+            </li>
+          </ol>
+        </section>
+      </section>
+    </main>
   );
 }
 
@@ -430,35 +524,42 @@ function ItemEditor({
   onStatus: (status: ReviewStatus) => void;
   onCopy: () => void;
 }) {
-  const preview =
-    item.post.media.find((m) => m.previewImageUrl)?.previewImageUrl || null;
+  const preview = previewUrl(item);
   const tagsValue = item.draft.tags.join(", ");
 
   return (
     <div className="admin-editor">
       <div className="admin-editor__hero">
-        {preview ? <img src={preview} alt="" /> : <div className="admin-editor__hero-empty" />}
+        {preview ? (
+          <img src={preview} alt="" />
+        ) : (
+          <div className="admin-editor__hero-empty" />
+        )}
         <div>
           <p className="eyebrow">@{item.draft.authorHandle}</p>
           <h2>{item.draft.title}</h2>
           <p className="admin-editor__signals">
+            {categoryLabel(item.draft.category)}
+            <span aria-hidden="true"> · </span>
             score {item.score}
-            {item.reasons.length
-              ? ` · ${item.reasons.slice(0, 4).join(", ")}`
-              : ""}
           </p>
+          {item.reasons.length ? (
+            <p className="admin-editor__reasons">
+              {item.reasons.slice(0, 4).join(" · ")}
+            </p>
+          ) : null}
           <div className="admin-editor__links">
             <a href={item.post.tweetUrl} target="_blank" rel="noreferrer">
-              Open on X <ExternalLink size={13} />
+              Open on X <ExternalLink size={13} aria-hidden="true" />
             </a>
             {item.issueUrl ? (
               <a href={item.issueUrl} target="_blank" rel="noreferrer">
-                GitHub issue <ExternalLink size={13} />
+                GitHub issue <ExternalLink size={13} aria-hidden="true" />
               </a>
             ) : null}
             {item.draft.videoUrl ? (
               <a href={item.draft.videoUrl} target="_blank" rel="noreferrer">
-                Video URL <ExternalLink size={13} />
+                Video URL <ExternalLink size={13} aria-hidden="true" />
               </a>
             ) : null}
           </div>
@@ -466,57 +567,71 @@ function ItemEditor({
       </div>
 
       <div className="admin-editor__actions">
-        <Button type="button" onClick={() => onStatus("approved")}>
-          <Check size={15} />
+        <Button
+          type="button"
+          className="admin-chrome"
+          leadingIcon={Check}
+          onClick={() => onStatus("approved")}
+        >
           Approve
         </Button>
         <Button
           type="button"
-          variant="secondary"
+          variant="tertiary"
+          className="admin-chrome"
+          leadingIcon={X}
           onClick={() => onStatus("rejected")}
         >
-          <X size={15} />
           Reject
         </Button>
         {item.reviewStatus !== "pending" ? (
           <Button
             type="button"
             variant="ghost"
+            className="admin-chrome"
+            leadingIcon={RotateCcw}
             onClick={() => onStatus("pending")}
           >
-            <RotateCcw size={15} />
             Back to pending
           </Button>
         ) : null}
-        <Button type="button" variant="secondary" onClick={onCopy}>
-          {copied ? <Check size={15} /> : <Copy size={15} />}
+        <Button
+          type="button"
+          variant="tertiary"
+          className="admin-chrome"
+          leadingIcon={copied ? Check : Copy}
+          onClick={onCopy}
+        >
           {copied ? "Copied" : "Copy draft JSON"}
         </Button>
       </div>
 
       <div className="admin-editor__grid">
-        <label className="admin-field">
+        <label className="submit-field">
           <span>Title</span>
           <Input
+            name="title"
             value={item.draft.title}
             onChange={(event) => onPatch({ title: event.target.value })}
           />
         </label>
-        <label className="admin-field">
+        <label className="submit-field">
           <span>Product</span>
           <Input
+            name="product"
             value={item.draft.product}
             onChange={(event) => onPatch({ product: event.target.value })}
           />
         </label>
-        <label className="admin-field">
+        <label className="submit-field">
           <span>Company</span>
           <Input
+            name="company"
             value={item.draft.company}
             onChange={(event) => onPatch({ company: event.target.value })}
           />
         </label>
-        <label className="admin-field">
+        <label className="submit-field">
           <span>Category</span>
           <Select
             value={item.draft.category}
@@ -541,18 +656,20 @@ function ItemEditor({
             </SelectContent>
           </Select>
         </label>
-        <label className="admin-field admin-field--full">
+        <label className="submit-field admin-field--full">
           <span>Description</span>
           <textarea
-            className="admin-textarea"
+            className="submit-textarea"
+            name="description"
             value={item.draft.description}
             onChange={(event) => onPatch({ description: event.target.value })}
             rows={4}
           />
         </label>
-        <label className="admin-field admin-field--full">
+        <label className="submit-field admin-field--full">
           <span>Tags (comma-separated)</span>
           <Input
+            name="tags"
             value={tagsValue}
             onChange={(event) =>
               onPatch({
@@ -564,22 +681,24 @@ function ItemEditor({
             }
           />
         </label>
-        <label className="admin-field admin-field--check">
+        <label className="admin-check">
           <input
             type="checkbox"
+            name="featured"
             checked={item.draft.featured}
             onChange={(event) => onPatch({ featured: event.target.checked })}
           />
           <span>Featured on homepage</span>
         </label>
-        <label className="admin-field admin-field--full">
+        <label className="submit-field admin-field--full">
           <span>Editor notes</span>
           <textarea
-            className="admin-textarea"
+            className="submit-textarea"
+            name="notes"
             value={item.notes}
             onChange={(event) => onNotes(event.target.value)}
             rows={3}
-            placeholder="Internal notes (not published)"
+            placeholder="Internal notes (not published)…"
           />
         </label>
       </div>
