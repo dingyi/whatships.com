@@ -1,0 +1,14 @@
+src/data/tools.json
+  h_f786d994c98af1 211-220
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7b03de61fe445f95a63bf6db1c0c153f0de04d3a",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
