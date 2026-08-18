@@ -33,8 +33,10 @@ jobs:
 
       # Local playback streams are dev artifacts and blow past the Workers
       # 25 MiB per-asset cap. Production playback uses the video proxy.
-      - name: Strip local streams
-        run: rm -rf dist/streams
+      # /admin is local-only; strip if a future change ever emits it.
+      - name: Strip local artifacts
+        run: rm -rf dist/streams dist/admin
+
 
       - name: Deploy
         run: pnpm dlx wrangler deploy

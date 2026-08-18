@@ -67,7 +67,7 @@ Open `/submit/` to propose a launch. The form validates an X status URL and prod
 
 ## Weekly discovery (admin review + email)
 
-plv scans a curated X **watchlist** every week for product-launch / demo videos, then stages matches in **`src/data/inbox.json`** for review at **`/admin`**. Optional: GitHub Issues (label `discovery`) + [Resend](https://resend.com) email digests. Nothing is published without you.
+plv scans a curated X **watchlist** every week for product-launch / demo videos, then stages matches in **`src/data/inbox.json`** for review at **local `/admin`** (`pnpm dev` only — not deployed). Optional: GitHub Issues (label `discovery`) + [Resend](https://resend.com) email digests. Nothing is published without you.
 
 ```mermaid
 flowchart LR
@@ -77,14 +77,16 @@ flowchart LR
   F --> Q[inbox.json]
   F --> I[optional Issues]
   F --> E[optional email]
-  Q --> A["/admin review"]
+  Q --> A["local /admin review"]
   A --> V[videos.json via inbox:apply]
 ```
 
-### `/admin` review UI
+### Local `/admin` review UI
 
-1. Open `/admin/` (not linked in the public nav).
-2. Log in with `ADMIN_PASSWORD` (set at **build** time; see secrets below).
+The review queue is injected only by `astro dev`. Production builds do not emit `/admin` or the inbox client bundle.
+
+1. Run `pnpm dev` and open [http://localhost:4321/admin/](http://localhost:4321/admin/).
+2. Optional: set `ADMIN_PASSWORD` in `.env` to gate the local UI. With no password, dev is open-access.
 3. Edit metadata, **Approve** or **Reject**.
 4. **Download inbox.json** and replace `src/data/inbox.json` (or rely on the weekly Action commit).
 5. Run:
@@ -96,7 +98,6 @@ pnpm posters:capture
 
 Local decisions are also cached in the browser (`localStorage`) so you can continue mid-review.
 
-> Soft security: the password is hashed into the static bundle, and `inbox.json` ships with the site. Fine for a personal editorial tool; not multi-tenant auth.
 
 ### Optional GitHub Issues
 
@@ -109,7 +110,6 @@ Repo → **Settings → Secrets and variables → Actions**:
 | Secret / env | Required | Purpose |
 | --- | --- | --- |
 | `X_BEARER_TOKEN` | **Yes** for live discovery | X API v2 bearer with **read** access to user lookup + timelines |
-| `ADMIN_PASSWORD` | For `/admin` login | Build-time password for the review UI (also set in your host’s build env) |
 | `RESEND_API_KEY` | For email | Resend API key |
 | `NOTIFY_EMAIL` | For email | Your inbox (comma-separated for multiple) |
 | `DISCOVERY_FROM_EMAIL` | For email | Verified Resend sender, e.g. `plv@yourdomain.com` |
@@ -151,14 +151,15 @@ export NOTIFY_EMAIL=you@example.com
 export DISCOVERY_FROM_EMAIL=plv@yourdomain.com
 pnpm discovery -- --publish --email
 
-# After approving in /admin (and saving inbox.json):
+# After approving in local /admin (and saving inbox.json):
 pnpm inbox:apply
 pnpm posters:capture
 ```
 
 The workflow [`.github/workflows/weekly-discovery.yml`](.github/workflows/weekly-discovery.yml) runs **Mondays 15:00 UTC**, updates `src/data/inbox.json`, and can open Issues + email. Start it manually from the Actions tab when needed.
 
-If you skip Resend, enable GitHub notification emails and/or check `/admin` after each run.
+If you skip Resend, enable GitHub notification emails and/or review the inbox locally with `pnpm dev` after each run.
+
 
 ## Stack
 

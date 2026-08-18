@@ -19,7 +19,8 @@ node_modules/.bin/wrangler deploy   # manual deploy (see below)
 
 - **Every push to `main` auto-deploys** via `.github/workflows/deploy.yml`:
   build (with `PUBLIC_VIDEO_PROXY_BASE` inlined) → `rm -rf dist/streams` →
-  `wrangler deploy`. Check runs with `gh run list`.
+  `wrangler deploy`. `/admin` is not part of the production build. Check
+  runs with `gh run list`.
 - Manual deploy: `npx pnpm deploy` (same three steps). Needs
   `CLOUDFLARE_API_TOKEN` in the environment.
 - Domains: `whatships.com` + `www` serve the site; `proxy.whatships.com` is
@@ -66,8 +67,9 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
   sorts by `publishedAt` desc at runtime — file order does not matter.
 - Categories (`src/lib/catalog.ts`): `ai`, `developer-tools`, `design`,
   `motion`, `productivity`, `consumer`, `hardware`, `other`.
-- Admin review queue: `src/data/inbox.json` + `/admin`
-  (`scripts/apply-inbox.mjs` merges approved drafts).
+- Admin review queue: `src/data/inbox.json` + local-only `/admin`
+  (`pnpm dev` → http://localhost:4321/admin/; never shipped in `astro build`).
+  `scripts/apply-inbox.mjs` merges approved drafts.
 - Weekly discovery: `scripts/discovery/` + `src/data/watchlist.json`.
 - Discovery PRs sometimes rewrite `inbox.json` wholesale instead of
   appending — merging several directly drops pending candidates. Union them

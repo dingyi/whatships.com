@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /admin/
 
-# AI training crawlers opt out (search/retrieval bots stay allowed).
 User-agent: GPTBot
 Disallow: /
 
