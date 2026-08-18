@@ -208,5 +208,15 @@
     "url": "https://github.com/oil-oil/oil-motion",
     "category": "skills",
     "poster": "/posters/tools/oil-motion.webp"
+  },
+  {
+    "id": "tool-pika",
+    "slug": "pika",
+    "name": "Pika",
+    "tagline": "The idea-to-video platform",
+    "description": "The idea-to-video platform that sets your creativity in motion. Create AI videos, automate workflows, and use agents.",
+    "url": "https://pika.art/",
+    "category": "ai",
+    "poster": "/posters/tools/pika.webp"
   }
 ]
