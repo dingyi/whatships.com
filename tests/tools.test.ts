@@ -45,6 +45,7 @@ describe("tool helpers", () => {
   it("labels known categories and falls back to the raw id", () => {
     expect(toolCategoryLabel("ai")).toBe("AI");
     expect(toolCategoryLabel("mockup")).toBe("Mockup");
+    expect(toolCategoryLabel("skills")).toBe("Skills");
     expect(toolCategoryLabel("unknown" as never)).toBe("unknown");
   });
 

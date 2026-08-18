@@ -198,5 +198,15 @@
     "url": "https://chatcut.io/",
     "category": "editor",
     "poster": "/posters/tools/chatcut.webp"
+  },
+  {
+    "id": "tool-oil-motion",
+    "slug": "oil-motion",
+    "name": "Oil Motion",
+    "tagline": "Interactive web animations for agents",
+    "description": "An agent skill that designs motion, generates continuous frames, and wires the result to scroll, mouse, drag, touch, or device orientation.",
+    "url": "https://github.com/oil-oil/oil-motion",
+    "category": "skills",
+    "poster": "/posters/tools/oil-motion.webp"
   }
 ]
