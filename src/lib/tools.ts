@@ -5,7 +5,6 @@ export const TOOL_CATEGORIES = [
   { id: "editor", label: "Editor" },
   { id: "motion", label: "Motion" },
   { id: "mockup", label: "Mockup" },
-  { id: "templates", label: "Templates" },
   { id: "skills", label: "Skills" },
 ] as const;
 
