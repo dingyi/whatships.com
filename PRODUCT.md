@@ -15,8 +15,8 @@ web
 - Submitters: visitors who propose a launch video via `/submit/`; their
   proposal becomes a GitHub issue, not a published entry.
 - Editor/curator (the site owner): reviews discovery candidates and
-  submissions in `/admin`, approves/rejects, and publishes. Soft security is
-  acceptable — single-operator editorial tool, not multi-tenant.
+  submissions in local `/admin` (`pnpm dev` only), approves/rejects, and
+  publishes. The review UI is never deployed.
 
 ## Product Purpose
 
@@ -48,8 +48,8 @@ no paid placement.
   `publishedAt` desc at runtime.
 - Weekly discovery: a GitHub Action scans a curated X watchlist
   (`src/data/watchlist.json`), filters for video + launch signals, and
-  stages candidates in `src/data/inbox.json` for `/admin` review — never
-  straight to published.
+  stages candidates in `src/data/inbox.json` for local `/admin` review —
+  never straight to published.
 - Adding a video is a scripted recipe (syndication fetch → videos.json entry
   → poster capture → test/build/deploy); documented in AGENTS.md.
 - Deploys: every push to `main` auto-deploys to Cloudflare Workers static
@@ -74,8 +74,8 @@ no paid placement.
 - Every entry must link back to the original X post; an in-app embed is
   never the only path.
 - No unmoderated public write path: submissions open prefilled GitHub
-  issues; discovery candidates require human approval in `/admin` plus an
-  apply step (`pnpm inbox:apply`).
+  issues; discovery candidates require human approval in local `/admin`
+  plus an apply step (`pnpm inbox:apply`).
 - Stack: Astro (static output) + React 19 islands + Tailwind CSS 4 +
   shadcn/Base UI + Vitest, on Cloudflare Workers.
 - X API credits are depleted; new videos are fetched via the public

@@ -33,8 +33,8 @@ A watchlist post automatically pulled from X that has video media and launch-lik
 _Avoid_: auto-publishing without human review, scraping arbitrary untrusted accounts
 
 **Admin Inbox**:
-The review queue at `/admin`, backed by `src/data/inbox.json`, where editors approve/reject Discovery Candidates and edit catalog drafts.
-_Avoid_: public nav link, unauthenticated multi-tenant admin, auto-publish on approve without apply step
+The local-only review queue at `/admin` (`pnpm dev`), backed by `src/data/inbox.json`, where editors approve/reject Discovery Candidates and edit catalog drafts. It is not part of the production site.
+_Avoid_: public nav link, shipping `/admin` in `astro build`, auto-publish on approve without apply step
 
 **Watchlist**:
 The curated set of X handles (tech / AI / product companies) scanned by the weekly discovery job, stored in `src/data/watchlist.json`.
