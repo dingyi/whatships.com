@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import SiteFooter from "@/components/SiteFooter.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import {
+  TOOL_CATEGORIES,
   gridPoster,
   publishedTools,
   toolCategoryLabel,
@@ -31,6 +32,23 @@ import {
       id="directory"
       aria-labelledby="hero-title"
     >
+      <div class="tool-filters" role="radiogroup" aria-label="Filter by category">
+        {
+          [{ id: "all", label: "All" }, ...TOOL_CATEGORIES].map((item) => (
+            <label class="tool-filter" for={`tool-cat-${item.id}`}>
+              <input
+                class="tool-filter-input"
+                type="radio"
+                name="tool-cat"
+                id={`tool-cat-${item.id}`}
+                value={item.id}
+                checked={item.id === "all"}
+              />
+              {item.label}
+            </label>
+          ))
+        }
+      </div>
       <div class="video-grid">
         {
           publishedTools.map((tool, index) => {
@@ -38,12 +56,13 @@ import {
             const host = toolHost(tool.url);
             const category = toolCategoryLabel(tool.category);
             return (
-              <article class="video-card">
+              <article class="video-card" data-category={tool.category}>
                 <span class="corner one" aria-hidden="true" />
                 <span class="corner two" aria-hidden="true" />
                 <span class="corner three" aria-hidden="true" />
                 <span class="corner four" aria-hidden="true" />
                 <div class="video-card__main">
+                  <p class="video-card__kicker">{category}</p>
                   <a
                     class="video-card__media"
                     href={tool.url}
@@ -73,11 +92,7 @@ import {
                         </a>
                       </h2>
                       <p class="video-card__location">{tool.tagline}</p>
-                      <p class="video-card__meta">
-                        {category}
-                        <span aria-hidden="true"> · </span>
-                        {host}
-                      </p>
+                      <p class="video-card__meta">{host}</p>
                     </div>
                   </div>
                 </div>
@@ -114,3 +129,101 @@ import {
   </main>
   <SiteFooter />
 </BaseLayout>
+
+<style>
+  .tool-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 16px;
+  }
+  .tool-filter-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+  .tool-filter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 0 10px;
+    border: 0.5px solid var(--grid-line);
+    border-radius: 0;
+    background: var(--card);
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .tool-filter:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .tool-filter:has(.tool-filter-input:checked) {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
+  .tool-filter:has(.tool-filter-input:focus-visible) {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .video-card__kicker {
+    margin: 0 0 8px;
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .directory .video-card__external {
+    top: 46px;
+  }
+  @media (max-width: 699px) {
+    .tool-filter {
+      min-height: 44px;
+      padding: 0 12px;
+    }
+  }
+  .directory:has(#tool-cat-ai:checked) .video-card:not([data-category="ai"]),
+  .directory:has(#tool-cat-editor:checked) .video-card:not([data-category="editor"]),
+  .directory:has(#tool-cat-motion:checked) .video-card:not([data-category="motion"]),
+  .directory:has(#tool-cat-mockup:checked) .video-card:not([data-category="mockup"]),
+  .directory:has(#tool-cat-templates:checked) .video-card:not([data-category="templates"]),
+  .directory:has(#tool-cat-skills:checked) .video-card:not([data-category="skills"]) {
+    display: none;
+  }
+</style>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const category = params.get("category");
+  if (category) {
+    const selected = document.getElementById(`tool-cat-${category}`);
+    if (selected instanceof HTMLInputElement) selected.checked = true;
+  }
+
+  document.querySelectorAll<HTMLInputElement>('input[name="tool-cat"]').forEach((input) => {
+    input.addEventListener("change", () => {
+      if (!input.checked) return;
+      const url = new URL(window.location.href);
+      if (input.value === "all") url.searchParams.delete("category");
+      else url.searchParams.set("category", input.value);
+      history.replaceState(null, "", url);
+    });
+  });
+</script>
