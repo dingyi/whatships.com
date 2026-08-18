@@ -349,25 +349,24 @@ export default function AdminApp({
             </p>
           </div>
           <div className="admin-toolbar__actions">
-            <Button
+            <button
               type="button"
-              variant="tertiary"
-              className="admin-chrome"
-              leadingIcon={Download}
+              className={`admin-download${dirty ? " is-dirty" : ""}`}
               onClick={downloadInbox}
+              aria-label="Download inbox.json"
             >
-              Download inbox.json
-            </Button>
+              <Download size={15} strokeWidth={1.8} aria-hidden="true" />
+              <span>Download inbox</span>
+              <kbd>.json</kbd>
+            </button>
             {dirty ? (
-              <Button
+              <button
                 type="button"
-                variant="tertiary"
-                className="admin-chrome"
-                leadingIcon={RotateCcw}
+                className="admin-reset"
                 onClick={resetLocalDraft}
               >
                 Reset local
-              </Button>
+              </button>
             ) : null}
             {!openAccess ? (
               <Button
