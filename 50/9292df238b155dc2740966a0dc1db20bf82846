@@ -1,0 +1,16 @@
+src/components/AdminApp.tsx
+  h_f786d994c98af1 352,354,356,358-361,363,365,369
+src/styles/global.css
+  h_f786d994c98af1 2330,2333-2403,2775-2784
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "509292df238b155dc2740966a0dc1db20bf82846",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
