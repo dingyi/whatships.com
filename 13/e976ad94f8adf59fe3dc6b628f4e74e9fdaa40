@@ -1,0 +1,20 @@
+src/data/tools.json
+  h_f786d994c98af1 201-210
+src/lib/tools.ts
+  h_f786d994c98af1 9
+src/pages/tools.astro
+  h_f786d994c98af1 6,35-51,59,65,95,132-229
+tests/tools.test.ts
+  h_f786d994c98af1 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "13e976ad94f8adf59fe3dc6b628f4e74e9fdaa40",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
