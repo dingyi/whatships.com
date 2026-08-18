@@ -1,5 +1,7 @@
 ---
 import AdminApp from "@/components/AdminApp";
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import inboxData from "@/data/inbox.json";
 import { normalizeInbox, sha256Hex } from "@/lib/inbox";
@@ -15,12 +17,12 @@ const openAccess = import.meta.env.DEV && !rawPassword;
   description="Private review queue for auto-discovered launch videos."
 >
   <meta slot="head" name="robots" content="noindex, nofollow" />
-  <main class="admin-page">
-    <AdminApp
-      client:load
-      initialInbox={inbox}
-      passwordHash={passwordHash}
-      openAccess={openAccess}
-    />
-  </main>
+  <PageHeader client:load />
+  <AdminApp
+    client:load
+    initialInbox={inbox}
+    passwordHash={passwordHash}
+    openAccess={openAccess}
+  />
+  <SiteFooter />
 </BaseLayout>
