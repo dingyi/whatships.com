@@ -33412,5 +33412,31 @@
     "durationSeconds": 20,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-open-analytics",
+    "slug": "open-analytics",
+    "title": "Open Analytics — open-source web analytics you own",
+    "product": "Open Analytics",
+    "company": "Open Analytics",
+    "description": "An open-source, AI-native, privacy-first web analytics platform for traffic and revenue — on infrastructure you own, or hosted for you. Built to replace Google Analytics.",
+    "category": "developer-tools",
+    "tags": [
+      "analytics",
+      "open-source",
+      "privacy",
+      "ai"
+    ],
+    "tweetUrl": "https://x.com/uaghazadae/status/2087580062593823004",
+    "tweetId": "2087580062593823004",
+    "authorName": "uaghazada",
+    "authorHandle": "uaghazadae",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2084071617668292608/uzTw46Xl.jpg",
+    "poster": "/posters/open-analytics.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2087579319660843008/vid/avc1/1920x1080/r3RwxW9usEzFlhes.mp4",
+    "publishedAt": "2026-08-12T16:40:46.000Z",
+    "durationSeconds": 21,
+    "featured": false,
+    "status": "published"
   }
 ]
