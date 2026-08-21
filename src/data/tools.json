@@ -228,5 +228,35 @@
     "url": "https://motion.so/",
     "category": "motion",
     "poster": "/posters/tools/motion.webp"
+  },
+  {
+    "id": "tool-cybercut",
+    "slug": "cybercut",
+    "name": "CyberCut",
+    "tagline": "Let everyone easily create viral videos",
+    "description": "AI video editor that turns long footage into viral shorts. Chat to edit, generate from a script, and add captions, effects, and music in one click.",
+    "url": "https://cybercut.ai/",
+    "category": "editor",
+    "poster": "/posters/tools/cybercut.webp"
+  },
+  {
+    "id": "tool-shotbase",
+    "slug": "shotbase",
+    "name": "Shotbase",
+    "tagline": "Capture, record, edit, and share in one place",
+    "description": "A modern screen capture workspace for macOS. Capture, edit, organize, and share screenshots and recordings from one fast, streamlined workflow.",
+    "url": "https://shotbase.com/",
+    "category": "editor",
+    "poster": "/posters/tools/shotbase.webp"
+  },
+  {
+    "id": "tool-anim8",
+    "slug": "anim8",
+    "name": "Anim8",
+    "tagline": "Make ideas move",
+    "description": "A browser-based motion design editor. Editable keyframes, multi-frame projects, Figma Motion imports, plus MP4, SVG, and Lottie export.",
+    "url": "https://www.tryanim8.com/",
+    "category": "motion",
+    "poster": "/posters/tools/anim8.webp"
   }
 ]
