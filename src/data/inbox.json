@@ -1,6 +1,676 @@
 {
-  "updatedAt": "2026-08-20T10:43:12.720Z",
+  "updatedAt": "2026-08-21T02:23:24.895Z",
   "items": [
+    {
+      "id": "disc-2090590073540481107",
+      "tweetId": "2090590073540481107",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:24.895Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2090590073540481107",
+        "tweetUrl": "https://x.com/weberwongwong/status/2090590073540481107",
+        "authorHandle": "weberwongwong",
+        "authorName": "weber",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1641189380714016774/56toQXnG.jpg",
+        "text": "agents now live on the canvas https://t.co/SlOC2Wzg5e",
+        "createdAt": "2026-08-21T00:01:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090588730029428736/vid/avc1/1666x1080/fj9WvkL7tf7QQFoz.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090588730029428736/img/GMwUHq_jg6SUfGw0.jpg",
+            "durationMs": 51433
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "weberwongwong",
+        "company": "weber",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090590073540481107",
+        "slug": "weber-481107",
+        "title": "agents now live on the canvas",
+        "product": "weber",
+        "company": "weber",
+        "description": "agents now live on the canvas",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/weberwongwong/status/2090590073540481107",
+        "tweetId": "2090590073540481107",
+        "authorName": "weber",
+        "authorHandle": "weberwongwong",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1641189380714016774/56toQXnG.jpg",
+        "poster": "/posters/weber-481107.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090588730029428736/vid/avc1/1666x1080/fj9WvkL7tf7QQFoz.mp4",
+        "publishedAt": "2026-08-21T00:01:29.000Z",
+        "durationSeconds": 51,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090563237758521387",
+      "tweetId": "2090563237758521387",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:24.567Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2090563237758521387",
+        "tweetUrl": "https://x.com/zora/status/2090563237758521387",
+        "authorHandle": "zora",
+        "authorName": "Zora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2031161087220146176/Tcp7O7yC.jpg",
+        "text": "Custom pairs are now live on Zora 👇\n\nCreate and trade new tokens paired with anything from memes, majors, and tokenized stocks.\n\nMultichain issuance and crosschain trading available across Solana, Robinhood, and Base.\n\nCreate your custom pairs at https://t.co/n3m9UWZzz2. https://t.co/my9VWNZxhJ",
+        "createdAt": "2026-08-20T22:14:51.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090562439397933056/vid/avc1/1920x1080/6y7_Z1qDq28gaNVv.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090562439397933056/img/VDqOAVlMdKv72KQ_.jpg",
+            "durationMs": 18040
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "zora",
+        "company": "Zora",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090563237758521387",
+        "slug": "zora-521387",
+        "title": "Custom pairs are now live on Zora 👇 Create and trade new tokens paired with anything from memes,…",
+        "product": "Zora",
+        "company": "Zora",
+        "description": "Custom pairs are now live on Zora 👇 Create and trade new tokens paired with anything from memes, majors, and tokenized stocks. Multichain issuance and crosschain trading available across Solana, Robinhood, and Base. Create your custom pairs at",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/zora/status/2090563237758521387",
+        "tweetId": "2090563237758521387",
+        "authorName": "Zora",
+        "authorHandle": "zora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2031161087220146176/Tcp7O7yC.jpg",
+        "poster": "/posters/zora-521387.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090562439397933056/vid/avc1/1920x1080/6y7_Z1qDq28gaNVv.mp4",
+        "publishedAt": "2026-08-20T22:14:51.000Z",
+        "durationSeconds": 18,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090564763830911160",
+      "tweetId": "2090564763830911160",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:24.230Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2090564763830911160",
+        "tweetUrl": "https://x.com/galfrevn/status/2090564763830911160",
+        "authorHandle": "galfrevn",
+        "authorName": "Valentín Galfré",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1921976015137427456/IG_0WWnA.jpg",
+        "text": "Introducing: reel 📽️\n\nyour terminal demo, edited like video.\n \nthis is a real claude code session. i asked my agent for a demo. it recorded once, sped up the waits, added captions, re-rendered in milliseconds \n\none rust binary. no ttyd, no ffmpeg.\n\nhttps://t.co/aTAN3QfSe7 https://t.co/PHtGqf3XER",
+        "createdAt": "2026-08-20T22:20:55.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090561937738280960/vid/avc1/1920x1080/d6YJlS5XueAlmn3w.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090561937738280960/img/ZUdgpCumdrwavg7s.jpg",
+            "durationMs": 19737
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "galfrevn",
+        "company": "Valentín Galfré",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090564763830911160",
+        "slug": "valentin-galfre-911160",
+        "title": "Introducing: reel 📽️ your terminal demo, edited like video. this is a real claude code session.…",
+        "product": "Valentín Galfré",
+        "company": "Valentín Galfré",
+        "description": "Introducing: reel 📽️ your terminal demo, edited like video. this is a real claude code session. i asked my agent for a demo. it recorded once, sped up the waits, added captions, re-rendered in milliseconds one rust binary. no ttyd, no ffmpeg.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/galfrevn/status/2090564763830911160",
+        "tweetId": "2090564763830911160",
+        "authorName": "Valentín Galfré",
+        "authorHandle": "galfrevn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1921976015137427456/IG_0WWnA.jpg",
+        "poster": "/posters/valentin-galfre-911160.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090561937738280960/vid/avc1/1920x1080/d6YJlS5XueAlmn3w.mp4",
+        "publishedAt": "2026-08-20T22:20:55.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090539558647500801",
+      "tweetId": "2090539558647500801",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:23.904Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2090539558647500801",
+        "tweetUrl": "https://x.com/rameez_rishard/status/2090539558647500801",
+        "authorHandle": "rameez_rishard",
+        "authorName": "Rishard Rameez",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1961275428145950720/Hll_SNZE.jpg",
+        "text": "Introducing Zown.\n\nThe only real estate platform where you can buy, sell, and rent.\n\nYou get up to $25K back at closing when you buy with Zown.\n\nNow available in ON, AB, BC, California and Texas. https://t.co/PJT4nFioye",
+        "createdAt": "2026-08-20T20:40:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090533398515228672/vid/avc1/1440x1080/JeE3aRPTxz7bNnTT.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090533398515228672/img/gIlU9zi06aEUqQF2.jpg",
+            "durationMs": 126251
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "rameez_rishard",
+        "company": "Rishard Rameez",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090539558647500801",
+        "slug": "rishard-rameez-500801",
+        "title": "Introducing Zown. The only real estate platform where you can buy, sell, and rent. You get up to…",
+        "product": "Rishard Rameez",
+        "company": "Rishard Rameez",
+        "description": "Introducing Zown. The only real estate platform where you can buy, sell, and rent. You get up to $25K back at closing when you buy with Zown. Now available in ON, AB, BC, California and Texas.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/rameez_rishard/status/2090539558647500801",
+        "tweetId": "2090539558647500801",
+        "authorName": "Rishard Rameez",
+        "authorHandle": "rameez_rishard",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1961275428145950720/Hll_SNZE.jpg",
+        "poster": "/posters/rishard-rameez-500801.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090533398515228672/vid/avc1/1440x1080/JeE3aRPTxz7bNnTT.mp4",
+        "publishedAt": "2026-08-20T20:40:45.000Z",
+        "durationSeconds": 126,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090530141026107474",
+      "tweetId": "2090530141026107474",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:23.567Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2090530141026107474",
+        "tweetUrl": "https://x.com/sarooshkhan98/status/2090530141026107474",
+        "authorHandle": "sarooshkhan98",
+        "authorName": "Saroosh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1954621475714998273/tM1mjCtC.jpg",
+        "text": "Today we're launching the first AI-native mental health medical group.\n\n600 clinicians. 70 locations. Live in all 50 states.\n\nBuilt on the platform 1 in 80 US mental health clinicians already use every day.\n\nIntroducing Allia → https://t.co/VVXuJVi1fd https://t.co/UKYNsmJ77Q",
+        "createdAt": "2026-08-20T20:03:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090528705307430913/vid/avc1/3840x2160/koE9nWxsBgBJL0lr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090528705307430913/img/m1LMV_n-V_A_VC6f.jpg",
+            "durationMs": 111010
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "sarooshkhan98",
+        "company": "Saroosh",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090530141026107474",
+        "slug": "saroosh-107474",
+        "title": "Today we're launching the first AI-native mental health medical group. 600 clinicians. 70 locatio…",
+        "product": "Saroosh",
+        "company": "Saroosh",
+        "description": "Today we're launching the first AI-native mental health medical group. 600 clinicians. 70 locations. Live in all 50 states. Built on the platform 1 in 80 US mental health clinicians already use every day. Introducing Allia →",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/sarooshkhan98/status/2090530141026107474",
+        "tweetId": "2090530141026107474",
+        "authorName": "Saroosh",
+        "authorHandle": "sarooshkhan98",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1954621475714998273/tM1mjCtC.jpg",
+        "poster": "/posters/saroosh-107474.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090528705307430913/vid/avc1/3840x2160/koE9nWxsBgBJL0lr.mp4",
+        "publishedAt": "2026-08-20T20:03:20.000Z",
+        "durationSeconds": 111,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090557486348763198",
+      "tweetId": "2090557486348763198",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:23.228Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2090557486348763198",
+        "tweetUrl": "https://x.com/Hongyu_Lii/status/2090557486348763198",
+        "authorHandle": "Hongyu_Lii",
+        "authorName": "Hongyu Li",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1909077437834514432/AVeS3oCc.jpg",
+        "text": "What if robots, humans, and video models could all describe action in the same language? Introducing Hydra-0🐍: a generalist world model that represents robot actions as action flow. One interface. Many embodiments, tasks, and environments.\n🧵1/7 https://t.co/JwM6zLoUVn",
+        "createdAt": "2026-08-20T21:52:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090553536807636992/vid/avc1/1280x720/fqFLYZffppYI4fFO.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090553536807636992/img/GQ71UPyNBrI5FiVp.jpg",
+            "durationMs": 111766
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Hongyu_Lii",
+        "company": "Hongyu Li",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090557486348763198",
+        "slug": "hongyu-li-763198",
+        "title": "What if robots, humans, and video models could all describe action in the same language? Introduc…",
+        "product": "Hongyu Li",
+        "company": "Hongyu Li",
+        "description": "What if robots, humans, and video models could all describe action in the same language? Introducing Hydra-0🐍: a generalist world model that represents robot actions as action flow. One interface. Many embodiments, tasks, and environments. 🧵1/7",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Hongyu_Lii/status/2090557486348763198",
+        "tweetId": "2090557486348763198",
+        "authorName": "Hongyu Li",
+        "authorHandle": "Hongyu_Lii",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1909077437834514432/AVeS3oCc.jpg",
+        "poster": "/posters/hongyu-li-763198.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090553536807636992/vid/avc1/1280x720/fqFLYZffppYI4fFO.mp4",
+        "publishedAt": "2026-08-20T21:52:00.000Z",
+        "durationSeconds": 112,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090485855395738077",
+      "tweetId": "2090485855395738077",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:22.889Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2090485855395738077",
+        "tweetUrl": "https://x.com/linear/status/2090485855395738077",
+        "authorHandle": "linear",
+        "authorName": "Linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "text": "Linear's coding sessions now supports custom environments and browser use for testing and screenshots.\n\nConfigure runtimes automatically with agent, and setup necessary scripts and env vars. https://t.co/OxC43U0A2U",
+        "createdAt": "2026-08-20T17:07:21.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090485590437310464/vid/avc1/2880x2160/n2aE78f-Ib9KOQZM.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090485590437310464/img/2VvD9H6DArhUFK_8.jpg",
+            "durationMs": 17150
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "linear",
+        "company": "Linear",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2090485855395738077",
+        "slug": "linear-738077",
+        "title": "Linear's coding sessions now supports custom environments and browser use for testing and screens…",
+        "product": "Linear",
+        "company": "Linear",
+        "description": "Linear's coding sessions now supports custom environments and browser use for testing and screenshots. Configure runtimes automatically with agent, and setup necessary scripts and env vars.",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/linear/status/2090485855395738077",
+        "tweetId": "2090485855395738077",
+        "authorName": "Linear",
+        "authorHandle": "linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "poster": "/posters/linear-738077.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090485590437310464/vid/avc1/2880x2160/n2aE78f-Ib9KOQZM.mp4",
+        "publishedAt": "2026-08-20T17:07:21.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090500028393726026",
+      "tweetId": "2090500028393726026",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:22.562Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2090500028393726026",
+        "tweetUrl": "https://x.com/NotionHQ/status/2090500028393726026",
+        "authorHandle": "NotionHQ",
+        "authorName": "Notion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "text": "Skills for your whole team are here.\n\nMost agents start from scratch. Skills teach them how your team already works.\n\nAsk your Notion Agent to turn your team’s best work into a skill… then share it, let your agent load it automatically, or use it with your local agents. https://t.co/bw2igoLRNY",
+        "createdAt": "2026-08-20T18:03:41.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090498896854458368/vid/avc1/1920x1080/YEFDb-i00dh3uWV7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090498896854458368/img/NBs84H16ARIfmo_K.jpg",
+            "durationMs": 36736
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NotionHQ",
+        "company": "Notion",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2090500028393726026",
+        "slug": "notion-726026",
+        "title": "Skills for your whole team are here. Most agents start from scratch. Skills teach them how your t…",
+        "product": "Notion",
+        "company": "Notion",
+        "description": "Skills for your whole team are here. Most agents start from scratch. Skills teach them how your team already works. Ask your Notion Agent to turn your team’s best work into a skill… then share it, let your agent load it automatically, or use it with your local agents.",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NotionHQ/status/2090500028393726026",
+        "tweetId": "2090500028393726026",
+        "authorName": "Notion",
+        "authorHandle": "NotionHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "poster": "/posters/notion-726026.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090498896854458368/vid/avc1/1920x1080/YEFDb-i00dh3uWV7.mp4",
+        "publishedAt": "2026-08-20T18:03:41.000Z",
+        "durationSeconds": 37,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090536933571330440",
+      "tweetId": "2090536933571330440",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:22.231Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2090536933571330440",
+        "tweetUrl": "https://x.com/OpenAIDevs/status/2090536933571330440",
+        "authorHandle": "OpenAIDevs",
+        "authorName": "OpenAI Developers",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt.jpg",
+        "text": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API.\n\nGenerate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns. https://t.co/yRhBIYh8uP",
+        "createdAt": "2026-08-20T20:30:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090536890466525184/vid/avc1/1280x720/yVo8c6WU4aChP9fG.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/media/HQMVJ0_WgAAoq7L.jpg",
+            "durationMs": 28611
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAIDevs",
+        "company": "OpenAI Developers",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090536933571330440",
+        "slug": "openai-developers-330440",
+        "title": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API. Generate reusabl…",
+        "product": "OpenAI Developers",
+        "company": "OpenAI Developers",
+        "description": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API. Generate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpenAIDevs/status/2090536933571330440",
+        "tweetId": "2090536933571330440",
+        "authorName": "OpenAI Developers",
+        "authorHandle": "OpenAIDevs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt.jpg",
+        "poster": "/posters/openai-developers-330440.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090536890466525184/vid/avc1/1280x720/yVo8c6WU4aChP9fG.mp4?tag=14",
+        "publishedAt": "2026-08-20T20:30:19.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090500256190603636",
+      "tweetId": "2090500256190603636",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:21.887Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2090500256190603636",
+        "tweetUrl": "https://x.com/splinetool/status/2090500256190603636",
+        "authorHandle": "splinetool",
+        "authorName": "Spline",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1583261404001435648/oL_UX6EJ.jpg",
+        "text": "Introducing Spline V2, a complete rebuild of our 3d editor for the agentic era.\n\n- New UI\n- AI Agent Mode and Spline MCP\n- Faster WebGPU engine\n- PBR/HDR workflows\n- Custom Code/Scripting\n- and more! https://t.co/7DzdvpqiFO",
+        "createdAt": "2026-08-20T18:04:35.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090459598633480192/vid/avc1/3840x2160/58OvrDadeMwcsX98.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090459598633480192/img/EizUN61dJv6T4CZW.jpg",
+            "durationMs": 57470
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "splinetool",
+        "company": "Spline",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090500256190603636",
+        "slug": "spline-603636",
+        "title": "Introducing Spline V2, a complete rebuild of our 3d editor for the agentic era. - New UI - AI Age…",
+        "product": "Spline",
+        "company": "Spline",
+        "description": "Introducing Spline V2, a complete rebuild of our 3d editor for the agentic era. - New UI - AI Agent Mode and Spline MCP - Faster WebGPU engine - PBR/HDR workflows - Custom Code/Scripting - and more!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/splinetool/status/2090500256190603636",
+        "tweetId": "2090500256190603636",
+        "authorName": "Spline",
+        "authorHandle": "splinetool",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1583261404001435648/oL_UX6EJ.jpg",
+        "poster": "/posters/spline-603636.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090459598633480192/vid/avc1/3840x2160/58OvrDadeMwcsX98.mp4",
+        "publishedAt": "2026-08-20T18:04:35.000Z",
+        "durationSeconds": 57,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090518650251804742",
+      "tweetId": "2090518650251804742",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-21T02:23:21.553Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2090518650251804742",
+        "tweetUrl": "https://x.com/claudeai/status/2090518650251804742",
+        "authorHandle": "claudeai",
+        "authorName": "Claude",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
+        "text": "Claude Academy is now live.\n\nWhether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at https://t.co/WRiSRAvK6l https://t.co/llx2W0VIIy",
+        "createdAt": "2026-08-20T19:17:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1920x1080/FwW9ptzVvoBMXvby.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg",
+            "durationMs": 34041
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "claudeai",
+        "company": "Claude",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090518650251804742",
+        "slug": "claude-804742",
+        "title": "Claude Academy is now live. Whether you're figuring out what AI is or already using Claude every…",
+        "product": "Claude",
+        "company": "Claude",
+        "description": "Claude Academy is now live. Whether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/claudeai/status/2090518650251804742",
+        "tweetId": "2090518650251804742",
+        "authorName": "Claude",
+        "authorHandle": "claudeai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
+        "poster": "/posters/claude-804742.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1920x1080/FwW9ptzVvoBMXvby.mp4",
+        "publishedAt": "2026-08-20T19:17:40.000Z",
+        "durationSeconds": 34,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2089500670944497866",
       "tweetId": "2089500670944497866",
