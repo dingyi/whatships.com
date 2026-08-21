@@ -33796,5 +33796,57 @@
     "durationSeconds": 14,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-apodex-traces",
+    "slug": "apodex-traces",
+    "title": "TRACES — a benchmark for discoverative AI",
+    "product": "TRACES",
+    "company": "Apodex",
+    "description": "TRACES is a benchmark for discoverative AI: systems that earn answers nobody has yet, instead of retrieving a known one.",
+    "category": "ai",
+    "tags": [
+      "apodex",
+      "traces",
+      "benchmark",
+      "research"
+    ],
+    "tweetUrl": "https://x.com/Apodex_AI/status/2090126841478811789",
+    "tweetId": "2090126841478811789",
+    "authorName": "Apodex",
+    "authorHandle": "Apodex_AI",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2059991237273501696/HS3UBNas.jpg",
+    "poster": "/posters/apodex-traces.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090126038697492480/vid/avc1/1920x1080/ViRcdAfWDv8NkCKV.mp4",
+    "publishedAt": "2026-08-19T17:20:46.000Z",
+    "durationSeconds": 78,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-hycreator",
+    "slug": "hycreator",
+    "title": "HyCreator — agent harness for long video",
+    "product": "HyCreator",
+    "company": "Tencent",
+    "description": "HyCreator is an agent harness for long video generation: end-to-end auto mode for 10-minute-scale films with zero human intervention, plus real-time interactive editing. Early access at hycreator.tencent.com.",
+    "category": "ai",
+    "tags": [
+      "hycreator",
+      "tencent",
+      "video",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/TianyuPang1/status/2090439771634250009",
+    "tweetId": "2090439771634250009",
+    "authorName": "Tianyu Pang",
+    "authorHandle": "TianyuPang1",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1745476062237405184/-fVx6sn-.jpg",
+    "poster": "/posters/hycreator.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090439577161039872/vid/avc1/1920x1080/1QMvdnzN9Xt60Jik.mp4",
+    "publishedAt": "2026-08-20T14:04:14.000Z",
+    "durationSeconds": 241,
+    "featured": false,
+    "status": "published"
   }
 ]
