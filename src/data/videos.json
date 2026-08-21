@@ -34003,5 +34003,31 @@
     "durationSeconds": 35,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-cmf-buds-neo",
+    "slug": "cmf-buds-neo",
+    "title": "CMF Buds Neo — pretty perfect",
+    "product": "Buds Neo",
+    "company": "CMF by Nothing",
+    "description": "CMF by Nothing introduces Buds Neo.",
+    "category": "hardware",
+    "tags": [
+      "cmf",
+      "nothing",
+      "buds",
+      "audio"
+    ],
+    "tweetUrl": "https://x.com/cmfbynothing/status/2090325459590578572",
+    "tweetId": "2090325459590578572",
+    "authorName": "CMF by Nothing",
+    "authorHandle": "cmfbynothing",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1809267552389902336/yEm_aue9.jpg",
+    "poster": "/posters/cmf-buds-neo.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090069167915573248/vid/avc1/3840x2160/reAFYq1-F7fXsDQY.mp4",
+    "publishedAt": "2026-08-20T06:30:00.000Z",
+    "durationSeconds": 31,
+    "featured": false,
+    "status": "published"
   }
 ]
