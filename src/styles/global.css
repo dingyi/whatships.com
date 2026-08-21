@@ -467,6 +467,7 @@ img {
 }
 .site-nav {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   min-height: 56px;
@@ -571,8 +572,9 @@ img {
 }
 .mobile-nav {
   position: absolute;
-  top: 52px;
+  top: calc(100% + 4px);
   right: 0;
+  z-index: 40;
   display: grid;
   min-width: 190px;
   overflow: hidden;
@@ -1038,9 +1040,11 @@ img {
 }
 
 .search-dialog {
-  /* Fluid Dialog centers via framer-motion x/y; widen for the search palette */
-  width: min(628px, calc(100vw - 32px)) !important;
+  /* Fluid Dialog centers via motion x/y; widen for the search palette.
+     100% (not 100vw) so scrollbar-gutter never overflows the viewport. */
+  width: min(628px, calc(100% - 32px)) !important;
   max-width: none !important;
+  max-height: calc(100dvh - 16px);
   overflow: hidden;
   padding: 0 !important;
   border-radius: 16px !important;
@@ -1074,6 +1078,9 @@ img {
   color: var(--muted-foreground);
   font-size: 11px;
   cursor: pointer;
+}
+.search-escape__close {
+  display: none;
 }
 .video-search {
   min-width: 0;
@@ -1138,10 +1145,11 @@ img {
 }
 .footer-nav {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 18px;
   align-items: center;
   justify-content: center;
-  gap: 7px;
+  gap: 4px 7px;
 }
 .footer-nav a,
 .footer-nav button {
@@ -1362,10 +1370,10 @@ img {
 }
 .similar-videos {
   width: 100%;
-  max-width: 1920px;
   margin: clamp(96px, 11vw, 144px) auto 0;
-  padding: 32px 16px 0;
+  padding: 32px 0 0;
   box-sizing: border-box;
+  scroll-margin-top: 72px;
 }
 .similar-videos h2 {
   max-width: 760px;
@@ -1376,10 +1384,7 @@ img {
   line-height: 20px;
   text-wrap: balance;
 }
-.similar-videos__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-  gap: 0;
+.similar-videos .video-grid {
   margin-top: 24px;
 }
 
@@ -1404,16 +1409,12 @@ img {
   .mobile-menu-button {
     display: grid;
   }
-  .mobile-nav {
-    top: 48px;
-    right: 0;
-  }
   .hero {
     min-height: 379px;
     padding: 104px 16px 40px;
   }
   .hero h1 {
-    font-size: 36px;
+    font-size: clamp(28px, 8vw, 36px);
     line-height: 1.1;
   }
   .hero__copy {
@@ -1436,9 +1437,14 @@ img {
     min-width: 0;
     gap: 8px;
   }
-  .category-select {
-    min-width: 0;
+  /* SelectTrigger wraps the button in a content-sized div — stretch that. */
+  .directory-controls > div {
     flex: 1 1 auto;
+    min-width: 0;
+  }
+  .category-select {
+    width: 100%;
+    min-width: 0;
   }
   .directory-search {
     width: 36px;
@@ -1464,8 +1470,15 @@ img {
     padding: 0 8px 28px;
   }
   .search-dialog {
-    top: 8px !important;
-    width: calc(100vw - 16px) !important;
+    /* Motion still applies y: -50%. The CSS `translate` property composes
+       with `transform` and cancels that shift so `top` is the visual top. */
+    top: max(8px, env(safe-area-inset-top, 0px)) !important;
+    width: calc(100% - 16px) !important;
+    translate: 0 50%;
+    max-height: calc(100dvh - 16px);
+  }
+  .search-results {
+    max-height: min(460px, calc(100dvh - 110px));
   }
   .about-page {
     padding: 48px 16px 30px;
@@ -1503,12 +1516,7 @@ img {
   }
   .similar-videos {
     margin-top: 80px;
-    padding: 24px 16px 0;
-  }
-  .similar-videos__grid {
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin-top: 24px;
+    padding: 24px 0 0;
   }
 }
 
@@ -1520,6 +1528,12 @@ img {
   /* No Esc key on touch devices — drop the hint kbd */
   .detail-close kbd {
     display: none;
+  }
+  .search-escape__kbd {
+    display: none;
+  }
+  .search-escape__close {
+    display: inline;
   }
 }
 

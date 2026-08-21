@@ -99,7 +99,8 @@ export default function VideoSearch({
             onClick={onClose}
             aria-label="Close search"
           >
-            Esc
+            <span className="search-escape__kbd">Esc</span>
+            <span className="search-escape__close">Close</span>
           </button>
         )}
       </div>
