@@ -33978,5 +33978,30 @@
     "durationSeconds": 87,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-axiom-partner-program",
+    "slug": "axiom-partner-program",
+    "title": "Axiom Partner Program — earn 5% for 12 months",
+    "product": "Axiom Partner Program",
+    "company": "Axiom",
+    "description": "Axiom launches a partner program: partners earn 5% of a referred customer’s eligible revenue for 12 months from the first paid invoice.",
+    "category": "developer-tools",
+    "tags": [
+      "axiom",
+      "partners",
+      "observability"
+    ],
+    "tweetUrl": "https://x.com/axiomhq/status/2090798520836227539",
+    "tweetId": "2090798520836227539",
+    "authorName": "Axiom",
+    "authorHandle": "axiomhq",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1734051373921210368/oTvvFIvI.jpg",
+    "poster": "/posters/axiom-partner-program.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090798500082860032/vid/avc1/1280x720/MEmiEDOTwyXpb_Of.mp4?tag=14",
+    "publishedAt": "2026-08-21T13:49:47.000Z",
+    "durationSeconds": 35,
+    "featured": false,
+    "status": "published"
   }
 ]
