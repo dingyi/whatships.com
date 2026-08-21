@@ -34029,5 +34029,31 @@
     "durationSeconds": 31,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-onecli",
+    "slug": "onecli",
+    "title": "OneCLI — open-source pro assistant for teams",
+    "product": "OneCLI",
+    "company": "OneCLI",
+    "description": "OneCLI (YC26) is an open-source pro assistant for teams: identity-provider integration, a sandboxed personal agent with human-in-the-loop approvals. It runs with your access and never holds your keys.",
+    "category": "developer-tools",
+    "tags": [
+      "onecli",
+      "agents",
+      "open-source",
+      "yc"
+    ],
+    "tweetUrl": "https://x.com/jonathanfishner/status/2090453046698647596",
+    "tweetId": "2090453046698647596",
+    "authorName": "Jonathan Fishner",
+    "authorHandle": "jonathanfishner",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1217893933612720128/7B1wz_pW.jpg",
+    "poster": "/posters/onecli.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090452050886950912/vid/avc1/1920x1080/QaK58EWqsBeBO6HZ.mp4",
+    "publishedAt": "2026-08-20T14:56:59.000Z",
+    "durationSeconds": 67,
+    "featured": false,
+    "status": "published"
   }
 ]
