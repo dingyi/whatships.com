@@ -34055,5 +34055,31 @@
     "durationSeconds": 67,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-runway-ruby",
+    "slug": "runway-ruby",
+    "title": "Runway Ruby — SDR to 16-bit HDR in ProRes and EXR",
+    "product": "Runway Ruby",
+    "company": "Runway",
+    "description": "Runway Ruby converts SDR video up to 16-bit HDR in ProRes and EXR sequences. Works on any uploaded video or generated output up to 30 seconds.",
+    "category": "ai",
+    "tags": [
+      "runway",
+      "hdr",
+      "video",
+      "color"
+    ],
+    "tweetUrl": "https://x.com/runwayml/status/2090807248402682101",
+    "tweetId": "2090807248402682101",
+    "authorName": "Runway",
+    "authorHandle": "runwayml",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+    "poster": "/posters/runway-ruby.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090807171781136384/vid/avc1/1280x720/yji6M3x6pSdM-Sq5.mp4?tag=14",
+    "publishedAt": "2026-08-21T14:24:27.000Z",
+    "durationSeconds": 50,
+    "featured": false,
+    "status": "published"
   }
 ]
