@@ -1,0 +1,14 @@
+src/data/videos.json
+  h_f786d994c98af1 34393-35017
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d5cef13ca3f11fe2716c86bc3dfddb00633f6df6",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
