@@ -1,0 +1,14 @@
+src/data/inbox.json
+  h_f786d994c98af1 2,4-790
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "bf3ba5955901b6d6bce0c34793294ea1db7d6520",
+  "prompts": {},
+  "humans": {
+    "h_f786d994c98af1": {
+      "author": "Ding Yi <dingyimac@gmail.com>"
+    }
+  }
+}
