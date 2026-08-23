@@ -42339,5 +42339,31 @@
     "durationSeconds": 24,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-pixelframe-cosmos",
+    "slug": "pixelframe-cosmos",
+    "title": "Cosmos — launch film by Pixel Frame",
+    "product": "Cosmos",
+    "company": "Pixel Frame",
+    "description": "A recent launch film from Pixel Frame for Cosmos. The studio makes viral product launch videos.",
+    "category": "motion",
+    "tags": [
+      "cosmos",
+      "motion",
+      "launch",
+      "pixelframe"
+    ],
+    "tweetUrl": "https://x.com/Varcyyyy/status/2090184114083447165",
+    "tweetId": "2090184114083447165",
+    "authorName": "Varchasva",
+    "authorHandle": "Varcyyyy",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2048122994665652224/qKCqaRpR.jpg",
+    "poster": "/posters/pixelframe-cosmos.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090184008122720257/vid/avc1/1920x1080/qEaU3LdV9_0UB95v.mp4",
+    "publishedAt": "2026-08-19T21:08:21.000Z",
+    "durationSeconds": 20,
+    "featured": false,
+    "status": "published"
   }
 ]
