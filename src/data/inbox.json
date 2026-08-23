@@ -1,6 +1,1031 @@
 {
-  "updatedAt": "2026-08-22T04:50:25.430Z",
+  "updatedAt": "2026-08-23T02:53:06.385Z",
   "items": [
+    {
+      "id": "disc-2091262297281081719",
+      "tweetId": "2091262297281081719",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:06.384Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2091262297281081719",
+        "tweetUrl": "https://x.com/nubit_org/status/2091262297281081719",
+        "authorHandle": "nubit_org",
+        "authorName": "Nubit | Bitcoin Thunderbolt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1900598763070386176/dQXUtMgf.jpg",
+        "text": "1/ Introducing the next chapter of Bitcoin Thunderbolt, our fast, secure, asynchronous off-chain payment protocol for Bitcoin.\n\nToday, we are open-sourcing Bitcoin Thunderbolt, and the research behind it has been accepted at ACM CCS 2026 (@acm_ccs), a top-tier academic conference https://t.co/dSlCyO5bK9",
+        "createdAt": "2026-08-22T20:32:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091260689021288448/vid/avc1/1920x1080/QXUW19LzWYDAM0VG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091260689021288448/img/HqHDONEnwfd5JTXT.jpg",
+            "durationMs": 30000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "nubit_org",
+        "company": "Nubit | Bitcoin Thunderbolt",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091262297281081719",
+        "slug": "nubit-bitcoin-thunderbolt-081719",
+        "title": "1/ Introducing the next chapter of Bitcoin Thunderbolt, our fast, secure, asynchronous off-chain…",
+        "product": "Nubit | Bitcoin Thunderbolt",
+        "company": "Nubit | Bitcoin Thunderbolt",
+        "description": "1/ Introducing the next chapter of Bitcoin Thunderbolt, our fast, secure, asynchronous off-chain payment protocol for Bitcoin. Today, we are open-sourcing Bitcoin Thunderbolt, and the research behind it has been accepted at ACM CCS 2026 (@acm_ccs), a top-tier academic conference",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/nubit_org/status/2091262297281081719",
+        "tweetId": "2091262297281081719",
+        "authorName": "Nubit | Bitcoin Thunderbolt",
+        "authorHandle": "nubit_org",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1900598763070386176/dQXUtMgf.jpg",
+        "poster": "/posters/nubit-bitcoin-thunderbolt-081719.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091260689021288448/vid/avc1/1920x1080/QXUW19LzWYDAM0VG.mp4",
+        "publishedAt": "2026-08-22T20:32:40.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091266592017416598",
+      "tweetId": "2091266592017416598",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:05.890Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2091266592017416598",
+        "tweetUrl": "https://x.com/swarms_corp/status/2091266592017416598",
+        "authorHandle": "swarms_corp",
+        "authorName": "swarms",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
+        "text": "Introducing MCP Scribe 🖋️ 🛠️\n\nMCP Scribe turns OpenAPI specifications into production-grade MCP servers, automatically exposing API operations as model-callable tools.\n\nAuthentication, retries, rate limiting, response handling, and transport support are built in, so teams can https://t.co/4Nirnde46A",
+        "createdAt": "2026-08-22T20:49:44.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091266391361875968/vid/avc1/2080x1080/eCU1b_p7W9rzxNe4.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091266391361875968/img/btKTSem1DKIx3rPB.jpg",
+            "durationMs": 16533
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "swarms_corp",
+        "company": "swarms",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091266592017416598",
+        "slug": "swarms-416598",
+        "title": "Introducing MCP Scribe 🖋️ 🛠️ MCP Scribe turns OpenAPI specifications into production-grade MCP…",
+        "product": "swarms",
+        "company": "swarms",
+        "description": "Introducing MCP Scribe 🖋️ 🛠️ MCP Scribe turns OpenAPI specifications into production-grade MCP servers, automatically exposing API operations as model-callable tools. Authentication, retries, rate limiting, response handling, and transport support are built in, so teams can",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/swarms_corp/status/2091266592017416598",
+        "tweetId": "2091266592017416598",
+        "authorName": "swarms",
+        "authorHandle": "swarms_corp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa.jpg",
+        "poster": "/posters/swarms-416598.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091266391361875968/vid/avc1/2080x1080/eCU1b_p7W9rzxNe4.mp4",
+        "publishedAt": "2026-08-22T20:49:44.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091240448975073662",
+      "tweetId": "2091240448975073662",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:05.399Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2091240448975073662",
+        "tweetUrl": "https://x.com/DavidOndrej1/status/2091240448975073662",
+        "authorHandle": "DavidOndrej1",
+        "authorName": "David Ondrej",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1648700022563696642/fkEMa1qo.jpg",
+        "text": "Introducing Agentic Productivity 🔥\n\na repo that shows your 90-day trends of how productive you are with agents\n\nit's 100% free and open-source, and takes 2 minutes to set up\n\nhttps://t.co/urvZcaTol1 https://t.co/SKiXBR8DH1",
+        "createdAt": "2026-08-22T19:05:51.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091239204214718464/vid/avc1/3840x2160/h-ROIrhYvVbIWDeS.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091239204214718464/img/Bp2WYVuAq798DKrv.jpg",
+            "durationMs": 232233
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "DavidOndrej1",
+        "company": "David Ondrej",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091240448975073662",
+        "slug": "david-ondrej-073662",
+        "title": "Introducing Agentic Productivity 🔥 a repo that shows your 90-day trends of how productive you ar…",
+        "product": "David Ondrej",
+        "company": "David Ondrej",
+        "description": "Introducing Agentic Productivity 🔥 a repo that shows your 90-day trends of how productive you are with agents it's 100% free and open-source, and takes 2 minutes to set up",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/DavidOndrej1/status/2091240448975073662",
+        "tweetId": "2091240448975073662",
+        "authorName": "David Ondrej",
+        "authorHandle": "DavidOndrej1",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1648700022563696642/fkEMa1qo.jpg",
+        "poster": "/posters/david-ondrej-073662.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091239204214718464/vid/avc1/3840x2160/h-ROIrhYvVbIWDeS.mp4",
+        "publishedAt": "2026-08-22T19:05:51.000Z",
+        "durationSeconds": 232,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091210582460375467",
+      "tweetId": "2091210582460375467",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:04.912Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2091210582460375467",
+        "tweetUrl": "https://x.com/elliotarledge/status/2091210582460375467",
+        "authorHandle": "elliotarledge",
+        "authorName": "Elliot Arledge",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2005693506644574208/Hp8sqTPA.jpg",
+        "text": "Introducing Phonon!\n\nFast, local, open-source voice typing with parakeet and gemma 4. Uses OCR for screen context and stays minimal so you can focus on expressing your thoughts to models.\n\nDownload at https://t.co/XpYMXYxGa3 and repo below! https://t.co/zhIEADz1EM",
+        "createdAt": "2026-08-22T17:07:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091209894145777664/vid/avc1/1920x1080/s13aYGimaWx4SxcI.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091209894145777664/img/GC_hvnVxantUntTi.jpg",
+            "durationMs": 152819
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "elliotarledge",
+        "company": "Elliot Arledge",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091210582460375467",
+        "slug": "elliot-arledge-375467",
+        "title": "Introducing Phonon! Fast, local, open-source voice typing with parakeet and gemma 4. Uses OCR for…",
+        "product": "Elliot Arledge",
+        "company": "Elliot Arledge",
+        "description": "Introducing Phonon! Fast, local, open-source voice typing with parakeet and gemma 4. Uses OCR for screen context and stays minimal so you can focus on expressing your thoughts to models. Download at and repo below!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/elliotarledge/status/2091210582460375467",
+        "tweetId": "2091210582460375467",
+        "authorName": "Elliot Arledge",
+        "authorHandle": "elliotarledge",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2005693506644574208/Hp8sqTPA.jpg",
+        "poster": "/posters/elliot-arledge-375467.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091209894145777664/vid/avc1/1920x1080/s13aYGimaWx4SxcI.mp4",
+        "publishedAt": "2026-08-22T17:07:10.000Z",
+        "durationSeconds": 153,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091155761170976784",
+      "tweetId": "2091155761170976784",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:04.427Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2091155761170976784",
+        "tweetUrl": "https://x.com/tianyi_gc/status/2091155761170976784",
+        "authorHandle": "tianyi_gc",
+        "authorName": "Tianyi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2035560497207275520/R1XPeh0h.jpg",
+        "text": "Introducing the GPUI based block editor, the missing component for your expensive AI SaaS!\n\nTry it https://t.co/sr3JPnGqeQ https://t.co/VM2Vq9DADB",
+        "createdAt": "2026-08-22T13:29:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091154868883140609/vid/avc1/2836x1792/cEViFiPUNx-f36k5.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091154868883140609/img/avoMLXVebgUTI9Ed.jpg",
+            "durationMs": 50336
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "tianyi_gc",
+        "company": "Tianyi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091155761170976784",
+        "slug": "tianyi-976784",
+        "title": "Introducing the GPUI based block editor, the missing component for your expensive AI SaaS! Try it",
+        "product": "Tianyi",
+        "company": "Tianyi",
+        "description": "Introducing the GPUI based block editor, the missing component for your expensive AI SaaS! Try it",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/tianyi_gc/status/2091155761170976784",
+        "tweetId": "2091155761170976784",
+        "authorName": "Tianyi",
+        "authorHandle": "tianyi_gc",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2035560497207275520/R1XPeh0h.jpg",
+        "poster": "/posters/tianyi-976784.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091154868883140609/vid/avc1/2836x1792/cEViFiPUNx-f36k5.mp4",
+        "publishedAt": "2026-08-22T13:29:19.000Z",
+        "durationSeconds": 50,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091159458693194045",
+      "tweetId": "2091159458693194045",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:03.635Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2091159458693194045",
+        "tweetUrl": "https://x.com/SubhanHQ/status/2091159458693194045",
+        "authorHandle": "SubhanHQ",
+        "authorName": "Kiyotaka",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069989070877659136/Qkxsn8ez.jpg",
+        "text": "Introducing Motion Anime.\n\nA curated collection of springs, skids, fluid micro-interactions for your UI.\n\nNow you can add beautiful, interactive charts to your app with a single CLI command. ✨\n\nPart of Amicro. \nOpen source.  \n\nTry it: https://t.co/50DWTF9Rgt https://t.co/Ey8El7n5Ft",
+        "createdAt": "2026-08-22T13:44:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091157942976536576/vid/avc1/2536x1344/0Qpam-w98UDqZYz-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091157942976536576/img/tJOBy72QT6Ljlzhk.jpg",
+            "durationMs": 70866
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "SubhanHQ",
+        "company": "Kiyotaka",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091159458693194045",
+        "slug": "kiyotaka-194045",
+        "title": "Introducing Motion Anime. A curated collection of springs, skids, fluid micro-interactions for yo…",
+        "product": "Kiyotaka",
+        "company": "Kiyotaka",
+        "description": "Introducing Motion Anime. A curated collection of springs, skids, fluid micro-interactions for your UI. Now you can add beautiful, interactive charts to your app with a single CLI command. ✨ Part of Amicro. Open source. Try it:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/SubhanHQ/status/2091159458693194045",
+        "tweetId": "2091159458693194045",
+        "authorName": "Kiyotaka",
+        "authorHandle": "SubhanHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069989070877659136/Qkxsn8ez.jpg",
+        "poster": "/posters/kiyotaka-194045.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091157942976536576/vid/avc1/2536x1344/0Qpam-w98UDqZYz-.mp4",
+        "publishedAt": "2026-08-22T13:44:01.000Z",
+        "durationSeconds": 71,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090961037545853161",
+      "tweetId": "2090961037545853161",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:03.141Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2090961037545853161",
+        "tweetUrl": "https://x.com/HcwXd/status/2090961037545853161",
+        "authorHandle": "HcwXd",
+        "authorName": "Cheng-Wei Hu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1901463017365393408/QWAWvsFm.jpg",
+        "text": "Introducing the first AI course that adapts to what you learn, how you learn, and when you have time, from @WonderingApp backed by @ycombinator\n\nAI personalization so far mostly changed what you’re taught\n\nBut we think it should also adapt to how you’re taught and when you have https://t.co/mNqpPWcO45",
+        "createdAt": "2026-08-22T00:35:34.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090959465206169600/vid/avc1/1920x1080/YoXl3Xq5cnzzZA6g.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090959465206169600/img/g3IAx3HnQApND5qO.jpg",
+            "durationMs": 12928
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "HcwXd",
+        "company": "Cheng-Wei Hu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090961037545853161",
+        "slug": "cheng-wei-hu-853161",
+        "title": "Introducing the first AI course that adapts to what you learn, how you learn, and when you have t…",
+        "product": "Cheng-Wei Hu",
+        "company": "Cheng-Wei Hu",
+        "description": "Introducing the first AI course that adapts to what you learn, how you learn, and when you have time, from @WonderingApp backed by @ycombinator AI personalization so far mostly changed what you’re taught But we think it should also adapt to how you’re taught and when you have",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/HcwXd/status/2090961037545853161",
+        "tweetId": "2090961037545853161",
+        "authorName": "Cheng-Wei Hu",
+        "authorHandle": "HcwXd",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1901463017365393408/QWAWvsFm.jpg",
+        "poster": "/posters/cheng-wei-hu-853161.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090959465206169600/vid/avc1/1920x1080/YoXl3Xq5cnzzZA6g.mp4",
+        "publishedAt": "2026-08-22T00:35:34.000Z",
+        "durationSeconds": 13,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090864926222954700",
+      "tweetId": "2090864926222954700",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:02.646Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2090864926222954700",
+        "tweetUrl": "https://x.com/commsbyosis/status/2090864926222954700",
+        "authorHandle": "commsbyosis",
+        "authorName": "Comms",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2079044798883807232/Qy5osBvq.jpg",
+        "text": "Introducing Comms MCP.\n\nAs of today, you can give your agents a real phone number. \n\nHere's what it handles on its own: https://t.co/RFJQgOizMn",
+        "createdAt": "2026-08-21T18:13:39.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090864856069029888/vid/avc1/1920x1080/EtQZAOOgEMWZ4U5a.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090864856069029888/img/ZarMGBhM1b-dNZJQ.jpg",
+            "durationMs": 60810
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "commsbyosis",
+        "company": "Comms",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090864926222954700",
+        "slug": "comms-954700",
+        "title": "Introducing Comms MCP. As of today, you can give your agents a real phone number. Here's what it…",
+        "product": "Comms",
+        "company": "Comms",
+        "description": "Introducing Comms MCP. As of today, you can give your agents a real phone number. Here's what it handles on its own:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/commsbyosis/status/2090864926222954700",
+        "tweetId": "2090864926222954700",
+        "authorName": "Comms",
+        "authorHandle": "commsbyosis",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2079044798883807232/Qy5osBvq.jpg",
+        "poster": "/posters/comms-954700.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090864856069029888/vid/avc1/1920x1080/EtQZAOOgEMWZ4U5a.mp4",
+        "publishedAt": "2026-08-21T18:13:39.000Z",
+        "durationSeconds": 61,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090926852974297577",
+      "tweetId": "2090926852974297577",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:01.834Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2090926852974297577",
+        "tweetUrl": "https://x.com/SimularAI/status/2090926852974297577",
+        "authorHandle": "SimularAI",
+        "authorName": "Simular",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1721675471098941440/-Vny7epI.jpg",
+        "text": "Introducing Sai-Fi: an open source app that lets you talk to AI agent Sai through a pair of Meta Ray-Ban glasses.\n\nSai is an autonomous computer-use agent. It can see the screen, move the mouse, type, and keep working even when you are away.\n\nWe used Meta Ray-Bans for the first https://t.co/ev5LTAwQde",
+        "createdAt": "2026-08-21T22:19:43.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090925586097283072/vid/avc1/3840x2160/hEzxb2XzvtS6sMHy.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090925586097283072/img/QgOuuAFIrp4Uvu9o.jpg",
+            "durationMs": 61166
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "SimularAI",
+        "company": "Simular",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090926852974297577",
+        "slug": "simular-297577",
+        "title": "Introducing Sai-Fi: an open source app that lets you talk to AI agent Sai through a pair of Meta…",
+        "product": "Simular",
+        "company": "Simular",
+        "description": "Introducing Sai-Fi: an open source app that lets you talk to AI agent Sai through a pair of Meta Ray-Ban glasses. Sai is an autonomous computer-use agent. It can see the screen, move the mouse, type, and keep working even when you are away. We used Meta Ray-Bans for the first",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/SimularAI/status/2090926852974297577",
+        "tweetId": "2090926852974297577",
+        "authorName": "Simular",
+        "authorHandle": "SimularAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1721675471098941440/-Vny7epI.jpg",
+        "poster": "/posters/simular-297577.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090925586097283072/vid/avc1/3840x2160/hEzxb2XzvtS6sMHy.mp4",
+        "publishedAt": "2026-08-21T22:19:43.000Z",
+        "durationSeconds": 61,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090672746984357927",
+      "tweetId": "2090672746984357927",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:00.985Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bwalkthrough\\b"
+      ],
+      "post": {
+        "tweetId": "2090672746984357927",
+        "tweetUrl": "https://x.com/rishabhnasa/status/2090672746984357927",
+        "authorHandle": "rishabhnasa",
+        "authorName": "Rishabh Nasa",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081786810842456064/NK97Fpz_.jpg",
+        "text": "Here’s a complete walkthrough of how my newly launched SaaS, Post for Site, actually works.\n\nHave a look! 👀 https://t.co/dlYGrv5lE4",
+        "createdAt": "2026-08-21T05:30:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090535696050343936/vid/avc1/3164x1966/ntAUB5uY9KVJwUl6.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090535696050343936/img/1v27YEzHPTpwYHqU.jpg",
+            "durationMs": 83818
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "rishabhnasa",
+        "company": "Rishabh Nasa",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090672746984357927",
+        "slug": "rishabh-nasa-357927",
+        "title": "Here’s a complete walkthrough of how my newly launched SaaS, Post for Site, actually works. Have…",
+        "product": "Rishabh Nasa",
+        "company": "Rishabh Nasa",
+        "description": "Here’s a complete walkthrough of how my newly launched SaaS, Post for Site, actually works. Have a look! 👀",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/rishabhnasa/status/2090672746984357927",
+        "tweetId": "2090672746984357927",
+        "authorName": "Rishabh Nasa",
+        "authorHandle": "rishabhnasa",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081786810842456064/NK97Fpz_.jpg",
+        "poster": "/posters/rishabh-nasa-357927.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090535696050343936/vid/avc1/3164x1966/ntAUB5uY9KVJwUl6.mp4",
+        "publishedAt": "2026-08-21T05:30:00.000Z",
+        "durationSeconds": 84,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091118339821060563",
+      "tweetId": "2091118339821060563",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:53:00.084Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bshipping\\b"
+      ],
+      "post": {
+        "tweetId": "2091118339821060563",
+        "tweetUrl": "https://x.com/PrasiddhiMishra/status/2091118339821060563",
+        "authorHandle": "PrasiddhiMishra",
+        "authorName": "Prasiddhi Mishra",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2087915796802740224/7oPdcJw8.jpg",
+        "text": "not us saying \"let's build a voice-enabled RAG\" as a joke and then actually shipping it 💀\n\nmanifested it, built it, shipped it 🎙️\nvoice → STT → retrieval → generation → answer\nno cap, no hallucinations(mostly)\nLive Link : https://t.co/sazxKJAORg\n#RAGInGoa\nDemo Video below👇 https://t.co/5TtArnlUTB",
+        "createdAt": "2026-08-22T11:00:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091118307537788928/vid/avc1/1240x720/tiAW_-fGtTDDwdri.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091118307537788928/img/wORxG6gOOw4DtcwX.jpg",
+            "durationMs": 62805
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "PrasiddhiMishra",
+        "company": "Prasiddhi Mishra",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091118339821060563",
+        "slug": "prasiddhi-mishra-060563",
+        "title": "not us saying \"let's build a voice-enabled RAG\" as a joke and then actually shipping it 💀 manife…",
+        "product": "Prasiddhi Mishra",
+        "company": "Prasiddhi Mishra",
+        "description": "not us saying \"let's build a voice-enabled RAG\" as a joke and then actually shipping it 💀 manifested it, built it, shipped it 🎙️ voice → STT → retrieval → generation → answer no cap, no hallucinations(mostly) Live Link : #RAGInGoa Demo Video below👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/PrasiddhiMishra/status/2091118339821060563",
+        "tweetId": "2091118339821060563",
+        "authorName": "Prasiddhi Mishra",
+        "authorHandle": "PrasiddhiMishra",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2087915796802740224/7oPdcJw8.jpg",
+        "poster": "/posters/prasiddhi-mishra-060563.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091118307537788928/vid/avc1/1240x720/tiAW_-fGtTDDwdri.mp4",
+        "publishedAt": "2026-08-22T11:00:37.000Z",
+        "durationSeconds": 63,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091188207794651266",
+      "tweetId": "2091188207794651266",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:59.414Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2091188207794651266",
+        "tweetUrl": "https://x.com/Granite0x/status/2091188207794651266",
+        "authorHandle": "Granite0x",
+        "authorName": "Granite",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081886870569410560/MKOCDvB1.jpg",
+        "text": "🚨 THIS IS ABSOLUTELY INSANE\n\na developer just released a free tool that builds a vertical video with a talking presenter.\n\nout of one script and one photo.\n\nit's called lanshu-create-ai-presenter-video.\n\nit landed on GitHub two days ago. 267 stars. MIT.\n\nhere's how it works:\n\n1. https://t.co/7YUDkxfxnz",
+        "createdAt": "2026-08-22T15:38:15.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091182658382397440/vid/avc1/1080x1288/tVP9XzyxUqze9NjY.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091182658382397440/img/hMDxODSprlS3J48V.jpg",
+            "durationMs": 28862
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Granite0x",
+        "company": "Granite",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091188207794651266",
+        "slug": "granite-651266",
+        "title": "🚨 THIS IS ABSOLUTELY INSANE a developer just released a free tool that builds a vertical video w…",
+        "product": "Granite",
+        "company": "Granite",
+        "description": "🚨 THIS IS ABSOLUTELY INSANE a developer just released a free tool that builds a vertical video with a talking presenter. out of one script and one photo. it's called lanshu-create-ai-presenter-video. it landed on GitHub two days ago. 267 stars. MIT. here's how it works: 1.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Granite0x/status/2091188207794651266",
+        "tweetId": "2091188207794651266",
+        "authorName": "Granite",
+        "authorHandle": "Granite0x",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081886870569410560/MKOCDvB1.jpg",
+        "poster": "/posters/granite-651266.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091182658382397440/vid/avc1/1080x1288/tVP9XzyxUqze9NjY.mp4",
+        "publishedAt": "2026-08-22T15:38:15.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091223060963586206",
+      "tweetId": "2091223060963586206",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:58.914Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2091223060963586206",
+        "tweetUrl": "https://x.com/0xSeyr/status/2091223060963586206",
+        "authorHandle": "0xSeyr",
+        "authorName": "Seyr",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2088042289687875584/DTlNw6vb.jpg",
+        "text": "Cactus Compute just released the Needle framework for local AI.\n\nit lets you run a 45M-parameter model completely offline on a $10 ESP32-S3 chip.\n\nin this 35-second clip from Cloud Edventures, you can see how it trades open-ended chat for structured tool calling, keeping https://t.co/NBtEqCnl11",
+        "createdAt": "2026-08-22T17:56:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091223010640347136/vid/avc1/478x850/kmceovWW-IFzJTpL.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091223010640347136/img/fwsE7FWL3rphnkK_.jpg",
+            "durationMs": 35480
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "0xSeyr",
+        "company": "Seyr",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091223060963586206",
+        "slug": "seyr-586206",
+        "title": "Cactus Compute just released the Needle framework for local AI. it lets you run a 45M-parameter m…",
+        "product": "Seyr",
+        "company": "Seyr",
+        "description": "Cactus Compute just released the Needle framework for local AI. it lets you run a 45M-parameter model completely offline on a $10 ESP32-S3 chip. in this 35-second clip from Cloud Edventures, you can see how it trades open-ended chat for structured tool calling, keeping",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/0xSeyr/status/2091223060963586206",
+        "tweetId": "2091223060963586206",
+        "authorName": "Seyr",
+        "authorHandle": "0xSeyr",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2088042289687875584/DTlNw6vb.jpg",
+        "poster": "/posters/seyr-586206.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091223010640347136/vid/avc1/478x850/kmceovWW-IFzJTpL.mp4",
+        "publishedAt": "2026-08-22T17:56:45.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2090892932127887463",
+      "tweetId": "2090892932127887463",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:58.042Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2090892932127887463",
+        "tweetUrl": "https://x.com/Motionfly_co/status/2090892932127887463",
+        "authorHandle": "Motionfly_co",
+        "authorName": "Motionfly",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048303866677280768/U-tlo6zY.jpg",
+        "text": "Today we are introducing Motionfly.\n\nThe Chatgpt moment for launch videos.\n\nRepost and comment “Motionfly” for free credits\n\nYou made the product and don’t know how to market it?\n\nStart with a launch video.\n   - login to https://t.co/w7FT1oclMf\n   - describe your product\n   - let https://t.co/TDz1uFrZsB",
+        "createdAt": "2026-08-21T20:04:56.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2090889703721508864/vid/avc1/3840x2160/O4S8f4og9twq5d9U.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090889703721508864/img/qVj9i2pFi-p2QVtC.jpg",
+            "durationMs": 24566
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Motionfly_co",
+        "company": "Motionfly",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2090892932127887463",
+        "slug": "motionfly-887463",
+        "title": "Today we are introducing Motionfly. The Chatgpt moment for launch videos. Repost and comment “Mot…",
+        "product": "Motionfly",
+        "company": "Motionfly",
+        "description": "Today we are introducing Motionfly. The Chatgpt moment for launch videos. Repost and comment “Motionfly” for free credits You made the product and don’t know how to market it? Start with a launch video. - login to - describe your product - let",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Motionfly_co/status/2090892932127887463",
+        "tweetId": "2090892932127887463",
+        "authorName": "Motionfly",
+        "authorHandle": "Motionfly_co",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048303866677280768/U-tlo6zY.jpg",
+        "poster": "/posters/motionfly-887463.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2090889703721508864/vid/avc1/3840x2160/O4S8f4og9twq5d9U.mp4",
+        "publishedAt": "2026-08-21T20:04:56.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091303169859162492",
+      "tweetId": "2091303169859162492",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:57.556Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bannounc(?:e|ing|ement)\\b"
+      ],
+      "post": {
+        "tweetId": "2091303169859162492",
+        "tweetUrl": "https://x.com/chhddavid/status/2091303169859162492",
+        "authorHandle": "chhddavid",
+        "authorName": "David Ch",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1782169991531335680/9Gb9Gcxl.jpg",
+        "text": "Ladies and gentlemen, I am pleased to announce my latest project:\n\nIntroducing AuraBid\n· Pay to sit above other people\n· Outbid #1 to show them you've got more cash\n· No followers, no algorithm, no merit\n\nWhy did we build it? AuraBid is a spite app. Yes, an app to spite Meta Ads. https://t.co/o19eAXMc6N",
+        "createdAt": "2026-08-22T23:15:04.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091303153274908672/vid/avc1/906x720/ODvpQiWw_ooWOMuK.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091303153274908672/img/KcuAaW_nDpl3Xwsz.jpg",
+            "durationMs": 6533
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "chhddavid",
+        "company": "David Ch",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091303169859162492",
+        "slug": "david-ch-162492",
+        "title": "Ladies and gentlemen, I am pleased to announce my latest project: Introducing AuraBid · Pay to si…",
+        "product": "David Ch",
+        "company": "David Ch",
+        "description": "Ladies and gentlemen, I am pleased to announce my latest project: Introducing AuraBid · Pay to sit above other people · Outbid #1 to show them you've got more cash · No followers, no algorithm, no merit Why did we build it? AuraBid is a spite app. Yes, an app to spite Meta Ads.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/chhddavid/status/2091303169859162492",
+        "tweetId": "2091303169859162492",
+        "authorName": "David Ch",
+        "authorHandle": "chhddavid",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1782169991531335680/9Gb9Gcxl.jpg",
+        "poster": "/posters/david-ch-162492.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091303153274908672/vid/avc1/906x720/ODvpQiWw_ooWOMuK.mp4?tag=14",
+        "publishedAt": "2026-08-22T23:15:04.000Z",
+        "durationSeconds": 7,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091302944138211368",
+      "tweetId": "2091302944138211368",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:57.060Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2091302944138211368",
+        "tweetUrl": "https://x.com/levelforgeapp/status/2091302944138211368",
+        "authorHandle": "levelforgeapp",
+        "authorName": "Levelforge.app",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091302246529040384/rAYYquA1.jpg",
+        "text": "🎮 Your games are everywhere. Your profile shouldn't be.  Introducing LevelForge— one player profile that pulls together everything you've earned across Steam, Xbox, PlayStation, GOG, Riot, Blizzard and more. https://t.co/WNhlO8NTY3",
+        "createdAt": "2026-08-22T23:14:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091302862710099968/vid/avc1/1308x902/3D9MTD-5ZPWEkmKi.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091302862710099968/img/MAR3arKfJ1HVW5Q_.jpg",
+            "durationMs": 19583
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "levelforgeapp",
+        "company": "Levelforge.app",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091302944138211368",
+        "slug": "levelforgeapp-211368",
+        "title": "🎮 Your games are everywhere. Your profile shouldn't be. Introducing LevelForge— one player profi…",
+        "product": "Levelforge.app",
+        "company": "Levelforge.app",
+        "description": "🎮 Your games are everywhere. Your profile shouldn't be. Introducing LevelForge— one player profile that pulls together everything you've earned across Steam, Xbox, PlayStation, GOG, Riot, Blizzard and more.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/levelforgeapp/status/2091302944138211368",
+        "tweetId": "2091302944138211368",
+        "authorName": "Levelforge.app",
+        "authorHandle": "levelforgeapp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091302246529040384/rAYYquA1.jpg",
+        "poster": "/posters/levelforgeapp-211368.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091302862710099968/vid/avc1/1308x902/3D9MTD-5ZPWEkmKi.mp4",
+        "publishedAt": "2026-08-22T23:14:11.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2091312869618884675",
+      "tweetId": "2091312869618884675",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-08-23T02:52:56.294Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2091312869618884675",
+        "tweetUrl": "https://x.com/TheAmbitiousApp/status/2091312869618884675",
+        "authorHandle": "TheAmbitiousApp",
+        "authorName": "Ambitious",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091165631018057728/tucxnSHq.jpg",
+        "text": "Introducing Ambitious.\n\nAmbition is the word of the year.\n\nEvery AI lab, product, and post is telling us to be more ambitious.\n\nSo we took it literally.\n\nWe built Ambitious — a new social network for ambitious people.\n\nEvery line of code was written by AI.\n\nAnd we’re not stopping https://t.co/KhbyafBgvl",
+        "createdAt": "2026-08-22T23:53:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2091312093307834369/vid/avc1/1920x1080/9g1dZpxe7evMAfVe.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091312093307834369/img/NUGEub-ZIoxyRaCx.jpg",
+            "durationMs": 36053
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TheAmbitiousApp",
+        "company": "Ambitious",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2091312869618884675",
+        "slug": "ambitious-884675",
+        "title": "Introducing Ambitious. Ambition is the word of the year. Every AI lab, product, and post is telli…",
+        "product": "Ambitious",
+        "company": "Ambitious",
+        "description": "Introducing Ambitious. Ambition is the word of the year. Every AI lab, product, and post is telling us to be more ambitious. So we took it literally. We built Ambitious — a new social network for ambitious people. Every line of code was written by AI. And we’re not stopping",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TheAmbitiousApp/status/2091312869618884675",
+        "tweetId": "2091312869618884675",
+        "authorName": "Ambitious",
+        "authorHandle": "TheAmbitiousApp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091165631018057728/tucxnSHq.jpg",
+        "poster": "/posters/ambitious-884675.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2091312093307834369/vid/avc1/1920x1080/9g1dZpxe7evMAfVe.mp4",
+        "publishedAt": "2026-08-22T23:53:37.000Z",
+        "durationSeconds": 36,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2090933502099239293",
       "tweetId": "2090933502099239293",
