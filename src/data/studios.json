@@ -6,7 +6,19 @@
     "tagline": "Motion studio for Web3 and SaaS",
     "description": "A motion studio that makes product launch films and viral motion content for Web3 and SaaS teams. Clients include Bolt.new, Gumloop, and Agree.com.",
     "url": "https://www.pixelframe.co/",
+    "kind": "studio",
     "xHandle": "Varcyyyy",
     "poster": "/posters/studios/pixelframe.webp"
+  },
+  {
+    "id": "person-mouad",
+    "slug": "mouad",
+    "name": "Mouad",
+    "tagline": "Motion & animation for AI startups",
+    "description": "Independent motion designer making launch videos, AI ads, and UI/UX motion for SaaS, tech, and Web3 startups. Previously a creative director and video editor at YouTube.",
+    "url": "https://mouad.work/",
+    "kind": "person",
+    "xHandle": "M7Vedits",
+    "poster": "/posters/studios/mouad.webp"
   }
 ]
