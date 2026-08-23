@@ -42365,5 +42365,31 @@
     "durationSeconds": 20,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-slack-code-benioff",
+    "slug": "slack-code-benioff",
+    "title": "Slack Code — humans and agents, same channel",
+    "product": "Slack Code",
+    "company": "Salesforce",
+    "description": "Slack Code is live. Humans and agents in the same channel, launching with agents from Anthropic, GitHub, Cognition, and Vercel. Multiplayer coding, shown at Dreamforce.",
+    "category": "developer-tools",
+    "tags": [
+      "slack",
+      "code",
+      "agents",
+      "salesforce"
+    ],
+    "tweetUrl": "https://x.com/Benioff/status/2090240159115853956",
+    "tweetId": "2090240159115853956",
+    "authorName": "Marc Benioff",
+    "authorHandle": "Benioff",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1978181723356884992/VIhB1Jru.jpg",
+    "poster": "/posters/slack-code-benioff.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2090235761711104000/vid/avc1/1920x1080/DlnALiTZADxoLiKE.mp4",
+    "publishedAt": "2026-08-20T00:51:03.000Z",
+    "durationSeconds": 130,
+    "featured": false,
+    "status": "published"
   }
 ]
