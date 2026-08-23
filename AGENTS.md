@@ -65,6 +65,8 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 
 - Catalog: `src/data/videos.json` (published + draft). `publishedVideos`
   sorts by `publishedAt` desc at runtime — file order does not matter.
+- Studios: `src/data/studios.json` + `/studios/` directory of motion
+  studios that make launch films. Posters live in `public/posters/studios/`.
 - Categories (`src/lib/catalog.ts`): `ai`, `developer-tools`, `design`,
   `motion`, `productivity`, `consumer`, `hardware`, `other`.
 - Admin review queue: `src/data/inbox.json` + local-only `/admin`

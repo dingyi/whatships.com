@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dialog";
 
 interface Props {
-  active?: "discover" | "tools" | "about" | "submit";
+  active?: "discover" | "tools" | "studios" | "about" | "submit";
   homeSearch?: boolean;
   onSearch?: () => void;
 }
@@ -103,6 +103,13 @@ export default function PageHeader({
                 Tools
               </a>
               <a
+                className={active === "studios" ? "is-active" : ""}
+                href="/studios/"
+                aria-current={active === "studios" ? "page" : undefined}
+              >
+                Studios
+              </a>
+              <a
                 className={active === "about" ? "is-active" : ""}
                 href="/about/"
                 aria-current={active === "about" ? "page" : undefined}
@@ -148,6 +155,13 @@ export default function PageHeader({
                 aria-current={active === "tools" ? "page" : undefined}
               >
                 Tools
+              </a>
+              <a
+                className={active === "studios" ? "is-active" : ""}
+                href="/studios/"
+                aria-current={active === "studios" ? "page" : undefined}
+              >
+                Studios
               </a>
               <a
                 className={active === "about" ? "is-active" : ""}

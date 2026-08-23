@@ -1,0 +1,123 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { gridPoster, publishedStudios, studioHost } from "@/lib/studios";
+---
+
+<BaseLayout
+  title="Studios — whatships.com"
+  description="A curated directory of studios that make product launch videos."
+>
+  <PageHeader active="studios" client:load />
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <h1 id="hero-title">Studios that make launch videos</h1>
+        <p class="hero__copy">
+          Motion studios and production houses that specialize in
+          product launch films.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="directory"
+      id="directory"
+      aria-labelledby="hero-title"
+    >
+      <div class="video-grid">
+        {
+          publishedStudios.map((studio, index) => {
+            const small = gridPoster(studio.poster);
+            const host = studioHost(studio.url);
+            return (
+              <article class="video-card">
+                <span class="corner one" aria-hidden="true" />
+                <span class="corner two" aria-hidden="true" />
+                <span class="corner three" aria-hidden="true" />
+                <span class="corner four" aria-hidden="true" />
+                <div class="video-card__main">
+                  <p class="video-card__kicker">Motion studio</p>
+                  <a
+                    class="video-card__media"
+                    href={studio.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${studio.name} website`}
+                  >
+                    <img
+                      src={small}
+                      srcset={`${small} 960w, ${studio.poster} 1440w`}
+                      sizes="(max-width: 699px) calc(100vw - 34px), 420px"
+                      alt=""
+                      loading={index < 6 ? "eager" : "lazy"}
+                      fetchpriority={index === 0 ? "high" : undefined}
+                      width="1440"
+                      height="810"
+                    />
+                    <span class="video-card__hover-label" aria-hidden="true">
+                      <span>Visit site</span>
+                    </span>
+                  </a>
+                  <div class="video-card__body">
+                    <div>
+                      <h2>
+                        <a href={studio.url} target="_blank" rel="noreferrer">
+                          {studio.name}
+                        </a>
+                      </h2>
+                      <p class="video-card__location">{studio.tagline}</p>
+                      <p class="video-card__meta">{host}</p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="video-card__external"
+                  href={studio.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${studio.name} website`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </a>
+              </article>
+            );
+          })
+        }
+      </div>
+    </section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
+
+<style>
+  .video-card__kicker {
+    margin: 0 0 8px;
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .directory .video-card__external {
+    top: 46px;
+  }
+</style>
