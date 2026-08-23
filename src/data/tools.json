@@ -258,5 +258,15 @@
     "url": "https://www.tryanim8.com/",
     "category": "motion",
     "poster": "/posters/tools/anim8.webp"
+  },
+  {
+    "id": "tool-screen-movie",
+    "slug": "screen-movie",
+    "name": "Screen Movie",
+    "tagline": "Create beautiful movies from your screen",
+    "description": "Native macOS screen recorder and video editor. Record your screen, edit scenes, animate text and captions, add music, and export product videos.",
+    "url": "https://screen.movie/",
+    "category": "editor",
+    "poster": "/posters/tools/screen-movie.webp"
   }
 ]
