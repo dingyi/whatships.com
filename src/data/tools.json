@@ -268,5 +268,15 @@
     "url": "https://screen.movie/",
     "category": "editor",
     "poster": "/posters/tools/screen-movie.webp"
+  },
+  {
+    "id": "tool-whatsub",
+    "slug": "whatsub",
+    "name": "What'Sub",
+    "tagline": "Fast, accurate captions without the cloud",
+    "description": "Automatic captions in the browser: transcribe, time, and style them, then export SRT, a captioned video, or editor-ready files. The video stays on your computer — only audio is sent for recognition.",
+    "url": "https://whatsub.equal2.app/",
+    "category": "editor",
+    "poster": "/posters/tools/whatsub.webp"
   }
 ]
