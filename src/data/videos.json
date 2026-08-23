@@ -42391,5 +42391,56 @@
     "durationSeconds": 130,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-zaro",
+    "slug": "zaro",
+    "title": "Zaro — apps and agents on your context",
+    "product": "Zaro",
+    "company": "Zaro",
+    "description": "One workspace for knowledge scattered across Slack, email, Docs, and Notion. Connect your tools and build apps and agents that stay live with your data.",
+    "category": "productivity",
+    "tags": [
+      "zaro",
+      "context",
+      "agents",
+      "workspace"
+    ],
+    "tweetUrl": "https://x.com/ZaroAI_/status/2070084796378747316",
+    "tweetId": "2070084796378747316",
+    "authorName": "Zaro.ai",
+    "authorHandle": "ZaroAI_",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2090026056392572928/GS9N5FmZ.jpg",
+    "poster": "/posters/zaro.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2070084717743902720/vid/avc1/1920x1080/Ftm7ADmi_CBYui3P.mp4",
+    "publishedAt": "2026-06-25T10:00:50.000Z",
+    "durationSeconds": 69,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-encore",
+    "slug": "encore",
+    "title": "Encore — private community for senior operators",
+    "product": "Encore",
+    "company": "Offline",
+    "description": "A private community of India's most senior operators. VPs and C-suite building alongside their closest peers. Applications open.",
+    "category": "other",
+    "tags": [
+      "encore",
+      "offline",
+      "community"
+    ],
+    "tweetUrl": "https://x.com/offline_members/status/2091388713993666659",
+    "tweetId": "2091388713993666659",
+    "authorName": "Offline",
+    "authorHandle": "offline_members",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1686618246613716993/EdNLBT2k.jpg",
+    "poster": "/posters/encore.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2091382571078975488/vid/avc1/1920x1080/M5INmt4OtvajEUkM.mp4",
+    "publishedAt": "2026-08-23T04:55:00.000Z",
+    "durationSeconds": 39,
+    "featured": false,
+    "status": "published"
   }
 ]
