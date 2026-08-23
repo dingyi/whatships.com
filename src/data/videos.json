@@ -42288,5 +42288,56 @@
     "durationSeconds": 36,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-oasis-desktop",
+    "slug": "oasis-desktop",
+    "title": "Oasis Desktop — share local coding agents",
+    "product": "Oasis Desktop",
+    "company": "Oasis",
+    "description": "Mac app that lets you share local coding agents with your teammates. Spin up Claude Code, Codex, Pi, OpenCode, Kilo Code, Hermes Agent, and Devin CLI sessions.",
+    "category": "developer-tools",
+    "tags": [
+      "oasis",
+      "desktop",
+      "agents",
+      "mac"
+    ],
+    "tweetUrl": "https://x.com/OasisHQ/status/2090837930931601799",
+    "tweetId": "2090837930931601799",
+    "authorName": "Oasis",
+    "authorHandle": "OasisHQ",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2042267482270879745/GBIuTqgG.jpg",
+    "poster": "/posters/oasis-desktop.webp",
+    "videoUrl": "https://video.twimg.com/ext_tw_video/2090837799142309888/pu/vid/avc1/1280x720/wkzKMFfSJRQmsKT7.mp4?tag=12",
+    "publishedAt": "2026-08-21T16:26:23.000Z",
+    "durationSeconds": 50,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-hermes-choose-your-own",
+    "slug": "hermes-choose-your-own",
+    "title": "Hermes Agent — choose your own path",
+    "product": "Hermes Agent",
+    "company": "Nous Research",
+    "description": "Cinematic launch film for Hermes Agent from Nous Research — choose your own path.",
+    "category": "motion",
+    "tags": [
+      "hermes",
+      "nous",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/NousResearch/status/2070177949412737058",
+    "tweetId": "2070177949412737058",
+    "authorName": "Nous Research",
+    "authorHandle": "NousResearch",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp.jpg",
+    "poster": "/posters/hermes-choose-your-own.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2070171803797110784/vid/avc1/1080x1080/4724IVBYs47Zyt27.mp4",
+    "publishedAt": "2026-06-25T16:10:59.000Z",
+    "durationSeconds": 24,
+    "featured": false,
+    "status": "published"
   }
 ]
