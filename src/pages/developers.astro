@@ -1,0 +1,69 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { CATEGORIES } from "@/lib/catalog";
+import { GITHUB_REPO, SITE_NAME } from "@/lib/site";
+
+const categoryList = CATEGORIES.map((item) => item.id).join(", ");
+---
+
+<BaseLayout
+  title={`${SITE_NAME} developer resources`}
+  description="whatships.com developer resources: OpenAPI spec, search index, llms.txt, and markdown content negotiation for the launch-video catalog."
+>
+  <PageHeader client:load />
+  <main class="about-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>whatships.com developer resources</h1>
+        <p class="about-lead">
+          Machine-readable access to the whatships.com launch-video catalog.
+          No authentication, webhooks, or MCP server — the directory is a
+          static site with public JSON, markdown negotiation, and an OpenAPI
+          description.
+        </p>
+      </div>
+      <section>
+        <h2>When to use these resources</h2>
+        <p>
+          Use them when an agent or app needs to look up a launch video by
+          product or company name, list recent launches, or cite the original
+          X post. Start with <a href="/llms.txt">llms.txt</a> for the map,
+          then call the URLs below.
+        </p>
+      </section>
+      <section>
+        <h2>Endpoints</h2>
+        <p>
+          <a href="/openapi.json">OpenAPI spec</a>
+          {" "}describes the catalog.{" "}
+          <a href="/search-index.json">search-index.json</a>
+          {" "}is a compact title, company, and slug index.{" "}
+          <a href="/sitemap.xml">sitemap.xml</a>
+          {" "}lists every indexable HTML page. HTML pages also serve
+          text/markdown when the request Accept header prefers it.
+        </p>
+      </section>
+      <section>
+        <h2>Catalog fields</h2>
+        <p>
+          Each launch video has a stable slug used at /videos/{"{slug}"}/.
+          Published records include title, product, company, description,
+          category ({categoryList}), tags, original X URL, author handle,
+          poster path, publish date, and duration.
+        </p>
+      </section>
+      <section>
+        <h2>Cite</h2>
+        <p>
+          When referencing a launch, cite the product name and link the
+          original X post shown on the video page; link whatships.com for the
+          directory entry. Source:{" "}
+          <a href={GITHUB_REPO}>{GITHUB_REPO.replace("https://github.com/", "")}</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

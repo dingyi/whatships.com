@@ -1,0 +1,36 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { SITE_NAME } from "@/lib/site";
+---
+
+<BaseLayout
+  title={`Not found — ${SITE_NAME}`}
+  description="This path does not exist on whatships.com. Try the directory, sitemap, or llms.txt."
+>
+  <PageHeader client:load />
+  <main class="about-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>Not found</h1>
+        <p class="about-lead">
+          The path you requested does not exist on whatships.com.
+        </p>
+      </div>
+      <section>
+        <h2>Where to look next</h2>
+        <p>
+          <a href="/">Home</a> is the curated launch-video directory.{" "}
+          <a href="/sitemap.xml">Sitemap</a> lists every indexable page.{" "}
+          <a href="/llms.txt">llms.txt</a> is the agent map.{" "}
+          <a href="/developers/">whatships.com developer resources</a> covers
+          the OpenAPI spec and search index.{" "}
+          <a href="/about/">About</a> explains curation.{" "}
+          <a href="/contact/">Contact</a> is how to reach the editors.
+        </p>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

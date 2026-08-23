@@ -8,6 +8,7 @@ dist/
 playwright-report/
 test-results/
 .tmp/
+.wrangler/
 # Local playback streams are generated artifacts (scripts/capture-posters.mjs),
 # too large for git. Playback uses the video proxy in production.
 public/streams/

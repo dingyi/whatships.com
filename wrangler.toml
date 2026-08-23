@@ -1,13 +1,20 @@
 name = "whatships"
+main = "workers/site/src/index.ts"
 compatibility_date = "2026-07-29"
 
-# Astro static build output, served by Workers Static Assets.
-# Build first: node_modules/.bin/astro build
-[assets]
-directory = "./dist"
-
 # Site custom domains on the whatships.com zone.
+# Must sit above [assets] — TOML keys after a table belong to that table.
 routes = [
   { pattern = "whatships.com", custom_domain = true },
   { pattern = "www.whatships.com", custom_domain = true },
 ]
+
+# Astro static build output, served by Workers Static Assets.
+# The Worker runs first so Accept: text/markdown can negotiate.
+# Build first: node_modules/.bin/astro build
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+run_worker_first = true

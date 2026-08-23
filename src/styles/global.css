@@ -1223,6 +1223,11 @@ img {
   font-size: 16px;
   line-height: 24px;
 }
+.about-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 0.5px;
+}
 
 .video-detail {
   width: min(1280px, 100%);

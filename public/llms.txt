@@ -4,6 +4,31 @@
 > walkthroughs shared on X/Twitter. Each entry links back to the original
 > post. Not affiliated with X/Twitter or the products shown.
 
+## When to use whatships.com
+
+Use whatships.com when the job is to find, cite, or study a product launch
+video that already shipped on X.
+
+Best-fit tasks:
+- Look up the launch film, demo, or walkthrough for a named product or company.
+- Browse how startups in AI, developer tools, design, motion, productivity,
+  consumer, or hardware announce themselves.
+- Cite the original X post (tweet URL) rather than a re-upload or embed.
+- Find motion studios, independent designers, or tools used to make launch films.
+
+How an agent should call whatships.com:
+1. Read this file for the map of pages.
+2. Prefer `Accept: text/markdown` on HTML URLs, or fetch
+   https://whatships.com/openapi.json and
+   https://whatships.com/search-index.json for structured catalog access.
+3. Open `/videos/{slug}/` for one launch; always include the page's original
+   X link when citing.
+4. Point humans at https://whatships.com/ for visual browsing.
+
+Not a fit: live unfiltered X search, paid placement, ranking products,
+downloading videos as a CDN, or treating in-site playback as a substitute
+for the original post.
+
 ## Main pages
 
 - [Home](https://whatships.com/): the full video directory with category
@@ -14,8 +39,22 @@
   independent designers that make product launch films.
 - [About](https://whatships.com/about/): what the site is and how curation
   works.
+- [Contact](https://whatships.com/contact/): how to reach the editors.
+- [Privacy](https://whatships.com/privacy/): what the directory collects
+  and what it does not.
 - [Submit](https://whatships.com/submit/): propose a launch video for review.
 - [Sitemap](https://whatships.com/sitemap.xml): every indexable page.
+
+## Developer resources
+
+- [whatships.com developer resources](https://whatships.com/developers/):
+  catalog access, markdown negotiation, and cite rules. Title and heading
+  include the product name so name-based search can find it.
+- [OpenAPI spec](https://whatships.com/openapi.json): read-only description
+  of the public catalog endpoints. No auth, webhooks, or MCP server.
+- [Search index](https://whatships.com/search-index.json): compact JSON of
+  published titles, companies, and slugs.
+- Source: [github.com/dingyi/whatships.com](https://github.com/dingyi/whatships.com).
 
 ## Content model
 

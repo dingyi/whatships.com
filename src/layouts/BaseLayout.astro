@@ -31,6 +31,8 @@ const canonicalURL = new URL(Astro.url.pathname, site);
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="text/markdown" title="Markdown" href={canonicalURL} />
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <!-- Privacy-friendly analytics by Plausible -->

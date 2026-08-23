@@ -5,6 +5,9 @@ export const GET = () => {
   const paths = [
     "/",
     "/about/",
+    "/contact/",
+    "/privacy/",
+    "/developers/",
     "/tools/",
     "/studios/",
     "/submit/",
