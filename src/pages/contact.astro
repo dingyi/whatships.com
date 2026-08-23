@@ -1,0 +1,56 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { GITHUB_ISSUES, GITHUB_REPO, SITE_NAME } from "@/lib/site";
+---
+
+<BaseLayout
+  title={`Contact ${SITE_NAME}`}
+  description="How to reach the whatships.com editors: GitHub issues for catalog questions, the submit form for new launch videos."
+>
+  <PageHeader client:load />
+  <main class="about-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>Contact whatships.com</h1>
+        <p class="about-lead">
+          whatships.com is a small independent directory. There is no sales
+          team, phone line, or walk-in office. Editorial and catalog questions
+          go through public GitHub issues so the trail stays visible.
+        </p>
+      </div>
+      <section>
+        <h2>Editorial and catalog questions</h2>
+        <p>
+          Open an issue on{" "}
+          <a href={GITHUB_ISSUES}>{GITHUB_REPO.replace("https://github.com/", "")}</a>{" "}
+          if you need a correction, a takedown discussion, or a question about
+          how an entry was curated. Include the video slug or the original X
+          URL so we can find the record.
+        </p>
+      </section>
+      <section>
+        <h2>Submit a launch video</h2>
+        <p>
+          Use the <a href="/submit/">Submit</a> form to propose a product
+          launch film, demo, or walkthrough. The form validates a public X
+          status URL and opens a prefilled GitHub issue. Nothing is published
+          until a human reviews it. There is no unmoderated write API.
+        </p>
+      </section>
+      <section>
+        <h2>Developer resources</h2>
+        <p>
+          Agents and integrators should start at{" "}
+          <a href="/developers/">whatships.com developer resources</a>, which
+          lists the OpenAPI spec, search index, llms.txt, and markdown
+          negotiation. The project source is{" "}
+          <a href={GITHUB_REPO}>{GITHUB_REPO.replace("https://github.com/", "")}</a>.
+          {" "}whatships.com does not run paid placement or affiliate rankings.
+        </p>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

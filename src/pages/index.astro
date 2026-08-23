@@ -2,25 +2,57 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import HomeApp from "@/components/HomeApp";
 import SiteFooter from "@/components/SiteFooter.astro";
-import { publishedVideos } from "@/lib/catalog";
+import {
+  categoryLabel,
+  formatPublishedAt,
+  publishedVideos,
+} from "@/lib/catalog";
+import { homepageJsonLd } from "@/lib/schema";
+import {
+  HOMEPAGE_H1,
+  HOMEPAGE_INTRO,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+} from "@/lib/site";
+
+const recent = publishedVideos.slice(0, 24);
+const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
 ---
 
 <BaseLayout
-  title="whatships.com — Discover startup launch videos"
-  description="A curated directory of product launch videos, demos, and walkthroughs shared on X/Twitter."
+  title={`${SITE_NAME} — Discover startup launch videos`}
+  description={SITE_DESCRIPTION}
 >
   <script
     type="application/ld+json"
     is:inline
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: "whatships.com",
-      url: "https://whatships.com/",
-      description:
-        "A curated directory of product launch videos, demos, and walkthroughs shared on X/Twitter.",
-    })}
+    set:html={JSON.stringify(homepageJsonLd())}
   />
+  <section class="sr-only" aria-hidden="true" data-agent-intro>
+    <h1>{SITE_NAME} — {HOMEPAGE_H1}</h1>
+    {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+    <nav>
+      <a href="/about/">About whatships.com</a>
+      <a href="/developers/">whatships.com developer resources</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/llms.txt">llms.txt</a>
+      <a href="/openapi.json">OpenAPI</a>
+      <a href="/sitemap.xml">Sitemap</a>
+    </nav>
+    <ol>
+      {
+        recent.map((video) => (
+          <li>
+            <a href={`/videos/${video.slug}/`}>
+              {video.title} — {video.company} · {categoryLabel(video.category)} ·
+              {formatPublishedAt(video.publishedAt)}
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
   <HomeApp videos={publishedVideos} client:load />
   <SiteFooter />
   <script is:inline>

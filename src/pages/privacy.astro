@@ -1,0 +1,63 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { GITHUB_REPO, SITE_NAME } from "@/lib/site";
+---
+
+<BaseLayout
+  title={`Privacy — ${SITE_NAME}`}
+  description="Privacy policy for whatships.com: a static public directory with no user accounts, no ads, and privacy-friendly analytics."
+>
+  <PageHeader client:load />
+  <main class="about-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>Privacy on whatships.com</h1>
+        <p class="about-lead">
+          whatships.com is a static public directory. It does not offer user
+          accounts, comments, or a logged-in area. Visiting the site does not
+          create a member profile.
+        </p>
+      </div>
+      <section>
+        <h2>What we publish</h2>
+        <p>
+          Catalog pages show product names, companies, categories, locally
+          captured poster frames, and links to public X posts that the authors
+          already shared. Submissions arrive as GitHub issues on{" "}
+          <a href={GITHUB_REPO}>{GITHUB_REPO.replace("https://github.com/", "")}</a>;
+          GitHub's privacy policy applies to that flow.
+        </p>
+      </section>
+      <section>
+        <h2>Analytics</h2>
+        <p>
+          The HTML site loads privacy-friendly Plausible analytics from
+          data.dex.group. It is used to count page views. It is not used to
+          build advertising profiles, and the site does not set a first-party
+          analytics cookie for that script.
+        </p>
+      </section>
+      <section>
+        <h2>Video playback</h2>
+        <p>
+          In-site playback fetches the original media through
+          proxy.whatships.com so browsers can play files that X's CDN otherwise
+          blocks by Referer. The proxy exists to display a video you already
+          chose to watch; it is not a tracking pixel.
+        </p>
+      </section>
+      <section>
+        <h2>What we do not do</h2>
+        <p>
+          We do not sell personal data, run ads, or take paid placement in the
+          directory. We do not require an email address to browse. If you want
+          an entry corrected or removed, use the{" "}
+          <a href="/contact/">Contact</a> page. Last updated 23 August 2026.
+        </p>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

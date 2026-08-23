@@ -23,9 +23,12 @@ node_modules/.bin/wrangler deploy   # manual deploy (see below)
   runs with `gh run list`.
 - Manual deploy: `npx pnpm deploy` (same three steps). Needs
   `CLOUDFLARE_API_TOKEN` in the environment.
-- Domains: `whatships.com` + `www` serve the site; `proxy.whatships.com` is
-  the video proxy worker (`workers/video-proxy/`, deployed separately with
-  its own wrangler.toml).
+- Domains: `whatships.com` + `www` serve the site via `workers/site/`
+  (markdown `Accept` negotiation + agent 404s in front of static assets);
+  `proxy.whatships.com` is the video proxy (`workers/video-proxy/`,
+  deployed separately with its own wrangler.toml). Do not revert the
+  site `wrangler.toml` to assets-only — agents would get HTML for
+  `Accept: text/markdown` again.
 - **Never commit `public/streams/` or `dist/`** — both are gitignored.
   Local streams are gone for good; do not regenerate or re-add them.
 
@@ -93,6 +96,11 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
   this idiom; motion tokens are defined in `src/styles/global.css`.
 - Titles ≤ 55 chars (Google truncation). Dates format via
   `formatPublishedAt` (UTC-pinned — do not remove the `timeZone`).
+- Agent surfaces: keep an H1 plus 500+ chars of homepage copy **outside**
+  the `HomeApp` island (`data-agent-intro`); keep `/llms.txt` when-to-use
+  guidance; keep `/contact/`, `/privacy/`, `/developers/`, and
+  `/openapi.json`. Markdown siblings are generated at build into `dist/`
+  (not committed).
 - Grid posters need both sizes; `poster` field always points to the 1440w
   file, code derives the `-960` variant.
 - Validate pnpm config edits — no placeholder text in
