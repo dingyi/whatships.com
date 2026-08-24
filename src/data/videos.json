@@ -42826,5 +42826,31 @@
     "durationSeconds": 87,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-nuphy-air75-v3",
+    "slug": "nuphy-air75-v3",
+    "title": "NuPhy Air75 V3 × Raycast — hardware meets software",
+    "product": "NuPhy Air75 V3",
+    "company": "NuPhy",
+    "description": "NuPhy Air75 V3 and Raycast collaboration: refined hardware, crisp feel, comfortable typing, with Raycast's fast, focused workflow. Coming soon.",
+    "category": "hardware",
+    "tags": [
+      "nuphy",
+      "keyboard",
+      "raycast",
+      "hardware"
+    ],
+    "tweetUrl": "https://x.com/nuphystudio/status/2091878142281646429",
+    "tweetId": "2091878142281646429",
+    "authorName": "NuPhy",
+    "authorHandle": "nuphystudio",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1980574944602857472/Ozcr0cOZ.jpg",
+    "poster": "/posters/nuphy-air75-v3.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2091877550540873728/vid/avc1/1280x720/_haqsPkL7gZq1ZSZ.mp4?tag=14",
+    "publishedAt": "2026-08-24T13:19:48.000Z",
+    "durationSeconds": 11,
+    "featured": false,
+    "status": "published"
   }
 ]
