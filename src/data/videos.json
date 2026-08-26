@@ -43994,5 +43994,30 @@
     "durationSeconds": 24,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-sketch-stacks",
+    "slug": "sketch-stacks",
+    "title": "Sketch — stacks get min/max, relative size, z-index",
+    "product": "Sketch Stacks",
+    "company": "Sketch",
+    "description": "Sketch stacks now support min/max sizes, relative sizing, negative gap, and z-index. The update also includes blurs on groups plus glass and fade combined.",
+    "category": "design",
+    "tags": [
+      "sketch",
+      "stacks",
+      "design"
+    ],
+    "tweetUrl": "https://x.com/sketch/status/2092595467750174912",
+    "tweetId": "2092595467750174912",
+    "authorName": "Sketch",
+    "authorHandle": "sketch",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2092544247001927680/kkk378yb.jpg",
+    "poster": "/posters/sketch-stacks.webp",
+    "videoUrl": "https://video.twimg.com/ext_tw_video/2092595440449454080/pu/vid/avc1/1280x720/VhCPoAjFzLniO7_G.mp4?tag=12",
+    "publishedAt": "2026-08-26T12:50:12.000Z",
+    "durationSeconds": 46,
+    "featured": false,
+    "status": "published"
   }
 ]
