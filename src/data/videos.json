@@ -43917,5 +43917,31 @@
     "durationSeconds": 111,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-chroma-foundation",
+    "slug": "chroma-foundation",
+    "title": "Chroma Foundation — self-improving agent memory",
+    "product": "Foundation",
+    "company": "Chroma",
+    "description": "Chroma Foundation builds self-improving memory from your agent sessions. Research preview is live at trychroma.com/foundation.",
+    "category": "ai",
+    "tags": [
+      "chroma",
+      "foundation",
+      "memory",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/jeffreyhuber/status/2090466566743974191",
+    "tweetId": "2090466566743974191",
+    "authorName": "Jeff Huber",
+    "authorHandle": "jeffreyhuber",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1588236352797126656/i-XMejJn.jpg",
+    "poster": "/posters/chroma-foundation.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2089468907044364289/vid/avc1/1920x1080/lrG313wNEiZmrUfk.mp4",
+    "publishedAt": "2026-08-20T15:50:43.000Z",
+    "durationSeconds": 149,
+    "featured": false,
+    "status": "published"
   }
 ]
