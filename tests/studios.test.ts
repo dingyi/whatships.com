@@ -48,7 +48,7 @@ describe("publishedStudios", () => {
 describe("studio helpers", () => {
   it("labels known kinds and falls back to the raw id", () => {
     expect(studioKindLabel("studio")).toBe("Studio");
-    expect(studioKindLabel("person")).toBe("Person");
+    expect(studioKindLabel("person")).toBe("Designers");
     expect(studioKindLabel("unknown" as never)).toBe("unknown");
   });
 

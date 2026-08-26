@@ -20,5 +20,16 @@
     "kind": "person",
     "xHandle": "M7Vedits",
     "poster": "/posters/studios/mouad.webp"
+  },
+  {
+    "id": "person-titouan-gillet",
+    "slug": "titouan-gillet",
+    "name": "Titouan Gillet",
+    "tagline": "Launch videos for AI-native startups",
+    "description": "Founder of Vizionary. Makes launch and feature videos for AI and B2B SaaS startups. Clients include DeepIP, Motionly, LeadMiner, and TrustalAI.",
+    "url": "https://vizionary.fr/",
+    "kind": "person",
+    "xHandle": "titouangillet_",
+    "poster": "/posters/studios/titouan-gillet.webp"
   }
 ]

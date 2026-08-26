@@ -2,7 +2,7 @@ import studiosData from "../data/studios.json";
 
 export const STUDIO_KINDS = [
   { id: "studio", label: "Studio" },
-  { id: "person", label: "Person" },
+  { id: "person", label: "Designers" },
 ] as const;
 
 export type StudioKindId = (typeof STUDIO_KINDS)[number]["id"];
