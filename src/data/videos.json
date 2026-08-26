@@ -43968,5 +43968,31 @@
     "durationSeconds": 8,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-shader-lab-community",
+    "slug": "shader-lab-community",
+    "title": "Shader Lab — draft, publish, and remix scenes",
+    "product": "Shader Lab",
+    "company": "basement.studio",
+    "description": "Shader Lab adds community: draft and publish scenes, remix others' work, and browse what everyone is shipping at shaders.basement.studio.",
+    "category": "design",
+    "tags": [
+      "basement",
+      "shaders",
+      "webgl",
+      "community"
+    ],
+    "tweetUrl": "https://x.com/basementstudio/status/2092313121683570703",
+    "tweetId": "2092313121683570703",
+    "authorName": "basement.studio",
+    "authorHandle": "basementstudio",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1471943065212497927/m4CIjfyI.jpg",
+    "poster": "/posters/shader-lab-community.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092312818854809600/vid/avc1/1920x1080/UeN4pBDE7hq1J1ke.mp4",
+    "publishedAt": "2026-08-25T18:08:16.000Z",
+    "durationSeconds": 24,
+    "featured": false,
+    "status": "published"
   }
 ]
