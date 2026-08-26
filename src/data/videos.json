@@ -44019,5 +44019,30 @@
     "durationSeconds": 46,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-warmwind-os",
+    "slug": "warmwind-os",
+    "title": "warmwind OS — the world’s first AI operating system",
+    "product": "warmwind OS",
+    "company": "warmwind",
+    "description": "warmwind OS is live after three years of building and a long beta, billed as the world’s first AI operating system.",
+    "category": "ai",
+    "tags": [
+      "warmwind",
+      "os",
+      "ai"
+    ],
+    "tweetUrl": "https://x.com/warmwind_OS/status/2092508962377576638",
+    "tweetId": "2092508962377576638",
+    "authorName": "warmwind",
+    "authorHandle": "warmwind_OS",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1936340369945313281/CsMxg9dU.jpg",
+    "poster": "/posters/warmwind-os.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092503636857257985/vid/avc1/1920x1080/ibqlPyRlCIdz__BJ.mp4",
+    "publishedAt": "2026-08-26T07:06:28.000Z",
+    "durationSeconds": 838,
+    "featured": false,
+    "status": "published"
   }
 ]
