@@ -44044,5 +44044,30 @@
     "durationSeconds": 838,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-claude-code-remotion",
+    "slug": "claude-code-remotion",
+    "title": "Claude Code — vibe-animate a demo video in Remotion",
+    "product": "Claude Code Remotion demo",
+    "company": "Tim",
+    "description": "A demo video whose motion graphics were generated entirely with Claude Code and Remotion.",
+    "category": "motion",
+    "tags": [
+      "claude-code",
+      "remotion",
+      "motion"
+    ],
+    "tweetUrl": "https://x.com/TimotejKochjar/status/2092278549679886507",
+    "tweetId": "2092278549679886507",
+    "authorName": "Tim",
+    "authorHandle": "TimotejKochjar",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2092280687369863168/N63Q9vOV.jpg",
+    "poster": "/posters/claude-code-remotion.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092277506862612480/vid/avc1/1280x720/n30T8oWwSrYu7dot.mp4",
+    "publishedAt": "2026-08-25T15:50:53.000Z",
+    "durationSeconds": 95,
+    "featured": false,
+    "status": "published"
   }
 ]
