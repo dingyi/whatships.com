@@ -243,8 +243,8 @@
     "id": "tool-shotbase",
     "slug": "shotbase",
     "name": "Shotbase",
-    "tagline": "Capture, record, edit, and share in one place",
-    "description": "A modern screen capture workspace for macOS. Capture, edit, organize, and share screenshots and recordings from one fast, streamlined workflow.",
+    "tagline": "Capture, edit, organize, and share in one place",
+    "description": "Mac app for screenshots, recordings, and webpage captures. Trim, annotate, animate, and share from one workspace, with private on-device AI to name, tag, and search them.",
     "url": "https://shotbase.com/",
     "category": "editor",
     "poster": "/posters/tools/shotbase.webp"
@@ -278,5 +278,15 @@
     "url": "https://whatsub.equal2.app/",
     "category": "editor",
     "poster": "/posters/tools/whatsub.webp"
+  },
+  {
+    "id": "tool-mo1",
+    "slug": "mo1",
+    "name": "mo1",
+    "tagline": "A new way to create motion graphics",
+    "description": "A real-time motion graphics editor in the browser. Build 3D animations from reusable modules, then edit the Three.js code or ask the AI agent to change it.",
+    "url": "https://mo1.app/",
+    "category": "motion",
+    "poster": "/posters/tools/mo1.webp"
   }
 ]
