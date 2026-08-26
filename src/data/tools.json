@@ -288,5 +288,15 @@
     "url": "https://mo1.app/",
     "category": "motion",
     "poster": "/posters/tools/mo1.webp"
+  },
+  {
+    "id": "tool-topview-motion-studio",
+    "slug": "topview-motion-studio",
+    "name": "Topview Motion Studio",
+    "tagline": "Create motion videos with AI, not After Effects",
+    "description": "Create AI motion graphics and product launch videos from a description. Add references, pick a style, and generate without After Effects.",
+    "url": "https://www.topview.ai/motion-studio",
+    "category": "motion",
+    "poster": "/posters/tools/topview-motion-studio.webp"
   }
 ]
