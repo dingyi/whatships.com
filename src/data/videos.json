@@ -43943,5 +43943,30 @@
     "durationSeconds": 149,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-launch-video-10s",
+    "slug": "launch-video-10s",
+    "title": "Launch videos should probably be 10s or less",
+    "product": "10s launch video",
+    "company": "Xavier",
+    "description": "A 10-second take: your launch video should probably be 10 seconds or less.",
+    "category": "motion",
+    "tags": [
+      "launch-video",
+      "motion",
+      "reel"
+    ],
+    "tweetUrl": "https://x.com/KMkota0/status/2092281657579507775",
+    "tweetId": "2092281657579507775",
+    "authorName": "xavier (jack)",
+    "authorHandle": "KMkota0",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/773427888360161280/TgO3ynCO.jpg",
+    "poster": "/posters/launch-video-10s.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092280099139641344/vid/avc1/1920x1920/A6oCc1tqyGu3o7gi.mp4",
+    "publishedAt": "2026-08-25T16:03:14.000Z",
+    "durationSeconds": 8,
+    "featured": false,
+    "status": "published"
   }
 ]
