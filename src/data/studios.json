@@ -31,5 +31,16 @@
     "kind": "person",
     "xHandle": "titouangillet_",
     "poster": "/posters/studios/titouan-gillet.webp"
+  },
+  {
+    "id": "person-ilker",
+    "slug": "ilker",
+    "name": "ilker",
+    "tagline": "Creative engineer for AI video",
+    "description": "Creative engineer at fal. Former motion designer making gen-media films, AI video workflows, and motion experiments with current video models.",
+    "url": "https://x.com/ailker",
+    "kind": "person",
+    "xHandle": "ailker",
+    "poster": "/posters/studios/ilker.webp"
   }
 ]
