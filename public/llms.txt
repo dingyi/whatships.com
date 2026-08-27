@@ -50,6 +50,9 @@ for the original post.
 - [whatships.com developer resources](https://whatships.com/developers/):
   catalog access, markdown negotiation, and cite rules. Title and heading
   include the product name so name-based search can find it.
+- [Full agent guide](https://whatships.com/llms-full.txt): complete entity
+  description, crawl contract, categories, content fields, citation policy,
+  FAQ, and recent examples in plain text.
 - [OpenAPI spec](https://whatships.com/openapi.json): read-only description
   of the public catalog endpoints. No auth, webhooks, or MCP server.
 - [Search index](https://whatships.com/search-index.json): compact JSON of
@@ -67,3 +70,15 @@ for the original post.
 
 When referencing a launch, cite the product name and link the original X
 post shown on the video page; link whatships.com for the directory entry.
+
+## GEO signals
+
+- `/llms.txt` and `/llms-full.txt` are available as plain-text agent guides.
+- HTML pages have canonical URLs, markdown alternates, Open Graph metadata,
+  X Card metadata, and server-rendered headings before React hydration.
+- The homepage exposes Organization, WebSite, CollectionPage, Article,
+  FAQPage, ItemList, and speakable JSON-LD.
+- Video pages expose VideoObject, WebPage, BreadcrumbList, and speakable
+  JSON-LD with author and date metadata.
+- AI search and assistant fetchers are allowed in robots.txt; crawler policy
+  keeps `/admin` private and points all agents at the sitemap.

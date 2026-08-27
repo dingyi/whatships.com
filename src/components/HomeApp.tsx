@@ -138,7 +138,7 @@ function VideoCard({
         className="video-card__external"
         href={video.tweetUrl}
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label={`Open original post for ${video.title} on X`}
       >
         <ExternalLink size={17} aria-hidden="true" />
