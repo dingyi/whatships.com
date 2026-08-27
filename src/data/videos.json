@@ -44969,5 +44969,55 @@
     "durationSeconds": 30,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-next-ipod",
+    "slug": "next-ipod",
+    "title": "Founders Inc — who will invent the next iPod?",
+    "product": "Next iPod",
+    "company": "Founders Inc",
+    "description": "Founders Inc is looking for the next iPod: consumer hardware is going to be massive this year, and they want to find and fund it.",
+    "category": "motion",
+    "tags": [
+      "founders-inc",
+      "hardware",
+      "motion"
+    ],
+    "tweetUrl": "https://x.com/fdotinc/status/2092780175176175804",
+    "tweetId": "2092780175176175804",
+    "authorName": "Founders Inc",
+    "authorHandle": "fdotinc",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2092016236221874176/saYapk1H.jpg",
+    "poster": "/posters/next-ipod.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092778519822815232/vid/avc1/1920x1080/we70uen9tsZ-WCJX.mp4",
+    "publishedAt": "2026-08-27T01:04:10.000Z",
+    "durationSeconds": 17,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-mojo",
+    "slug": "mojo",
+    "title": "Mojo — agentic trading OS, now in closed beta",
+    "product": "Mojo",
+    "company": "MOJO",
+    "description": "Mojo is an agentic trading OS that takes you from understanding the market to acting on it, and keeps the workflow running 24/7.",
+    "category": "ai",
+    "tags": [
+      "mojo",
+      "trading",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/MojoAI_HQ/status/2092854736974475634",
+    "tweetId": "2092854736974475634",
+    "authorName": "MOJO",
+    "authorHandle": "MojoAI_HQ",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2066521271308062720/h0cDOPex.jpg",
+    "poster": "/posters/mojo.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092853129020858368/vid/avc1/1920x1080/U2J76cn_HCrpSwFp.mp4",
+    "publishedAt": "2026-08-27T06:00:27.000Z",
+    "durationSeconds": 44,
+    "featured": false,
+    "status": "published"
   }
 ]
