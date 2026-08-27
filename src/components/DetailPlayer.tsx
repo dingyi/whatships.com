@@ -7,6 +7,7 @@ import {
   playbackUrl,
   type LaunchVideo,
 } from "@/lib/catalog";
+import { gridPoster } from "@/lib/directory";
 
 type PlayerStatus = "idle" | "loading" | "ready" | "error";
 
@@ -59,7 +60,7 @@ export default function DetailPlayer({ video }: { video: LaunchVideo }) {
         controls={started}
         playsInline
         preload="none"
-        poster={video.poster}
+        poster={gridPoster(video.poster)}
         onLoadedData={handleLoaded}
         onError={() => setStatus("error")}
       >

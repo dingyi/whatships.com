@@ -15,6 +15,7 @@ import {
   type LaunchVideo,
   xProfileUrl,
 } from "@/lib/catalog";
+import { gridPoster } from "@/lib/directory";
 import {
   SITE_DATE_MODIFIED,
   SITE_NAME,
@@ -140,7 +141,7 @@ const videoJsonLd = {
     slot="head"
     rel="preload"
     as="image"
-    href={video.poster}
+    href={gridPoster(video.poster)}
     fetchpriority="high"
     type="image/webp"
   />
