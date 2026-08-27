@@ -61,7 +61,13 @@ describe("trust and developer pages", () => {
     expect(homeApp).not.toContain("<h1");
     expect(homeApp).toContain('alt={`Poster for ${video.title}`}');
     expect(index).toContain("blockquote");
-    expect(index).toContain("https://llmstxt.org/");
+    expect(index).toContain("<SiteSources");
+    expect(readFileSync("src/components/SiteSources.astro", "utf8")).toContain(
+      "GEO_CITATIONS",
+    );
+    expect(readFileSync("src/lib/site.ts", "utf8")).toContain(
+      "https://llmstxt.org/",
+    );
     expect(footer).toContain("/privacy/");
     expect(footer).toContain("/terms/");
     expect(layout).toContain('hreflang="x-default"');
