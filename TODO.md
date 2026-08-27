@@ -21,9 +21,13 @@ Optimize whatships.com for GEO based on the linked X Article about AITDK GEO che
 - [x] Updated short `llms.txt`, developer resources, sitemap, and OpenAPI.
 - [x] Made external-link `rel` attributes explicit with `noopener noreferrer`.
 
+## Verification
+
+- [x] Run Vitest: 12 test files and 65 tests passed.
+- [x] Run Astro check: completed successfully.
+- [x] Run Astro build: completed successfully; 1837 pages built.
+
 ## Next steps
 
-- [ ] Run Vitest.
-- [ ] Run Astro check.
-- [ ] Run Astro build.
-- [ ] Fix any verification failures and update the PR.
+- [ ] Review the deployed PR preview or production deploy after merge with an external GEO audit extension.
+- [ ] Re-run a crawler-specific check if robots policy changes again.
