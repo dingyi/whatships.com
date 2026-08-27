@@ -9,6 +9,7 @@ import {
   llmsFullText,
   notFoundMarkdown,
   privacyMarkdown,
+  termsMarkdown,
   videoMarkdown,
 } from "@/lib/markdown";
 import { openApiSpec } from "@/lib/openapi";
@@ -31,6 +32,8 @@ describe("agent-facing copy", () => {
     expect(homepageMarkdown()).toContain("# whatships.com");
     expect(homepageMarkdown()).toContain("When to use whatships.com");
     expect(homepageMarkdown()).toContain("llms-full.txt");
+    expect(homepageMarkdown()).toContain("Sources and quotations");
+    expect(homepageMarkdown()).toContain("https://llmstxt.org/");
     expect(homepageMarkdown()).toContain(publishedVideos[0].title);
   });
 
@@ -47,6 +50,7 @@ describe("agent-facing copy", () => {
       aboutMarkdown(),
       contactMarkdown(),
       privacyMarkdown(),
+      termsMarkdown(),
       developersMarkdown(),
     ]) {
       expect(visibleText(body).length).toBeGreaterThan(500);
@@ -88,6 +92,8 @@ describe("structured data", () => {
       contactType: "editorial inquiries",
       url: "https://whatships.com/contact/",
     });
+    expect(org?.name).toBe(SITE_NAME);
+    expect(org).not.toHaveProperty("alternateName");
     const types = graph.map((node) => node["@type"]);
     expect(types).toContain("WebSite");
     expect(types).toContain("Organization");

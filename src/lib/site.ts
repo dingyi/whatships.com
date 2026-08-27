@@ -5,6 +5,7 @@ export const GITHUB_REPO = "https://github.com/dingyi/whatships.com";
 export const GITHUB_ISSUES = `${GITHUB_REPO}/issues`;
 export const CONTACT_PATH = "/contact/";
 export const DEVELOPERS_PATH = "/developers/";
+export const TERMS_PATH = "/terms/";
 export const SITE_DATE_PUBLISHED = "2026-08-23";
 export const SITE_DATE_MODIFIED = "2026-08-27";
 
@@ -17,7 +18,8 @@ export const HOMEPAGE_H1 = "Discover startup launch videos from X";
 /**
  * Crawler-visible homepage copy. Kept out of the React island so AI
  * crawlers that ignore custom elements still see an H1 and 500+ characters
- * of raw HTML. Screen readers skip it via aria-hidden; sighted UI is unchanged.
+ * of raw HTML. The visible HomeApp hero uses a styled paragraph so the page
+ * has exactly one H1.
  */
 export const HOMEPAGE_INTRO = `whatships.com is an independent curated directory of startup launch videos from X. The catalog indexes product launch films, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
 
@@ -67,6 +69,21 @@ export const GEO_FAQS = [
   },
 ] as const;
 
+export const GEO_CITATIONS = [
+  {
+    quote:
+      "We propose adding a /llms.txt markdown file to websites to provide LLM-friendly content.",
+    name: "Jeremy Howard, llmstxt.org",
+    url: "https://llmstxt.org/",
+  },
+  {
+    quote:
+      "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+    name: "Schema.org WebSite",
+    url: "https://schema.org/WebSite",
+  },
+] as const;
+
 export const NOT_FOUND_MARKDOWN = `# Not found
 
 The path you requested does not exist on whatships.com.
@@ -79,6 +96,8 @@ The path you requested does not exist on whatships.com.
 - [Developers](${SITE_URL}/developers/): OpenAPI spec, search index, and catalog schema
 - [About](${SITE_URL}/about/): what the directory is and how curation works
 - [Contact](${SITE_URL}/contact/): how to reach the editors
+- [Privacy](${SITE_URL}/privacy/): what the directory collects
+- [Terms](${SITE_URL}/terms/): how the catalog may be used
 `;
 
 export const STATIC_PAGE_PATHS = [
@@ -86,6 +105,7 @@ export const STATIC_PAGE_PATHS = [
   "/about/",
   "/contact/",
   "/privacy/",
+  "/terms/",
   "/developers/",
   "/tools/",
   "/studios/",

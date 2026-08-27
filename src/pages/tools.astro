@@ -74,7 +74,7 @@ import {
                       src={small}
                       srcset={`${small} 960w, ${tool.poster} 1440w`}
                       sizes="(max-width: 699px) calc(100vw - 34px), 420px"
-                      alt=""
+                      alt={`${tool.name} — ${tool.tagline}`}
                       loading={index < 6 ? "eager" : "lazy"}
                       fetchpriority={index === 0 ? "high" : undefined}
                       width="1440"
