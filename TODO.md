@@ -2,25 +2,15 @@
 
 ## Goal
 
-Fix the remaining AITDK GEO audit warnings on whatships.com.
+Fit public SEO meta descriptions into the 140-160 character AITDK window.
 
 ## Progress
 
-- [x] Keep a single homepage H1 outside HomeApp; visible hero is a styled paragraph.
-- [x] Add `og:site_name=whatships.com` and drop schema brand aliases.
-- [x] Add `hreflang="en"` plus `hreflang="x-default"`.
-- [x] Add named citations and quotations (llmstxt.org, Schema.org).
-- [x] Add `/terms/` and link Privacy + Terms in the footer.
-- [x] Add descriptive alt text for homepage, tools, studios, and author images.
-
-## Verification
-
-- [x] Vitest: 12 files, 66 tests passed.
-- [x] Astro check: 0 errors.
-- [x] Astro build: 1838 pages.
-- [x] Built homepage has 1 H1, 60 images with alt, og:site_name, hreflang x-default, quotations, Privacy + Terms.
-- [x] Browser preview: homepage, terms, privacy, and a video detail page.
+- [x] Add `SITE_META_DESCRIPTION` and a `metaDescription()` clamp.
+- [x] Apply the clamp in BaseLayout for HTML and Open Graph descriptions.
+- [x] Rewrite static page meta copy into the 140-160 window.
 
 ## Next steps
 
+- [ ] Run Vitest, Astro check, and Astro build.
 - [ ] Re-scan the homepage with AITDK after merge/deploy.

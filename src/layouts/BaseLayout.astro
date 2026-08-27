@@ -1,6 +1,11 @@
 ---
 import "@/styles/global.css";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import {
+  SITE_META_DESCRIPTION,
+  SITE_NAME,
+  SITE_URL,
+  metaDescription,
+} from "@/lib/site";
 
 interface Props {
   title?: string;
@@ -10,11 +15,12 @@ interface Props {
 
 const {
   title = SITE_NAME,
-  description = SITE_DESCRIPTION,
+  description = SITE_META_DESCRIPTION,
   image = "/og-default.svg",
 } = Astro.props;
 const site = Astro.site ?? SITE_URL;
 const canonicalURL = new URL(Astro.url.pathname, site);
+const seoDescription = metaDescription(description);
 ---
 
 <!doctype html>
@@ -22,11 +28,11 @@ const canonicalURL = new URL(Astro.url.pathname, site);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
+    <meta name="description" content={seoDescription} />
     <meta name="theme-color" content="#fafafa" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={seoDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={new URL(image, site)} />
