@@ -66,6 +66,20 @@ export function openApiSpec() {
           },
         },
       },
+      "/llms-full.txt": {
+        get: {
+          operationId: "getLlmsFullTxt",
+          summary: "Full agent guide and GEO-readable entity description",
+          description:
+            "Returns the complete plain-text guide for AI assistants, including entity identity, crawl contract, citation policy, categories, FAQs, and recent examples.",
+          responses: {
+            "200": {
+              description: "Full plain-text agent guide",
+              content: { "text/plain": { schema: { type: "string" } } },
+            },
+          },
+        },
+      },
       "/sitemap.xml": {
         get: {
           operationId: "getSitemap",

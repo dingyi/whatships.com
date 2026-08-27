@@ -9,6 +9,7 @@ import {
 } from "@/lib/catalog";
 import { homepageJsonLd } from "@/lib/schema";
 import {
+  GEO_FAQS,
   HOMEPAGE_H1,
   HOMEPAGE_INTRO,
   SITE_DESCRIPTION,
@@ -17,6 +18,7 @@ import {
 
 const recent = publishedVideos.slice(0, 24);
 const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
+const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVideos.length} curated startup launch-video pages with stable URLs, markdown alternates, poster images, categories, and original X citations.`;
 ---
 
 <BaseLayout
@@ -26,11 +28,23 @@ const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
   <script
     type="application/ld+json"
     is:inline
-    set:html={JSON.stringify(homepageJsonLd())}
+    set:html={JSON.stringify(homepageJsonLd(recent))}
   />
   <section class="sr-only" aria-hidden="true" data-agent-intro>
     <h1>{SITE_NAME} — {HOMEPAGE_H1}</h1>
+    <p>{catalogFact}</p>
     {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+    <section aria-labelledby="agent-faq-title">
+      <h2 id="agent-faq-title">Frequently asked questions for AI assistants</h2>
+      {
+        GEO_FAQS.map((item) => (
+          <section>
+            <h3>{item.question}</h3>
+            <p>{item.answer}</p>
+          </section>
+        ))
+      }
+    </section>
     <nav>
       <a href="/about/">About whatships.com</a>
       <a href="/developers/">whatships.com developer resources</a>

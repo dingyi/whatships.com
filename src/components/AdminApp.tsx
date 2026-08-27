@@ -548,16 +548,16 @@ function ItemEditor({
             </p>
           ) : null}
           <div className="admin-editor__links">
-            <a href={item.post.tweetUrl} target="_blank" rel="noreferrer">
+            <a href={item.post.tweetUrl} target="_blank" rel="noopener noreferrer">
               Open on X <ExternalLink size={13} aria-hidden="true" />
             </a>
             {item.issueUrl ? (
-              <a href={item.issueUrl} target="_blank" rel="noreferrer">
+              <a href={item.issueUrl} target="_blank" rel="noopener noreferrer">
                 GitHub issue <ExternalLink size={13} aria-hidden="true" />
               </a>
             ) : null}
             {item.draft.videoUrl ? (
-              <a href={item.draft.videoUrl} target="_blank" rel="noreferrer">
+              <a href={item.draft.videoUrl} target="_blank" rel="noopener noreferrer">
                 Video URL <ExternalLink size={13} aria-hidden="true" />
               </a>
             ) : null}
