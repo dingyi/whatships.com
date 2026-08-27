@@ -7,6 +7,7 @@ export const GET = () => {
     "/about/",
     "/contact/",
     "/privacy/",
+    "/terms/",
     "/developers/",
     "/tools/",
     "/studios/",

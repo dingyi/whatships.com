@@ -1,0 +1,61 @@
+---
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { GITHUB_REPO, SITE_NAME } from "@/lib/site";
+---
+
+<BaseLayout
+  title={`Terms — ${SITE_NAME}`}
+  description="Terms of use for whatships.com: an independent launch-video directory that cites original public X posts and does not sell placement."
+>
+  <PageHeader client:load />
+  <main class="about-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>Terms of use for whatships.com</h1>
+        <p class="about-lead">
+          whatships.com is an independent, curated directory of startup launch
+          videos that were already posted in public on X. These terms explain
+          how you may use the catalog and what the directory does not claim.
+        </p>
+      </div>
+      <section>
+        <h2>What the catalog is</h2>
+        <p>
+          Each published page stores editorial metadata and a durable link to
+          the original X post. In-site playback exists only to display a video
+          you already chose to watch. The directory is not a live X search, a
+          download CDN, or a ranking product.
+        </p>
+      </section>
+      <section>
+        <h2>Ownership and citation</h2>
+        <p>
+          Names, trademarks, and video content remain the property of their
+          respective owners. When you cite a launch, name the product and
+          company, link the whatships.com directory entry, and include the
+          original X URL shown on that page. Source code lives at{" "}
+          <a href={GITHUB_REPO}>{GITHUB_REPO.replace("https://github.com/", "")}</a>.
+        </p>
+      </section>
+      <section>
+        <h2>No paid placement</h2>
+        <p>
+          whatships.com does not sell directory placement, affiliate rankings,
+          or advertising slots. Drafts stay unpublished until a human reviews
+          them. Submissions become public GitHub issues.
+        </p>
+      </section>
+      <section>
+        <h2>Corrections</h2>
+        <p>
+          If you want an entry corrected or removed, use the{" "}
+          <a href="/contact/">Contact</a> page. Privacy details are on{" "}
+          <a href="/privacy/">Privacy</a>. Last updated 27 August 2026.
+        </p>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

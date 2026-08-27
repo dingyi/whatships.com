@@ -156,7 +156,11 @@ const videoJsonLd = {
       <div class="detail-logo">
         {
           video.authorAvatar ? (
-            <img src={video.authorAvatar} alt="" referrerpolicy="no-referrer" />
+            <img
+              src={video.authorAvatar}
+              alt={`${video.authorName} on X`}
+              referrerpolicy="no-referrer"
+            />
           ) : (
             <span class="detail-logo__fallback" aria-hidden="true">
               {monogram}

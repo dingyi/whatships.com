@@ -42,6 +42,7 @@ for the original post.
 - [Contact](https://whatships.com/contact/): how to reach the editors.
 - [Privacy](https://whatships.com/privacy/): what the directory collects
   and what it does not.
+- [Terms](https://whatships.com/terms/): how the catalog may be used.
 - [Submit](https://whatships.com/submit/): propose a launch video for review.
 - [Sitemap](https://whatships.com/sitemap.xml): every indexable page.
 
