@@ -8,6 +8,7 @@ import {
   formatPublishedAt,
   publishedVideos,
 } from "@/lib/catalog";
+import { PAGE_SIZE, gridPoster, toDirectoryVideo } from "@/lib/directory";
 import { homepageJsonLd } from "@/lib/schema";
 import {
   GEO_CITATIONS,
@@ -19,6 +20,8 @@ import {
 } from "@/lib/site";
 
 const recent = publishedVideos.slice(0, 24);
+const firstPage = publishedVideos.slice(0, PAGE_SIZE).map(toDirectoryVideo);
+const lcpPoster = firstPage[0] ? gridPoster(firstPage[0].poster) : null;
 const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
 const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVideos.length} curated startup launch-video pages with stable URLs, markdown alternates, poster images, categories, and original X citations.`;
 ---
@@ -27,6 +30,18 @@ const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVid
   title={`${SITE_NAME} — Discover startup launch videos`}
   description={SITE_DESCRIPTION}
 >
+  {
+    lcpPoster && (
+      <link
+        slot="head"
+        rel="preload"
+        as="image"
+        href={lcpPoster}
+        fetchpriority="high"
+        type="image/webp"
+      />
+    )
+  }
   <script
     type="application/ld+json"
     is:inline
@@ -86,7 +101,11 @@ const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVid
       }
     </ol>
   </section>
-  <HomeApp videos={publishedVideos} client:load />
+  <HomeApp
+    videos={firstPage}
+    totalCount={publishedVideos.length}
+    client:idle
+  />
   <SiteSources />
   <SiteFooter />
   <script is:inline>

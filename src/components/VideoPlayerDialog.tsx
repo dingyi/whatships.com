@@ -7,11 +7,11 @@ import {
   formatDuration,
   normalizeTweetUrl,
   playbackUrl,
-  type LaunchVideo,
 } from "@/lib/catalog";
+import type { DirectoryVideo } from "@/lib/directory";
 
 interface Props {
-  video: LaunchVideo | null;
+  video: DirectoryVideo | null;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   /** When provided, prev/next controls step through the caller's list. */
@@ -47,7 +47,7 @@ export default function VideoPlayerDialog({
   // and unmount only after the close tween (--duration-quick) has played.
   const [rendered, setRendered] = useState(open);
   const [closing, setClosing] = useState(false);
-  const lastVideoRef = useRef<LaunchVideo | null>(null);
+  const lastVideoRef = useRef<DirectoryVideo | null>(null);
   if (video) lastVideoRef.current = video;
   // Mount the portal in the SAME commit that `open` flips true (adjust-state-
   // during-render). Deferring this to an effect would render null on the first

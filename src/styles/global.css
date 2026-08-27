@@ -1,9 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
-@import "@fontsource/ibm-plex-mono/400.css";
-@import "@fontsource/ibm-plex-mono/500.css";
+@import "./fonts.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -78,7 +76,7 @@
   --secondary: var(--n-100);
   --secondary-foreground: var(--n-950);
   --muted: var(--n-100);
-  --muted-foreground: var(--n-500);
+  --muted-foreground: var(--n-600);
   --accent: var(--n-200);
   --accent-foreground: var(--n-950);
   --selected: var(--n-300);
@@ -226,7 +224,7 @@
   --secondary: var(--n-100);
   --secondary-foreground: var(--n-950);
   --muted: var(--n-100);
-  --muted-foreground: var(--n-500);
+  --muted-foreground: var(--n-600);
   --accent: var(--n-200);
   --accent-foreground: var(--n-950);
   --selected: var(--n-300);
@@ -522,8 +520,8 @@ img {
   position: relative;
   z-index: 2;
   display: grid;
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   flex: 0 0 auto;
   border: 0.5px solid var(--grid-line);
@@ -562,8 +560,8 @@ img {
 }
 .mobile-menu-button {
   display: none;
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   border: 0.5px solid var(--grid-line);
   border-radius: 0;
@@ -700,7 +698,7 @@ img {
 }
 .category-select {
   min-width: 158px;
-  height: 34px !important;
+  height: 44px !important;
   border: 0.5px solid var(--grid-line) !important;
   border-radius: 0 !important;
   background: var(--card) !important;
@@ -713,7 +711,7 @@ img {
 .directory-search {
   display: grid;
   width: min(280px, 42vw);
-  height: 34px;
+  height: 44px;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 9px;
@@ -927,8 +925,8 @@ img {
   right: 18px;
   z-index: 3;
   display: grid;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   border: 0.5px solid var(--grid-line);
   border-radius: 0;
@@ -1006,8 +1004,8 @@ img {
 }
 .pagination button {
   display: grid;
-  min-width: 32px;
-  height: 32px;
+  min-width: 44px;
+  height: 44px;
   place-items: center;
   border: 0;
   border-radius: 0;
@@ -1490,7 +1488,8 @@ img {
     min-width: 0;
   }
   .directory-search {
-    width: 36px;
+    width: 44px;
+    height: 44px;
     grid-template-columns: 1fr;
     place-items: center;
     padding: 0;
@@ -1506,7 +1505,8 @@ img {
     grid-template-columns: 1fr;
   }
   .theme-toggle {
-    width: 34px;
+    width: 44px;
+    height: 44px;
   }
   .site-footer {
     margin: 80px 16px 0;
@@ -2283,8 +2283,8 @@ a.nav-submit {
 }
 .video-player-modal__close {
   display: grid;
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   flex: 0 0 auto;
   place-items: center;
   border: 0;

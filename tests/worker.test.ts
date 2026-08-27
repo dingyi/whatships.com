@@ -102,4 +102,38 @@ describe("site worker negotiation", () => {
     expect(response.status).toBe(200);
     expect(await response.text()).toContain("# whatships.com");
   });
+
+  it("sets a long cache for hashed /_astro assets", async () => {
+    const hashed = assetEnv({
+      "/_astro/BaseLayout.abc.css": new Response("body{}", {
+        headers: {
+          "Content-Type": "text/css",
+          "Cache-Control": "public, max-age=0, must-revalidate",
+        },
+      }),
+    });
+    const response = await worker.fetch(
+      request("/_astro/BaseLayout.abc.css"),
+      hashed,
+    );
+    expect(response.status).toBe(200);
+    expect(response.headers.get("Cache-Control")).toBe(
+      "public, max-age=31536000, immutable",
+    );
+  });
+
+  it("caches posters for a week", async () => {
+    const posters = assetEnv({
+      "/posters/mojo-960.webp": new Response("webp", {
+        headers: { "Content-Type": "image/webp" },
+      }),
+    });
+    const response = await worker.fetch(
+      request("/posters/mojo-960.webp"),
+      posters,
+    );
+    expect(response.headers.get("Cache-Control")).toBe(
+      "public, max-age=604800",
+    );
+  });
 });

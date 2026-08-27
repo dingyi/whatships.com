@@ -28,17 +28,19 @@ import {
   categoryLabel,
   formatDuration,
   formatPublishedAt,
-  type LaunchVideo,
 } from "@/lib/catalog";
 import {
   clampPage,
   filterVideos,
+  gridPoster,
   PAGE_SIZE,
   pageWindow,
+  type DirectoryVideo,
 } from "@/lib/directory";
 
 interface Props {
-  videos: LaunchVideo[];
+  videos: DirectoryVideo[];
+  totalCount: number;
 }
 
 function VideoCard({
@@ -46,14 +48,14 @@ function VideoCard({
   onPlay,
   index,
 }: {
-  video: LaunchVideo;
-  onPlay: (video: LaunchVideo) => void;
+  video: DirectoryVideo;
+  onPlay: (video: DirectoryVideo) => void;
   index: number;
 }) {
   const duration = formatDuration(video.durationSeconds);
-  // Above-the-fold posters load eagerly; the LCP candidate gets top priority.
-  const eager = index < 6;
-  const small = video.poster.replace(/\.webp$/, "-960.webp");
+  // Mobile shows one column; only the first two posters are above the fold.
+  const eager = index < 2;
+  const small = gridPoster(video.poster);
 
   function rememberReturn() {
     window.history.replaceState(
@@ -88,7 +90,8 @@ function VideoCard({
             sizes="(max-width: 699px) calc(100vw - 34px), 420px"
             alt={`Poster for ${video.title}`}
             loading={eager ? "eager" : "lazy"}
-            fetchPriority={index === 0 ? "high" : undefined}
+            decoding="async"
+            fetchPriority={index === 0 ? "high" : "low"}
             width="1440"
             height="810"
           />
@@ -147,17 +150,19 @@ function VideoCard({
   );
 }
 
-export default function HomeApp({ videos }: Props) {
+export default function HomeApp({ videos, totalCount }: Props) {
+  const [catalog, setCatalog] = useState(videos);
+  const [catalogComplete, setCatalogComplete] = useState(false);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [page, setPage] = useState(1);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [playingVideo, setPlayingVideo] = useState<LaunchVideo | null>(null);
+  const [playingVideo, setPlayingVideo] = useState<DirectoryVideo | null>(null);
   const [ready, setReady] = useState(false);
 
   const searchItems = useMemo<VideoSearchItem[]>(
     () =>
-      videos.map((video) => ({
+      catalog.map((video) => ({
         name: video.title,
         slug: video.slug,
         meta: `${video.company} · ${categoryLabel(video.category)}`,
@@ -174,22 +179,55 @@ export default function HomeApp({ videos }: Props) {
           .join(" ")
           .toLocaleLowerCase(),
       })),
-    [videos],
+    [catalog],
   );
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    setQuery(params.get("q") ?? "");
-    setCategory(params.get("category") ?? "all");
-    setPage(Number(params.get("page") ?? 1));
+    const nextQuery = params.get("q") ?? "";
+    const nextCategory = params.get("category") ?? "all";
+    const nextPage = Number(params.get("page") ?? 1);
+    setQuery(nextQuery);
+    setCategory(nextCategory);
+    setPage(nextPage);
     setSearchOpen(params.get("search") === "1");
-    setReady(true);
+
+    const needsFullCatalog =
+      Boolean(nextQuery) || nextCategory !== "all" || nextPage > 1;
+
+    let ignore = false;
+    fetch("/directory-index.json")
+      .then((response) => {
+        if (!response.ok) throw new Error("Directory index unavailable");
+        return response.json() as Promise<DirectoryVideo[]>;
+      })
+      .then((items) => {
+        if (ignore) return;
+        setCatalog(items);
+        setCatalogComplete(true);
+        setReady(true);
+      })
+      .catch(() => {
+        if (ignore) return;
+        setCatalogComplete(true);
+        setReady(true);
+      });
+
+    if (!needsFullCatalog) setReady(true);
+
+    return () => {
+      ignore = true;
+    };
   }, []);
 
   const filtered = useMemo(
-    () => filterVideos(videos, query, category),
-    [videos, query, category],
+    () => filterVideos(catalog, query, category),
+    [catalog, query, category],
   );
+  const resultCount =
+    catalogComplete || query || category !== "all"
+      ? filtered.length
+      : totalCount;
   const currentPage = clampPage(page, filtered.length);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const visible = filtered.slice(
@@ -316,7 +354,7 @@ export default function HomeApp({ videos }: Props) {
                 </SelectContent>
               </Select>
               <p className="result-count" id="directory-title" tabIndex={-1}>
-                {filtered.length} video{filtered.length === 1 ? "" : "s"}
+                {resultCount} video{resultCount === 1 ? "" : "s"}
               </p>
             </div>
             <button

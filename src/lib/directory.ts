@@ -4,11 +4,59 @@ import type { LaunchVideo } from "@/lib/catalog";
 // a trailing empty cell in the grid at any common viewport width.
 export const PAGE_SIZE = 60;
 
-export function filterVideos(
-  videos: LaunchVideo[],
+/** Fields the homepage grid, search, and in-page player actually use. */
+export type DirectoryVideo = Pick<
+  LaunchVideo,
+  | "id"
+  | "slug"
+  | "title"
+  | "product"
+  | "company"
+  | "description"
+  | "category"
+  | "tags"
+  | "tweetUrl"
+  | "authorName"
+  | "authorHandle"
+  | "poster"
+  | "videoUrl"
+  | "publishedAt"
+  | "durationSeconds"
+> & {
+  streamUrl?: string | null;
+};
+
+export function toDirectoryVideo(video: LaunchVideo): DirectoryVideo {
+  const item: DirectoryVideo = {
+    id: video.id,
+    slug: video.slug,
+    title: video.title,
+    product: video.product,
+    company: video.company,
+    description: video.description,
+    category: video.category,
+    tags: video.tags,
+    tweetUrl: video.tweetUrl,
+    authorName: video.authorName,
+    authorHandle: video.authorHandle,
+    poster: video.poster,
+    videoUrl: video.videoUrl,
+    publishedAt: video.publishedAt,
+    durationSeconds: video.durationSeconds,
+  };
+  if (video.streamUrl) item.streamUrl = video.streamUrl;
+  return item;
+}
+
+export function gridPoster(poster: string) {
+  return poster.replace(/\.webp$/, "-960.webp");
+}
+
+export function filterVideos<T extends DirectoryVideo>(
+  videos: readonly T[],
   query: string,
   category: string,
-) {
+): T[] {
   const normalizedQuery = query.trim().toLocaleLowerCase("en");
   return videos.filter((video) => {
     const matchesCategory =
