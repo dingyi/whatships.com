@@ -258,7 +258,7 @@ export default function VideoPlayerDialog({
                 className="video-player-modal__link"
                 href={tweetUrl}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Original on X
                 <ExternalLink size={14} aria-hidden="true" />
@@ -284,7 +284,7 @@ export default function VideoPlayerDialog({
           {status === "error" && (
             <div className="video-player-modal__status video-player-modal__status--error">
               <p>{errorMessage}</p>
-              <a href={tweetUrl} target="_blank" rel="noreferrer">
+              <a href={tweetUrl} target="_blank" rel="noopener noreferrer">
                 Watch on X
                 <ExternalLink size={14} aria-hidden="true" />
               </a>

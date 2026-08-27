@@ -10,7 +10,7 @@ const categoryList = CATEGORIES.map((item) => item.id).join(", ");
 
 <BaseLayout
   title={`${SITE_NAME} developer resources`}
-  description="whatships.com developer resources: OpenAPI spec, search index, llms.txt, and markdown content negotiation for the launch-video catalog."
+  description="whatships.com developer resources: OpenAPI spec, search index, llms.txt, llms-full.txt, and markdown content negotiation for the launch-video catalog."
 >
   <PageHeader client:load />
   <main class="about-page">
@@ -21,7 +21,8 @@ const categoryList = CATEGORIES.map((item) => item.id).join(", ");
           Machine-readable access to the whatships.com launch-video catalog.
           No authentication, webhooks, or MCP server — the directory is a
           static site with public JSON, markdown negotiation, and an OpenAPI
-          description.
+          description. Agent-facing pages include short and full llms guides,
+          citation rules, and structured data signals.
         </p>
       </div>
       <section>
@@ -40,9 +41,22 @@ const categoryList = CATEGORIES.map((item) => item.id).join(", ");
           {" "}describes the catalog.{" "}
           <a href="/search-index.json">search-index.json</a>
           {" "}is a compact title, company, and slug index.{" "}
+          <a href="/llms-full.txt">llms-full.txt</a>
+          {" "}provides the complete agent guide, entity description,
+          categories, citation policy, and FAQ in plain text.{" "}
           <a href="/sitemap.xml">sitemap.xml</a>
           {" "}lists every indexable HTML page. HTML pages also serve
           text/markdown when the request Accept header prefers it.
+        </p>
+      </section>
+      <section>
+        <h2>GEO readiness</h2>
+        <p>
+          Pages are server-rendered with one clear H1, canonical URLs, Open
+          Graph and X Card metadata, markdown alternates, and JSON-LD for the
+          site entity. The homepage includes FAQPage, Article, ItemList, and
+          speakable markup; launch pages include VideoObject, WebPage,
+          BreadcrumbList, author, and date metadata.
         </p>
       </section>
       <section>

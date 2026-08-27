@@ -249,7 +249,7 @@ export default function SubmitForm() {
           <a
             href="https://github.com/dingyi/whatships.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             dingyi/whatships.com
           </a>

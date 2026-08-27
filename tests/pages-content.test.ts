@@ -41,4 +41,13 @@ describe("trust and developer pages", () => {
     const source = readFileSync("src/pages/developers.astro", "utf8");
     expect(source).toContain("whatships.com developer resources");
   });
+
+  it("allows public AI crawlers and advertises full llms guidance", () => {
+    const source = readFileSync("public/robots.txt", "utf8");
+    expect(source).toContain("Allow: /");
+    expect(source).toContain("Disallow: /admin");
+    expect(source).toContain("https://whatships.com/llms-full.txt");
+    expect(source).not.toMatch(/User-agent: GPTBot\s+Disallow: \//);
+    expect(source).not.toMatch(/User-agent: ClaudeBot\s+Disallow: \//);
+  });
 });
