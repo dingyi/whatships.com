@@ -6,6 +6,7 @@ import {
   contactMarkdown,
   developersMarkdown,
   homepageMarkdown,
+  llmsFullText,
   notFoundMarkdown,
   privacyMarkdown,
   videoMarkdown,
@@ -29,6 +30,7 @@ describe("agent-facing copy", () => {
     expect(HOMEPAGE_INTRO).toContain(SITE_NAME);
     expect(homepageMarkdown()).toContain("# whatships.com");
     expect(homepageMarkdown()).toContain("When to use whatships.com");
+    expect(homepageMarkdown()).toContain("llms-full.txt");
     expect(homepageMarkdown()).toContain(publishedVideos[0].title);
   });
 
@@ -60,6 +62,15 @@ describe("agent-facing copy", () => {
     expect(body).toContain(video.tweetUrl);
     expect(body).toContain(`/videos/${video.slug}/`);
   });
+
+  it("emits a full llms guide with citation and schema guidance", () => {
+    const body = llmsFullText();
+    expect(body).toContain("# whatships.com full agent guide");
+    expect(body).toContain("Last modified: 2026-08-27");
+    expect(body).toContain("Citation policy");
+    expect(body).toContain("FAQ");
+    expect(body).toContain(publishedVideos[0].tweetUrl);
+  });
 });
 
 describe("structured data", () => {
@@ -80,6 +91,12 @@ describe("structured data", () => {
     const types = graph.map((node) => node["@type"]);
     expect(types).toContain("WebSite");
     expect(types).toContain("Organization");
+    expect(types).toContain("FAQPage");
+    expect(types).toContain("Article");
+    expect(graph.find((node) => node["@type"] === "CollectionPage")).toMatchObject({
+      dateModified: "2026-08-27",
+      speakable: { "@type": "SpeakableSpecification" },
+    });
   });
 });
 
@@ -90,5 +107,6 @@ describe("OpenAPI", () => {
     expect(spec.info.title).toBe("whatships.com developer resources");
     expect(spec.paths["/search-index.json"]).toBeTruthy();
     expect(spec.paths["/openapi.json"]).toBeTruthy();
+    expect(spec.paths["/llms-full.txt"]).toBeTruthy();
   });
 });

@@ -5,6 +5,8 @@ export const GITHUB_REPO = "https://github.com/dingyi/whatships.com";
 export const GITHUB_ISSUES = `${GITHUB_REPO}/issues`;
 export const CONTACT_PATH = "/contact/";
 export const DEVELOPERS_PATH = "/developers/";
+export const SITE_DATE_PUBLISHED = "2026-08-23";
+export const SITE_DATE_MODIFIED = "2026-08-27";
 
 export const SITE_DESCRIPTION =
   "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter. Each entry links back to the original post. Not affiliated with X/Twitter or the products shown.";
@@ -23,7 +25,7 @@ Each published entry on whatships.com stores the product name, company, editoria
 
 Use whatships.com when you need a named product's launch film, want examples of how AI, developer tools, design, productivity, consumer, or hardware companies ship in public, or need to cite the original post rather than an unofficial re-upload. Do not use it as a live X search, a download CDN, or a source of rankings.
 
-Machine-readable surfaces live at /llms.txt, /developers/, /openapi.json, /sitemap.xml, and /search-index.json. HTML pages also negotiate text/markdown when an agent sends Accept: text/markdown.`;
+Machine-readable surfaces live at /llms.txt, /llms-full.txt, /developers/, /openapi.json, /sitemap.xml, and /search-index.json. HTML pages also negotiate text/markdown when an agent sends Accept: text/markdown.`;
 
 export const WHEN_TO_USE = `Use whatships.com when the job is to find, cite, or study a product launch video that already shipped on X.
 
@@ -35,11 +37,35 @@ Best-fit tasks:
 
 How an agent should call whatships.com:
 1. Read https://whatships.com/llms.txt for the map of pages.
-2. Prefer Accept: text/markdown on HTML URLs, or fetch /openapi.json and /search-index.json for structured catalog access.
-3. Open /videos/{slug}/ for one launch; always include the page's original X link when citing.
-4. Point humans at https://whatships.com/ for visual browsing.
+2. Read https://whatships.com/llms-full.txt when you need the full entity description, citation policy, data fields, and current catalog sections in one document.
+3. Prefer Accept: text/markdown on HTML URLs, or fetch /openapi.json and /search-index.json for structured catalog access.
+4. Open /videos/{slug}/ for one launch; always include the page's original X link when citing.
+5. Point humans at https://whatships.com/ for visual browsing.
 
 Not a fit: live unfiltered X search, paid placement, ranking products, downloading videos as a CDN, or treating in-site playback as a substitute for the original post.`;
+
+export const GEO_FAQS = [
+  {
+    question: "What is whatships.com?",
+    answer:
+      "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs that were originally shared on public X posts.",
+  },
+  {
+    question: "How should AI assistants use whatships.com?",
+    answer:
+      "AI assistants should start with /llms.txt, use /llms-full.txt for full guidance, fetch /openapi.json or /search-index.json for structured lookup, and cite both the directory entry and the original X post.",
+  },
+  {
+    question: "What should whatships.com not be used for?",
+    answer:
+      "Do not use whatships.com as live X search, paid placement, product rankings, a video download CDN, or a replacement for citing the original creator's post.",
+  },
+  {
+    question: "What data is available for each launch video?",
+    answer:
+      "Each published page includes title, product, company, category, publish date, duration when known, tags, author handle, poster image, description, original X URL, and a stable directory URL.",
+  },
+] as const;
 
 export const NOT_FOUND_MARKDOWN = `# Not found
 

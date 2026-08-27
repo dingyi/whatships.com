@@ -71,7 +71,7 @@ export default function DetailPlayer({ video }: { video: LaunchVideo }) {
           className="detail-play-link"
           href={tweetUrl}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           aria-label={`Play ${video.title}${duration ? `, ${duration}` : ""}`}
           onClick={(event) => {
             event.preventDefault();
@@ -101,7 +101,7 @@ export default function DetailPlayer({ video }: { video: LaunchVideo }) {
             This video is missing or unreadable. Open the original X post
             instead.
           </p>
-          <a href={tweetUrl} target="_blank" rel="noreferrer">
+          <a href={tweetUrl} target="_blank" rel="noopener noreferrer">
             Watch on X
             <ExternalLink size={14} aria-hidden="true" />
           </a>
