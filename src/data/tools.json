@@ -298,5 +298,15 @@
     "url": "https://www.topview.ai/motion-studio",
     "category": "motion",
     "poster": "/posters/tools/topview-motion-studio.webp"
+  },
+  {
+    "id": "tool-matte",
+    "slug": "matte",
+    "name": "Matte",
+    "tagline": "Polished app demos in minutes",
+    "description": "Record the iOS simulator, a live device, or any app window. Add device frames, animations, and captions, then export from one native macOS app.",
+    "url": "https://matte.app/",
+    "category": "editor",
+    "poster": "/posters/tools/matte.webp"
   }
 ]
