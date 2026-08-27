@@ -14,11 +14,12 @@ function proseFromAstro(path: string): string {
 }
 
 describe("trust and developer pages", () => {
-  it("keeps about, contact, privacy, and developers over 500 characters", () => {
+  it("keeps about, contact, privacy, terms, and developers over 500 characters", () => {
     const pages = [
       "src/pages/about.astro",
       "src/pages/contact.astro",
       "src/pages/privacy.astro",
+      "src/pages/terms.astro",
       "src/pages/developers.astro",
     ];
     for (const page of pages) {
@@ -49,5 +50,27 @@ describe("trust and developer pages", () => {
     expect(source).toContain("https://whatships.com/llms-full.txt");
     expect(source).not.toMatch(/User-agent: GPTBot\s+Disallow: \//);
     expect(source).not.toMatch(/User-agent: ClaudeBot\s+Disallow: \//);
+  });
+
+  it("keeps a single homepage H1 and cites named sources", () => {
+    const index = readFileSync("src/pages/index.astro", "utf8");
+    const homeApp = readFileSync("src/components/HomeApp.tsx", "utf8");
+    const footer = readFileSync("src/components/SiteFooter.astro", "utf8");
+    const layout = readFileSync("src/layouts/BaseLayout.astro", "utf8");
+    expect(index.match(/<h1[\s>]/g)?.length).toBe(1);
+    expect(homeApp).not.toContain("<h1");
+    expect(homeApp).toContain('alt={`Poster for ${video.title}`}');
+    expect(index).toContain("blockquote");
+    expect(index).toContain("<SiteSources");
+    expect(readFileSync("src/components/SiteSources.astro", "utf8")).toContain(
+      "GEO_CITATIONS",
+    );
+    expect(readFileSync("src/lib/site.ts", "utf8")).toContain(
+      "https://llmstxt.org/",
+    );
+    expect(footer).toContain("/privacy/");
+    expect(footer).toContain("/terms/");
+    expect(layout).toContain('hreflang="x-default"');
+    expect(layout).toContain('og:site_name');
   });
 });

@@ -631,7 +631,8 @@ img {
   line-height: 1.3;
   text-transform: uppercase;
 }
-.hero h1 {
+.hero h1,
+.hero__title {
   max-width: 540px;
   margin: 0;
   font-size: clamp(28px, 4vw, 36px);
@@ -1125,6 +1126,42 @@ img {
   color: var(--muted-foreground);
   font-size: 13px;
 }
+.site-sources {
+  width: min(680px, calc(100% - 32px));
+  margin: 48px auto 0;
+  padding: 24px 0 0;
+  border-top: 0.5px solid var(--grid-line);
+}
+.site-sources h2,
+.site-sources footer,
+.site-sources cite {
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.site-sources h2 {
+  margin: 0 0 16px;
+}
+.site-sources blockquote {
+  margin: 0 0 16px;
+}
+.site-sources blockquote p {
+  margin: 0 0 8px;
+  color: var(--foreground);
+  font-size: 15px;
+  line-height: 24px;
+}
+.site-sources p {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 14px;
+  line-height: 22px;
+}
 .site-footer {
   display: flex;
   margin: clamp(64px, 10vw, 120px) 16px 0;
@@ -1418,7 +1455,8 @@ img {
     min-height: 379px;
     padding: 104px 16px 40px;
   }
-  .hero h1 {
+  .hero h1,
+  .hero__title {
     font-size: clamp(28px, 8vw, 36px);
     line-height: 1.1;
   }

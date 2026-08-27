@@ -1,4 +1,5 @@
 import {
+  GEO_CITATIONS,
   GEO_FAQS,
   SITE_DATE_MODIFIED,
   SITE_DATE_PUBLISHED,
@@ -24,7 +25,6 @@ export function organizationJsonLd() {
     "@type": "Organization",
     "@id": ORGANIZATION_ID,
     name: SITE_NAME,
-    alternateName: ["whatships", "What Ships"],
     url: `${SITE_URL}/`,
     logo: `${SITE_URL}/favicon.svg`,
     description: SITE_DESCRIPTION,
@@ -115,6 +115,12 @@ export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
         about: { "@id": ORGANIZATION_ID },
         publisher: { "@id": ORGANIZATION_ID },
         author: { "@id": ORGANIZATION_ID },
+        citation: GEO_CITATIONS.map((item) => ({
+          "@type": "CreativeWork",
+          name: item.name,
+          url: item.url,
+          text: item.quote,
+        })),
         speakable: {
           "@type": "SpeakableSpecification",
           cssSelector: ["[data-agent-intro] h1", "[data-agent-intro] p"],

@@ -13,6 +13,7 @@ import {
 import {
   GITHUB_ISSUES,
   GITHUB_REPO,
+  GEO_CITATIONS,
   GEO_FAQS,
   HOMEPAGE_INTRO,
   NOT_FOUND_MARKDOWN,
@@ -64,6 +65,7 @@ export function homepageMarkdown(videos: LaunchVideo[] = publishedVideos): strin
     `- [About](${pageUrl("/about/")})`,
     `- [Contact](${pageUrl("/contact/")})`,
     `- [Privacy](${pageUrl("/privacy/")})`,
+    `- [Terms](${pageUrl("/terms/")})`,
     `- [Developers](${pageUrl("/developers/")})`,
     `- [Tools](${pageUrl("/tools/")})`,
     `- [Studios](${pageUrl("/studios/")})`,
@@ -73,6 +75,14 @@ export function homepageMarkdown(videos: LaunchVideo[] = publishedVideos): strin
     `- [OpenAPI](${pageUrl("/openapi.json")})`,
     `- [Sitemap](${pageUrl("/sitemap.xml")})`,
     "",
+    "## Sources and quotations",
+    "",
+    ...GEO_CITATIONS.flatMap((item) => [
+      `> ${item.quote}`,
+      `>`,
+      `> — [${item.name}](${item.url})`,
+      "",
+    ]),
   ];
   return lines.join("\n");
 }
@@ -207,6 +217,7 @@ ${SITE_NAME} is not affiliated with X/Twitter or the products shown. Names, trad
 
 - [Contact](${pageUrl("/contact/")})
 - [Privacy](${pageUrl("/privacy/")})
+- [Terms](${pageUrl("/terms/")})
 - [Developers](${pageUrl("/developers/")})
 `;
 }
@@ -229,6 +240,31 @@ Use the [Submit](${pageUrl("/submit/")}) form to propose a product launch film, 
 Agents and integrators should start at [whatships.com developer resources](${pageUrl("/developers/")}), which lists the OpenAPI spec, search index, llms.txt, and markdown negotiation. The project source is ${GITHUB_REPO}.
 
 ${SITE_NAME} does not run paid placement, affiliate rankings, or a public write API.
+`;
+}
+
+export function termsMarkdown(): string {
+  return `# Terms of use for ${SITE_NAME}
+
+${SITE_NAME} is an independent, curated directory of startup launch videos that were already posted in public on X. These terms explain how you may use the catalog and what the directory does not claim.
+
+## What the catalog is
+
+Each published page stores editorial metadata and a durable link to the original X post. In-site playback exists only to display a video you already chose to watch. The directory is not a live X search, a download CDN, or a ranking product.
+
+## Ownership and citation
+
+Names, trademarks, and video content remain the property of their respective owners. When you cite a launch, name the product and company, link the ${SITE_NAME} directory entry, and include the original X URL shown on that page. Source code lives at ${GITHUB_REPO}.
+
+## No paid placement
+
+${SITE_NAME} does not sell directory placement, affiliate rankings, or advertising slots. Drafts stay unpublished until a human reviews them. Submissions become public GitHub issues.
+
+## Corrections
+
+If you want an entry corrected or removed, use [Contact](${pageUrl("/contact/")}). Privacy details are on [Privacy](${pageUrl("/privacy/")}).
+
+Last updated: 27 August 2026.
 `;
 }
 
@@ -338,6 +374,7 @@ export async function writeMarkdownAssets(distDir: string | URL): Promise<void> 
     ["about/index.md", aboutMarkdown()],
     ["contact/index.md", contactMarkdown()],
     ["privacy/index.md", privacyMarkdown()],
+    ["terms/index.md", termsMarkdown()],
     ["developers/index.md", developersMarkdown()],
     ["tools/index.md", toolsMarkdown()],
     ["studios/index.md", studiosMarkdown()],

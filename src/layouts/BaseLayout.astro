@@ -1,5 +1,6 @@
 ---
 import "@/styles/global.css";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 interface Props {
   title?: string;
@@ -8,11 +9,11 @@ interface Props {
 }
 
 const {
-  title = "whatships.com",
-  description = "A curated directory of product launch videos from X/Twitter.",
+  title = SITE_NAME,
+  description = SITE_DESCRIPTION,
   image = "/og-default.svg",
 } = Astro.props;
-const site = Astro.site ?? "https://whatships.com";
+const site = Astro.site ?? SITE_URL;
 const canonicalURL = new URL(Astro.url.pathname, site);
 ---
 
@@ -23,13 +24,17 @@ const canonicalURL = new URL(Astro.url.pathname, site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#fafafa" />
+    <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={new URL(image, site)} />
+    <meta property="og:locale" content="en" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="alternate" hreflang="en" href={canonicalURL} />
+    <link rel="alternate" hreflang="x-default" href={canonicalURL} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="text/markdown" title="Markdown" href={canonicalURL} />
     <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
