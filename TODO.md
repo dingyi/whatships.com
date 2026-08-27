@@ -13,7 +13,14 @@ Fix the remaining AITDK GEO audit warnings on whatships.com.
 - [x] Add `/terms/` and link Privacy + Terms in the footer.
 - [x] Add descriptive alt text for homepage, tools, studios, and author images.
 
+## Verification
+
+- [x] Vitest: 12 files, 66 tests passed.
+- [x] Astro check: 0 errors.
+- [x] Astro build: 1838 pages.
+- [x] Built homepage has 1 H1, 60 images with alt, og:site_name, hreflang x-default, quotations, Privacy + Terms.
+- [x] Browser preview: homepage, terms, privacy, and a video detail page.
+
 ## Next steps
 
-- [ ] Run Vitest, Astro check, and Astro build.
 - [ ] Re-scan the homepage with AITDK after merge/deploy.
