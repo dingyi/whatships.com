@@ -60,6 +60,10 @@ describe("trust and developer pages", () => {
     expect(index.match(/<h1[\s>]/g)?.length).toBe(1);
     expect(homeApp).not.toContain("<h1");
     expect(homeApp).toContain('alt={`Poster for ${video.title}`}');
+    expect(index).toContain("client:idle");
+    expect(index).toContain("firstPage");
+    expect(index).toContain("rel=\"preload\"");
+    expect(index).not.toContain("videos={publishedVideos}");
     expect(index).toContain("blockquote");
     expect(index).toContain("<SiteSources");
     expect(readFileSync("src/components/SiteSources.astro", "utf8")).toContain(

@@ -4,8 +4,10 @@ import { publishedVideos } from "@/lib/catalog";
 import {
   clampPage,
   filterVideos,
+  gridPoster,
   PAGE_SIZE,
   pageWindow,
+  toDirectoryVideo,
 } from "@/lib/directory";
 
 describe("filterVideos", () => {
@@ -24,6 +26,20 @@ describe("filterVideos", () => {
     expect(filterVideos(publishedVideos, "", "all")).toHaveLength(
       publishedVideos.length,
     );
+  });
+});
+
+describe("directory video projection", () => {
+  it("drops catalog fields the homepage does not render", () => {
+    const seed = publishedVideos[0];
+    const slim = toDirectoryVideo(seed);
+    expect(slim.slug).toBe(seed.slug);
+    expect(slim.videoUrl).toBe(seed.videoUrl);
+    expect(slim).not.toHaveProperty("featured");
+    expect(slim).not.toHaveProperty("status");
+    expect(slim).not.toHaveProperty("tweetId");
+    expect(slim).not.toHaveProperty("authorAvatar");
+    expect(gridPoster("/posters/mojo.webp")).toBe("/posters/mojo-960.webp");
   });
 });
 

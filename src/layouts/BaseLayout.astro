@@ -38,10 +38,11 @@ const canonicalURL = new URL(Astro.url.pathname, site);
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="text/markdown" title="Markdown" href={canonicalURL} />
     <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+    <link rel="preconnect" href="https://data.dex.group" crossorigin />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <!-- Privacy-friendly analytics by Plausible -->
-    <script is:inline async src="https://data.dex.group/js/pa-5pVPiSXRbReCvl3VAvR0O.js"></script>
+    <script is:inline defer src="https://data.dex.group/js/pa-5pVPiSXRbReCvl3VAvR0O.js"></script>
     <script is:inline>
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()

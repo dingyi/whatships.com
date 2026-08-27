@@ -2,25 +2,22 @@
 
 ## Goal
 
-Fix the remaining AITDK GEO audit warnings on whatships.com.
+Fix whatships.com mobile PageSpeed Insights issues from
+https://pagespeed.web.dev/analysis/https-whatships-com/ry2xdwt78a?form_factor=mobile
+and check the other PSI categories (accessibility, best practices, SEO).
 
 ## Progress
 
-- [x] Keep a single homepage H1 outside HomeApp; visible hero is a styled paragraph.
-- [x] Add `og:site_name=whatships.com` and drop schema brand aliases.
-- [x] Add `hreflang="en"` plus `hreflang="x-default"`.
-- [x] Add named citations and quotations (llmstxt.org, Schema.org).
-- [x] Add `/terms/` and link Privacy + Terms in the footer.
-- [x] Add descriptive alt text for homepage, tools, studios, and author images.
-
-## Verification
-
-- [x] Vitest: 12 files, 66 tests passed.
-- [x] Astro check: 0 errors.
-- [x] Astro build: 1838 pages.
-- [x] Built homepage has 1 H1, 60 images with alt, og:site_name, hreflang x-default, quotations, Privacy + Terms.
-- [x] Browser preview: homepage, terms, privacy, and a video detail page.
+- [x] Pulled latest `main` and inspected production HTML: homepage was ~2.6MB because the React island serialized the full 1800+ video catalog.
+- [x] Homepage now ships the first directory page only and lazy-loads `/directory-index.json`.
+- [x] Switched homepage / header islands to `client:idle`, preloaded the LCP poster, and subsetted fonts.
+- [x] Raised tap targets and muted-text contrast; hashed `/_astro` assets now get immutable cache headers.
+- [ ] Install deps, run Vitest + `astro check` + `astro build`.
+- [ ] Verify built homepage HTML size and run local Lighthouse (mobile).
+- [ ] Browser-check homepage filter, search, pagination, and playback after the catalog fetch.
 
 ## Next steps
 
-- [ ] Re-scan the homepage with AITDK after merge/deploy.
+- Confirm built `dist/index.html` is no longer megabytes of island props.
+- Re-run a mobile Lighthouse pass on the local preview (PSI API quota is exhausted).
+- Push remaining verification fixes if Lighthouse still flags contrast, TBT, or unused JS.

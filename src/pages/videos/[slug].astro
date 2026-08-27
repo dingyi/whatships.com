@@ -136,7 +136,15 @@ const videoJsonLd = {
   description={description}
   image={video.poster}
 >
-  <PageHeader client:load />
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    href={video.poster}
+    fetchpriority="high"
+    type="image/webp"
+  />
+  <PageHeader client:idle />
   <script
     type="application/ld+json"
     set:html={JSON.stringify(videoJsonLd)}
@@ -174,7 +182,7 @@ const videoJsonLd = {
     </div>
 
     <article class="detail-profile" aria-labelledby="video-title">
-      <DetailPlayer client:load video={video} />
+      <DetailPlayer client:idle video={video} />
 
       <h1 id="video-title">{video.title}</h1>
 
