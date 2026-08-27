@@ -86,7 +86,7 @@ function VideoCard({
             src={small}
             srcSet={`${small} 960w, ${video.poster} 1440w`}
             sizes="(max-width: 699px) calc(100vw - 34px), 420px"
-            alt=""
+            alt={`Poster for ${video.title}`}
             loading={eager ? "eager" : "lazy"}
             fetchPriority={index === 0 ? "high" : undefined}
             width="1440"
@@ -271,9 +271,9 @@ export default function HomeApp({ videos }: Props) {
       <main data-directory-ready={ready}>
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero__inner">
-            <h1 id="hero-title">
+            <p className="hero__title" id="hero-title">
               Discover startup launch videos from X
-            </h1>
+            </p>
             <p className="hero__copy">
               A curated edit of launch films, demos, and walkthroughs that
               introduce new products to the world.

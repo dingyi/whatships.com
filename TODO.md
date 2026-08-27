@@ -2,32 +2,18 @@
 
 ## Goal
 
-Optimize whatships.com for GEO based on the linked X Article about AITDK GEO checks.
+Fix the remaining AITDK GEO audit warnings on whatships.com.
 
 ## Progress
 
-- [x] Retrieved the X status through the public syndication endpoint.
-- [x] Followed the article URL and extracted its public preview plus 7 media links.
-- [x] Read the article screenshots and mapped the checks to site work:
-  - machine readability
-  - content and citability
-  - trust and E-E-A-T
-  - structured data
-  - AI crawler access
-- [x] Reviewed related public AITDK and DiagnoSEO GEO references.
-- [x] Added `/llms-full.txt` as a complete agent guide.
-- [x] Expanded homepage and video-page JSON-LD.
-- [x] Updated robots policy for public AI crawler access.
-- [x] Updated short `llms.txt`, developer resources, sitemap, and OpenAPI.
-- [x] Made external-link `rel` attributes explicit with `noopener noreferrer`.
-
-## Verification
-
-- [x] Run Vitest: 12 test files and 65 tests passed.
-- [x] Run Astro check: completed successfully.
-- [x] Run Astro build: completed successfully; 1837 pages built.
+- [x] Keep a single homepage H1 outside HomeApp; visible hero is a styled paragraph.
+- [x] Add `og:site_name=whatships.com` and drop schema brand aliases.
+- [x] Add `hreflang="en"` plus `hreflang="x-default"`.
+- [x] Add named citations and quotations (llmstxt.org, Schema.org).
+- [x] Add `/terms/` and link Privacy + Terms in the footer.
+- [x] Add descriptive alt text for homepage, tools, studios, and author images.
 
 ## Next steps
 
-- [ ] Review the deployed PR preview or production deploy after merge with an external GEO audit extension.
-- [ ] Re-run a crawler-specific check if robots policy changes again.
+- [ ] Run Vitest, Astro check, and Astro build.
+- [ ] Re-scan the homepage with AITDK after merge/deploy.
