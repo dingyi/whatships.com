@@ -44944,5 +44944,30 @@
     "durationSeconds": 123,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-matte-2",
+    "slug": "matte-2",
+    "title": "Matte 2.0 — capture iOS in a 3D canvas",
+    "product": "Matte 2.0",
+    "company": "Matte",
+    "description": "Matte 2.0 Beta captures and edits iOS apps on a 3D canvas with device models, lighting, depth of field, and animation. Record the simulator, USB devices, or any Mac screen.",
+    "category": "design",
+    "tags": [
+      "matte",
+      "ios",
+      "3d"
+    ],
+    "tweetUrl": "https://x.com/matte_app/status/2081462169632157705",
+    "tweetId": "2081462169632157705",
+    "authorName": "Matte",
+    "authorHandle": "matte_app",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2067160249543364608/YYLS3aMV.jpg",
+    "poster": "/posters/matte-2.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2081462126871207936/vid/avc1/1280x720/sdOgveW2KiZgPxru.mp4",
+    "publishedAt": "2026-07-26T19:30:27.000Z",
+    "durationSeconds": 30,
+    "featured": false,
+    "status": "published"
   }
 ]
