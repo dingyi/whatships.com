@@ -23,6 +23,24 @@ const MARKDOWN_HEADERS = {
   "Cache-Control": "public, max-age=0, must-revalidate",
 };
 
+function withAssetCache(pathname: string, response: Response): Response {
+  if (response.status !== 200) return response;
+  const headers = new Headers(response.headers);
+  if (pathname.startsWith("/_astro/")) {
+    headers.set("Cache-Control", "public, max-age=31536000, immutable");
+  } else if (
+    pathname.startsWith("/posters/") ||
+    /\.(?:woff2|webp)$/i.test(pathname)
+  ) {
+    headers.set("Cache-Control", "public, max-age=604800");
+  }
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
 function withVary(response: Response): Response {
   const headers = new Headers(response.headers);
   appendVaryAccept(headers);
@@ -56,7 +74,7 @@ export default {
     const url = new URL(request.url);
 
     if (shouldPassthrough(url.pathname)) {
-      return env.ASSETS.fetch(request);
+      return withAssetCache(url.pathname, await env.ASSETS.fetch(request));
     }
 
     const accept = request.headers.get("accept");
