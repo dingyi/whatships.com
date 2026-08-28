@@ -10,7 +10,8 @@ Merge open PRs onto `main` and deploy whatships.com.
 - [x] Merge mobile PageSpeed homepage payload work.
 - [x] Merge SEO meta descriptions (140-160 characters).
 - [x] Merge pnpm 11.24.0.
-- [ ] Merge remaining Renovate lockfile PRs.
+- [x] Apply remaining Renovate updates (astro 7.2.6, lucide-react 1.34.0, @types/node 26.4.0, @types/react-dom 19.2.5).
+- [x] Vitest: 12 files / 71 tests passed after the combined merge.
 - [ ] Push `main` and confirm the Cloudflare deploy workflow.
 
 ## Next steps
