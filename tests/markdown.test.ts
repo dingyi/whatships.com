@@ -14,7 +14,14 @@ import {
 } from "@/lib/markdown";
 import { openApiSpec } from "@/lib/openapi";
 import { homepageJsonLd } from "@/lib/schema";
-import { HOMEPAGE_INTRO, SITE_NAME } from "@/lib/site";
+import {
+  HOMEPAGE_INTRO,
+  META_DESCRIPTION_MAX,
+  META_DESCRIPTION_MIN,
+  SITE_META_DESCRIPTION,
+  SITE_NAME,
+  metaDescription,
+} from "@/lib/site";
 
 function visibleText(html: string): string {
   return html
@@ -103,6 +110,26 @@ describe("structured data", () => {
       dateModified: "2026-08-27",
       speakable: { "@type": "SpeakableSpecification" },
     });
+  });
+});
+
+describe("SEO meta descriptions", () => {
+  it("keeps the homepage meta description in the 140-160 window", () => {
+    expect(SITE_META_DESCRIPTION.length).toBeGreaterThanOrEqual(
+      META_DESCRIPTION_MIN,
+    );
+    expect(SITE_META_DESCRIPTION.length).toBeLessThanOrEqual(
+      META_DESCRIPTION_MAX,
+    );
+  });
+
+  it("clamps long and short copy into the SEO window", () => {
+    const longCopy = metaDescription(`${"Launch video directory ".repeat(20)}`);
+    const shortCopy = metaDescription("A short directory blurb.");
+    expect(longCopy.length).toBeGreaterThanOrEqual(META_DESCRIPTION_MIN);
+    expect(longCopy.length).toBeLessThanOrEqual(META_DESCRIPTION_MAX);
+    expect(shortCopy.length).toBeGreaterThanOrEqual(META_DESCRIPTION_MIN);
+    expect(shortCopy.length).toBeLessThanOrEqual(META_DESCRIPTION_MAX);
   });
 });
 

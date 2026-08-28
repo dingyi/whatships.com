@@ -12,6 +12,39 @@ export const SITE_DATE_MODIFIED = "2026-08-27";
 export const SITE_DESCRIPTION =
   "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter. Each entry links back to the original post. Not affiliated with X/Twitter or the products shown.";
 
+export const META_DESCRIPTION_MIN = 140;
+export const META_DESCRIPTION_MAX = 160;
+
+/** Homepage SEO meta description. Keep between 140 and 160 characters. */
+export const SITE_META_DESCRIPTION =
+  "whatships.com is a curated directory of startup launch videos from X. Find product films, demos, and walkthroughs, each linked to the original post.";
+
+/**
+ * Fit copy into the 140-160 character SEO meta-description window.
+ * Longer text is trimmed on a word boundary; shorter text gets a catalog suffix.
+ */
+export function metaDescription(text: string): string {
+  const normalized = text.replace(/\s+/g, " ").trim();
+  if (!normalized) return SITE_META_DESCRIPTION;
+  if (
+    normalized.length >= META_DESCRIPTION_MIN &&
+    normalized.length <= META_DESCRIPTION_MAX
+  ) {
+    return normalized;
+  }
+
+  if (normalized.length > META_DESCRIPTION_MAX) {
+    const window = normalized.slice(0, META_DESCRIPTION_MAX);
+    const breakAt = window.lastIndexOf(" ");
+    if (breakAt >= META_DESCRIPTION_MIN) return window.slice(0, breakAt);
+    return window;
+  }
+
+  return metaDescription(
+    `${normalized} Browse curated launch films, demos, and walkthroughs on whatships.com.`,
+  );
+}
+
 /** Visible homepage H1 — keep in sync with HomeApp hero. */
 export const HOMEPAGE_H1 = "Discover startup launch videos from X";
 
