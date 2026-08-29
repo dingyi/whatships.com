@@ -368,5 +368,25 @@
     "url": "https://screeen.co/",
     "category": "editor",
     "poster": "/posters/tools/screeen.webp"
+  },
+  {
+    "id": "tool-recordly",
+    "slug": "recordly",
+    "name": "Recordly",
+    "tagline": "Make beautiful screen recordings",
+    "description": "Open-source screen recorder for Mac, Windows, and Linux. Auto-zoom, motion blur cursors, webcam bubbles, and timeline editing. A free alternative to Screen Studio.",
+    "url": "https://recordly.dev/",
+    "category": "editor",
+    "poster": "/posters/tools/recordly.webp"
+  },
+  {
+    "id": "tool-videngineer",
+    "slug": "videngineer",
+    "name": "videngineer",
+    "tagline": "Reverse-engineer any video",
+    "description": "Paste any video and get the transcript, scene blueprint, voice profile, and a build playbook your editor can ship from.",
+    "url": "https://videngineer.com/",
+    "category": "ai",
+    "poster": "/posters/tools/videngineer.webp"
   }
 ]
