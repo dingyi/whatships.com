@@ -308,5 +308,25 @@
     "url": "https://matte.app/",
     "category": "editor",
     "poster": "/posters/tools/matte.webp"
+  },
+  {
+    "id": "tool-screenflare",
+    "slug": "screenflare",
+    "name": "Screenflare",
+    "tagline": "Create screen recordings people want to watch",
+    "description": "Records your Mac at 60 fps with auto-zoom on clicks, a smooth cursor, and a backdrop. Screenshots get the same treatment, including marks and blur. Nothing is locked in until you export.",
+    "url": "https://screenflare.app/",
+    "category": "editor",
+    "poster": "/posters/tools/screenflare.webp"
+  },
+  {
+    "id": "tool-diffusion-studio",
+    "slug": "diffusion-studio",
+    "name": "Diffusion Studio",
+    "tagline": "The video editor your agents can drive",
+    "description": "Professional video editor for agents and humans. Work on an infinite canvas, or ask Claude Code, Codex, or Cursor to analyze, edit, and generate for you.",
+    "url": "https://diffusion.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/diffusion-studio.webp"
   }
 ]
