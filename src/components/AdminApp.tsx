@@ -7,7 +7,7 @@ import {
   RotateCcw,
   X,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -32,6 +32,7 @@ import {
   sortInboxItems,
   upsertDraftFields,
 } from "@/lib/inbox";
+import { positionTabPill, shakeInput } from "@/lib/motion";
 
 const AUTH_KEY = "plv-admin-session";
 const DRAFT_KEY = "plv-admin-inbox-draft";
@@ -83,6 +84,9 @@ export default function AdminApp({
   const [copied, setCopied] = useState(false);
   const [dirty, setDirty] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
+  const loginWrapRef = useRef<HTMLLabelElement>(null);
+  const tabsRef = useRef<HTMLDivElement>(null);
+  const tabsFirstRef = useRef(true);
 
   useEffect(() => {
     if (openAccess) {
@@ -162,6 +166,28 @@ export default function AdminApp({
     setAuthed(true);
     setPassword("");
   }
+
+  useEffect(() => {
+    if (!authError) return;
+    const input = loginWrapRef.current?.querySelector<HTMLElement>(".t-input");
+    if (input) shakeInput(input);
+  }, [authError]);
+
+  useLayoutEffect(() => {
+    if (!authed) return;
+    const bar = tabsRef.current;
+    if (!bar) return;
+    positionTabPill(bar, !tabsFirstRef.current);
+    tabsFirstRef.current = false;
+  }, [authed, filter, counts, items.length]);
+
+  useEffect(() => {
+    const onResize = () => {
+      if (tabsRef.current) positionTabPill(tabsRef.current, false);
+    };
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
 
   function logout() {
     try {
@@ -274,22 +300,27 @@ export default function AdminApp({
           <fieldset className="submit-fieldset">
             <legend>Sign in</legend>
             {!openAccess ? (
-              <label className="submit-field">
+              <label
+                className={`submit-field t-input-wrap${authError ? " is-error" : ""}`}
+                ref={loginWrapRef}
+              >
                 <span>Password</span>
                 <Input
+                  className={`t-input${authError ? " is-error" : ""}`}
                   type="password"
                   name="password"
                   autoComplete="current-password"
                   value={password}
+                  aria-invalid={Boolean(authError) || undefined}
                   onChange={(event) => setPassword(event.target.value)}
                   placeholder="Admin password…"
                 />
+                {authError ? (
+                  <p className="submit-error t-error-msg" role="alert">
+                    {authError}
+                  </p>
+                ) : null}
               </label>
-            ) : null}
-            {authError ? (
-              <p className="submit-error" role="alert">
-                {authError}
-              </p>
             ) : null}
           </fieldset>
 
@@ -329,13 +360,20 @@ export default function AdminApp({
       >
         <div className="directory-toolbar">
           <div className="directory-controls">
-            <div className="admin-filters" role="group" aria-label="Review status">
+            <div
+              className="admin-filters t-tabs"
+              ref={tabsRef}
+              role="tablist"
+              aria-label="Review status"
+            >
+              <span className="t-tabs-pill" aria-hidden="true" />
               {FILTERS.map(([id, label]) => (
                 <button
                   key={id}
                   type="button"
-                  aria-pressed={filter === id}
-                  className={filter === id ? "is-active" : ""}
+                  className="t-tab"
+                  role="tab"
+                  aria-selected={filter === id}
                   onClick={() => setFilter(id)}
                 >
                   {label}

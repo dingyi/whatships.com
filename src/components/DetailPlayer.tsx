@@ -93,7 +93,9 @@ export default function DetailPlayer({ video }: { video: LaunchVideo }) {
       {status === "loading" && (
         <div className="detail-player__status" role="status">
           <LoaderCircle className="detail-player__spinner" size={22} />
-          Loading video…
+          <span className="t-shimmer" data-text="Loading video…">
+            Loading video…
+          </span>
         </div>
       )}
       {status === "error" && (

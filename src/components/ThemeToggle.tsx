@@ -86,11 +86,18 @@ export default function ThemeToggle() {
         }
       }}
     >
-      {theme === "dark" ? (
-        <Sun size={15} strokeWidth={1.75} aria-hidden="true" />
-      ) : (
-        <Moon size={15} strokeWidth={1.75} aria-hidden="true" />
-      )}
+      <span
+        className="t-icon-swap"
+        data-state={theme === "dark" ? "b" : "a"}
+        aria-hidden="true"
+      >
+        <span className="t-icon" data-icon="a">
+          <Moon size={15} strokeWidth={1.75} />
+        </span>
+        <span className="t-icon" data-icon="b">
+          <Sun size={15} strokeWidth={1.75} />
+        </span>
+      </span>
     </button>
   );
 }

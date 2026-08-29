@@ -1,5 +1,5 @@
 import { Check, Copy, ExternalLink } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,6 +18,7 @@ import {
   type LaunchSubmission,
   validateSubmission,
 } from "@/lib/submit";
+import { shakeInput, swapText } from "@/lib/motion";
 
 type Step = "form" | "ready";
 
@@ -28,6 +29,8 @@ export default function SubmitForm() {
   const [step, setStep] = useState<Step>("form");
   const [copied, setCopied] = useState(false);
   const [issueUrl, setIssueUrl] = useState("");
+  const copyLabelRef = useRef<HTMLSpanElement>(null);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const draft = useMemo(() => buildCatalogDraft(form), [form]);
   const draftJson = draft ? JSON.stringify(draft, null, 2) : "";
@@ -48,13 +51,26 @@ export default function SubmitForm() {
     setTouched(true);
     const nextErrors = validateSubmission(form);
     setErrors(nextErrors);
-    if (hasSubmissionErrors(nextErrors)) return;
+    if (hasSubmissionErrors(nextErrors)) {
+      window.requestAnimationFrame(() => {
+        formRef.current
+          ?.querySelectorAll<HTMLElement>(".t-input.is-error")
+          .forEach((el) => shakeInput(el));
+      });
+      return;
+    }
 
     const url = buildGitHubIssueUrl(form);
     setIssueUrl(url);
     setStep("ready");
     window.open(url, "_blank", "noopener,noreferrer");
   }
+
+  useEffect(() => {
+    if (copyLabelRef.current) {
+      swapText(copyLabelRef.current, copied ? "Copied" : "Copy JSON");
+    }
+  }, [copied]);
 
   async function copyDraft() {
     if (!draftJson) return;
@@ -100,8 +116,21 @@ export default function SubmitForm() {
             <div className="submit-draft__header">
               <h2>Suggested catalog draft</h2>
               <button type="button" className="submit-copy" onClick={copyDraft}>
-                {copied ? <Check size={14} /> : <Copy size={14} />}
-                {copied ? "Copied" : "Copy JSON"}
+                <span
+                  className="t-icon-swap"
+                  data-state={copied ? "b" : "a"}
+                  aria-hidden="true"
+                >
+                  <span className="t-icon" data-icon="a">
+                    <Copy size={14} />
+                  </span>
+                  <span className="t-icon" data-icon="b">
+                    <Check size={14} />
+                  </span>
+                </span>
+                <span className="t-text-swap" ref={copyLabelRef}>
+                  Copy JSON
+                </span>
               </button>
             </div>
             <pre>{draftJson}</pre>
@@ -112,7 +141,7 @@ export default function SubmitForm() {
   }
 
   return (
-    <form className="submit-form" onSubmit={onSubmit} noValidate>
+    <form className="submit-form" onSubmit={onSubmit} noValidate ref={formRef}>
       <div className="submit-intro">
         <h1>Share a product launch video from X</h1>
         <p className="submit-lead">
@@ -123,9 +152,12 @@ export default function SubmitForm() {
 
       <fieldset className="submit-fieldset">
         <legend>Source post</legend>
-        <label className="submit-field">
+        <label
+          className={`submit-field t-input-wrap${touched && errors.tweetUrl ? " is-error" : ""}`}
+        >
           <span>X / Twitter post URL</span>
           <Input
+            className={`t-input${touched && errors.tweetUrl ? " is-error" : ""}`}
             type="url"
             name="tweetUrl"
             inputMode="url"
@@ -138,7 +170,7 @@ export default function SubmitForm() {
             required
           />
           {touched && errors.tweetUrl && (
-            <em id="tweetUrl-error" className="submit-error">
+            <em id="tweetUrl-error" className="submit-error t-error-msg">
               {errors.tweetUrl}
             </em>
           )}
@@ -148,9 +180,12 @@ export default function SubmitForm() {
       <fieldset className="submit-fieldset">
         <legend>Product</legend>
         <div className="submit-grid">
-          <label className="submit-field">
+          <label
+            className={`submit-field t-input-wrap${touched && errors.product ? " is-error" : ""}`}
+          >
             <span>Product name</span>
             <Input
+              className={`t-input${touched && errors.product ? " is-error" : ""}`}
               name="product"
               placeholder="Linear Loops"
               value={form.product}
@@ -159,12 +194,15 @@ export default function SubmitForm() {
               required
             />
             {touched && errors.product && (
-              <em className="submit-error">{errors.product}</em>
+              <em className="submit-error t-error-msg">{errors.product}</em>
             )}
           </label>
-          <label className="submit-field">
+          <label
+            className={`submit-field t-input-wrap${touched && errors.company ? " is-error" : ""}`}
+          >
             <span>Company / publisher</span>
             <Input
+              className={`t-input${touched && errors.company ? " is-error" : ""}`}
               name="company"
               placeholder="Linear"
               value={form.company}
@@ -173,12 +211,14 @@ export default function SubmitForm() {
               required
             />
             {touched && errors.company && (
-              <em className="submit-error">{errors.company}</em>
+              <em className="submit-error t-error-msg">{errors.company}</em>
             )}
           </label>
         </div>
 
-        <label className="submit-field">
+        <label
+          className={`submit-field t-input-wrap${touched && errors.category ? " is-error" : ""}`}
+        >
           <span>Category</span>
           <Select
             value={form.category || ""}
@@ -187,7 +227,7 @@ export default function SubmitForm() {
             }
           >
             <SelectTrigger
-              className="submit-select"
+              className={`submit-select t-input${touched && errors.category ? " is-error" : ""}`}
               aria-label="Category"
               aria-invalid={touched && Boolean(errors.category)}
               placeholder="Select a category"
@@ -201,7 +241,7 @@ export default function SubmitForm() {
             </SelectContent>
           </Select>
           {touched && errors.category && (
-            <em className="submit-error">{errors.category}</em>
+            <em className="submit-error t-error-msg">{errors.category}</em>
           )}
         </label>
 

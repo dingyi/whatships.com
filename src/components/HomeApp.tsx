@@ -5,7 +5,7 @@ import {
   Play,
   Search,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import PageHeader from "@/components/PageHeader";
 import VideoPlayerDialog from "@/components/VideoPlayerDialog";
@@ -38,10 +38,57 @@ import {
   pageWindow,
   type DirectoryVideo,
 } from "@/lib/directory";
+import { setDigits } from "@/lib/motion";
 
 interface Props {
   videos: DirectoryVideo[];
   totalCount: number;
+}
+
+function ResultCount({ count }: { count: number }) {
+  const groupRef = useRef<HTMLSpanElement>(null);
+
+  useLayoutEffect(() => {
+    if (groupRef.current) setDigits(groupRef.current, String(count));
+  }, [count]);
+
+  return (
+    <p className="result-count" id="directory-title" tabIndex={-1}>
+      <span className="t-digit-group" ref={groupRef} />
+      {` video${count === 1 ? "" : "s"}`}
+    </p>
+  );
+}
+
+function EmptyState({
+  context,
+  onReset,
+}: {
+  context: string;
+  onReset: () => void;
+}) {
+  const blockRef = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    const block = blockRef.current;
+    if (!block) return;
+    block.classList.remove("is-hiding");
+    block.classList.remove("is-shown");
+    void block.offsetHeight;
+    block.classList.add("is-shown");
+  }, [context]);
+
+  return (
+    <div className="empty-state t-stagger" ref={blockRef}>
+      <h2 className="t-stagger-line t-stagger-line--1">No videos found.</h2>
+      <p className="t-stagger-line t-stagger-line--2">
+        No results for {context || "the current filters"}.
+      </p>
+      <button type="button" onClick={onReset}>
+        Reset filters
+      </button>
+    </div>
+  );
 }
 
 function VideoCard({
@@ -361,9 +408,7 @@ export default function HomeApp({ videos, totalCount }: Props) {
                   </SelectContent>
                 </Select>
               </ShapeProvider>
-              <p className="result-count" id="directory-title" tabIndex={-1}>
-                {resultCount} video{resultCount === 1 ? "" : "s"}
-              </p>
+              <ResultCount count={resultCount} />
             </div>
             <button
               className="directory-search"
@@ -391,20 +436,14 @@ export default function HomeApp({ videos, totalCount }: Props) {
               ))}
             </div>
           ) : (
-            <div className="empty-state">
-              <h2>No videos found.</h2>
-              <p>No results for {emptyContext || "the current filters"}.</p>
-              <button
-                type="button"
-                onClick={() => {
-                  setQuery("");
-                  setCategory("all");
-                  setPage(1);
-                }}
-              >
-                Reset filters
-              </button>
-            </div>
+            <EmptyState
+              context={emptyContext}
+              onReset={() => {
+                setQuery("");
+                setCategory("all");
+                setPage(1);
+              }}
+            />
           )}
 
           {totalPages > 1 && (
