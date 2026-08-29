@@ -29,6 +29,7 @@ import {
   formatDuration,
   formatPublishedAt,
 } from "@/lib/catalog";
+import { ShapeProvider } from "@/lib/shape-context";
 import {
   clampPage,
   filterVideos,
@@ -326,33 +327,40 @@ export default function HomeApp({ videos, totalCount }: Props) {
         >
           <div className="directory-toolbar">
             <div className="directory-controls">
-              <Select
-                value={category}
-                onValueChange={(value) => {
-                  setCategory(value || "all");
-                  setPage(1);
-                }}
-              >
-                <SelectTrigger
-                  className="category-select"
-                  aria-label="Filter by category"
-                  placeholder="All categories"
-                />
-                <SelectContent>
-                  <SelectItem index={0} value="all">
-                    All categories
-                  </SelectItem>
-                  {CATEGORIES.map((item, index) => (
-                    <SelectItem
-                      key={item.id}
-                      index={index + 1}
-                      value={item.id}
-                    >
-                      {item.label}
+              {/* Square shape: the toolbar chrome is noiced-style (0px
+                  corners), but the shared Select defaults to the "rounded"
+                  shape — without this the popup and items come out rounded
+                  while the trigger button is square. Context reaches the
+                  portalled SelectContent too. */}
+              <ShapeProvider defaultShape="square">
+                <Select
+                  value={category}
+                  onValueChange={(value) => {
+                    setCategory(value || "all");
+                    setPage(1);
+                  }}
+                >
+                  <SelectTrigger
+                    className="category-select"
+                    aria-label="Filter by category"
+                    placeholder="All categories"
+                  />
+                  <SelectContent>
+                    <SelectItem index={0} value="all">
+                      All categories
                     </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+                    {CATEGORIES.map((item, index) => (
+                      <SelectItem
+                        key={item.id}
+                        index={index + 1}
+                        value={item.id}
+                      >
+                        {item.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </ShapeProvider>
               <p className="result-count" id="directory-title" tabIndex={-1}>
                 {resultCount} video{resultCount === 1 ? "" : "s"}
               </p>

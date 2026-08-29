@@ -1,6 +1,4 @@
 import {
-  GEO_CITATIONS,
-  GEO_FAQS,
   SITE_DATE_MODIFIED,
   SITE_DATE_PUBLISHED,
   SITE_DESCRIPTION,
@@ -11,7 +9,6 @@ import {
 
 const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
-const FAQ_ID = `${SITE_URL}/#faq`;
 
 type HomepageListItem = {
   title: string;
@@ -36,22 +33,6 @@ export function organizationJsonLd() {
       url: `${SITE_URL}/contact/`,
       availableLanguage: ["English"],
     },
-  };
-}
-
-export function faqPageJsonLd() {
-  return {
-    "@type": "FAQPage",
-    "@id": FAQ_ID,
-    name: `${SITE_NAME} frequently asked questions`,
-    mainEntity: GEO_FAQS.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer,
-      },
-    })),
   };
 }
 
@@ -101,7 +82,6 @@ export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
     "@graph": [
       organizationJsonLd(),
       websiteJsonLd(),
-      faqPageJsonLd(),
       {
         "@type": "CollectionPage",
         "@id": `${SITE_URL}/#homepage`,
@@ -115,12 +95,6 @@ export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
         about: { "@id": ORGANIZATION_ID },
         publisher: { "@id": ORGANIZATION_ID },
         author: { "@id": ORGANIZATION_ID },
-        citation: GEO_CITATIONS.map((item) => ({
-          "@type": "CreativeWork",
-          name: item.name,
-          url: item.url,
-          text: item.quote,
-        })),
         speakable: {
           "@type": "SpeakableSpecification",
           cssSelector: ["[data-agent-intro] h1", "[data-agent-intro] p"],
