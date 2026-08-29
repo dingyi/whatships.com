@@ -46170,5 +46170,80 @@
     "durationSeconds": 51,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-grok-bot-templates",
+    "slug": "grok-bot-templates",
+    "title": "Grok Bot — share bot templates with others",
+    "product": "Grok Bot templates",
+    "company": "xAI",
+    "description": "Grok Bot now lets you share templates of your bots so others can reuse them.",
+    "category": "ai",
+    "tags": [
+      "grok",
+      "xai",
+      "bots"
+    ],
+    "tweetUrl": "https://x.com/bot/status/2093376523919323618",
+    "tweetId": "2093376523919323618",
+    "authorName": "Grok Bot",
+    "authorHandle": "bot",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
+    "poster": "/posters/grok-bot-templates.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2093376059223977985/vid/avc1/1920x1080/GByq930nBp_5PALw.mp4",
+    "publishedAt": "2026-08-28T16:33:51.000Z",
+    "durationSeconds": 17,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-locus-parse-bot",
+    "slug": "locus-parse-bot",
+    "title": "Locus × parse.bot — any site as a typed API",
+    "product": "Locus × parse.bot",
+    "company": "Locus",
+    "description": "Locus partners with parse.bot so agents can turn any website into a typed API, with all endpoints on one prepaid balance.",
+    "category": "developer-tools",
+    "tags": [
+      "locus",
+      "parse",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/coledermo/status/2093383106635919499",
+    "tweetId": "2093383106635919499",
+    "authorName": "cole",
+    "authorHandle": "coledermo",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2072556217655009280/P2fIkb2E.jpg",
+    "poster": "/posters/locus-parse-bot.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2093190008211640321/vid/avc1/1920x1080/OEwc8GP_OQLD9zQu.mp4",
+    "publishedAt": "2026-08-28T17:00:00.000Z",
+    "durationSeconds": 24,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-induction-intrinsic-discovery",
+    "slug": "induction-intrinsic-discovery",
+    "title": "Induction — intrinsic discovery for world models",
+    "product": "Induction intrinsic discovery",
+    "company": "Induction Labs",
+    "description": "Induction Labs introduces intrinsic discovery, a learning method that lets models explore open-ended environments without human supervision, and trains a world model that surpasses GPT-5.6 Sol at simulating terminals.",
+    "category": "ai",
+    "tags": [
+      "induction",
+      "world-model",
+      "rl"
+    ],
+    "tweetUrl": "https://x.com/induction_labs/status/2093015104434631065",
+    "tweetId": "2093015104434631065",
+    "authorName": "Induction Labs",
+    "authorHandle": "induction_labs",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1957887166958432256/-gRcPChs.jpg",
+    "poster": "/posters/induction-intrinsic-discovery.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2093011893380395008/vid/avc1/2400x1350/iCUcCKaFwiT4Lfwq.mp4",
+    "publishedAt": "2026-08-27T16:37:41.000Z",
+    "durationSeconds": 26,
+    "featured": false,
+    "status": "published"
   }
 ]
