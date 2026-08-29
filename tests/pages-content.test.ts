@@ -52,7 +52,7 @@ describe("trust and developer pages", () => {
     expect(source).not.toMatch(/User-agent: ClaudeBot\s+Disallow: \//);
   });
 
-  it("keeps a single homepage H1 and cites named sources", () => {
+  it("keeps a single homepage H1 and no visible SEO-padding block", () => {
     const index = readFileSync("src/pages/index.astro", "utf8");
     const homeApp = readFileSync("src/components/HomeApp.tsx", "utf8");
     const footer = readFileSync("src/components/SiteFooter.astro", "utf8");
@@ -64,11 +64,13 @@ describe("trust and developer pages", () => {
     expect(index).toContain("firstPage");
     expect(index).toContain("rel=\"preload\"");
     expect(index).not.toContain("videos={publishedVideos}");
-    expect(index).toContain("blockquote");
-    expect(index).toContain("<SiteSources");
-    expect(readFileSync("src/components/SiteSources.astro", "utf8")).toContain(
-      "GEO_CITATIONS",
-    );
+    // GEO filler (quotations blockquote wall + agent FAQ dump) must stay out
+    // of the homepage; machine-facing surfaces (llms.txt, JSON-LD, markdown)
+    // carry that content instead.
+    expect(index).not.toContain("SiteSources");
+    expect(index).not.toContain("GEO_CITATIONS");
+    expect(index).not.toContain("GEO_FAQS");
+    expect(index).not.toContain("blockquote");
     expect(readFileSync("src/lib/site.ts", "utf8")).toContain(
       "https://llmstxt.org/",
     );

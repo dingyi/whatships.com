@@ -2,28 +2,19 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import HomeApp from "@/components/HomeApp";
 import SiteFooter from "@/components/SiteFooter.astro";
-import SiteSources from "@/components/SiteSources.astro";
-import {
-  categoryLabel,
-  formatPublishedAt,
-  publishedVideos,
-} from "@/lib/catalog";
+import { publishedVideos } from "@/lib/catalog";
 import { PAGE_SIZE, gridPoster, toDirectoryVideo } from "@/lib/directory";
 import { homepageJsonLd } from "@/lib/schema";
 import {
-  GEO_CITATIONS,
-  GEO_FAQS,
   HOMEPAGE_H1,
   HOMEPAGE_INTRO,
   SITE_META_DESCRIPTION,
   SITE_NAME,
 } from "@/lib/site";
 
-const recent = publishedVideos.slice(0, 24);
 const firstPage = publishedVideos.slice(0, PAGE_SIZE).map(toDirectoryVideo);
 const lcpPoster = firstPage[0] ? gridPoster(firstPage[0].poster) : null;
 const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
-const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVideos.length} curated startup launch-video pages with stable URLs, markdown alternates, poster images, categories, and original X citations.`;
 ---
 
 <BaseLayout
@@ -45,68 +36,20 @@ const catalogFact = `As of 27 August 2026, ${SITE_NAME} publishes ${publishedVid
   <script
     type="application/ld+json"
     is:inline
-    set:html={JSON.stringify(homepageJsonLd(recent))}
+    set:html={JSON.stringify(homepageJsonLd())}
   />
+  {/* Crawler copy outside the HomeApp island (AGENTS.md): one H1 plus the
+      site intro, so agents that skip custom elements still see the summary.
+      Kept to real editorial copy — no FAQ/citation padding. */}
   <section class="sr-only" data-agent-intro>
     <h1>{SITE_NAME} — {HOMEPAGE_H1}</h1>
-    <p>{catalogFact}</p>
     {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
-    <section aria-labelledby="agent-sources-title">
-      <h2 id="agent-sources-title">Sources and quotations</h2>
-      {
-        GEO_CITATIONS.map((item) => (
-          <blockquote cite={item.url}>
-            <p>{item.quote}</p>
-            <footer>
-              —{" "}
-              <cite>
-                <a href={item.url}>{item.name}</a>
-              </cite>
-            </footer>
-          </blockquote>
-        ))
-      }
-    </section>
-    <section aria-labelledby="agent-faq-title">
-      <h2 id="agent-faq-title">Frequently asked questions for AI assistants</h2>
-      {
-        GEO_FAQS.map((item) => (
-          <section>
-            <h3>{item.question}</h3>
-            <p>{item.answer}</p>
-          </section>
-        ))
-      }
-    </section>
-    <nav>
-      <a href="/about/">About whatships.com</a>
-      <a href="/developers/">whatships.com developer resources</a>
-      <a href="/contact/">Contact</a>
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/llms.txt">llms.txt</a>
-      <a href="/openapi.json">OpenAPI</a>
-      <a href="/sitemap.xml">Sitemap</a>
-    </nav>
-    <ol>
-      {
-        recent.map((video) => (
-          <li>
-            <a href={`/videos/${video.slug}/`}>
-              {video.title} — {video.company} · {categoryLabel(video.category)} ·
-              {formatPublishedAt(video.publishedAt)}
-            </a>
-          </li>
-        ))
-      }
-    </ol>
   </section>
   <HomeApp
     videos={firstPage}
     totalCount={publishedVideos.length}
     client:idle
   />
-  <SiteSources />
   <SiteFooter />
   <script is:inline>
     if (window.location.search) {

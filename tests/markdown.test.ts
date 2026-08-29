@@ -104,7 +104,9 @@ describe("structured data", () => {
     const types = graph.map((node) => node["@type"]);
     expect(types).toContain("WebSite");
     expect(types).toContain("Organization");
-    expect(types).toContain("FAQPage");
+    // FAQPage was removed: its content is no longer visible on the page
+    // (Google requires matching on-page FAQ content), so keep it out.
+    expect(types).not.toContain("FAQPage");
     expect(types).toContain("Article");
     expect(graph.find((node) => node["@type"] === "CollectionPage")).toMatchObject({
       dateModified: "2026-08-27",

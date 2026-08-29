@@ -11,7 +11,7 @@ import {
   type ReactNode,
 } from "react";
 
-type ShapeVariant = "pill" | "rounded";
+type ShapeVariant = "square" | "pill" | "rounded";
 
 interface ShapeClasses {
   item: string;
@@ -29,6 +29,20 @@ interface ShapeClasses {
 }
 
 const shapeMap: Record<ShapeVariant, ShapeClasses> = {
+  // Sharp (0px) chrome matching the site's noiced-style square corners.
+  // All values are 0 — the numeric bgRadius also feeds --shape-input-radius
+  // so plain-CSS focus rings stay square.
+  square: {
+    item: "rounded-none",
+    bg: "rounded-none",
+    focusRing: "rounded-none",
+    mergedBg: "rounded-none",
+    container: "rounded-none",
+    button: "rounded-none",
+    input: "rounded-none",
+    bgRadius: 0,
+    mergedRadius: 0,
+  },
   pill: {
     item: "rounded-[20px]",
     bg: "rounded-[20px]",
