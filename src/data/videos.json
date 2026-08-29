@@ -46270,5 +46270,30 @@
     "durationSeconds": 37,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-gmi-minimax-free",
+    "slug": "gmi-minimax-free",
+    "title": "GMI Cloud — unlimited MiniMax M3 and M2.7 free",
+    "product": "GMI Cloud MiniMax",
+    "company": "GMI Cloud",
+    "description": "Unlimited MiniMax M3 and M2.7 for 14 days free on GMI Cloud (Aug 24–Sep 6), plus Speech 2.8 and Music 3.0. Access via GMI API key or OpenRouter.",
+    "category": "ai",
+    "tags": [
+      "gmi",
+      "minimax",
+      "openrouter"
+    ],
+    "tweetUrl": "https://x.com/gmi_cloud/status/2091925007756857368",
+    "tweetId": "2091925007756857368",
+    "authorName": "GMI Cloud",
+    "authorHandle": "gmi_cloud",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2079633212083732480/QBxfihRn.jpg",
+    "poster": "/posters/gmi-minimax-free.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2091924874768068608/vid/avc1/1080x1080/aiV6LQqPbss4d5nq.mp4",
+    "publishedAt": "2026-08-24T16:26:02.000Z",
+    "durationSeconds": 29,
+    "featured": false,
+    "status": "published"
   }
 ]
