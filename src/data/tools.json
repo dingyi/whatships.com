@@ -348,5 +348,25 @@
     "url": "https://github.com/Pluviobyte/video-production-skills",
     "category": "skills",
     "poster": "/posters/tools/video-production-skills.webp"
+  },
+  {
+    "id": "tool-raylight",
+    "slug": "raylight",
+    "name": "Raylight",
+    "tagline": "Build beautiful product videos in minutes",
+    "description": "Raylight turns your screenshots, shapes, and footage into cinematic product videos in minutes. No After Effects, just a browser tab.",
+    "url": "https://www.raylight.app/",
+    "category": "motion",
+    "poster": "/posters/tools/raylight.webp"
+  },
+  {
+    "id": "tool-screeen",
+    "slug": "screeen",
+    "name": "Screeen",
+    "tagline": "Studio-quality screen recordings in minutes",
+    "description": "Record your screen on Windows or Mac and automatically enhance it with cinematic zoom, cursor animations, and studio backgrounds. No editing required.",
+    "url": "https://screeen.co/",
+    "category": "editor",
+    "poster": "/posters/tools/screeen.webp"
   }
 ]
