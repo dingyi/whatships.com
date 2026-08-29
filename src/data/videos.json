@@ -46419,5 +46419,80 @@
     "durationSeconds": 37,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-minimax-h3-max-motion",
+    "slug": "minimax-h3-max-motion",
+    "title": "MiniMax H3 MAX — motion study by ilker",
+    "product": "MiniMax H3 MAX",
+    "company": "MiniMax",
+    "description": "A motion study by ilker (fal) made with MiniMax H3 MAX, unreleased at the time of posting.",
+    "category": "motion",
+    "tags": [
+      "minimax",
+      "h3-max",
+      "fal"
+    ],
+    "tweetUrl": "https://x.com/ailker/status/2092358931322462349",
+    "tweetId": "2092358931322462349",
+    "authorName": "ilker",
+    "authorHandle": "ailker",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2000203826733740034/pRf5s9GA.jpg",
+    "poster": "/posters/minimax-h3-max-motion.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092358817153466368/vid/avc1/1344x768/28y0JtW7Z_T5YB_Y.mp4",
+    "publishedAt": "2026-08-25T21:10:18.000Z",
+    "durationSeconds": 15,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-instant-analytics",
+    "slug": "instant-analytics",
+    "title": "Instant Analytics — visitors, conversion, funnels",
+    "product": "Instant Analytics",
+    "company": "Instant",
+    "description": "Instant Analytics is the analytics layer for every Instant-published page: visitors, conversion, revenue, funnels, heatmaps, and scrollmaps in one place.",
+    "category": "productivity",
+    "tags": [
+      "instant",
+      "analytics",
+      "funnels"
+    ],
+    "tweetUrl": "https://x.com/InstantHQ/status/2092584858686026196",
+    "tweetId": "2092584858686026196",
+    "authorName": "Instant",
+    "authorHandle": "InstantHQ",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2036761779431411712/Vn0SUc9S.jpg",
+    "poster": "/posters/instant-analytics.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092584751760584704/vid/avc1/1920x1080/AXmY4FNEU1GBkOgg.mp4",
+    "publishedAt": "2026-08-26T12:08:03.000Z",
+    "durationSeconds": 41,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-cabinet",
+    "slug": "cabinet",
+    "title": "Cabinet — the Obsidian killer has arrived",
+    "product": "Cabinet",
+    "company": "Cabinet",
+    "description": "Cabinet is an open-source knowledge base with AI agents — dump files, run agents on your own machine, and keep your notes as markdown. runcabinet.com",
+    "category": "ai",
+    "tags": [
+      "cabinet",
+      "obsidian",
+      "knowledge-base"
+    ],
+    "tweetUrl": "https://x.com/HilaShmuel/status/2092315061033300053",
+    "tweetId": "2092315061033300053",
+    "authorName": "Hila Shmuel",
+    "authorHandle": "HilaShmuel",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1837038270770774016/fB9RqDTi.jpg",
+    "poster": "/posters/cabinet.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092314199313596416/vid/avc1/1920x1080/VLn_DPcvsdsTK1Sa.mp4",
+    "publishedAt": "2026-08-25T18:15:58.000Z",
+    "durationSeconds": 13,
+    "featured": false,
+    "status": "published"
   }
 ]
