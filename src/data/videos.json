@@ -46245,5 +46245,30 @@
     "durationSeconds": 26,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-goldie",
+    "slug": "goldie",
+    "title": "Goldie — App Store screenshots for coding agents",
+    "product": "Goldie",
+    "company": "Kacper Kapuściak",
+    "description": "Goldie generates App Store screenshots for coding agents and humans. Install with npx skills add kacperkapusciak/goldie.",
+    "category": "developer-tools",
+    "tags": [
+      "goldie",
+      "app-store",
+      "screenshots"
+    ],
+    "tweetUrl": "https://x.com/kacperkapusciak/status/2093336077964554471",
+    "tweetId": "2093336077964554471",
+    "authorName": "Kacper Kapuściak",
+    "authorHandle": "kacperkapusciak",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1783493918249586689/fuiCOFo3.jpg",
+    "poster": "/posters/goldie.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2093331979315933184/vid/avc1/1280x720/BzB0acTOWefdt6Ch.mp4?tag=14",
+    "publishedAt": "2026-08-28T13:53:07.000Z",
+    "durationSeconds": 37,
+    "featured": false,
+    "status": "published"
   }
 ]
