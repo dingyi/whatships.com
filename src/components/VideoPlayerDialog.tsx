@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight, ExternalLink, LoaderCircle, X } from "lucide-react";
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import {
@@ -9,6 +9,7 @@ import {
   playbackUrl,
 } from "@/lib/catalog";
 import type { DirectoryVideo } from "@/lib/directory";
+import { swapText, tokenMs } from "@/lib/motion";
 
 interface Props {
   video: DirectoryVideo | null;
@@ -83,7 +84,7 @@ export default function VideoPlayerDialog({
     const id = setTimeout(() => {
       setRendered(false);
       setClosing(false);
-    }, 150);
+    }, tokenMs("--duration-quick", 150));
     return () => clearTimeout(id);
   }, [open, rendered]);
 
@@ -176,9 +177,40 @@ export default function VideoPlayerDialog({
   }, [open, video]);
 
   const activeVideo = video ?? lastVideoRef.current;
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const metaRef = useRef<HTMLParagraphElement>(null);
+  const swappedIdRef = useRef<string | null>(null);
+  const duration = activeVideo
+    ? formatDuration(activeVideo.durationSeconds)
+    : null;
+  const metaLine = activeVideo
+    ? [
+        activeVideo.company,
+        categoryLabel(activeVideo.category),
+        duration,
+      ]
+        .filter(Boolean)
+        .join(" · ")
+    : "";
+
+  useLayoutEffect(() => {
+    if (!activeVideo) return;
+    const titleEl = titleRef.current;
+    const metaEl = metaRef.current;
+    const first = swappedIdRef.current === null;
+    swappedIdRef.current = activeVideo.id;
+    if (titleEl) {
+      if (first) titleEl.textContent = activeVideo.title;
+      else swapText(titleEl, activeVideo.title);
+    }
+    if (metaEl) {
+      if (first) metaEl.textContent = metaLine;
+      else swapText(metaEl, metaLine);
+    }
+  }, [activeVideo, metaLine]);
+
   if (!mounted || !rendered || !activeVideo) return null;
 
-  const duration = formatDuration(activeVideo.durationSeconds);
   const tweetUrl = normalizeTweetUrl(activeVideo.tweetUrl);
 
   return createPortal(
@@ -232,20 +264,15 @@ export default function VideoPlayerDialog({
               always visible on touch devices (see CSS hover:none rule). */}
           <div className="video-player-modal__overlay video-player-modal__overlay--top">
             <div className="video-player-modal__heading">
-              <h2 id={titleId} className="video-player-modal__title">
-                {activeVideo.title}
-              </h2>
-              <p className="video-player-modal__meta">
-                {activeVideo.company}
-                <span aria-hidden="true"> · </span>
-                {categoryLabel(activeVideo.category)}
-                {duration && (
-                  <>
-                    <span aria-hidden="true"> · </span>
-                    {duration}
-                  </>
-                )}
-              </p>
+              <h2
+                id={titleId}
+                className="video-player-modal__title t-text-swap"
+                ref={titleRef}
+              />
+              <p
+                className="video-player-modal__meta t-text-swap"
+                ref={metaRef}
+              />
             </div>
             <div className="video-player-modal__actions">
               <a
@@ -278,7 +305,9 @@ export default function VideoPlayerDialog({
           {status === "loading" && (
             <div className="video-player-modal__status" role="status">
               <LoaderCircle className="video-player-modal__spinner" size={22} />
-              Loading video…
+              <span className="t-shimmer" data-text="Loading video…">
+                Loading video…
+              </span>
             </div>
           )}
           {status === "error" && (

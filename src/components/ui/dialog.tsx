@@ -106,7 +106,7 @@ const DialogContent = forwardRef<HTMLDivElement, DialogContentProps>(
                 )}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: exiting ? 0 : 1 }}
-                transition={exiting ? spring.slow.exit : spring.slow}
+                transition={exiting ? spring.modal.exit : spring.modal}
               />
             );
           }}
@@ -161,7 +161,7 @@ const DialogContent = forwardRef<HTMLDivElement, DialogContentProps>(
                   x: "-50%",
                   y: "-50%",
                 }}
-                transition={exiting ? spring.slow.exit : spring.slow}
+                transition={exiting ? spring.modal.exit : spring.modal}
               >
                 <SurfaceProvider value={dialogLevel}>
                   {children}

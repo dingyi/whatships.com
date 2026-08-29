@@ -1,3 +1,5 @@
+const easeSmoothOut = [0.22, 1, 0.36, 1] as const;
+
 export const spring = {
   fast: {
     type: "spring" as const,
@@ -19,6 +21,20 @@ export const spring = {
     duration: 0.24,
     bounce: 0.12,
     exit: { duration: 0.16 },
+  },
+  // transitions.dev modal open (--duration-fast) / close (--duration-quick).
+  modal: {
+    type: "tween" as const,
+    duration: 0.25,
+    ease: easeSmoothOut,
+    exit: { duration: 0.15, ease: easeSmoothOut },
+  },
+  // transitions.dev dropdown open (--duration-fast) / close (--duration-quick).
+  dropdown: {
+    type: "tween" as const,
+    duration: 0.25,
+    ease: easeSmoothOut,
+    exit: { duration: 0.15, ease: easeSmoothOut },
   },
 } as const;
 

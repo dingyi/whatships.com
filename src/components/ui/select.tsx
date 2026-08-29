@@ -163,7 +163,7 @@ const triggerVariants = cva(
   [
     "group inline-flex items-center justify-between gap-2 outline-none cursor-pointer",
     "text-[13px] h-9 px-3 min-w-[160px]",
-    "transition-all duration-80",
+    "transition-[color,background-color,border-color] duration-80",
     "disabled:opacity-50 disabled:pointer-events-none",
     "focus-visible:ring-1 focus-visible:ring-[color:var(--focus-ring,#6B97FF)]",
   ],
@@ -285,13 +285,13 @@ const SelectContent = forwardRef<HTMLDivElement, SelectContentProps>(
     // Release Base UI's deferred unmount once the exit tween has played.
     // onAnimationComplete on the motion.div is the primary signal; this
     // timeout is a fallback for throttled/background tabs where rAF-driven
-    // animation callbacks can stall. The popup exits with spring.fast, so the
+    // animation callbacks can stall. The popup exits with spring.dropdown, so the
     // fallback tracks that tier's exit duration plus a safety buffer.
     useEffect(() => {
       if (open) return;
       const id = setTimeout(
         () => actionsRef.current?.unmount(),
-        exitFallbackMs(spring.fast)
+        exitFallbackMs(spring.dropdown)
       );
       return () => clearTimeout(id);
     }, [open, actionsRef]);
@@ -349,7 +349,7 @@ const SelectContent = forwardRef<HTMLDivElement, SelectContentProps>(
                 ? { opacity: 1, y: 0, scaleY: 1 }
                 : { opacity: 0, y: -2, scaleY: 0.99 }
             }
-            transition={open ? spring.fast : spring.fast.exit}
+            transition={open ? spring.dropdown : spring.dropdown.exit}
             style={{ transformOrigin: "top center" }}
             // Base UI defers unmount while actionsRef is set; release it once
             // the exit spring has finished so the close animation fully plays.
