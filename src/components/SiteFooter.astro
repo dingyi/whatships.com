@@ -1,4 +1,6 @@
 ---
+import { ASK_AI_LINKS } from "@/lib/site";
+
 const year = new Date().getFullYear();
 ---
 
@@ -23,5 +25,34 @@ const year = new Date().getFullYear();
     <span aria-hidden="true">·</span>
     <a href="/llms.txt" target="_blank" rel="noopener noreferrer">llms.txt ↗</a>
   </nav>
-  <p class="footer-meta">Independent directory · © {year} whatships.com</p>
+  <div class="footer-ask">
+    <p class="footer-ask-label">Ask about whatships.com on</p>
+    <ul class="footer-ask-list" aria-label="Ask an AI about whatships.com">
+      {
+        ASK_AI_LINKS.map((ai) => (
+          <li>
+            <a
+              class="ask-ai-link"
+              href={ai.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Ask about whatships.com on ${ai.name}`}
+              title={`Ask about whatships.com on ${ai.name}`}
+            >
+              <img
+                class="ask-ai-icon"
+                src={ai.icon}
+                alt=""
+                width="16"
+                height="16"
+                aria-hidden="true"
+                data-mono={ai.mono ? "true" : undefined}
+              />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+  <p class="footer-meta">© {year} whatships.com</p>
 </footer>
