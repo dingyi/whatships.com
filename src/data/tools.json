@@ -433,5 +433,15 @@
     "category": "skills",
     "poster": "/posters/tools/shuohao-skills.webp",
     "install": "npx skills add eternityspring/shuohao-skills"
+  },
+  {
+    "id": "tool-prequel",
+    "slug": "prequel",
+    "name": "Prequel",
+    "tagline": "Create cinematic screen recordings from Mac",
+    "description": "A macOS screen recorder that hands back a finished video. Zooms that follow the work, a framed camera and a background, exported at up to 4K on your Mac's own media engine.",
+    "url": "https://prequel.sh/",
+    "category": "editor",
+    "poster": "/posters/tools/prequel.webp"
   }
 ]
