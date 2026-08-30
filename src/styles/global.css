@@ -747,7 +747,10 @@ img {
   gap: 12px;
   margin: 0 -16px;
   padding: 10px 16px;
-  border-bottom: 0;
+  /* Hairline separating the sticky chrome from the grid. Without it the
+     toolbar's translucent backdrop sits flush on the grid's top card edge
+     and visually swallows the first row's 0.5px box-shadow top line. */
+  border-bottom: 0.5px solid var(--grid-line);
   background: color-mix(in oklab, var(--background) 92%, transparent);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -823,24 +826,29 @@ img {
 
 /* ── Noiced-style grid ─────────────────────────────────────────────────── */
 /*
- * Grid lines = continuous 1px channels, not per-card borders.
+ * Grid lines = one hairline per card edge, not background gaps.
  *
- * noiced.com uses gap:0 + border:.5px on every cell. On fractional 1fr
- * tracks those half-borders often leave a hairline of page background
- * between neighbors, so seams look like two black lines with a gap.
+ * Earlier approach (noiced.com-style): grid background + gap:1px +
+ * padding:1px, so the channel shows between solid cards. On fractional-DPR
+ * screens (e.g. Windows 150% = dpr 1.6) the 1fr tracks land on fractional
+ * physical pixels, so each seam's 1.6-physical-px channel rasterizes
+ * differently per row — seams alternate between crisp 1px and blurry 2px
+ * lines (measured: 1/2/1/2px on dpr 1.6).
  *
- * Paint the line once: grid background + 1px gap/padding. Cards are
- * solid --background so only the channel shows. L-corners stay noiced
- * (5×5 @ -1px straddling the channel edge).
+ * Instead, every card paints its own 0.5px outline via box-shadow, anchored
+ * to the card's own edges. Adjacent outlines abut into a continuous 1px
+ * line whose thickness stays uniform regardless of where the 1fr track
+ * lands. gap:0 keeps cards flush; padding:0 lets the shadow draw the outer
+ * frame too. L-corners stay noiced (5×5 @ -1px straddling the card edge).
  */
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
-  gap: 1px;
-  padding: 1px;
+  gap: 0;
+  padding: 0;
   position: relative;
   overflow: visible;
-  background: var(--grid-line);
+  background: transparent;
   border: 0;
   border-radius: 0;
 }
@@ -852,6 +860,7 @@ img {
   border: 0;
   border-radius: 0;
   background: var(--background);
+  box-shadow: 0 0 0 0.5px var(--grid-line);
   padding: 12px;
 }
 /* Four L-bracket corners — same as noiced */
