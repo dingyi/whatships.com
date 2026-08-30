@@ -747,11 +747,6 @@ img {
   gap: 12px;
   margin: 0 -16px;
   padding: 10px 16px;
-  /* Hairline closing the toolbar off from the page below. The grid keeps a
-     10px gap (see .video-grid) so this line and the first row's own 0.5px
-     top outline render as two separate, crisp lines — overlapping them on
-     fractional-DPR screens produces a blurry double line instead. */
-  border-bottom: 0.5px solid var(--grid-line);
   background: color-mix(in oklab, var(--background) 92%, transparent);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
