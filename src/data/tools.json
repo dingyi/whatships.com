@@ -207,7 +207,8 @@
     "description": "An agent skill that designs motion, generates continuous frames, and wires the result to scroll, mouse, drag, touch, or device orientation.",
     "url": "https://github.com/oil-oil/oil-motion",
     "category": "skills",
-    "poster": "/posters/tools/oil-motion.webp"
+    "poster": "/posters/tools/oil-motion.webp",
+    "install": "npx skills add oil-oil/oil-motion"
   },
   {
     "id": "tool-pika",
@@ -337,7 +338,8 @@
     "description": "Official agent skills that encode Remotion best practices. Install with npx skills add remotion-dev/skills so Claude Code, Codex, Cursor, and other agents can create, edit, and render video.",
     "url": "https://www.remotion.dev/docs/ai/skills",
     "category": "skills",
-    "poster": "/posters/tools/remotion-skills.webp"
+    "poster": "/posters/tools/remotion-skills.webp",
+    "install": "npx skills add remotion-dev/skills"
   },
   {
     "id": "tool-video-production-skills",
@@ -347,7 +349,8 @@
     "description": "Reusable AI video production skills for creation, recreation, motion design, openers, and QA. Each directory is an installable skill for Codex, Claude Code, and Cursor.",
     "url": "https://github.com/Pluviobyte/video-production-skills",
     "category": "skills",
-    "poster": "/posters/tools/video-production-skills.webp"
+    "poster": "/posters/tools/video-production-skills.webp",
+    "install": "npx skills add Pluviobyte/video-production-skills"
   },
   {
     "id": "tool-raylight",
@@ -388,5 +391,26 @@
     "url": "https://videngineer.com/",
     "category": "ai",
     "poster": "/posters/tools/videngineer.webp"
+  },
+  {
+    "id": "tool-diffusion-studio-skills",
+    "slug": "diffusion-studio-skills",
+    "name": "Diffusion Studio Skills",
+    "tagline": "Analyze, generate, and edit footage",
+    "description": "Agent skills for Diffusion Studio. Analyze video, audio, and images, generate media, and compose edits with the dapi CLI in Claude Code, Codex, or Cursor.",
+    "url": "https://github.com/diffusionstudio/skills",
+    "category": "skills",
+    "poster": "/posters/tools/diffusion-studio-skills.webp",
+    "install": "npx skills add diffusionstudio/skills"
+  },
+  {
+    "id": "tool-kite",
+    "slug": "kite",
+    "name": "Kite",
+    "tagline": "Turn screen recordings into feature films",
+    "description": "Create professional app demo videos in minutes. Auto cursor follow, zooms, text scenes, 3D mockups, AI voiceover, music, and more.",
+    "url": "https://kite.video/",
+    "category": "editor",
+    "poster": "/posters/tools/kite.webp"
   }
 ]
