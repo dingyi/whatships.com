@@ -747,14 +747,14 @@ img {
   gap: 12px;
   margin: 0 -16px;
   padding: 10px 16px;
-  /* Hairline separating the sticky chrome from the grid. Without it the
-     toolbar's translucent backdrop sits flush on the grid's top card edge
-     and visually swallows the first row's 0.5px box-shadow top line. */
+  /* Hairline closing the toolbar off from the page below. The grid keeps a
+     10px gap (see .video-grid) so this line and the first row's own 0.5px
+     top outline render as two separate, crisp lines — overlapping them on
+     fractional-DPR screens produces a blurry double line instead. */
   border-bottom: 0.5px solid var(--grid-line);
   background: color-mix(in oklab, var(--background) 92%, transparent);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  /* Keep sticky chrome from eating the grid’s top L-brackets on first paint */
   margin-bottom: 0;
 }
 .result-count {
@@ -851,6 +851,10 @@ img {
   background: transparent;
   border: 0;
   border-radius: 0;
+  /* Clearance below the sticky toolbar: keeps the first row's top outline
+     away from the toolbar's border-bottom so the two hairlines never land
+     on the same fractional physical pixels (blurry double line at dpr 1.6). */
+  margin-top: 10px;
 }
 .video-card {
   position: relative;
@@ -1516,6 +1520,9 @@ img {
   line-height: 20px;
   text-wrap: balance;
 }
+/* The similar-videos grid has no sticky toolbar above it; keep its original
+   24px offset instead of the toolbar-clearance margin (same specificity,
+   later in the file wins — no !important needed). */
 .similar-videos .video-grid {
   margin-top: 24px;
 }
