@@ -37,20 +37,20 @@ function hsl(h, s, l) {
 function gradientFor(slug, index) {
   const rand = mulberry32(seedFrom(slug));
   const hue = (rand() * 48 + index * 78) % 360;
-  const spread = 16 + rand() * 22;
+  const spread = 42 + rand() * 38;
   const hue2 = (hue + spread) % 360;
-  const hue3 = (hue + spread * 0.45 + 360) % 360;
-  const sat = 16 + rand() * 12;
-  const lightA = 78 + rand() * 8;
-  const lightB = 86 + rand() * 6;
-  const lightC = 74 + rand() * 8;
+  const hue3 = (hue + 180 + rand() * 24) % 360;
+  const sat = 38 + rand() * 16;
+  const lightA = 58 + rand() * 8;
+  const lightB = 84 + rand() * 6;
+  const lightC = 52 + rand() * 8;
   const angle = Math.round(24 + rand() * 48);
   return {
     angle,
     stops: [
       hsl(hue, sat, lightA),
-      hsl(hue3, sat - 4, lightB),
-      hsl(hue2, sat + 2, lightC),
+      hsl(hue3, sat - 10, lightB),
+      hsl(hue2, sat + 4, lightC),
     ],
   };
 }
@@ -58,7 +58,8 @@ function gradientFor(slug, index) {
 function htmlFor(install, slug, index) {
   const { angle, stops } = gradientFor(slug, index);
   const fontData = readFileSync(plexWoff2).toString("base64");
-  const size = install.length > 42 ? 28 : 34;
+  const pkg = install.replace(/^npx skills add\s+/, "");
+  const size = pkg.length > 32 ? 56 : 64;
   return `<!doctype html>
 <html>
 <head>
@@ -75,6 +76,8 @@ html, body {
   height: 810px;
   overflow: hidden;
   background:
+    radial-gradient(1200px 720px at 16% 12%, ${stops[0]}, transparent 58%),
+    radial-gradient(1100px 780px at 88% 86%, ${stops[2]}, transparent 62%),
     linear-gradient(${angle}deg, ${stops[0]}, ${stops[1]} 52%, ${stops[2]});
   font-family: "IBM Plex Mono", ui-monospace, monospace;
 }
@@ -84,21 +87,25 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 80px;
+  box-sizing: border-box;
 }
 .cmd {
   margin: 0;
-  color: rgba(32, 32, 36, 0.82);
+  color: rgba(24, 24, 28, 0.88);
   font-size: ${size}px;
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.2;
-  white-space: nowrap;
+  line-height: 1.28;
+  text-align: center;
+  white-space: pre-line;
 }
 </style>
 </head>
 <body>
   <div class="frame">
-    <p class="cmd">${install}</p>
+    <p class="cmd">npx skills add
+${pkg}</p>
   </div>
 </body>
 </html>`;
