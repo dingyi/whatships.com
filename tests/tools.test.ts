@@ -37,6 +37,9 @@ describe("publishedTools", () => {
       expect(
         existsSync(path.join(postersRoot, gridPoster(tool.poster))),
       ).toBe(true);
+      if (tool.category === "skills") {
+        expect(tool.install).toMatch(/^npx skills add \S+$/);
+      }
     }
   });
 });

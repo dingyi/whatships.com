@@ -19,6 +19,8 @@ export interface VideoTool {
   url: string;
   category: ToolCategoryId;
   poster: string;
+  /** `npx skills add …` command, skills category only. */
+  install?: string;
 }
 
 export const publishedTools = toolsData as VideoTool[];

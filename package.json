@@ -13,6 +13,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "posters:capture": "node scripts/capture-posters.mjs",
+    "posters:skills": "node scripts/render-skill-posters.mjs",
     "discovery": "node scripts/discovery/run.mjs",
     "discovery:dry-run": "node scripts/discovery/run.mjs --dry-run",
     "discovery:fixture": "node scripts/discovery/run.mjs --dry-run --lookback-days=30 --fixture=scripts/discovery/fixtures/sample-posts.json",
