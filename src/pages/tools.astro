@@ -53,6 +53,7 @@ import {
         {
           publishedTools.map((tool, index) => {
             const small = gridPoster(tool.poster);
+            const bust = tool.category === "skills" ? "?v=2" : "";
             const host = toolHost(tool.url);
             const category = toolCategoryLabel(tool.category);
             return (
@@ -71,8 +72,8 @@ import {
                     aria-label={`Open ${tool.name} website`}
                   >
                     <img
-                      src={small}
-                      srcset={`${small} 960w, ${tool.poster} 1440w`}
+                      src={`${small}${bust}`}
+                      srcset={`${small}${bust} 960w, ${tool.poster}${bust} 1440w`}
                       sizes="(max-width: 699px) calc(100vw - 34px), 420px"
                       alt={`${tool.name} — ${tool.tagline}`}
                       loading={index < 6 ? "eager" : "lazy"}
