@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { ASK_AI_LINKS, ASK_AI_PROMPT } from "@/lib/site";
 
 function proseFromAstro(path: string): string {
   const source = readFileSync(path, "utf8");
@@ -76,7 +77,34 @@ describe("trust and developer pages", () => {
     );
     expect(footer).toContain("/privacy/");
     expect(footer).toContain("/terms/");
+    expect(footer).toContain("Ask about whatships.com on");
+    expect(footer).toContain("Ask an AI about whatships.com");
     expect(layout).toContain('hreflang="x-default"');
     expect(layout).toContain('og:site_name');
+  });
+
+  it("footer ask-AI links prefill a prompt that starts from llms.txt", () => {
+    expect(ASK_AI_PROMPT).toContain("https://whatships.com/llms.txt");
+    expect(ASK_AI_LINKS.map((ai) => ai.id)).toEqual([
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "gemini",
+      "grok",
+    ]);
+    expect(ASK_AI_LINKS[0].href).toMatch(/^https:\/\/chatgpt\.com\/\?q=/);
+    expect(ASK_AI_LINKS[1].href).toMatch(/^https:\/\/claude\.ai\/new\?q=/);
+    expect(ASK_AI_LINKS[2].href).toMatch(
+      /^https:\/\/www\.perplexity\.ai\/search\?q=/,
+    );
+    expect(ASK_AI_LINKS[3].href).toMatch(
+      /^https:\/\/www\.google\.com\/search\?udm=50&q=/,
+    );
+    expect(ASK_AI_LINKS[4].href).toMatch(/^https:\/\/grok\.com\/\?q=/);
+    for (const ai of ASK_AI_LINKS) {
+      expect(decodeURIComponent(ai.href)).toContain(
+        "https://whatships.com/llms.txt",
+      );
+    }
   });
 });

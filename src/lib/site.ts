@@ -9,6 +9,49 @@ export const TERMS_PATH = "/terms/";
 export const SITE_DATE_PUBLISHED = "2026-08-23";
 export const SITE_DATE_MODIFIED = "2026-08-27";
 
+/** Prefill for the footer "Ask about whatships.com on" AI links. */
+export const ASK_AI_PROMPT = `What is whatships.com? Explain this curated directory of startup launch videos from X, how to browse or cite entries, and what it is not. Start with ${SITE_URL}/llms.txt and cite whatships.com pages as primary sources.`;
+
+const ASK_AI_Q = encodeURIComponent(ASK_AI_PROMPT);
+
+export const ASK_AI_LINKS = [
+  {
+    id: "chatgpt",
+    name: "ChatGPT",
+    href: `https://chatgpt.com/?q=${ASK_AI_Q}`,
+    icon: "/ask/chatgpt.svg",
+    mono: true,
+  },
+  {
+    id: "claude",
+    name: "Claude",
+    href: `https://claude.ai/new?q=${ASK_AI_Q}`,
+    icon: "/ask/claude.svg",
+    mono: false,
+  },
+  {
+    id: "perplexity",
+    name: "Perplexity",
+    href: `https://www.perplexity.ai/search?q=${ASK_AI_Q}`,
+    icon: "/ask/perplexity.svg",
+    mono: false,
+  },
+  {
+    id: "gemini",
+    name: "Google AI Mode",
+    href: `https://www.google.com/search?udm=50&q=${ASK_AI_Q}`,
+    icon: "/ask/gemini.svg",
+    mono: false,
+  },
+  {
+    id: "grok",
+    name: "Grok",
+    href: `https://grok.com/?q=${ASK_AI_Q}`,
+    icon: "/ask/grok.svg",
+    mono: true,
+  },
+] as const;
+
 export const SITE_DESCRIPTION =
   "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter. Each entry links back to the original post. Not affiliated with X/Twitter or the products shown.";
 
