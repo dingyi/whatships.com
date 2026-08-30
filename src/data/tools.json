@@ -412,5 +412,26 @@
     "url": "https://kite.video/",
     "category": "editor",
     "poster": "/posters/tools/kite.webp"
+  },
+  {
+    "id": "tool-openstory",
+    "slug": "openstory",
+    "name": "OpenStory",
+    "tagline": "Tell your whole story",
+    "description": "Create 5-minute AI films with consistent characters. Iterate until you nail it. Open source and free to self-host.",
+    "url": "https://openstory.so/",
+    "category": "ai",
+    "poster": "/posters/tools/openstory.webp"
+  },
+  {
+    "id": "tool-shuohao-skills",
+    "slug": "shuohao-skills",
+    "name": "Shuohao Skills",
+    "tagline": "Agent skills for AI short-drama production",
+    "description": "Agent skills for AI short-drama production. Character bibles, adaptation outlines, art bibles, screenplays, and storyboards. Runs in Claude Code and Codex.",
+    "url": "https://github.com/eternityspring/shuohao-skills",
+    "category": "skills",
+    "poster": "/posters/tools/shuohao-skills.webp",
+    "install": "npx skills add eternityspring/shuohao-skills"
   }
 ]
