@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-31T06:04:46.361Z",
+  "updatedAt": "2026-08-31T18:12:56.914Z",
   "items": [
     {
       "id": "disc-2094171717325455794",
       "tweetId": "2094171717325455794",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:46.361Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:06:12.295Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -66,71 +66,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2093835614156476521",
-      "tweetId": "2093835614156476521",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:46.003Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2093835614156476521",
-        "tweetUrl": "https://x.com/kushagrchitkar/status/2093835614156476521",
-        "authorHandle": "kushagrchitkar",
-        "authorName": "kushagra chitkara",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1983010893777580032/HRDlxuI6.jpg",
-        "text": "Introducing Almanac payments, powered by AgentCard.\n\nYour AI agent should never have access to your cards. It should have its own.\n\nToday, Almanac is partnering with @agentcardhq to let agents make payments and actually finish the work they started.\n\nRetreat, subscriptions, https://t.co/wO94c7y6jF",
-        "createdAt": "2026-08-29T22:58:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2093835399340924928/vid/avc1/1920x1080/31cSKo-N5yIc3ij_.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093835399340924928/img/5Lusgud8KfZKhkEv.jpg",
-            "durationMs": 31731
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "kushagrchitkar",
-        "company": "kushagra chitkara",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2093835614156476521",
-        "slug": "kushagra-chitkara-476521",
-        "title": "Introducing Almanac payments, powered by AgentCard. Your AI agent should never have access to you…",
-        "product": "kushagra chitkara",
-        "company": "kushagra chitkara",
-        "description": "Introducing Almanac payments, powered by AgentCard. Your AI agent should never have access to your cards. It should have its own. Today, Almanac is partnering with @agentcardhq to let agents make payments and actually finish the work they started. Retreat, subscriptions,",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/kushagrchitkar/status/2093835614156476521",
-        "tweetId": "2093835614156476521",
-        "authorName": "kushagra chitkara",
-        "authorHandle": "kushagrchitkar",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1983010893777580032/HRDlxuI6.jpg",
-        "poster": "/posters/kushagra-chitkara-476521.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2093835399340924928/vid/avc1/1920x1080/31cSKo-N5yIc3ij_.mp4",
-        "publishedAt": "2026-08-29T22:58:06.000Z",
-        "durationSeconds": 32,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2093651364953952609",
       "tweetId": "2093651364953952609",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:45.634Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:34.637Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -187,9 +127,9 @@
     {
       "id": "disc-2094136744367346006",
       "tweetId": "2094136744367346006",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:45.120Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:32.361Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -246,9 +186,9 @@
     {
       "id": "disc-2094129020770164871",
       "tweetId": "2094129020770164871",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:44.745Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:28.224Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -305,9 +245,9 @@
     {
       "id": "disc-2094004712869601555",
       "tweetId": "2094004712869601555",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:44.377Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:17.108Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -364,9 +304,9 @@
     {
       "id": "disc-2093754163343593802",
       "tweetId": "2093754163343593802",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:44.005Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:22.659Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -423,9 +363,9 @@
     {
       "id": "disc-2094058298219581557",
       "tweetId": "2094058298219581557",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:43.025Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:05:10.865Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -480,71 +420,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094099290482438275",
-      "tweetId": "2094099290482438275",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:42.643Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094099290482438275",
-        "tweetUrl": "https://x.com/everestchris6/status/2094099290482438275",
-        "authorHandle": "everestchris6",
-        "authorName": "Chris",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih.jpg",
-        "text": "Introducing Atonomi Agents...\n\nA marketplace for renting agents that acquire customers for your business on autopilot.\n\nEach agent finds leads and mails them a physical postcard pitching your service + a render of how the finished product would look.\n\nLive now at https://t.co/jc7oYm2Ir0",
-        "createdAt": "2026-08-30T16:25:51.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094084721345269760/vid/avc1/1920x1080/o_a_HqF9sBFJWgkq.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094084721345269760/img/mPeIWIYOjnc3Oh_J.jpg",
-            "durationMs": 21930
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "everestchris6",
-        "company": "Chris",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094099290482438275",
-        "slug": "chris-438275",
-        "title": "Introducing Atonomi Agents... A marketplace for renting agents that acquire customers for your bu…",
-        "product": "Chris",
-        "company": "Chris",
-        "description": "Introducing Atonomi Agents... A marketplace for renting agents that acquire customers for your business on autopilot. Each agent finds leads and mails them a physical postcard pitching your service + a render of how the finished product would look. Live now at",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/everestchris6/status/2094099290482438275",
-        "tweetId": "2094099290482438275",
-        "authorName": "Chris",
-        "authorHandle": "everestchris6",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih.jpg",
-        "poster": "/posters/chris-438275.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094084721345269760/vid/avc1/1920x1080/o_a_HqF9sBFJWgkq.mp4",
-        "publishedAt": "2026-08-30T16:25:51.000Z",
-        "durationSeconds": 22,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094165454260719821",
       "tweetId": "2094165454260719821",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:42.266Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T17:58:36.170Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -600,130 +480,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094123761515765842",
-      "tweetId": "2094123761515765842",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:41.890Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2094123761515765842",
-        "tweetUrl": "https://x.com/BitrigApp/status/2094123761515765842",
-        "authorHandle": "BitrigApp",
-        "authorName": "Bitrig",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2087996456481247232/pBfku5c4.jpg",
-        "text": "Custom Agents, including their MCP servers, skills, and conversations, are now available in Bitrig.\nhttps://t.co/TbaxeQ5U3L https://t.co/vuPfNJrmaD",
-        "createdAt": "2026-08-30T18:03:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094123738325450752/vid/avc1/1280x720/xBpTafISSaxvbUgV.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094123738325450752/img/ecGrO5bH3SljnKdV.jpg",
-            "durationMs": 9900
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "BitrigApp",
-        "company": "Bitrig",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094123761515765842",
-        "slug": "bitrig-765842",
-        "title": "Custom Agents, including their MCP servers, skills, and conversations, are now available in Bitrig.",
-        "product": "Bitrig",
-        "company": "Bitrig",
-        "description": "Custom Agents, including their MCP servers, skills, and conversations, are now available in Bitrig.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/BitrigApp/status/2094123761515765842",
-        "tweetId": "2094123761515765842",
-        "authorName": "Bitrig",
-        "authorHandle": "BitrigApp",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2087996456481247232/pBfku5c4.jpg",
-        "poster": "/posters/bitrig-765842.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094123738325450752/vid/avc1/1280x720/xBpTafISSaxvbUgV.mp4?tag=14",
-        "publishedAt": "2026-08-30T18:03:06.000Z",
-        "durationSeconds": 10,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094050449808847216",
-      "tweetId": "2094050449808847216",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:41.517Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094050449808847216",
-        "tweetUrl": "https://x.com/simranrambles/status/2094050449808847216",
-        "authorHandle": "simranrambles",
-        "authorName": "simran sachdeva",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082459908461768704/sVEtBBtg.jpg",
-        "text": "i built an AI agent that turns family group chats into a shared calendar ft. @neatlogs https://t.co/BEdyllx4FO",
-        "createdAt": "2026-08-30T13:11:47.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094050394225967105/vid/avc1/1920x1080/4Jsw_mk_L87AYYX-.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HQ-PvR9aAAA0tXZ.jpg",
-            "durationMs": 61566
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "simranrambles",
-        "company": "simran sachdeva",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094050449808847216",
-        "slug": "simran-sachdeva-847216",
-        "title": "i built an AI agent that turns family group chats into a shared calendar ft. @neatlogs",
-        "product": "simran sachdeva",
-        "company": "simran sachdeva",
-        "description": "i built an AI agent that turns family group chats into a shared calendar ft. @neatlogs",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/simranrambles/status/2094050449808847216",
-        "tweetId": "2094050449808847216",
-        "authorName": "simran sachdeva",
-        "authorHandle": "simranrambles",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082459908461768704/sVEtBBtg.jpg",
-        "poster": "/posters/simran-sachdeva-847216.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094050394225967105/vid/avc1/1920x1080/4Jsw_mk_L87AYYX-.mp4",
-        "publishedAt": "2026-08-30T13:11:47.000Z",
-        "durationSeconds": 62,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094142250800587038",
       "tweetId": "2094142250800587038",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:41.141Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T17:59:41.915Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -779,132 +540,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094164487381414344",
-      "tweetId": "2094164487381414344",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:40.764Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2094164487381414344",
-        "tweetUrl": "https://x.com/cy_burns/status/2094164487381414344",
-        "authorHandle": "cy_burns",
-        "authorName": "cy",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
-        "text": "Today we're launching Claude for motion graphics 2.0. It does the sound now.\n\nOne person is now a whole production team:\n\nTurn words into your next launch video, voiceover and music included\n\nChange a word in the script and the voiceover updates itself. No re-record\n\nOne click https://t.co/2SpKn9IuAo",
-        "createdAt": "2026-08-30T20:44:56.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094163785040744448/vid/avc1/3840x2160/aGt2mMB0g9dtONZy.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094163785040744448/img/I4YMWpjez6nVneR5.jpg",
-            "durationMs": 52714
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cy_burns",
-        "company": "cy",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094164487381414344",
-        "slug": "cy-414344",
-        "title": "Today we're launching Claude for motion graphics 2.0. It does the sound now. One person is now a…",
-        "product": "cy",
-        "company": "cy",
-        "description": "Today we're launching Claude for motion graphics 2.0. It does the sound now. One person is now a whole production team: Turn words into your next launch video, voiceover and music included Change a word in the script and the voiceover updates itself. No re-record One click",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cy_burns/status/2094164487381414344",
-        "tweetId": "2094164487381414344",
-        "authorName": "cy",
-        "authorHandle": "cy_burns",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
-        "poster": "/posters/cy-414344.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094163785040744448/vid/avc1/3840x2160/aGt2mMB0g9dtONZy.mp4",
-        "publishedAt": "2026-08-30T20:44:56.000Z",
-        "durationSeconds": 53,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094123213735305359",
-      "tweetId": "2094123213735305359",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:40.361Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2094123213735305359",
-        "tweetUrl": "https://x.com/motion_so/status/2094123213735305359",
-        "authorHandle": "motion_so",
-        "authorName": "Motion",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
-        "text": "Introducing Apple for product launches.\n\nPaste your website URL.\n\nMotion turns it into a launch video with motion graphics, voiceover, music and captions.\n\nThis is honestly crazy. https://t.co/y42RJ7cvVI",
-        "createdAt": "2026-08-30T18:00:55.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094123174367473665/vid/avc1/3840x2160/TDdZ4x7kTcjNtumb.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094123174367473665/img/2dM9doedF0u77pyn.jpg",
-            "durationMs": 22058
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "motion_so",
-        "company": "Motion",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094123213735305359",
-        "slug": "motion-305359",
-        "title": "Introducing Apple for product launches. Paste your website URL. Motion turns it into a launch vid…",
-        "product": "Motion",
-        "company": "Motion",
-        "description": "Introducing Apple for product launches. Paste your website URL. Motion turns it into a launch video with motion graphics, voiceover, music and captions. This is honestly crazy.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/motion_so/status/2094123213735305359",
-        "tweetId": "2094123213735305359",
-        "authorName": "Motion",
-        "authorHandle": "motion_so",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
-        "poster": "/posters/motion-305359.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094123174367473665/vid/avc1/3840x2160/TDdZ4x7kTcjNtumb.mp4",
-        "publishedAt": "2026-08-30T18:00:55.000Z",
-        "durationSeconds": 22,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094193273904517600",
       "tweetId": "2094193273904517600",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:39.856Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:03:02.912Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -960,71 +600,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094178792948306244",
-      "tweetId": "2094178792948306244",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:39.473Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2094178792948306244",
-        "tweetUrl": "https://x.com/DenarMarkets/status/2094178792948306244",
-        "authorHandle": "DenarMarkets",
-        "authorName": "Denar",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086067565491539968/IKvPgFIa.jpg",
-        "text": "Tokenized stocks deserve their own money market.\n\n@DenarMarkets is now live.\nLend USD, earn yield, or borrow against your stock tokens without selling them.\n\nBuilt on @RobinhoodCrypto. Priced by @Chainlink. https://t.co/39P2n5wC1y",
-        "createdAt": "2026-08-30T21:41:46.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094173079459020800/vid/avc1/3840x2160/fL6TulQuKWG-3mPh.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094173079459020800/img/7lVHseiJVhGqjzko.jpg",
-            "durationMs": 51600
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "DenarMarkets",
-        "company": "Denar",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094178792948306244",
-        "slug": "denar-306244",
-        "title": "Tokenized stocks deserve their own money market. @DenarMarkets is now live. Lend USD, earn yield,…",
-        "product": "Denar",
-        "company": "Denar",
-        "description": "Tokenized stocks deserve their own money market. @DenarMarkets is now live. Lend USD, earn yield, or borrow against your stock tokens without selling them. Built on @RobinhoodCrypto. Priced by @Chainlink.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/DenarMarkets/status/2094178792948306244",
-        "tweetId": "2094178792948306244",
-        "authorName": "Denar",
-        "authorHandle": "DenarMarkets",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086067565491539968/IKvPgFIa.jpg",
-        "poster": "/posters/denar-306244.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094173079459020800/vid/avc1/3840x2160/fL6TulQuKWG-3mPh.mp4",
-        "publishedAt": "2026-08-30T21:41:46.000Z",
-        "durationSeconds": 52,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094167507972010155",
       "tweetId": "2094167507972010155",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:39.095Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:00:30.426Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1082,9 +662,9 @@
     {
       "id": "disc-2094167374303801581",
       "tweetId": "2094167374303801581",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:38.712Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:03:07.039Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1142,9 +722,9 @@
     {
       "id": "disc-2094110799224779183",
       "tweetId": "2094110799224779183",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:38.332Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:04:24.609Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1202,9 +782,9 @@
     {
       "id": "disc-2094081914780983407",
       "tweetId": "2094081914780983407",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:37.936Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:04:06.387Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1262,9 +842,9 @@
     {
       "id": "disc-2094091395317526756",
       "tweetId": "2094091395317526756",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-08-31T06:04:37.558Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-08-31T18:07:06.865Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1313,66 +893,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2094087591155113984/vid/avc1/1080x1920/4HQPL-tOdnUw7u3N.mp4",
         "publishedAt": "2026-08-30T15:54:29.000Z",
         "durationSeconds": 28,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094036102273282457",
-      "tweetId": "2094036102273282457",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-08-31T06:04:37.174Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2094036102273282457",
-        "tweetUrl": "https://x.com/volkanolmez/status/2094036102273282457",
-        "authorHandle": "volkanolmez",
-        "authorName": "volkanolmez",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2007131089605726208/_LIIVdZI.jpg",
-        "text": "The easy document-sharing tool I’ve been working on for a while is now live.\n👉🏻 https://t.co/kVXrnrDdCA https://t.co/3fsiu5bJSa",
-        "createdAt": "2026-08-30T12:14:46.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094035976117010435/vid/avc1/1280x720/8Q4IlFHm9VxJryDt.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094035976117010435/img/3uaiY0HHuDBLO93o.jpg",
-            "durationMs": 24033
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "volkanolmez",
-        "company": "volkanolmez",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094036102273282457",
-        "slug": "volkanolmez-282457",
-        "title": "The easy document-sharing tool I’ve been working on for a while is now live. 👉🏻",
-        "product": "volkanolmez",
-        "company": "volkanolmez",
-        "description": "The easy document-sharing tool I’ve been working on for a while is now live. 👉🏻",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/volkanolmez/status/2094036102273282457",
-        "tweetId": "2094036102273282457",
-        "authorName": "volkanolmez",
-        "authorHandle": "volkanolmez",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2007131089605726208/_LIIVdZI.jpg",
-        "poster": "/posters/volkanolmez-282457.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094035976117010435/vid/avc1/1280x720/8Q4IlFHm9VxJryDt.mp4?tag=14",
-        "publishedAt": "2026-08-30T12:14:46.000Z",
-        "durationSeconds": 24,
         "featured": false,
         "status": "draft"
       },
