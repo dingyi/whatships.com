@@ -46869,5 +46869,30 @@
     "durationSeconds": 24,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-miya",
+    "slug": "miya",
+    "title": "Miya — talk to your personal musician + DJ",
+    "product": "Miya",
+    "company": "Miya",
+    "description": "Miya is a music cat you talk to — a personal musician and DJ that makes and plays music. Come try her.",
+    "category": "ai",
+    "tags": [
+      "miya",
+      "music",
+      "dj"
+    ],
+    "tweetUrl": "https://x.com/miya__fm/status/2092976666964636115",
+    "tweetId": "2092976666964636115",
+    "authorName": "Miya",
+    "authorHandle": "miya__fm",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2092983875647811585/abu-V36-.jpg",
+    "poster": "/posters/miya.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2092976447120121856/vid/avc1/1280x720/2IGl7nVu2Rb_LmkM.mp4",
+    "publishedAt": "2026-08-27T14:04:57.000Z",
+    "durationSeconds": 86,
+    "featured": false,
+    "status": "published"
   }
 ]
