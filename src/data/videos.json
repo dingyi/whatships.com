@@ -47319,5 +47319,30 @@
     "durationSeconds": 124,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-treg-people-search",
+    "slug": "treg-people-search",
+    "title": "Treg — Claude for people search, $0.0089/lead",
+    "product": "Claude for People Search",
+    "company": "Treg",
+    "description": "Give Claude Code or any agent 1B+ contacts across 60 providers. Verified work emails from $0.0089, open source, 0% markup.",
+    "category": "ai",
+    "tags": [
+      "treg",
+      "people-search",
+      "claude"
+    ],
+    "tweetUrl": "https://x.com/jasonzhou1993/status/2094740336895840605",
+    "tweetId": "2094740336895840605",
+    "authorName": "Jason Zhou",
+    "authorHandle": "jasonzhou1993",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1613651966663749632/AuQiWkVc.jpg",
+    "poster": "/posters/treg-people-search.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094658428409204737/vid/avc1/1920x1080/o30dURhYRlwMoLDS.mp4",
+    "publishedAt": "2026-09-01T10:53:09.000Z",
+    "durationSeconds": 49,
+    "featured": false,
+    "status": "published"
   }
 ]
