@@ -468,28 +468,28 @@ export function submitKindCopy(kind: SubmitKind) {
     case "tool":
       return {
         heading: "Share a tool for launch videos",
-        lead: "Point us to a public site for an editor, motion tool, mockup tool, or agent skill.",
+        lead: "Point us to a public site for a launch tool.",
         success:
           "Your tool details were packaged into a review issue. If a new tab did not open, use the button below. Editors will curate approved tools into the public directory.",
       };
     case "studio":
       return {
         heading: "Share a motion studio",
-        lead: "Point us to a studio that makes product launch films, demos, or walkthroughs.",
+        lead: "Point us to a studio that makes launch films.",
         success:
           "Your studio details were packaged into a review issue. If a new tab did not open, use the button below. Editors will curate approved studios into the public directory.",
       };
     case "designer":
       return {
         heading: "Share an independent designer",
-        lead: "Point us to a designer or motion maker who makes product launch films.",
+        lead: "Point us to a designer who makes launch films.",
         success:
           "Your designer details were packaged into a review issue. If a new tab did not open, use the button below. Editors will curate approved makers into the public directory.",
       };
     default:
       return {
         heading: "Share a product launch video from X",
-        lead: "Point us to a public post with a launch film, demo, or walkthrough. Submissions are reviewed before they appear in the directory.",
+        lead: "Point us to a public X post with a launch film.",
         success:
           "Your launch details were packaged into a review issue. If a new tab did not open, use the button below. Editors will curate approved videos into the public directory.",
       };
