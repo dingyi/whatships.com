@@ -47219,5 +47219,30 @@
     "durationSeconds": 40,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-conrad-wip-motion",
+    "slug": "conrad-wip-motion",
+    "title": "Conrad — motion study, about 20% done",
+    "product": "Conrad WIP motion",
+    "company": "Conrad",
+    "description": "A work-in-progress motion study from Conrad, posted at about 20% done.",
+    "category": "motion",
+    "tags": [
+      "motion",
+      "wip",
+      "conrad"
+    ],
+    "tweetUrl": "https://x.com/Conrad_rd/status/2094556675424326083",
+    "tweetId": "2094556675424326083",
+    "authorName": "Conrad",
+    "authorHandle": "Conrad_rd",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2084613241280368640/Fx-AVJdh.jpg",
+    "poster": "/posters/conrad-wip-motion.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094556554108223488/vid/avc1/1280x720/YZnWvB4tXT0XC-4K.mp4?tag=14",
+    "publishedAt": "2026-08-31T22:43:21.000Z",
+    "durationSeconds": 11,
+    "featured": false,
+    "status": "published"
   }
 ]
