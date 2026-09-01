@@ -513,5 +513,25 @@
     "url": "https://www.demofilm.app/",
     "category": "editor",
     "poster": "/posters/tools/demofilm.webp"
+  },
+  {
+    "id": "tool-burp",
+    "slug": "burp",
+    "name": "Burp",
+    "tagline": "Your AI editor for video & motion",
+    "description": "Create on-brand videos and motion graphics at scale. Compose them on one canvas, edit every layer by chatting, and export as MP4, GIF, or 4K.",
+    "url": "https://www.burp.com/",
+    "category": "motion",
+    "poster": "/posters/tools/burp.webp"
+  },
+  {
+    "id": "tool-opusclip",
+    "slug": "opusclip",
+    "name": "OpusClip",
+    "tagline": "1 long video, 10 viral clips. Create 10x faster.",
+    "description": "Turns long videos into shorts and publishes them to all social platforms in one click.",
+    "url": "https://www.opus.pro/",
+    "category": "editor",
+    "poster": "/posters/tools/opusclip.webp"
   }
 ]
