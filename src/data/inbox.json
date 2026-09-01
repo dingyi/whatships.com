@@ -1,259 +1,12 @@
 {
-  "updatedAt": "2026-09-01T05:37:09.492Z",
+  "updatedAt": "2026-09-01T06:33:13.311Z",
   "items": [
-    {
-      "id": "disc-2094508327179067697",
-      "tweetId": "2094508327179067697",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:09.492Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094508327179067697",
-        "tweetUrl": "https://x.com/framer/status/2094508327179067697",
-        "authorHandle": "framer",
-        "authorName": "Framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "text": "Create a responsive FAQ section in seconds. Ask the Framer Agent to generate a fully designed section that matches your website’s existing style, so you can skip building it from scratch https://t.co/SLQnGDbKbT",
-        "createdAt": "2026-08-31T19:31:13.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094508302168432640/vid/avc1/1212x720/C1ueLacQklvHHE3W.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094508302168432640/img/2Wr5Bv2jIIol7x4-.jpg",
-            "durationMs": 19625
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "framer",
-        "company": "Framer",
-        "category": "design",
-        "tags": [
-          "design",
-          "web"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094508327179067697",
-        "slug": "framer-067697",
-        "title": "Create a responsive FAQ section in seconds. Ask the Framer Agent to generate a fully designed sec…",
-        "product": "Framer",
-        "company": "Framer",
-        "description": "Create a responsive FAQ section in seconds. Ask the Framer Agent to generate a fully designed section that matches your website’s existing style, so you can skip building it from scratch",
-        "category": "design",
-        "tags": [
-          "design",
-          "web",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/framer/status/2094508327179067697",
-        "tweetId": "2094508327179067697",
-        "authorName": "Framer",
-        "authorHandle": "framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "poster": "/posters/framer-067697.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094508302168432640/vid/avc1/1212x720/C1ueLacQklvHHE3W.mp4?tag=14",
-        "publishedAt": "2026-08-31T19:31:13.000Z",
-        "durationSeconds": 20,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094351395327488272",
-      "tweetId": "2094351395327488272",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:09.098Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094351395327488272",
-        "tweetUrl": "https://x.com/fotor_com/status/2094351395327488272",
-        "authorHandle": "fotor_com",
-        "authorName": "Fotor",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1846100008036454400/QghBYpQ7.jpg",
-        "text": "Fotor's Video Agent is LIVE on Product Hunt today!\n\nTurn a single prompt into a fully edited video. Fotor's new AI Video Agent handles scripting, visuals, voiceover, and editing, so you can go from idea to finished video in minutes.\n\nNo timeline. No editing skills. Just tell it https://t.co/wlSlN4bz5C",
-        "createdAt": "2026-08-31T09:07:38.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094350448954093568/vid/avc1/2160x3840/yJ5wtmw-R0wGo-wk.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094350448954093568/img/leRgEi1w71--4OVl.jpg",
-            "durationMs": 6246
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fotor_com",
-        "company": "Fotor",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094351395327488272",
-        "slug": "fotor-488272",
-        "title": "Fotor's Video Agent is LIVE on Product Hunt today! Turn a single prompt into a fully edited video…",
-        "product": "Fotor",
-        "company": "Fotor",
-        "description": "Fotor's Video Agent is LIVE on Product Hunt today! Turn a single prompt into a fully edited video. Fotor's new AI Video Agent handles scripting, visuals, voiceover, and editing, so you can go from idea to finished video in minutes. No timeline. No editing skills. Just tell it",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fotor_com/status/2094351395327488272",
-        "tweetId": "2094351395327488272",
-        "authorName": "Fotor",
-        "authorHandle": "fotor_com",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1846100008036454400/QghBYpQ7.jpg",
-        "poster": "/posters/fotor-488272.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094350448954093568/vid/avc1/2160x3840/yJ5wtmw-R0wGo-wk.mp4",
-        "publishedAt": "2026-08-31T09:07:38.000Z",
-        "durationSeconds": 6,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094463070466646019",
-      "tweetId": "2094463070466646019",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:08.727Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094463070466646019",
-        "tweetUrl": "https://x.com/runwayml/status/2094463070466646019",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "Today, we're sharing new research on Solaris, our first Interface World Model.\n\nSolaris is a new kind of operating system that generates interactive interfaces frame by frame, in real time, with no code. We find that Solaris outperforms frontier LLMs when generating new https://t.co/rRk0V2yx4t",
-        "createdAt": "2026-08-31T16:31:23.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094462045219438592/vid/avc1/1920x1080/XLM05IH--iZGGDSk.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094462045219438592/img/HzJNW_pBaNbGvXGh.jpg",
-            "durationMs": 82708
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094463070466646019",
-        "slug": "runway-646019",
-        "title": "Today, we're sharing new research on Solaris, our first Interface World Model. Solaris is a new k…",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "Today, we're sharing new research on Solaris, our first Interface World Model. Solaris is a new kind of operating system that generates interactive interfaces frame by frame, in real time, with no code. We find that Solaris outperforms frontier LLMs when generating new",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2094463070466646019",
-        "tweetId": "2094463070466646019",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-646019.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094462045219438592/vid/avc1/1920x1080/XLM05IH--iZGGDSk.mp4",
-        "publishedAt": "2026-08-31T16:31:23.000Z",
-        "durationSeconds": 83,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094474848206745981",
-      "tweetId": "2094474848206745981",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:08.363Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2094474848206745981",
-        "tweetUrl": "https://x.com/alxshp/status/2094474848206745981",
-        "authorHandle": "alxshp",
-        "authorName": "alex shapalov",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1978552796988493824/lEtPOGNq.jpg",
-        "text": "🚀 Launched today → https://t.co/DWermim5jT 🐘\n\nReal-time Postgres logs for humans &amp; AI agents.\n\nStream, filter, and understand what your database is doing directly from the terminal.\n\nInstall:\n\n$ curl -fsSL https://t.co/4IhdZiPX38 | sh\n\nThen:\n\n$ pgbot logs --follow\n\nEvery https://t.co/NuU4pUo0mt",
-        "createdAt": "2026-08-31T17:18:11.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094473447938428928/vid/avc1/3084x2160/1KiG7EzxDnGLOrUo.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094473447938428928/img/2F0XiKEWbPad9DVU.jpg",
-            "durationMs": 19882
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "alxshp",
-        "company": "alex shapalov",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094474848206745981",
-        "slug": "alex-shapalov-745981",
-        "title": "🚀 Launched today → 🐘 Real-time Postgres logs for humans &amp; AI agents. Stream, filter, and un…",
-        "product": "alex shapalov",
-        "company": "alex shapalov",
-        "description": "🚀 Launched today → 🐘 Real-time Postgres logs for humans &amp; AI agents. Stream, filter, and understand what your database is doing directly from the terminal. Install: $ curl -fsSL | sh Then: $ pgbot logs --follow Every",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/alxshp/status/2094474848206745981",
-        "tweetId": "2094474848206745981",
-        "authorName": "alex shapalov",
-        "authorHandle": "alxshp",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1978552796988493824/lEtPOGNq.jpg",
-        "poster": "/posters/alex-shapalov-745981.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094473447938428928/vid/avc1/3084x2160/1KiG7EzxDnGLOrUo.mp4",
-        "publishedAt": "2026-08-31T17:18:11.000Z",
-        "durationSeconds": 20,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
     {
       "id": "disc-2094565379050025166",
       "tweetId": "2094565379050025166",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:07.347Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:25:34.593Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -309,71 +62,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094410094171640078",
-      "tweetId": "2094410094171640078",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:06.944Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094410094171640078",
-        "tweetUrl": "https://x.com/Send/status/2094410094171640078",
-        "authorHandle": "Send",
-        "authorName": "Send",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2013524991669637120/JarfCfVd.jpg",
-        "text": "Introducing Send Cards.\n\nFund your card with USDC on @Base and use your  balance for everyday spending.\n\nHold it. Send it. Now spend it.\n\nGet your Send Card in the app. → https://t.co/unSOKao3du https://t.co/XzRErN1KYw",
-        "createdAt": "2026-08-31T13:00:53.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094409642805694464/vid/avc1/1920x1920/v7wrrJrugSwKA5kV.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094409642805694464/img/637cKcwCcoyUJ-UN.jpg",
-            "durationMs": 16033
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Send",
-        "company": "Send",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094410094171640078",
-        "slug": "send-640078",
-        "title": "Introducing Send Cards. Fund your card with USDC on @Base and use your balance for everyday spend…",
-        "product": "Send",
-        "company": "Send",
-        "description": "Introducing Send Cards. Fund your card with USDC on @Base and use your balance for everyday spending. Hold it. Send it. Now spend it. Get your Send Card in the app. →",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Send/status/2094410094171640078",
-        "tweetId": "2094410094171640078",
-        "authorName": "Send",
-        "authorHandle": "Send",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2013524991669637120/JarfCfVd.jpg",
-        "poster": "/posters/send-640078.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094409642805694464/vid/avc1/1920x1920/v7wrrJrugSwKA5kV.mp4",
-        "publishedAt": "2026-08-31T13:00:53.000Z",
-        "durationSeconds": 16,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094496374666440926",
       "tweetId": "2094496374666440926",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:06.550Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:22:34.152Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -429,376 +122,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094578141130059825",
-      "tweetId": "2094578141130059825",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:06.171Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094578141130059825",
-        "tweetUrl": "https://x.com/StudyFetch/status/2094578141130059825",
-        "authorHandle": "StudyFetch",
-        "authorName": "StudyFetch",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086642198444154880/mYAAsL1t.jpg",
-        "text": "Introducing the StudyFetch Calendar 2.0\n\nCalendar knows which exam is coming up, which topics that exam covers, and how well you know each one, so sitting down to study no longer starts with deciding what to study.\n\nRead More: https://t.co/2KWhnr12PD https://t.co/jCnmoQZXPt",
-        "createdAt": "2026-09-01T00:08:38.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094576112248692736/vid/avc1/1920x1080/8ZyAmUheHwuOCj9S.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094576112248692736/img/raVm9rumbqrvTw4g.jpg",
-            "durationMs": 69381
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "StudyFetch",
-        "company": "StudyFetch",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094578141130059825",
-        "slug": "studyfetch-059825",
-        "title": "Introducing the StudyFetch Calendar 2.0 Calendar knows which exam is coming up, which topics that…",
-        "product": "StudyFetch",
-        "company": "StudyFetch",
-        "description": "Introducing the StudyFetch Calendar 2.0 Calendar knows which exam is coming up, which topics that exam covers, and how well you know each one, so sitting down to study no longer starts with deciding what to study. Read More:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/StudyFetch/status/2094578141130059825",
-        "tweetId": "2094578141130059825",
-        "authorName": "StudyFetch",
-        "authorHandle": "StudyFetch",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086642198444154880/mYAAsL1t.jpg",
-        "poster": "/posters/studyfetch-059825.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094576112248692736/vid/avc1/1920x1080/8ZyAmUheHwuOCj9S.mp4",
-        "publishedAt": "2026-09-01T00:08:38.000Z",
-        "durationSeconds": 69,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094555262170358251",
-      "tweetId": "2094555262170358251",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:05.796Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2094555262170358251",
-        "tweetUrl": "https://x.com/aitderham10/status/2094555262170358251",
-        "authorHandle": "aitderham10",
-        "authorName": "Hamza Ait Darhem",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1819793311390937088/ZSiBu8by.jpg",
-        "text": "We just launched Pastea 🚀\n\nPastea saves everything you copy, helps you find it instantly, and lets you paste it back without breaking your flow.\n\nNow live for macOS → https://t.co/3GmoKsDreB https://t.co/EoCdkBbzWC",
-        "createdAt": "2026-08-31T22:37:44.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094554901846118400/vid/avc1/1280x720/Mdgqjb3U1b3Wnoz3.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094554901846118400/img/JCvrA9QO-oBgAmBl.jpg",
-            "durationMs": 30000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "aitderham10",
-        "company": "Hamza Ait Darhem",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094555262170358251",
-        "slug": "hamza-ait-darhem-358251",
-        "title": "We just launched Pastea 🚀 Pastea saves everything you copy, helps you find it instantly, and let…",
-        "product": "Hamza Ait Darhem",
-        "company": "Hamza Ait Darhem",
-        "description": "We just launched Pastea 🚀 Pastea saves everything you copy, helps you find it instantly, and lets you paste it back without breaking your flow. Now live for macOS →",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/aitderham10/status/2094555262170358251",
-        "tweetId": "2094555262170358251",
-        "authorName": "Hamza Ait Darhem",
-        "authorHandle": "aitderham10",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1819793311390937088/ZSiBu8by.jpg",
-        "poster": "/posters/hamza-ait-darhem-358251.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094554901846118400/vid/avc1/1280x720/Mdgqjb3U1b3Wnoz3.mp4?tag=14",
-        "publishedAt": "2026-08-31T22:37:44.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094455827448885255",
-      "tweetId": "2094455827448885255",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:05.416Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094455827448885255",
-        "tweetUrl": "https://x.com/linear/status/2094455827448885255",
-        "authorHandle": "linear",
-        "authorName": "Linear",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
-        "text": "INSPECT (2026)\nA short film about @tryramp's own coding agent, now writing three out of every four PRs.\n\nhttps://t.co/TA4AJyk8PI https://t.co/C7c1AJSh5f",
-        "createdAt": "2026-08-31T16:02:37.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094454772669546496/vid/avc1/1920x1080/p9SZwwmEehxATply.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094454772669546496/img/9V9YmhV3Xp8LoUHs.jpg",
-            "durationMs": 236778
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "linear",
-        "company": "Linear",
-        "category": "productivity",
-        "tags": [
-          "saas",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094455827448885255",
-        "slug": "linear-885255",
-        "title": "INSPECT (2026) A short film about @tryramp's own coding agent, now writing three out of every fou…",
-        "product": "Linear",
-        "company": "Linear",
-        "description": "INSPECT (2026) A short film about @tryramp's own coding agent, now writing three out of every four PRs.",
-        "category": "productivity",
-        "tags": [
-          "saas",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/linear/status/2094455827448885255",
-        "tweetId": "2094455827448885255",
-        "authorName": "Linear",
-        "authorHandle": "linear",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
-        "poster": "/posters/linear-885255.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094454772669546496/vid/avc1/1920x1080/p9SZwwmEehxATply.mp4",
-        "publishedAt": "2026-08-31T16:02:37.000Z",
-        "durationSeconds": 237,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094436639724757488",
-      "tweetId": "2094436639724757488",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:05.030Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2094436639724757488",
-        "tweetUrl": "https://x.com/withden_/status/2094436639724757488",
-        "authorHandle": "withden_",
-        "authorName": "Den",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2012373561378590720/C9Y_0c6R.jpg",
-        "text": "Just launched StylexUI\n\n- Starting with 15+ UI components\n- Built with @stylexjs &amp; Base UI\n- Ready for any React project, including Next.js and TanStack Start\n- Add components using the @shadcn CLI\n\nEverything is added directly to your project so you can customize as needed https://t.co/tSmaHv7HiS",
-        "createdAt": "2026-08-31T14:46:22.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094436603024527360/vid/avc1/1920x1080/_4tKYvAfDA0YqYSI.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094436603024527360/img/2yxX1zHVJjP3zFDe.jpg",
-            "durationMs": 29632
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "withden_",
-        "company": "Den",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094436639724757488",
-        "slug": "den-757488",
-        "title": "Just launched StylexUI - Starting with 15+ UI components - Built with @stylexjs &amp; Base UI - R…",
-        "product": "Den",
-        "company": "Den",
-        "description": "Just launched StylexUI - Starting with 15+ UI components - Built with @stylexjs &amp; Base UI - Ready for any React project, including Next.js and TanStack Start - Add components using the @shadcn CLI Everything is added directly to your project so you can customize as needed",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/withden_/status/2094436639724757488",
-        "tweetId": "2094436639724757488",
-        "authorName": "Den",
-        "authorHandle": "withden_",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2012373561378590720/C9Y_0c6R.jpg",
-        "poster": "/posters/den-757488.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094436603024527360/vid/avc1/1920x1080/_4tKYvAfDA0YqYSI.mp4",
-        "publishedAt": "2026-08-31T14:46:22.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094541202570051892",
-      "tweetId": "2094541202570051892",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:04.648Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094541202570051892",
-        "tweetUrl": "https://x.com/wevm_dev/status/2094541202570051892",
-        "authorHandle": "wevm_dev",
-        "authorName": "wevm",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1728474882202017792/eupvsUtm.jpg",
-        "text": "Introducing 𝚖𝚘𝚗𝚘𝚜𝚑𝚘𝚝.\n\nA code image editor for humans and agents. \n\nCreate, annotate, theme, export, and share code images on the Web, CLI, MCP, or API. https://t.co/KrhoJgc0Cn",
-        "createdAt": "2026-08-31T21:41:52.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094526861036638208/vid/avc1/978x720/BTrYxcVACHgRrU0X.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094526861036638208/img/-uzg50PARDffwQy5.jpg",
-            "durationMs": 10760
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "wevm_dev",
-        "company": "wevm",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094541202570051892",
-        "slug": "wevm-051892",
-        "title": "Introducing 𝚖𝚘𝚗𝚘𝚜𝚑𝚘𝚝. A code image editor for humans and agents. Create, annotate, theme,…",
-        "product": "wevm",
-        "company": "wevm",
-        "description": "Introducing 𝚖𝚘𝚗𝚘𝚜𝚑𝚘𝚝. A code image editor for humans and agents. Create, annotate, theme, export, and share code images on the Web, CLI, MCP, or API.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/wevm_dev/status/2094541202570051892",
-        "tweetId": "2094541202570051892",
-        "authorName": "wevm",
-        "authorHandle": "wevm_dev",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1728474882202017792/eupvsUtm.jpg",
-        "poster": "/posters/wevm-051892.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094526861036638208/vid/avc1/978x720/BTrYxcVACHgRrU0X.mp4?tag=14",
-        "publishedAt": "2026-08-31T21:41:52.000Z",
-        "durationSeconds": 11,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094562154657493109",
-      "tweetId": "2094562154657493109",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:04.250Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094562154657493109",
-        "tweetUrl": "https://x.com/antigravity/status/2094562154657493109",
-        "authorHandle": "antigravity",
-        "authorName": "Google Antigravity",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1990585614279049216/-Zz6T2nk.png",
-        "text": "Introducing /boost in Google Antigravity.\n\nThe Antigravity harness can tackle a wide range of tasks right out of the box, but /boost helps if you are tackling particularly complex tasks and are willing to spend some more tokens to push the system to reason deeply about the https://t.co/Odby8KFnst",
-        "createdAt": "2026-08-31T23:05:07.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094562126421438465/vid/avc1/1280x720/9YVr30ZVzfjoVI8t.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094562126421438465/img/Fnau3igMmFH2YGuP.jpg",
-            "durationMs": 30530
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "antigravity",
-        "company": "Google Antigravity",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094562154657493109",
-        "slug": "google-antigravity-493109",
-        "title": "Introducing /boost in Google Antigravity. The Antigravity harness can tackle a wide range of task…",
-        "product": "Google Antigravity",
-        "company": "Google Antigravity",
-        "description": "Introducing /boost in Google Antigravity. The Antigravity harness can tackle a wide range of tasks right out of the box, but /boost helps if you are tackling particularly complex tasks and are willing to spend some more tokens to push the system to reason deeply about the",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/antigravity/status/2094562154657493109",
-        "tweetId": "2094562154657493109",
-        "authorName": "Google Antigravity",
-        "authorHandle": "antigravity",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1990585614279049216/-Zz6T2nk.png",
-        "poster": "/posters/google-antigravity-493109.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094562126421438465/vid/avc1/1280x720/9YVr30ZVzfjoVI8t.mp4?tag=14",
-        "publishedAt": "2026-08-31T23:05:07.000Z",
-        "durationSeconds": 31,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094389933888721219",
       "tweetId": "2094389933888721219",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:03.870Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:14:10.004Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -856,9 +184,9 @@
     {
       "id": "disc-2094523293428584691",
       "tweetId": "2094523293428584691",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:03.489Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:24:05.851Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -915,9 +243,9 @@
     {
       "id": "disc-2094425694755336332",
       "tweetId": "2094425694755336332",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:02.734Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:14:15.799Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -975,9 +303,9 @@
     {
       "id": "disc-2094569931379442063",
       "tweetId": "2094569931379442063",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:02.318Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:14:21.774Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1035,9 +363,9 @@
     {
       "id": "disc-2094439625087414609",
       "tweetId": "2094439625087414609",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:01.899Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:14:24.411Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1095,9 +423,9 @@
     {
       "id": "disc-2094400972789539092",
       "tweetId": "2094400972789539092",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:01.488Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:21:32.281Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1155,9 +483,9 @@
     {
       "id": "disc-2094520746680713382",
       "tweetId": "2094520746680713382",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:01.072Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:23:08.031Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1214,9 +542,9 @@
     {
       "id": "disc-2094499925690360056",
       "tweetId": "2094499925690360056",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-01T05:37:00.651Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-01T06:24:19.657Z",
       "score": 74,
       "reasons": [
         "has-video",
@@ -1267,66 +595,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2094498822072492032/vid/avc1/3096x1952/haGqKyIEvNIlZaHq.mp4",
         "publishedAt": "2026-08-31T18:57:50.000Z",
         "durationSeconds": 133,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094502871773651093",
-      "tweetId": "2094502871773651093",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-01T05:37:00.229Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094502871773651093",
-        "tweetUrl": "https://x.com/shengkunye/status/2094502871773651093",
-        "authorHandle": "shengkunye",
-        "authorName": "Shengkun Ye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "text": "We just killed…everything.\n\nIntroducing Monid, the OpenRouter for agent tools.\n\nToday we crossed 4M agent transactions. And raised a $2.1M pre-seed to kill every subscription in the world.\n\nYour agents can now:\n\n&gt; discover, run, and pay for tools at runtime\n&gt; one connection to https://t.co/EsQoixZ7mi",
-        "createdAt": "2026-08-31T19:09:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094502152966455296/vid/avc1/1920x1080/A_j9J_5pS2HWDQny.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094502152966455296/img/oDjL511-E1ygpG0y.jpg",
-            "durationMs": 56500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shengkunye",
-        "company": "Shengkun Ye",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094502871773651093",
-        "slug": "shengkun-ye-651093",
-        "title": "We just killed…everything. Introducing Monid, the OpenRouter for agent tools. Today we crossed 4M…",
-        "product": "Shengkun Ye",
-        "company": "Shengkun Ye",
-        "description": "We just killed…everything. Introducing Monid, the OpenRouter for agent tools. Today we crossed 4M agent transactions. And raised a $2.1M pre-seed to kill every subscription in the world. Your agents can now: &gt; discover, run, and pay for tools at runtime &gt; one connection to",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shengkunye/status/2094502871773651093",
-        "tweetId": "2094502871773651093",
-        "authorName": "Shengkun Ye",
-        "authorHandle": "shengkunye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "poster": "/posters/shengkun-ye-651093.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094502152966455296/vid/avc1/1920x1080/A_j9J_5pS2HWDQny.mp4",
-        "publishedAt": "2026-08-31T19:09:33.000Z",
-        "durationSeconds": 57,
         "featured": false,
         "status": "draft"
       },
