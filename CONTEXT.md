@@ -25,7 +25,7 @@ A distinct action that opens the source X post in a new tab without navigating t
 _Avoid_: in-app Twitter embed as the only path
 
 **Submission**:
-A visitor-proposed Launch Video collected on `/submit/` and packaged as a GitHub issue for editorial review before becoming a Published Video.
+A visitor-proposed listing collected on `/submit/` — a Launch Video, Tool, Studio, or Designer — packaged as a GitHub issue for editorial review before it enters the matching catalog.
 _Avoid_: unmoderated public write API
 
 **Discovery Candidate**:

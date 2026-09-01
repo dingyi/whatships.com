@@ -63,7 +63,7 @@ Detail pages play the video in-site through the proxy (click-to-play; no autopla
 
 ## Submissions
 
-Open `/submit/` to propose a launch. The form validates an X status URL and product metadata, then opens a prefilled GitHub issue on `dingyi/whatships.com` for editorial review. Approved entries are merged into `src/data/videos.json`.
+Open `/submit/` to propose a launch video, tool, studio, or designer. Choose a type, fill the matching fields, and the form opens a prefilled GitHub issue on `dingyi/whatships.com` for editorial review. Approved entries are merged into the matching catalog file (`videos.json`, `tools.json`, or `studios.json`).
 
 ## Weekly discovery (admin review + email)
 

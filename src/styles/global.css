@@ -1986,6 +1986,55 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+.submit-kinds {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 4px;
+}
+.submit-kind-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+.submit-kind {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 0 10px;
+  border: 0.5px solid var(--grid-line);
+  border-radius: 0;
+  background: var(--card);
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.submit-kind:hover {
+  color: var(--foreground);
+  border-color: var(--n-400);
+}
+.submit-kind:has(.submit-kind-input:checked) {
+  background: var(--foreground);
+  border-color: var(--foreground);
+  color: var(--background);
+}
+.submit-kind:has(.submit-kind-input:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
 .submit-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2046,6 +2095,9 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
 .submit-textarea:focus-visible {
   outline: 1px solid var(--focus-ring, #6b97ff);
   outline-offset: 2px;
+}
+.submit-textarea[aria-invalid="true"] {
+  border-color: var(--destructive);
 }
 .submit-error {
   color: var(--destructive);
@@ -2171,10 +2223,14 @@ a.nav-submit {
 
 @media (max-width: 699px) {
   .submit-page {
-    padding: 40px 16px 64px;
+    padding: 56px 16px 64px;
   }
   .submit-grid {
     grid-template-columns: 1fr;
+  }
+  .submit-kind {
+    min-height: 44px;
+    padding: 0 12px;
   }
 }
 

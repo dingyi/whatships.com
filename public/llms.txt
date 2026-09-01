@@ -43,7 +43,7 @@ for the original post.
 - [Privacy](https://whatships.com/privacy/): what the directory collects
   and what it does not.
 - [Terms](https://whatships.com/terms/): how the catalog may be used.
-- [Submit](https://whatships.com/submit/): propose a launch video for review.
+- [Submit](https://whatships.com/submit/): propose a launch video, tool, studio, or designer for review.
 - [Sitemap](https://whatships.com/sitemap.xml): every indexable page.
 
 ## Developer resources
