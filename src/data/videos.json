@@ -47294,5 +47294,30 @@
     "durationSeconds": 33,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-burp",
+    "slug": "burp",
+    "title": "Burp — AI editor for video and motion design",
+    "product": "Burp",
+    "company": "Lottielab",
+    "description": "Burp is an AI editor for video and motion design, from the creators of Lottielab.",
+    "category": "design",
+    "tags": [
+      "burp",
+      "lottielab",
+      "motion"
+    ],
+    "tweetUrl": "https://x.com/darel023/status/2094779811483070642",
+    "tweetId": "2094779811483070642",
+    "authorName": "Daryl Patigas",
+    "authorHandle": "darel023",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1861354370731778048/d0YMq3fT.jpg",
+    "poster": "/posters/burp.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094772928025874432/vid/avc1/1920x1080/M3Qksa6R8Cm-uMx6.mp4",
+    "publishedAt": "2026-09-01T13:30:00.000Z",
+    "durationSeconds": 124,
+    "featured": false,
+    "status": "published"
   }
 ]
