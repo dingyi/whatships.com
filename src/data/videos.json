@@ -47244,5 +47244,30 @@
     "durationSeconds": 11,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-factory-designers",
+    "slug": "factory-designers",
+    "title": "Factory — designers doing their best work",
+    "product": "Factory",
+    "company": "Factory",
+    "description": "Designers are doing the best work of their lives at Factory. Join at factory.ai.",
+    "category": "motion",
+    "tags": [
+      "factory",
+      "design",
+      "hiring"
+    ],
+    "tweetUrl": "https://x.com/KalGrinberg/status/2094520269927068114",
+    "tweetId": "2094520269927068114",
+    "authorName": "Kal Grinberg",
+    "authorHandle": "KalGrinberg",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1919650321141583872/ANki-fPA.jpg",
+    "poster": "/posters/factory-designers.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094519947087294464/vid/avc1/2080x1170/zfiYYQru0rD16DR-.mp4",
+    "publishedAt": "2026-08-31T20:18:41.000Z",
+    "durationSeconds": 16,
+    "featured": false,
+    "status": "published"
   }
 ]
