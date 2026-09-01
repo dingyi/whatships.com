@@ -42,5 +42,16 @@
     "kind": "person",
     "xHandle": "ailker",
     "poster": "/posters/studios/ilker.webp"
+  },
+  {
+    "id": "person-conrad",
+    "slug": "conrad",
+    "name": "Conrad",
+    "tagline": "Motion design for product films",
+    "description": "Independent motion designer making product films and UI motion. Open for work.",
+    "url": "https://x.com/Conrad_rd",
+    "kind": "person",
+    "xHandle": "Conrad_rd",
+    "poster": "/posters/studios/conrad.webp"
   }
 ]
