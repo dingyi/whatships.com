@@ -503,5 +503,15 @@
     "url": "https://screen.studio/",
     "category": "editor",
     "poster": "/posters/tools/screen-studio.webp"
+  },
+  {
+    "id": "tool-demofilm",
+    "slug": "demofilm",
+    "name": "DemoFilm",
+    "tagline": "Raw recordings in. Cinematic demos out.",
+    "description": "Record your screen, let auto-zoom follow every click, wrap it in 3D device frames, and export 4K 60FPS locally. Free, private, no installs.",
+    "url": "https://www.demofilm.app/",
+    "category": "editor",
+    "poster": "/posters/tools/demofilm.webp"
   }
 ]
