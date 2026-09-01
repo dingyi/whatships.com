@@ -453,5 +453,55 @@
     "url": "https://screenkite.com/r/dingyi",
     "category": "editor",
     "poster": "/posters/tools/screenkite.webp"
+  },
+  {
+    "id": "tool-kinara",
+    "slug": "kinara",
+    "name": "Kinara",
+    "tagline": "A local video editor for Claude and Codex",
+    "description": "Run a team of coding agents to edit video, source footage, make motion graphics, and add sound effects. A local editor that works with Claude Code and Codex.",
+    "url": "https://www.usekinara.com/",
+    "category": "editor",
+    "poster": "/posters/tools/kinara.webp"
+  },
+  {
+    "id": "tool-openshot",
+    "slug": "openshot",
+    "name": "OpenShot",
+    "tagline": "Create stunning videos, easily",
+    "description": "A free, open-source video editor for Linux, Mac, and Windows. Create videos with effects, titles, audio tracks, and animations.",
+    "url": "https://www.openshot.org/",
+    "category": "editor",
+    "poster": "/posters/tools/openshot.webp"
+  },
+  {
+    "id": "tool-screensage-pro",
+    "slug": "screensage-pro",
+    "name": "ScreenSage Pro",
+    "tagline": "Professional screen recordings, ready in minutes",
+    "description": "A macOS screen recorder built for product demos, tutorials, and 3D promo videos. Record in high quality, auto-zoom on clicks, and export polished walkthroughs fast.",
+    "url": "https://screensage.pro/",
+    "category": "editor",
+    "poster": "/posters/tools/screensage-pro.webp"
+  },
+  {
+    "id": "tool-screencam",
+    "slug": "screencam",
+    "name": "ScreenCam",
+    "tagline": "Capture sharp. Direct the frame.",
+    "description": "A native macOS screen recorder for sharp capture, manual zoom control, timeline anchors, curve tuning, and preview-accurate export.",
+    "url": "https://thescreen.cam/",
+    "category": "editor",
+    "poster": "/posters/tools/screencam.webp"
+  },
+  {
+    "id": "tool-screen-studio",
+    "slug": "screen-studio",
+    "name": "Screen Studio",
+    "tagline": "Beautiful screen recordings in minutes",
+    "description": "macOS screen recorder with automatic zoom and smooth animations for product demos, tutorials, and social media videos.",
+    "url": "https://screen.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/screen-studio.webp"
   }
 ]
