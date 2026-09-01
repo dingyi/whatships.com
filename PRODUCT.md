@@ -12,8 +12,9 @@ web
   founders, designers, marketers, and builders who want to study how startups
   announce themselves. Their job: browse launch films visually, filter/search
   fast, inspect concise metadata, and jump to the original X post.
-- Submitters: visitors who propose a launch video via `/submit/`; their
-  proposal becomes a GitHub issue, not a published entry.
+- Submitters: visitors who propose a launch video, tool, studio, or
+  designer via `/submit/`; their proposal becomes a GitHub issue, not a
+  published entry.
 - Editor/curator (the site owner): reviews discovery candidates and
   submissions in local `/admin` (`pnpm dev` only), approves/rejects, and
   publishes. The review UI is never deployed.

@@ -207,7 +207,7 @@ A video is published when it is clearly a product launch, demo, or first-look wa
 
 ## Curation and submissions
 
-The catalog is curated first. Anyone can propose a launch via the [Submit](${pageUrl("/submit/")}) form, which opens a prefilled GitHub issue for review. Approved entries are added to \`src/data/videos.json\` and published on the next site build.
+The catalog is curated first. Anyone can propose a launch video, tool, studio, or designer via the [Submit](${pageUrl("/submit/")}) form, which opens a prefilled GitHub issue for review. Approved entries are added to the matching catalog file and published on the next site build.
 
 ## Independence
 
@@ -231,9 +231,9 @@ ${SITE_NAME} is a small independent directory. There is no sales team, phone lin
 
 Open an issue on [${GITHUB_REPO.replace("https://github.com/", "")}](${GITHUB_ISSUES}) if you need a correction, a takedown discussion, or a question about how an entry was curated. Include the video slug or original X URL.
 
-## Submit a launch video
+## Submit a listing
 
-Use the [Submit](${pageUrl("/submit/")}) form to propose a product launch film, demo, or walkthrough. The form validates a public X status URL and opens a prefilled GitHub issue. Nothing is published until a human reviews it.
+Use the [Submit](${pageUrl("/submit/")}) form to propose a launch video, tool, studio, or independent designer. Choose a type, fill the matching fields, and the form opens a prefilled GitHub issue. Nothing is published until a human reviews it.
 
 ## Developer resources
 
@@ -357,9 +357,9 @@ export function studiosMarkdown(): string {
 }
 
 export function submitMarkdown(): string {
-  return `# Submit a launch video — ${SITE_NAME}
+  return `# Submit a listing — ${SITE_NAME}
 
-Propose a product launch video from X for editorial review. The public form at ${pageUrl("/submit/")} validates a status URL and opens a GitHub issue on ${GITHUB_REPO.replace("https://github.com/", "")}. Approved entries are merged into the catalog on the next build. There is no unmoderated write API.
+Propose a launch video, tool, studio, or independent designer for editorial review. The public form at ${pageUrl("/submit/")} lets you choose a type, validates the matching fields, and opens a GitHub issue on ${GITHUB_REPO.replace("https://github.com/", "")}. Approved entries are merged into the catalog on the next build. There is no unmoderated write API.
 `;
 }
 
