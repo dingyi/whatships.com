@@ -14,7 +14,7 @@
 - **推文**：https://x.com/shengkunye/status/2094502871773651093
 - **发布时间**：2026-08-31 19:09 UTC
 - **视频时长**：约 56 秒
-- **互动**：763 likes / 53 reposts / 78 quotes / 685 bookmarks / 117k+ views
+- **互动**：778 likes / 54 reposts / 78 quotes / 708 bookmarks / 119k+ views
 - **产品**：https://monid.ai
 - **中文总结**：Monid 正式发布：Agent 工具的 OpenRouter。已处理 400 万次 agent 交易，并完成 210 万美元 pre-seed。Agent 可在运行时发现、调用并按次付费使用 1800+ API（SEO、线索、搜索、电商、股票、视频/图像/音乐/3D 生成、私有公司数据等），零订阅。官方演示视频清晰展示核心价值，是 Agent 工具基础设施的高信号正式发布。
 
@@ -74,7 +74,7 @@
 - **推文**：https://x.com/DiogoTheReal/status/2094569931379442063
 - **发布时间**：2026-08-31 23:36 UTC
 - **视频时长**：约 16 秒
-- **互动**：早期（2 likes）
+- **互动**：早期
 - **产品**：https://keepme.green
 - **中文总结**：独立开发者正式发布 keepme.green：不是鼠标抖动器，也不是状态 API，而是真实的云端 Chromium 会话。用户自己登录，按设定时区与工作时段自动启停，可随时查看截图或立即停止。解决远程办公「状态绿点」与真实在线之间的矛盾，是个人开发者把痛点产品化的清晰发布。
 
@@ -128,10 +128,118 @@
 
 ---
 
+## 11. Google Antigravity /boost — 复杂任务深度推理模式（AI / Google DeepMind）
+
+- **作者**：Google Antigravity (@antigravity)
+- **推文**：https://x.com/antigravity/status/2094562154657493109
+- **发布时间**：2026-08-31 23:05 UTC
+- **视频时长**：约 30 秒
+- **互动**：386 likes / 26 reposts / 7 quotes / 146 bookmarks / 16.5k+ views
+- **产品**：Google Antigravity `/boost`
+- **中文总结**：Google DeepMind 的 agent-first 开发平台 Antigravity 正式推出 `/boost`：默认 harness 已能处理广泛任务，遇到特别复杂的挑战时可花费更多 token，让系统对问题做更深推理。官方演示视频说明工作方式，收藏量高，是官方平台把「深度思考开关」产品化为显式命令的功能发布。
+
+---
+
+## 12. Monoshot — 给人和 Agent 用的代码配图编辑器（开发者工具 / 设计）
+
+- **作者**：wevm (@wevm_dev)
+- **推文**：https://x.com/wevm_dev/status/2094541202570051892
+- **发布时间**：2026-08-31 21:41 UTC
+- **视频时长**：约 11 秒（主帖；同线程另有主题、类型感知、标注演示）
+- **互动**：39 likes / 4 reposts / 17 bookmarks / 2.2k+ views
+- **产品**：https://monoshot.dev
+- **中文总结**：wevm 正式发布 Monoshot：面向人类和 Agent 的代码配图编辑器。可在 Web、CLI、MCP 或 API 上创建、标注、主题化、导出并分享代码图。同线程还演示了类型感知编辑、主题墙纸自动匹配语法高亮、以及增删改/警告标注。是开发者内容工具里非常干净的正式产品发布。
+
+---
+
+## 13. StylexUI — StyleX + Base UI 组件库上线（个人开发者 / 设计系统）
+
+- **作者**：Den (@withden_)
+- **推文**：https://x.com/withden_/status/2094436639724757488
+- **发布时间**：2026-08-31 14:46 UTC
+- **视频时长**：约 30 秒
+- **互动**：42 likes / 4 reposts / 32 bookmarks / 3.0k+ views
+- **产品**：StylexUI（可用 shadcn CLI 安装）
+- **中文总结**：独立开发者正式发布 StylexUI：起步 15+ 组件，基于 StyleX 与 Base UI，适配 React / Next.js / TanStack Start，可用 shadcn CLI 把组件直接加进项目再自定义。官方演示视频完整展示安装与组件质感，是设计系统赛道的 indie 发布。
+
+---
+
+## 14. Linear INSPECT — Ramp 编码 Agent 短片（生产力 / 科技公司）
+
+- **作者**：Linear (@linear)
+- **推文**：https://x.com/linear/status/2094455827448885255
+- **发布时间**：2026-08-31 16:02 UTC
+- **视频时长**：约 237 秒
+- **互动**：244 likes / 8 reposts / 14 quotes / 160 bookmarks / 56k+ views
+- **产品**：https://linear.app/customers/ramp
+- **中文总结**：Linear 发布客户短片 *INSPECT (2026)*：讲述 Ramp 自有编码 Agent 已写出四分之三的 PR。片长近 4 分钟，收藏与观看都高，是典型的「产品发布片 / 客户故事片」形态，适合 whatships 目录中的 motion / productivity 类条目。
+
+---
+
+## 15. Pastea — macOS 剪贴板管理器正式上线（个人开发者 / 生产力）
+
+- **作者**：Hamza Ait Darhem (@aitderham10)
+- **推文**：https://x.com/aitderham10/status/2094555262170358251
+- **发布时间**：2026-08-31 22:37 UTC
+- **视频时长**：约 30 秒
+- **互动**：早期
+- **产品**：https://pastea.app
+- **中文总结**：产品设计师正式发布 Pastea：记住所有复制内容，即时检索，再无缝贴回，不打断工作流。现已上线 macOS。官方 30 秒演示把「剪贴板有记忆」做成可感知产品，是独立开发者工具的干净发布。
+
+---
+
+## 16. StudyFetch Calendar 2.0 — 会规划复习的学习日历（AI / 消费）
+
+- **作者**：StudyFetch (@StudyFetch)
+- **推文**：https://x.com/StudyFetch/status/2094578141130059825
+- **发布时间**：2026-09-01 00:08 UTC
+- **视频时长**：约 69 秒
+- **互动**：早期
+- **产品**：https://www.studyfetch.com/blog/a-new-and-improved-calendar
+- **中文总结**：StudyFetch 正式推出 Calendar 2.0：日历知道下一场考试、覆盖哪些知识点、以及学生对每项掌握得怎样，坐下学习时不再先纠结「今天该学什么」。官方约 70 秒演示展示新日历逻辑，是学习产品把「复习规划」产品化的功能发布。
+
+---
+
+## 17. Alertsify Flow — 从资金流扫描直接下单期权（科技 / 金融工具）
+
+- **作者**：Alertsify (@Alertsify)
+- **推文**：https://x.com/Alertsify/status/2094496374666440926
+- **发布时间**：2026-08-31 18:43 UTC
+- **视频时长**：约 21 秒
+- **互动**：17 likes / 5.7k+ views
+- **产品**：Alertsify Flow
+- **中文总结**：Alertsify 正式推出 Flow：其他资金流扫描工具停在提醒，用户还要自己去券商下单；Flow 可在产品内直接交易，支持 10 家券商（含 Robinhood），并声称是唯一能把期权执行进 Robinhood 的扫描器。官方短视频演示闭环交易，是交易工具的功能发布。
+
+---
+
+## 18. Send Cards — USDC  ent 卡可日常消费（科技 / 金融）
+
+- **作者**：Send (@Send)
+- **推文**：https://x.com/Send/status/2094410094171640078
+- **发布时间**：2026-08-31 13:00 UTC
+- **视频时长**：约 16 秒
+- **互动**：173 likes / 42 reposts / 21 quotes / 67 bookmarks / 36k+ views
+- **产品**：https://send.app
+- **中文总结**：Send 正式推出 Send Cards：用 Base 上的 USDC 给卡充值，余额可日常消费。口号从「持有、发送」延伸到「现在能花」。官方短视频配合产品页，是加密支付产品把卡消费能力做成可见发布片的案例。
+
+---
+
+## 19. TikGrok Beta — 索引公开 Grok Imagine 视频（个人开发者 / AI）
+
+- **作者**：Dan (@Daniel_Farinax)
+- **推文**：https://x.com/Daniel_Farinax/status/2094565379050025166
+- **发布时间**：2026-08-31 23:17 UTC
+- **视频时长**：约 158 秒
+- **互动**：29 likes / 9 reposts / 5 quotes / 3.5k+ views
+- **产品**：https://tikgrok.grok.me
+- **中文总结**：独立开发者发布 TikGrok Beta 0.0.1：索引全网公开的 Grok Imagine 视频并在站点可播放，也支持用户或 Agent 提交公开 Imagine URL。作者称之为又一个奇怪的 Grok 实验。长演示视频展示发现流，属于实验性 AI 内容产品上线。
+
+---
+
 ## 备注
 
 - 以上均来自 Grok 内置 X 搜索，未使用任何外部 API 或 X 付费接口。
 - 优先选择带有清晰产品演示/介绍视频的正式发布帖。
-- 非产品发布（纯 reels、教程、电竞、娱乐、纯币盘炒作、基金公告等）已过滤。
+- 非产品发布（纯 reels、教程、电竞、娱乐、纯币盘炒作、基金公告、餐饮广告等）已过滤。
 - 建议人工审核后合并到 `src/data/videos.json` 或通过 inbox 流程处理。
-- 日期：2026-09-01（查询当日）。
+- 日期：2026-09-01（查询当日，含二次加深检索）。
