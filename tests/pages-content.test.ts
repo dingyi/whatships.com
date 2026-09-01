@@ -77,7 +77,7 @@ describe("trust and developer pages", () => {
     );
     expect(footer).toContain("/privacy/");
     expect(footer).toContain("/terms/");
-    expect(footer).toContain("Ask about whatships.com on");
+    expect(footer).toContain("Ask about whatships on");
     expect(footer).toContain("Ask an AI about whatships.com");
     expect(layout).toContain('hreflang="x-default"');
     expect(layout).toContain('og:site_name');

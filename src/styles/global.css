@@ -1353,23 +1353,17 @@ img {
   width: 16px;
   height: 16px;
   object-fit: contain;
-  filter: grayscale(1);
-  opacity: 0.82;
+  /* Flatten every mark to the same muted ink, regardless of brand fill. */
+  filter: brightness(0) invert(32%);
 }
 .ask-ai-link:hover .ask-ai-icon,
 .ask-ai-link:focus-visible .ask-ai-icon {
   filter: none;
   opacity: 1;
 }
-html.dark .ask-ai-icon:not([data-mono="true"]),
-:root[data-theme="dark"] .ask-ai-icon:not([data-mono="true"]) {
-  filter: grayscale(1) brightness(1.75);
-  opacity: 0.9;
-}
-html.dark .ask-ai-icon[data-mono="true"],
-:root[data-theme="dark"] .ask-ai-icon[data-mono="true"] {
-  filter: invert(1) grayscale(1);
-  opacity: 0.82;
+html.dark .ask-ai-icon,
+:root[data-theme="dark"] .ask-ai-icon {
+  filter: brightness(0) invert(63%);
 }
 html.dark .ask-ai-link:hover .ask-ai-icon:not([data-mono="true"]),
 html.dark .ask-ai-link:focus-visible .ask-ai-icon:not([data-mono="true"]),
@@ -1386,12 +1380,8 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not(.light):not(.dark) .ask-ai-icon:not([data-mono="true"]) {
-    filter: grayscale(1) brightness(1.75);
-    opacity: 0.9;
-  }
-  :root:not(.light):not(.dark) .ask-ai-icon[data-mono="true"] {
-    filter: invert(1) grayscale(1);
+  :root:not(.light):not(.dark) .ask-ai-icon {
+    filter: brightness(0) invert(63%);
   }
   :root:not(.light):not(.dark) .ask-ai-link:hover .ask-ai-icon:not([data-mono="true"]),
   :root:not(.light):not(.dark) .ask-ai-link:focus-visible .ask-ai-icon:not([data-mono="true"]) {
