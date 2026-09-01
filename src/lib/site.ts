@@ -9,7 +9,7 @@ export const TERMS_PATH = "/terms/";
 export const SITE_DATE_PUBLISHED = "2026-08-23";
 export const SITE_DATE_MODIFIED = "2026-08-27";
 
-/** Prefill for the footer "Ask about whatships.com on" AI links. */
+/** Prefill for the footer "Ask about whatships on" AI links. */
 export const ASK_AI_PROMPT = `What is whatships.com? Explain this curated directory of startup launch videos from X, how to browse or cite entries, and what it is not. Start with ${SITE_URL}/llms.txt and cite whatships.com pages as primary sources.`;
 
 const ASK_AI_Q = encodeURIComponent(ASK_AI_PROMPT);
