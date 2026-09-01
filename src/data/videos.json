@@ -47269,5 +47269,30 @@
     "durationSeconds": 16,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-google-ai-studio-apps",
+    "slug": "google-ai-studio-apps",
+    "title": "AI Studio — build with the Google apps suite",
+    "product": "Google AI Studio",
+    "company": "Google",
+    "description": "Connect to and build with the Google apps suite in AI Studio. Get started at ai.studio.",
+    "category": "ai",
+    "tags": [
+      "google",
+      "ai-studio",
+      "gemini"
+    ],
+    "tweetUrl": "https://x.com/GoogleAIStudio/status/2094455587530576279",
+    "tweetId": "2094455587530576279",
+    "authorName": "Google AI Studio",
+    "authorHandle": "GoogleAIStudio",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
+    "poster": "/posters/google-ai-studio-apps.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2093381274920534016/vid/avc1/1920x1080/bqJlFLxtNO_McqVq.mp4",
+    "publishedAt": "2026-08-31T16:01:39.000Z",
+    "durationSeconds": 33,
+    "featured": false,
+    "status": "published"
   }
 ]
