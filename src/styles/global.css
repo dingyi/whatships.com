@@ -1329,6 +1329,44 @@ img {
   gap: 6px;
   list-style: none;
 }
+.ask-ai-phosphor {
+  margin-top: 8px;
+}
+.ask-ai-phosphor .footer-ask-list {
+  margin: 0;
+  flex-wrap: nowrap;
+}
+.ask-ai-phosphor-stage {
+  position: relative;
+  display: inline-flex;
+}
+.ask-ai-phosphor-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: transparent;
+  opacity: 0;
+  image-rendering: pixelated;
+}
+.ask-ai-phosphor[data-phosphor="on"] .ask-ai-phosphor-canvas {
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+.ask-ai-phosphor[data-phosphor="on"] .ask-ai-icon,
+.ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:hover .ask-ai-icon,
+.ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:focus-visible .ask-ai-icon,
+html.dark .ask-ai-phosphor[data-phosphor="on"] .ask-ai-icon,
+html.dark .ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:hover .ask-ai-icon,
+html.dark .ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:focus-visible .ask-ai-icon,
+:root[data-theme="dark"] .ask-ai-phosphor[data-phosphor="on"] .ask-ai-icon,
+:root[data-theme="dark"] .ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:hover .ask-ai-icon,
+:root[data-theme="dark"] .ask-ai-phosphor[data-phosphor="on"] .ask-ai-link:focus-visible .ask-ai-icon {
+  filter: none;
+  opacity: 0;
+}
 .ask-ai-link {
   display: inline-flex;
   width: 32px;
@@ -1361,6 +1399,7 @@ img {
   filter: none;
   opacity: 1;
 }
+
 html.dark .ask-ai-icon,
 :root[data-theme="dark"] .ask-ai-icon {
   filter: brightness(0) invert(63%);

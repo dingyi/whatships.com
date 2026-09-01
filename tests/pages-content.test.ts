@@ -57,6 +57,7 @@ describe("trust and developer pages", () => {
     const index = readFileSync("src/pages/index.astro", "utf8");
     const homeApp = readFileSync("src/components/HomeApp.tsx", "utf8");
     const footer = readFileSync("src/components/SiteFooter.astro", "utf8");
+    const askAi = readFileSync("src/components/AskAiPhosphor.tsx", "utf8");
     const layout = readFileSync("src/layouts/BaseLayout.astro", "utf8");
     expect(index.match(/<h1[\s>]/g)?.length).toBe(1);
     expect(homeApp).not.toContain("<h1");
@@ -78,7 +79,7 @@ describe("trust and developer pages", () => {
     expect(footer).toContain("/privacy/");
     expect(footer).toContain("/terms/");
     expect(footer).toContain("Ask about whatships on");
-    expect(footer).toContain("Ask an AI about whatships.com");
+    expect(askAi).toContain("Ask an AI about whatships.com");
     expect(layout).toContain('hreflang="x-default"');
     expect(layout).toContain('og:site_name');
   });
