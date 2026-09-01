@@ -443,5 +443,15 @@
     "url": "https://prequel.sh/",
     "category": "editor",
     "poster": "/posters/tools/prequel.webp"
+  },
+  {
+    "id": "tool-screenkite",
+    "slug": "screenkite",
+    "name": "ScreenKite",
+    "tagline": "Record your screen. Let AI edit it.",
+    "description": "A native macOS screen recorder and AI-agent video editor. Transcription cuts, auto-zoom, Hyperframe B-roll, and Metal-accelerated export.",
+    "url": "https://screenkite.com/r/dingyi",
+    "category": "editor",
+    "poster": "/posters/tools/screenkite.webp"
   }
 ]
