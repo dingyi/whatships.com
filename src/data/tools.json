@@ -543,5 +543,15 @@
     "url": "https://cleanshot.com/",
     "category": "editor",
     "poster": "/posters/tools/cleanshot.webp"
+  },
+  {
+    "id": "tool-invideo",
+    "slug": "invideo",
+    "name": "Invideo",
+    "tagline": "The AI video platform for serious creatives",
+    "description": "Create and edit AI videos with Agent Two. Agents remember project context, restyle multiple shots, write prompts for you, and edit on a timeline with storyboarding and custom roles.",
+    "url": "https://invideo.io/",
+    "category": "ai",
+    "poster": "/posters/tools/invideo.webp"
   }
 ]
