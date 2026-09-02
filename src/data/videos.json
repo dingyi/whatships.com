@@ -47768,5 +47768,30 @@
     "durationSeconds": 27,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-dyson-camerajet",
+    "slug": "dyson-camerajet",
+    "title": "Dyson CameraJet — AI toothbrush that flosses for you",
+    "product": "Dyson CameraJet",
+    "company": "Dyson",
+    "description": "Dyson trained an AI on 470,000 dental images and put it inside a toothbrush with a camera that flosses in real time. CameraJet launched at $499.",
+    "category": "hardware",
+    "tags": [
+      "dyson",
+      "camerajet",
+      "hardware"
+    ],
+    "tweetUrl": "https://x.com/VaibhavSisinty/status/2094810120366776463",
+    "tweetId": "2094810120366776463",
+    "authorName": "Vaibhav Sisinty",
+    "authorHandle": "VaibhavSisinty",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1466482275361562626/jP_Sgq2A.jpg",
+    "poster": "/posters/dyson-camerajet.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094810049634058241/vid/avc1/1280x720/VoiTgs1iX7A8tLPy.mp4?tag=14",
+    "publishedAt": "2026-09-01T15:30:27.000Z",
+    "durationSeconds": 65,
+    "featured": false,
+    "status": "published"
   }
 ]
