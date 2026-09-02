@@ -533,5 +533,15 @@
     "url": "https://www.opus.pro/",
     "category": "editor",
     "poster": "/posters/tools/opusclip.webp"
+  },
+  {
+    "id": "tool-cleanshot",
+    "slug": "cleanshot",
+    "name": "CleanShot",
+    "tagline": "There are average capture apps. And there's CleanShot.",
+    "description": "The Mac-native toolkit for screenshots, recordings, and collaboration. Annotate, capture scrolling pages, record with smart zooms, and polish videos in Studio Mode.",
+    "url": "https://cleanshot.com/",
+    "category": "editor",
+    "poster": "/posters/tools/cleanshot.webp"
   }
 ]

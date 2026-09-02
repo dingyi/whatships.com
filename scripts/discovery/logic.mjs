@@ -146,6 +146,16 @@ export function buildDiscoverySlug(company, tweetId) {
     : `launch-${tweetId.slice(-8)}`;
 }
 
+export function truncateAtCodePoints(text, max) {
+  // Never split a surrogate pair (rolldown/serde_json rejects lone
+  // surrogate escapes in JSON modules with "unexpected end of hex escape").
+  let end = max;
+  while (end > 0 && /[\uD800-\uDBFF]/.test(text[end - 1])) {
+    end -= 1;
+  }
+  return text.slice(0, end);
+}
+
 export function guessTitle(text, company) {
   const cleaned = text
     .replace(/https?:\/\/\S+/g, "")
@@ -154,7 +164,7 @@ export function guessTitle(text, company) {
   if (!cleaned) return `${company} — product launch video`;
   const firstLine = cleaned.split("\n")[0]?.trim() ?? cleaned;
   if (firstLine.length <= 100) return firstLine;
-  return `${firstLine.slice(0, 97).trim()}…`;
+  return `${truncateAtCodePoints(firstLine, 97).trimEnd()}…`;
 }
 
 export function guessDescription(text, company) {
@@ -166,7 +176,7 @@ export function guessDescription(text, company) {
     return `A product launch or demo video from ${company}, discovered from X.`;
   }
   if (cleaned.length <= 280) return cleaned;
-  return `${cleaned.slice(0, 277).trim()}…`;
+  return `${truncateAtCodePoints(cleaned, 277).trimEnd()}…`;
 }
 
 export function buildCandidateDraft(post, watchlist) {
