@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-02T03:17:47.090Z",
+  "updatedAt": "2026-09-02T04:43:58.542Z",
   "items": [
     {
       "id": "disc-2094911959452033225",
       "tweetId": "2094911959452033225",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:47.090Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:30:11.559Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -64,9 +64,9 @@
     {
       "id": "disc-2094761230284046668",
       "tweetId": "2094761230284046668",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:46.721Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:24.806Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -122,71 +122,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094869019602116632",
-      "tweetId": "2094869019602116632",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:46.342Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2094869019602116632",
-        "tweetUrl": "https://x.com/bmx_ai13/status/2094869019602116632",
-        "authorHandle": "bmx_ai13",
-        "authorName": "BMX",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2069744756079415296/JFd5OtXj.jpg",
-        "text": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to.\n\nI gave two minutes of raw footage, my script, and two editing references. It selected the best moments, removed unnecessary pauses, and turned everything into a polished 60 second https://t.co/CkXjWwlHMa",
-        "createdAt": "2026-09-01T19:24:29.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094868828211859456/vid/avc1/3840x2160/F6Stdey2tjLSvKQ9.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094868828211859456/img/eA2h1aHgmSlVzp3Y.jpg",
-            "durationMs": 126038
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "bmx_ai13",
-        "company": "BMX",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094869019602116632",
-        "slug": "bmx-116632",
-        "title": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to…",
-        "product": "BMX",
-        "company": "BMX",
-        "description": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to. I gave two minutes of raw footage, my script, and two editing references. It selected the best moments, removed unnecessary pauses, and turned everything into a polished 60 second",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/bmx_ai13/status/2094869019602116632",
-        "tweetId": "2094869019602116632",
-        "authorName": "BMX",
-        "authorHandle": "bmx_ai13",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2069744756079415296/JFd5OtXj.jpg",
-        "poster": "/posters/bmx-116632.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094868828211859456/vid/avc1/3840x2160/F6Stdey2tjLSvKQ9.mp4",
-        "publishedAt": "2026-09-01T19:24:29.000Z",
-        "durationSeconds": 126,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094840794146357749",
       "tweetId": "2094840794146357749",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:45.966Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:30:06.878Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -242,191 +182,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094817592754291173",
-      "tweetId": "2094817592754291173",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:45.560Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094817592754291173",
-        "tweetUrl": "https://x.com/viskoai/status/2094817592754291173",
-        "authorHandle": "viskoai",
-        "authorName": "Visko Platform",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086936692196528128/_qPwZzYi.jpg",
-        "text": "Today, we are introducing Orbis 1.0, our first Live Model!\n\nCreate living worlds and stream them in real time, with persistent memory, interactivity, and physics-grounded generation of unbounded length.\n\nTry it now at https://t.co/itjhegRrbC\n\nAPI available via @reactorworld https://t.co/WFmRIoZx67",
-        "createdAt": "2026-09-01T16:00:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094814849562038273/vid/avc1/3840x2160/uvqnahDYuOTIiqrh.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094814849562038273/img/VAAaXsmEK6HmIler.jpg",
-            "durationMs": 77280
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "viskoai",
-        "company": "Visko Platform",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094817592754291173",
-        "slug": "visko-platform-291173",
-        "title": "Today, we are introducing Orbis 1.0, our first Live Model! Create living worlds and stream them i…",
-        "product": "Visko Platform",
-        "company": "Visko Platform",
-        "description": "Today, we are introducing Orbis 1.0, our first Live Model! Create living worlds and stream them in real time, with persistent memory, interactivity, and physics-grounded generation of unbounded length. Try it now at API available via @reactorworld",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/viskoai/status/2094817592754291173",
-        "tweetId": "2094817592754291173",
-        "authorName": "Visko Platform",
-        "authorHandle": "viskoai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086936692196528128/_qPwZzYi.jpg",
-        "poster": "/posters/visko-platform-291173.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094814849562038273/vid/avc1/3840x2160/uvqnahDYuOTIiqrh.mp4",
-        "publishedAt": "2026-09-01T16:00:08.000Z",
-        "durationSeconds": 77,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094837842468094360",
-      "tweetId": "2094837842468094360",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:44.414Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094837842468094360",
-        "tweetUrl": "https://x.com/openart_ai/status/2094837842468094360",
-        "authorHandle": "openart_ai",
-        "authorName": "OpenArt",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1917348318826389504/5vx77e9X.jpg",
-        "text": "Introducing Chat Mode in OpenArt ⌨️\n\nJust tell OpenArt what you want to create.\n\n→ Ask for 10 images and 8 videos in a single message\n→ Paste a URL and turn it into creative\n→ Make changes simply by asking\n→ Let Chat Mode choose the right model and settings, or choose them https://t.co/EQnMm4pi1M",
-        "createdAt": "2026-09-01T17:20:36.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094837435662237696/vid/avc1/1920x1080/J86QSal_ULx6_Fnd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094837435662237696/img/RHqyPjnQ29zPnw8O.jpg",
-            "durationMs": 49916
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "openart_ai",
-        "company": "OpenArt",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094837842468094360",
-        "slug": "openart-094360",
-        "title": "Introducing Chat Mode in OpenArt ⌨️ Just tell OpenArt what you want to create. → Ask for 10 image…",
-        "product": "OpenArt",
-        "company": "OpenArt",
-        "description": "Introducing Chat Mode in OpenArt ⌨️ Just tell OpenArt what you want to create. → Ask for 10 images and 8 videos in a single message → Paste a URL and turn it into creative → Make changes simply by asking → Let Chat Mode choose the right model and settings, or choose them",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/openart_ai/status/2094837842468094360",
-        "tweetId": "2094837842468094360",
-        "authorName": "OpenArt",
-        "authorHandle": "openart_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1917348318826389504/5vx77e9X.jpg",
-        "poster": "/posters/openart-094360.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094837435662237696/vid/avc1/1920x1080/J86QSal_ULx6_Fnd.mp4",
-        "publishedAt": "2026-09-01T17:20:36.000Z",
-        "durationSeconds": 50,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094841307935957304",
-      "tweetId": "2094841307935957304",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:44.020Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094841307935957304",
-        "tweetUrl": "https://x.com/GoogleAIStudio/status/2094841307935957304",
-        "authorHandle": "GoogleAIStudio",
-        "authorName": "Google AI Studio",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
-        "text": "introducing agentic video understanding with Gemini\n\ninstead of using static processing (ingesting media at a fixed frame rate), the model can now take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or https://t.co/tV5yvuMClr",
-        "createdAt": "2026-09-01T17:34:22.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094814439945981952/vid/avc1/1920x1080/a_-XGxI2a7SUWLId.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094814439945981952/img/jUvDGGXklWiTysrs.jpg",
-            "durationMs": 58666
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "GoogleAIStudio",
-        "company": "Google AI Studio",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094841307935957304",
-        "slug": "google-ai-studio-957304",
-        "title": "introducing agentic video understanding with Gemini instead of using static processing (ingesting…",
-        "product": "Google AI Studio",
-        "company": "Google AI Studio",
-        "description": "introducing agentic video understanding with Gemini instead of using static processing (ingesting media at a fixed frame rate), the model can now take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/GoogleAIStudio/status/2094841307935957304",
-        "tweetId": "2094841307935957304",
-        "authorName": "Google AI Studio",
-        "authorHandle": "GoogleAIStudio",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
-        "poster": "/posters/google-ai-studio-957304.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094814439945981952/vid/avc1/1920x1080/a_-XGxI2a7SUWLId.mp4",
-        "publishedAt": "2026-09-01T17:34:22.000Z",
-        "durationSeconds": 59,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094848232740274453",
       "tweetId": "2094848232740274453",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:43.644Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:29:43.753Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -486,76 +246,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094844421086884081",
-      "tweetId": "2094844421086884081",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:43.263Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2094844421086884081",
-        "tweetUrl": "https://x.com/runwayml/status/2094844421086884081",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "ACES is now available in Runway Ruby.\n\nExport scene-referred, half-float EXR sequences in ACEScg 1.3 and 2.0, ready to drop straight into your pipeline. Try it now at the link below. https://t.co/iy8rcsYAWg",
-        "createdAt": "2026-09-01T17:46:44.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094843910589677568/img/CvC7tStNrqvic-lT.jpg",
-            "durationMs": 25033
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094844421086884081",
-        "slug": "runway-884081",
-        "title": "ACES is now available in Runway Ruby. Export scene-referred, half-float EXR sequences in ACEScg 1…",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "ACES is now available in Runway Ruby. Export scene-referred, half-float EXR sequences in ACEScg 1.3 and 2.0, ready to drop straight into your pipeline. Try it now at the link below.",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2094844421086884081",
-        "tweetId": "2094844421086884081",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-884081.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4",
-        "publishedAt": "2026-09-01T17:46:44.000Z",
-        "durationSeconds": 25,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094891879959539773",
       "tweetId": "2094891879959539773",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:42.884Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:42.193Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -618,9 +313,9 @@
     {
       "id": "disc-2094936182945886329",
       "tweetId": "2094936182945886329",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:42.500Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:36:17.297Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -682,9 +377,9 @@
     {
       "id": "disc-2094853672291246159",
       "tweetId": "2094853672291246159",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:41.424Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:49.004Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -743,9 +438,9 @@
     {
       "id": "disc-2094824081187021067",
       "tweetId": "2094824081187021067",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:41.151Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:36.245Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -803,9 +498,9 @@
     {
       "id": "disc-2094895351249387583",
       "tweetId": "2094895351249387583",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:40.875Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:56.574Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -861,71 +556,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094905258006704236",
-      "tweetId": "2094905258006704236",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:40.599Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094905258006704236",
-        "tweetUrl": "https://x.com/fomo/status/2094905258006704236",
-        "authorHandle": "fomo",
-        "authorName": "fomo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
-        "text": "Introducing clan invites on fomo.\n\nBet on yourself, choose a clan, trade together.\n\nJoin more than 150 clans today. https://t.co/VNDb7bt1UP",
-        "createdAt": "2026-09-01T21:48:29.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094901493841248256/vid/avc1/3840x2160/0vabsBrdQ0AoNTQg.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094901493841248256/img/ogJ1u6Akln5g4EZR.jpg",
-            "durationMs": 18333
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fomo",
-        "company": "fomo",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094905258006704236",
-        "slug": "fomo-704236",
-        "title": "Introducing clan invites on fomo. Bet on yourself, choose a clan, trade together. Join more than…",
-        "product": "fomo",
-        "company": "fomo",
-        "description": "Introducing clan invites on fomo. Bet on yourself, choose a clan, trade together. Join more than 150 clans today.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fomo/status/2094905258006704236",
-        "tweetId": "2094905258006704236",
-        "authorName": "fomo",
-        "authorHandle": "fomo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
-        "poster": "/posters/fomo-704236.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094901493841248256/vid/avc1/3840x2160/0vabsBrdQ0AoNTQg.mp4",
-        "publishedAt": "2026-09-01T21:48:29.000Z",
-        "durationSeconds": 18,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094868400002552256",
       "tweetId": "2094868400002552256",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:40.327Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:36:04.457Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -988,9 +623,9 @@
     {
       "id": "disc-2094849375763886555",
       "tweetId": "2094849375763886555",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:40.065Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:35:58.915Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1053,9 +688,9 @@
     {
       "id": "disc-2094855377443606886",
       "tweetId": "2094855377443606886",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:39.799Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:34:49.783Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1115,135 +750,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094914713620492750",
-      "tweetId": "2094914713620492750",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:39.532Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2094914713620492750",
-        "tweetUrl": "https://x.com/Google/status/2094914713620492750",
-        "authorHandle": "Google",
-        "authorName": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "text": "With the latest @Android Drop, you’ll be able to:  \n\n• Keep track of items in Find Hub that don't require tracker tags — just ask Gemini.\n• Help reduce motion sickness in the passenger seat with Motion Assist, a subtle bubble overlay on your screen that moves with the vehicle. https://t.co/JhATecsSQ6",
-        "createdAt": "2026-09-01T22:26:04.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094914492710658048/vid/avc1/2784x1566/EVMFJ-fkNN8Upg4c.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094914492710658048/img/lPXv05GjmCZbnDWx.jpg",
-            "durationMs": 8066
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Google",
-        "company": "Google",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094914713620492750",
-        "slug": "google-492750",
-        "title": "With the latest @Android Drop, you’ll be able to: • Keep track of items in Find Hub that don't re…",
-        "product": "Google",
-        "company": "Google",
-        "description": "With the latest @Android Drop, you’ll be able to: • Keep track of items in Find Hub that don't require tracker tags — just ask Gemini. • Help reduce motion sickness in the passenger seat with Motion Assist, a subtle bubble overlay on your screen that moves with the vehicle.",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Google/status/2094914713620492750",
-        "tweetId": "2094914713620492750",
-        "authorName": "Google",
-        "authorHandle": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "poster": "/posters/google-492750.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094914492710658048/vid/avc1/2784x1566/EVMFJ-fkNN8Upg4c.mp4",
-        "publishedAt": "2026-09-01T22:26:04.000Z",
-        "durationSeconds": 8,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094857817249485197",
-      "tweetId": "2094857817249485197",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:39.254Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnew (?:feature|product|app|model|agent|version)\\b"
-      ],
-      "post": {
-        "tweetId": "2094857817249485197",
-        "tweetUrl": "https://x.com/Android/status/2094857817249485197",
-        "authorHandle": "Android",
-        "authorName": "Android",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2056417083861422080/r0ST1nl8.jpg",
-        "text": "PSA for anyone who needs to hear this...\n\nAndroid has exciting new feature updates in our latest Drop! 😀 https://t.co/NvJjJoVQtX",
-        "createdAt": "2026-09-01T18:39:58.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094857786274586624/vid/avc1/1920x1080/9QqzLCHFX8730RMd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094857786274586624/img/P5a9aW0eP4bThxMm.jpg",
-            "durationMs": 6200
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Android",
-        "company": "Android",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094857817249485197",
-        "slug": "android-485197",
-        "title": "PSA for anyone who needs to hear this... Android has exciting new feature updates in our latest D…",
-        "product": "Android",
-        "company": "Android",
-        "description": "PSA for anyone who needs to hear this... Android has exciting new feature updates in our latest Drop! 😀",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Android/status/2094857817249485197",
-        "tweetId": "2094857817249485197",
-        "authorName": "Android",
-        "authorHandle": "Android",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2056417083861422080/r0ST1nl8.jpg",
-        "poster": "/posters/android-485197.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094857786274586624/vid/avc1/1920x1080/9QqzLCHFX8730RMd.mp4",
-        "publishedAt": "2026-09-01T18:39:58.000Z",
-        "durationSeconds": 6,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094826392370221162",
       "tweetId": "2094826392370221162",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:38.982Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:28:33.445Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1301,9 +812,9 @@
     {
       "id": "disc-2094839238495801457",
       "tweetId": "2094839238495801457",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:38.688Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:36:28.146Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1358,72 +869,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2094844499696464249",
-      "tweetId": "2094844499696464249",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:38.320Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bavailable (?:today|now|on)\\b"
-      ],
-      "post": {
-        "tweetId": "2094844499696464249",
-        "tweetUrl": "https://x.com/spencerbarnett/status/2094844499696464249",
-        "authorHandle": "spencerbarnett",
-        "authorName": "Spencer Barnett",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081912517476171776/0VKPBEJY.jpg",
-        "text": "Introducing Muse Voice Transcribe! 🗣️\n\nThis is our first real-time audio perception model from @AIatMeta. It's trained on 70+ languages and delivers diarization with 20+ speakers.\n\nAvailable now in the Meta AI macOS app! https://t.co/28jMzyR88L",
-        "createdAt": "2026-09-01T17:47:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094843139123023872/vid/avc1/1670x1080/earGuj60lPjr7hRd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094843139123023872/img/i7_PrTgEGjzk4udY.jpg",
-            "durationMs": 54485
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "spencerbarnett",
-        "company": "Spencer Barnett",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094844499696464249",
-        "slug": "spencer-barnett-464249",
-        "title": "Introducing Muse Voice Transcribe! 🗣️ This is our first real-time audio perception model from @A…",
-        "product": "Spencer Barnett",
-        "company": "Spencer Barnett",
-        "description": "Introducing Muse Voice Transcribe! 🗣️ This is our first real-time audio perception model from @AIatMeta. It's trained on 70+ languages and delivers diarization with 20+ speakers. Available now in the Meta AI macOS app!",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/spencerbarnett/status/2094844499696464249",
-        "tweetId": "2094844499696464249",
-        "authorName": "Spencer Barnett",
-        "authorHandle": "spencerbarnett",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081912517476171776/0VKPBEJY.jpg",
-        "poster": "/posters/spencer-barnett-464249.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094843139123023872/vid/avc1/1670x1080/earGuj60lPjr7hRd.mp4",
-        "publishedAt": "2026-09-01T17:47:03.000Z",
-        "durationSeconds": 54,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2094850640253972706",
       "tweetId": "2094850640253972706",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-02T03:17:38.053Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-02T04:37:52.338Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1472,251 +922,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2094850579675684864/vid/avc1/3444x2160/MU50665I97-k1qZe.mp4",
         "publishedAt": "2026-09-01T18:11:27.000Z",
         "durationSeconds": 13,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094856679544533430",
-      "tweetId": "2094856679544533430",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:37.787Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094856679544533430",
-        "tweetUrl": "https://x.com/higgsfield/status/2094856679544533430",
-        "authorHandle": "higgsfield",
-        "authorName": "Higgsfield AI 🧩",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "text": "Introducing Higgsfield Genjutsu.\n\nOur strongest AI video transformation tool yet.\n\nUpload your video, add your character, and transfer the exact motion in a few clicks: acting, lip sync, camera movement, and VFX, with every detail held consistent.\n\nTry it for free on Higgsfield. https://t.co/NmoXtlwlX0",
-        "createdAt": "2026-09-01T18:35:27.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094850792952102912/vid/avc1/1920x1080/waVUeOOW9YyGTdme.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094850792952102912/img/tI8OHk0dg73GBK53.jpg",
-            "durationMs": 59000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "higgsfield",
-        "company": "Higgsfield AI 🧩",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094856679544533430",
-        "slug": "higgsfield-ai-533430",
-        "title": "Introducing Higgsfield Genjutsu. Our strongest AI video transformation tool yet. Upload your vide…",
-        "product": "Higgsfield AI 🧩",
-        "company": "Higgsfield AI 🧩",
-        "description": "Introducing Higgsfield Genjutsu. Our strongest AI video transformation tool yet. Upload your video, add your character, and transfer the exact motion in a few clicks: acting, lip sync, camera movement, and VFX, with every detail held consistent. Try it for free on Higgsfield.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/higgsfield/status/2094856679544533430",
-        "tweetId": "2094856679544533430",
-        "authorName": "Higgsfield AI 🧩",
-        "authorHandle": "higgsfield",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/higgsfield-ai-533430.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094850792952102912/vid/avc1/1920x1080/waVUeOOW9YyGTdme.mp4",
-        "publishedAt": "2026-09-01T18:35:27.000Z",
-        "durationSeconds": 59,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094840325789430066",
-      "tweetId": "2094840325789430066",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:37.521Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094840325789430066",
-        "tweetUrl": "https://x.com/Google/status/2094840325789430066",
-        "authorHandle": "Google",
-        "authorName": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "text": "We’re introducing a new capability to our latest Gemini models: agentic video understanding.\n\nThis allows developers to process long-form video content with more accuracy, while using up to 88% less tokens.\n\nSee how it works 🧵 https://t.co/HFmQYplZQq",
-        "createdAt": "2026-09-01T17:30:28.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094829723788419072/img/S-m4SqSuw4Fnshnb.jpg",
-            "durationMs": 58666
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Google",
-        "company": "Google",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2094840325789430066",
-        "slug": "google-430066",
-        "title": "We’re introducing a new capability to our latest Gemini models: agentic video understanding. This…",
-        "product": "Google",
-        "company": "Google",
-        "description": "We’re introducing a new capability to our latest Gemini models: agentic video understanding. This allows developers to process long-form video content with more accuracy, while using up to 88% less tokens. See how it works 🧵",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Google/status/2094840325789430066",
-        "tweetId": "2094840325789430066",
-        "authorName": "Google",
-        "authorHandle": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "poster": "/posters/google-430066.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4",
-        "publishedAt": "2026-09-01T17:30:28.000Z",
-        "durationSeconds": 59,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094839756329041984",
-      "tweetId": "2094839756329041984",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:37.244Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094839756329041984",
-        "tweetUrl": "https://x.com/theworldlabs/status/2094839756329041984",
-        "authorHandle": "theworldlabs",
-        "authorName": "World Labs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2094611280627957760/DziH8AE1.jpg",
-        "text": "Introducing Atlas:\n\nThe world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D.\n\nModel the world, move the camera, and simulate space &amp; time. https://t.co/o0qeGubi19",
-        "createdAt": "2026-09-01T17:28:12.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094829307273396230/vid/avc1/1920x1080/rjM4FvNW-XNSPu5I.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094829307273396230/img/6R12oZNwKyLuREue.jpg",
-            "durationMs": 85833
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "theworldlabs",
-        "company": "World Labs",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094839756329041984",
-        "slug": "world-labs-041984",
-        "title": "Introducing Atlas: The world's first multimodal world model that generates image and video frames…",
-        "product": "World Labs",
-        "company": "World Labs",
-        "description": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space &amp; time.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/theworldlabs/status/2094839756329041984",
-        "tweetId": "2094839756329041984",
-        "authorName": "World Labs",
-        "authorHandle": "theworldlabs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2094611280627957760/DziH8AE1.jpg",
-        "poster": "/posters/world-labs-041984.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094829307273396230/vid/avc1/1920x1080/rjM4FvNW-XNSPu5I.mp4",
-        "publishedAt": "2026-09-01T17:28:12.000Z",
-        "durationSeconds": 86,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2094848572143407483",
-      "tweetId": "2094848572143407483",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-02T03:17:36.981Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2094848572143407483",
-        "tweetUrl": "https://x.com/claudeai/status/2094848572143407483",
-        "authorHandle": "claudeai",
-        "authorName": "Claude",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3",
-        "createdAt": "2026-09-01T18:03:14.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg",
-            "durationMs": 27375
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "claudeai",
-        "company": "Claude",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2094848572143407483",
-        "slug": "claude-407483",
-        "title": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced model…",
-        "product": "Claude",
-        "company": "Claude",
-        "description": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/claudeai/status/2094848572143407483",
-        "tweetId": "2094848572143407483",
-        "authorName": "Claude",
-        "authorHandle": "claudeai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "poster": "/posters/claude-407483.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4",
-        "publishedAt": "2026-09-01T18:03:14.000Z",
-        "durationSeconds": 27,
         "featured": false,
         "status": "draft"
       },
