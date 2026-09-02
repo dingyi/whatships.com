@@ -1,6 +1,1728 @@
 {
-  "updatedAt": "2026-09-01T06:33:13.311Z",
+  "updatedAt": "2026-09-02T03:17:47.090Z",
   "items": [
+    {
+      "id": "disc-2094911959452033225",
+      "tweetId": "2094911959452033225",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:47.090Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2094911959452033225",
+        "tweetUrl": "https://x.com/StockSavvyShay/status/2094911959452033225",
+        "authorHandle": "StockSavvyShay",
+        "authorName": "Shay Boloor",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1878129937737187328/DnEflT4L.jpg",
+        "text": "$CRWD and $NVDA just launched SafeMind to bring frontier AI to cyber defense with George Kurtz saying “the attackers had frontier AI and the defenders didn’t. That changes now.”\n\nSafeMind is CrowdStrike’s answer using autonomous red and blue agents to continuously attack, learn https://t.co/D5ngdAULPh",
+        "createdAt": "2026-09-01T22:15:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094911802048192512/vid/avc1/1290x708/m_lSKgRc_mA2bcxg.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094911802048192512/img/BcuWDIXfLgw0MkZe.jpg",
+            "durationMs": 64110
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "StockSavvyShay",
+        "company": "Shay Boloor",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094911959452033225",
+        "slug": "shay-boloor-033225",
+        "title": "$CRWD and $NVDA just launched SafeMind to bring frontier AI to cyber defense with George Kurtz sa…",
+        "product": "Shay Boloor",
+        "company": "Shay Boloor",
+        "description": "$CRWD and $NVDA just launched SafeMind to bring frontier AI to cyber defense with George Kurtz saying “the attackers had frontier AI and the defenders didn’t. That changes now.” SafeMind is CrowdStrike’s answer using autonomous red and blue agents to continuously attack, learn",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/StockSavvyShay/status/2094911959452033225",
+        "tweetId": "2094911959452033225",
+        "authorName": "Shay Boloor",
+        "authorHandle": "StockSavvyShay",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1878129937737187328/DnEflT4L.jpg",
+        "poster": "/posters/shay-boloor-033225.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094911802048192512/vid/avc1/1290x708/m_lSKgRc_mA2bcxg.mp4",
+        "publishedAt": "2026-09-01T22:15:07.000Z",
+        "durationSeconds": 64,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094761230284046668",
+      "tweetId": "2094761230284046668",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:46.721Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2094761230284046668",
+        "tweetUrl": "https://x.com/julesvcode/status/2094761230284046668",
+        "authorHandle": "julesvcode",
+        "authorName": "Julien V",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1807770717733175296/cZ_75xF3.jpg",
+        "text": "It works ✅ \n\nI built a live leaderboard for Framer templates - inspired by https://t.co/QbYy9SbwHA - entirely in @framer.  \n\nAnd it’s now LIVE on Frameplate.\n\nTry it here: https://t.co/vFHTebWxxw https://t.co/fUAzl7fNVK",
+        "createdAt": "2026-09-01T12:16:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094761147270303744/vid/avc1/1566x1080/okgq-EbI4-QBia1z.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094761147270303744/img/PjzGcgvbV4wupFDv.jpg",
+            "durationMs": 22866
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "julesvcode",
+        "company": "Julien V",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094761230284046668",
+        "slug": "julien-v-046668",
+        "title": "It works ✅ I built a live leaderboard for Framer templates - inspired by - entirely in @framer. A…",
+        "product": "Julien V",
+        "company": "Julien V",
+        "description": "It works ✅ I built a live leaderboard for Framer templates - inspired by - entirely in @framer. And it’s now LIVE on Frameplate. Try it here:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/julesvcode/status/2094761230284046668",
+        "tweetId": "2094761230284046668",
+        "authorName": "Julien V",
+        "authorHandle": "julesvcode",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1807770717733175296/cZ_75xF3.jpg",
+        "poster": "/posters/julien-v-046668.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094761147270303744/vid/avc1/1566x1080/okgq-EbI4-QBia1z.mp4",
+        "publishedAt": "2026-09-01T12:16:10.000Z",
+        "durationSeconds": 23,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094869019602116632",
+      "tweetId": "2094869019602116632",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:46.342Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2094869019602116632",
+        "tweetUrl": "https://x.com/bmx_ai13/status/2094869019602116632",
+        "authorHandle": "bmx_ai13",
+        "authorName": "BMX",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069744756079415296/JFd5OtXj.jpg",
+        "text": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to.\n\nI gave two minutes of raw footage, my script, and two editing references. It selected the best moments, removed unnecessary pauses, and turned everything into a polished 60 second https://t.co/CkXjWwlHMa",
+        "createdAt": "2026-09-01T19:24:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094868828211859456/vid/avc1/3840x2160/F6Stdey2tjLSvKQ9.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094868828211859456/img/eA2h1aHgmSlVzp3Y.jpg",
+            "durationMs": 126038
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "bmx_ai13",
+        "company": "BMX",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094869019602116632",
+        "slug": "bmx-116632",
+        "title": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to…",
+        "product": "BMX",
+        "company": "BMX",
+        "description": "invideo @invideoOfficial just launched invideo Editor a FREE agentic video editor you can talk to. I gave two minutes of raw footage, my script, and two editing references. It selected the best moments, removed unnecessary pauses, and turned everything into a polished 60 second",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/bmx_ai13/status/2094869019602116632",
+        "tweetId": "2094869019602116632",
+        "authorName": "BMX",
+        "authorHandle": "bmx_ai13",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069744756079415296/JFd5OtXj.jpg",
+        "poster": "/posters/bmx-116632.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094868828211859456/vid/avc1/3840x2160/F6Stdey2tjLSvKQ9.mp4",
+        "publishedAt": "2026-09-01T19:24:29.000Z",
+        "durationSeconds": 126,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094840794146357749",
+      "tweetId": "2094840794146357749",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:45.966Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2094840794146357749",
+        "tweetUrl": "https://x.com/RohanLikesAI/status/2094840794146357749",
+        "authorHandle": "RohanLikesAI",
+        "authorName": "Rohan Doshi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1246897990377365509/bTwQgRmI.jpg",
+        "text": "Today, we’re launching Agentic Video Understanding in Gemini across 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite.\n📉 ~88% fewer tokens\n 💰 ~66% lower cost\n 📈 ~7% higher accuracy\nThe result: a new Pareto frontier for video understanding across accuracy and cost.\n\nTraditional video https://t.co/M9fmPRolRM",
+        "createdAt": "2026-09-01T17:32:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094825124092379136/vid/avc1/1920x1080/hwf54FSMCD772Jh7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094825124092379136/img/KWVf9BDlVfIfV_rX.jpg",
+            "durationMs": 23791
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "RohanLikesAI",
+        "company": "Rohan Doshi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094840794146357749",
+        "slug": "rohan-doshi-357749",
+        "title": "Today, we’re launching Agentic Video Understanding in Gemini across 3.7 Flash, 3.6 Flash, and 3.5…",
+        "product": "Rohan Doshi",
+        "company": "Rohan Doshi",
+        "description": "Today, we’re launching Agentic Video Understanding in Gemini across 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. 📉 ~88% fewer tokens 💰 ~66% lower cost 📈 ~7% higher accuracy The result: a new Pareto frontier for video understanding across accuracy and cost. Traditional video",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/RohanLikesAI/status/2094840794146357749",
+        "tweetId": "2094840794146357749",
+        "authorName": "Rohan Doshi",
+        "authorHandle": "RohanLikesAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1246897990377365509/bTwQgRmI.jpg",
+        "poster": "/posters/rohan-doshi-357749.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094825124092379136/vid/avc1/1920x1080/hwf54FSMCD772Jh7.mp4",
+        "publishedAt": "2026-09-01T17:32:20.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094817592754291173",
+      "tweetId": "2094817592754291173",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:45.560Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094817592754291173",
+        "tweetUrl": "https://x.com/viskoai/status/2094817592754291173",
+        "authorHandle": "viskoai",
+        "authorName": "Visko Platform",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2086936692196528128/_qPwZzYi.jpg",
+        "text": "Today, we are introducing Orbis 1.0, our first Live Model!\n\nCreate living worlds and stream them in real time, with persistent memory, interactivity, and physics-grounded generation of unbounded length.\n\nTry it now at https://t.co/itjhegRrbC\n\nAPI available via @reactorworld https://t.co/WFmRIoZx67",
+        "createdAt": "2026-09-01T16:00:08.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094814849562038273/vid/avc1/3840x2160/uvqnahDYuOTIiqrh.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094814849562038273/img/VAAaXsmEK6HmIler.jpg",
+            "durationMs": 77280
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "viskoai",
+        "company": "Visko Platform",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094817592754291173",
+        "slug": "visko-platform-291173",
+        "title": "Today, we are introducing Orbis 1.0, our first Live Model! Create living worlds and stream them i…",
+        "product": "Visko Platform",
+        "company": "Visko Platform",
+        "description": "Today, we are introducing Orbis 1.0, our first Live Model! Create living worlds and stream them in real time, with persistent memory, interactivity, and physics-grounded generation of unbounded length. Try it now at API available via @reactorworld",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/viskoai/status/2094817592754291173",
+        "tweetId": "2094817592754291173",
+        "authorName": "Visko Platform",
+        "authorHandle": "viskoai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2086936692196528128/_qPwZzYi.jpg",
+        "poster": "/posters/visko-platform-291173.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094814849562038273/vid/avc1/3840x2160/uvqnahDYuOTIiqrh.mp4",
+        "publishedAt": "2026-09-01T16:00:08.000Z",
+        "durationSeconds": 77,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094837842468094360",
+      "tweetId": "2094837842468094360",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:44.414Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094837842468094360",
+        "tweetUrl": "https://x.com/openart_ai/status/2094837842468094360",
+        "authorHandle": "openart_ai",
+        "authorName": "OpenArt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1917348318826389504/5vx77e9X.jpg",
+        "text": "Introducing Chat Mode in OpenArt ⌨️\n\nJust tell OpenArt what you want to create.\n\n→ Ask for 10 images and 8 videos in a single message\n→ Paste a URL and turn it into creative\n→ Make changes simply by asking\n→ Let Chat Mode choose the right model and settings, or choose them https://t.co/EQnMm4pi1M",
+        "createdAt": "2026-09-01T17:20:36.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094837435662237696/vid/avc1/1920x1080/J86QSal_ULx6_Fnd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094837435662237696/img/RHqyPjnQ29zPnw8O.jpg",
+            "durationMs": 49916
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "openart_ai",
+        "company": "OpenArt",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094837842468094360",
+        "slug": "openart-094360",
+        "title": "Introducing Chat Mode in OpenArt ⌨️ Just tell OpenArt what you want to create. → Ask for 10 image…",
+        "product": "OpenArt",
+        "company": "OpenArt",
+        "description": "Introducing Chat Mode in OpenArt ⌨️ Just tell OpenArt what you want to create. → Ask for 10 images and 8 videos in a single message → Paste a URL and turn it into creative → Make changes simply by asking → Let Chat Mode choose the right model and settings, or choose them",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/openart_ai/status/2094837842468094360",
+        "tweetId": "2094837842468094360",
+        "authorName": "OpenArt",
+        "authorHandle": "openart_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1917348318826389504/5vx77e9X.jpg",
+        "poster": "/posters/openart-094360.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094837435662237696/vid/avc1/1920x1080/J86QSal_ULx6_Fnd.mp4",
+        "publishedAt": "2026-09-01T17:20:36.000Z",
+        "durationSeconds": 50,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094841307935957304",
+      "tweetId": "2094841307935957304",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:44.020Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094841307935957304",
+        "tweetUrl": "https://x.com/GoogleAIStudio/status/2094841307935957304",
+        "authorHandle": "GoogleAIStudio",
+        "authorName": "Google AI Studio",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
+        "text": "introducing agentic video understanding with Gemini\n\ninstead of using static processing (ingesting media at a fixed frame rate), the model can now take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or https://t.co/tV5yvuMClr",
+        "createdAt": "2026-09-01T17:34:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094814439945981952/vid/avc1/1920x1080/a_-XGxI2a7SUWLId.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094814439945981952/img/jUvDGGXklWiTysrs.jpg",
+            "durationMs": 58666
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "GoogleAIStudio",
+        "company": "Google AI Studio",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094841307935957304",
+        "slug": "google-ai-studio-957304",
+        "title": "introducing agentic video understanding with Gemini instead of using static processing (ingesting…",
+        "product": "Google AI Studio",
+        "company": "Google AI Studio",
+        "description": "introducing agentic video understanding with Gemini instead of using static processing (ingesting media at a fixed frame rate), the model can now take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/GoogleAIStudio/status/2094841307935957304",
+        "tweetId": "2094841307935957304",
+        "authorName": "Google AI Studio",
+        "authorHandle": "GoogleAIStudio",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
+        "poster": "/posters/google-ai-studio-957304.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094814439945981952/vid/avc1/1920x1080/a_-XGxI2a7SUWLId.mp4",
+        "publishedAt": "2026-09-01T17:34:22.000Z",
+        "durationSeconds": 59,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094848232740274453",
+      "tweetId": "2094848232740274453",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:43.644Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2094848232740274453",
+        "tweetUrl": "https://x.com/Replit/status/2094848232740274453",
+        "authorHandle": "Replit",
+        "authorName": "Replit ⠕",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092066596915466240/TwZ32AYK.jpg",
+        "text": "Up to 65% cost savings, automatically. That’s the beauty of Auto Mode.\n\nReplit Engineering Lead Rachael Fuller explains how Intelligent Model Routing creates efficiencies for admins, enterprises, and Replit creators without needing to change any settings. https://t.co/lZQ5FAlGsS",
+        "createdAt": "2026-09-01T18:01:53.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094848125059891201/vid/avc1/1920x1080/ifTH2wxAr6JiYLrF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094848125059891201/img/GlFKkTKsFILqi_SJ.jpg",
+            "durationMs": 65067
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "replit",
+        "company": "Replit",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094848232740274453",
+        "slug": "replit-274453",
+        "title": "Up to 65% cost savings, automatically. That’s the beauty of Auto Mode. Replit Engineering Lead Ra…",
+        "product": "Replit",
+        "company": "Replit",
+        "description": "Up to 65% cost savings, automatically. That’s the beauty of Auto Mode. Replit Engineering Lead Rachael Fuller explains how Intelligent Model Routing creates efficiencies for admins, enterprises, and Replit creators without needing to change any settings.",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Replit/status/2094848232740274453",
+        "tweetId": "2094848232740274453",
+        "authorName": "Replit ⠕",
+        "authorHandle": "Replit",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092066596915466240/TwZ32AYK.jpg",
+        "poster": "/posters/replit-274453.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094848125059891201/vid/avc1/1920x1080/ifTH2wxAr6JiYLrF.mp4",
+        "publishedAt": "2026-09-01T18:01:53.000Z",
+        "durationSeconds": 65,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094844421086884081",
+      "tweetId": "2094844421086884081",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:43.263Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2094844421086884081",
+        "tweetUrl": "https://x.com/runwayml/status/2094844421086884081",
+        "authorHandle": "runwayml",
+        "authorName": "Runway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "text": "ACES is now available in Runway Ruby.\n\nExport scene-referred, half-float EXR sequences in ACEScg 1.3 and 2.0, ready to drop straight into your pipeline. Try it now at the link below. https://t.co/iy8rcsYAWg",
+        "createdAt": "2026-09-01T17:46:44.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094843910589677568/img/CvC7tStNrqvic-lT.jpg",
+            "durationMs": 25033
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "runwayml",
+        "company": "Runway",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094844421086884081",
+        "slug": "runway-884081",
+        "title": "ACES is now available in Runway Ruby. Export scene-referred, half-float EXR sequences in ACEScg 1…",
+        "product": "Runway",
+        "company": "Runway",
+        "description": "ACES is now available in Runway Ruby. Export scene-referred, half-float EXR sequences in ACEScg 1.3 and 2.0, ready to drop straight into your pipeline. Try it now at the link below.",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/runwayml/status/2094844421086884081",
+        "tweetId": "2094844421086884081",
+        "authorName": "Runway",
+        "authorHandle": "runwayml",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "poster": "/posters/runway-884081.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4",
+        "publishedAt": "2026-09-01T17:46:44.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094891879959539773",
+      "tweetId": "2094891879959539773",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:42.884Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bavailable (?:today|now|on)\\b"
+      ],
+      "post": {
+        "tweetId": "2094891879959539773",
+        "tweetUrl": "https://x.com/github/status/2094891879959539773",
+        "authorHandle": "github",
+        "authorName": "GitHub",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "text": "Sometimes it's easier to show than tell. We're sure this update will help with that. 👀\n\nGitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body.\n\nAvailable now to all users on GitHub across https://t.co/WIUGz7fOaW",
+        "createdAt": "2026-09-01T20:55:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094891837223833600/vid/avc1/1280x720/ozozj3Cmk_8OObxp.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/media/HRKNC7UXoAAzXcc.jpg",
+            "durationMs": 10048
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "github",
+        "company": "GitHub",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094891879959539773",
+        "slug": "github-539773",
+        "title": "Sometimes it's easier to show than tell. We're sure this update will help with that. 👀 GitHub CL…",
+        "product": "GitHub",
+        "company": "GitHub",
+        "description": "Sometimes it's easier to show than tell. We're sure this update will help with that. 👀 GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body. Available now to all users on GitHub across",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/github/status/2094891879959539773",
+        "tweetId": "2094891879959539773",
+        "authorName": "GitHub",
+        "authorHandle": "github",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "poster": "/posters/github-539773.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094891837223833600/vid/avc1/1280x720/ozozj3Cmk_8OObxp.mp4?tag=14",
+        "publishedAt": "2026-09-01T20:55:20.000Z",
+        "durationSeconds": 10,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094936182945886329",
+      "tweetId": "2094936182945886329",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:42.500Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2094936182945886329",
+        "tweetUrl": "https://x.com/github/status/2094936182945886329",
+        "authorHandle": "github",
+        "authorName": "GitHub",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "text": "Claude Fable 5.1, the latest in @AnthropicAI's Mythos model class, is now generally available in GitHub Copilot.\n\nIn our testing it showed strong performance on\n➡️ long-running coding tasks\n➡️ deep codebase research\n➡️ complex agentic workflows\n\nTry it out in the GitHub Copilot https://t.co/S2hekc8HZR",
+        "createdAt": "2026-09-01T23:51:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094935346639458306/vid/avc1/1920x1080/i-p00LTk-LCZ5_d-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094935346639458306/img/oYYbZ-hxrg56c4dY.jpg",
+            "durationMs": 122763
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "github",
+        "company": "GitHub",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094936182945886329",
+        "slug": "github-886329",
+        "title": "Claude Fable 5.1, the latest in @AnthropicAI's Mythos model class, is now generally available in…",
+        "product": "GitHub",
+        "company": "GitHub",
+        "description": "Claude Fable 5.1, the latest in @AnthropicAI's Mythos model class, is now generally available in GitHub Copilot. In our testing it showed strong performance on ➡️ long-running coding tasks ➡️ deep codebase research ➡️ complex agentic workflows Try it out in the GitHub Copilot",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/github/status/2094936182945886329",
+        "tweetId": "2094936182945886329",
+        "authorName": "GitHub",
+        "authorHandle": "github",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "poster": "/posters/github-886329.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094935346639458306/vid/avc1/1920x1080/i-p00LTk-LCZ5_d-.mp4",
+        "publishedAt": "2026-09-01T23:51:22.000Z",
+        "durationSeconds": 123,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094853672291246159",
+      "tweetId": "2094853672291246159",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:41.424Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2094853672291246159",
+        "tweetUrl": "https://x.com/Astra1Byte/status/2094853672291246159",
+        "authorHandle": "Astra1Byte",
+        "authorName": "Astral",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082936529756839936/lRUp4KdW.jpg",
+        "text": "399 dollars gets you LiDAR, dual IMUs, and 15 motors for a robot the size of a house cat.\n\nMeet Microduck. Pollen Robotics and Hugging Face just shipped a fully open-source biped for less than most people’s phone bill.\n\nNot a toy demo. Real sensor stack, learned locomotion, and https://t.co/0NWHARzYhG",
+        "createdAt": "2026-09-01T18:23:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094853632848011265/vid/avc1/1080x1092/WPuP-kk93kEpuJCo.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094853632848011265/img/I0MlHZAIOU2jJxD7.jpg",
+            "durationMs": 25842
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Astra1Byte",
+        "company": "Astral",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094853672291246159",
+        "slug": "astral-246159",
+        "title": "399 dollars gets you LiDAR, dual IMUs, and 15 motors for a robot the size of a house cat. Meet Mi…",
+        "product": "Astral",
+        "company": "Astral",
+        "description": "399 dollars gets you LiDAR, dual IMUs, and 15 motors for a robot the size of a house cat. Meet Microduck. Pollen Robotics and Hugging Face just shipped a fully open-source biped for less than most people’s phone bill. Not a toy demo. Real sensor stack, learned locomotion, and",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Astra1Byte/status/2094853672291246159",
+        "tweetId": "2094853672291246159",
+        "authorName": "Astral",
+        "authorHandle": "Astra1Byte",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082936529756839936/lRUp4KdW.jpg",
+        "poster": "/posters/astral-246159.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094853632848011265/vid/avc1/1080x1092/WPuP-kk93kEpuJCo.mp4",
+        "publishedAt": "2026-09-01T18:23:30.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094824081187021067",
+      "tweetId": "2094824081187021067",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:41.151Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094824081187021067",
+        "tweetUrl": "https://x.com/CrowdStrike/status/2094824081187021067",
+        "authorHandle": "CrowdStrike",
+        "authorName": "CrowdStrike",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1451022302578049024/6L-zG5oq.jpg",
+        "text": "AI security starts at the endpoint. 🛡️\n\nIntroducing Falcon Guardian, our new AI Detection and Response (AIDR) solution delivering complete visibility and runtime enforcement from the endpoint, where AI agents execute and across the enterprise.\n\nDiscover agents. Surface risk. Stop https://t.co/j76QF2cYRB",
+        "createdAt": "2026-09-01T16:25:55.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094824040389095424/vid/avc1/720x720/aYCdzBfQyzXTHeM_.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/media/HRJPZl8WYAApJPD.jpg",
+            "durationMs": 14866
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "CrowdStrike",
+        "company": "CrowdStrike",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094824081187021067",
+        "slug": "crowdstrike-021067",
+        "title": "AI security starts at the endpoint. 🛡️ Introducing Falcon Guardian, our new AI Detection and Res…",
+        "product": "CrowdStrike",
+        "company": "CrowdStrike",
+        "description": "AI security starts at the endpoint. 🛡️ Introducing Falcon Guardian, our new AI Detection and Response (AIDR) solution delivering complete visibility and runtime enforcement from the endpoint, where AI agents execute and across the enterprise. Discover agents. Surface risk. Stop",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/CrowdStrike/status/2094824081187021067",
+        "tweetId": "2094824081187021067",
+        "authorName": "CrowdStrike",
+        "authorHandle": "CrowdStrike",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1451022302578049024/6L-zG5oq.jpg",
+        "poster": "/posters/crowdstrike-021067.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094824040389095424/vid/avc1/720x720/aYCdzBfQyzXTHeM_.mp4?tag=14",
+        "publishedAt": "2026-09-01T16:25:55.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094895351249387583",
+      "tweetId": "2094895351249387583",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:40.875Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2094895351249387583",
+        "tweetUrl": "https://x.com/dwilms/status/2094895351249387583",
+        "authorHandle": "dwilms",
+        "authorName": "Derek",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2086634032087941120/tql-CjCX.jpg",
+        "text": "Express checkouts, now live on Whop\n\n87 days till Black Friday https://t.co/96kGrmGZYZ",
+        "createdAt": "2026-09-01T21:09:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/ext_tw_video/2094895328117899264/pu/vid/avc1/958x720/gX2W6qqp1OeFAyyM.mp4?tag=12",
+            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2094895328117899264/pu/img/OUab7g-YiHXW5eWT.jpg",
+            "durationMs": 13824
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dwilms",
+        "company": "Derek",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094895351249387583",
+        "slug": "derek-387583",
+        "title": "Express checkouts, now live on Whop 87 days till Black Friday",
+        "product": "Derek",
+        "company": "Derek",
+        "description": "Express checkouts, now live on Whop 87 days till Black Friday",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dwilms/status/2094895351249387583",
+        "tweetId": "2094895351249387583",
+        "authorName": "Derek",
+        "authorHandle": "dwilms",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2086634032087941120/tql-CjCX.jpg",
+        "poster": "/posters/derek-387583.webp",
+        "videoUrl": "https://video.twimg.com/ext_tw_video/2094895328117899264/pu/vid/avc1/958x720/gX2W6qqp1OeFAyyM.mp4?tag=12",
+        "publishedAt": "2026-09-01T21:09:07.000Z",
+        "durationSeconds": 14,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094905258006704236",
+      "tweetId": "2094905258006704236",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:40.599Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094905258006704236",
+        "tweetUrl": "https://x.com/fomo/status/2094905258006704236",
+        "authorHandle": "fomo",
+        "authorName": "fomo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
+        "text": "Introducing clan invites on fomo.\n\nBet on yourself, choose a clan, trade together.\n\nJoin more than 150 clans today. https://t.co/VNDb7bt1UP",
+        "createdAt": "2026-09-01T21:48:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094901493841248256/vid/avc1/3840x2160/0vabsBrdQ0AoNTQg.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094901493841248256/img/ogJ1u6Akln5g4EZR.jpg",
+            "durationMs": 18333
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "fomo",
+        "company": "fomo",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094905258006704236",
+        "slug": "fomo-704236",
+        "title": "Introducing clan invites on fomo. Bet on yourself, choose a clan, trade together. Join more than…",
+        "product": "fomo",
+        "company": "fomo",
+        "description": "Introducing clan invites on fomo. Bet on yourself, choose a clan, trade together. Join more than 150 clans today.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/fomo/status/2094905258006704236",
+        "tweetId": "2094905258006704236",
+        "authorName": "fomo",
+        "authorHandle": "fomo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
+        "poster": "/posters/fomo-704236.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094901493841248256/vid/avc1/3840x2160/0vabsBrdQ0AoNTQg.mp4",
+        "publishedAt": "2026-09-01T21:48:29.000Z",
+        "durationSeconds": 18,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094868400002552256",
+      "tweetId": "2094868400002552256",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:40.327Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2094868400002552256",
+        "tweetUrl": "https://x.com/warpdotdev/status/2094868400002552256",
+        "authorHandle": "warpdotdev",
+        "authorName": "Warp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089744783694606336/p0K5KSLo.jpg",
+        "text": "Claude Fable 5.1 is now available in Warp and the Warp Agent CLI https://t.co/CxcO9CDcoC",
+        "createdAt": "2026-09-01T19:22:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094868218238103552/vid/avc1/1116x720/xyNpnbSYPkXlnA3Q.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094868218238103552/img/-Lp4OX_7GS9HQttA.jpg",
+            "durationMs": 11616
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "warpdotdev",
+        "company": "Warp",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094868400002552256",
+        "slug": "warp-552256",
+        "title": "Claude Fable 5.1 is now available in Warp and the Warp Agent CLI",
+        "product": "Warp",
+        "company": "Warp",
+        "description": "Claude Fable 5.1 is now available in Warp and the Warp Agent CLI",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/warpdotdev/status/2094868400002552256",
+        "tweetId": "2094868400002552256",
+        "authorName": "Warp",
+        "authorHandle": "warpdotdev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089744783694606336/p0K5KSLo.jpg",
+        "poster": "/posters/warp-552256.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094868218238103552/vid/avc1/1116x720/xyNpnbSYPkXlnA3Q.mp4",
+        "publishedAt": "2026-09-01T19:22:01.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094849375763886555",
+      "tweetId": "2094849375763886555",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:40.065Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2094849375763886555",
+        "tweetUrl": "https://x.com/NotionHQ/status/2094849375763886555",
+        "authorHandle": "NotionHQ",
+        "authorName": "Notion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "text": "Claude Fable 5.1 is now available for Custom Agents.\n\nIt's a step up from Fable 5 across the board, especially for complex knowledge work. Plans and summaries tend to be more concise, too. https://t.co/eljYLDmS0q",
+        "createdAt": "2026-09-01T18:06:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094848406187630592/vid/avc1/1264x1080/BwsxwGTK68pRp1M1.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094848406187630592/img/pTlugl8VZLnjXEvI.jpg",
+            "durationMs": 9109
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NotionHQ",
+        "company": "Notion",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094849375763886555",
+        "slug": "notion-886555",
+        "title": "Claude Fable 5.1 is now available for Custom Agents. It's a step up from Fable 5 across the board…",
+        "product": "Notion",
+        "company": "Notion",
+        "description": "Claude Fable 5.1 is now available for Custom Agents. It's a step up from Fable 5 across the board, especially for complex knowledge work. Plans and summaries tend to be more concise, too.",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NotionHQ/status/2094849375763886555",
+        "tweetId": "2094849375763886555",
+        "authorName": "Notion",
+        "authorHandle": "NotionHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "poster": "/posters/notion-886555.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094848406187630592/vid/avc1/1264x1080/BwsxwGTK68pRp1M1.mp4",
+        "publishedAt": "2026-09-01T18:06:26.000Z",
+        "durationSeconds": 9,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094855377443606886",
+      "tweetId": "2094855377443606886",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:39.799Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2094855377443606886",
+        "tweetUrl": "https://x.com/linear/status/2094855377443606886",
+        "authorHandle": "linear",
+        "authorName": "Linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "text": "Quality of life improvement: \n\nWhen no response is needed, Linear Agent will now react to your message instead of replying. https://t.co/Rji66JTP4g",
+        "createdAt": "2026-09-01T18:30:17.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094855164423196672/vid/avc1/3840x2160/1dRNCW3Au_8RWxtd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094855164423196672/img/SJjgNva3MkFYHbrH.jpg",
+            "durationMs": 12433
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "linear",
+        "company": "Linear",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094855377443606886",
+        "slug": "linear-606886",
+        "title": "Quality of life improvement: When no response is needed, Linear Agent will now react to your mess…",
+        "product": "Linear",
+        "company": "Linear",
+        "description": "Quality of life improvement: When no response is needed, Linear Agent will now react to your message instead of replying.",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/linear/status/2094855377443606886",
+        "tweetId": "2094855377443606886",
+        "authorName": "Linear",
+        "authorHandle": "linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "poster": "/posters/linear-606886.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094855164423196672/vid/avc1/3840x2160/1dRNCW3Au_8RWxtd.mp4",
+        "publishedAt": "2026-09-01T18:30:17.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094914713620492750",
+      "tweetId": "2094914713620492750",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:39.532Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2094914713620492750",
+        "tweetUrl": "https://x.com/Google/status/2094914713620492750",
+        "authorHandle": "Google",
+        "authorName": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "text": "With the latest @Android Drop, you’ll be able to:  \n\n• Keep track of items in Find Hub that don't require tracker tags — just ask Gemini.\n• Help reduce motion sickness in the passenger seat with Motion Assist, a subtle bubble overlay on your screen that moves with the vehicle. https://t.co/JhATecsSQ6",
+        "createdAt": "2026-09-01T22:26:04.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094914492710658048/vid/avc1/2784x1566/EVMFJ-fkNN8Upg4c.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094914492710658048/img/lPXv05GjmCZbnDWx.jpg",
+            "durationMs": 8066
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Google",
+        "company": "Google",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094914713620492750",
+        "slug": "google-492750",
+        "title": "With the latest @Android Drop, you’ll be able to: • Keep track of items in Find Hub that don't re…",
+        "product": "Google",
+        "company": "Google",
+        "description": "With the latest @Android Drop, you’ll be able to: • Keep track of items in Find Hub that don't require tracker tags — just ask Gemini. • Help reduce motion sickness in the passenger seat with Motion Assist, a subtle bubble overlay on your screen that moves with the vehicle.",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Google/status/2094914713620492750",
+        "tweetId": "2094914713620492750",
+        "authorName": "Google",
+        "authorHandle": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "poster": "/posters/google-492750.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094914492710658048/vid/avc1/2784x1566/EVMFJ-fkNN8Upg4c.mp4",
+        "publishedAt": "2026-09-01T22:26:04.000Z",
+        "durationSeconds": 8,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094857817249485197",
+      "tweetId": "2094857817249485197",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:39.254Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnew (?:feature|product|app|model|agent|version)\\b"
+      ],
+      "post": {
+        "tweetId": "2094857817249485197",
+        "tweetUrl": "https://x.com/Android/status/2094857817249485197",
+        "authorHandle": "Android",
+        "authorName": "Android",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2056417083861422080/r0ST1nl8.jpg",
+        "text": "PSA for anyone who needs to hear this...\n\nAndroid has exciting new feature updates in our latest Drop! 😀 https://t.co/NvJjJoVQtX",
+        "createdAt": "2026-09-01T18:39:58.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094857786274586624/vid/avc1/1920x1080/9QqzLCHFX8730RMd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094857786274586624/img/P5a9aW0eP4bThxMm.jpg",
+            "durationMs": 6200
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Android",
+        "company": "Android",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094857817249485197",
+        "slug": "android-485197",
+        "title": "PSA for anyone who needs to hear this... Android has exciting new feature updates in our latest D…",
+        "product": "Android",
+        "company": "Android",
+        "description": "PSA for anyone who needs to hear this... Android has exciting new feature updates in our latest Drop! 😀",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Android/status/2094857817249485197",
+        "tweetId": "2094857817249485197",
+        "authorName": "Android",
+        "authorHandle": "Android",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2056417083861422080/r0ST1nl8.jpg",
+        "poster": "/posters/android-485197.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094857786274586624/vid/avc1/1920x1080/9QqzLCHFX8730RMd.mp4",
+        "publishedAt": "2026-09-01T18:39:58.000Z",
+        "durationSeconds": 6,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094826392370221162",
+      "tweetId": "2094826392370221162",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:38.982Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094826392370221162",
+        "tweetUrl": "https://x.com/CrowdStrike/status/2094826392370221162",
+        "authorHandle": "CrowdStrike",
+        "authorName": "CrowdStrike",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1451022302578049024/6L-zG5oq.jpg",
+        "text": "Cyber defense is entering the superintelligence era. ⚡\n\nIntroducing the CrowdStrike Cyber Superintelligence Lab, the first frontier AI research organization built for cyberdefense and AI safety. The Lab delivers CrowdStrike SafeMind, a family of purpose-built security models and https://t.co/gvqlwYdYE2",
+        "createdAt": "2026-09-01T16:35:06.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094826363937067008/vid/avc1/720x720/retOyqS-PouxEpuo.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/media/HRJRgIVW4AEGJkf.jpg",
+            "durationMs": 27328
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "CrowdStrike",
+        "company": "CrowdStrike",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094826392370221162",
+        "slug": "crowdstrike-221162",
+        "title": "Cyber defense is entering the superintelligence era. ⚡ Introducing the CrowdStrike Cyber Superint…",
+        "product": "CrowdStrike",
+        "company": "CrowdStrike",
+        "description": "Cyber defense is entering the superintelligence era. ⚡ Introducing the CrowdStrike Cyber Superintelligence Lab, the first frontier AI research organization built for cyberdefense and AI safety. The Lab delivers CrowdStrike SafeMind, a family of purpose-built security models and",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/CrowdStrike/status/2094826392370221162",
+        "tweetId": "2094826392370221162",
+        "authorName": "CrowdStrike",
+        "authorHandle": "CrowdStrike",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1451022302578049024/6L-zG5oq.jpg",
+        "poster": "/posters/crowdstrike-221162.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094826363937067008/vid/avc1/720x720/retOyqS-PouxEpuo.mp4?tag=14",
+        "publishedAt": "2026-09-01T16:35:06.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094839238495801457",
+      "tweetId": "2094839238495801457",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:38.688Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2094839238495801457",
+        "tweetUrl": "https://x.com/AIatMeta/status/2094839238495801457",
+        "authorHandle": "AIatMeta",
+        "authorName": "AI at Meta",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1454145678075117568/2qXqM_Cu.png",
+        "text": "Muse Voice Transcribe is an autoregressive multimodal LLM from the Muse Spark family.\n\nAudio is processed in 80ms chunks (12.5 Hz), one token each, and at every chunk the model decides whether to keep listening or emit text.\n\nRL with combined word error rate and delay rewards https://t.co/SG6Y2UYVtW",
+        "createdAt": "2026-09-01T17:26:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094831580313272321/vid/avc1/3056x1244/H375fOjdoCb1_HFa.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094831580313272321/img/mNbK9sq77CXXmhAR.jpg",
+            "durationMs": 37096
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "AIatMeta",
+        "company": "AI at Meta",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094839238495801457",
+        "slug": "ai-at-meta-801457",
+        "title": "Muse Voice Transcribe is an autoregressive multimodal LLM from the Muse Spark family. Audio is pr…",
+        "product": "AI at Meta",
+        "company": "AI at Meta",
+        "description": "Muse Voice Transcribe is an autoregressive multimodal LLM from the Muse Spark family. Audio is processed in 80ms chunks (12.5 Hz), one token each, and at every chunk the model decides whether to keep listening or emit text. RL with combined word error rate and delay rewards",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/AIatMeta/status/2094839238495801457",
+        "tweetId": "2094839238495801457",
+        "authorName": "AI at Meta",
+        "authorHandle": "AIatMeta",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1454145678075117568/2qXqM_Cu.png",
+        "poster": "/posters/ai-at-meta-801457.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094831580313272321/vid/avc1/3056x1244/H375fOjdoCb1_HFa.mp4",
+        "publishedAt": "2026-09-01T17:26:09.000Z",
+        "durationSeconds": 37,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094844499696464249",
+      "tweetId": "2094844499696464249",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:38.320Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bavailable (?:today|now|on)\\b"
+      ],
+      "post": {
+        "tweetId": "2094844499696464249",
+        "tweetUrl": "https://x.com/spencerbarnett/status/2094844499696464249",
+        "authorHandle": "spencerbarnett",
+        "authorName": "Spencer Barnett",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081912517476171776/0VKPBEJY.jpg",
+        "text": "Introducing Muse Voice Transcribe! 🗣️\n\nThis is our first real-time audio perception model from @AIatMeta. It's trained on 70+ languages and delivers diarization with 20+ speakers.\n\nAvailable now in the Meta AI macOS app! https://t.co/28jMzyR88L",
+        "createdAt": "2026-09-01T17:47:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094843139123023872/vid/avc1/1670x1080/earGuj60lPjr7hRd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094843139123023872/img/i7_PrTgEGjzk4udY.jpg",
+            "durationMs": 54485
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "spencerbarnett",
+        "company": "Spencer Barnett",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094844499696464249",
+        "slug": "spencer-barnett-464249",
+        "title": "Introducing Muse Voice Transcribe! 🗣️ This is our first real-time audio perception model from @A…",
+        "product": "Spencer Barnett",
+        "company": "Spencer Barnett",
+        "description": "Introducing Muse Voice Transcribe! 🗣️ This is our first real-time audio perception model from @AIatMeta. It's trained on 70+ languages and delivers diarization with 20+ speakers. Available now in the Meta AI macOS app!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/spencerbarnett/status/2094844499696464249",
+        "tweetId": "2094844499696464249",
+        "authorName": "Spencer Barnett",
+        "authorHandle": "spencerbarnett",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2081912517476171776/0VKPBEJY.jpg",
+        "poster": "/posters/spencer-barnett-464249.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094843139123023872/vid/avc1/1670x1080/earGuj60lPjr7hRd.mp4",
+        "publishedAt": "2026-09-01T17:47:03.000Z",
+        "durationSeconds": 54,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094850640253972706",
+      "tweetId": "2094850640253972706",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:38.053Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094850640253972706",
+        "tweetUrl": "https://x.com/ctatedev/status/2094850640253972706",
+        "authorHandle": "ctatedev",
+        "authorName": "Chris Tate",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h.jpg",
+        "text": "Introducing WebMCP + agent-browser\n\nThe web is becoming agent-native\n\n𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 𝚠𝚎𝚋𝚖𝚌𝚙 &lt;𝚕𝚒𝚜𝚝|𝚒𝚗𝚟𝚘𝚔𝚎&gt;\n\n→ Discover &amp; call tools\n→ For missing tools, falls back to browser automation https://t.co/TdUUJnkXcL",
+        "createdAt": "2026-09-01T18:11:27.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094850579675684864/vid/avc1/3444x2160/MU50665I97-k1qZe.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094850579675684864/img/e6J-cGa1rFTGMAwz.jpg",
+            "durationMs": 13233
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ctatedev",
+        "company": "Chris Tate",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094850640253972706",
+        "slug": "chris-tate-972706",
+        "title": "Introducing WebMCP + agent-browser The web is becoming agent-native 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 𝚠\ud835…",
+        "product": "Chris Tate",
+        "company": "Chris Tate",
+        "description": "Introducing WebMCP + agent-browser The web is becoming agent-native 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 𝚠𝚎𝚋𝚖𝚌𝚙 &lt;𝚕𝚒𝚜𝚝|𝚒𝚗𝚟𝚘𝚔𝚎&gt; → Discover &amp; call tools → For missing tools, falls back to browser automation",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ctatedev/status/2094850640253972706",
+        "tweetId": "2094850640253972706",
+        "authorName": "Chris Tate",
+        "authorHandle": "ctatedev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h.jpg",
+        "poster": "/posters/chris-tate-972706.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094850579675684864/vid/avc1/3444x2160/MU50665I97-k1qZe.mp4",
+        "publishedAt": "2026-09-01T18:11:27.000Z",
+        "durationSeconds": 13,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094856679544533430",
+      "tweetId": "2094856679544533430",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:37.787Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094856679544533430",
+        "tweetUrl": "https://x.com/higgsfield/status/2094856679544533430",
+        "authorHandle": "higgsfield",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "text": "Introducing Higgsfield Genjutsu.\n\nOur strongest AI video transformation tool yet.\n\nUpload your video, add your character, and transfer the exact motion in a few clicks: acting, lip sync, camera movement, and VFX, with every detail held consistent.\n\nTry it for free on Higgsfield. https://t.co/NmoXtlwlX0",
+        "createdAt": "2026-09-01T18:35:27.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094850792952102912/vid/avc1/1920x1080/waVUeOOW9YyGTdme.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094850792952102912/img/tI8OHk0dg73GBK53.jpg",
+            "durationMs": 59000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094856679544533430",
+        "slug": "higgsfield-ai-533430",
+        "title": "Introducing Higgsfield Genjutsu. Our strongest AI video transformation tool yet. Upload your vide…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "Introducing Higgsfield Genjutsu. Our strongest AI video transformation tool yet. Upload your video, add your character, and transfer the exact motion in a few clicks: acting, lip sync, camera movement, and VFX, with every detail held consistent. Try it for free on Higgsfield.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield/status/2094856679544533430",
+        "tweetId": "2094856679544533430",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "poster": "/posters/higgsfield-ai-533430.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094850792952102912/vid/avc1/1920x1080/waVUeOOW9YyGTdme.mp4",
+        "publishedAt": "2026-09-01T18:35:27.000Z",
+        "durationSeconds": 59,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094840325789430066",
+      "tweetId": "2094840325789430066",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:37.521Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094840325789430066",
+        "tweetUrl": "https://x.com/Google/status/2094840325789430066",
+        "authorHandle": "Google",
+        "authorName": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "text": "We’re introducing a new capability to our latest Gemini models: agentic video understanding.\n\nThis allows developers to process long-form video content with more accuracy, while using up to 88% less tokens.\n\nSee how it works 🧵 https://t.co/HFmQYplZQq",
+        "createdAt": "2026-09-01T17:30:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094829723788419072/img/S-m4SqSuw4Fnshnb.jpg",
+            "durationMs": 58666
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Google",
+        "company": "Google",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2094840325789430066",
+        "slug": "google-430066",
+        "title": "We’re introducing a new capability to our latest Gemini models: agentic video understanding. This…",
+        "product": "Google",
+        "company": "Google",
+        "description": "We’re introducing a new capability to our latest Gemini models: agentic video understanding. This allows developers to process long-form video content with more accuracy, while using up to 88% less tokens. See how it works 🧵",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Google/status/2094840325789430066",
+        "tweetId": "2094840325789430066",
+        "authorName": "Google",
+        "authorHandle": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "poster": "/posters/google-430066.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4",
+        "publishedAt": "2026-09-01T17:30:28.000Z",
+        "durationSeconds": 59,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094839756329041984",
+      "tweetId": "2094839756329041984",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:37.244Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094839756329041984",
+        "tweetUrl": "https://x.com/theworldlabs/status/2094839756329041984",
+        "authorHandle": "theworldlabs",
+        "authorName": "World Labs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094611280627957760/DziH8AE1.jpg",
+        "text": "Introducing Atlas:\n\nThe world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D.\n\nModel the world, move the camera, and simulate space &amp; time. https://t.co/o0qeGubi19",
+        "createdAt": "2026-09-01T17:28:12.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094829307273396230/vid/avc1/1920x1080/rjM4FvNW-XNSPu5I.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094829307273396230/img/6R12oZNwKyLuREue.jpg",
+            "durationMs": 85833
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "theworldlabs",
+        "company": "World Labs",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094839756329041984",
+        "slug": "world-labs-041984",
+        "title": "Introducing Atlas: The world's first multimodal world model that generates image and video frames…",
+        "product": "World Labs",
+        "company": "World Labs",
+        "description": "Introducing Atlas: The world's first multimodal world model that generates image and video frames with pixel-perfect camera control and reconstructs them in 3D. Model the world, move the camera, and simulate space &amp; time.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/theworldlabs/status/2094839756329041984",
+        "tweetId": "2094839756329041984",
+        "authorName": "World Labs",
+        "authorHandle": "theworldlabs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094611280627957760/DziH8AE1.jpg",
+        "poster": "/posters/world-labs-041984.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094829307273396230/vid/avc1/1920x1080/rjM4FvNW-XNSPu5I.mp4",
+        "publishedAt": "2026-09-01T17:28:12.000Z",
+        "durationSeconds": 86,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2094848572143407483",
+      "tweetId": "2094848572143407483",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-02T03:17:36.981Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2094848572143407483",
+        "tweetUrl": "https://x.com/claudeai/status/2094848572143407483",
+        "authorHandle": "claudeai",
+        "authorName": "Claude",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
+        "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3",
+        "createdAt": "2026-09-01T18:03:14.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg",
+            "durationMs": 27375
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "claudeai",
+        "company": "Claude",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2094848572143407483",
+        "slug": "claude-407483",
+        "title": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced model…",
+        "product": "Claude",
+        "company": "Claude",
+        "description": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/claudeai/status/2094848572143407483",
+        "tweetId": "2094848572143407483",
+        "authorName": "Claude",
+        "authorHandle": "claudeai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
+        "poster": "/posters/claude-407483.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4",
+        "publishedAt": "2026-09-01T18:03:14.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2094565379050025166",
       "tweetId": "2094565379050025166",
