@@ -47793,5 +47793,80 @@
     "durationSeconds": 65,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-squad",
+    "slug": "squad",
+    "title": "Squad — AI teammates that connect to your tools",
+    "product": "Squad",
+    "company": "Squad",
+    "description": "Squad gives you AI teammates that connect to your tools, understand your context, and take action to get work done on schedule.",
+    "category": "ai",
+    "tags": [
+      "squad",
+      "agents",
+      "teammates"
+    ],
+    "tweetUrl": "https://x.com/tibo_maker/status/2095449430619009085",
+    "tweetId": "2095449430619009085",
+    "authorName": "Tibo",
+    "authorHandle": "tibo_maker",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm.jpg",
+    "poster": "/posters/squad.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095449231590862851/vid/avc1/1920x1080/CKELugV7LPWQ2qAD.mp4?tag=16",
+    "publishedAt": "2026-09-03T09:50:50.000Z",
+    "durationSeconds": 107,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-google-pics",
+    "slug": "google-pics",
+    "title": "Google Pics — AI image creation for Workspace",
+    "product": "Google Pics",
+    "company": "Google",
+    "description": "Precise, powerful AI image creation for Google Workspace and Google AI Pro & Ultra. Edit individual objects, refine or translate text, and collaborate with your team.",
+    "category": "ai",
+    "tags": [
+      "google",
+      "pics",
+      "workspace"
+    ],
+    "tweetUrl": "https://x.com/GoogleWorkspace/status/2094818432973725961",
+    "tweetId": "2094818432973725961",
+    "authorName": "Google Workspace",
+    "authorHandle": "GoogleWorkspace",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2056837945630330881/NBpCDRh8.jpg",
+    "poster": "/posters/google-pics.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094818315105452032/vid/avc1/1280x720/N62Ghnh3uHhWArri.mp4?tag=14",
+    "publishedAt": "2026-09-01T16:03:28.000Z",
+    "durationSeconds": 99,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-cursor-cloud-agents-infra",
+    "slug": "cursor-cloud-agents-infra",
+    "title": "Cursor — run cloud agents on your infrastructure",
+    "product": "Cursor Cloud Agents",
+    "company": "Cursor",
+    "description": "Run Cursor cloud agents on your own infrastructure, including pools of machines that scale with demand. Agents can reach internal services or specialized hardware while the loop stays in Cursor.",
+    "category": "developer-tools",
+    "tags": [
+      "cursor",
+      "cloud-agents",
+      "infrastructure"
+    ],
+    "tweetUrl": "https://x.com/cursor_ai/status/2095257412781396114",
+    "tweetId": "2095257412781396114",
+    "authorName": "Cursor",
+    "authorHandle": "cursor_ai",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
+    "poster": "/posters/cursor-cloud-agents-infra.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095257368871550976/vid/avc1/1370x720/J1I5xAU_2if2nM3t.mp4",
+    "publishedAt": "2026-09-02T21:07:49.000Z",
+    "durationSeconds": 3,
+    "featured": false,
+    "status": "published"
   }
 ]
