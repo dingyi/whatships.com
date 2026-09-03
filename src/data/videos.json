@@ -47868,5 +47868,30 @@
     "durationSeconds": 3,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-screendrop",
+    "slug": "screendrop",
+    "title": "Screendrop — a screenshot tool for everyone",
+    "product": "Screendrop",
+    "company": "Fayaz Ahmed",
+    "description": "Open-source screenshot, screen recording, and editor. Native capture, video compressor, and self-host with R2 plus a tiny Hono worker.",
+    "category": "productivity",
+    "tags": [
+      "screendrop",
+      "screenshot",
+      "recording"
+    ],
+    "tweetUrl": "https://x.com/fayazara/status/2059354628006006847",
+    "tweetId": "2059354628006006847",
+    "authorName": "Fayaz Ahmed",
+    "authorHandle": "fayazara",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z.jpg",
+    "poster": "/posters/screendrop.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2059354193086058496/vid/avc1/1670x1080/UPBZY9breT4sb3iB.mp4",
+    "publishedAt": "2026-05-26T19:22:58.000Z",
+    "durationSeconds": 68,
+    "featured": false,
+    "status": "published"
   }
 ]
