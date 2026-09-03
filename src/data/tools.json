@@ -553,5 +553,25 @@
     "url": "https://invideo.io/",
     "category": "ai",
     "poster": "/posters/tools/invideo.webp"
+  },
+  {
+    "id": "tool-minshot",
+    "slug": "minshot",
+    "name": "Minshot",
+    "tagline": "A native macOS screenshot tool",
+    "description": "Capture, annotate, and frame screenshots on macOS. Area, window, or full screen, plus recording, hand-drawn arrows, backdrop frames, and multi-capture stitch.",
+    "url": "https://minshot.fehey.com/",
+    "category": "editor",
+    "poster": "/posters/tools/minshot.webp"
+  },
+  {
+    "id": "tool-pikimov",
+    "slug": "pikimov",
+    "name": "Pikimov",
+    "tagline": "Free web-based motion design and video editor",
+    "description": "A free browser motion design and video editor with no sign-up. Editing stays local. Classic, 2D, and 3D compositing, keyframes, and up to 4K.",
+    "url": "https://pikimov.com/",
+    "category": "motion",
+    "poster": "/posters/tools/pikimov.webp"
   }
 ]
