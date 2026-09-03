@@ -66,7 +66,7 @@
 - **视频时长**：约 19 秒
 - **互动**：104 likes / 9 reposts / 1 quote / 18 bookmarks / 6400+ views
 - **产品**：Obsidian 1.14.0
-- **中文总结**：Obsidian 1.14.0 早期访问版对 Catalyst 成员放开（桌面 + 移动）。亮点：Kanban 视图、iOS 快速记录组件（视频演示）、用 emoji 语法做彩色高亮（`==🔵blue==`）。官方短视频完整跑了 iOS widget 流程，是笔记产品的典型版本功能发布片。
+- **中文总结**：Obsidian 1.14.0 早期访问版对 Catalyst 成员放开（桌面 + 移动）。亮点：Kanban 视图、iOS 快速记录组件（视频演示）、用 emoji 语法做彩色高亮。官方短视频完整跑了 iOS widget 流程，是笔记产品的典型版本功能发布片。
 
 ---
 
@@ -102,7 +102,7 @@
 - **视频时长**：约 20 秒
 - **互动**：6 likes / 1 repost / 2 bookmarks / 110+ views
 - **产品**：benchmark.surf
-- **中文总结**：开发者因现有 AI benchmark 站「看起来 vibe-coded、缺少真正筛选与排序」而自建了 benchmark.surf。约 20 秒演示视频直接跑界面，是典型的 indie 工具发布。互动仍低，建议审核视频是否足够清晰再入库。
+- **中文总结**：开发者因现有 AI benchmark 站缺少真正筛选与排序而自建了 benchmark.surf。约 20 秒演示视频直接跑界面，是典型的 indie 工具发布。互动仍低，建议审核视频是否足够清晰再入库。
 
 ---
 
@@ -142,7 +142,7 @@
 
 ---
 
-## 5907备注
+## 备注
 
 - 全部来自 Grok 内置 X 搜索，未使用任何外部 API 或 X 付费接口。
 - 已跳过 09-01/09-02 文档已收录的 Claude Fable 5.1、World Labs Atlas、Gemini Agentic Video Understanding、Higgsfield Genjutsu、WebMCP、Muse Voice Transcribe 等。
