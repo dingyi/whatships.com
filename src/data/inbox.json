@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-04T02:28:06.872861Z",
+  "updatedAt": "2026-09-04T03:48:07.446Z",
   "items": [
     {
       "id": "disc-2095644308137447559",
       "tweetId": "2095644308137447559",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:38.819Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:28:00.552Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -61,71 +61,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095484820474486832",
-      "tweetId": "2095484820474486832",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:38.274Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095484820474486832",
-        "tweetUrl": "https://x.com/higgsfield/status/2095484820474486832",
-        "authorHandle": "higgsfield",
-        "authorName": "Higgsfield AI 🧩",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "text": "Introducing Claude Fable 5.1 on Higgsfield.\n\nThe world’s most advanced model for 3D spatial design and architectural modeling.\n\nFable 5.1 understands complex design briefs with surgical precision and writes the Three.js site structure, while Higgsfield MCP renders photorealistic https://t.co/OLQkmvgPrb",
-        "createdAt": "2026-09-03T12:11:28.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095483820934041600/vid/avc1/1920x1080/SXJf8yUuVvIpqXxB.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095483820934041600/img/Kz26D9zAg0_s_QSn.jpg",
-            "durationMs": 57000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "higgsfield",
-        "company": "Higgsfield AI 🧩",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095484820474486832",
-        "slug": "higgsfield-ai-486832",
-        "title": "Introducing Claude Fable 5.1 on Higgsfield. The world’s most advanced model for 3D spatial design…",
-        "product": "Higgsfield AI 🧩",
-        "company": "Higgsfield AI 🧩",
-        "description": "Introducing Claude Fable 5.1 on Higgsfield. The world’s most advanced model for 3D spatial design and architectural modeling. Fable 5.1 understands complex design briefs with surgical precision and writes the Three.js site structure, while Higgsfield MCP renders photorealistic",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/higgsfield/status/2095484820474486832",
-        "tweetId": "2095484820474486832",
-        "authorName": "Higgsfield AI 🧩",
-        "authorHandle": "higgsfield",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/higgsfield-ai-486832.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095483820934041600/vid/avc1/1920x1080/SXJf8yUuVvIpqXxB.mp4",
-        "publishedAt": "2026-09-03T12:11:28.000Z",
-        "durationSeconds": 57,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095620285181427771",
       "tweetId": "2095620285181427771",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:37.868Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:27:24.090Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -185,75 +125,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095540014645920040",
-      "tweetId": "2095540014645920040",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:37.543Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2095540014645920040",
-        "tweetUrl": "https://x.com/runwayml/status/2095540014645920040",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates interactive real-time simulations in continuous 720p video at 24 fps with 48000 Hz audio.\n\nBuilt on top of our foundational audio-visual generation model, GWM Worlds 2 allows you to https://t.co/yGTGONZLgy",
-        "createdAt": "2026-09-03T15:50:47.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095539077462237187/vid/avc1/1920x1080/JJq0izip7e3VlK0X.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095539077462237187/img/lbOgPMCmIkfJUMSK.jpg",
-            "durationMs": 144250
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2095540014645920040",
-        "slug": "runway-920040",
-        "title": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates…",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates interactive real-time simulations in continuous 720p video at 24 fps with 48000 Hz audio. Built on top of our foundational audio-visual generation model, GWM Worlds 2 allows you to",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2095540014645920040",
-        "tweetId": "2095540014645920040",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-920040.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095539077462237187/vid/avc1/1920x1080/JJq0izip7e3VlK0X.mp4",
-        "publishedAt": "2026-09-03T15:50:47.000Z",
-        "durationSeconds": 144,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095528012791902536",
       "tweetId": "2095528012791902536",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:37.209Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:40:06.308Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -315,9 +191,9 @@
     {
       "id": "disc-2095612687065768315",
       "tweetId": "2095612687065768315",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:36.131Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:41:45.132Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -372,71 +248,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095644094655512876",
-      "tweetId": "2095644094655512876",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:35.789Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2095644094655512876",
-        "tweetUrl": "https://x.com/TzDev_/status/2095644094655512876",
-        "authorHandle": "TzDev_",
-        "authorName": "Matthew",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999678023440777221/rPNlO7_B.jpg",
-        "text": "AI images are no longer a dead end.\n\nWe just launched Layers Studio in Adventure AI.\n\nGenerate an image → get it back as a layered PSD.\n\nYou can then:\n\n- Move and edit individual elements\n- Change the composition\n- Refine the design in Photoshop\n- Download the PSD and keep https://t.co/JynH3M1q0Y",
-        "createdAt": "2026-09-03T22:44:22.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095643409432158210/vid/avc1/1920x1080/NsVqrMZZffu9Qy_u.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095643409432158210/img/Wqc9AW8XKcSLUqgb.jpg",
-            "durationMs": 45371
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "TzDev_",
-        "company": "Matthew",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095644094655512876",
-        "slug": "matthew-512876",
-        "title": "AI images are no longer a dead end. We just launched Layers Studio in Adventure AI. Generate an i…",
-        "product": "Matthew",
-        "company": "Matthew",
-        "description": "AI images are no longer a dead end. We just launched Layers Studio in Adventure AI. Generate an image → get it back as a layered PSD. You can then: - Move and edit individual elements - Change the composition - Refine the design in Photoshop - Download the PSD and keep",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/TzDev_/status/2095644094655512876",
-        "tweetId": "2095644094655512876",
-        "authorName": "Matthew",
-        "authorHandle": "TzDev_",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999678023440777221/rPNlO7_B.jpg",
-        "poster": "/posters/matthew-512876.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095643409432158210/vid/avc1/1920x1080/NsVqrMZZffu9Qy_u.mp4",
-        "publishedAt": "2026-09-03T22:44:22.000Z",
-        "durationSeconds": 45,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095637352014135434",
       "tweetId": "2095637352014135434",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:35.445Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:28:15.733Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -493,191 +309,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095586624868409756",
-      "tweetId": "2095586624868409756",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:34.742Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095586624868409756",
-        "tweetUrl": "https://x.com/Context7AI/status/2095586624868409756",
-        "authorHandle": "Context7AI",
-        "authorName": "Context7",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1916988011189047298/L-GMiKKY.jpg",
-        "text": "Introducing Docs7 - the best way to serve documentation to agents.\n\n◆ Automatically serve clean, agent-readable docs\n◆ Native WebMCP and skills support\n◆ Deep insights into AI traffic &amp; searches\n\nWe make agents love your product 👇 https://t.co/oUKjUuOP6I",
-        "createdAt": "2026-09-03T18:56:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095586054959136769/vid/avc1/1920x1080/pD0nNX-UcepOeS2p.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095586054959136769/img/djLigY8Y3mc0UfTt.jpg",
-            "durationMs": 100500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Context7AI",
-        "company": "Context7",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095586624868409756",
-        "slug": "context7-409756",
-        "title": "Introducing Docs7 - the best way to serve documentation to agents. ◆ Automatically serve clean, a…",
-        "product": "Context7",
-        "company": "Context7",
-        "description": "Introducing Docs7 - the best way to serve documentation to agents. ◆ Automatically serve clean, agent-readable docs ◆ Native WebMCP and skills support ◆ Deep insights into AI traffic &amp; searches We make agents love your product 👇",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Context7AI/status/2095586624868409756",
-        "tweetId": "2095586624868409756",
-        "authorName": "Context7",
-        "authorHandle": "Context7AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1916988011189047298/L-GMiKKY.jpg",
-        "poster": "/posters/context7-409756.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095586054959136769/vid/avc1/1920x1080/pD0nNX-UcepOeS2p.mp4",
-        "publishedAt": "2026-09-03T18:56:00.000Z",
-        "durationSeconds": 101,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095590612837818397",
-      "tweetId": "2095590612837818397",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:34.394Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095590612837818397",
-        "tweetUrl": "https://x.com/preshdkumar/status/2095590612837818397",
-        "authorHandle": "preshdkumar",
-        "authorName": "presh",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1650415667605282816/9ai4bVJX.jpg",
-        "text": "we just raised $1.5M for @the_wellnessco\n\ntoday we’re introducing Tempo, an AI health companion built to help you live longer.\n\nv1 is out now, try it here 📲 https://t.co/O8cUBMCVzD https://t.co/V8j8WLeuYY",
-        "createdAt": "2026-09-03T19:11:50.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095590391114276864/vid/avc1/3840x2160/hTwPIItS80c6y_dd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095590391114276864/img/iv0JKilitSNiRX_I.jpg",
-            "durationMs": 69791
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "preshdkumar",
-        "company": "presh",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095590612837818397",
-        "slug": "presh-818397",
-        "title": "we just raised $1.5M for @the_wellnessco today we’re introducing Tempo, an AI health companion bu…",
-        "product": "presh",
-        "company": "presh",
-        "description": "we just raised $1.5M for @the_wellnessco today we’re introducing Tempo, an AI health companion built to help you live longer. v1 is out now, try it here 📲",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/preshdkumar/status/2095590612837818397",
-        "tweetId": "2095590612837818397",
-        "authorName": "presh",
-        "authorHandle": "preshdkumar",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1650415667605282816/9ai4bVJX.jpg",
-        "poster": "/posters/presh-818397.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095590391114276864/vid/avc1/3840x2160/hTwPIItS80c6y_dd.mp4",
-        "publishedAt": "2026-09-03T19:11:50.000Z",
-        "durationSeconds": 70,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095595322848534793",
-      "tweetId": "2095595322848534793",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:34.053Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095595322848534793",
-        "tweetUrl": "https://x.com/shengkunye/status/2095595322848534793",
-        "authorHandle": "shengkunye",
-        "authorName": "Shengkun Ye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "text": "Introducing Claude for waterfall enrichment. \n\nYour agent can now run a waterfall across Apollo, Hunter, Clay, @PeopleDataLabs, ContactOut, and @ploid_ai through one connection. \n\nThe stack: $7,500 a year in subscriptions. \nMonid: from $0.005 per call. Pay as you go. https://t.co/UhwvrXUXDm",
-        "createdAt": "2026-09-03T19:30:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095594842114162688/vid/avc1/1920x1080/c0JwTGNQDa5GWI3d.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095594842114162688/img/0cdviJxAOBjP7K6t.jpg",
-            "durationMs": 64600
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shengkunye",
-        "company": "Shengkun Ye",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095595322848534793",
-        "slug": "shengkun-ye-534793",
-        "title": "Introducing Claude for waterfall enrichment. Your agent can now run a waterfall across Apollo, Hu…",
-        "product": "Shengkun Ye",
-        "company": "Shengkun Ye",
-        "description": "Introducing Claude for waterfall enrichment. Your agent can now run a waterfall across Apollo, Hunter, Clay, @PeopleDataLabs, ContactOut, and @ploid_ai through one connection. The stack: $7,500 a year in subscriptions. Monid: from $0.005 per call. Pay as you go.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shengkunye/status/2095595322848534793",
-        "tweetId": "2095595322848534793",
-        "authorName": "Shengkun Ye",
-        "authorHandle": "shengkunye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "poster": "/posters/shengkun-ye-534793.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095594842114162688/vid/avc1/1920x1080/c0JwTGNQDa5GWI3d.mp4",
-        "publishedAt": "2026-09-03T19:30:33.000Z",
-        "durationSeconds": 65,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095571660099461120",
       "tweetId": "2095571660099461120",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:33.692Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:38:04.151Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -733,71 +369,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095622892189106629",
-      "tweetId": "2095622892189106629",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:33.341Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095622892189106629",
-        "tweetUrl": "https://x.com/OpusClip/status/2095622892189106629",
-        "authorHandle": "OpusClip",
-        "authorName": "OpusClip",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1651470623175213057/pXxCdS5q.jpg",
-        "text": "Introducing AI Expand.\n\nEvery aspect ratio, every platform, one video. Zero cropping involved.\n\nTry now in Opus Labs. https://t.co/4NQXwFinli",
-        "createdAt": "2026-09-03T21:20:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095622857808351232/vid/avc1/1920x1080/m6vdyepiM3dnuwer.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095622857808351232/img/8eWP2WwJB0SlCKBE.jpg",
-            "durationMs": 35366
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpusClip",
-        "company": "OpusClip",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095622892189106629",
-        "slug": "opusclip-106629",
-        "title": "Introducing AI Expand. Every aspect ratio, every platform, one video. Zero cropping involved. Try…",
-        "product": "OpusClip",
-        "company": "OpusClip",
-        "description": "Introducing AI Expand. Every aspect ratio, every platform, one video. Zero cropping involved. Try now in Opus Labs.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpusClip/status/2095622892189106629",
-        "tweetId": "2095622892189106629",
-        "authorName": "OpusClip",
-        "authorHandle": "OpusClip",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1651470623175213057/pXxCdS5q.jpg",
-        "poster": "/posters/opusclip-106629.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095622857808351232/vid/avc1/1920x1080/m6vdyepiM3dnuwer.mp4?tag=16",
-        "publishedAt": "2026-09-03T21:20:06.000Z",
-        "durationSeconds": 35,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095566787752730874",
       "tweetId": "2095566787752730874",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:32.986Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:29.166Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -859,9 +435,9 @@
     {
       "id": "disc-2095541863956742174",
       "tweetId": "2095541863956742174",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:32.600Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:34.448Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -923,9 +499,9 @@
     {
       "id": "disc-2095528019062304828",
       "tweetId": "2095528019062304828",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:32.258Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:32:51.156Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -985,135 +561,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095529763280466295",
-      "tweetId": "2095529763280466295",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:31.908Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095529763280466295",
-        "tweetUrl": "https://x.com/Google/status/2095529763280466295",
-        "authorHandle": "Google",
-        "authorName": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "text": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and accurate global weather AI model to date. It uses real-time satellite data to generate hourly high-resolution forecasts, precise precipitation forecasting, and clean energy variables. https://t.co/0scV50lP8v",
-        "createdAt": "2026-09-03T15:10:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095529321528262656/vid/avc1/1080x1080/XHdnDkhq4ourzB4A.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095529321528262656/img/Gq4GRWxfmgj1Y7h0.jpg",
-            "durationMs": 78953
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Google",
-        "company": "Google",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2095529763280466295",
-        "slug": "google-466295",
-        "title": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and a…",
-        "product": "Google",
-        "company": "Google",
-        "description": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and accurate global weather AI model to date. It uses real-time satellite data to generate hourly high-resolution forecasts, precise precipitation forecasting, and clean energy variables.",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Google/status/2095529763280466295",
-        "tweetId": "2095529763280466295",
-        "authorName": "Google",
-        "authorHandle": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "poster": "/posters/google-466295.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095529321528262656/vid/avc1/1080x1080/XHdnDkhq4ourzB4A.mp4",
-        "publishedAt": "2026-09-03T15:10:03.000Z",
-        "durationSeconds": 79,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095649775064395860",
-      "tweetId": "2095649775064395860",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:31.525Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2095649775064395860",
-        "tweetUrl": "https://x.com/Tesla/status/2095649775064395860",
-        "authorHandle": "Tesla",
-        "authorName": "Tesla",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
-        "text": "Cybercab is democratizing clean transportation for all https://t.co/Raz5dy2Q3Z",
-        "createdAt": "2026-09-03T23:06:56.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095649682307620864/vid/avc1/3840x2160/JIkR6C9K_e1jJ6SI.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095649682307620864/img/QZcYQgyP82SDaXLL.jpg",
-            "durationMs": 28069
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Tesla",
-        "company": "Tesla",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095649775064395860",
-        "slug": "tesla-395860",
-        "title": "Cybercab is democratizing clean transportation for all",
-        "product": "Tesla",
-        "company": "Tesla",
-        "description": "Cybercab is democratizing clean transportation for all",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Tesla/status/2095649775064395860",
-        "tweetId": "2095649775064395860",
-        "authorName": "Tesla",
-        "authorHandle": "Tesla",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
-        "poster": "/posters/tesla-395860.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095649682307620864/vid/avc1/3840x2160/JIkR6C9K_e1jJ6SI.mp4",
-        "publishedAt": "2026-09-03T23:06:56.000Z",
-        "durationSeconds": 28,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095648795304263759",
       "tweetId": "2095648795304263759",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:31.187Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:27:55.068Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1170,9 +622,9 @@
     {
       "id": "disc-2095649007397679470",
       "tweetId": "2095649007397679470",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:30.824Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:44.059Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1229,9 +681,9 @@
     {
       "id": "disc-2095647989637263684",
       "tweetId": "2095647989637263684",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:30.484Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:46.789Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1288,9 +740,9 @@
     {
       "id": "disc-2095588745936298039",
       "tweetId": "2095588745936298039",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:30.146Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:49.649Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1347,9 +799,9 @@
     {
       "id": "disc-2095527557924082061",
       "tweetId": "2095527557924082061",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-04T02:22:29.793Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:32:02.415Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1409,75 +861,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095595741528125780",
-      "tweetId": "2095595741528125780",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:29.453Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2095595741528125780",
-        "tweetUrl": "https://x.com/OpenAI/status/2095595741528125780",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast. https://t.co/gDd0IsewJw",
-        "createdAt": "2026-09-03T19:32:13.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg",
-            "durationMs": 162965
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2095595741528125780",
-        "slug": "openai-125780",
-        "title": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
-        "product": "OpenAI",
-        "company": "OpenAI",
-        "description": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2095595741528125780",
-        "tweetId": "2095595741528125780",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/openai-125780.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4",
-        "publishedAt": "2026-09-03T19:32:13.000Z",
-        "durationSeconds": 163,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095159754414813249",
       "tweetId": "2095159754414813249",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:40.249Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:28:31.097Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1538,72 +926,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095191849984225296",
-      "tweetId": "2095191849984225296",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-03T17:09:39.908Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2095191849984225296",
-        "tweetUrl": "https://x.com/ishaansehgal/status/2095191849984225296",
-        "authorHandle": "ishaansehgal",
-        "authorName": "Ishaan Sehgal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1787308697305362432/3GRfFM3v.jpg",
-        "text": "Introducing Omnara: the open-source alternative to Claude Managed Agents.\n\nOmnara is an API for creating and interacting with production-grade agents. You build the agent. Omnara handles hosting, durable state, sandboxes, permissions, secrets, and the rest of the production https://t.co/Ps3twKrVyI",
-        "createdAt": "2026-09-02T16:47:18.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095054190917885952/vid/avc1/3840x2160/VXzc_gJq89IBrfeZ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095054190917885952/img/werZZU-n6thS6KlJ.jpg",
-            "durationMs": 64689
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ishaansehgal",
-        "company": "Ishaan Sehgal",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095191849984225296",
-        "slug": "ishaan-sehgal-225296",
-        "title": "Introducing Omnara: the open-source alternative to Claude Managed Agents. Omnara is an API for cr…",
-        "product": "Ishaan Sehgal",
-        "company": "Ishaan Sehgal",
-        "description": "Introducing Omnara: the open-source alternative to Claude Managed Agents. Omnara is an API for creating and interacting with production-grade agents. You build the agent. Omnara handles hosting, durable state, sandboxes, permissions, secrets, and the rest of the production",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ishaansehgal/status/2095191849984225296",
-        "tweetId": "2095191849984225296",
-        "authorName": "Ishaan Sehgal",
-        "authorHandle": "ishaansehgal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1787308697305362432/3GRfFM3v.jpg",
-        "poster": "/posters/ishaan-sehgal-225296.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095054190917885952/vid/avc1/3840x2160/VXzc_gJq89IBrfeZ.mp4",
-        "publishedAt": "2026-09-02T16:47:18.000Z",
-        "durationSeconds": 65,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095237884596940891",
       "tweetId": "2095237884596940891",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:38.954Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:29:21.692Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1661,9 +988,9 @@
     {
       "id": "disc-2095254497622683723",
       "tweetId": "2095254497622683723",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:38.527Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:42:55.267Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1721,9 +1048,9 @@
     {
       "id": "disc-2095181921475035506",
       "tweetId": "2095181921475035506",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:38.208Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:29:32.436Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1781,9 +1108,9 @@
     {
       "id": "disc-2095185284334051437",
       "tweetId": "2095185284334051437",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:37.881Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:33:09.900Z",
       "score": 74,
       "reasons": [
         "has-video",
@@ -1843,9 +1170,9 @@
     {
       "id": "disc-2095218769681584172",
       "tweetId": "2095218769681584172",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:37.554Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:34:21.116Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1901,193 +1228,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095272568282656999",
-      "tweetId": "2095272568282656999",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-03T17:09:37.230Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2095272568282656999",
-        "tweetUrl": "https://x.com/reactorworld/status/2095272568282656999",
-        "authorHandle": "reactorworld",
-        "authorName": "reactor",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2018930854173741056/56vLKKg8.jpg",
-        "text": "Introducing MiniMax FastH3 on Reactor - the latest open-source model by @MiniMax_AI.\n\nStream 720p with audio at $0.007/second with first frame image support, faster and cheaper than ever.\n\nGet started now by cloning our demo app: https://t.co/7qeQBgVZ2a https://t.co/nCa0RqSDh3",
-        "createdAt": "2026-09-02T22:08:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095242685389131776/vid/avc1/1732x1080/ZKlaLr-VdE9kbbFc.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095242685389131776/img/_TSti257BjqleTeX.jpg",
-            "durationMs": 83522
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "reactorworld",
-        "company": "reactor",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095272568282656999",
-        "slug": "reactor-656999",
-        "title": "Introducing MiniMax FastH3 on Reactor - the latest open-source model by @MiniMax_AI. Stream 720p…",
-        "product": "reactor",
-        "company": "reactor",
-        "description": "Introducing MiniMax FastH3 on Reactor - the latest open-source model by @MiniMax_AI. Stream 720p with audio at $0.007/second with first frame image support, faster and cheaper than ever. Get started now by cloning our demo app:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/reactorworld/status/2095272568282656999",
-        "tweetId": "2095272568282656999",
-        "authorName": "reactor",
-        "authorHandle": "reactorworld",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2018930854173741056/56vLKKg8.jpg",
-        "poster": "/posters/reactor-656999.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095242685389131776/vid/avc1/1732x1080/ZKlaLr-VdE9kbbFc.mp4",
-        "publishedAt": "2026-09-02T22:08:03.000Z",
-        "durationSeconds": 84,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095277190829260944",
-      "tweetId": "2095277190829260944",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-03T17:09:36.910Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2095277190829260944",
-        "tweetUrl": "https://x.com/HaochengXiUCB/status/2095277190829260944",
-        "authorHandle": "HaochengXiUCB",
-        "authorName": "Haocheng Xi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2049305008169193472/vshYDMAh.jpg",
-        "text": "Open-source video generation is now faster than playback without compromising quality.\n\nIntroducing Video Delta Net (VDN): hybrid attention for live text-to-video with near-lossless quality.\n\nVDN accelerates Minimax-H3 by 75 - 90 x, generating 14 seconds of 768p video in 11 https://t.co/GVLtsTloU0",
-        "createdAt": "2026-09-02T22:26:25.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095274503714861056/vid/avc1/1460x750/Ii_zy6m9oR1Ah9WW.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095274503714861056/img/KoLWw6nj7-TraIdy.jpg",
-            "durationMs": 69820
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "HaochengXiUCB",
-        "company": "Haocheng Xi",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095277190829260944",
-        "slug": "haocheng-xi-260944",
-        "title": "Open-source video generation is now faster than playback without compromising quality. Introducin…",
-        "product": "Haocheng Xi",
-        "company": "Haocheng Xi",
-        "description": "Open-source video generation is now faster than playback without compromising quality. Introducing Video Delta Net (VDN): hybrid attention for live text-to-video with near-lossless quality. VDN accelerates Minimax-H3 by 75 - 90 x, generating 14 seconds of 768p video in 11",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/HaochengXiUCB/status/2095277190829260944",
-        "tweetId": "2095277190829260944",
-        "authorName": "Haocheng Xi",
-        "authorHandle": "HaochengXiUCB",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2049305008169193472/vshYDMAh.jpg",
-        "poster": "/posters/haocheng-xi-260944.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095274503714861056/vid/avc1/1460x750/Ii_zy6m9oR1Ah9WW.mp4",
-        "publishedAt": "2026-09-02T22:26:25.000Z",
-        "durationSeconds": 70,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095186020677353488",
-      "tweetId": "2095186020677353488",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-03T17:09:36.585Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bg\\.?a\\.?\\b"
-      ],
-      "post": {
-        "tweetId": "2095186020677353488",
-        "tweetUrl": "https://x.com/inworld_ai/status/2095186020677353488",
-        "authorHandle": "inworld_ai",
-        "authorName": "Inworld AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1937781707283005441/JfYhihdq.jpg",
-        "text": "Realtime TTS-2 is GA today, now the #1 model on Artificial Analysis and fastest TTS in the world of its class.\n\nThe research preview got far more usage than expected. That experience went back into research and today's GA model represents the biggest leap in Inworld's history. https://t.co/xgmYeL5s2x",
-        "createdAt": "2026-09-02T16:24:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/ext_tw_video/2095185885687930881/pu/vid/avc1/1280x720/7JFBpUGXPZ0sW0j0.mp4?tag=12",
-            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2095185885687930881/pu/img/V44GOWXUq9B5V0I4.jpg",
-            "durationMs": 148734
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "inworld_ai",
-        "company": "Inworld AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095186020677353488",
-        "slug": "inworld-ai-353488",
-        "title": "Realtime TTS-2 is GA today, now the #1 model on Artificial Analysis and fastest TTS in the world…",
-        "product": "Inworld AI",
-        "company": "Inworld AI",
-        "description": "Realtime TTS-2 is GA today, now the #1 model on Artificial Analysis and fastest TTS in the world of its class. The research preview got far more usage than expected. That experience went back into research and today's GA model represents the biggest leap in Inworld's history.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/inworld_ai/status/2095186020677353488",
-        "tweetId": "2095186020677353488",
-        "authorName": "Inworld AI",
-        "authorHandle": "inworld_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1937781707283005441/JfYhihdq.jpg",
-        "poster": "/posters/inworld-ai-353488.webp",
-        "videoUrl": "https://video.twimg.com/ext_tw_video/2095185885687930881/pu/vid/avc1/1280x720/7JFBpUGXPZ0sW0j0.mp4?tag=12",
-        "publishedAt": "2026-09-02T16:24:08.000Z",
-        "durationSeconds": 149,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095175759606231439",
       "tweetId": "2095175759606231439",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:36.258Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:29:36.483Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2143,71 +1288,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095167624229626164",
-      "tweetId": "2095167624229626164",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-03T17:09:35.916Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095167624229626164",
-        "tweetUrl": "https://x.com/heyato_ai/status/2095167624229626164",
-        "authorHandle": "heyato_ai",
-        "authorName": "Ato AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2094944265034153984/JJhYOqiW.jpg",
-        "text": "Introducing Ato, your grandparent’s next computer.\n\nOver the past year, more than 2,500 older adults around the globe have used Ato in their daily lives through our beta program, and today we're taking our next step.\n\nAto helps seniors stay independent on their own terms. It https://t.co/B7aHSoRQ9Q",
-        "createdAt": "2026-09-02T15:11:02.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095161135930695680/vid/avc1/1920x1080/R4FQW1fTwLpMi-qW.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095161135930695680/img/rwpHnc_3ZDH_ToQb.jpg",
-            "durationMs": 159338
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "heyato_ai",
-        "company": "Ato AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095167624229626164",
-        "slug": "ato-ai-626164",
-        "title": "Introducing Ato, your grandparent’s next computer. Over the past year, more than 2,500 older adul…",
-        "product": "Ato AI",
-        "company": "Ato AI",
-        "description": "Introducing Ato, your grandparent’s next computer. Over the past year, more than 2,500 older adults around the globe have used Ato in their daily lives through our beta program, and today we're taking our next step. Ato helps seniors stay independent on their own terms. It",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/heyato_ai/status/2095167624229626164",
-        "tweetId": "2095167624229626164",
-        "authorName": "Ato AI",
-        "authorHandle": "heyato_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2094944265034153984/JJhYOqiW.jpg",
-        "poster": "/posters/ato-ai-626164.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095161135930695680/vid/avc1/1920x1080/R4FQW1fTwLpMi-qW.mp4",
-        "publishedAt": "2026-09-02T15:11:02.000Z",
-        "durationSeconds": 159,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095297222120231201",
       "tweetId": "2095297222120231201",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:34.990Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:37:01.466Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2265,9 +1350,9 @@
     {
       "id": "disc-2095296510883721649",
       "tweetId": "2095296510883721649",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:34.668Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:28:50.774Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2325,9 +1410,9 @@
     {
       "id": "disc-2095288290626744409",
       "tweetId": "2095288290626744409",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:34.338Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:34:35.546Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2385,9 +1470,9 @@
     {
       "id": "disc-2095295383979036959",
       "tweetId": "2095295383979036959",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:33.878Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:37:15.085Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2445,9 +1530,9 @@
     {
       "id": "disc-2095297597032599934",
       "tweetId": "2095297597032599934",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:33.533Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:07.084Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2505,9 +1590,9 @@
     {
       "id": "disc-2095212793414742258",
       "tweetId": "2095212793414742258",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:33.170Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:38:38.133Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -2569,9 +1654,9 @@
     {
       "id": "disc-2095282840305115159",
       "tweetId": "2095282840305115159",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:32.795Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:28:58.533Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2629,9 +1714,9 @@
     {
       "id": "disc-2095161979925348811",
       "tweetId": "2095161979925348811",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:32.469Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:32:21.959Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2693,9 +1778,9 @@
     {
       "id": "disc-2095156489912746319",
       "tweetId": "2095156489912746319",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:32.110Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:32:55.206Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2752,9 +1837,9 @@
     {
       "id": "disc-2095217221416939730",
       "tweetId": "2095217221416939730",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:31.752Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:38:09.099Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2811,9 +1896,9 @@
     {
       "id": "disc-2095195236397953268",
       "tweetId": "2095195236397953268",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:31.394Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:31:16.577Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2871,9 +1956,9 @@
     {
       "id": "disc-2095261608398483801",
       "tweetId": "2095261608398483801",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-03T17:09:31.042Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-04T03:38:43.762Z",
       "score": 20,
       "reasons": [
         "has-video"
