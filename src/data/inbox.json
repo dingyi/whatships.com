@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T02:22:38.819Z",
+  "updatedAt": "2026-09-04T02:28:06.872861Z",
   "items": [
     {
       "id": "disc-2095644308137447559",
@@ -486,66 +486,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2095636607319605248/vid/avc1/2560x1440/w5-bu-kaVXpr2pEv.mp4",
         "publishedAt": "2026-09-03T22:17:34.000Z",
         "durationSeconds": 37,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095582023058432213",
-      "tweetId": "2095582023058432213",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-04T02:22:35.096Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2095582023058432213",
-        "tweetUrl": "https://x.com/rive_app/status/2095582023058432213",
-        "authorHandle": "rive_app",
-        "authorName": "Rive",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
-        "text": "GPU Canvas is now live for everyone.\n\nRive's low-level GPU layer for 3D, shaders, and custom effects is out of Early Access and in the production editor today.\n\nWrite your shaders once in WGSL. Rive compiles them for Metal, Vulkan, Direct3D, WebGPU, and WebGL. It adds 25KB to the https://t.co/PyMSaHl7iZ",
-        "createdAt": "2026-09-03T18:37:42.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
-            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2095581872751300610/pu/img/WaRzo_HPIezT1aN8.jpg",
-            "durationMs": 52066
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "rive_app",
-        "company": "Rive",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095582023058432213",
-        "slug": "rive-432213",
-        "title": "GPU Canvas is now live for everyone. Rive's low-level GPU layer for 3D, shaders, and custom effec…",
-        "product": "Rive",
-        "company": "Rive",
-        "description": "GPU Canvas is now live for everyone. Rive's low-level GPU layer for 3D, shaders, and custom effects is out of Early Access and in the production editor today. Write your shaders once in WGSL. Rive compiles them for Metal, Vulkan, Direct3D, WebGPU, and WebGL. It adds 25KB to the",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/rive_app/status/2095582023058432213",
-        "tweetId": "2095582023058432213",
-        "authorName": "Rive",
-        "authorHandle": "rive_app",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
-        "poster": "/posters/rive-432213.webp",
-        "videoUrl": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
-        "publishedAt": "2026-09-03T18:37:42.000Z",
-        "durationSeconds": 52,
         "featured": false,
         "status": "draft"
       },
