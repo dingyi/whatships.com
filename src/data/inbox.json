@@ -1,6 +1,1537 @@
 {
-  "updatedAt": "2026-09-03T17:09:40.249Z",
+  "updatedAt": "2026-09-04T02:22:38.819Z",
   "items": [
+    {
+      "id": "disc-2095644308137447559",
+      "tweetId": "2095644308137447559",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:38.819Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095644308137447559",
+        "tweetUrl": "https://x.com/adocomplete/status/2095644308137447559",
+        "authorHandle": "adocomplete",
+        "authorName": "Ado",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8.jpg",
+        "text": "Retailers running shopping agents on Claude are seeing carts up to 35% bigger and shoppers 60% more likely to check out.\n\nToday we shipped a blueprint for building commerce agents on Claude: a shopping agent, a merchant agent, and all the guardrails we learned the hard way. https://t.co/hKSCb5oZai",
+        "createdAt": "2026-09-03T22:45:12.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095643770431918080/vid/avc1/2814x1396/1A5XrgdxV9iqGu0f.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095643770431918080/img/shfwxoUKjtCimecj.jpg",
+            "durationMs": 18498
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "adocomplete",
+        "company": "Ado",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095644308137447559",
+        "slug": "ado-447559",
+        "title": "Retailers running shopping agents on Claude are seeing carts up to 35% bigger and shoppers 60% mo…",
+        "product": "Ado",
+        "company": "Ado",
+        "description": "Retailers running shopping agents on Claude are seeing carts up to 35% bigger and shoppers 60% more likely to check out. Today we shipped a blueprint for building commerce agents on Claude: a shopping agent, a merchant agent, and all the guardrails we learned the hard way.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/adocomplete/status/2095644308137447559",
+        "tweetId": "2095644308137447559",
+        "authorName": "Ado",
+        "authorHandle": "adocomplete",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8.jpg",
+        "poster": "/posters/ado-447559.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095643770431918080/vid/avc1/2814x1396/1A5XrgdxV9iqGu0f.mp4",
+        "publishedAt": "2026-09-03T22:45:12.000Z",
+        "durationSeconds": 18,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095484820474486832",
+      "tweetId": "2095484820474486832",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:38.274Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095484820474486832",
+        "tweetUrl": "https://x.com/higgsfield/status/2095484820474486832",
+        "authorHandle": "higgsfield",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "text": "Introducing Claude Fable 5.1 on Higgsfield.\n\nThe world’s most advanced model for 3D spatial design and architectural modeling.\n\nFable 5.1 understands complex design briefs with surgical precision and writes the Three.js site structure, while Higgsfield MCP renders photorealistic https://t.co/OLQkmvgPrb",
+        "createdAt": "2026-09-03T12:11:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095483820934041600/vid/avc1/1920x1080/SXJf8yUuVvIpqXxB.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095483820934041600/img/Kz26D9zAg0_s_QSn.jpg",
+            "durationMs": 57000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095484820474486832",
+        "slug": "higgsfield-ai-486832",
+        "title": "Introducing Claude Fable 5.1 on Higgsfield. The world’s most advanced model for 3D spatial design…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "Introducing Claude Fable 5.1 on Higgsfield. The world’s most advanced model for 3D spatial design and architectural modeling. Fable 5.1 understands complex design briefs with surgical precision and writes the Three.js site structure, while Higgsfield MCP renders photorealistic",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield/status/2095484820474486832",
+        "tweetId": "2095484820474486832",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "poster": "/posters/higgsfield-ai-486832.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095483820934041600/vid/avc1/1920x1080/SXJf8yUuVvIpqXxB.mp4",
+        "publishedAt": "2026-09-03T12:11:28.000Z",
+        "durationSeconds": 57,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095620285181427771",
+      "tweetId": "2095620285181427771",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:37.868Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095620285181427771",
+        "tweetUrl": "https://x.com/warpdotdev/status/2095620285181427771",
+        "authorHandle": "warpdotdev",
+        "authorName": "Warp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089744783694606336/p0K5KSLo.jpg",
+        "text": "Factory benchmarks let you build your own model bench using your past coding agent runs.\n\n- Mirrors your environment, secrets, and MCPs for each run\n- Scores output on judging criteria you define\n- Generates a report with model recs using cost vs. quality\n\nHere's how it works: https://t.co/9VdveylkQ5",
+        "createdAt": "2026-09-03T21:09:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095619163943276545/vid/avc1/3840x2160/UeRzEYX_PkOta7uR.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095619163943276545/img/8-k4fZQ3M9IBE0So.jpg",
+            "durationMs": 365800
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "warpdotdev",
+        "company": "Warp",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095620285181427771",
+        "slug": "warp-427771",
+        "title": "Factory benchmarks let you build your own model bench using your past coding agent runs. - Mirror…",
+        "product": "Warp",
+        "company": "Warp",
+        "description": "Factory benchmarks let you build your own model bench using your past coding agent runs. - Mirrors your environment, secrets, and MCPs for each run - Scores output on judging criteria you define - Generates a report with model recs using cost vs. quality Here's how it works:",
+        "category": "developer-tools",
+        "tags": [
+          "terminal",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/warpdotdev/status/2095620285181427771",
+        "tweetId": "2095620285181427771",
+        "authorName": "Warp",
+        "authorHandle": "warpdotdev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089744783694606336/p0K5KSLo.jpg",
+        "poster": "/posters/warp-427771.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095619163943276545/vid/avc1/3840x2160/UeRzEYX_PkOta7uR.mp4",
+        "publishedAt": "2026-09-03T21:09:45.000Z",
+        "durationSeconds": 366,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095540014645920040",
+      "tweetId": "2095540014645920040",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:37.543Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095540014645920040",
+        "tweetUrl": "https://x.com/runwayml/status/2095540014645920040",
+        "authorHandle": "runwayml",
+        "authorName": "Runway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "text": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates interactive real-time simulations in continuous 720p video at 24 fps with 48000 Hz audio.\n\nBuilt on top of our foundational audio-visual generation model, GWM Worlds 2 allows you to https://t.co/yGTGONZLgy",
+        "createdAt": "2026-09-03T15:50:47.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095539077462237187/vid/avc1/1920x1080/JJq0izip7e3VlK0X.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095539077462237187/img/lbOgPMCmIkfJUMSK.jpg",
+            "durationMs": 144250
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "runwayml",
+        "company": "Runway",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095540014645920040",
+        "slug": "runway-920040",
+        "title": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates…",
+        "product": "Runway",
+        "company": "Runway",
+        "description": "Today, we're sharing new research on GWM Worlds 2. Our latest General World Model that generates interactive real-time simulations in continuous 720p video at 24 fps with 48000 Hz audio. Built on top of our foundational audio-visual generation model, GWM Worlds 2 allows you to",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/runwayml/status/2095540014645920040",
+        "tweetId": "2095540014645920040",
+        "authorName": "Runway",
+        "authorHandle": "runwayml",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "poster": "/posters/runway-920040.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095539077462237187/vid/avc1/1920x1080/JJq0izip7e3VlK0X.mp4",
+        "publishedAt": "2026-09-03T15:50:47.000Z",
+        "durationSeconds": 144,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095528012791902536",
+      "tweetId": "2095528012791902536",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:37.209Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095528012791902536",
+        "tweetUrl": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+        "authorHandle": "GoogleDeepMind",
+        "authorName": "Google DeepMind",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P.jpg",
+        "text": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅\n\nDeveloped with @GoogleResearch, the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵 https://t.co/iI8c6uEN4n",
+        "createdAt": "2026-09-03T15:03:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095526230070022145/vid/avc1/1080x1080/JSUWo5AiSvqmQTaB.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095526230070022145/img/ho5C75xc4fAqoVOe.jpg",
+            "durationMs": 78953
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "GoogleDeepMind",
+        "company": "Google DeepMind",
+        "category": "ai",
+        "tags": [
+          "deepmind",
+          "google"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095528012791902536",
+        "slug": "google-deepmind-902536",
+        "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @Google…",
+        "product": "Google DeepMind",
+        "company": "Google DeepMind",
+        "description": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with @GoogleResearch, the model learns directly from real-world, real-time observations to give more localized highly accurate predictions faster. 🧵",
+        "category": "ai",
+        "tags": [
+          "deepmind",
+          "google",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+        "tweetId": "2095528012791902536",
+        "authorName": "Google DeepMind",
+        "authorHandle": "GoogleDeepMind",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P.jpg",
+        "poster": "/posters/google-deepmind-902536.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095526230070022145/vid/avc1/1080x1080/JSUWo5AiSvqmQTaB.mp4",
+        "publishedAt": "2026-09-03T15:03:05.000Z",
+        "durationSeconds": 79,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095612687065768315",
+      "tweetId": "2095612687065768315",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:36.131Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095612687065768315",
+        "tweetUrl": "https://x.com/TitusTeatus/status/2095612687065768315",
+        "authorHandle": "TitusTeatus",
+        "authorName": "titus",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767734101258473473/sulVOC0C.jpg",
+        "text": "this is the future of media generation\n\nover the past months, we built the first agent that works like an actual creative\n\nit's fine-tuned to research, design, and prompt like a world-class designer &amp; uses 150+ image &amp; video models\n\nsign up for beta @krea_ai https://t.co/nRIbGf8plo",
+        "createdAt": "2026-09-03T20:39:33.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095612441292161024/vid/avc1/2880x2160/sJqgmpqs5k1OhSYE.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095612441292161024/img/AMYqtPtG0il_LeWR.jpg",
+            "durationMs": 27683
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TitusTeatus",
+        "company": "titus",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095612687065768315",
+        "slug": "titus-768315",
+        "title": "this is the future of media generation over the past months, we built the first agent that works…",
+        "product": "titus",
+        "company": "titus",
+        "description": "this is the future of media generation over the past months, we built the first agent that works like an actual creative it's fine-tuned to research, design, and prompt like a world-class designer &amp; uses 150+ image &amp; video models sign up for beta @krea_ai",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TitusTeatus/status/2095612687065768315",
+        "tweetId": "2095612687065768315",
+        "authorName": "titus",
+        "authorHandle": "TitusTeatus",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767734101258473473/sulVOC0C.jpg",
+        "poster": "/posters/titus-768315.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095612441292161024/vid/avc1/2880x2160/sJqgmpqs5k1OhSYE.mp4",
+        "publishedAt": "2026-09-03T20:39:33.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095644094655512876",
+      "tweetId": "2095644094655512876",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:35.789Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2095644094655512876",
+        "tweetUrl": "https://x.com/TzDev_/status/2095644094655512876",
+        "authorHandle": "TzDev_",
+        "authorName": "Matthew",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999678023440777221/rPNlO7_B.jpg",
+        "text": "AI images are no longer a dead end.\n\nWe just launched Layers Studio in Adventure AI.\n\nGenerate an image → get it back as a layered PSD.\n\nYou can then:\n\n- Move and edit individual elements\n- Change the composition\n- Refine the design in Photoshop\n- Download the PSD and keep https://t.co/JynH3M1q0Y",
+        "createdAt": "2026-09-03T22:44:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095643409432158210/vid/avc1/1920x1080/NsVqrMZZffu9Qy_u.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095643409432158210/img/Wqc9AW8XKcSLUqgb.jpg",
+            "durationMs": 45371
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TzDev_",
+        "company": "Matthew",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095644094655512876",
+        "slug": "matthew-512876",
+        "title": "AI images are no longer a dead end. We just launched Layers Studio in Adventure AI. Generate an i…",
+        "product": "Matthew",
+        "company": "Matthew",
+        "description": "AI images are no longer a dead end. We just launched Layers Studio in Adventure AI. Generate an image → get it back as a layered PSD. You can then: - Move and edit individual elements - Change the composition - Refine the design in Photoshop - Download the PSD and keep",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TzDev_/status/2095644094655512876",
+        "tweetId": "2095644094655512876",
+        "authorName": "Matthew",
+        "authorHandle": "TzDev_",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999678023440777221/rPNlO7_B.jpg",
+        "poster": "/posters/matthew-512876.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095643409432158210/vid/avc1/1920x1080/NsVqrMZZffu9Qy_u.mp4",
+        "publishedAt": "2026-09-03T22:44:22.000Z",
+        "durationSeconds": 45,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095637352014135434",
+      "tweetId": "2095637352014135434",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:35.445Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b",
+        "signal:\\bavailable (?:today|now|on)\\b"
+      ],
+      "post": {
+        "tweetId": "2095637352014135434",
+        "tweetUrl": "https://x.com/giswqs/status/2095637352014135434",
+        "authorHandle": "giswqs",
+        "authorName": "Qiusheng Wu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1675849079157321728/OZIzPHGK.jpg",
+        "text": "The GeoLibre R package is now available on CRAN!\n\nhttps://t.co/lwG0VLs5vz\n\nGeoLibre already runs as a desktop app, a web app, and a Jupyter widget. Now it runs in R too. The new geolibre R package is an htmlwidgets interface that embeds the full GeoLibre GIS in the RStudio https://t.co/z8PC9oaRV1",
+        "createdAt": "2026-09-03T22:17:34.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095636607319605248/vid/avc1/2560x1440/w5-bu-kaVXpr2pEv.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095636607319605248/img/UU_pvpcwsA00Qug1.jpg",
+            "durationMs": 36733
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "giswqs",
+        "company": "Qiusheng Wu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095637352014135434",
+        "slug": "qiusheng-wu-135434",
+        "title": "The GeoLibre R package is now available on CRAN! GeoLibre already runs as a desktop app, a web ap…",
+        "product": "Qiusheng Wu",
+        "company": "Qiusheng Wu",
+        "description": "The GeoLibre R package is now available on CRAN! GeoLibre already runs as a desktop app, a web app, and a Jupyter widget. Now it runs in R too. The new geolibre R package is an htmlwidgets interface that embeds the full GeoLibre GIS in the RStudio",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/giswqs/status/2095637352014135434",
+        "tweetId": "2095637352014135434",
+        "authorName": "Qiusheng Wu",
+        "authorHandle": "giswqs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1675849079157321728/OZIzPHGK.jpg",
+        "poster": "/posters/qiusheng-wu-135434.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095636607319605248/vid/avc1/2560x1440/w5-bu-kaVXpr2pEv.mp4",
+        "publishedAt": "2026-09-03T22:17:34.000Z",
+        "durationSeconds": 37,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095582023058432213",
+      "tweetId": "2095582023058432213",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:35.096Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095582023058432213",
+        "tweetUrl": "https://x.com/rive_app/status/2095582023058432213",
+        "authorHandle": "rive_app",
+        "authorName": "Rive",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
+        "text": "GPU Canvas is now live for everyone.\n\nRive's low-level GPU layer for 3D, shaders, and custom effects is out of Early Access and in the production editor today.\n\nWrite your shaders once in WGSL. Rive compiles them for Metal, Vulkan, Direct3D, WebGPU, and WebGL. It adds 25KB to the https://t.co/PyMSaHl7iZ",
+        "createdAt": "2026-09-03T18:37:42.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
+            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2095581872751300610/pu/img/WaRzo_HPIezT1aN8.jpg",
+            "durationMs": 52066
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "rive_app",
+        "company": "Rive",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095582023058432213",
+        "slug": "rive-432213",
+        "title": "GPU Canvas is now live for everyone. Rive's low-level GPU layer for 3D, shaders, and custom effec…",
+        "product": "Rive",
+        "company": "Rive",
+        "description": "GPU Canvas is now live for everyone. Rive's low-level GPU layer for 3D, shaders, and custom effects is out of Early Access and in the production editor today. Write your shaders once in WGSL. Rive compiles them for Metal, Vulkan, Direct3D, WebGPU, and WebGL. It adds 25KB to the",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/rive_app/status/2095582023058432213",
+        "tweetId": "2095582023058432213",
+        "authorName": "Rive",
+        "authorHandle": "rive_app",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
+        "poster": "/posters/rive-432213.webp",
+        "videoUrl": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
+        "publishedAt": "2026-09-03T18:37:42.000Z",
+        "durationSeconds": 52,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095586624868409756",
+      "tweetId": "2095586624868409756",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:34.742Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095586624868409756",
+        "tweetUrl": "https://x.com/Context7AI/status/2095586624868409756",
+        "authorHandle": "Context7AI",
+        "authorName": "Context7",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1916988011189047298/L-GMiKKY.jpg",
+        "text": "Introducing Docs7 - the best way to serve documentation to agents.\n\n◆ Automatically serve clean, agent-readable docs\n◆ Native WebMCP and skills support\n◆ Deep insights into AI traffic &amp; searches\n\nWe make agents love your product 👇 https://t.co/oUKjUuOP6I",
+        "createdAt": "2026-09-03T18:56:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095586054959136769/vid/avc1/1920x1080/pD0nNX-UcepOeS2p.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095586054959136769/img/djLigY8Y3mc0UfTt.jpg",
+            "durationMs": 100500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Context7AI",
+        "company": "Context7",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095586624868409756",
+        "slug": "context7-409756",
+        "title": "Introducing Docs7 - the best way to serve documentation to agents. ◆ Automatically serve clean, a…",
+        "product": "Context7",
+        "company": "Context7",
+        "description": "Introducing Docs7 - the best way to serve documentation to agents. ◆ Automatically serve clean, agent-readable docs ◆ Native WebMCP and skills support ◆ Deep insights into AI traffic &amp; searches We make agents love your product 👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Context7AI/status/2095586624868409756",
+        "tweetId": "2095586624868409756",
+        "authorName": "Context7",
+        "authorHandle": "Context7AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1916988011189047298/L-GMiKKY.jpg",
+        "poster": "/posters/context7-409756.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095586054959136769/vid/avc1/1920x1080/pD0nNX-UcepOeS2p.mp4",
+        "publishedAt": "2026-09-03T18:56:00.000Z",
+        "durationSeconds": 101,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095590612837818397",
+      "tweetId": "2095590612837818397",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:34.394Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095590612837818397",
+        "tweetUrl": "https://x.com/preshdkumar/status/2095590612837818397",
+        "authorHandle": "preshdkumar",
+        "authorName": "presh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1650415667605282816/9ai4bVJX.jpg",
+        "text": "we just raised $1.5M for @the_wellnessco\n\ntoday we’re introducing Tempo, an AI health companion built to help you live longer.\n\nv1 is out now, try it here 📲 https://t.co/O8cUBMCVzD https://t.co/V8j8WLeuYY",
+        "createdAt": "2026-09-03T19:11:50.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095590391114276864/vid/avc1/3840x2160/hTwPIItS80c6y_dd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095590391114276864/img/iv0JKilitSNiRX_I.jpg",
+            "durationMs": 69791
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "preshdkumar",
+        "company": "presh",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095590612837818397",
+        "slug": "presh-818397",
+        "title": "we just raised $1.5M for @the_wellnessco today we’re introducing Tempo, an AI health companion bu…",
+        "product": "presh",
+        "company": "presh",
+        "description": "we just raised $1.5M for @the_wellnessco today we’re introducing Tempo, an AI health companion built to help you live longer. v1 is out now, try it here 📲",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/preshdkumar/status/2095590612837818397",
+        "tweetId": "2095590612837818397",
+        "authorName": "presh",
+        "authorHandle": "preshdkumar",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1650415667605282816/9ai4bVJX.jpg",
+        "poster": "/posters/presh-818397.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095590391114276864/vid/avc1/3840x2160/hTwPIItS80c6y_dd.mp4",
+        "publishedAt": "2026-09-03T19:11:50.000Z",
+        "durationSeconds": 70,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095595322848534793",
+      "tweetId": "2095595322848534793",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:34.053Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095595322848534793",
+        "tweetUrl": "https://x.com/shengkunye/status/2095595322848534793",
+        "authorHandle": "shengkunye",
+        "authorName": "Shengkun Ye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "text": "Introducing Claude for waterfall enrichment. \n\nYour agent can now run a waterfall across Apollo, Hunter, Clay, @PeopleDataLabs, ContactOut, and @ploid_ai through one connection. \n\nThe stack: $7,500 a year in subscriptions. \nMonid: from $0.005 per call. Pay as you go. https://t.co/UhwvrXUXDm",
+        "createdAt": "2026-09-03T19:30:33.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095594842114162688/vid/avc1/1920x1080/c0JwTGNQDa5GWI3d.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095594842114162688/img/0cdviJxAOBjP7K6t.jpg",
+            "durationMs": 64600
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shengkunye",
+        "company": "Shengkun Ye",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095595322848534793",
+        "slug": "shengkun-ye-534793",
+        "title": "Introducing Claude for waterfall enrichment. Your agent can now run a waterfall across Apollo, Hu…",
+        "product": "Shengkun Ye",
+        "company": "Shengkun Ye",
+        "description": "Introducing Claude for waterfall enrichment. Your agent can now run a waterfall across Apollo, Hunter, Clay, @PeopleDataLabs, ContactOut, and @ploid_ai through one connection. The stack: $7,500 a year in subscriptions. Monid: from $0.005 per call. Pay as you go.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shengkunye/status/2095595322848534793",
+        "tweetId": "2095595322848534793",
+        "authorName": "Shengkun Ye",
+        "authorHandle": "shengkunye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "poster": "/posters/shengkun-ye-534793.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095594842114162688/vid/avc1/1920x1080/c0JwTGNQDa5GWI3d.mp4",
+        "publishedAt": "2026-09-03T19:30:33.000Z",
+        "durationSeconds": 65,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095571660099461120",
+      "tweetId": "2095571660099461120",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:33.692Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095571660099461120",
+        "tweetUrl": "https://x.com/gsharmanyc/status/2095571660099461120",
+        "authorHandle": "gsharmanyc",
+        "authorName": "Gaurav Sharma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084715257067450368/4euzx4XG.jpg",
+        "text": "AI platforms are stealing from artists\n\n&gt; Millions spent on data centers to replicate human music\n&gt; Rarely pay the musicians they train on\n\nAI should amplify creativity, not steal from humans\n\nIntroducing Hook: the world’s first social platform for music that pays artists &amp; fans https://t.co/b3qirGRnSo",
+        "createdAt": "2026-09-03T17:56:32.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095571237645012992/vid/avc1/1920x1080/y3byAG5gzRTmzJgI.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095571237645012992/img/OjIrFbELKgzEcJZ3.jpg",
+            "durationMs": 142600
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "gsharmanyc",
+        "company": "Gaurav Sharma",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095571660099461120",
+        "slug": "gaurav-sharma-461120",
+        "title": "AI platforms are stealing from artists &gt; Millions spent on data centers to replicate human mus…",
+        "product": "Gaurav Sharma",
+        "company": "Gaurav Sharma",
+        "description": "AI platforms are stealing from artists &gt; Millions spent on data centers to replicate human music &gt; Rarely pay the musicians they train on AI should amplify creativity, not steal from humans Introducing Hook: the world’s first social platform for music that pays artists &…",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/gsharmanyc/status/2095571660099461120",
+        "tweetId": "2095571660099461120",
+        "authorName": "Gaurav Sharma",
+        "authorHandle": "gsharmanyc",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084715257067450368/4euzx4XG.jpg",
+        "poster": "/posters/gaurav-sharma-461120.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095571237645012992/vid/avc1/1920x1080/y3byAG5gzRTmzJgI.mp4",
+        "publishedAt": "2026-09-03T17:56:32.000Z",
+        "durationSeconds": 143,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095622892189106629",
+      "tweetId": "2095622892189106629",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:33.341Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095622892189106629",
+        "tweetUrl": "https://x.com/OpusClip/status/2095622892189106629",
+        "authorHandle": "OpusClip",
+        "authorName": "OpusClip",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1651470623175213057/pXxCdS5q.jpg",
+        "text": "Introducing AI Expand.\n\nEvery aspect ratio, every platform, one video. Zero cropping involved.\n\nTry now in Opus Labs. https://t.co/4NQXwFinli",
+        "createdAt": "2026-09-03T21:20:06.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095622857808351232/vid/avc1/1920x1080/m6vdyepiM3dnuwer.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095622857808351232/img/8eWP2WwJB0SlCKBE.jpg",
+            "durationMs": 35366
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpusClip",
+        "company": "OpusClip",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095622892189106629",
+        "slug": "opusclip-106629",
+        "title": "Introducing AI Expand. Every aspect ratio, every platform, one video. Zero cropping involved. Try…",
+        "product": "OpusClip",
+        "company": "OpusClip",
+        "description": "Introducing AI Expand. Every aspect ratio, every platform, one video. Zero cropping involved. Try now in Opus Labs.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpusClip/status/2095622892189106629",
+        "tweetId": "2095622892189106629",
+        "authorName": "OpusClip",
+        "authorHandle": "OpusClip",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1651470623175213057/pXxCdS5q.jpg",
+        "poster": "/posters/opusclip-106629.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095622857808351232/vid/avc1/1920x1080/m6vdyepiM3dnuwer.mp4?tag=16",
+        "publishedAt": "2026-09-03T21:20:06.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095566787752730874",
+      "tweetId": "2095566787752730874",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:32.986Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095566787752730874",
+        "tweetUrl": "https://x.com/framer/status/2095566787752730874",
+        "authorHandle": "framer",
+        "authorName": "Framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "text": "Create a few hero layout variations in seconds. Ask the Framer Agent to help with your design exploration by restacking the existing hero, same copy and styles, then drop the one you like onto the site https://t.co/SWIh7zZm3A",
+        "createdAt": "2026-09-03T17:37:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095566726952009728/vid/avc1/1920x1080/SegHkygF_Ie1EaLs.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095566726952009728/img/_Xn2g3mkAwKCEk_4.jpg",
+            "durationMs": 62505
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "framer",
+        "company": "Framer",
+        "category": "design",
+        "tags": [
+          "design",
+          "web"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095566787752730874",
+        "slug": "framer-730874",
+        "title": "Create a few hero layout variations in seconds. Ask the Framer Agent to help with your design exp…",
+        "product": "Framer",
+        "company": "Framer",
+        "description": "Create a few hero layout variations in seconds. Ask the Framer Agent to help with your design exploration by restacking the existing hero, same copy and styles, then drop the one you like onto the site",
+        "category": "design",
+        "tags": [
+          "design",
+          "web",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/framer/status/2095566787752730874",
+        "tweetId": "2095566787752730874",
+        "authorName": "Framer",
+        "authorHandle": "framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "poster": "/posters/framer-730874.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095566726952009728/vid/avc1/1920x1080/SegHkygF_Ie1EaLs.mp4?tag=16",
+        "publishedAt": "2026-09-03T17:37:10.000Z",
+        "durationSeconds": 63,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095541863956742174",
+      "tweetId": "2095541863956742174",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:32.600Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095541863956742174",
+        "tweetUrl": "https://x.com/figma/status/2095541863956742174",
+        "authorHandle": "figma",
+        "authorName": "Figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "text": "Controlling opacity, now at scale (see?)\n\nEasily apply and adjust opacity to a linked color in the variables modal without needing to detach. https://t.co/IwINQMo6kG",
+        "createdAt": "2026-09-03T15:58:08.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095531100940754944/vid/avc1/1920x1080/LRtr14fiyLJXX4YF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095531100940754944/img/HbCLHG4-7DKexpMs.jpg",
+            "durationMs": 20375
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "figma",
+        "company": "Figma",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095541863956742174",
+        "slug": "figma-742174",
+        "title": "Controlling opacity, now at scale (see?) Easily apply and adjust opacity to a linked color in the…",
+        "product": "Figma",
+        "company": "Figma",
+        "description": "Controlling opacity, now at scale (see?) Easily apply and adjust opacity to a linked color in the variables modal without needing to detach.",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/figma/status/2095541863956742174",
+        "tweetId": "2095541863956742174",
+        "authorName": "Figma",
+        "authorHandle": "figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "poster": "/posters/figma-742174.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095531100940754944/vid/avc1/1920x1080/LRtr14fiyLJXX4YF.mp4",
+        "publishedAt": "2026-09-03T15:58:08.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095528019062304828",
+      "tweetId": "2095528019062304828",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:32.258Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095528019062304828",
+        "tweetUrl": "https://x.com/GoogleDeepMind/status/2095528019062304828",
+        "authorHandle": "GoogleDeepMind",
+        "authorName": "Google DeepMind",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P.jpg",
+        "text": "By training directly on raw weather station observations, the system captures localized microclimates across typically underserved areas.\n\nIt also delivers a 5 times resolution boost in temperature forecasts - from 25km down to 5km - in a single pass. 🏔️ https://t.co/XwzRl8nAiW",
+        "createdAt": "2026-09-03T15:03:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095526720766173184/vid/avc1/2352x1322/gLDPVVi-I066B8Vy.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095526720766173184/img/gxyXKIsFqS3451yz.jpg",
+            "durationMs": 36000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "GoogleDeepMind",
+        "company": "Google DeepMind",
+        "category": "ai",
+        "tags": [
+          "deepmind",
+          "google"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095528019062304828",
+        "slug": "google-deepmind-304828",
+        "title": "By training directly on raw weather station observations, the system captures localized microclim…",
+        "product": "Google DeepMind",
+        "company": "Google DeepMind",
+        "description": "By training directly on raw weather station observations, the system captures localized microclimates across typically underserved areas. It also delivers a 5 times resolution boost in temperature forecasts - from 25km down to 5km - in a single pass. 🏔️",
+        "category": "ai",
+        "tags": [
+          "deepmind",
+          "google",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/GoogleDeepMind/status/2095528019062304828",
+        "tweetId": "2095528019062304828",
+        "authorName": "Google DeepMind",
+        "authorHandle": "GoogleDeepMind",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P.jpg",
+        "poster": "/posters/google-deepmind-304828.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095526720766173184/vid/avc1/2352x1322/gLDPVVi-I066B8Vy.mp4",
+        "publishedAt": "2026-09-03T15:03:07.000Z",
+        "durationSeconds": 36,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095529763280466295",
+      "tweetId": "2095529763280466295",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:31.908Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095529763280466295",
+        "tweetUrl": "https://x.com/Google/status/2095529763280466295",
+        "authorHandle": "Google",
+        "authorName": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "text": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and accurate global weather AI model to date. It uses real-time satellite data to generate hourly high-resolution forecasts, precise precipitation forecasting, and clean energy variables. https://t.co/0scV50lP8v",
+        "createdAt": "2026-09-03T15:10:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095529321528262656/vid/avc1/1080x1080/XHdnDkhq4ourzB4A.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095529321528262656/img/Gq4GRWxfmgj1Y7h0.jpg",
+            "durationMs": 78953
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Google",
+        "company": "Google",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095529763280466295",
+        "slug": "google-466295",
+        "title": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and a…",
+        "product": "Google",
+        "company": "Google",
+        "description": "Today, @GoogleDeepMind and @GoogleResearch are introducing WeatherNext 3, our most advanced and accurate global weather AI model to date. It uses real-time satellite data to generate hourly high-resolution forecasts, precise precipitation forecasting, and clean energy variables.",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Google/status/2095529763280466295",
+        "tweetId": "2095529763280466295",
+        "authorName": "Google",
+        "authorHandle": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "poster": "/posters/google-466295.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095529321528262656/vid/avc1/1080x1080/XHdnDkhq4ourzB4A.mp4",
+        "publishedAt": "2026-09-03T15:10:03.000Z",
+        "durationSeconds": 79,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095649775064395860",
+      "tweetId": "2095649775064395860",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:31.525Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095649775064395860",
+        "tweetUrl": "https://x.com/Tesla/status/2095649775064395860",
+        "authorHandle": "Tesla",
+        "authorName": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "text": "Cybercab is democratizing clean transportation for all https://t.co/Raz5dy2Q3Z",
+        "createdAt": "2026-09-03T23:06:56.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095649682307620864/vid/avc1/3840x2160/JIkR6C9K_e1jJ6SI.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095649682307620864/img/QZcYQgyP82SDaXLL.jpg",
+            "durationMs": 28069
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Tesla",
+        "company": "Tesla",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095649775064395860",
+        "slug": "tesla-395860",
+        "title": "Cybercab is democratizing clean transportation for all",
+        "product": "Tesla",
+        "company": "Tesla",
+        "description": "Cybercab is democratizing clean transportation for all",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Tesla/status/2095649775064395860",
+        "tweetId": "2095649775064395860",
+        "authorName": "Tesla",
+        "authorHandle": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "poster": "/posters/tesla-395860.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095649682307620864/vid/avc1/3840x2160/JIkR6C9K_e1jJ6SI.mp4",
+        "publishedAt": "2026-09-03T23:06:56.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095648795304263759",
+      "tweetId": "2095648795304263759",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:31.187Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095648795304263759",
+        "tweetUrl": "https://x.com/Tesla/status/2095648795304263759",
+        "authorHandle": "Tesla",
+        "authorName": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "text": "The future of transport is safer, more enjoyable &amp; gives you more time back\n\nWith theater, music &amp; gaming apps on a 22\" touchscreen, Cybercab offers you a space to be productive or unwind\n\nSoon to be equipped with V5 Starlink hardware, too, for complete connectivity https://t.co/e0Xhvjky0E",
+        "createdAt": "2026-09-03T23:03:02.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095648643659317251/vid/avc1/3840x2160/5xYvmK5ICiE4O_T4.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095648643659317251/img/NjIOuQk2YMHtTZ56.jpg",
+            "durationMs": 27318
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Tesla",
+        "company": "Tesla",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095648795304263759",
+        "slug": "tesla-263759",
+        "title": "The future of transport is safer, more enjoyable &amp; gives you more time back With theater, mus…",
+        "product": "Tesla",
+        "company": "Tesla",
+        "description": "The future of transport is safer, more enjoyable &amp; gives you more time back With theater, music &amp; gaming apps on a 22\" touchscreen, Cybercab offers you a space to be productive or unwind Soon to be equipped with V5 Starlink hardware, too, for complete connectivity",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Tesla/status/2095648795304263759",
+        "tweetId": "2095648795304263759",
+        "authorName": "Tesla",
+        "authorHandle": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "poster": "/posters/tesla-263759.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095648643659317251/vid/avc1/3840x2160/5xYvmK5ICiE4O_T4.mp4",
+        "publishedAt": "2026-09-03T23:03:02.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095649007397679470",
+      "tweetId": "2095649007397679470",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:30.824Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095649007397679470",
+        "tweetUrl": "https://x.com/Tesla/status/2095649007397679470",
+        "authorHandle": "Tesla",
+        "authorName": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "text": "Cybercab is designed to be a great experience for every rider https://t.co/wG0jrvJ6pX",
+        "createdAt": "2026-09-03T23:03:53.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095648925877411840/vid/avc1/3840x2160/JR1BfE_spvAYP3Zn.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095648925877411840/img/WUcpf4pTw5CLs-Vu.jpg",
+            "durationMs": 22772
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Tesla",
+        "company": "Tesla",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095649007397679470",
+        "slug": "tesla-679470",
+        "title": "Cybercab is designed to be a great experience for every rider",
+        "product": "Tesla",
+        "company": "Tesla",
+        "description": "Cybercab is designed to be a great experience for every rider",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Tesla/status/2095649007397679470",
+        "tweetId": "2095649007397679470",
+        "authorName": "Tesla",
+        "authorHandle": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "poster": "/posters/tesla-679470.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095648925877411840/vid/avc1/3840x2160/JR1BfE_spvAYP3Zn.mp4",
+        "publishedAt": "2026-09-03T23:03:53.000Z",
+        "durationSeconds": 23,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095647989637263684",
+      "tweetId": "2095647989637263684",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:30.484Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095647989637263684",
+        "tweetUrl": "https://x.com/Tesla/status/2095647989637263684",
+        "authorHandle": "Tesla",
+        "authorName": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "text": "Cybercab is engineered to be the safest car on the road https://t.co/EQMROaMk2E",
+        "createdAt": "2026-09-03T22:59:50.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095647905772408832/vid/avc1/3840x2160/_Xg6HsNQw8JSjirt.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095647905772408832/img/wnMxHrQvyupcxl-B.jpg",
+            "durationMs": 16307
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Tesla",
+        "company": "Tesla",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095647989637263684",
+        "slug": "tesla-263684",
+        "title": "Cybercab is engineered to be the safest car on the road",
+        "product": "Tesla",
+        "company": "Tesla",
+        "description": "Cybercab is engineered to be the safest car on the road",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Tesla/status/2095647989637263684",
+        "tweetId": "2095647989637263684",
+        "authorName": "Tesla",
+        "authorHandle": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "poster": "/posters/tesla-263684.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095647905772408832/vid/avc1/3840x2160/_Xg6HsNQw8JSjirt.mp4",
+        "publishedAt": "2026-09-03T22:59:50.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095588745936298039",
+      "tweetId": "2095588745936298039",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:30.146Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095588745936298039",
+        "tweetUrl": "https://x.com/Tesla/status/2095588745936298039",
+        "authorHandle": "Tesla",
+        "authorName": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "text": "The future has arrived in Austin https://t.co/RTCb0O5sez",
+        "createdAt": "2026-09-03T19:04:25.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095588472174288896/vid/avc1/3840x2160/iB84_1wch69UDGh5.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095588472174288896/img/N1btlzct-oJiaw6n.jpg",
+            "durationMs": 50837
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Tesla",
+        "company": "Tesla",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095588745936298039",
+        "slug": "tesla-298039",
+        "title": "The future has arrived in Austin",
+        "product": "Tesla",
+        "company": "Tesla",
+        "description": "The future has arrived in Austin",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Tesla/status/2095588745936298039",
+        "tweetId": "2095588745936298039",
+        "authorName": "Tesla",
+        "authorHandle": "Tesla",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n.png",
+        "poster": "/posters/tesla-298039.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095588472174288896/vid/avc1/3840x2160/iB84_1wch69UDGh5.mp4",
+        "publishedAt": "2026-09-03T19:04:25.000Z",
+        "durationSeconds": 51,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095527557924082061",
+      "tweetId": "2095527557924082061",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:29.793Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095527557924082061",
+        "tweetUrl": "https://x.com/OpenAI/status/2095527557924082061",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "https://t.co/U1TxCPDwwY",
+        "createdAt": "2026-09-03T15:01:17.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095527352113737728/vid/avc1/1920x1080/SYTfwKvJlJ7XSMkY.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095527352113737728/img/TQ2eTT6wPz2ttY2R.jpg",
+            "durationMs": 11970
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095527557924082061",
+        "slug": "openai-082061",
+        "title": "OpenAI — product launch video",
+        "product": "OpenAI",
+        "company": "OpenAI",
+        "description": "A product launch or demo video from OpenAI, discovered from X.",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2095527557924082061",
+        "tweetId": "2095527557924082061",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/openai-082061.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095527352113737728/vid/avc1/1920x1080/SYTfwKvJlJ7XSMkY.mp4",
+        "publishedAt": "2026-09-03T15:01:17.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095595741528125780",
+      "tweetId": "2095595741528125780",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-04T02:22:29.453Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095595741528125780",
+        "tweetUrl": "https://x.com/OpenAI/status/2095595741528125780",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast. https://t.co/gDd0IsewJw",
+        "createdAt": "2026-09-03T19:32:13.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg",
+            "durationMs": 162965
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095595741528125780",
+        "slug": "openai-125780",
+        "title": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
+        "product": "OpenAI",
+        "company": "OpenAI",
+        "description": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2095595741528125780",
+        "tweetId": "2095595741528125780",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/openai-125780.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4",
+        "publishedAt": "2026-09-03T19:32:13.000Z",
+        "durationSeconds": 163,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2095159754414813249",
       "tweetId": "2095159754414813249",
