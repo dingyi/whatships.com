@@ -48394,5 +48394,30 @@
     "durationSeconds": 14,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-krea-creative-agents",
+    "slug": "krea-creative-agents",
+    "title": "Krea — agents for creative work, now in beta",
+    "product": "Krea Creative Agents",
+    "company": "Krea",
+    "description": "Krea launches agents built for creative work. Beta starts today, with early access via comment or RT.",
+    "category": "ai",
+    "tags": [
+      "krea",
+      "agents",
+      "creative"
+    ],
+    "tweetUrl": "https://x.com/krea_ai/status/2095530595405475863",
+    "tweetId": "2095530595405475863",
+    "authorName": "Krea",
+    "authorHandle": "krea_ai",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
+    "poster": "/posters/krea-creative-agents.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095404874523717632/vid/avc1/1920x1080/ZJBwDnQ-k5c9ZXUj.mp4",
+    "publishedAt": "2026-09-03T15:13:21.000Z",
+    "durationSeconds": 21,
+    "featured": false,
+    "status": "published"
   }
 ]
