@@ -8,11 +8,9 @@ Add Rsquare (https://rsquare.work/) to the studios directory.
 
 - [x] Append `studio-rsquare` to `src/data/studios.json`
 - [x] Capture 1440w + 960w posters from the site OG image
-- [ ] Tests + local `/studios/` check
-- [ ] Push and open PR
+- [x] Vitest 12/78 passed; `/studios/` includes Rsquare
+- [x] PR #126
 
 ## Next steps
 
-1. `vitest run`
-2. Spot-check `/studios/`
-3. Open PR
+- Merge #126 to ship `/studios/`
