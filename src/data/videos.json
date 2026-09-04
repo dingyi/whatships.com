@@ -48368,5 +48368,31 @@
     "durationSeconds": 159,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-tldraw-flash",
+    "slug": "tldraw-flash",
+    "title": "tldraw Flash — animate hand-drawn ideas on canvas",
+    "product": "tldraw Flash",
+    "company": "tldraw",
+    "description": "tldraw Flash animates hand-drawn ideas on the infinite canvas. Draw a shape, press record, drag to perform the motion, then trim, export, and remix.",
+    "category": "design",
+    "tags": [
+      "tldraw",
+      "flash",
+      "animation",
+      "canvas"
+    ],
+    "tweetUrl": "https://x.com/tldraw/status/2095148758304743852",
+    "tweetId": "2095148758304743852",
+    "authorName": "tldraw",
+    "authorHandle": "tldraw",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
+    "poster": "/posters/tldraw-flash.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095148744996175872/vid/avc1/1056x720/bZuFzjKcE5z8pO9Z.mp4?tag=14",
+    "publishedAt": "2026-09-02T13:56:04.000Z",
+    "durationSeconds": 14,
+    "featured": false,
+    "status": "published"
   }
 ]
