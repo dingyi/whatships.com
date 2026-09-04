@@ -48444,5 +48444,31 @@
     "durationSeconds": 43,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-grok-bot-android",
+    "slug": "grok-bot-android",
+    "title": "Grok Bot — now available on Android",
+    "product": "Grok Bot",
+    "company": "xAI",
+    "studio": null,
+    "category": "ai",
+    "tags": [
+      "grok",
+      "xai",
+      "android",
+      "bots"
+    ],
+    "tweetUrl": "https://x.com/bot/status/2095168633559462197",
+    "tweetId": "2095168633559462197",
+    "handle": "bot",
+    "authorName": "Grok Bot",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095168443591090176/vid/avc1/1920x1080/aWUf8wBZTKaZ8LEU.mp4",
+    "durationSeconds": 10,
+    "poster": "/posters/grok-bot-android.webp",
+    "publishedAt": "2026-09-02T15:15:03.000Z",
+    "featured": false,
+    "status": "published"
   }
 ]
