@@ -48419,5 +48419,30 @@
     "durationSeconds": 21,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-umbrelos-2",
+    "slug": "umbrelos-2",
+    "title": "umbrelOS 2.0 — the home cloud you imagined",
+    "product": "umbrelOS 2.0",
+    "company": "Umbrel",
+    "description": "Umbrel introduces umbrelOS 2.0, the home cloud you imagined. Arrives September 22, with public beta rolling out today.",
+    "category": "consumer",
+    "tags": [
+      "umbrel",
+      "home-cloud",
+      "os"
+    ],
+    "tweetUrl": "https://x.com/umbrel/status/2095200468645675324",
+    "tweetId": "2095200468645675324",
+    "authorName": "Umbrel",
+    "authorHandle": "umbrel",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1884818283800788992/VWyXd1SF.jpg",
+    "poster": "/posters/umbrelos-2.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095200447414046720/vid/avc1/960x720/En7Cd2kt_4_Kwh5x.mp4?tag=14",
+    "publishedAt": "2026-09-02T17:21:33.000Z",
+    "durationSeconds": 43,
+    "featured": false,
+    "status": "published"
   }
 ]
