@@ -47893,5 +47893,80 @@
     "durationSeconds": 68,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-polymarket-perps",
+    "slug": "polymarket-perps",
+    "title": "Polymarket Perps — 20x leverage is live",
+    "product": "Polymarket Perps",
+    "company": "Polymarket",
+    "description": "Polymarket Perps is live with up to 20x leverage on crypto, stocks, commodities, and more. Long BTC, predict the Fed, or short the S&P reaction.",
+    "category": "consumer",
+    "tags": [
+      "polymarket",
+      "perps",
+      "trading"
+    ],
+    "tweetUrl": "https://x.com/polymarket/status/2095530373274816595",
+    "tweetId": "2095530373274816595",
+    "authorName": "Polymarket",
+    "authorHandle": "Polymarket",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU.jpg",
+    "poster": "/posters/polymarket-perps.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095529997213515780/vid/avc1/1920x1080/GVKJtz6MNfy570yD.mp4",
+    "publishedAt": "2026-09-03T15:12:28.000Z",
+    "durationSeconds": 37,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-rive-gpu-canvas",
+    "slug": "rive-gpu-canvas",
+    "title": "Rive — GPU Canvas for 3D, shaders, effects",
+    "product": "Rive GPU Canvas",
+    "company": "Rive",
+    "description": "Rive's low-level GPU layer for 3D, shaders, and custom effects is out of Early Access. Write shaders once in WGSL; Rive compiles them for Metal, Vulkan, Direct3D, WebGPU, and WebGL.",
+    "category": "design",
+    "tags": [
+      "rive",
+      "gpu",
+      "shaders"
+    ],
+    "tweetUrl": "https://x.com/rive_app/status/2095582023058432213",
+    "tweetId": "2095582023058432213",
+    "authorName": "Rive",
+    "authorHandle": "rive_app",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
+    "poster": "/posters/rive-gpu-canvas.webp",
+    "videoUrl": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
+    "publishedAt": "2026-09-03T18:37:42.000Z",
+    "durationSeconds": 52,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-unifi-whole-home-wifi",
+    "slug": "unifi-whole-home-wifi",
+    "title": "UniFi — Whole-Home WiFi with Express 7",
+    "product": "UniFi Whole-Home WiFi",
+    "company": "Ubiquiti",
+    "description": "Whole-Home WiFi by UniFi: plug-and-play 10G meshing with Multi-Link Operation, intelligent placement guidance, and expansion via additional Express 7 units.",
+    "category": "hardware",
+    "tags": [
+      "unifi",
+      "ubiquiti",
+      "wifi"
+    ],
+    "tweetUrl": "https://x.com/Ubiquiti/status/2095153222990401894",
+    "tweetId": "2095153222990401894",
+    "authorName": "Ubiquiti Inc",
+    "authorHandle": "Ubiquiti",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1610157462321254402/tMCv8T-y.png",
+    "poster": "/posters/unifi-whole-home-wifi.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095124985107132416/vid/avc1/1920x1080/SDEptQEFMrrQ3A8U.mp4",
+    "publishedAt": "2026-09-02T14:13:49.000Z",
+    "durationSeconds": 100,
+    "featured": false,
+    "status": "published"
   }
 ]
