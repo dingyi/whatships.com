@@ -47968,5 +47968,30 @@
     "durationSeconds": 100,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-helena",
+    "slug": "helena",
+    "title": "Helena — personal AI marketer on iMessage and SMS",
+    "product": "Helena",
+    "company": "Enrich Labs",
+    "description": "Helena is a personal AI marketer on iMessage and SMS. She texts when something needs attention; reply one word and she handles it. No dashboard, no app.",
+    "category": "ai",
+    "tags": [
+      "helena",
+      "imessage",
+      "marketing"
+    ],
+    "tweetUrl": "https://x.com/SeijinJung/status/2095527240695984554",
+    "tweetId": "2095527240695984554",
+    "authorName": "Seijin Jung",
+    "authorHandle": "SeijinJung",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1643038361639170050/5BDOjmuv.jpg",
+    "poster": "/posters/helena.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095406403540410368/vid/avc1/1920x1080/cVNf5K4XiNFjEae7.mp4",
+    "publishedAt": "2026-09-03T15:00:01.000Z",
+    "durationSeconds": 43,
+    "featured": false,
+    "status": "published"
   }
 ]
