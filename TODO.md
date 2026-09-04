@@ -2,15 +2,15 @@
 
 ## Goal
 
-Add the requested launch films (including Goldie) and ship to production.
+Add Rsquare (https://rsquare.work/) to the studios directory.
 
 ## Progress
 
-- [x] Replit Growth Skills and Lightreel already live from #99
-- [x] Grok Bot templates, Locus × parse.bot, Induction Labs in #100
-- [x] Add Goldie (`2093336077964554471`)
-- [ ] Push, merge #100, confirm Cloudflare deploy
+- [x] Append `studio-rsquare` to `src/data/studios.json`
+- [x] Capture 1440w + 960w posters from the site OG image
+- [x] Vitest 12/78 passed; `/studios/` includes Rsquare
+- [x] PR #126
 
 ## Next steps
 
-- Merge #100 to `main` and watch the deploy workflow
+- Merge #126 to ship `/studios/`

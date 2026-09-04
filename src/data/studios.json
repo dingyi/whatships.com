@@ -53,5 +53,15 @@
     "kind": "person",
     "xHandle": "Conrad_rd",
     "poster": "/posters/studios/conrad.webp"
+  },
+  {
+    "id": "studio-rsquare",
+    "slug": "rsquare",
+    "name": "Rsquare",
+    "tagline": "Motion-driven design studio",
+    "description": "An India-based motion studio making motion identities, product launch films, and motion-led brand experiences. Founded by Raz Gadhiya and Rishabh Gandhi. Clients include Spotify, HP, CRED, and Tata EV.",
+    "url": "https://rsquare.work/",
+    "kind": "studio",
+    "poster": "/posters/studios/rsquare.webp"
   }
 ]
