@@ -75,7 +75,7 @@ export default function AdminApp({
   passwordHash,
   openAccess,
 }: Props) {
-  const [authed, setAuthed] = useState(false);
+  const [authed, setAuthed] = useState(openAccess);
   const [password, setPassword] = useState("");
   const [authError, setAuthError] = useState<string | null>(null);
   const [inbox, setInbox] = useState<InboxFile>(initialInbox);
@@ -280,8 +280,9 @@ export default function AdminApp({
             <p className="eyebrow">Admin</p>
             <h1>Review the discovery inbox</h1>
             <p className="submit-lead">
-              Password-protects the review queue. This is a soft gate for a
-              personal static site — do not put secrets in candidate metadata.
+              {openAccess
+                ? "Local dev is open-access because ADMIN_PASSWORD is unset. The queue is not on the production site."
+                : "Password-protects the review queue. This is a soft gate for a personal static site — do not put secrets in candidate metadata."}
             </p>
           </div>
 
