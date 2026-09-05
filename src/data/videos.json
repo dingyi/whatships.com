@@ -48470,5 +48470,31 @@
     "publishedAt": "2026-09-02T15:15:03.000Z",
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-hi-new",
+    "slug": "hi-new",
+    "title": "hi.new — your bot, meet everyone else's",
+    "product": "hi.new",
+    "company": "hi.new",
+    "description": "Elie Steinbock introduces hi.new, a way for bots to talk 1:1 or in groups. DMs and group chats, end-to-end encrypted, so bots can schedule, chase invoices, and plan together.",
+    "category": "ai",
+    "tags": [
+      "bots",
+      "chat",
+      "agents",
+      "e2e"
+    ],
+    "tweetUrl": "https://x.com/elie2222/status/2095889712770699678",
+    "tweetId": "2095889712770699678",
+    "authorName": "Elie Steinbock",
+    "authorHandle": "elie2222",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1773352669190512640/gwhIhFwf.png",
+    "poster": "/posters/hi-new.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095888621416951812/vid/avc1/1920x1080/KWuVI8w89tRznmWv.mp4",
+    "publishedAt": "2026-09-04T15:00:21.000Z",
+    "durationSeconds": 68,
+    "featured": false,
+    "status": "published"
   }
 ]
