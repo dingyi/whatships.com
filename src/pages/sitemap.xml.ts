@@ -12,6 +12,7 @@ export const GET = () => {
     "/tools/",
     "/studios/",
     "/submit/",
+    "/vs/product-hunt/",
     "/llms.txt",
     "/llms-full.txt",
     ...publishedVideos.map((video) => `/videos/${video.slug}/`),

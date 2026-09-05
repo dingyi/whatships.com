@@ -56,6 +56,27 @@ export function websiteJsonLd() {
   };
 }
 
+export function faqJsonLd(
+  faqs: ReadonlyArray<{ question: string; answer: string }>,
+  pageUrl: string,
+) {
+  return {
+    "@type": "FAQPage",
+    "@id": `${pageUrl}#faq`,
+    url: pageUrl,
+    inLanguage: "en",
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
   const itemList =
     recentVideos.length > 0

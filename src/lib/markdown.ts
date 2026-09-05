@@ -27,6 +27,7 @@ import {
 } from "@/lib/site";
 import { publishedStudios, studioKindLabel } from "@/lib/studios";
 import { publishedTools, toolCategoryLabel } from "@/lib/tools";
+import { guideMarkdown, guidePath, guideTitle } from "@/lib/guide-vs-product-hunt";
 
 const RECENT_COUNT = 40;
 
@@ -70,6 +71,7 @@ export function homepageMarkdown(videos: LaunchVideo[] = publishedVideos): strin
     `- [Tools](${pageUrl("/tools/")})`,
     `- [Studios](${pageUrl("/studios/")})`,
     `- [Submit](${pageUrl("/submit/")})`,
+    `- [${guideTitle}](${pageUrl(guidePath)})`,
     `- [llms.txt](${pageUrl("/llms.txt")})`,
     `- [llms-full.txt](${pageUrl("/llms-full.txt")})`,
     `- [OpenAPI](${pageUrl("/openapi.json")})`,
@@ -379,6 +381,7 @@ export async function writeMarkdownAssets(distDir: string | URL): Promise<void> 
     ["tools/index.md", toolsMarkdown()],
     ["studios/index.md", studiosMarkdown()],
     ["submit/index.md", submitMarkdown()],
+    [guidePath.replace(/^\//, "").replace(/\/$/, "") + "/index.md", guideMarkdown()],
   ]);
   for (const video of publishedVideos) {
     files.set(`videos/${video.slug}/index.md`, videoMarkdown(video));

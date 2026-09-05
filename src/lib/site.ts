@@ -143,6 +143,26 @@ export const GEO_FAQS = [
     answer:
       "Each published page includes title, product, company, category, publish date, duration when known, tags, author handle, poster image, description, original X URL, and a stable directory URL.",
   },
+  {
+    question: "Is whatships.com free to use?",
+    answer:
+      "Yes. Browsing the catalog is free, with no paywall and no account requirement. The site does not sell directory placement or advertising.",
+  },
+  {
+    question: "Is whatships.com affiliated with X or the products shown?",
+    answer:
+      "No. whatships.com is an independent directory. Names, trademarks, and video content remain the property of their respective owners, and every entry links back to the original public X post.",
+  },
+  {
+    question: "How is whatships.com different from Product Hunt?",
+    answer:
+      "Product Hunt ranks what is launching today. whatships.com archives the launch films themselves, so you can re-watch how a product announced itself after the day is over, with product, company, category, and duration metadata for every entry.",
+  },
+  {
+    question: "How do I get an entry corrected or removed?",
+    answer:
+      "Use the Contact page to open an editorial issue referencing the video slug or the original X URL. Corrections and takedowns are handled by a human before anything changes in the catalog.",
+  },
 ] as const;
 
 export const GEO_CITATIONS = [
