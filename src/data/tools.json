@@ -573,5 +573,16 @@
     "url": "https://pikimov.com/",
     "category": "motion",
     "poster": "/posters/tools/pikimov.webp"
+  },
+  {
+    "id": "tool-codex-whiteboard-video",
+    "slug": "codex-whiteboard-video",
+    "name": "Whiteboard Video Skill",
+    "tagline": "Whiteboard videos from images, for Codex",
+    "description": "A Codex skill that turns images, SVGs, line art, or scripts into local whiteboard animation videos. Thirty built-in styles, powered by whiteboard-video-engine.",
+    "url": "https://github.com/gnipbao/codex-whiteboard-video-skill",
+    "category": "skills",
+    "poster": "/posters/tools/codex-whiteboard-video.webp",
+    "install": "npx skills add gnipbao/codex-whiteboard-video-skill"
   }
 ]
