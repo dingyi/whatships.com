@@ -1,0 +1,177 @@
+---
+import { faqJsonLd } from "@/lib/schema";
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import {
+  guideComparison,
+  guideDescription,
+  guideDefinitions,
+  guideExample,
+  guideFaqs,
+  guideFit,
+  guideLead,
+  guideNumbers,
+  guidePath,
+  guideScope,
+  guideShortcomings,
+  guideSources,
+  guideSteps,
+  guideTitle,
+} from "@/lib/guide-vs-product-hunt";
+import { SITE_URL } from "@/lib/site";
+
+const site = Astro.site ?? SITE_URL;
+const pageUrl = new URL(guidePath, site).toString();
+---
+
+<BaseLayout title={`${guideTitle}`} description={guideDescription}>
+  <PageHeader client:idle />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(faqJsonLd(guideFaqs, pageUrl))}
+  />
+  <main class="about-page guide-page">
+    <div class="about-content">
+      <div class="about-intro">
+        <h1>{guideTitle}</h1>
+        <p class="about-lead">{guideLead}</p>
+      </div>
+
+      <section>
+        <h2>What each one is</h2>
+        {
+          guideDefinitions.map((item) => (
+            <div class="guide-definition">
+              <h3>{item.name}</h3>
+              <p>{item.definition}</p>
+            </div>
+          ))
+        }
+      </section>
+
+      <section>
+        <h2>Key numbers</h2>
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th scope="col">Fact</th>
+              <th scope="col">Value</th>
+              <th scope="col">Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              guideNumbers.map((item) => (
+                <tr>
+                  <td>{item.fact}</td>
+                  <td>{item.value}</td>
+                  <td>{item.source}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Side-by-side comparison</h2>
+        <table class="guide-table">
+          <thead>
+            <tr>
+              {guideComparison.columns.map((column) => <th scope="col">{column}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {
+              guideComparison.rows.map((row) => (
+                <tr>
+                  {row.map((cell) => <td>{cell}</td>)}
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>How to use both together</h2>
+        <ol class="guide-steps">
+          {guideSteps.map((step) => <li>{step}</li>)}
+        </ol>
+      </section>
+
+      <section>
+        <h2>{guideExample.heading}</h2>
+        {guideExample.body.map((paragraph) => <p>{paragraph}</p>)}
+      </section>
+
+      <section>
+        <h2>Scope and method</h2>
+        <p>{guideScope}</p>
+      </section>
+
+      <section>
+        <h2>Where each falls short</h2>
+        <div class="guide-definition">
+          <h3>Product Hunt</h3>
+          <ul>
+            {guideShortcomings.productHunt.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+        <div class="guide-definition">
+          <h3>WhatShips</h3>
+          <ul>
+            {guideShortcomings.whatships.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Who should use which</h2>
+        <div class="guide-definition">
+          <h3>WhatShips fits</h3>
+          <ul>
+            {guideFit.suitable.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+        <div class="guide-definition">
+          <h3>Not a fit</h3>
+          <ul>
+            {guideFit.unsuitable.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-faq">
+        <h2>Frequently asked questions</h2>
+        <dl>
+          {
+            guideFaqs.map((faq) => (
+              <div>
+                <dt>{faq.question}</dt>
+                <dd>{faq.answer}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </section>
+
+      <section>
+        <h2>Sources</h2>
+        <ul class="guide-sources">
+          {
+            guideSources.map((item) => (
+              <li>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                  {item.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+  </main>
+  <SiteFooter />
+</BaseLayout>

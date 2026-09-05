@@ -53,6 +53,37 @@ const similarVideos = getSimilarVideos(video);
 const duration = formatDuration(video.durationSeconds);
 const handle = video.authorHandle.replace(/^@/, "");
 const tweetUrl = normalizeTweetUrl(video.tweetUrl);
+const categoryLabelLower = categoryLabel(video.category).toLowerCase();
+const categoryCount = publishedVideos.filter(
+  (candidate) => candidate.category === video.category,
+).length;
+const possessiveCompany = video.company ? `${video.company}'s ` : "";
+
+// Extractable definition block: identity sentence the catalog can back up.
+const definition = [
+  `${video.product} is ${possessiveCompany}${categoryLabelLower} ${
+    video.category === "motion" ? "film" : "launch film"
+  }, posted on X by @${handle} on ${formatPublishedAt(video.publishedAt)}.`,
+  duration
+    ? `The ${duration} film is archived here as entry ${positionLabel} of ${totalLabel} in the whatships.com catalog, with a durable link back to the original X post.`
+    : `It is archived here as entry ${positionLabel} of ${totalLabel} in the whatships.com catalog, with a durable link back to the original X post.`,
+].join(" ");
+
+const entryFaqs = [
+  {
+    question: `What is ${video.product}?`,
+    answer: definition,
+  },
+  {
+    question: `When did ${video.product} launch?`,
+    answer: `${formatPublishedAt(video.publishedAt)} — the film was posted on X by @${handle}.`,
+  },
+  {
+    question: `Where can I watch ${video.product}'s launch video?`,
+    answer:
+      'On this page: the player at the top streams the film, and the original post is linked under "Original → View on X".',
+  },
+];
 
 // VideoObject structured data for video rich results.
 const site = Astro.site ?? SITE_URL;
@@ -127,6 +158,21 @@ const videoJsonLd = {
       isPartOf: { "@id": `${pageUrl}#webpage` },
       keywords: video.tags.join(", "),
       citation: tweetUrl,
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${pageUrl}#faq`,
+      url: pageUrl,
+      inLanguage: "en",
+      isPartOf: { "@id": `${pageUrl}#webpage` },
+      mainEntity: entryFaqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
     },
   ],
 };
@@ -282,6 +328,102 @@ const videoJsonLd = {
         }
       </dl>
     </article>
+
+    <section class="detail-insights" aria-label="Details about this launch">
+      <div class="insight">
+        <h2>What is {video.product}?</h2>
+        <p>{definition}</p>
+      </div>
+      <div class="insight">
+        <h2>This launch by the numbers</h2>
+        <ul>
+          <li>
+            <strong>Posted</strong> {formatPublishedAt(video.publishedAt)} on
+            X by @{handle}
+          </li>
+          {
+            duration && (
+              <li>
+                <strong>Runtime</strong> {duration}
+              </li>
+            )
+          }
+          <li>
+            <strong>Entry</strong> {positionLabel} of {totalLabel} in the
+            catalog
+          </li>
+          <li>
+            <strong>Peers</strong> {categoryCount} launches indexed in{" "}
+            {categoryLabel(video.category)}
+          </li>
+        </ul>
+      </div>
+      <div class="insight">
+        <h2>On the X timeline vs. whatships.com</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">On the X timeline</th>
+              <th scope="col">On whatships.com</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sinks below newer posts within hours</td>
+              <td>Stable page that stays findable</td>
+            </tr>
+            <tr>
+              <td>Post text and replies</td>
+              <td>Product, company, category, duration, and tags</td>
+            </tr>
+            <tr>
+              <td>Scattered across accounts and algorithms</td>
+              <td>{categoryCount} {categoryLabel(video.category)} launches linked below</td>
+            </tr>
+            <tr>
+              <td>Post URL only</td>
+              <td>Directory entry plus the original post URL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="insight">
+        <h2>How to study this launch</h2>
+        <ol>
+          <li>
+            Watch the {duration ? `${duration} film` : "film"} top to bottom —
+            note the opening hook and the payoff shot.
+          </li>
+          <li>
+            Read the About line and tags to see what {video.product} actually
+            ships.
+          </li>
+          <li>
+            Open the <a href={tweetUrl} target="_blank" rel="noopener noreferrer">original X post</a>
+            to read the launch-day conversation as it happened.
+          </li>
+          <li>
+            Compare with the {categoryLabel(video.category)} launches linked
+            below, or browse the{" "}
+            <a href="/studios/">studios directory</a> for the people who made
+            the film.
+          </li>
+        </ol>
+      </div>
+      <div class="insight">
+        <h2>Frequently asked questions</h2>
+        <dl class="insight-faq">
+          {
+            entryFaqs.map((faq) => (
+              <div>
+                <dt>{faq.question}</dt>
+                <dd>{faq.answer}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+    </section>
 
     <section class="similar-videos" aria-labelledby="similar-videos-title">
       <h2 id="similar-videos-title">

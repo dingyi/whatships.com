@@ -44,6 +44,7 @@ for the original post.
   and what it does not.
 - [Terms](https://whatships.com/terms/): how the catalog may be used.
 - [Submit](https://whatships.com/submit/): propose a launch video, tool, studio, or designer for review.
+- [WhatShips vs Product Hunt](https://whatships.com/vs/product-hunt/): factual comparison for finding and studying launch videos.
 - [Sitemap](https://whatships.com/sitemap.xml): every indexable page.
 
 ## Developer resources

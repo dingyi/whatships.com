@@ -1,7 +1,12 @@
 ---
+import { faqJsonLd } from "@/lib/schema";
+import { SITE_URL, GEO_FAQS } from "@/lib/site";
 import PageHeader from "@/components/PageHeader";
 import SiteFooter from "@/components/SiteFooter.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+
+const site = Astro.site ?? SITE_URL;
+const pageUrl = new URL("/about/", site).toString();
 ---
 
 <BaseLayout
@@ -9,6 +14,10 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
   description="How whatships.com collects, curates, and presents startup launch videos from X, with original-post citations and no paid placement in the catalog."
 >
   <PageHeader active="about" client:idle />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(faqJsonLd(GEO_FAQS, pageUrl))}
+  />
   <main class="about-page">
     <div class="about-content">
       <div class="about-intro">
@@ -65,6 +74,19 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
           <a href="/developers/">whatships.com developer resources</a> and{" "}
           <a href="/llms.txt">llms.txt</a>.
         </p>
+      </section>
+      <section class="about-faq">
+        <h2>Frequently asked questions</h2>
+        <dl>
+          {
+            GEO_FAQS.map((faq) => (
+              <div>
+                <dt>{faq.question}</dt>
+                <dd>{faq.answer}</dd>
+              </div>
+            ))
+          }
+        </dl>
       </section>
     </div>
   </main>
