@@ -48496,5 +48496,81 @@
     "durationSeconds": 68,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-unifi-ecs",
+    "slug": "unifi-ecs",
+    "title": "UniFi ECS — next-gen enterprise networking",
+    "product": "UniFi ECS",
+    "company": "Ubiquiti",
+    "description": "Ubiquiti introduces next-gen UniFi enterprise networking: ECS Core with 3.2 Tbps non-blocking performance, ECS S Gen 2 stacking, high-power PoE, hardware-accelerated MACsec, and rebuilt MC-LAG. License-free.",
+    "category": "hardware",
+    "tags": [
+      "unifi",
+      "ubiquiti",
+      "enterprise",
+      "networking"
+    ],
+    "tweetUrl": "https://x.com/Ubiquiti/status/2095505445956034616",
+    "tweetId": "2095505445956034616",
+    "authorName": "Ubiquiti Inc",
+    "authorHandle": "Ubiquiti",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1610157462321254402/tMCv8T-y.png",
+    "poster": "/posters/unifi-ecs.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2094649765367853056/vid/avc1/1920x1080/7i1sqFjmTGuUj0fu.mp4",
+    "publishedAt": "2026-09-03T13:33:25.000Z",
+    "durationSeconds": 100,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-notion-dock",
+    "slug": "notion-dock",
+    "title": "Notion — the backbone of your dock",
+    "product": "Notion",
+    "company": "Notion",
+    "description": "Notion positions itself as the backbone of your dock — a brand film of the Notion icon among everyday apps, ending on “Works with everything.”",
+    "category": "productivity",
+    "tags": [
+      "notion",
+      "desktop",
+      "brand"
+    ],
+    "tweetUrl": "https://x.com/NotionHQ/status/2096007171582382382",
+    "tweetId": "2096007171582382382",
+    "authorName": "Notion",
+    "authorHandle": "NotionHQ",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+    "poster": "/posters/notion-dock.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2096006909119627266/vid/avc1/1920x1080/TjzNdgip_8bWZYeQ.mp4",
+    "publishedAt": "2026-09-04T22:47:06.000Z",
+    "durationSeconds": 19,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-apple-wonderful-tools",
+    "slug": "apple-wonderful-tools",
+    "title": "Apple — give people wonderful tools",
+    "product": "Apple motion film",
+    "company": "Apple",
+    "description": "Ilya Miskov shares an Apple motion film — abstract, precise rings and type, closing on “Give people wonderful tools.”",
+    "category": "motion",
+    "tags": [
+      "apple",
+      "motion",
+      "design"
+    ],
+    "tweetUrl": "https://x.com/ilyamiskov/status/2095655279820001767",
+    "tweetId": "2095655279820001767",
+    "authorName": "Ilya Miskov",
+    "authorHandle": "ilyamiskov",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2003225762371948545/JXTEDtQ9.jpg",
+    "poster": "/posters/apple-wonderful-tools.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2095655189172695040/vid/avc1/1920x1080/_rSnrdbjj_KW2OyJ.mp4",
+    "publishedAt": "2026-09-03T23:28:48.000Z",
+    "durationSeconds": 107,
+    "featured": false,
+    "status": "published"
   }
 ]
