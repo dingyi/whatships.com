@@ -14,9 +14,9 @@
 - **推文**：https://x.com/higgsfield/status/2096010888495108234
 - **发布时间**：2026-09-04 23:01 UTC
 - **视频时长**：约 59 秒
-- **互动**：173 likes / 57 reposts / 3 quotes / 73 bookmarks / 1 万+ views
+- **互动**：175 likes / 57 reposts / 3 quotes / 73 bookmarks / 1 万+ views
 - **产品**：Higgsfield 3D Jutsu（powered by GPT-6 Astra）
-- **中文总结**：Higgsfield 正式上线 3D Jutsu：单 prompt 生成完整可编辑、可交互的 3D 世界，支持几何、布局与细节控制，可用自然语言即时 refining。官方约 59 秒演示清晰展示从文本到 3D 场景的完整流程，是 AI 创意工具把「3D 世界生成」产品化的高信号功能发布。现已 live。
+- **中文总结**：Higgsfield 正式上线 3D Jutsu：单 prompt 生成完整可编辑、可交互的 3D 世界，支持几何、布局与细节控制，可用自然语言即时 refine。官方约 59 秒演示清晰展示从文本到 3D 场景的完整流程，是 AI 创意工具把「3D 世界生成」产品化的高信号功能发布。现已 live。
 
 ---
 
@@ -26,7 +26,7 @@
 - **推文**：https://x.com/GoogleAIStudio/status/2095905336393605624
 - **发布时间**：2026-09-04 16:02 UTC
 - **视频时长**：约 156 秒
-- **互动**：2245 likes / 192 reposts / 93 quotes / 1230 bookmarks / 57 万+ views
+- **互动**：2247 likes / 192 reposts / 93 quotes / 1232 bookmarks / 57 万+ views
 - **产品**：Lyria 3.5
 - **中文总结**：Google 发布迄今最佳听感的音乐生成模型 Lyria 3.5，即日起在 AI Studio、Gemini API 与 Gemini App 可用。强调更富表现力的人声与更丰富的编曲，支持模板快速启动、短/长曲目选择、人声/器乐风格。官方长视频完整演示能力与使用场景，是平台级 AI 音乐能力的高浏览发布。Google 主账号同步：https://x.com/Google/status/2095905262229995736。
 
@@ -44,19 +44,32 @@
 
 ---
 
-## 4. OpenAI Developers — GPT-6 Astra 官方长演示（AI）
+## 4. GitHub HydraFusion — Copilot CLI 实验性多模型编排（开发者工具 / AI）
 
-- **作者**：OpenAI Developers (@OpenAIDevs)
-- **推文**：https://x.com/OpenAIDevs/status/2095978095379673102
-- **发布时间**：2026-09-04 20:51 UTC
-- **视频时长**：约 203 秒
-- **互动**：1971 likes / 128 reposts / 16 quotes / 383 bookmarks / 7.5 万+ views
-- **产品**：GPT-6 Astra
-- **中文总结**：OpenAI 开发者账号放出 GPT-6 Astra 官方长演示（约 3 分半）：构建复杂长运行 agent、更少返工解决工程问题、生成设计良好的功能界面、更有信心处理难题。强调 computer use、异步 tool calling 与 mid-response steering。是 Astra 发布后最完整的官方能力展示片，适合与 09-03/09-04 的主发布片互补入库。
+- **作者**：GitHub (@github)
+- **推文**：https://x.com/github/status/2095907113201496216
+- **视频回复**：https://x.com/github/status/2095907115143459174
+- **发布时间**：2026-09-04 16:09 UTC
+- **视频时长**：约 94 秒
+- **互动**：主帖 280 likes / 38 reposts / 98 bookmarks / 5 万+ views；视频回复 10 likes
+- **产品**：Project HydraFusion
+- **中文总结**：GitHub 发布 HydraFusion：按任务编排模型与工作流，像选模型一样使用。控制测试称在 Terminal-Bench 2.1 上比 Claude Opus 5 验证任务质量高 4.9 个百分点、预估成本低 67%。现可在 Copilot CLI 的 `/experimental` 使用。约 94 秒视频是开发者工具把「多模型编排」产品化的实验性发布。
 
 ---
 
-## 5. Notion × GPT-6 Astra — 模型现已可用（生产力 / AI）
+## 5. Runway Team Plan — 小团队自助服务套餐（AI / 创意工具）
+
+- **作者**：Runway (@runwayml)
+- **推文**：https://x.com/runwayml/status/2095918249674215599
+- **发布时间**：2026-09-04 16:53 UTC
+- **视频时长**：约 35 秒
+- **互动**：58 likes / 4 reposts / 6 quotes / 8 bookmarks / 1 万+ views
+- **产品**：Runway Team Plan
+- **中文总结**：Runway 正式推出面向 2–9 席小企业的自助 Team Plan：共享积分池、共享项目、评论、agent skills 与 Agent Connectors。官方约 35 秒视频讲清套餐边界，是创意 AI 平台把「团队协作」做成可购买产品的发布。
+
+---
+
+## 6. Notion × GPT-6 Astra — 模型现已可用（生产力 / AI）
 
 - **作者**：Notion (@NotionHQ)
 - **推文**：https://x.com/NotionHQ/status/2095994265323126785
@@ -68,7 +81,7 @@
 
 ---
 
-## 6. Notion MCP — Custom Agents 可加入对话（生产力 / AI）
+## 7. Notion MCP — Custom Agents 可加入对话（生产力 / AI）
 
 - **作者**：Notion (@NotionHQ)
 - **推文**：https://x.com/NotionHQ/status/2095923091134206448
@@ -76,11 +89,11 @@
 - **视频时长**：约 25 秒
 - **互动**：438 likes / 20 reposts / 10 quotes / 236 bookmarks / 3.7 万+ views
 - **产品**：Notion MCP Custom Agent session tools
-- **中文总结**：MCP 更新：通过 MCP 把 Notion 连到 ChatGPT / Claude / Grok Bot 后，可在同一对话中直接与任何有权限的 Custom Agent 聊天。约 25 秒官方演示 + 高收藏比，是「Agent 与工作空间深度融合」方向的实用功能发布。开发者文档同步更新。
+- **中文总结**：MCP 更新：通过 MCP 把 Notion 连到 ChatGPT / Claude / Grok Bot 后，可在同一对话中直接与任何有权限的 Custom Agent 聊天。约 25 秒官方演示 + 高收藏比，是「Agent 与工作空间深度融合」方向的实用功能发布。
 
 ---
 
-## 7. Linear Loops — 支持指定星期几运行（生产力）
+## 8. Linear Loops — 支持指定星期几运行（生产力）
 
 - **作者**：Linear (@linear)
 - **推文**：https://x.com/linear/status/2095878994503606274
@@ -92,7 +105,20 @@
 
 ---
 
-## 8. Laravel Cloud — 缺失 package 部署前警告（开发者工具）
+## 9. Grok Bot Marketplace — 模板市场 + Haggle Bot（AI / 生产力）
+
+- **作者**：Grok Bot (@bot) 官方为图；带视频覆盖 Sawyer Merritt (@SawyerMerritt)
+- **官方帖**：https://x.com/bot/status/2095954887205138597（图片，非视频）
+- **视频帖**：https://x.com/SawyerMerritt/status/2095961467359006822
+- **发布时间**：2026-09-04 19:19 UTC（官方）/ 19:45 UTC（视频覆盖）
+- **视频时长**：约 16 秒
+- **互动**：官方 3142 likes / 268 reposts / 1810 bookmarks / 918 万+ views；视频帖 787 likes / 380 bookmarks / 5.3 万 views
+- **产品**：Grok Bot Marketplace / Haggle Bot
+- **中文总结**：Grok Bot 正式上线模板市场：可从市场加入模板。首个公开案例是内部采购专家 Haggle Bot（谈判合同、找闲置 SaaS 席位、核对周期采购），声称一周省下 $10 万+。官方主帖是图片；建议以 Sawyer Merritt 的约 16 秒浏览视频作为可播放条目，或等待官方补充演示片。市场：https://x.ai/bot/marketplace/personal
+
+---
+
+## 10. Laravel Cloud — 缺失 package 部署前警告（开发者工具）
 
 - **作者**：Jason Beggs (@jasonlbeggs，Laravel Design Engineering Lead)
 - **推文**：https://x.com/jasonlbeggs/status/2095912569202479322
@@ -104,7 +130,7 @@
 
 ---
 
-## 9. IsoHome Wi-Fi Signal Visual — 3D 平面图实时信号可视化（设计 / 开发者工具）
+## 11. IsoHome Wi-Fi Signal Visual — 3D 平面图实时信号可视化（设计 / 开发者工具）
 
 - **作者**：Siyu Hu (@siyuhuh)
 - **推文**：https://x.com/siyuhuh/status/2095713887631110442
@@ -116,7 +142,7 @@
 
 ---
 
-## 10. Perceptron Multilook API — 一视频多答案、更便宜更快（AI / 开发者工具）
+## 12. Perceptron Multilook API — 一视频多答案、更便宜更快（AI / 开发者工具）
 
 - **作者**：Perceptron AI (@perceptroninc)
 - **推文**：https://x.com/perceptroninc/status/2095943854587535708
@@ -128,7 +154,7 @@
 
 ---
 
-## 11. VoxFlight — 多语言活动实时翻译（独立开发者）
+## 13. VoxFlight — 多语言活动实时翻译（独立开发者）
 
 - **作者**：tai_code (@tai_code)
 - **推文**：https://x.com/tai_code/status/2096028391464218838
@@ -140,10 +166,22 @@
 
 ---
 
+## 14. Nous Portal × GPT-6 Astra — 网关接入 + 8 折（AI）
+
+- **作者**：Nous Research (@NousResearch)
+- **推文**：https://x.com/NousResearch/status/2096011830611026277
+- **发布时间**：2026-09-04 23:05 UTC
+- **视频时长**：约 16 秒
+- **互动**：312 likes / 27 reposts / 9 quotes / 26 bookmarks / 2.1 万+ views
+- **产品**：Nous Portal × GPT-6 Astra
+- **中文总结**：Nous Portal 宣布 GPT-6 Astra 现已可用并打 8 折。短视频更像接入宣布而非完整产品演示，信号中等，可作为 Astra 生态接入线的补充候选。
+
+---
+
 ## 备注
 
 - 全部来自 Grok 内置 X 搜索，未使用任何外部 API 或 X 付费接口。
 - 已跳过 09-04 文档已收录的 GPT-6 Astra 主发布、Tesla Cybercab 系列、WeatherNext 3、Figma Variables opacity、Framer Agent、OpusClip AI Expand、Hook Music、Monid、Tempo、Docs7、Rive GPU Canvas、GeoLibre、Layers Studio、Krea AI Agent 等。
-- 已过滤：纯代币/空投、vTuber 模型 debut、体育/游戏 DLC、加密新闻汇总、Claude Academy 二手转发、CrowdStrike SafeMind 新闻剪辑、Anthropic Fermat’s Last Theorem 研究成就（非产品功能发布）。
+- 已过滤：纯代币/空投、vTuber 模型 debut、体育/游戏 DLC、加密新闻汇总、CrowdStrike SafeMind 新闻剪辑（NVIDIA 原片在 09-01）、Anthropic Fermat’s Last Theorem 研究成就（非产品功能发布）、Higgsfield SIGGRAPH 流水线案例片。
 - 建议人工审核后合并到 `src/data/videos.json`，或运行 `node scripts/rebuild-inbox.mjs --from discoveries/2026-09-05-product-launch-videos.md`。
 - 日期：2026-09-05（查询当日，覆盖 09-04 全天至 09-05 凌晨 CST）。
