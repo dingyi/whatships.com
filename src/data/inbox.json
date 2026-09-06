@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-06T02:51:25.017Z",
+  "updatedAt": "2026-09-06T07:09:42.415Z",
   "items": [
     {
       "id": "disc-2096010888495108234",
       "tweetId": "2096010888495108234",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:51:25.016Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:58:14.902Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -65,9 +65,9 @@
     {
       "id": "disc-2095947707605266436",
       "tweetId": "2095947707605266436",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:34.400Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:54.434Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -129,9 +129,9 @@
     {
       "id": "disc-2096090209679286750",
       "tweetId": "2096090209679286750",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:34.043Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:04:14.201Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -190,9 +190,9 @@
     {
       "id": "disc-2096324102231310835",
       "tweetId": "2096324102231310835",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:33.672Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:06:45.661Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -250,9 +250,9 @@
     {
       "id": "disc-2096231435443273917",
       "tweetId": "2096231435443273917",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:33.343Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:02:22.565Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -310,9 +310,9 @@
     {
       "id": "disc-2096321343880896983",
       "tweetId": "2096321343880896983",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:33.005Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:02:18.893Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -370,9 +370,9 @@
     {
       "id": "disc-2096332765751050506",
       "tweetId": "2096332765751050506",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:32.619Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:04:55.431Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -429,71 +429,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096324927410626751",
-      "tweetId": "2096324927410626751",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:32.282Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2096324927410626751",
-        "tweetUrl": "https://x.com/njpatel/status/2096324927410626751",
-        "authorHandle": "njpatel",
-        "authorName": "Neil Jagdish Patel",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1964359746527297536/pc54tbtS.jpg",
-        "text": "Introducing Omapager, a notification plugin for @OmarchyLinux:\n▪ One stack per source\n▪ One click copies codes, links, numbers\n▪ Reply/act from from the card\n▪ Snooze a source or everything; codes still come through\n▪ See exactly what you missed\n→ https://t.co/rZX1NJjJNN https://t.co/itZf3xEfnD",
-        "createdAt": "2026-09-05T19:49:45.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096305032690085888/vid/avc1/590x720/X7_Tkx39eg_7H1Q4.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096305032690085888/img/lxjqL6vcbNauL7EB.jpg",
-            "durationMs": 50400
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "njpatel",
-        "company": "Neil Jagdish Patel",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096324927410626751",
-        "slug": "neil-jagdish-patel-626751",
-        "title": "Introducing Omapager, a notification plugin for @OmarchyLinux: ▪ One stack per source ▪ One click…",
-        "product": "Neil Jagdish Patel",
-        "company": "Neil Jagdish Patel",
-        "description": "Introducing Omapager, a notification plugin for @OmarchyLinux: ▪ One stack per source ▪ One click copies codes, links, numbers ▪ Reply/act from from the card ▪ Snooze a source or everything; codes still come through ▪ See exactly what you missed →",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/njpatel/status/2096324927410626751",
-        "tweetId": "2096324927410626751",
-        "authorName": "Neil Jagdish Patel",
-        "authorHandle": "njpatel",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1964359746527297536/pc54tbtS.jpg",
-        "poster": "/posters/neil-jagdish-patel-626751.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096305032690085888/vid/avc1/590x720/X7_Tkx39eg_7H1Q4.mp4",
-        "publishedAt": "2026-09-05T19:49:45.000Z",
-        "durationSeconds": 50,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096052993166544914",
       "tweetId": "2096052993166544914",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:31.948Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:58:51.071Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -549,75 +489,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096348921643913661",
-      "tweetId": "2096348921643913661",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:31.616Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2096348921643913661",
-        "tweetUrl": "https://x.com/framer/status/2096348921643913661",
-        "authorHandle": "framer",
-        "authorName": "Framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "text": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask the Framer Agent to handle the rest, adjusting layouts, spacing, and components across every screen size. https://t.co/iLvEo5rsbj",
-        "createdAt": "2026-09-05T21:25:05.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096348870011928576/vid/avc1/1920x1080/KbMUsDCg6Ufrb3k5.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096348870011928576/img/8ZFkJnCmm933X2sH.jpg",
-            "durationMs": 47401
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "framer",
-        "company": "Framer",
-        "category": "design",
-        "tags": [
-          "design",
-          "web"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2096348921643913661",
-        "slug": "framer-913661",
-        "title": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask th…",
-        "product": "Framer",
-        "company": "Framer",
-        "description": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask the Framer Agent to handle the rest, adjusting layouts, spacing, and components across every screen size.",
-        "category": "design",
-        "tags": [
-          "design",
-          "web",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/framer/status/2096348921643913661",
-        "tweetId": "2096348921643913661",
-        "authorName": "Framer",
-        "authorHandle": "framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "poster": "/posters/framer-913661.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096348870011928576/vid/avc1/1920x1080/KbMUsDCg6Ufrb3k5.mp4?tag=16",
-        "publishedAt": "2026-09-05T21:25:05.000Z",
-        "durationSeconds": 47,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096054560062402610",
       "tweetId": "2096054560062402610",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:31.287Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:58:55.827Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -679,9 +555,9 @@
     {
       "id": "disc-2096266862124519442",
       "tweetId": "2096266862124519442",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:30.956Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:01:45.434Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -730,126 +606,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2096265666471022592/vid/avc1/1648x1080/hRiCndOQu7MOhRez.mp4",
         "publishedAt": "2026-09-05T15:59:01.000Z",
         "durationSeconds": 118,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2096298105213952178",
-      "tweetId": "2096298105213952178",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:30.621Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2096298105213952178",
-        "tweetUrl": "https://x.com/grok/status/2096298105213952178",
-        "authorHandle": "grok",
-        "authorName": "Grok",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
-        "text": "Grok Imagine Video 1.5 agent is now available.\n\nPowered by our newest Image 2.0 model, it delivers higher quality, better storytelling from a smarter agent and excels at connecting multiple shots together with greater continuity. https://t.co/Xbu0a2THbS",
-        "createdAt": "2026-09-05T18:03:10.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096297756637978624/vid/avc1/3840x2156/NEmGdFMw9o7KsIjE.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096297756637978624/img/NTvU-EyY_TJqir8j.jpg",
-            "durationMs": 11136
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "grok",
-        "company": "Grok",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096298105213952178",
-        "slug": "grok-952178",
-        "title": "Grok Imagine Video 1.5 agent is now available. Powered by our newest Image 2.0 model, it delivers…",
-        "product": "Grok",
-        "company": "Grok",
-        "description": "Grok Imagine Video 1.5 agent is now available. Powered by our newest Image 2.0 model, it delivers higher quality, better storytelling from a smarter agent and excels at connecting multiple shots together with greater continuity.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/grok/status/2096298105213952178",
-        "tweetId": "2096298105213952178",
-        "authorName": "Grok",
-        "authorHandle": "grok",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
-        "poster": "/posters/grok-952178.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096297756637978624/vid/avc1/3840x2156/NEmGdFMw9o7KsIjE.mp4",
-        "publishedAt": "2026-09-05T18:03:10.000Z",
-        "durationSeconds": 11,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2095512392218345682",
-      "tweetId": "2095512392218345682",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:30.286Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2095512392218345682",
-        "tweetUrl": "https://x.com/HapStudioApp/status/2095512392218345682",
-        "authorHandle": "HapStudioApp",
-        "authorName": "HAP",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082386776581361664/tHRE2kui.jpg",
-        "text": "HAP is now live. ⚡️🫨\n\nA new way to design haptics.\n\nHaptics for everyone. https://t.co/9DyQpAM1Eq",
-        "createdAt": "2026-09-03T14:01:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095512355572686848/vid/avc1/1920x1080/ilcL7-DsybMRGeAp.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095512355572686848/img/AlEoCgEOaduaB8Fh.jpg",
-            "durationMs": 56840
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "HapStudioApp",
-        "company": "HAP",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095512392218345682",
-        "slug": "hap-345682",
-        "title": "HAP is now live. ⚡️🫨 A new way to design haptics. Haptics for everyone.",
-        "product": "HAP",
-        "company": "HAP",
-        "description": "HAP is now live. ⚡️🫨 A new way to design haptics. Haptics for everyone.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/HapStudioApp/status/2095512392218345682",
-        "tweetId": "2095512392218345682",
-        "authorName": "HAP",
-        "authorHandle": "HapStudioApp",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082386776581361664/tHRE2kui.jpg",
-        "poster": "/posters/hap-345682.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095512355572686848/vid/avc1/1920x1080/ilcL7-DsybMRGeAp.mp4",
-        "publishedAt": "2026-09-03T14:01:01.000Z",
-        "durationSeconds": 57,
         "featured": false,
         "status": "draft"
       },
@@ -919,9 +675,9 @@
     {
       "id": "disc-2095958964387324226",
       "tweetId": "2095958964387324226",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:29.619Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:58:41.384Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -978,71 +734,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2095969982811435368",
-      "tweetId": "2095969982811435368",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:29.285Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2095969982811435368",
-        "tweetUrl": "https://x.com/shengkunye/status/2095969982811435368",
-        "authorHandle": "shengkunye",
-        "authorName": "Shengkun Ye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "text": "Introducing Astra for SEO.\n\nYour agent can now automate SEO from Claude and Codex. \n\nBacklinks, keywords, traffic, and AI answer citations. Any site. \n\nSimilarweb: $399 a month, no API access. \n@MonidHQ: $0.13 per request, agent-ready, pay as you go. https://t.co/hQa2OjYDkM",
-        "createdAt": "2026-09-04T20:19:19.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2095968172893765632/vid/avc1/1920x1080/kXf9ECXFgDltmwEm.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095968172893765632/img/qIxND5dzlMUlCbyS.jpg",
-            "durationMs": 66700
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shengkunye",
-        "company": "Shengkun Ye",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2095969982811435368",
-        "slug": "shengkun-ye-435368",
-        "title": "Introducing Astra for SEO. Your agent can now automate SEO from Claude and Codex. Backlinks, keyw…",
-        "product": "Shengkun Ye",
-        "company": "Shengkun Ye",
-        "description": "Introducing Astra for SEO. Your agent can now automate SEO from Claude and Codex. Backlinks, keywords, traffic, and AI answer citations. Any site. Similarweb: $399 a month, no API access. @MonidHQ: $0.13 per request, agent-ready, pay as you go.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shengkunye/status/2095969982811435368",
-        "tweetId": "2095969982811435368",
-        "authorName": "Shengkun Ye",
-        "authorHandle": "shengkunye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "poster": "/posters/shengkun-ye-435368.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2095968172893765632/vid/avc1/1920x1080/kXf9ECXFgDltmwEm.mp4",
-        "publishedAt": "2026-09-04T20:19:19.000Z",
-        "durationSeconds": 67,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096008483480986017",
       "tweetId": "2096008483480986017",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:28.941Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:03:54.283Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1100,9 +796,9 @@
     {
       "id": "disc-2096011830611026277",
       "tweetId": "2096011830611026277",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:28.604Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:03:42.455Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1158,71 +854,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096028391464218838",
-      "tweetId": "2096028391464218838",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-06T02:50:28.267Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2096028391464218838",
-        "tweetUrl": "https://x.com/tai_code/status/2096028391464218838",
-        "authorHandle": "tai_code",
-        "authorName": "tai_code",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2080658692102598656/ilUBU7BS.jpg",
-        "text": "I just launched VoxFlight for multilingual meetups.\n\nSpeak into an iPhone. Attendees scan a QR code to hear live translation in their browser. No attendee app needed.\n\nNow on the App Store:\nhttps://t.co/tpprvtSUkc\n\n■ Use cases\n• Tech meetups with international guests\n• https://t.co/axwfZDsy5c",
-        "createdAt": "2026-09-05T00:11:25.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096028250007117824/vid/avc1/1920x1080/xom4D5W3OZKyQ-AG.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096028250007117824/img/GlIg6qv_J1r9_Myt.jpg",
-            "durationMs": 54633
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tai_code",
-        "company": "tai_code",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096028391464218838",
-        "slug": "tai-code-218838",
-        "title": "I just launched VoxFlight for multilingual meetups. Speak into an iPhone. Attendees scan a QR cod…",
-        "product": "tai_code",
-        "company": "tai_code",
-        "description": "I just launched VoxFlight for multilingual meetups. Speak into an iPhone. Attendees scan a QR code to hear live translation in their browser. No attendee app needed. Now on the App Store: ■ Use cases • Tech meetups with international guests •",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tai_code/status/2096028391464218838",
-        "tweetId": "2096028391464218838",
-        "authorName": "tai_code",
-        "authorHandle": "tai_code",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2080658692102598656/ilUBU7BS.jpg",
-        "poster": "/posters/tai-code-218838.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096028250007117824/vid/avc1/1920x1080/xom4D5W3OZKyQ-AG.mp4",
-        "publishedAt": "2026-09-05T00:11:25.000Z",
-        "durationSeconds": 55,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2095943854587535708",
       "tweetId": "2095943854587535708",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:27.927Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:06:10.757Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1340,9 +976,9 @@
     {
       "id": "disc-2095912569202479322",
       "tweetId": "2095912569202479322",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:27.258Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:57.154Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1399,9 +1035,9 @@
     {
       "id": "disc-2095961467359006822",
       "tweetId": "2095961467359006822",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:26.813Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:06:20.749Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1459,9 +1095,9 @@
     {
       "id": "disc-2095878994503606274",
       "tweetId": "2095878994503606274",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:26.128Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:16.344Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1523,9 +1159,9 @@
     {
       "id": "disc-2095923091134206448",
       "tweetId": "2095923091134206448",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:25.797Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:35.562Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1587,9 +1223,9 @@
     {
       "id": "disc-2095994265323126785",
       "tweetId": "2095994265323126785",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:25.466Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:02:25.331Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1652,9 +1288,9 @@
     {
       "id": "disc-2095918249674215599",
       "tweetId": "2095918249674215599",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:25.120Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:06:23.791Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1717,9 +1353,9 @@
     {
       "id": "disc-2095907115143459174",
       "tweetId": "2095907115143459174",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:24.783Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:46.429Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1781,9 +1417,9 @@
     {
       "id": "disc-2095971389190885815",
       "tweetId": "2095971389190885815",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:24.056Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T07:06:26.452Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1846,9 +1482,9 @@
     {
       "id": "disc-2095905262229995736",
       "tweetId": "2095905262229995736",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:23.713Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:40.540Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1911,9 +1547,9 @@
     {
       "id": "disc-2095905336393605624",
       "tweetId": "2095905336393605624",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:23.362Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-06T06:59:38.373Z",
       "score": 38,
       "reasons": [
         "has-video",
