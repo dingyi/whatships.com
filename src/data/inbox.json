@@ -1,6 +1,1973 @@
 {
-  "updatedAt": "2026-09-04T03:48:07.446Z",
+  "updatedAt": "2026-09-06T02:51:25.017Z",
   "items": [
+    {
+      "id": "disc-2096010888495108234",
+      "tweetId": "2096010888495108234",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:51:25.016Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096010888495108234",
+        "tweetUrl": "https://x.com/higgsfield/status/2096010888495108234",
+        "authorHandle": "higgsfield",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "text": "Introducing Higgsfield 3D Jutsu, powered by GPT-6 Astra.\n\nTurn a single prompt into a fully editable, interactive 3D world.\n\n&gt; Generate complex 3D scenes from text\n&gt; Control geometry, layout, and details\n&gt; Refine environment instantly with simple prompts\n\nNow live on Higgsfield. https://t.co/8OSeWS5Onp",
+        "createdAt": "2026-09-04T23:01:52.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096007624441638913/vid/avc1/1920x1080/ZdbhSqMgiMjcriX7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096007624441638913/img/3_DH3dVpaT4K7yfE.jpg",
+            "durationMs": 59300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096010888495108234",
+        "slug": "higgsfield-ai-108234",
+        "title": "Introducing Higgsfield 3D Jutsu, powered by GPT-6 Astra. Turn a single prompt into a fully editab…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "Introducing Higgsfield 3D Jutsu, powered by GPT-6 Astra. Turn a single prompt into a fully editable, interactive 3D world. &gt; Generate complex 3D scenes from text &gt; Control geometry, layout, and details &gt; Refine environment instantly with simple prompts Now live on Hig…",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield/status/2096010888495108234",
+        "tweetId": "2096010888495108234",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "poster": "/posters/higgsfield-ai-108234.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096007624441638913/vid/avc1/1920x1080/ZdbhSqMgiMjcriX7.mp4",
+        "publishedAt": "2026-09-04T23:01:52.000Z",
+        "durationSeconds": 59,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095947707605266436",
+      "tweetId": "2095947707605266436",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:34.400Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095947707605266436",
+        "tweetUrl": "https://x.com/AnthropicAI/status/2095947707605266436",
+        "authorHandle": "AnthropicAI",
+        "authorName": "Anthropic",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY.jpg",
+        "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help.\n\nLast month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of https://t.co/pdT8zwlV4A",
+        "createdAt": "2026-09-04T18:50:48.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095946062741860352/vid/avc1/1920x1080/m-keNgFBlgmjOExS.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095946062741860352/img/YrmIldXbYwUDRBSB.jpg",
+            "durationMs": 34866
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "AnthropicAI",
+        "company": "Anthropic",
+        "category": "ai",
+        "tags": [
+          "claude",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095947707605266436",
+        "slug": "anthropic-266436",
+        "title": "Checking that a major mathematical proof is correct can take years. Formalization—converting the…",
+        "product": "Anthropic",
+        "company": "Anthropic",
+        "description": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help. Last month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of",
+        "category": "ai",
+        "tags": [
+          "claude",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/AnthropicAI/status/2095947707605266436",
+        "tweetId": "2095947707605266436",
+        "authorName": "Anthropic",
+        "authorHandle": "AnthropicAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY.jpg",
+        "poster": "/posters/anthropic-266436.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095946062741860352/vid/avc1/1920x1080/m-keNgFBlgmjOExS.mp4",
+        "publishedAt": "2026-09-04T18:50:48.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096090209679286750",
+      "tweetId": "2096090209679286750",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:34.043Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096090209679286750",
+        "tweetUrl": "https://x.com/novita_labs/status/2096090209679286750",
+        "authorHandle": "novita_labs",
+        "authorName": "Novita AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1881672443309465600/0hwouBvO.png",
+        "text": "🚀 Ling-3.0-Flash-Sante from @AntLingAGI is now live on Novita.\n\nLaunching as a Day-0 partner ⚡\n🎁 Free for 14 days.\n\nA health and medicine-focused MoE model built on Ling-3.0-Flash, designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and https://t.co/ZmrkFSryob",
+        "createdAt": "2026-09-05T04:17:04.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096090008096743424/vid/avc1/3840x2156/aK3rUt4u2QnrG7ol.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096090008096743424/img/1Lu8FmtZJkI5vq-8.jpg",
+            "durationMs": 12633
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "novita_labs",
+        "company": "Novita AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096090209679286750",
+        "slug": "novita-ai-286750",
+        "title": "🚀 Ling-3.0-Flash-Sante from @AntLingAGI is now live on Novita. Launching as a Day-0 partner ⚡ 🎁…",
+        "product": "Novita AI",
+        "company": "Novita AI",
+        "description": "🚀 Ling-3.0-Flash-Sante from @AntLingAGI is now live on Novita. Launching as a Day-0 partner ⚡ 🎁 Free for 14 days. A health and medicine-focused MoE model built on Ling-3.0-Flash, designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/novita_labs/status/2096090209679286750",
+        "tweetId": "2096090209679286750",
+        "authorName": "Novita AI",
+        "authorHandle": "novita_labs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1881672443309465600/0hwouBvO.png",
+        "poster": "/posters/novita-ai-286750.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096090008096743424/vid/avc1/3840x2156/aK3rUt4u2QnrG7ol.mp4",
+        "publishedAt": "2026-09-05T04:17:04.000Z",
+        "durationSeconds": 13,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096324102231310835",
+      "tweetId": "2096324102231310835",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:33.672Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096324102231310835",
+        "tweetUrl": "https://x.com/darasoba/status/2096324102231310835",
+        "authorHandle": "darasoba",
+        "authorName": "dára sobaloju",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080725792175075328/7BqGAqz4.jpg",
+        "text": "Video background is now live on @pewbeam_ai. You can add GIF, MP4, and MOV.\n\nWe also improved our model to self-correct scattered transcription, as you can see in this video. https://t.co/1m6xUUJOjF",
+        "createdAt": "2026-09-05T19:46:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096323758088949760/vid/avc1/2160x3840/bSJ_UVO1SxvJCa7D.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096323758088949760/img/deOb3kgCQjOWeXmz.jpg",
+            "durationMs": 15516
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "darasoba",
+        "company": "dára sobaloju",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096324102231310835",
+        "slug": "dara-sobaloju-310835",
+        "title": "Video background is now live on @pewbeam_ai. You can add GIF, MP4, and MOV. We also improved our…",
+        "product": "dára sobaloju",
+        "company": "dára sobaloju",
+        "description": "Video background is now live on @pewbeam_ai. You can add GIF, MP4, and MOV. We also improved our model to self-correct scattered transcription, as you can see in this video.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/darasoba/status/2096324102231310835",
+        "tweetId": "2096324102231310835",
+        "authorName": "dára sobaloju",
+        "authorHandle": "darasoba",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080725792175075328/7BqGAqz4.jpg",
+        "poster": "/posters/dara-sobaloju-310835.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096323758088949760/vid/avc1/2160x3840/bSJ_UVO1SxvJCa7D.mp4",
+        "publishedAt": "2026-09-05T19:46:28.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096231435443273917",
+      "tweetId": "2096231435443273917",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:33.343Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096231435443273917",
+        "tweetUrl": "https://x.com/TechByMarkandey/status/2096231435443273917",
+        "authorHandle": "TechByMarkandey",
+        "authorName": "Markandey Sharma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1756399086058553344/vCzngifp.jpg",
+        "text": "Shopify store owners: what if your support inbox could resolve most routine tickets on its own?\n\nMeet Resolvas - an AI customer service agent built for Shopify stores, now live on the Shopify App Store.\n\nIt can automatically handle:\n→ Refunds &amp; exchanges\n→ Cancellations\n→ https://t.co/2h1tp2B5Ok",
+        "createdAt": "2026-09-05T13:38:14.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096231338491973632/vid/avc1/1920x1080/sVYMC8YuxHWS49wB.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096231338491973632/img/xe3ALykcHL8XRu_h.jpg",
+            "durationMs": 35994
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TechByMarkandey",
+        "company": "Markandey Sharma",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096231435443273917",
+        "slug": "markandey-sharma-273917",
+        "title": "Shopify store owners: what if your support inbox could resolve most routine tickets on its own? M…",
+        "product": "Markandey Sharma",
+        "company": "Markandey Sharma",
+        "description": "Shopify store owners: what if your support inbox could resolve most routine tickets on its own? Meet Resolvas - an AI customer service agent built for Shopify stores, now live on the Shopify App Store. It can automatically handle: → Refunds &amp; exchanges → Cancellations →",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TechByMarkandey/status/2096231435443273917",
+        "tweetId": "2096231435443273917",
+        "authorName": "Markandey Sharma",
+        "authorHandle": "TechByMarkandey",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1756399086058553344/vCzngifp.jpg",
+        "poster": "/posters/markandey-sharma-273917.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096231338491973632/vid/avc1/1920x1080/sVYMC8YuxHWS49wB.mp4?tag=16",
+        "publishedAt": "2026-09-05T13:38:14.000Z",
+        "durationSeconds": 36,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096321343880896983",
+      "tweetId": "2096321343880896983",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:33.005Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096321343880896983",
+        "tweetUrl": "https://x.com/Xiriid/status/2096321343880896983",
+        "authorHandle": "Xiriid",
+        "authorName": "Xirid",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095755357553590273/d3fICpZ1.jpg",
+        "text": "No more waiting. vStats Desktop is now available and free for everyone! See who you’re up against before the first round, recognise cheaters, smurfs, boosting and more to make your valorant experience more enjoyable. \nThe app never injects or interacts with the game and its https://t.co/GNZQnZiNqZ",
+        "createdAt": "2026-09-05T19:35:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096319817662033920/vid/avc1/1920x1080/CZoQ_Teh_L32Hq0k.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096319817662033920/img/-IQ5d9x9Wr8qBw3O.jpg",
+            "durationMs": 35000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Xiriid",
+        "company": "Xirid",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096321343880896983",
+        "slug": "xirid-896983",
+        "title": "No more waiting. vStats Desktop is now available and free for everyone! See who you’re up against…",
+        "product": "Xirid",
+        "company": "Xirid",
+        "description": "No more waiting. vStats Desktop is now available and free for everyone! See who you’re up against before the first round, recognise cheaters, smurfs, boosting and more to make your valorant experience more enjoyable. The app never injects or interacts with the game and its",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Xiriid/status/2096321343880896983",
+        "tweetId": "2096321343880896983",
+        "authorName": "Xirid",
+        "authorHandle": "Xiriid",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095755357553590273/d3fICpZ1.jpg",
+        "poster": "/posters/xirid-896983.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096319817662033920/vid/avc1/1920x1080/CZoQ_Teh_L32Hq0k.mp4",
+        "publishedAt": "2026-09-05T19:35:30.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096332765751050506",
+      "tweetId": "2096332765751050506",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:32.619Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096332765751050506",
+        "tweetUrl": "https://x.com/derekmeegan/status/2096332765751050506",
+        "authorHandle": "derekmeegan",
+        "authorName": "derek",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2040598919068180480/uTU6FHRf.jpg",
+        "text": "i impulse bought a domain so i had to build something for it.\n\nintroducing glyphkit: a library for turning font outlines into SVGs you can stretch, style, and compose in code.\n\nfree and open source. try it out:\n\nhttps://t.co/pzQaMhMRdt https://t.co/utbDfnCwuw",
+        "createdAt": "2026-09-05T20:20:53.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096331735864930304/vid/avc1/1280x800/pAYT8Z8bSdHdKta7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096331735864930304/img/OfDgHhKIHNBwCyfg.jpg",
+            "durationMs": 15616
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "derekmeegan",
+        "company": "derek",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096332765751050506",
+        "slug": "derek-050506",
+        "title": "i impulse bought a domain so i had to build something for it. introducing glyphkit: a library for…",
+        "product": "derek",
+        "company": "derek",
+        "description": "i impulse bought a domain so i had to build something for it. introducing glyphkit: a library for turning font outlines into SVGs you can stretch, style, and compose in code. free and open source. try it out:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/derekmeegan/status/2096332765751050506",
+        "tweetId": "2096332765751050506",
+        "authorName": "derek",
+        "authorHandle": "derekmeegan",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2040598919068180480/uTU6FHRf.jpg",
+        "poster": "/posters/derek-050506.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096331735864930304/vid/avc1/1280x800/pAYT8Z8bSdHdKta7.mp4",
+        "publishedAt": "2026-09-05T20:20:53.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096324927410626751",
+      "tweetId": "2096324927410626751",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:32.282Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2096324927410626751",
+        "tweetUrl": "https://x.com/njpatel/status/2096324927410626751",
+        "authorHandle": "njpatel",
+        "authorName": "Neil Jagdish Patel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1964359746527297536/pc54tbtS.jpg",
+        "text": "Introducing Omapager, a notification plugin for @OmarchyLinux:\n▪ One stack per source\n▪ One click copies codes, links, numbers\n▪ Reply/act from from the card\n▪ Snooze a source or everything; codes still come through\n▪ See exactly what you missed\n→ https://t.co/rZX1NJjJNN https://t.co/itZf3xEfnD",
+        "createdAt": "2026-09-05T19:49:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096305032690085888/vid/avc1/590x720/X7_Tkx39eg_7H1Q4.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096305032690085888/img/lxjqL6vcbNauL7EB.jpg",
+            "durationMs": 50400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "njpatel",
+        "company": "Neil Jagdish Patel",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096324927410626751",
+        "slug": "neil-jagdish-patel-626751",
+        "title": "Introducing Omapager, a notification plugin for @OmarchyLinux: ▪ One stack per source ▪ One click…",
+        "product": "Neil Jagdish Patel",
+        "company": "Neil Jagdish Patel",
+        "description": "Introducing Omapager, a notification plugin for @OmarchyLinux: ▪ One stack per source ▪ One click copies codes, links, numbers ▪ Reply/act from from the card ▪ Snooze a source or everything; codes still come through ▪ See exactly what you missed →",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/njpatel/status/2096324927410626751",
+        "tweetId": "2096324927410626751",
+        "authorName": "Neil Jagdish Patel",
+        "authorHandle": "njpatel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1964359746527297536/pc54tbtS.jpg",
+        "poster": "/posters/neil-jagdish-patel-626751.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096305032690085888/vid/avc1/590x720/X7_Tkx39eg_7H1Q4.mp4",
+        "publishedAt": "2026-09-05T19:49:45.000Z",
+        "durationSeconds": 50,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096052993166544914",
+      "tweetId": "2096052993166544914",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:31.948Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2096052993166544914",
+        "tweetUrl": "https://x.com/dani_avila7/status/2096052993166544914",
+        "authorHandle": "dani_avila7",
+        "authorName": "Daniel San",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM.jpg",
+        "text": "Claude Code just shipped a new /skill-doctor command\n\nIt shows which skills are loaded in your session, which ones haven’t been used, and how many context tokens each is costing you\n\nNow you know exactly what to remove https://t.co/rvlBEklHVA",
+        "createdAt": "2026-09-05T01:49:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096052578203078661/vid/avc1/1954x1348/GdKcpBp3jJIe3y4D.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096052578203078661/img/tq8A0cHvmutGmPCq.jpg",
+            "durationMs": 27000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dani_avila7",
+        "company": "Daniel San",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096052993166544914",
+        "slug": "daniel-san-544914",
+        "title": "Claude Code just shipped a new /skill-doctor command It shows which skills are loaded in your ses…",
+        "product": "Daniel San",
+        "company": "Daniel San",
+        "description": "Claude Code just shipped a new /skill-doctor command It shows which skills are loaded in your session, which ones haven’t been used, and how many context tokens each is costing you Now you know exactly what to remove",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dani_avila7/status/2096052993166544914",
+        "tweetId": "2096052993166544914",
+        "authorName": "Daniel San",
+        "authorHandle": "dani_avila7",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM.jpg",
+        "poster": "/posters/daniel-san-544914.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096052578203078661/vid/avc1/1954x1348/GdKcpBp3jJIe3y4D.mp4",
+        "publishedAt": "2026-09-05T01:49:11.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096348921643913661",
+      "tweetId": "2096348921643913661",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:31.616Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096348921643913661",
+        "tweetUrl": "https://x.com/framer/status/2096348921643913661",
+        "authorHandle": "framer",
+        "authorName": "Framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "text": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask the Framer Agent to handle the rest, adjusting layouts, spacing, and components across every screen size. https://t.co/iLvEo5rsbj",
+        "createdAt": "2026-09-05T21:25:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096348870011928576/vid/avc1/1920x1080/KbMUsDCg6Ufrb3k5.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096348870011928576/img/8ZFkJnCmm933X2sH.jpg",
+            "durationMs": 47401
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "framer",
+        "company": "Framer",
+        "category": "design",
+        "tags": [
+          "design",
+          "web"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2096348921643913661",
+        "slug": "framer-913661",
+        "title": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask th…",
+        "product": "Framer",
+        "company": "Framer",
+        "description": "Stop spending hours making your website responsive. Start with your desktop breakpoint and ask the Framer Agent to handle the rest, adjusting layouts, spacing, and components across every screen size.",
+        "category": "design",
+        "tags": [
+          "design",
+          "web",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/framer/status/2096348921643913661",
+        "tweetId": "2096348921643913661",
+        "authorName": "Framer",
+        "authorHandle": "framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "poster": "/posters/framer-913661.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096348870011928576/vid/avc1/1920x1080/KbMUsDCg6Ufrb3k5.mp4?tag=16",
+        "publishedAt": "2026-09-05T21:25:05.000Z",
+        "durationSeconds": 47,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096054560062402610",
+      "tweetId": "2096054560062402610",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:31.287Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096054560062402610",
+        "tweetUrl": "https://x.com/Replit/status/2096054560062402610",
+        "authorHandle": "Replit",
+        "authorName": "Replit ⠕",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092066596915466240/TwZ32AYK.jpg",
+        "text": "This Week in Replit  \n\n1) Replit MCP comes out of beta \n2) Project Analytics: traffic, funnels, and experiments in chat \n3) Database Backups: nightly snapshots for your production DB  \n\nThread 🧵 https://t.co/NgNubI0ExX",
+        "createdAt": "2026-09-05T01:55:24.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096052824602001408/vid/avc1/1920x1080/V-DvRfKsrIzsSRyK.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096052824602001408/img/pEG5ZhjtUsn4f0JB.jpg",
+            "durationMs": 286400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "replit",
+        "company": "Replit",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2096054560062402610",
+        "slug": "replit-402610",
+        "title": "This Week in Replit 1) Replit MCP comes out of beta 2) Project Analytics: traffic, funnels, and e…",
+        "product": "Replit",
+        "company": "Replit",
+        "description": "This Week in Replit 1) Replit MCP comes out of beta 2) Project Analytics: traffic, funnels, and experiments in chat 3) Database Backups: nightly snapshots for your production DB Thread 🧵",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Replit/status/2096054560062402610",
+        "tweetId": "2096054560062402610",
+        "authorName": "Replit ⠕",
+        "authorHandle": "Replit",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092066596915466240/TwZ32AYK.jpg",
+        "poster": "/posters/replit-402610.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096052824602001408/vid/avc1/1920x1080/V-DvRfKsrIzsSRyK.mp4",
+        "publishedAt": "2026-09-05T01:55:24.000Z",
+        "durationSeconds": 286,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096266862124519442",
+      "tweetId": "2096266862124519442",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:30.956Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096266862124519442",
+        "tweetUrl": "https://x.com/silennai/status/2096266862124519442",
+        "authorHandle": "silennai",
+        "authorName": "Silen Naihin",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2008690927380910080/GTKEGJ6W.jpg",
+        "text": "Every new AI model used to mean another account, billing dashboard,  eval run, and integration.\n\nWe built Experiential so it doesn’t.\n\nOne open source gateway for 1,000+ models across our marketplace and BYOK + local models. No token markup.\n\nWe’re live on Product Hunt 🚀 https://t.co/0UWCdJqwKR",
+        "createdAt": "2026-09-05T15:59:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096265666471022592/vid/avc1/1648x1080/hRiCndOQu7MOhRez.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096265666471022592/img/SQd5l5AzVcOaDoK8.jpg",
+            "durationMs": 118166
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "silennai",
+        "company": "Silen Naihin",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096266862124519442",
+        "slug": "silen-naihin-519442",
+        "title": "Every new AI model used to mean another account, billing dashboard, eval run, and integration. We…",
+        "product": "Silen Naihin",
+        "company": "Silen Naihin",
+        "description": "Every new AI model used to mean another account, billing dashboard, eval run, and integration. We built Experiential so it doesn’t. One open source gateway for 1,000+ models across our marketplace and BYOK + local models. No token markup. We’re live on Product Hunt 🚀",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/silennai/status/2096266862124519442",
+        "tweetId": "2096266862124519442",
+        "authorName": "Silen Naihin",
+        "authorHandle": "silennai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2008690927380910080/GTKEGJ6W.jpg",
+        "poster": "/posters/silen-naihin-519442.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096265666471022592/vid/avc1/1648x1080/hRiCndOQu7MOhRez.mp4",
+        "publishedAt": "2026-09-05T15:59:01.000Z",
+        "durationSeconds": 118,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096298105213952178",
+      "tweetId": "2096298105213952178",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:30.621Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096298105213952178",
+        "tweetUrl": "https://x.com/grok/status/2096298105213952178",
+        "authorHandle": "grok",
+        "authorName": "Grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "text": "Grok Imagine Video 1.5 agent is now available.\n\nPowered by our newest Image 2.0 model, it delivers higher quality, better storytelling from a smarter agent and excels at connecting multiple shots together with greater continuity. https://t.co/Xbu0a2THbS",
+        "createdAt": "2026-09-05T18:03:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096297756637978624/vid/avc1/3840x2156/NEmGdFMw9o7KsIjE.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096297756637978624/img/NTvU-EyY_TJqir8j.jpg",
+            "durationMs": 11136
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "grok",
+        "company": "Grok",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096298105213952178",
+        "slug": "grok-952178",
+        "title": "Grok Imagine Video 1.5 agent is now available. Powered by our newest Image 2.0 model, it delivers…",
+        "product": "Grok",
+        "company": "Grok",
+        "description": "Grok Imagine Video 1.5 agent is now available. Powered by our newest Image 2.0 model, it delivers higher quality, better storytelling from a smarter agent and excels at connecting multiple shots together with greater continuity.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/grok/status/2096298105213952178",
+        "tweetId": "2096298105213952178",
+        "authorName": "Grok",
+        "authorHandle": "grok",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP.jpg",
+        "poster": "/posters/grok-952178.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096297756637978624/vid/avc1/3840x2156/NEmGdFMw9o7KsIjE.mp4",
+        "publishedAt": "2026-09-05T18:03:10.000Z",
+        "durationSeconds": 11,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095512392218345682",
+      "tweetId": "2095512392218345682",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:30.286Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095512392218345682",
+        "tweetUrl": "https://x.com/HapStudioApp/status/2095512392218345682",
+        "authorHandle": "HapStudioApp",
+        "authorName": "HAP",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082386776581361664/tHRE2kui.jpg",
+        "text": "HAP is now live. ⚡️🫨\n\nA new way to design haptics.\n\nHaptics for everyone. https://t.co/9DyQpAM1Eq",
+        "createdAt": "2026-09-03T14:01:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095512355572686848/vid/avc1/1920x1080/ilcL7-DsybMRGeAp.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095512355572686848/img/AlEoCgEOaduaB8Fh.jpg",
+            "durationMs": 56840
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "HapStudioApp",
+        "company": "HAP",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095512392218345682",
+        "slug": "hap-345682",
+        "title": "HAP is now live. ⚡️🫨 A new way to design haptics. Haptics for everyone.",
+        "product": "HAP",
+        "company": "HAP",
+        "description": "HAP is now live. ⚡️🫨 A new way to design haptics. Haptics for everyone.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/HapStudioApp/status/2095512392218345682",
+        "tweetId": "2095512392218345682",
+        "authorName": "HAP",
+        "authorHandle": "HapStudioApp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082386776581361664/tHRE2kui.jpg",
+        "poster": "/posters/hap-345682.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095512355572686848/vid/avc1/1920x1080/ilcL7-DsybMRGeAp.mp4",
+        "publishedAt": "2026-09-03T14:01:01.000Z",
+        "durationSeconds": 57,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096030401537966113",
+      "tweetId": "2096030401537966113",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:29.955Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096030401537966113",
+        "tweetUrl": "https://x.com/boneGPT/status/2096030401537966113",
+        "authorHandle": "boneGPT",
+        "authorName": "bone",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006021278281478144/veZLsQq9.jpg",
+        "text": "the slopcannon open beta is now live\nsign up and try it now at https://t.co/btEO3wIwSP \nto make viral videos like this: https://t.co/flsLyu66Dz",
+        "createdAt": "2026-09-05T00:19:24.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095600369057542144/vid/avc1/1280x720/SkvN9H_fHEbjBIzu.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095600369057542144/img/ImT6H1Cwad7xGfLP.jpg",
+            "durationMs": 298833
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "boneGPT",
+        "company": "bone",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096030401537966113",
+        "slug": "bone-966113",
+        "title": "the slopcannon open beta is now live sign up and try it now at to make viral videos like this:",
+        "product": "bone",
+        "company": "bone",
+        "description": "the slopcannon open beta is now live sign up and try it now at to make viral videos like this:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/boneGPT/status/2096030401537966113",
+        "tweetId": "2096030401537966113",
+        "authorName": "bone",
+        "authorHandle": "boneGPT",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006021278281478144/veZLsQq9.jpg",
+        "poster": "/posters/bone-966113.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095600369057542144/vid/avc1/1280x720/SkvN9H_fHEbjBIzu.mp4?tag=14",
+        "publishedAt": "2026-09-05T00:19:24.000Z",
+        "durationSeconds": 299,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095958964387324226",
+      "tweetId": "2095958964387324226",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:29.619Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2095958964387324226",
+        "tweetUrl": "https://x.com/alaymanguy/status/2095958964387324226",
+        "authorHandle": "alaymanguy",
+        "authorName": "Aniket Pawar",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077152176284262400/5eI1aHiZ.jpg",
+        "text": "Seeing a lot of screenshots tagging @rauchg about exhausting Vercel limits\n\nIntroducing Vercel Doctor ▲\n\nScans your codebase to help optimize your bill:\n- Large static assets → CDN\n- Link prefetch false by default\nand more...\n\nRun as a CLI or agent skill. Fully open source. https://t.co/EpBLGZ4ACo",
+        "createdAt": "2026-09-04T19:35:32.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095958713794437120/vid/avc1/1920x1080/P1Pxoyn1yMEWLFXG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095958713794437120/img/c5vKXzPKkUa7hnQu.jpg",
+            "durationMs": 21930
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "alaymanguy",
+        "company": "Aniket Pawar",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095958964387324226",
+        "slug": "aniket-pawar-324226",
+        "title": "Seeing a lot of screenshots tagging @rauchg about exhausting Vercel limits Introducing Vercel Doc…",
+        "product": "Aniket Pawar",
+        "company": "Aniket Pawar",
+        "description": "Seeing a lot of screenshots tagging @rauchg about exhausting Vercel limits Introducing Vercel Doctor ▲ Scans your codebase to help optimize your bill: - Large static assets → CDN - Link prefetch false by default and more... Run as a CLI or agent skill. Fully open source.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/alaymanguy/status/2095958964387324226",
+        "tweetId": "2095958964387324226",
+        "authorName": "Aniket Pawar",
+        "authorHandle": "alaymanguy",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077152176284262400/5eI1aHiZ.jpg",
+        "poster": "/posters/aniket-pawar-324226.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095958713794437120/vid/avc1/1920x1080/P1Pxoyn1yMEWLFXG.mp4",
+        "publishedAt": "2026-09-04T19:35:32.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095969982811435368",
+      "tweetId": "2095969982811435368",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:29.285Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095969982811435368",
+        "tweetUrl": "https://x.com/shengkunye/status/2095969982811435368",
+        "authorHandle": "shengkunye",
+        "authorName": "Shengkun Ye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "text": "Introducing Astra for SEO.\n\nYour agent can now automate SEO from Claude and Codex. \n\nBacklinks, keywords, traffic, and AI answer citations. Any site. \n\nSimilarweb: $399 a month, no API access. \n@MonidHQ: $0.13 per request, agent-ready, pay as you go. https://t.co/hQa2OjYDkM",
+        "createdAt": "2026-09-04T20:19:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095968172893765632/vid/avc1/1920x1080/kXf9ECXFgDltmwEm.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095968172893765632/img/qIxND5dzlMUlCbyS.jpg",
+            "durationMs": 66700
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shengkunye",
+        "company": "Shengkun Ye",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095969982811435368",
+        "slug": "shengkun-ye-435368",
+        "title": "Introducing Astra for SEO. Your agent can now automate SEO from Claude and Codex. Backlinks, keyw…",
+        "product": "Shengkun Ye",
+        "company": "Shengkun Ye",
+        "description": "Introducing Astra for SEO. Your agent can now automate SEO from Claude and Codex. Backlinks, keywords, traffic, and AI answer citations. Any site. Similarweb: $399 a month, no API access. @MonidHQ: $0.13 per request, agent-ready, pay as you go.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shengkunye/status/2095969982811435368",
+        "tweetId": "2095969982811435368",
+        "authorName": "Shengkun Ye",
+        "authorHandle": "shengkunye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "poster": "/posters/shengkun-ye-435368.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095968172893765632/vid/avc1/1920x1080/kXf9ECXFgDltmwEm.mp4",
+        "publishedAt": "2026-09-04T20:19:19.000Z",
+        "durationSeconds": 67,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096008483480986017",
+      "tweetId": "2096008483480986017",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:28.941Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096008483480986017",
+        "tweetUrl": "https://x.com/baseten/status/2096008483480986017",
+        "authorHandle": "baseten",
+        "authorName": "Baseten",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1924485072801140736/VyZekL_z.jpg",
+        "text": "GLM-5.3 is now live with vision, only on Baseten Model APIs.\n\nGenerate and convert images to code thanks to our post-training and model API teams.\n\nTry it: https://t.co/spYAmnVIkF https://t.co/pcpzuqPikc",
+        "createdAt": "2026-09-04T22:52:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096008379898413059/vid/avc1/3500x2160/4GOsZDT25dABwuXA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096008379898413059/img/nBilsEaO_sW6kdbH.jpg",
+            "durationMs": 40150
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "baseten",
+        "company": "Baseten",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096008483480986017",
+        "slug": "baseten-986017",
+        "title": "GLM-5.3 is now live with vision, only on Baseten Model APIs. Generate and convert images to code…",
+        "product": "Baseten",
+        "company": "Baseten",
+        "description": "GLM-5.3 is now live with vision, only on Baseten Model APIs. Generate and convert images to code thanks to our post-training and model API teams. Try it:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/baseten/status/2096008483480986017",
+        "tweetId": "2096008483480986017",
+        "authorName": "Baseten",
+        "authorHandle": "baseten",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1924485072801140736/VyZekL_z.jpg",
+        "poster": "/posters/baseten-986017.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096008379898413059/vid/avc1/3500x2160/4GOsZDT25dABwuXA.mp4",
+        "publishedAt": "2026-09-04T22:52:19.000Z",
+        "durationSeconds": 40,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096011830611026277",
+      "tweetId": "2096011830611026277",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:28.604Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096011830611026277",
+        "tweetUrl": "https://x.com/NousResearch/status/2096011830611026277",
+        "authorHandle": "NousResearch",
+        "authorName": "Nous Research",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp.jpg",
+        "text": "GPT-6 Astra is now available in Nous Portal at 20% off\n\nhttps://t.co/RU76KTpAv4 https://t.co/JEuR3xV6x8",
+        "createdAt": "2026-09-04T23:05:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096011794276139008/vid/avc1/2560x1440/5qkTNJw-gf1WZmG-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096011794276139008/img/U0Pq6iJmCuaPgY8r.jpg",
+            "durationMs": 16184
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NousResearch",
+        "company": "Nous Research",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096011830611026277",
+        "slug": "nous-research-026277",
+        "title": "GPT-6 Astra is now available in Nous Portal at 20% off",
+        "product": "Nous Research",
+        "company": "Nous Research",
+        "description": "GPT-6 Astra is now available in Nous Portal at 20% off",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NousResearch/status/2096011830611026277",
+        "tweetId": "2096011830611026277",
+        "authorName": "Nous Research",
+        "authorHandle": "NousResearch",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp.jpg",
+        "poster": "/posters/nous-research-026277.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096011794276139008/vid/avc1/2560x1440/5qkTNJw-gf1WZmG-.mp4",
+        "publishedAt": "2026-09-04T23:05:37.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096028391464218838",
+      "tweetId": "2096028391464218838",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:28.267Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2096028391464218838",
+        "tweetUrl": "https://x.com/tai_code/status/2096028391464218838",
+        "authorHandle": "tai_code",
+        "authorName": "tai_code",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080658692102598656/ilUBU7BS.jpg",
+        "text": "I just launched VoxFlight for multilingual meetups.\n\nSpeak into an iPhone. Attendees scan a QR code to hear live translation in their browser. No attendee app needed.\n\nNow on the App Store:\nhttps://t.co/tpprvtSUkc\n\n■ Use cases\n• Tech meetups with international guests\n• https://t.co/axwfZDsy5c",
+        "createdAt": "2026-09-05T00:11:25.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096028250007117824/vid/avc1/1920x1080/xom4D5W3OZKyQ-AG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096028250007117824/img/GlIg6qv_J1r9_Myt.jpg",
+            "durationMs": 54633
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "tai_code",
+        "company": "tai_code",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096028391464218838",
+        "slug": "tai-code-218838",
+        "title": "I just launched VoxFlight for multilingual meetups. Speak into an iPhone. Attendees scan a QR cod…",
+        "product": "tai_code",
+        "company": "tai_code",
+        "description": "I just launched VoxFlight for multilingual meetups. Speak into an iPhone. Attendees scan a QR code to hear live translation in their browser. No attendee app needed. Now on the App Store: ■ Use cases • Tech meetups with international guests •",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/tai_code/status/2096028391464218838",
+        "tweetId": "2096028391464218838",
+        "authorName": "tai_code",
+        "authorHandle": "tai_code",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080658692102598656/ilUBU7BS.jpg",
+        "poster": "/posters/tai-code-218838.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096028250007117824/vid/avc1/1920x1080/xom4D5W3OZKyQ-AG.mp4",
+        "publishedAt": "2026-09-05T00:11:25.000Z",
+        "durationSeconds": 55,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095943854587535708",
+      "tweetId": "2095943854587535708",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:27.927Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095943854587535708",
+        "tweetUrl": "https://x.com/perceptroninc/status/2095943854587535708",
+        "authorHandle": "perceptroninc",
+        "authorName": "Perceptron AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1968235776971522048/WiQwmy_p.jpg",
+        "text": "We’re making enterprise workloads cheaper and faster.\n\nPerceptron Multilook API is now live. Context is prefilled once per call instead of once per question.\n\nOne video in, up to 16 answers out: 32% of the input cost of sending them separately, and 2× to 4.9× lower median latency https://t.co/6UfHYZ0pns",
+        "createdAt": "2026-09-04T18:35:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095937931198316546/vid/avc1/1924x1080/pdnbIRT0897fr_Pi.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095937931198316546/img/jCeBTCqlMIAXYOIi.jpg",
+            "durationMs": 13929
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "perceptroninc",
+        "company": "Perceptron AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095943854587535708",
+        "slug": "perceptron-ai-535708",
+        "title": "We’re making enterprise workloads cheaper and faster. Perceptron Multilook API is now live. Conte…",
+        "product": "Perceptron AI",
+        "company": "Perceptron AI",
+        "description": "We’re making enterprise workloads cheaper and faster. Perceptron Multilook API is now live. Context is prefilled once per call instead of once per question. One video in, up to 16 answers out: 32% of the input cost of sending them separately, and 2× to 4.9× lower median latency",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/perceptroninc/status/2095943854587535708",
+        "tweetId": "2095943854587535708",
+        "authorName": "Perceptron AI",
+        "authorHandle": "perceptroninc",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1968235776971522048/WiQwmy_p.jpg",
+        "poster": "/posters/perceptron-ai-535708.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095937931198316546/vid/avc1/1924x1080/pdnbIRT0897fr_Pi.mp4",
+        "publishedAt": "2026-09-04T18:35:30.000Z",
+        "durationSeconds": 14,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095713887631110442",
+      "tweetId": "2095713887631110442",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:27.591Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2095713887631110442",
+        "tweetUrl": "https://x.com/siyuhuh/status/2095713887631110442",
+        "authorHandle": "siyuhuh",
+        "authorName": "Siyu Hu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1372126686788026371/XSosXZSy.jpg",
+        "text": "Just shipped a new IsoHome feature: Wi‑Fi signal visual.\nDrag a router inside a 3D floor plan and watch the signal propagate as dynamic particle waves. Walls, doors, distance, power, and bands all affect coverage in real time. It can also suggest a better placement.\n#r3f #threejs https://t.co/pekJLr0kxc",
+        "createdAt": "2026-09-04T03:21:41.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095713206232850432/vid/avc1/850x720/ISWEt0rpvR5pWkmx.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095713206232850432/img/LEWGc8EeKVjkVsVu.jpg",
+            "durationMs": 42800
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "siyuhuh",
+        "company": "Siyu Hu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095713887631110442",
+        "slug": "siyu-hu-110442",
+        "title": "Just shipped a new IsoHome feature: Wi‑Fi signal visual. Drag a router inside a 3D floor plan and…",
+        "product": "Siyu Hu",
+        "company": "Siyu Hu",
+        "description": "Just shipped a new IsoHome feature: Wi‑Fi signal visual. Drag a router inside a 3D floor plan and watch the signal propagate as dynamic particle waves. Walls, doors, distance, power, and bands all affect coverage in real time. It can also suggest a better placement. #r3f #threejs",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/siyuhuh/status/2095713887631110442",
+        "tweetId": "2095713887631110442",
+        "authorName": "Siyu Hu",
+        "authorHandle": "siyuhuh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1372126686788026371/XSosXZSy.jpg",
+        "poster": "/posters/siyu-hu-110442.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095713206232850432/vid/avc1/850x720/ISWEt0rpvR5pWkmx.mp4?tag=14",
+        "publishedAt": "2026-09-04T03:21:41.000Z",
+        "durationSeconds": 43,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095912569202479322",
+      "tweetId": "2095912569202479322",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:27.258Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095912569202479322",
+        "tweetUrl": "https://x.com/jasonlbeggs/status/2095912569202479322",
+        "authorHandle": "jasonlbeggs",
+        "authorName": "Jason Beggs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1391946980960743425/xi3nDA3k.jpg",
+        "text": "A fun QoL improvement we shipped to Cloud recently: now when you enable a feature that requires a package your app doesn't have installed, we warn you before you deploy. As soon as we detect that you've installed the package, the warning goes away and you can ship 🚢 https://t.co/khNU8PfvTk",
+        "createdAt": "2026-09-04T16:31:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095911863611756544/vid/avc1/1920x1080/7vvRToehVhNikqvr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095911863611756544/img/YMZSJAAB6tc4DGRJ.jpg",
+            "durationMs": 27116
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "jasonlbeggs",
+        "company": "Jason Beggs",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095912569202479322",
+        "slug": "jason-beggs-479322",
+        "title": "A fun QoL improvement we shipped to Cloud recently: now when you enable a feature that requires a…",
+        "product": "Jason Beggs",
+        "company": "Jason Beggs",
+        "description": "A fun QoL improvement we shipped to Cloud recently: now when you enable a feature that requires a package your app doesn't have installed, we warn you before you deploy. As soon as we detect that you've installed the package, the warning goes away and you can ship 🚢",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/jasonlbeggs/status/2095912569202479322",
+        "tweetId": "2095912569202479322",
+        "authorName": "Jason Beggs",
+        "authorHandle": "jasonlbeggs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1391946980960743425/xi3nDA3k.jpg",
+        "poster": "/posters/jason-beggs-479322.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095911863611756544/vid/avc1/1920x1080/7vvRToehVhNikqvr.mp4",
+        "publishedAt": "2026-09-04T16:31:11.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095961467359006822",
+      "tweetId": "2095961467359006822",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:26.813Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2095961467359006822",
+        "tweetUrl": "https://x.com/SawyerMerritt/status/2095961467359006822",
+        "authorHandle": "SawyerMerritt",
+        "authorName": "Sawyer Merritt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL.jpg",
+        "text": "SpaceXAI just launched a new Grok @Bot template marketplace.\n\nThere are template categories for engineering, sales, product, operations and finance, design and more.\n\nMarketplace: https://t.co/uTteDqiE4d https://t.co/R5MVjk0nwW",
+        "createdAt": "2026-09-04T19:45:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095961369082200065/vid/avc1/1320x2246/VKxa5sDT2bfXRmhs.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095961369082200065/img/6gUJIXZTppwMDcPs.jpg",
+            "durationMs": 15936
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "SawyerMerritt",
+        "company": "Sawyer Merritt",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095961467359006822",
+        "slug": "sawyer-merritt-006822",
+        "title": "SpaceXAI just launched a new Grok @Bot template marketplace. There are template categories for en…",
+        "product": "Sawyer Merritt",
+        "company": "Sawyer Merritt",
+        "description": "SpaceXAI just launched a new Grok @Bot template marketplace. There are template categories for engineering, sales, product, operations and finance, design and more. Marketplace:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/SawyerMerritt/status/2095961467359006822",
+        "tweetId": "2095961467359006822",
+        "authorName": "Sawyer Merritt",
+        "authorHandle": "SawyerMerritt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL.jpg",
+        "poster": "/posters/sawyer-merritt-006822.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095961369082200065/vid/avc1/1320x2246/VKxa5sDT2bfXRmhs.mp4",
+        "publishedAt": "2026-09-04T19:45:29.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095878994503606274",
+      "tweetId": "2095878994503606274",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:26.128Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095878994503606274",
+        "tweetUrl": "https://x.com/linear/status/2095878994503606274",
+        "authorHandle": "linear",
+        "authorName": "Linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "text": "Quality-of-life update: \nLoops can now run on specific days of the week. https://t.co/E0BYOPDtl3",
+        "createdAt": "2026-09-04T14:17:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095878890799644672/vid/avc1/1920x1080/w9Y3s03Y3pAaasK9.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095878890799644672/img/PELgDeErc588OEnh.jpg",
+            "durationMs": 15966
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "linear",
+        "company": "Linear",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095878994503606274",
+        "slug": "linear-606274",
+        "title": "Quality-of-life update: Loops can now run on specific days of the week.",
+        "product": "Linear",
+        "company": "Linear",
+        "description": "Quality-of-life update: Loops can now run on specific days of the week.",
+        "category": "productivity",
+        "tags": [
+          "saas",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/linear/status/2095878994503606274",
+        "tweetId": "2095878994503606274",
+        "authorName": "Linear",
+        "authorHandle": "linear",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+        "poster": "/posters/linear-606274.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095878890799644672/vid/avc1/1920x1080/w9Y3s03Y3pAaasK9.mp4",
+        "publishedAt": "2026-09-04T14:17:46.000Z",
+        "durationSeconds": 16,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095923091134206448",
+      "tweetId": "2095923091134206448",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:25.797Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095923091134206448",
+        "tweetUrl": "https://x.com/NotionHQ/status/2095923091134206448",
+        "authorHandle": "NotionHQ",
+        "authorName": "Notion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "text": "MCP update: Your Custom Agents can join the chat now.\n\nConnect Notion to ChatGPT, Claude, or Grok Bot through MCP, then chat with any Custom Agent you have access to, all in one conversation. https://t.co/vMaHJadhDj",
+        "createdAt": "2026-09-04T17:12:59.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095922653106221058/vid/avc1/1916x1080/SNYjlAC0kKi3MobU.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095922653106221058/img/O-RyY7zJqOxOMHHQ.jpg",
+            "durationMs": 25000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NotionHQ",
+        "company": "Notion",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095923091134206448",
+        "slug": "notion-206448",
+        "title": "MCP update: Your Custom Agents can join the chat now. Connect Notion to ChatGPT, Claude, or Grok…",
+        "product": "Notion",
+        "company": "Notion",
+        "description": "MCP update: Your Custom Agents can join the chat now. Connect Notion to ChatGPT, Claude, or Grok Bot through MCP, then chat with any Custom Agent you have access to, all in one conversation.",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NotionHQ/status/2095923091134206448",
+        "tweetId": "2095923091134206448",
+        "authorName": "Notion",
+        "authorHandle": "NotionHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "poster": "/posters/notion-206448.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095922653106221058/vid/avc1/1916x1080/SNYjlAC0kKi3MobU.mp4",
+        "publishedAt": "2026-09-04T17:12:59.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095994265323126785",
+      "tweetId": "2095994265323126785",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:25.466Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095994265323126785",
+        "tweetUrl": "https://x.com/NotionHQ/status/2095994265323126785",
+        "authorHandle": "NotionHQ",
+        "authorName": "Notion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "text": "GPT-6 Astra is now available in Notion. Give it a try. https://t.co/Cr8YGCR8zb",
+        "createdAt": "2026-09-04T21:55:49.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095994161707048960/vid/avc1/1264x1080/bNLntbGAiNwOt0dG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095994161707048960/img/hrt4MQpK3Z2upi8c.jpg",
+            "durationMs": 4757
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NotionHQ",
+        "company": "Notion",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095994265323126785",
+        "slug": "notion-126785",
+        "title": "GPT-6 Astra is now available in Notion. Give it a try.",
+        "product": "Notion",
+        "company": "Notion",
+        "description": "GPT-6 Astra is now available in Notion. Give it a try.",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NotionHQ/status/2095994265323126785",
+        "tweetId": "2095994265323126785",
+        "authorName": "Notion",
+        "authorHandle": "NotionHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "poster": "/posters/notion-126785.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095994161707048960/vid/avc1/1264x1080/bNLntbGAiNwOt0dG.mp4",
+        "publishedAt": "2026-09-04T21:55:49.000Z",
+        "durationSeconds": 5,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095918249674215599",
+      "tweetId": "2095918249674215599",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:25.120Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095918249674215599",
+        "tweetUrl": "https://x.com/runwayml/status/2095918249674215599",
+        "authorHandle": "runwayml",
+        "authorName": "Runway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "text": "Introducing Team Plan, a new self-serve plan for small businesses and teams.\n\nBring 2 to 9 seats together under one pooled credit balance, with shared projects, commenting, agent skills and Agent Connectors. Everything your team needs to build in one place. Get started at the https://t.co/AJ96IFJJkt",
+        "createdAt": "2026-09-04T16:53:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095917673230327809/vid/avc1/1920x1080/zqBBiENzpGqFYhlL.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095917673230327809/img/_ycfbFOkTqZrAsmy.jpg",
+            "durationMs": 35285
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "runwayml",
+        "company": "Runway",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095918249674215599",
+        "slug": "runway-215599",
+        "title": "Introducing Team Plan, a new self-serve plan for small businesses and teams. Bring 2 to 9 seats t…",
+        "product": "Runway",
+        "company": "Runway",
+        "description": "Introducing Team Plan, a new self-serve plan for small businesses and teams. Bring 2 to 9 seats together under one pooled credit balance, with shared projects, commenting, agent skills and Agent Connectors. Everything your team needs to build in one place. Get started at the",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/runwayml/status/2095918249674215599",
+        "tweetId": "2095918249674215599",
+        "authorName": "Runway",
+        "authorHandle": "runwayml",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "poster": "/posters/runway-215599.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095917673230327809/vid/avc1/1920x1080/zqBBiENzpGqFYhlL.mp4",
+        "publishedAt": "2026-09-04T16:53:45.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095907115143459174",
+      "tweetId": "2095907115143459174",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:24.783Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2095907115143459174",
+        "tweetUrl": "https://x.com/github/status/2095907115143459174",
+        "authorHandle": "github",
+        "authorName": "GitHub",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "text": "Try HydraFusion through /experimental in GitHub Copilot CLI. https://t.co/LBMBJCb9iL",
+        "createdAt": "2026-09-04T16:09:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095906441643311104/vid/avc1/1920x1080/NyISc-E-F3nFjisZ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095906441643311104/img/9bAJQV1duxG1c-e5.jpg",
+            "durationMs": 93718
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "github",
+        "company": "GitHub",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095907115143459174",
+        "slug": "github-459174",
+        "title": "Try HydraFusion through /experimental in GitHub Copilot CLI.",
+        "product": "GitHub",
+        "company": "GitHub",
+        "description": "Try HydraFusion through /experimental in GitHub Copilot CLI.",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/github/status/2095907115143459174",
+        "tweetId": "2095907115143459174",
+        "authorName": "GitHub",
+        "authorHandle": "github",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "poster": "/posters/github-459174.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095906441643311104/vid/avc1/1920x1080/NyISc-E-F3nFjisZ.mp4",
+        "publishedAt": "2026-09-04T16:09:30.000Z",
+        "durationSeconds": 94,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095971389190885815",
+      "tweetId": "2095971389190885815",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:24.056Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnew (?:feature|product|app|model|agent|version)\\b"
+      ],
+      "post": {
+        "tweetId": "2095971389190885815",
+        "tweetUrl": "https://x.com/github/status/2095971389190885815",
+        "authorHandle": "github",
+        "authorName": "GitHub",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "text": "🌌 GPT-6 Astra from @OpenAIDevs is now generally available in GitHub Copilot.\n\nThis new model is designed for long-horizon, autonomous coding and agentic tasks. \n\nOur internal testing shows it plans and validates as it goes, batches diagnosis with verification, and independently https://t.co/i8nDTqj28k",
+        "createdAt": "2026-09-04T20:24:55.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095971059346604032/vid/avc1/1920x1080/Pp04ue5S0G4VJxJI.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095971059346604032/img/lbQcQHe61SgIghFr.jpg",
+            "durationMs": 80513
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "github",
+        "company": "GitHub",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095971389190885815",
+        "slug": "github-885815",
+        "title": "🌌 GPT-6 Astra from @OpenAIDevs is now generally available in GitHub Copilot. This new model is d…",
+        "product": "GitHub",
+        "company": "GitHub",
+        "description": "🌌 GPT-6 Astra from @OpenAIDevs is now generally available in GitHub Copilot. This new model is designed for long-horizon, autonomous coding and agentic tasks. Our internal testing shows it plans and validates as it goes, batches diagnosis with verification, and independently",
+        "category": "developer-tools",
+        "tags": [
+          "devtools",
+          "copilot",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/github/status/2095971389190885815",
+        "tweetId": "2095971389190885815",
+        "authorName": "GitHub",
+        "authorHandle": "github",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO.jpg",
+        "poster": "/posters/github-885815.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095971059346604032/vid/avc1/1920x1080/Pp04ue5S0G4VJxJI.mp4",
+        "publishedAt": "2026-09-04T20:24:55.000Z",
+        "durationSeconds": 81,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095905262229995736",
+      "tweetId": "2095905262229995736",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:23.713Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095905262229995736",
+        "tweetUrl": "https://x.com/Google/status/2095905262229995736",
+        "authorHandle": "Google",
+        "authorName": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "text": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨\n\nWith more expressive vocals and richer musical arrangements,  it’s easier than ever to bring your idea to life:\n\n🪄 Use our new templates to jumpstart your creativity\n⌛ Choose to create https://t.co/ZcwcsWH91J",
+        "createdAt": "2026-09-04T16:02:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095904233945956354/vid/avc1/1920x1080/8hKdWiljnkzNKIJQ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095904233945956354/img/vLIkvHNThS5xe02E.jpg",
+            "durationMs": 156000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Google",
+        "company": "Google",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2095905262229995736",
+        "slug": "google-995736",
+        "title": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨ With…",
+        "product": "Google",
+        "company": "Google",
+        "description": "Lyria 3.5, our best-sounding music generation model, is now available in the @GeminiApp 🎵✨ With more expressive vocals and richer musical arrangements, it’s easier than ever to bring your idea to life: 🪄 Use our new templates to jumpstart your creativity ⌛ Choose to create",
+        "category": "ai",
+        "tags": [
+          "google",
+          "gemini",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Google/status/2095905262229995736",
+        "tweetId": "2095905262229995736",
+        "authorName": "Google",
+        "authorHandle": "Google",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
+        "poster": "/posters/google-995736.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095904233945956354/vid/avc1/1920x1080/8hKdWiljnkzNKIJQ.mp4",
+        "publishedAt": "2026-09-04T16:02:09.000Z",
+        "durationSeconds": 156,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095905336393605624",
+      "tweetId": "2095905336393605624",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-06T02:50:23.362Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2095905336393605624",
+        "tweetUrl": "https://x.com/GoogleAIStudio/status/2095905336393605624",
+        "authorHandle": "GoogleAIStudio",
+        "authorName": "Google AI Studio",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
+        "text": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app\n\nthis model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity\n\ntry it today: https://t.co/hCqJZWt1kn",
+        "createdAt": "2026-09-04T16:02:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095539270333112325/vid/avc1/1920x1080/MCqXk2z53pKqjXdj.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095539270333112325/img/kKZJgHku5i5PSr-C.jpg",
+            "durationMs": 156000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "GoogleAIStudio",
+        "company": "Google AI Studio",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095905336393605624",
+        "slug": "google-ai-studio-605624",
+        "title": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemin…",
+        "product": "Google AI Studio",
+        "company": "Google AI Studio",
+        "description": "Lyria 3.5, our best-sounding music generation model, is now available in AI Studio, via the Gemini API, and in the Gemini app this model brings more expressive vocals and richer musical arrangements, allowing you to craft tracks with higher fidelity try it today:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/GoogleAIStudio/status/2095905336393605624",
+        "tweetId": "2095905336393605624",
+        "authorName": "Google AI Studio",
+        "authorHandle": "GoogleAIStudio",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089794087998156800/eZOMHRVb.jpg",
+        "poster": "/posters/google-ai-studio-605624.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095539270333112325/vid/avc1/1920x1080/MCqXk2z53pKqjXdj.mp4",
+        "publishedAt": "2026-09-04T16:02:26.000Z",
+        "durationSeconds": 156,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2095644308137447559",
       "tweetId": "2095644308137447559",
