@@ -87,7 +87,10 @@ const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const fromIndex = args.indexOf("--from");
 const positional = args.filter(
-  (arg, i) => arg !== "--dry-run" && arg !== "--from" && i !== fromIndex + 1,
+  (arg, i) =>
+    arg !== "--dry-run" &&
+    arg !== "--from" &&
+    (fromIndex === -1 || i !== fromIndex + 1),
 );
 
 const refs = [];
