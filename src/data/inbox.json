@@ -1,6 +1,1093 @@
 {
-  "updatedAt": "2026-09-06T07:09:42.415Z",
+  "updatedAt": "2026-09-07T08:19:38.809Z",
   "items": [
+    {
+      "id": "disc-2096637048182427740",
+      "tweetId": "2096637048182427740",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:38.808Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096637048182427740",
+        "tweetUrl": "https://x.com/emanueledpt/status/2096637048182427740",
+        "authorHandle": "emanueledpt",
+        "authorName": "Emanuele Di Pietro",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
+        "text": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slideshow feature\n\nThe annoying part is opening an editor, measuring everything, and cropping each piece so they line up\n\nSo I built Hattrick, a free web app that does it for you\n\nUpload a https://t.co/NgHY1fmXbZ",
+        "createdAt": "2026-09-06T16:30:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096626812574937088/vid/avc1/2396x1440/ojeJCoD1VerW185B.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096626812574937088/img/GU7Fa758NoF7Gd_p.jpg",
+            "durationMs": 26166
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "emanueledpt",
+        "company": "Emanuele Di Pietro",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096637048182427740",
+        "slug": "emanuele-di-pietro-427740",
+        "title": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slides…",
+        "product": "Emanuele Di Pietro",
+        "company": "Emanuele Di Pietro",
+        "description": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slideshow feature The annoying part is opening an editor, measuring everything, and cropping each piece so they line up So I built Hattrick, a free web app that does it for you Upload a",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/emanueledpt/status/2096637048182427740",
+        "tweetId": "2096637048182427740",
+        "authorName": "Emanuele Di Pietro",
+        "authorHandle": "emanueledpt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
+        "poster": "/posters/emanuele-di-pietro-427740.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096626812574937088/vid/avc1/2396x1440/ojeJCoD1VerW185B.mp4",
+        "publishedAt": "2026-09-06T16:30:00.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096711155762782411",
+      "tweetId": "2096711155762782411",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:38.479Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096711155762782411",
+        "tweetUrl": "https://x.com/mustafaergisi/status/2096711155762782411",
+        "authorHandle": "mustafaergisi",
+        "authorName": "Mustafa Ergisi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1601481097375895553/oRQI_if2.jpg",
+        "text": "Thank you for gpt-6 Astra. I shipped Sweep: AR floor coverage while you vacuum. 😅 https://t.co/DEGXnJo2tj",
+        "createdAt": "2026-09-06T21:24:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096711052075376640/vid/avc1/1180x2556/QKKIfBTrKk34tYLs.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096711052075376640/img/Xe7w2o4VciJ3Ivv_.jpg",
+            "durationMs": 18936
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "mustafaergisi",
+        "company": "Mustafa Ergisi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096711155762782411",
+        "slug": "mustafa-ergisi-782411",
+        "title": "Thank you for gpt-6 Astra. I shipped Sweep: AR floor coverage while you vacuum. 😅",
+        "product": "Mustafa Ergisi",
+        "company": "Mustafa Ergisi",
+        "description": "Thank you for gpt-6 Astra. I shipped Sweep: AR floor coverage while you vacuum. 😅",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/mustafaergisi/status/2096711155762782411",
+        "tweetId": "2096711155762782411",
+        "authorName": "Mustafa Ergisi",
+        "authorHandle": "mustafaergisi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1601481097375895553/oRQI_if2.jpg",
+        "poster": "/posters/mustafa-ergisi-782411.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096711052075376640/vid/avc1/1180x2556/QKKIfBTrKk34tYLs.mp4",
+        "publishedAt": "2026-09-06T21:24:29.000Z",
+        "durationSeconds": 19,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096652902169550984",
+      "tweetId": "2096652902169550984",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:38.162Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2096652902169550984",
+        "tweetUrl": "https://x.com/daleverett/status/2096652902169550984",
+        "authorHandle": "daleverett",
+        "authorName": "dale",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2049549782755205121/y6qaHyA-.jpg",
+        "text": "First: yes, the mic is a Monster can (Was sleepy)\n\nSecond: we just launched Polygres MCP. (Not Sleepy)\n\nAI clients can now connect directly to Polygres with browser sign-in, scoped project access, granular permissions, and confirmation before important changes. It lowkey feels https://t.co/6CbL5Wuxgw",
+        "createdAt": "2026-09-06T17:33:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096651484490506240/vid/avc1/1920x1080/Tua2x46wLaN6eA7I.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096651484490506240/img/9adATyATlLSwqMwT.jpg",
+            "durationMs": 53900
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "daleverett",
+        "company": "dale",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096652902169550984",
+        "slug": "dale-550984",
+        "title": "First: yes, the mic is a Monster can (Was sleepy) Second: we just launched Polygres MCP. (Not Sle…",
+        "product": "dale",
+        "company": "dale",
+        "description": "First: yes, the mic is a Monster can (Was sleepy) Second: we just launched Polygres MCP. (Not Sleepy) AI clients can now connect directly to Polygres with browser sign-in, scoped project access, granular permissions, and confirmation before important changes. It lowkey feels",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/daleverett/status/2096652902169550984",
+        "tweetId": "2096652902169550984",
+        "authorName": "dale",
+        "authorHandle": "daleverett",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2049549782755205121/y6qaHyA-.jpg",
+        "poster": "/posters/dale-550984.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096651484490506240/vid/avc1/1920x1080/Tua2x46wLaN6eA7I.mp4",
+        "publishedAt": "2026-09-06T17:33:00.000Z",
+        "durationSeconds": 54,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095963260407152884",
+      "tweetId": "2095963260407152884",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:37.828Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2095963260407152884",
+        "tweetUrl": "https://x.com/BNNBags/status/2095963260407152884",
+        "authorHandle": "BNNBags",
+        "authorName": "BNN",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1982369891467264000/c5fzO0w7.jpg",
+        "text": "YOU CAN NOW GENERATE CUSTOM LLM TRAINING DATA ON DEMAND \n\n@x402_Layer just launched Datasets, the first product from the new SGL LLM Training Lab, letting humans AND AI agents generate synthetic datasets ready for model fine-tuning.\n\n- Give SGL a prompt\n- Generate a rich https://t.co/3HwCl5J5kP",
+        "createdAt": "2026-09-04T19:52:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095963188818849797/vid/avc1/1920x1080/2jeQH7526vHMhsN_.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095963188818849797/img/fh9jwkkIGfoaKsSS.jpg",
+            "durationMs": 41002
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "BNNBags",
+        "company": "BNN",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095963260407152884",
+        "slug": "bnn-152884",
+        "title": "YOU CAN NOW GENERATE CUSTOM LLM TRAINING DATA ON DEMAND @x402_Layer just launched Datasets, the f…",
+        "product": "BNN",
+        "company": "BNN",
+        "description": "YOU CAN NOW GENERATE CUSTOM LLM TRAINING DATA ON DEMAND @x402_Layer just launched Datasets, the first product from the new SGL LLM Training Lab, letting humans AND AI agents generate synthetic datasets ready for model fine-tuning. - Give SGL a prompt - Generate a rich",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/BNNBags/status/2095963260407152884",
+        "tweetId": "2095963260407152884",
+        "authorName": "BNN",
+        "authorHandle": "BNNBags",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1982369891467264000/c5fzO0w7.jpg",
+        "poster": "/posters/bnn-152884.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095963188818849797/vid/avc1/1920x1080/2jeQH7526vHMhsN_.mp4",
+        "publishedAt": "2026-09-04T19:52:37.000Z",
+        "durationSeconds": 41,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096739955657654745",
+      "tweetId": "2096739955657654745",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:37.496Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2096739955657654745",
+        "tweetUrl": "https://x.com/yzycrave/status/2096739955657654745",
+        "authorHandle": "yzycrave",
+        "authorName": "crave",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1989359437476151296/-zhCslQW.jpg",
+        "text": "Introducing YEEZY ARCHIVE\n\nEvery YEEZY piece from 2015-2026 in one place\n\nLive now at https://t.co/cazqgYBlhv https://t.co/5AkuriB7hY",
+        "createdAt": "2026-09-06T23:18:55.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096736544761782272/vid/avc1/1920x1080/mvk7qz1K-66HAkad.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096736544761782272/img/RdNjebDjzRzgRXGD.jpg",
+            "durationMs": 70495
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "yzycrave",
+        "company": "crave",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096739955657654745",
+        "slug": "crave-654745",
+        "title": "Introducing YEEZY ARCHIVE Every YEEZY piece from 2015-2026 in one place Live now at",
+        "product": "crave",
+        "company": "crave",
+        "description": "Introducing YEEZY ARCHIVE Every YEEZY piece from 2015-2026 in one place Live now at",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/yzycrave/status/2096739955657654745",
+        "tweetId": "2096739955657654745",
+        "authorName": "crave",
+        "authorHandle": "yzycrave",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1989359437476151296/-zhCslQW.jpg",
+        "poster": "/posters/crave-654745.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096736544761782272/vid/avc1/1920x1080/mvk7qz1K-66HAkad.mp4",
+        "publishedAt": "2026-09-06T23:18:55.000Z",
+        "durationSeconds": 70,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2095962368048279801",
+      "tweetId": "2095962368048279801",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:37.179Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2095962368048279801",
+        "tweetUrl": "https://x.com/Anujatk14/status/2095962368048279801",
+        "authorHandle": "Anujatk14",
+        "authorName": "Anu Anuja",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067552185848832000/gnJaNcHw.jpg",
+        "text": "Introducing 3D Shot composer reference for AI filmmakers. \nDon’t learn Blender or any complicated heavy software for AI shot references. I built a free tool for that. 450+ shot combinations for camera, angles, FOV, motion, poses, and more. \nDownload and add the reference to any https://t.co/4RGwnSOrMc",
+        "createdAt": "2026-09-04T19:49:04.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2095960847994789888/vid/avc1/1920x1080/gU6-x449BS2OWWiS.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095960847994789888/img/LHaaSDjdyxKHw84i.jpg",
+            "durationMs": 132320
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Anujatk14",
+        "company": "Anu Anuja",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2095962368048279801",
+        "slug": "anu-anuja-279801",
+        "title": "Introducing 3D Shot composer reference for AI filmmakers. Don’t learn Blender or any complicated…",
+        "product": "Anu Anuja",
+        "company": "Anu Anuja",
+        "description": "Introducing 3D Shot composer reference for AI filmmakers. Don’t learn Blender or any complicated heavy software for AI shot references. I built a free tool for that. 450+ shot combinations for camera, angles, FOV, motion, poses, and more. Download and add the reference to any",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Anujatk14/status/2095962368048279801",
+        "tweetId": "2095962368048279801",
+        "authorName": "Anu Anuja",
+        "authorHandle": "Anujatk14",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067552185848832000/gnJaNcHw.jpg",
+        "poster": "/posters/anu-anuja-279801.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2095960847994789888/vid/avc1/1920x1080/gU6-x449BS2OWWiS.mp4",
+        "publishedAt": "2026-09-04T19:49:04.000Z",
+        "durationSeconds": 132,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096264690578108868",
+      "tweetId": "2096264690578108868",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:36.855Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096264690578108868",
+        "tweetUrl": "https://x.com/robsandhu/status/2096264690578108868",
+        "authorHandle": "robsandhu",
+        "authorName": "Rob Sandhu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/817607606311141376/Gru7DW-P.jpg",
+        "text": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr.\nIt embeds live iOS Simulators and Android emulators beside your AI coding session, powered by my open-source serve-avd and @Baconbrix serve-sim. \nhttps://t.co/bynOdT6eOp\n\n#OpenSource #iOSDev @AndroidDev https://t.co/KiQoAXkao7",
+        "createdAt": "2026-09-05T15:50:23.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096264679714951168/vid/avc1/1200x690/05QwCYy2e_kukgab.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096264679714951168/img/4Nkw--pHma_s_NZu.jpg",
+            "durationMs": 33660
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "robsandhu",
+        "company": "Rob Sandhu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096264690578108868",
+        "slug": "rob-sandhu-108868",
+        "title": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr. It embeds live iOS Simul…",
+        "product": "Rob Sandhu",
+        "company": "Rob Sandhu",
+        "description": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr. It embeds live iOS Simulators and Android emulators beside your AI coding session, powered by my open-source serve-avd and @Baconbrix serve-sim. #OpenSource #iOSDev @AndroidDev",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/robsandhu/status/2096264690578108868",
+        "tweetId": "2096264690578108868",
+        "authorName": "Rob Sandhu",
+        "authorHandle": "robsandhu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/817607606311141376/Gru7DW-P.jpg",
+        "poster": "/posters/rob-sandhu-108868.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096264679714951168/vid/avc1/1200x690/05QwCYy2e_kukgab.mp4?tag=14",
+        "publishedAt": "2026-09-05T15:50:23.000Z",
+        "durationSeconds": 34,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096445653325115562",
+      "tweetId": "2096445653325115562",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:36.441Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bproduct (?:launch|demo|walkthrough)\\b"
+      ],
+      "post": {
+        "tweetId": "2096445653325115562",
+        "tweetUrl": "https://x.com/Huawei/status/2096445653325115562",
+        "authorHandle": "Huawei",
+        "authorName": "Huawei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc.jpg",
+        "text": "Huawei will launch the new tri-fold smartphone Mate XT 2 | ULTIMATE DESIGN with HarmonyOS 7.\n\nJoin the HarmonyOS 7 | HUAWEI Mate XT 2 and All-Scenario Product Launch Livestream on September 7 at 2:45 AM (GMT-4)! https://t.co/VD6nZA729f",
+        "createdAt": "2026-09-06T03:49:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096444875155906560/vid/avc1/1920x1080/nMu5V_GH4B4eQ9gJ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/media/HRgSTavaIAA95GV.jpg",
+            "durationMs": 7000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Huawei",
+        "company": "Huawei",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096445653325115562",
+        "slug": "huawei-115562",
+        "title": "Huawei will launch the new tri-fold smartphone Mate XT 2 | ULTIMATE DESIGN with HarmonyOS 7. Join…",
+        "product": "Huawei",
+        "company": "Huawei",
+        "description": "Huawei will launch the new tri-fold smartphone Mate XT 2 | ULTIMATE DESIGN with HarmonyOS 7. Join the HarmonyOS 7 | HUAWEI Mate XT 2 and All-Scenario Product Launch Livestream on September 7 at 2:45 AM (GMT-4)!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Huawei/status/2096445653325115562",
+        "tweetId": "2096445653325115562",
+        "authorName": "Huawei",
+        "authorHandle": "Huawei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc.jpg",
+        "poster": "/posters/huawei-115562.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096444875155906560/vid/avc1/1920x1080/nMu5V_GH4B4eQ9gJ.mp4",
+        "publishedAt": "2026-09-06T03:49:28.000Z",
+        "durationSeconds": 7,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096559196464382354",
+      "tweetId": "2096559196464382354",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:36.121Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096559196464382354",
+        "tweetUrl": "https://x.com/philippsieben/status/2096559196464382354",
+        "authorHandle": "philippsieben",
+        "authorName": "PixelArtistry",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2036824642082779136/G2PLMdcr.jpg",
+        "text": "This new Free &amp; Local 3D AI workflow lets you create a game-ready 3D characters faster than ever before!  \n\nIt uses Pixal3D + Trellis2 locally in ComfyUI to generate, retopologize and texture your model. Then the open-source tool Skintokens rigs the character so you can animate https://t.co/CutUWNaFgv",
+        "createdAt": "2026-09-06T11:20:39.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096558862795223040/vid/avc1/1920x1080/4pgPkDgGEeHI2WXq.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096558862795223040/img/ybGr2d5W9w-7sQzS.jpg",
+            "durationMs": 19950
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "philippsieben",
+        "company": "PixelArtistry",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096559196464382354",
+        "slug": "pixelartistry-382354",
+        "title": "This new Free &amp; Local 3D AI workflow lets you create a game-ready 3D characters faster than e…",
+        "product": "PixelArtistry",
+        "company": "PixelArtistry",
+        "description": "This new Free &amp; Local 3D AI workflow lets you create a game-ready 3D characters faster than ever before! It uses Pixal3D + Trellis2 locally in ComfyUI to generate, retopologize and texture your model. Then the open-source tool Skintokens rigs the character so you can animate",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/philippsieben/status/2096559196464382354",
+        "tweetId": "2096559196464382354",
+        "authorName": "PixelArtistry",
+        "authorHandle": "philippsieben",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2036824642082779136/G2PLMdcr.jpg",
+        "poster": "/posters/pixelartistry-382354.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096558862795223040/vid/avc1/1920x1080/4pgPkDgGEeHI2WXq.mp4",
+        "publishedAt": "2026-09-06T11:20:39.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096513894395043943",
+      "tweetId": "2096513894395043943",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:35.799Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096513894395043943",
+        "tweetUrl": "https://x.com/mikenevermiss/status/2096513894395043943",
+        "authorHandle": "mikenevermiss",
+        "authorName": "MIKE",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2004815313108389888/uzJndIfx.jpg",
+        "text": "China just launched an AI employee that can work 24/7.\n\nIt’s 100% FREE, open-source, and runs directly on your computer.\n\nMeet DeerFlow.\n\nIt can:\n\n→ Research and organize information on its own\n→ Write and run code\n→ Create presentations, videos, and images\n→ Handle complex https://t.co/LJh87pqVjS",
+        "createdAt": "2026-09-06T08:20:38.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096513819522879488/vid/avc1/886x942/4uFB4AyWYnVtv-Le.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096513819522879488/img/eQdYH40RhBAgQTym.jpg",
+            "durationMs": 17414
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "mikenevermiss",
+        "company": "MIKE",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096513894395043943",
+        "slug": "mike-043943",
+        "title": "China just launched an AI employee that can work 24/7. It’s 100% FREE, open-source, and runs dire…",
+        "product": "MIKE",
+        "company": "MIKE",
+        "description": "China just launched an AI employee that can work 24/7. It’s 100% FREE, open-source, and runs directly on your computer. Meet DeerFlow. It can: → Research and organize information on its own → Write and run code → Create presentations, videos, and images → Handle complex",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/mikenevermiss/status/2096513894395043943",
+        "tweetId": "2096513894395043943",
+        "authorName": "MIKE",
+        "authorHandle": "mikenevermiss",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2004815313108389888/uzJndIfx.jpg",
+        "poster": "/posters/mike-043943.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096513819522879488/vid/avc1/886x942/4uFB4AyWYnVtv-Le.mp4",
+        "publishedAt": "2026-09-06T08:20:38.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096491165679829418",
+      "tweetId": "2096491165679829418",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:35.468Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2096491165679829418",
+        "tweetUrl": "https://x.com/romanbuildsaas/status/2096491165679829418",
+        "authorHandle": "romanbuildsaas",
+        "authorName": "Romàn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048277063099199488/N-ZjfQfJ.jpg",
+        "text": "We just open-sourced our entire outbound team.\n\nIntroducing the @GojiberryAI Sales OS for Grok Bot.\n\nA full AI sales department.\n\nYou no longer need your first 5 sales hires.\n\n📁 Outbound Team\n┃\n┣ 📁 Head of Sales\n┃ ┣ 📁 Who to target, and why\n┃ ┗ 📁 ICP, markets, https://t.co/4zWQvxQnoH",
+        "createdAt": "2026-09-06T06:50:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096491131374829568/vid/avc1/720x720/UUiZ1iQQukD74fF0.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096491131374829568/img/gr7JYt8aj1ZNjTho.jpg",
+            "durationMs": 40007
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "romanbuildsaas",
+        "company": "Romàn",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096491165679829418",
+        "slug": "roman-829418",
+        "title": "We just open-sourced our entire outbound team. Introducing the @GojiberryAI Sales OS for Grok Bot…",
+        "product": "Romàn",
+        "company": "Romàn",
+        "description": "We just open-sourced our entire outbound team. Introducing the @GojiberryAI Sales OS for Grok Bot. A full AI sales department. You no longer need your first 5 sales hires. 📁 Outbound Team ┃ ┣ 📁 Head of Sales ┃ ┣ 📁 Who to target, and why ┃ ┗ 📁 ICP, markets,",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/romanbuildsaas/status/2096491165679829418",
+        "tweetId": "2096491165679829418",
+        "authorName": "Romàn",
+        "authorHandle": "romanbuildsaas",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048277063099199488/N-ZjfQfJ.jpg",
+        "poster": "/posters/roman-829418.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096491131374829568/vid/avc1/720x720/UUiZ1iQQukD74fF0.mp4",
+        "publishedAt": "2026-09-06T06:50:19.000Z",
+        "durationSeconds": 40,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096628315700564293",
+      "tweetId": "2096628315700564293",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:35.140Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096628315700564293",
+        "tweetUrl": "https://x.com/Anujatk14/status/2096628315700564293",
+        "authorHandle": "Anujatk14",
+        "authorName": "Anu Anuja",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067552185848832000/gnJaNcHw.jpg",
+        "text": "Just shipped the MCP and also made the project completely open source. \n\nAsk your Claude code or Codex agent to build scene or even build features on top. \n\nCheck out the project here - https://t.co/Yv2NBgYa1M https://t.co/RQMQqQYjJB",
+        "createdAt": "2026-09-06T15:55:18.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096628150843351040/vid/avc1/1080x1080/GZyvF_KF6UhFVrKY.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096628150843351040/img/dCNqzXn4Qo-cA4Yk.jpg",
+            "durationMs": 5040
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Anujatk14",
+        "company": "Anu Anuja",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096628315700564293",
+        "slug": "anu-anuja-564293",
+        "title": "Just shipped the MCP and also made the project completely open source. Ask your Claude code or Co…",
+        "product": "Anu Anuja",
+        "company": "Anu Anuja",
+        "description": "Just shipped the MCP and also made the project completely open source. Ask your Claude code or Codex agent to build scene or even build features on top. Check out the project here -",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Anujatk14/status/2096628315700564293",
+        "tweetId": "2096628315700564293",
+        "authorName": "Anu Anuja",
+        "authorHandle": "Anujatk14",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067552185848832000/gnJaNcHw.jpg",
+        "poster": "/posters/anu-anuja-564293.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096628150843351040/vid/avc1/1080x1080/GZyvF_KF6UhFVrKY.mp4",
+        "publishedAt": "2026-09-06T15:55:18.000Z",
+        "durationSeconds": 5,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096591281996664903",
+      "tweetId": "2096591281996664903",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:34.813Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096591281996664903",
+        "tweetUrl": "https://x.com/ErickSky/status/2096591281996664903",
+        "authorHandle": "ErickSky",
+        "authorName": "Erick",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2074858199350444032/vKaYkqSV.jpg",
+        "text": "Esto es CCleaner, pero open source.\n\n[Kudu] es una app de escritorio que limpia Windows, Mac y Linux.\n\n1. Escanea temporales, logs, cachés de apps y navegadores\n2. Te muestra cuánto pesa cada cosa\n3. Tú eliges qué borrar\n4. También puede:\n   - mapear el disco (qué carpeta come https://t.co/5yN4L39JDY",
+        "createdAt": "2026-09-06T13:28:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096591233468481538/vid/avc1/1920x1080/gfWkhLVC6MlaMxWg.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096591233468481538/img/QqQYQslBl-zfnXJ8.jpg",
+            "durationMs": 29000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ErickSky",
+        "company": "Erick",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096591281996664903",
+        "slug": "erick-664903",
+        "title": "Esto es CCleaner, pero open source. [Kudu] es una app de escritorio que limpia Windows, Mac y Lin…",
+        "product": "Erick",
+        "company": "Erick",
+        "description": "Esto es CCleaner, pero open source. [Kudu] es una app de escritorio que limpia Windows, Mac y Linux. 1. Escanea temporales, logs, cachés de apps y navegadores 2. Te muestra cuánto pesa cada cosa 3. Tú eliges qué borrar 4. También puede: - mapear el disco (qué carpeta come",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ErickSky/status/2096591281996664903",
+        "tweetId": "2096591281996664903",
+        "authorName": "Erick",
+        "authorHandle": "ErickSky",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2074858199350444032/vKaYkqSV.jpg",
+        "poster": "/posters/erick-664903.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096591233468481538/vid/avc1/1920x1080/gfWkhLVC6MlaMxWg.mp4",
+        "publishedAt": "2026-09-06T13:28:09.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096724610217632189",
+      "tweetId": "2096724610217632189",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:34.488Z",
+      "reviewedAt": null,
+      "score": 74,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bproduct (?:launch|demo|walkthrough)\\b"
+      ],
+      "post": {
+        "tweetId": "2096724610217632189",
+        "tweetUrl": "https://x.com/lionel_lakson/status/2096724610217632189",
+        "authorHandle": "lionel_lakson",
+        "authorName": "Lionel Lakson",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1948843993862664192/SY0Jc_Pz.jpg",
+        "text": "Introducing Framedeo - the Claude for product launch videos.\n\n&gt; Add your website, logo, and screenshots. \n&gt; Describe what you want, \n&gt; and get a complete video with script, voice-over, music, and motion.\n\nFully editable. No motion skills needed.\n\nTry it → https://t.co/eVDJxE8RDe https://t.co/UJsbZHF6EQ",
+        "createdAt": "2026-09-06T22:17:56.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096724452067205121/vid/avc1/1280x720/yA_A1w5r-j-NqbUu.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096724452067205121/img/Z_ykdxDw3ENrzl58.jpg",
+            "durationMs": 19818
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "lionel_lakson",
+        "company": "Lionel Lakson",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096724610217632189",
+        "slug": "lionel-lakson-632189",
+        "title": "Introducing Framedeo - the Claude for product launch videos. &gt; Add your website, logo, and scr…",
+        "product": "Lionel Lakson",
+        "company": "Lionel Lakson",
+        "description": "Introducing Framedeo - the Claude for product launch videos. &gt; Add your website, logo, and screenshots. &gt; Describe what you want, &gt; and get a complete video with script, voice-over, music, and motion. Fully editable. No motion skills needed. Try it →",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/lionel_lakson/status/2096724610217632189",
+        "tweetId": "2096724610217632189",
+        "authorName": "Lionel Lakson",
+        "authorHandle": "lionel_lakson",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1948843993862664192/SY0Jc_Pz.jpg",
+        "poster": "/posters/lionel-lakson-632189.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096724452067205121/vid/avc1/1280x720/yA_A1w5r-j-NqbUu.mp4?tag=14",
+        "publishedAt": "2026-09-06T22:17:56.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096654556528566458",
+      "tweetId": "2096654556528566458",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:34.159Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2096654556528566458",
+        "tweetUrl": "https://x.com/motion_so/status/2096654556528566458",
+        "authorHandle": "motion_so",
+        "authorName": "Motion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
+        "text": "Introducing Astra for product launches.  \n\nPaste your website URL.  \n\nMotion turns it into a launch video with motion graphics, voiceover, music and captions.  \n\nThis is honestly crazy. https://t.co/FFuhltMGBX",
+        "createdAt": "2026-09-06T17:39:34.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096653802187444224/vid/avc1/3840x2160/y1AgnLZtHikcU0gj.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096653802187444224/img/Ra91W2x7t8NCdWbE.jpg",
+            "durationMs": 22616
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "motion_so",
+        "company": "Motion",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096654556528566458",
+        "slug": "motion-566458",
+        "title": "Introducing Astra for product launches. Paste your website URL. Motion turns it into a launch vid…",
+        "product": "Motion",
+        "company": "Motion",
+        "description": "Introducing Astra for product launches. Paste your website URL. Motion turns it into a launch video with motion graphics, voiceover, music and captions. This is honestly crazy.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/motion_so/status/2096654556528566458",
+        "tweetId": "2096654556528566458",
+        "authorName": "Motion",
+        "authorHandle": "motion_so",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
+        "poster": "/posters/motion-566458.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096653802187444224/vid/avc1/3840x2160/y1AgnLZtHikcU0gj.mp4",
+        "publishedAt": "2026-09-06T17:39:34.000Z",
+        "durationSeconds": 23,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096599299857547423",
+      "tweetId": "2096599299857547423",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:33.837Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2096599299857547423",
+        "tweetUrl": "https://x.com/emanueledpt/status/2096599299857547423",
+        "authorHandle": "emanueledpt",
+        "authorName": "Emanuele Di Pietro",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
+        "text": "Peekaboo is now live on the App Store!\n\nI built a tiny, opensource, native task list that lives in your Mac’s screen corner\n\nMove your cursor to the corner to quickly check your tasks\n\n→ Organize tasks into To Do, In Progress, and Done, with a Backlog for ideas \n→ Set https://t.co/4RCip7ieuB",
+        "createdAt": "2026-09-06T14:00:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096552101421727746/vid/avc1/3296x2160/kqBhDp8DRQ7a47Oe.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096552101421727746/img/JAyjQ1lzueUPMeGa.jpg",
+            "durationMs": 54497
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "emanueledpt",
+        "company": "Emanuele Di Pietro",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096599299857547423",
+        "slug": "emanuele-di-pietro-547423",
+        "title": "Peekaboo is now live on the App Store! I built a tiny, opensource, native task list that lives in…",
+        "product": "Emanuele Di Pietro",
+        "company": "Emanuele Di Pietro",
+        "description": "Peekaboo is now live on the App Store! I built a tiny, opensource, native task list that lives in your Mac’s screen corner Move your cursor to the corner to quickly check your tasks → Organize tasks into To Do, In Progress, and Done, with a Backlog for ideas → Set",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/emanueledpt/status/2096599299857547423",
+        "tweetId": "2096599299857547423",
+        "authorName": "Emanuele Di Pietro",
+        "authorHandle": "emanueledpt",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
+        "poster": "/posters/emanuele-di-pietro-547423.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096552101421727746/vid/avc1/3296x2160/kqBhDp8DRQ7a47Oe.mp4",
+        "publishedAt": "2026-09-06T14:00:00.000Z",
+        "durationSeconds": 54,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096548536972370319",
+      "tweetId": "2096548536972370319",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:33.507Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096548536972370319",
+        "tweetUrl": "https://x.com/zzzzshawn/status/2096548536972370319",
+        "authorHandle": "zzzzshawn",
+        "authorName": "shawn.",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1988271097331281925/5JkUdY-0.jpg",
+        "text": "Introducing Orbkit 🔮\n\nA collection of 30+ free and open-source WebGL shader orbs for AI and voice agent states, built with React, TypeScript, and shadcn. Each orb reacts to idle, thinking, and speaking out of the box.\n\nInstall one, copy the code, and make it yours.\n\nThanks https://t.co/BmxGwdljJr",
+        "createdAt": "2026-09-06T10:38:17.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096547253112741888/vid/avc1/1920x1064/fZEFlAGH-zuoCnrP.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096547253112741888/img/xCP17Gig1rPvLhjA.jpg",
+            "durationMs": 80316
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "zzzzshawn",
+        "company": "shawn.",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096548536972370319",
+        "slug": "shawn-370319",
+        "title": "Introducing Orbkit 🔮 A collection of 30+ free and open-source WebGL shader orbs for AI and voice…",
+        "product": "shawn.",
+        "company": "shawn.",
+        "description": "Introducing Orbkit 🔮 A collection of 30+ free and open-source WebGL shader orbs for AI and voice agent states, built with React, TypeScript, and shadcn. Each orb reacts to idle, thinking, and speaking out of the box. Install one, copy the code, and make it yours. Thanks",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/zzzzshawn/status/2096548536972370319",
+        "tweetId": "2096548536972370319",
+        "authorName": "shawn.",
+        "authorHandle": "zzzzshawn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1988271097331281925/5JkUdY-0.jpg",
+        "poster": "/posters/shawn-370319.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096547253112741888/vid/avc1/1920x1064/fZEFlAGH-zuoCnrP.mp4",
+        "publishedAt": "2026-09-06T10:38:17.000Z",
+        "durationSeconds": 80,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096584307020304840",
+      "tweetId": "2096584307020304840",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-07T08:19:33.182Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2096584307020304840",
+        "tweetUrl": "https://x.com/veedstudio/status/2096584307020304840",
+        "authorHandle": "veedstudio",
+        "authorName": "VEED | AI Video Creation",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2037474115074895872/Aw0xAiL5.png",
+        "text": "🚨 Introducing VEED OpenEdit.\n\nAn open-source editor for Claude...\n\nCreate motion graphics, captions, &amp; hooks from one prompt.\n\nBtw, this video was made in OpenEdit too 👀\n\nGet it here 👉 https://t.co/PCkNzf1twC https://t.co/FefljH7niw",
+        "createdAt": "2026-09-06T13:00:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096584227043385344/vid/avc1/1440x1080/ynprfIpd3L-5y5mo.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096584227043385344/img/3Dg1hhDApv7B8CKn.jpg",
+            "durationMs": 25309
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "veedstudio",
+        "company": "VEED | AI Video Creation",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096584307020304840",
+        "slug": "veed-ai-video-creation-304840",
+        "title": "🚨 Introducing VEED OpenEdit. An open-source editor for Claude... Create motion graphics, caption…",
+        "product": "VEED | AI Video Creation",
+        "company": "VEED | AI Video Creation",
+        "description": "🚨 Introducing VEED OpenEdit. An open-source editor for Claude... Create motion graphics, captions, &amp; hooks from one prompt. Btw, this video was made in OpenEdit too 👀 Get it here 👉",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/veedstudio/status/2096584307020304840",
+        "tweetId": "2096584307020304840",
+        "authorName": "VEED | AI Video Creation",
+        "authorHandle": "veedstudio",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2037474115074895872/Aw0xAiL5.png",
+        "poster": "/posters/veed-ai-video-creation-304840.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096584227043385344/vid/avc1/1440x1080/ynprfIpd3L-5y5mo.mp4?tag=16",
+        "publishedAt": "2026-09-06T13:00:26.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2096010888495108234",
       "tweetId": "2096010888495108234",
