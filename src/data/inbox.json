@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-08T14:26:08.170Z",
+  "updatedAt": "2026-09-08T15:19:44.980Z",
   "items": [
     {
       "id": "disc-2097100854729834636",
       "tweetId": "2097100854729834636",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:08.170Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:28.941Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -242,9 +242,9 @@
     {
       "id": "disc-2097094403634405544",
       "tweetId": "2097094403634405544",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:06.645Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:36.691Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -422,9 +422,9 @@
     {
       "id": "disc-2096890642207240608",
       "tweetId": "2096890642207240608",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:05.580Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:42.346Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -482,9 +482,9 @@
     {
       "id": "disc-2097022239485169690",
       "tweetId": "2097022239485169690",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:05.227Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:32.092Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -719,9 +719,9 @@
     {
       "id": "disc-2096645087203594341",
       "tweetId": "2096645087203594341",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:03.612Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:17:27.787Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -778,9 +778,9 @@
     {
       "id": "disc-2096942295044284762",
       "tweetId": "2096942295044284762",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:03.254Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:21.427Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -837,9 +837,9 @@
     {
       "id": "disc-2096960220346175561",
       "tweetId": "2096960220346175561",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:02.899Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:24.494Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1314,9 +1314,9 @@
     {
       "id": "disc-2097089306976284707",
       "tweetId": "2097089306976284707",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:00.080Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:54.991Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1374,9 +1374,9 @@
     {
       "id": "disc-2097007029223108716",
       "tweetId": "2097007029223108716",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:25:59.722Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:17:17.602Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1497,70 +1497,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096637048182427740",
-      "tweetId": "2096637048182427740",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-07T08:19:38.808Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2096637048182427740",
-        "tweetUrl": "https://x.com/emanueledpt/status/2096637048182427740",
-        "authorHandle": "emanueledpt",
-        "authorName": "Emanuele Di Pietro",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
-        "text": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slideshow feature\n\nThe annoying part is opening an editor, measuring everything, and cropping each piece so they line up\n\nSo I built Hattrick, a free web app that does it for you\n\nUpload a https://t.co/NgHY1fmXbZ",
-        "createdAt": "2026-09-06T16:30:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096626812574937088/vid/avc1/2396x1440/ojeJCoD1VerW185B.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096626812574937088/img/GU7Fa758NoF7Gd_p.jpg",
-            "durationMs": 26166
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "emanueledpt",
-        "company": "Emanuele Di Pietro",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096637048182427740",
-        "slug": "emanuele-di-pietro-427740",
-        "title": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slides…",
-        "product": "Emanuele Di Pietro",
-        "company": "Emanuele Di Pietro",
-        "description": "Everyone’s jumping on this trend of splitting a single photo across 3 slides using X’s new slideshow feature The annoying part is opening an editor, measuring everything, and cropping each piece so they line up So I built Hattrick, a free web app that does it for you Upload a",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/emanueledpt/status/2096637048182427740",
-        "tweetId": "2096637048182427740",
-        "authorName": "Emanuele Di Pietro",
-        "authorHandle": "emanueledpt",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084799430213943296/xFDz_P0j.jpg",
-        "poster": "/posters/emanuele-di-pietro-427740.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096626812574937088/vid/avc1/2396x1440/ojeJCoD1VerW185B.mp4",
-        "publishedAt": "2026-09-06T16:30:00.000Z",
-        "durationSeconds": 26,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096711155762782411",
       "tweetId": "2096711155762782411",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:38.479Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:27.014Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1617,9 +1558,9 @@
     {
       "id": "disc-2096652902169550984",
       "tweetId": "2096652902169550984",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:38.162Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:57.564Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1797,9 +1738,9 @@
     {
       "id": "disc-2095962368048279801",
       "tweetId": "2095962368048279801",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:37.179Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:01.923Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1855,72 +1796,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096264690578108868",
-      "tweetId": "2096264690578108868",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-07T08:19:36.855Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2096264690578108868",
-        "tweetUrl": "https://x.com/robsandhu/status/2096264690578108868",
-        "authorHandle": "robsandhu",
-        "authorName": "Rob Sandhu",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/817607606311141376/Gru7DW-P.jpg",
-        "text": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr.\nIt embeds live iOS Simulators and Android emulators beside your AI coding session, powered by my open-source serve-avd and @Baconbrix serve-sim. \nhttps://t.co/bynOdT6eOp\n\n#OpenSource #iOSDev @AndroidDev https://t.co/KiQoAXkao7",
-        "createdAt": "2026-09-05T15:50:23.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096264679714951168/vid/avc1/1200x690/05QwCYy2e_kukgab.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096264679714951168/img/4Nkw--pHma_s_NZu.jpg",
-            "durationMs": 33660
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "robsandhu",
-        "company": "Rob Sandhu",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096264690578108868",
-        "slug": "rob-sandhu-108868",
-        "title": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr. It embeds live iOS Simul…",
-        "product": "Rob Sandhu",
-        "company": "Rob Sandhu",
-        "description": "Introducing mobilecode: an open-source, mobile fork of @opencode @thdxr. It embeds live iOS Simulators and Android emulators beside your AI coding session, powered by my open-source serve-avd and @Baconbrix serve-sim. #OpenSource #iOSDev @AndroidDev",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/robsandhu/status/2096264690578108868",
-        "tweetId": "2096264690578108868",
-        "authorName": "Rob Sandhu",
-        "authorHandle": "robsandhu",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/817607606311141376/Gru7DW-P.jpg",
-        "poster": "/posters/rob-sandhu-108868.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096264679714951168/vid/avc1/1200x690/05QwCYy2e_kukgab.mp4?tag=14",
-        "publishedAt": "2026-09-05T15:50:23.000Z",
-        "durationSeconds": 34,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096445653325115562",
       "tweetId": "2096445653325115562",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:36.441Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:14:30.404Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -2039,9 +1919,9 @@
     {
       "id": "disc-2096513894395043943",
       "tweetId": "2096513894395043943",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:35.799Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:05.994Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -2100,9 +1980,9 @@
     {
       "id": "disc-2096491165679829418",
       "tweetId": "2096491165679829418",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:35.468Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:05.082Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2160,9 +2040,9 @@
     {
       "id": "disc-2096628315700564293",
       "tweetId": "2096628315700564293",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:35.140Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:14:41.225Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -2212,66 +2092,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2096628150843351040/vid/avc1/1080x1080/GZyvF_KF6UhFVrKY.mp4",
         "publishedAt": "2026-09-06T15:55:18.000Z",
         "durationSeconds": 5,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2096591281996664903",
-      "tweetId": "2096591281996664903",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-07T08:19:34.813Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2096591281996664903",
-        "tweetUrl": "https://x.com/ErickSky/status/2096591281996664903",
-        "authorHandle": "ErickSky",
-        "authorName": "Erick",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2074858199350444032/vKaYkqSV.jpg",
-        "text": "Esto es CCleaner, pero open source.\n\n[Kudu] es una app de escritorio que limpia Windows, Mac y Linux.\n\n1. Escanea temporales, logs, cachés de apps y navegadores\n2. Te muestra cuánto pesa cada cosa\n3. Tú eliges qué borrar\n4. También puede:\n   - mapear el disco (qué carpeta come https://t.co/5yN4L39JDY",
-        "createdAt": "2026-09-06T13:28:09.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096591233468481538/vid/avc1/1920x1080/gfWkhLVC6MlaMxWg.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096591233468481538/img/QqQYQslBl-zfnXJ8.jpg",
-            "durationMs": 29000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ErickSky",
-        "company": "Erick",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096591281996664903",
-        "slug": "erick-664903",
-        "title": "Esto es CCleaner, pero open source. [Kudu] es una app de escritorio que limpia Windows, Mac y Lin…",
-        "product": "Erick",
-        "company": "Erick",
-        "description": "Esto es CCleaner, pero open source. [Kudu] es una app de escritorio que limpia Windows, Mac y Linux. 1. Escanea temporales, logs, cachés de apps y navegadores 2. Te muestra cuánto pesa cada cosa 3. Tú eliges qué borrar 4. También puede: - mapear el disco (qué carpeta come",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ErickSky/status/2096591281996664903",
-        "tweetId": "2096591281996664903",
-        "authorName": "Erick",
-        "authorHandle": "ErickSky",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2074858199350444032/vKaYkqSV.jpg",
-        "poster": "/posters/erick-664903.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096591233468481538/vid/avc1/1920x1080/gfWkhLVC6MlaMxWg.mp4",
-        "publishedAt": "2026-09-06T13:28:09.000Z",
-        "durationSeconds": 29,
         "featured": false,
         "status": "draft"
       },
@@ -2343,9 +2163,9 @@
     {
       "id": "disc-2096654556528566458",
       "tweetId": "2096654556528566458",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:34.159Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:14:53.326Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -2404,9 +2224,9 @@
     {
       "id": "disc-2096599299857547423",
       "tweetId": "2096599299857547423",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:33.837Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:16:13.057Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2462,72 +2282,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096548536972370319",
-      "tweetId": "2096548536972370319",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-07T08:19:33.507Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2096548536972370319",
-        "tweetUrl": "https://x.com/zzzzshawn/status/2096548536972370319",
-        "authorHandle": "zzzzshawn",
-        "authorName": "shawn.",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1988271097331281925/5JkUdY-0.jpg",
-        "text": "Introducing Orbkit 🔮\n\nA collection of 30+ free and open-source WebGL shader orbs for AI and voice agent states, built with React, TypeScript, and shadcn. Each orb reacts to idle, thinking, and speaking out of the box.\n\nInstall one, copy the code, and make it yours.\n\nThanks https://t.co/BmxGwdljJr",
-        "createdAt": "2026-09-06T10:38:17.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096547253112741888/vid/avc1/1920x1064/fZEFlAGH-zuoCnrP.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096547253112741888/img/xCP17Gig1rPvLhjA.jpg",
-            "durationMs": 80316
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "zzzzshawn",
-        "company": "shawn.",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096548536972370319",
-        "slug": "shawn-370319",
-        "title": "Introducing Orbkit 🔮 A collection of 30+ free and open-source WebGL shader orbs for AI and voice…",
-        "product": "shawn.",
-        "company": "shawn.",
-        "description": "Introducing Orbkit 🔮 A collection of 30+ free and open-source WebGL shader orbs for AI and voice agent states, built with React, TypeScript, and shadcn. Each orb reacts to idle, thinking, and speaking out of the box. Install one, copy the code, and make it yours. Thanks",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/zzzzshawn/status/2096548536972370319",
-        "tweetId": "2096548536972370319",
-        "authorName": "shawn.",
-        "authorHandle": "zzzzshawn",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1988271097331281925/5JkUdY-0.jpg",
-        "poster": "/posters/shawn-370319.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096547253112741888/vid/avc1/1920x1064/fZEFlAGH-zuoCnrP.mp4",
-        "publishedAt": "2026-09-06T10:38:17.000Z",
-        "durationSeconds": 80,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096584307020304840",
       "tweetId": "2096584307020304840",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:33.182Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:14:55.495Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -3197,9 +2956,9 @@
     {
       "id": "disc-2096030401537966113",
       "tweetId": "2096030401537966113",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:29.955Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:15:13.275Z",
       "score": 42,
       "reasons": [
         "has-video",
