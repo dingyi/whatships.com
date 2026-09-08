@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T15:19:44.980Z",
+  "updatedAt": "2026-09-08T15:29:53.171Z",
   "items": [
     {
       "id": "disc-2097100854729834636",
@@ -300,66 +300,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097062104830538015",
-      "tweetId": "2097062104830538015",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-08T14:26:06.286Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2097062104830538015",
-        "tweetUrl": "https://x.com/huozhi/status/2097062104830538015",
-        "authorHandle": "huozhi",
-        "authorName": "Jiachi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1773459837264740353/Yjk7f1EY.jpg",
-        "text": "Introducing &lt;FileTree&gt; component\n\n- Simple API\n- Minimalism design\n- Best pal for code blocks &amp; editor\n\n→ Docs: https://t.co/Zt3G1Tu4EB\n→ Skills: npx skills add huozhi/sugar-high --skill sugar-high https://t.co/tBvLwyMRbj",
-        "createdAt": "2026-09-07T20:39:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097060286335496192/vid/avc1/1116x720/MsMtktqrhrGgTiG3.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097060286335496192/img/aXYgMomC9E3Ee7S0.jpg",
-            "durationMs": 5866
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "huozhi",
-        "company": "Jiachi",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097062104830538015",
-        "slug": "jiachi-538015",
-        "title": "Introducing &lt;FileTree&gt; component - Simple API - Minimalism design - Best pal for code block…",
-        "product": "Jiachi",
-        "company": "Jiachi",
-        "description": "Introducing &lt;FileTree&gt; component - Simple API - Minimalism design - Best pal for code blocks &amp; editor → Docs: → Skills: npx skills add huozhi/sugar-high --skill sugar-high",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/huozhi/status/2097062104830538015",
-        "tweetId": "2097062104830538015",
-        "authorName": "Jiachi",
-        "authorHandle": "huozhi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1773459837264740353/Yjk7f1EY.jpg",
-        "poster": "/posters/jiachi-538015.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097060286335496192/vid/avc1/1116x720/MsMtktqrhrGgTiG3.mp4",
-        "publishedAt": "2026-09-07T20:39:01.000Z",
-        "durationSeconds": 6,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097089829020570026",
       "tweetId": "2097089829020570026",
       "reviewStatus": "pending",
@@ -541,9 +481,9 @@
     {
       "id": "disc-2097028901549822190",
       "tweetId": "2097028901549822190",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:04.868Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:34.688Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -660,9 +600,9 @@
     {
       "id": "disc-2096902374891602414",
       "tweetId": "2096902374891602414",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:03.965Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:37.283Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -894,66 +834,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097109814048694420",
-      "tweetId": "2097109814048694420",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-08T14:26:02.528Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2097109814048694420",
-        "tweetUrl": "https://x.com/Yappologistic/status/2097109814048694420",
-        "authorHandle": "Yappologistic",
-        "authorName": "E Gurl",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2044691825420914688/j1i1UHJh.jpg",
-        "text": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube Music and your local music collection together.\nI wanted something minimal that fits into my desktop, with a Material 3-inspired interface, smooth animations, and colors that https://t.co/MMgGKjx0xJ",
-        "createdAt": "2026-09-07T23:48:36.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097109772382433280/vid/avc1/2158x1536/nBb0Bmu3r2zffXBk.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097109772382433280/img/Vl4j-5oXxadRfzRW.jpg",
-            "durationMs": 61294
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Yappologistic",
-        "company": "E Gurl",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097109814048694420",
-        "slug": "e-gurl-694420",
-        "title": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube…",
-        "product": "E Gurl",
-        "company": "E Gurl",
-        "description": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube Music and your local music collection together. I wanted something minimal that fits into my desktop, with a Material 3-inspired interface, smooth animations, and colors that",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Yappologistic/status/2097109814048694420",
-        "tweetId": "2097109814048694420",
-        "authorName": "E Gurl",
-        "authorHandle": "Yappologistic",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2044691825420914688/j1i1UHJh.jpg",
-        "poster": "/posters/e-gurl-694420.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097109772382433280/vid/avc1/2158x1536/nBb0Bmu3r2zffXBk.mp4",
-        "publishedAt": "2026-09-07T23:48:36.000Z",
-        "durationSeconds": 61,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2096716016835342588",
       "tweetId": "2096716016835342588",
       "reviewStatus": "pending",
@@ -1134,9 +1014,9 @@
     {
       "id": "disc-2097048671213023385",
       "tweetId": "2097048671213023385",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:01.118Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:12.198Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1194,9 +1074,9 @@
     {
       "id": "disc-2097020460126859595",
       "tweetId": "2097020460126859595",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:00.762Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:08.327Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1618,9 +1498,9 @@
     {
       "id": "disc-2095963260407152884",
       "tweetId": "2095963260407152884",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:37.828Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:21.977Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1669,66 +1549,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2095963188818849797/vid/avc1/1920x1080/2jeQH7526vHMhsN_.mp4",
         "publishedAt": "2026-09-04T19:52:37.000Z",
         "durationSeconds": 41,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2096739955657654745",
-      "tweetId": "2096739955657654745",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-07T08:19:37.496Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2096739955657654745",
-        "tweetUrl": "https://x.com/yzycrave/status/2096739955657654745",
-        "authorHandle": "yzycrave",
-        "authorName": "crave",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1989359437476151296/-zhCslQW.jpg",
-        "text": "Introducing YEEZY ARCHIVE\n\nEvery YEEZY piece from 2015-2026 in one place\n\nLive now at https://t.co/cazqgYBlhv https://t.co/5AkuriB7hY",
-        "createdAt": "2026-09-06T23:18:55.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096736544761782272/vid/avc1/1920x1080/mvk7qz1K-66HAkad.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096736544761782272/img/RdNjebDjzRzgRXGD.jpg",
-            "durationMs": 70495
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "yzycrave",
-        "company": "crave",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096739955657654745",
-        "slug": "crave-654745",
-        "title": "Introducing YEEZY ARCHIVE Every YEEZY piece from 2015-2026 in one place Live now at",
-        "product": "crave",
-        "company": "crave",
-        "description": "Introducing YEEZY ARCHIVE Every YEEZY piece from 2015-2026 in one place Live now at",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/yzycrave/status/2096739955657654745",
-        "tweetId": "2096739955657654745",
-        "authorName": "crave",
-        "authorHandle": "yzycrave",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1989359437476151296/-zhCslQW.jpg",
-        "poster": "/posters/crave-654745.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096736544761782272/vid/avc1/1920x1080/mvk7qz1K-66HAkad.mp4",
-        "publishedAt": "2026-09-06T23:18:55.000Z",
-        "durationSeconds": 70,
         "featured": false,
         "status": "draft"
       },
@@ -1859,9 +1679,9 @@
     {
       "id": "disc-2096559196464382354",
       "tweetId": "2096559196464382354",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:36.121Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:24.405Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3257,9 +3077,9 @@
     {
       "id": "disc-2095713887631110442",
       "tweetId": "2095713887631110442",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-06T02:50:27.591Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:25:27.300Z",
       "score": 38,
       "reasons": [
         "has-video",
