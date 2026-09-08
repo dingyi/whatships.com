@@ -48898,5 +48898,80 @@
     "durationSeconds": 70,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-flip-workflows",
+    "slug": "flip-workflows",
+    "title": "Flip Workflows — automate any financial goal",
+    "product": "Flip Workflows",
+    "company": "Flip",
+    "description": "Flip Workflows automates financial goals over text: credit-card points, copytrading, paycheck routing, and more.",
+    "category": "consumer",
+    "tags": [
+      "flip",
+      "finance",
+      "workflows"
+    ],
+    "tweetUrl": "https://x.com/fliptexts/status/2097089829020570026",
+    "tweetId": "2097089829020570026",
+    "authorName": "Flip",
+    "authorHandle": "fliptexts",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2062434413217230848/DHnK5paH.jpg",
+    "poster": "/posters/flip-workflows.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097089662846476288/vid/avc1/1920x1080/1F5EIBk9ekb7udKz.mp4",
+    "publishedAt": "2026-09-07T22:29:11.000Z",
+    "durationSeconds": 60,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-raylight-capture",
+    "slug": "raylight-capture",
+    "title": "Raylight Capture — one click to a launch video",
+    "product": "Raylight Capture",
+    "company": "Raylight",
+    "description": "Raylight Capture is a free one-click recorder that turns an app into a launch video. Screen, camera, and mouse land as separate animatable layers.",
+    "category": "design",
+    "tags": [
+      "raylight",
+      "capture",
+      "video"
+    ],
+    "tweetUrl": "https://x.com/cy_burns/status/2096716016835342588",
+    "tweetId": "2096716016835342588",
+    "authorName": "cy",
+    "authorHandle": "cy_burns",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
+    "poster": "/posters/raylight-capture.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2096714996956778499/vid/avc1/1920x1080/MRbkrRLEf1_utUw2.mp4",
+    "publishedAt": "2026-09-06T21:43:48.000Z",
+    "durationSeconds": 30,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-if-market",
+    "slug": "if-market",
+    "title": "If Market — trade event impact on asset prices",
+    "product": "If Market",
+    "company": "If Market",
+    "description": "If Market beta lets you trade the impact of events on asset prices, not just whether an event happens.",
+    "category": "consumer",
+    "tags": [
+      "if-market",
+      "trading",
+      "events"
+    ],
+    "tweetUrl": "https://x.com/ifmarkets/status/2097064194843759000",
+    "tweetId": "2097064194843759000",
+    "authorName": "If Market",
+    "authorHandle": "ifmarkets",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2059753709396250624/1KlEdxIy.png",
+    "poster": "/posters/if-market.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097063608337502208/vid/avc1/1920x1080/J7Nzicau6Mqctw0k.mp4",
+    "publishedAt": "2026-09-07T20:47:20.000Z",
+    "durationSeconds": 18,
+    "featured": false,
+    "status": "published"
   }
 ]

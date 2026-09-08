@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T15:29:53.171Z",
+  "updatedAt": "2026-09-08T15:35:23.920Z",
   "items": [
     {
       "id": "disc-2097100854729834636",
@@ -123,9 +123,9 @@
     {
       "id": "disc-2097082956061818962",
       "tweetId": "2097082956061818962",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:07.408Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:33:03.814Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -293,66 +293,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097087582190686208/vid/avc1/1920x1080/tnDIISjecE25QSjA.mp4",
         "publishedAt": "2026-09-07T22:47:22.000Z",
         "durationSeconds": 61,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097089829020570026",
-      "tweetId": "2097089829020570026",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-08T14:26:05.936Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2097089829020570026",
-        "tweetUrl": "https://x.com/fliptexts/status/2097089829020570026",
-        "authorHandle": "fliptexts",
-        "authorName": "Flip",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062434413217230848/DHnK5paH.jpg",
-        "text": "Introducing Workflows by Flip\n\nYou can now automate any financial goal:\n- Pointmaxxing credit cards\n- Copytrading anyone\n- Autorouting your Paycheck\n- And so much more \n\nOne text. Money managed. Try it out today at https://t.co/WVVDC0RRGB! https://t.co/0sbdWUX1WE",
-        "createdAt": "2026-09-07T22:29:11.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097089662846476288/vid/avc1/1920x1080/1F5EIBk9ekb7udKz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097089662846476288/img/Ky8S8E8I_pve2A_e.jpg",
-            "durationMs": 60009
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fliptexts",
-        "company": "Flip",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097089829020570026",
-        "slug": "flip-570026",
-        "title": "Introducing Workflows by Flip You can now automate any financial goal: - Pointmaxxing credit card…",
-        "product": "Flip",
-        "company": "Flip",
-        "description": "Introducing Workflows by Flip You can now automate any financial goal: - Pointmaxxing credit cards - Copytrading anyone - Autorouting your Paycheck - And so much more One text. Money managed. Try it out today at",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fliptexts/status/2097089829020570026",
-        "tweetId": "2097089829020570026",
-        "authorName": "Flip",
-        "authorHandle": "fliptexts",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062434413217230848/DHnK5paH.jpg",
-        "poster": "/posters/flip-570026.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097089662846476288/vid/avc1/1920x1080/1F5EIBk9ekb7udKz.mp4",
-        "publishedAt": "2026-09-07T22:29:11.000Z",
-        "durationSeconds": 60,
         "featured": false,
         "status": "draft"
       },
@@ -540,9 +480,9 @@
     {
       "id": "disc-2097110023511986512",
       "tweetId": "2097110023511986512",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:04.437Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:32:49.859Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -834,130 +774,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2096716016835342588",
-      "tweetId": "2096716016835342588",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-08T14:26:02.178Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2096716016835342588",
-        "tweetUrl": "https://x.com/cy_burns/status/2096716016835342588",
-        "authorHandle": "cy_burns",
-        "authorName": "cy",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
-        "text": "Today we're launching Raylight Capture. 100% free.\n\nOne click captures your app and turns it into a launch video.\n\nYour screen, camera, and mouse land as separate, animatable layers.\n\nEvery mouse move becomes an editable animation block. Never re-record a bad mouse path again. https://t.co/R7m4uwYD33",
-        "createdAt": "2026-09-06T21:43:48.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2096714996956778499/vid/avc1/3840x2160/XBmYfNDZFZXZJZhh.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096714996956778499/img/AW7w6OfyhpzLolEW.jpg",
-            "durationMs": 30069
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cy_burns",
-        "company": "cy",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2096716016835342588",
-        "slug": "cy-342588",
-        "title": "Today we're launching Raylight Capture. 100% free. One click captures your app and turns it into…",
-        "product": "cy",
-        "company": "cy",
-        "description": "Today we're launching Raylight Capture. 100% free. One click captures your app and turns it into a launch video. Your screen, camera, and mouse land as separate, animatable layers. Every mouse move becomes an editable animation block. Never re-record a bad mouse path again.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cy_burns/status/2096716016835342588",
-        "tweetId": "2096716016835342588",
-        "authorName": "cy",
-        "authorHandle": "cy_burns",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
-        "poster": "/posters/cy-342588.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2096714996956778499/vid/avc1/3840x2160/XBmYfNDZFZXZJZhh.mp4",
-        "publishedAt": "2026-09-06T21:43:48.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097064194843759000",
-      "tweetId": "2097064194843759000",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-08T14:26:01.828Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097064194843759000",
-        "tweetUrl": "https://x.com/ifmarkets/status/2097064194843759000",
-        "authorHandle": "ifmarkets",
-        "authorName": "If Market",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2059753709396250624/1KlEdxIy.png",
-        "text": "If Market beta is live.\n\nTrade the impact of events on asset prices. Not just \"will it happen\", but what it does to the market when it does.\n\nInvite codes are in your DMs. No code? Reply or DM us and we'll send one.\n\nHave a look around, try the flow, and be blunt. Feedback is the https://t.co/CIe1MA38km",
-        "createdAt": "2026-09-07T20:47:20.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097063608337502208/vid/avc1/1920x1080/J7Nzicau6Mqctw0k.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097063608337502208/img/c11B8rZEwrdRa3SP.jpg",
-            "durationMs": 17951
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ifmarkets",
-        "company": "If Market",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097064194843759000",
-        "slug": "if-market-759000",
-        "title": "If Market beta is live. Trade the impact of events on asset prices. Not just \"will it happen\", bu…",
-        "product": "If Market",
-        "company": "If Market",
-        "description": "If Market beta is live. Trade the impact of events on asset prices. Not just \"will it happen\", but what it does to the market when it does. Invite codes are in your DMs. No code? Reply or DM us and we'll send one. Have a look around, try the flow, and be blunt. Feedback is the",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ifmarkets/status/2097064194843759000",
-        "tweetId": "2097064194843759000",
-        "authorName": "If Market",
-        "authorHandle": "ifmarkets",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2059753709396250624/1KlEdxIy.png",
-        "poster": "/posters/if-market-759000.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097063608337502208/vid/avc1/1920x1080/J7Nzicau6Mqctw0k.mp4",
-        "publishedAt": "2026-09-07T20:47:20.000Z",
-        "durationSeconds": 18,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097032214039142421",
       "tweetId": "2097032214039142421",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:01.475Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:33:20.455Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1134,9 +955,9 @@
     {
       "id": "disc-2097096447317705054",
       "tweetId": "2097096447317705054",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:00.418Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:33:46.622Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1319,9 +1140,9 @@
     {
       "id": "disc-2097035274094272935",
       "tweetId": "2097035274094272935",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:25:59.370Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-08T15:32:53.850Z",
       "score": 42,
       "reasons": [
         "has-video",
