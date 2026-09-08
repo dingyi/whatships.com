@@ -584,5 +584,15 @@
     "category": "skills",
     "poster": "/posters/tools/codex-whiteboard-video.webp",
     "install": "npx skills add gnipbao/codex-whiteboard-video-skill"
+  },
+  {
+    "id": "tool-creavit-studio",
+    "slug": "creavit-studio",
+    "name": "Creavit Studio",
+    "tagline": "Recording, editing, and motion in one app",
+    "description": "macOS screen recorder and editor. Capture screen, camera, and system audio, add motion on the same timeline, and export up to 4K. Projects stay on your Mac.",
+    "url": "https://creavit.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/creavit-studio.webp"
   }
 ]
