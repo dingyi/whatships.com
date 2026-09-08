@@ -1,6 +1,1501 @@
 {
-  "updatedAt": "2026-09-07T08:19:38.809Z",
+  "updatedAt": "2026-09-08T14:26:08.170Z",
   "items": [
+    {
+      "id": "disc-2097100854729834636",
+      "tweetId": "2097100854729834636",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:08.170Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097100854729834636",
+        "tweetUrl": "https://x.com/ammaar/status/2097100854729834636",
+        "authorHandle": "ammaar",
+        "authorName": "Ammaar Reshi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1749207435255164928/A2xzzpnT.jpg",
+        "text": "I used GPT-6 Astra to get AAA PC games running on my iPad mini!\n\nSkyrim, Batman: Arkham City, Hades, and Age of Empires II.\n\nThe actual Windows versions, running locally with touch controls. No streaming.\n\nDemo below and I'll share a repo and setup guides soon! https://t.co/zz8ze2R6Qn",
+        "createdAt": "2026-09-07T23:13:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097099211422441473/vid/avc1/1920x1080/gj2OQrM2RDlM2tRB.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097099211422441473/img/7ZON29zw44-HLdgF.jpg",
+            "durationMs": 26133
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ammaar",
+        "company": "Ammaar Reshi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097100854729834636",
+        "slug": "ammaar-reshi-834636",
+        "title": "I used GPT-6 Astra to get AAA PC games running on my iPad mini! Skyrim, Batman: Arkham City, Hade…",
+        "product": "Ammaar Reshi",
+        "company": "Ammaar Reshi",
+        "description": "I used GPT-6 Astra to get AAA PC games running on my iPad mini! Skyrim, Batman: Arkham City, Hades, and Age of Empires II. The actual Windows versions, running locally with touch controls. No streaming. Demo below and I'll share a repo and setup guides soon!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ammaar/status/2097100854729834636",
+        "tweetId": "2097100854729834636",
+        "authorName": "Ammaar Reshi",
+        "authorHandle": "ammaar",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1749207435255164928/A2xzzpnT.jpg",
+        "poster": "/posters/ammaar-reshi-834636.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097099211422441473/vid/avc1/1920x1080/gj2OQrM2RDlM2tRB.mp4",
+        "publishedAt": "2026-09-07T23:13:00.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097038836870308292",
+      "tweetId": "2097038836870308292",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:07.808Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2097038836870308292",
+        "tweetUrl": "https://x.com/abhishek__AI/status/2097038836870308292",
+        "authorHandle": "abhishek__AI",
+        "authorName": "Abhishek Yadav",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1799667271540830208/YmcLWu17.jpg",
+        "text": "AI agents can now make production ready videos 🤯\n\nHyperFrames lets agents write HTML, animate it &amp; render deterministic MP4s.\n\n→ No React\n→ No build step\n→ Built for AI agents\n→ Frame-accurate rendering\n→ Claude Code, Cursor, Codex\n\n100% Open Source. https://t.co/nzSnW6KOBv",
+        "createdAt": "2026-09-07T19:06:34.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097038799733940224/vid/avc1/1280x720/j935zxD7804KZ-Xz.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097038799733940224/img/KixMKvnRl2w6TQCl.jpg",
+            "durationMs": 38033
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "abhishek__AI",
+        "company": "Abhishek Yadav",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097038836870308292",
+        "slug": "abhishek-yadav-308292",
+        "title": "AI agents can now make production ready videos 🤯 HyperFrames lets agents write HTML, animate it…",
+        "product": "Abhishek Yadav",
+        "company": "Abhishek Yadav",
+        "description": "AI agents can now make production ready videos 🤯 HyperFrames lets agents write HTML, animate it &amp; render deterministic MP4s. → No React → No build step → Built for AI agents → Frame-accurate rendering → Claude Code, Cursor, Codex 100% Open Source.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/abhishek__AI/status/2097038836870308292",
+        "tweetId": "2097038836870308292",
+        "authorName": "Abhishek Yadav",
+        "authorHandle": "abhishek__AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1799667271540830208/YmcLWu17.jpg",
+        "poster": "/posters/abhishek-yadav-308292.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097038799733940224/vid/avc1/1280x720/j935zxD7804KZ-Xz.mp4",
+        "publishedAt": "2026-09-07T19:06:34.000Z",
+        "durationSeconds": 38,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097082956061818962",
+      "tweetId": "2097082956061818962",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:07.408Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097082956061818962",
+        "tweetUrl": "https://x.com/tldraw/status/2097082956061818962",
+        "authorHandle": "tldraw",
+        "authorName": "tldraw",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
+        "text": "tldraw flash, a new tool we're building for making handmade animations, launches later this week. we've just given access to everyone on the waitlist https://t.co/4NPFvDJfQP",
+        "createdAt": "2026-09-07T22:01:53.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097082912869085184/vid/avc1/1440x1080/QOgPo_sCcb_CthuF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097082912869085184/img/tGaRpukBXRc8JJKs.jpg",
+            "durationMs": 8016
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "tldraw",
+        "company": "tldraw",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097082956061818962",
+        "slug": "tldraw-818962",
+        "title": "tldraw flash, a new tool we're building for making handmade animations, launches later this week.…",
+        "product": "tldraw",
+        "company": "tldraw",
+        "description": "tldraw flash, a new tool we're building for making handmade animations, launches later this week. we've just given access to everyone on the waitlist",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/tldraw/status/2097082956061818962",
+        "tweetId": "2097082956061818962",
+        "authorName": "tldraw",
+        "authorHandle": "tldraw",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
+        "poster": "/posters/tldraw-818962.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097082912869085184/vid/avc1/1440x1080/QOgPo_sCcb_CthuF.mp4",
+        "publishedAt": "2026-09-07T22:01:53.000Z",
+        "durationSeconds": 8,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097005464542192125",
+      "tweetId": "2097005464542192125",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:07.049Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2097005464542192125",
+        "tweetUrl": "https://x.com/KhalidDevLog/status/2097005464542192125",
+        "authorHandle": "KhalidDevLog",
+        "authorName": "Khalid",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042628603486011392/LrX0UVWw.jpg",
+        "text": "New component for @expo — PageHeader.\n\nBanner, face, name, counts, actions  composed rather than configured. Card for a profile inside a list, page for the screen the profile is.\n\nPart of PanelUI  open-source, copy-paste, you own the code.\n\nhttps://t.co/fwcNUq3Jjl\n\n#ReactNative https://t.co/o66NuEcnGo",
+        "createdAt": "2026-09-07T16:53:57.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097005306559746049/vid/avc1/1180x2556/aLdo7xJDKsF8v26-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097005306559746049/img/PQ9w62AFT0FFqAUS.jpg",
+            "durationMs": 22216
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "KhalidDevLog",
+        "company": "Khalid",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097005464542192125",
+        "slug": "khalid-192125",
+        "title": "New component for @expo — PageHeader. Banner, face, name, counts, actions composed rather than co…",
+        "product": "Khalid",
+        "company": "Khalid",
+        "description": "New component for @expo — PageHeader. Banner, face, name, counts, actions composed rather than configured. Card for a profile inside a list, page for the screen the profile is. Part of PanelUI open-source, copy-paste, you own the code. #ReactNative",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/KhalidDevLog/status/2097005464542192125",
+        "tweetId": "2097005464542192125",
+        "authorName": "Khalid",
+        "authorHandle": "KhalidDevLog",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042628603486011392/LrX0UVWw.jpg",
+        "poster": "/posters/khalid-192125.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097005306559746049/vid/avc1/1180x2556/aLdo7xJDKsF8v26-.mp4",
+        "publishedAt": "2026-09-07T16:53:57.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097094403634405544",
+      "tweetId": "2097094403634405544",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:06.645Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2097094403634405544",
+        "tweetUrl": "https://x.com/wawasensei/status/2097094403634405544",
+        "authorHandle": "wawasensei",
+        "authorName": "Wawa Sensei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1655751628744724480/gB1r17Qi.jpg",
+        "text": "I vibecoded a multiplayer FPS in 4 days.\n\nNot a demo. 3v3 paintball, live matchmaking, browser, one click and you're in a match.\n\nNobody modeled these maps. They're built in a home editor and exported straight into the game. Yours works too.\n\nOpen source. (sound on) https://t.co/X1rWVy32f3",
+        "createdAt": "2026-09-07T22:47:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097087582190686208/vid/avc1/1920x1080/tnDIISjecE25QSjA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097087582190686208/img/bv1mG7BGc-96BkjN.jpg",
+            "durationMs": 61312
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "wawasensei",
+        "company": "Wawa Sensei",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097094403634405544",
+        "slug": "wawa-sensei-405544",
+        "title": "I vibecoded a multiplayer FPS in 4 days. Not a demo. 3v3 paintball, live matchmaking, browser, on…",
+        "product": "Wawa Sensei",
+        "company": "Wawa Sensei",
+        "description": "I vibecoded a multiplayer FPS in 4 days. Not a demo. 3v3 paintball, live matchmaking, browser, one click and you're in a match. Nobody modeled these maps. They're built in a home editor and exported straight into the game. Yours works too. Open source. (sound on)",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/wawasensei/status/2097094403634405544",
+        "tweetId": "2097094403634405544",
+        "authorName": "Wawa Sensei",
+        "authorHandle": "wawasensei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1655751628744724480/gB1r17Qi.jpg",
+        "poster": "/posters/wawa-sensei-405544.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097087582190686208/vid/avc1/1920x1080/tnDIISjecE25QSjA.mp4",
+        "publishedAt": "2026-09-07T22:47:22.000Z",
+        "durationSeconds": 61,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097062104830538015",
+      "tweetId": "2097062104830538015",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:06.286Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097062104830538015",
+        "tweetUrl": "https://x.com/huozhi/status/2097062104830538015",
+        "authorHandle": "huozhi",
+        "authorName": "Jiachi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1773459837264740353/Yjk7f1EY.jpg",
+        "text": "Introducing &lt;FileTree&gt; component\n\n- Simple API\n- Minimalism design\n- Best pal for code blocks &amp; editor\n\n→ Docs: https://t.co/Zt3G1Tu4EB\n→ Skills: npx skills add huozhi/sugar-high --skill sugar-high https://t.co/tBvLwyMRbj",
+        "createdAt": "2026-09-07T20:39:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097060286335496192/vid/avc1/1116x720/MsMtktqrhrGgTiG3.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097060286335496192/img/aXYgMomC9E3Ee7S0.jpg",
+            "durationMs": 5866
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "huozhi",
+        "company": "Jiachi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097062104830538015",
+        "slug": "jiachi-538015",
+        "title": "Introducing &lt;FileTree&gt; component - Simple API - Minimalism design - Best pal for code block…",
+        "product": "Jiachi",
+        "company": "Jiachi",
+        "description": "Introducing &lt;FileTree&gt; component - Simple API - Minimalism design - Best pal for code blocks &amp; editor → Docs: → Skills: npx skills add huozhi/sugar-high --skill sugar-high",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/huozhi/status/2097062104830538015",
+        "tweetId": "2097062104830538015",
+        "authorName": "Jiachi",
+        "authorHandle": "huozhi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1773459837264740353/Yjk7f1EY.jpg",
+        "poster": "/posters/jiachi-538015.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097060286335496192/vid/avc1/1116x720/MsMtktqrhrGgTiG3.mp4",
+        "publishedAt": "2026-09-07T20:39:01.000Z",
+        "durationSeconds": 6,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097089829020570026",
+      "tweetId": "2097089829020570026",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:05.936Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097089829020570026",
+        "tweetUrl": "https://x.com/fliptexts/status/2097089829020570026",
+        "authorHandle": "fliptexts",
+        "authorName": "Flip",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2062434413217230848/DHnK5paH.jpg",
+        "text": "Introducing Workflows by Flip\n\nYou can now automate any financial goal:\n- Pointmaxxing credit cards\n- Copytrading anyone\n- Autorouting your Paycheck\n- And so much more \n\nOne text. Money managed. Try it out today at https://t.co/WVVDC0RRGB! https://t.co/0sbdWUX1WE",
+        "createdAt": "2026-09-07T22:29:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097089662846476288/vid/avc1/1920x1080/1F5EIBk9ekb7udKz.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097089662846476288/img/Ky8S8E8I_pve2A_e.jpg",
+            "durationMs": 60009
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "fliptexts",
+        "company": "Flip",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097089829020570026",
+        "slug": "flip-570026",
+        "title": "Introducing Workflows by Flip You can now automate any financial goal: - Pointmaxxing credit card…",
+        "product": "Flip",
+        "company": "Flip",
+        "description": "Introducing Workflows by Flip You can now automate any financial goal: - Pointmaxxing credit cards - Copytrading anyone - Autorouting your Paycheck - And so much more One text. Money managed. Try it out today at",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/fliptexts/status/2097089829020570026",
+        "tweetId": "2097089829020570026",
+        "authorName": "Flip",
+        "authorHandle": "fliptexts",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2062434413217230848/DHnK5paH.jpg",
+        "poster": "/posters/flip-570026.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097089662846476288/vid/avc1/1920x1080/1F5EIBk9ekb7udKz.mp4",
+        "publishedAt": "2026-09-07T22:29:11.000Z",
+        "durationSeconds": 60,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096890642207240608",
+      "tweetId": "2096890642207240608",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:05.580Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2096890642207240608",
+        "tweetUrl": "https://x.com/atif_0075/status/2096890642207240608",
+        "authorHandle": "atif_0075",
+        "authorName": "Muhammad Atif Mehmood",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090840374390792194/GDADTwXG.jpg",
+        "text": "Just shipped a big update to https://t.co/dkounDUO8h.\n\nIt can now automatically detect faces and license plates right on your device. You can resize or rotate blur areas, edit your image, and compress it too.\n\nAnd nothing gets uploaded your images stay on your device. https://t.co/rD3SbjfmdT",
+        "createdAt": "2026-09-07T09:17:42.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096890433528086528/vid/avc1/1280x720/8XLNJxRKKN3k7T_A.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096890433528086528/img/p1KXIGTYbrlf1ANl.jpg",
+            "durationMs": 13233
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "atif_0075",
+        "company": "Muhammad Atif Mehmood",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096890642207240608",
+        "slug": "muhammad-atif-mehmood-240608",
+        "title": "Just shipped a big update to It can now automatically detect faces and license plates right on yo…",
+        "product": "Muhammad Atif Mehmood",
+        "company": "Muhammad Atif Mehmood",
+        "description": "Just shipped a big update to It can now automatically detect faces and license plates right on your device. You can resize or rotate blur areas, edit your image, and compress it too. And nothing gets uploaded your images stay on your device.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/atif_0075/status/2096890642207240608",
+        "tweetId": "2096890642207240608",
+        "authorName": "Muhammad Atif Mehmood",
+        "authorHandle": "atif_0075",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090840374390792194/GDADTwXG.jpg",
+        "poster": "/posters/muhammad-atif-mehmood-240608.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096890433528086528/vid/avc1/1280x720/8XLNJxRKKN3k7T_A.mp4?tag=14",
+        "publishedAt": "2026-09-07T09:17:42.000Z",
+        "durationSeconds": 13,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097022239485169690",
+      "tweetId": "2097022239485169690",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:05.227Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097022239485169690",
+        "tweetUrl": "https://x.com/BuildWithII/status/2097022239485169690",
+        "authorHandle": "BuildWithII",
+        "authorName": "Build With II",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084552681629351936/Yau8YIVg.jpg",
+        "text": "We gave Zenith one prompt: build a point-and-click adventure about an ordinary day in Hanoi 🇻🇳  \n\nIt generated every frame through II-Factory (Seedream 5 Pro + MiniMax Hailuo H3), wrote the code, checked the clips, and shipped a playable site.  \nTry Zenith: https://t.co/U8P9de7i4z",
+        "createdAt": "2026-09-07T18:00:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097022131003654144/vid/avc1/1920x1080/SWWQWTYinmSTV2X0.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097022131003654144/img/-SKxIJ51IGMOLM2e.jpg",
+            "durationMs": 67600
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "BuildWithII",
+        "company": "Build With II",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097022239485169690",
+        "slug": "build-with-ii-169690",
+        "title": "We gave Zenith one prompt: build a point-and-click adventure about an ordinary day in Hanoi 🇻🇳…",
+        "product": "Build With II",
+        "company": "Build With II",
+        "description": "We gave Zenith one prompt: build a point-and-click adventure about an ordinary day in Hanoi 🇻🇳 It generated every frame through II-Factory (Seedream 5 Pro + MiniMax Hailuo H3), wrote the code, checked the clips, and shipped a playable site. Try Zenith:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/BuildWithII/status/2097022239485169690",
+        "tweetId": "2097022239485169690",
+        "authorName": "Build With II",
+        "authorHandle": "BuildWithII",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084552681629351936/Yau8YIVg.jpg",
+        "poster": "/posters/build-with-ii-169690.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097022131003654144/vid/avc1/1920x1080/SWWQWTYinmSTV2X0.mp4",
+        "publishedAt": "2026-09-07T18:00:37.000Z",
+        "durationSeconds": 68,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097028901549822190",
+      "tweetId": "2097028901549822190",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:04.868Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097028901549822190",
+        "tweetUrl": "https://x.com/nikolay_dp/status/2097028901549822190",
+        "authorHandle": "nikolay_dp",
+        "authorName": "Nikolay Petkov",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2007744821650145281/DGE7aMoz.jpg",
+        "text": "i shipped a feature in Monocode recently that folds completed agent work into a clean summary\n\nit looks great but secretly kept thousands of hidden tool rows mounted, making long sessions completely kill app usability\n\nspent the whole day debugging it with all the frontier models https://t.co/v29fq8kvO7",
+        "createdAt": "2026-09-07T18:27:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097025440074567680/vid/avc1/1920x1080/4krPOLJNURhhu4R_.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097025440074567680/img/X22pII194qFyc5mg.jpg",
+            "durationMs": 10016
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "nikolay_dp",
+        "company": "Nikolay Petkov",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097028901549822190",
+        "slug": "nikolay-petkov-822190",
+        "title": "i shipped a feature in Monocode recently that folds completed agent work into a clean summary it…",
+        "product": "Nikolay Petkov",
+        "company": "Nikolay Petkov",
+        "description": "i shipped a feature in Monocode recently that folds completed agent work into a clean summary it looks great but secretly kept thousands of hidden tool rows mounted, making long sessions completely kill app usability spent the whole day debugging it with all the frontier models",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/nikolay_dp/status/2097028901549822190",
+        "tweetId": "2097028901549822190",
+        "authorName": "Nikolay Petkov",
+        "authorHandle": "nikolay_dp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2007744821650145281/DGE7aMoz.jpg",
+        "poster": "/posters/nikolay-petkov-822190.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097025440074567680/vid/avc1/1920x1080/4krPOLJNURhhu4R_.mp4",
+        "publishedAt": "2026-09-07T18:27:05.000Z",
+        "durationSeconds": 10,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097110023511986512",
+      "tweetId": "2097110023511986512",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:04.437Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2097110023511986512",
+        "tweetUrl": "https://x.com/joelbqz/status/2097110023511986512",
+        "authorHandle": "joelbqz",
+        "authorName": "Joel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2016679314553745408/xj28Semj.jpg",
+        "text": "just shipped some updates for https://t.co/S1VfbhT6Eg \n\nfixed some bugs and lil perf issues, should be snappier writing large files, my smoke test workspace includes 8,000 markdown files + the entire moby dick novel in one file https://t.co/r4paup5Xrz",
+        "createdAt": "2026-09-07T23:49:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097108810607599616/vid/avc1/3024x1964/0aNyJ_v9vI5Yw6tx.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097108810607599616/img/V7lQb6JuBYcyyskD.jpg",
+            "durationMs": 12366
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "joelbqz",
+        "company": "Joel",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097110023511986512",
+        "slug": "joel-986512",
+        "title": "just shipped some updates for fixed some bugs and lil perf issues, should be snappier writing lar…",
+        "product": "Joel",
+        "company": "Joel",
+        "description": "just shipped some updates for fixed some bugs and lil perf issues, should be snappier writing large files, my smoke test workspace includes 8,000 markdown files + the entire moby dick novel in one file",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/joelbqz/status/2097110023511986512",
+        "tweetId": "2097110023511986512",
+        "authorName": "Joel",
+        "authorHandle": "joelbqz",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2016679314553745408/xj28Semj.jpg",
+        "poster": "/posters/joel-986512.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097108810607599616/vid/avc1/3024x1964/0aNyJ_v9vI5Yw6tx.mp4",
+        "publishedAt": "2026-09-07T23:49:26.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096902374891602414",
+      "tweetId": "2096902374891602414",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:03.965Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096902374891602414",
+        "tweetUrl": "https://x.com/Nekt_0/status/2096902374891602414",
+        "authorHandle": "Nekt_0",
+        "authorName": "Nekt0",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2002401434550050819/xCX1ixGV.jpg",
+        "text": "A Robinhood Chain receipt machine that remembers what the changelog forgets.\n\nIt's called RUMZO.\n\nMost tools show you a builder token's chart. RUMZO shows you its commits and its contract at the same moment, then saves the proof so the story can't be rewritten later.\n\n[give it a https://t.co/yyOqrKNCCL",
+        "createdAt": "2026-09-07T10:04:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096902325579194369/vid/avc1/1280x720/dRY7ROsaxZV6PLk5.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096902325579194369/img/refD0YGp7swraDNt.jpg",
+            "durationMs": 30068
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Nekt_0",
+        "company": "Nekt0",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096902374891602414",
+        "slug": "nekt0-602414",
+        "title": "A Robinhood Chain receipt machine that remembers what the changelog forgets. It's called RUMZO. M…",
+        "product": "Nekt0",
+        "company": "Nekt0",
+        "description": "A Robinhood Chain receipt machine that remembers what the changelog forgets. It's called RUMZO. Most tools show you a builder token's chart. RUMZO shows you its commits and its contract at the same moment, then saves the proof so the story can't be rewritten later. [give it a",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Nekt_0/status/2096902374891602414",
+        "tweetId": "2096902374891602414",
+        "authorName": "Nekt0",
+        "authorHandle": "Nekt_0",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2002401434550050819/xCX1ixGV.jpg",
+        "poster": "/posters/nekt0-602414.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096902325579194369/vid/avc1/1280x720/dRY7ROsaxZV6PLk5.mp4",
+        "publishedAt": "2026-09-07T10:04:19.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096645087203594341",
+      "tweetId": "2096645087203594341",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:03.612Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096645087203594341",
+        "tweetUrl": "https://x.com/luffysamadono/status/2096645087203594341",
+        "authorHandle": "luffysamadono",
+        "authorName": "Luffy 🇮🇳",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1620668953881182209/yxid3WFU.jpg",
+        "text": "Shipped the weekend product 👀\n\nMacWatch - native macOS 14+ menu-bar security monitor. Swift + SwiftUI, Apple frameworks only.\n\nWhat it actually watches:\n• Camera / mic device running (no frames, no audio)\n• LaunchAgents startup changes\n• Remote Login / SSH config + active SSH https://t.co/qAZOFBvR0R",
+        "createdAt": "2026-09-06T17:01:57.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096644920719142914/vid/avc1/3570x1752/YD2YtiIVM1AHppkl.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096644920719142914/img/lSm4mTNZsF9e6Khg.jpg",
+            "durationMs": 24258
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "luffysamadono",
+        "company": "Luffy 🇮🇳",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096645087203594341",
+        "slug": "luffy-594341",
+        "title": "Shipped the weekend product 👀 MacWatch - native macOS 14+ menu-bar security monitor. Swift + Swi…",
+        "product": "Luffy 🇮🇳",
+        "company": "Luffy 🇮🇳",
+        "description": "Shipped the weekend product 👀 MacWatch - native macOS 14+ menu-bar security monitor. Swift + SwiftUI, Apple frameworks only. What it actually watches: • Camera / mic device running (no frames, no audio) • LaunchAgents startup changes • Remote Login / SSH config + active SSH",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/luffysamadono/status/2096645087203594341",
+        "tweetId": "2096645087203594341",
+        "authorName": "Luffy 🇮🇳",
+        "authorHandle": "luffysamadono",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1620668953881182209/yxid3WFU.jpg",
+        "poster": "/posters/luffy-594341.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096644920719142914/vid/avc1/3570x1752/YD2YtiIVM1AHppkl.mp4",
+        "publishedAt": "2026-09-06T17:01:57.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096942295044284762",
+      "tweetId": "2096942295044284762",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:03.254Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096942295044284762",
+        "tweetUrl": "https://x.com/nicknam92226032/status/2096942295044284762",
+        "authorHandle": "nicknam92226032",
+        "authorName": "Rymostan",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2096440392417992704/65EJWTaa.jpg",
+        "text": "如果你也在做视频相关的画布，运镜和站位我不想看别人再重构一遍。我抽了一点时间把实际项目的导演台抽离并开源了，完全开源 MIT，能出运镜视频，也能出站位截图。\n尝试下吧。 https://t.co/JJiFh0bQx0",
+        "createdAt": "2026-09-07T12:42:57.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096936061570285568/vid/avc1/2790x1440/RD2ch7uLqqPF_YCw.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096936061570285568/img/rymjGSgnivvdsicx.jpg",
+            "durationMs": 6900
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "nicknam92226032",
+        "company": "Rymostan",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096942295044284762",
+        "slug": "rymostan-284762",
+        "title": "如果你也在做视频相关的画布，运镜和站位我不想看别人再重构一遍。我抽了一点时间把实际项目的导演台抽离并开源了，完全开源 MIT，能出运镜视频，也能出站位截图。 尝试下吧。",
+        "product": "Rymostan",
+        "company": "Rymostan",
+        "description": "如果你也在做视频相关的画布，运镜和站位我不想看别人再重构一遍。我抽了一点时间把实际项目的导演台抽离并开源了，完全开源 MIT，能出运镜视频，也能出站位截图。 尝试下吧。",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/nicknam92226032/status/2096942295044284762",
+        "tweetId": "2096942295044284762",
+        "authorName": "Rymostan",
+        "authorHandle": "nicknam92226032",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2096440392417992704/65EJWTaa.jpg",
+        "poster": "/posters/rymostan-284762.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096936061570285568/vid/avc1/2790x1440/RD2ch7uLqqPF_YCw.mp4",
+        "publishedAt": "2026-09-07T12:42:57.000Z",
+        "durationSeconds": 7,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096960220346175561",
+      "tweetId": "2096960220346175561",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:02.899Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2096960220346175561",
+        "tweetUrl": "https://x.com/LufzzLiz/status/2096960220346175561",
+        "authorHandle": "LufzzLiz",
+        "authorName": "岚叔",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1680410719941165058/vWaCNg37.jpg",
+        "text": "这个儿童小游戏开源了朋友了！不光是代码开源，制作方法也写的很清楚了。这样就可以随意扩展了。\n在线体验地址：https://t.co/DBGBMV1yzt\n开源地址：https://t.co/gJIvuRQpI1\n欢迎体验扩展 https://t.co/FC2LNCeyF8",
+        "createdAt": "2026-09-07T13:54:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096959787007418368/vid/avc1/1920x920/qNB-vTb5bX_Ou8d7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096959787007418368/img/__JnJFgt5GoP4TJh.jpg",
+            "durationMs": 27400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "LufzzLiz",
+        "company": "岚叔",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096960220346175561",
+        "slug": "launch-46175561",
+        "title": "这个儿童小游戏开源了朋友了！不光是代码开源，制作方法也写的很清楚了。这样就可以随意扩展了。 在线体验地址： 开源地址： 欢迎体验扩展",
+        "product": "岚叔",
+        "company": "岚叔",
+        "description": "这个儿童小游戏开源了朋友了！不光是代码开源，制作方法也写的很清楚了。这样就可以随意扩展了。 在线体验地址： 开源地址： 欢迎体验扩展",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/LufzzLiz/status/2096960220346175561",
+        "tweetId": "2096960220346175561",
+        "authorName": "岚叔",
+        "authorHandle": "LufzzLiz",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1680410719941165058/vWaCNg37.jpg",
+        "poster": "/posters/launch-46175561.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096959787007418368/vid/avc1/1920x920/qNB-vTb5bX_Ou8d7.mp4",
+        "publishedAt": "2026-09-07T13:54:10.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097109814048694420",
+      "tweetId": "2097109814048694420",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:02.528Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2097109814048694420",
+        "tweetUrl": "https://x.com/Yappologistic/status/2097109814048694420",
+        "authorHandle": "Yappologistic",
+        "authorName": "E Gurl",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044691825420914688/j1i1UHJh.jpg",
+        "text": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube Music and your local music collection together.\nI wanted something minimal that fits into my desktop, with a Material 3-inspired interface, smooth animations, and colors that https://t.co/MMgGKjx0xJ",
+        "createdAt": "2026-09-07T23:48:36.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097109772382433280/vid/avc1/2158x1536/nBb0Bmu3r2zffXBk.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097109772382433280/img/Vl4j-5oXxadRfzRW.jpg",
+            "durationMs": 61294
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Yappologistic",
+        "company": "E Gurl",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097109814048694420",
+        "slug": "e-gurl-694420",
+        "title": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube…",
+        "product": "E Gurl",
+        "company": "E Gurl",
+        "description": "Hey everyone! I’m sharing Sung, a free and open-source music player for Linux that brings YouTube Music and your local music collection together. I wanted something minimal that fits into my desktop, with a Material 3-inspired interface, smooth animations, and colors that",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Yappologistic/status/2097109814048694420",
+        "tweetId": "2097109814048694420",
+        "authorName": "E Gurl",
+        "authorHandle": "Yappologistic",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044691825420914688/j1i1UHJh.jpg",
+        "poster": "/posters/e-gurl-694420.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097109772382433280/vid/avc1/2158x1536/nBb0Bmu3r2zffXBk.mp4",
+        "publishedAt": "2026-09-07T23:48:36.000Z",
+        "durationSeconds": 61,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2096716016835342588",
+      "tweetId": "2096716016835342588",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:02.178Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2096716016835342588",
+        "tweetUrl": "https://x.com/cy_burns/status/2096716016835342588",
+        "authorHandle": "cy_burns",
+        "authorName": "cy",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
+        "text": "Today we're launching Raylight Capture. 100% free.\n\nOne click captures your app and turns it into a launch video.\n\nYour screen, camera, and mouse land as separate, animatable layers.\n\nEvery mouse move becomes an editable animation block. Never re-record a bad mouse path again. https://t.co/R7m4uwYD33",
+        "createdAt": "2026-09-06T21:43:48.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2096714996956778499/vid/avc1/3840x2160/XBmYfNDZFZXZJZhh.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096714996956778499/img/AW7w6OfyhpzLolEW.jpg",
+            "durationMs": 30069
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cy_burns",
+        "company": "cy",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2096716016835342588",
+        "slug": "cy-342588",
+        "title": "Today we're launching Raylight Capture. 100% free. One click captures your app and turns it into…",
+        "product": "cy",
+        "company": "cy",
+        "description": "Today we're launching Raylight Capture. 100% free. One click captures your app and turns it into a launch video. Your screen, camera, and mouse land as separate, animatable layers. Every mouse move becomes an editable animation block. Never re-record a bad mouse path again.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/cy_burns/status/2096716016835342588",
+        "tweetId": "2096716016835342588",
+        "authorName": "cy",
+        "authorHandle": "cy_burns",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2082139136152973312/zkvLyrqR.jpg",
+        "poster": "/posters/cy-342588.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2096714996956778499/vid/avc1/3840x2160/XBmYfNDZFZXZJZhh.mp4",
+        "publishedAt": "2026-09-06T21:43:48.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097064194843759000",
+      "tweetId": "2097064194843759000",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:01.828Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097064194843759000",
+        "tweetUrl": "https://x.com/ifmarkets/status/2097064194843759000",
+        "authorHandle": "ifmarkets",
+        "authorName": "If Market",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2059753709396250624/1KlEdxIy.png",
+        "text": "If Market beta is live.\n\nTrade the impact of events on asset prices. Not just \"will it happen\", but what it does to the market when it does.\n\nInvite codes are in your DMs. No code? Reply or DM us and we'll send one.\n\nHave a look around, try the flow, and be blunt. Feedback is the https://t.co/CIe1MA38km",
+        "createdAt": "2026-09-07T20:47:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097063608337502208/vid/avc1/1920x1080/J7Nzicau6Mqctw0k.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097063608337502208/img/c11B8rZEwrdRa3SP.jpg",
+            "durationMs": 17951
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ifmarkets",
+        "company": "If Market",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097064194843759000",
+        "slug": "if-market-759000",
+        "title": "If Market beta is live. Trade the impact of events on asset prices. Not just \"will it happen\", bu…",
+        "product": "If Market",
+        "company": "If Market",
+        "description": "If Market beta is live. Trade the impact of events on asset prices. Not just \"will it happen\", but what it does to the market when it does. Invite codes are in your DMs. No code? Reply or DM us and we'll send one. Have a look around, try the flow, and be blunt. Feedback is the",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ifmarkets/status/2097064194843759000",
+        "tweetId": "2097064194843759000",
+        "authorName": "If Market",
+        "authorHandle": "ifmarkets",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2059753709396250624/1KlEdxIy.png",
+        "poster": "/posters/if-market-759000.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097063608337502208/vid/avc1/1920x1080/J7Nzicau6Mqctw0k.mp4",
+        "publishedAt": "2026-09-07T20:47:20.000Z",
+        "durationSeconds": 18,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097032214039142421",
+      "tweetId": "2097032214039142421",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:01.475Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2097032214039142421",
+        "tweetUrl": "https://x.com/cb_doge/status/2097032214039142421",
+        "authorHandle": "cb_doge",
+        "authorName": "DogeDesigner",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll.jpg",
+        "text": "BREAKING: SpaceXAI has released another major new update for Grok Build (v1.0.22)\n\nThis update is focused on smoother workflows, better safety and improved reliability. It adds stronger desktop and MCP integration, clearer file-edit previews, a redesigned dashboard and better https://t.co/BcmhitI54K",
+        "createdAt": "2026-09-07T18:40:15.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097031636810694656/vid/avc1/1244x1080/RhW0UriB4a3bvF8X.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097031636810694656/img/1vHd7ryk3Ypem-Zk.jpg",
+            "durationMs": 12216
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cb_doge",
+        "company": "DogeDesigner",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097032214039142421",
+        "slug": "dogedesigner-142421",
+        "title": "BREAKING: SpaceXAI has released another major new update for Grok Build (v1.0.22) This update is…",
+        "product": "DogeDesigner",
+        "company": "DogeDesigner",
+        "description": "BREAKING: SpaceXAI has released another major new update for Grok Build (v1.0.22) This update is focused on smoother workflows, better safety and improved reliability. It adds stronger desktop and MCP integration, clearer file-edit previews, a redesigned dashboard and better",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/cb_doge/status/2097032214039142421",
+        "tweetId": "2097032214039142421",
+        "authorName": "DogeDesigner",
+        "authorHandle": "cb_doge",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll.jpg",
+        "poster": "/posters/dogedesigner-142421.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097031636810694656/vid/avc1/1244x1080/RhW0UriB4a3bvF8X.mp4",
+        "publishedAt": "2026-09-07T18:40:15.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097048671213023385",
+      "tweetId": "2097048671213023385",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:01.118Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bwalkthrough\\b"
+      ],
+      "post": {
+        "tweetId": "2097048671213023385",
+        "tweetUrl": "https://x.com/SaaiArora/status/2097048671213023385",
+        "authorHandle": "SaaiArora",
+        "authorName": "Saai Arora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1969421626627256322/7H5Q35AW.jpg",
+        "text": "Last week we shipped fallbacks and forks.\n\nHere's a quick demo of me forking a Claude Code session to Codex, plus a walkthrough of how our fallback system works 👇 https://t.co/Q9F9EPoaZk",
+        "createdAt": "2026-09-07T19:45:39.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097047941517295616/vid/avc1/1584x1080/zFaGIzlGfQAmndHJ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097047941517295616/img/f7xym_g4SaUXoIs1.jpg",
+            "durationMs": 101312
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "SaaiArora",
+        "company": "Saai Arora",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097048671213023385",
+        "slug": "saai-arora-023385",
+        "title": "Last week we shipped fallbacks and forks. Here's a quick demo of me forking a Claude Code session…",
+        "product": "Saai Arora",
+        "company": "Saai Arora",
+        "description": "Last week we shipped fallbacks and forks. Here's a quick demo of me forking a Claude Code session to Codex, plus a walkthrough of how our fallback system works 👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/SaaiArora/status/2097048671213023385",
+        "tweetId": "2097048671213023385",
+        "authorName": "Saai Arora",
+        "authorHandle": "SaaiArora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1969421626627256322/7H5Q35AW.jpg",
+        "poster": "/posters/saai-arora-023385.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097047941517295616/vid/avc1/1584x1080/zFaGIzlGfQAmndHJ.mp4",
+        "publishedAt": "2026-09-07T19:45:39.000Z",
+        "durationSeconds": 101,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097020460126859595",
+      "tweetId": "2097020460126859595",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:00.762Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097020460126859595",
+        "tweetUrl": "https://x.com/rork/status/2097020460126859595",
+        "authorHandle": "rork",
+        "authorName": "Rork",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2024413445236600832/nNHMz2Sc.jpg",
+        "text": "Introducing Element Selection\n\nYou no longer need screenshots to show the agent what you mean. Select any element in the preview and tell Rork how to change it.\n\nWorks on iOS, Android and web previews https://t.co/6bW4bPx9T4",
+        "createdAt": "2026-09-07T17:53:33.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097020420729839617/vid/avc1/1920x1080/5vSw943GLqReM8dK.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097020420729839617/img/YU0tXl_SxJkVKXB7.jpg",
+            "durationMs": 5500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "rork",
+        "company": "Rork",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097020460126859595",
+        "slug": "rork-859595",
+        "title": "Introducing Element Selection You no longer need screenshots to show the agent what you mean. Sel…",
+        "product": "Rork",
+        "company": "Rork",
+        "description": "Introducing Element Selection You no longer need screenshots to show the agent what you mean. Select any element in the preview and tell Rork how to change it. Works on iOS, Android and web previews",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/rork/status/2097020460126859595",
+        "tweetId": "2097020460126859595",
+        "authorName": "Rork",
+        "authorHandle": "rork",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2024413445236600832/nNHMz2Sc.jpg",
+        "poster": "/posters/rork-859595.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097020420729839617/vid/avc1/1920x1080/5vSw943GLqReM8dK.mp4",
+        "publishedAt": "2026-09-07T17:53:33.000Z",
+        "durationSeconds": 6,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097096447317705054",
+      "tweetId": "2097096447317705054",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:00.418Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097096447317705054",
+        "tweetUrl": "https://x.com/spawn/status/2097096447317705054",
+        "authorHandle": "spawn",
+        "authorName": "spawn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2064853797995008001/lghvr8sF.jpg",
+        "text": "introducing spawn https://t.co/KaT09QSQho",
+        "createdAt": "2026-09-07T22:55:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097096370981359616/vid/avc1/1920x1080/IK3K8xbNvUlYEnjZ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097096370981359616/img/p7S6KTN6J08U1UtX.jpg",
+            "durationMs": 13802
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "spawn",
+        "company": "spawn",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097096447317705054",
+        "slug": "spawn-705054",
+        "title": "introducing spawn",
+        "product": "spawn",
+        "company": "spawn",
+        "description": "introducing spawn",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/spawn/status/2097096447317705054",
+        "tweetId": "2097096447317705054",
+        "authorName": "spawn",
+        "authorHandle": "spawn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2064853797995008001/lghvr8sF.jpg",
+        "poster": "/posters/spawn-705054.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097096370981359616/vid/avc1/1920x1080/IK3K8xbNvUlYEnjZ.mp4",
+        "publishedAt": "2026-09-07T22:55:29.000Z",
+        "durationSeconds": 14,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097089306976284707",
+      "tweetId": "2097089306976284707",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:26:00.080Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2097089306976284707",
+        "tweetUrl": "https://x.com/fal/status/2097089306976284707",
+        "authorHandle": "fal",
+        "authorName": "fal",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
+        "text": "Native, real-time Full HD (1080p) generation is now available for the H3 Max family!\n\nBoth H3 Max and H3 Max Turbo now generate video in Full HD in real time, meaning 5 seconds of video in under 5 seconds of generation time, with more detail in every frame. https://t.co/WD7vVLzdJh",
+        "createdAt": "2026-09-07T22:27:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/ext_tw_video/2097089287648956416/pu/vid/avc1/1280x720/htyKpMW-NYmwpCQx.mp4?tag=12",
+            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2097089287648956416/pu/img/s1xInPL9AHZbXBU8.jpg",
+            "durationMs": 5184
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "fal",
+        "company": "fal",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097089306976284707",
+        "slug": "fal-284707",
+        "title": "Native, real-time Full HD (1080p) generation is now available for the H3 Max family! Both H3 Max…",
+        "product": "fal",
+        "company": "fal",
+        "description": "Native, real-time Full HD (1080p) generation is now available for the H3 Max family! Both H3 Max and H3 Max Turbo now generate video in Full HD in real time, meaning 5 seconds of video in under 5 seconds of generation time, with more detail in every frame.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/fal/status/2097089306976284707",
+        "tweetId": "2097089306976284707",
+        "authorName": "fal",
+        "authorHandle": "fal",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
+        "poster": "/posters/fal-284707.webp",
+        "videoUrl": "https://video.twimg.com/ext_tw_video/2097089287648956416/pu/vid/avc1/1280x720/htyKpMW-NYmwpCQx.mp4?tag=12",
+        "publishedAt": "2026-09-07T22:27:07.000Z",
+        "durationSeconds": 5,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097007029223108716",
+      "tweetId": "2097007029223108716",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:25:59.722Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097007029223108716",
+        "tweetUrl": "https://x.com/Railway/status/2097007029223108716",
+        "authorHandle": "Railway",
+        "authorName": "Railway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9.jpg",
+        "text": "Moving your Coding Agents to the Cloud (ft. Codex Desktop &amp; GPT-6 Astra)\n\nhttps://t.co/ekItlU0rec\n\n00:00 The limitations of running agents locally\n01:13 Parallel development and Git worktrees\n02:03 Moving your coding agent to a remote machine\n02:25 Introducing Railway Cloud https://t.co/nad05eSImX",
+        "createdAt": "2026-09-07T17:00:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097006283241197568/vid/avc1/3840x2160/x_q_mQ3MOsnb6N7G.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097006283241197568/img/NJmWlXTrzpZEyDEF.jpg",
+            "durationMs": 500373
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Railway",
+        "company": "Railway",
+        "category": "developer-tools",
+        "tags": [
+          "infra",
+          "deploy"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2097007029223108716",
+        "slug": "railway-108716",
+        "title": "Moving your Coding Agents to the Cloud (ft. Codex Desktop &amp; GPT-6 Astra) 00:00 The limitation…",
+        "product": "Railway",
+        "company": "Railway",
+        "description": "Moving your Coding Agents to the Cloud (ft. Codex Desktop &amp; GPT-6 Astra) 00:00 The limitations of running agents locally 01:13 Parallel development and Git worktrees 02:03 Moving your coding agent to a remote machine 02:25 Introducing Railway Cloud",
+        "category": "developer-tools",
+        "tags": [
+          "infra",
+          "deploy",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Railway/status/2097007029223108716",
+        "tweetId": "2097007029223108716",
+        "authorName": "Railway",
+        "authorHandle": "Railway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9.jpg",
+        "poster": "/posters/railway-108716.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097006283241197568/vid/avc1/3840x2160/x_q_mQ3MOsnb6N7G.mp4",
+        "publishedAt": "2026-09-07T17:00:10.000Z",
+        "durationSeconds": 500,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2097035274094272935",
+      "tweetId": "2097035274094272935",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-08T14:25:59.370Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2097035274094272935",
+        "tweetUrl": "https://x.com/supermemory/status/2097035274094272935",
+        "authorHandle": "supermemory",
+        "authorName": "supermemory",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1929346189033713664/xvKtlKht.jpg",
+        "text": "Agents need continual learning.\n\nAt supermemory, we are doubling down and pushing the frontier for memory and in-context learning, for every agent and use case.\n\nIntroducing 𝚕𝚎𝚊𝚛𝚗𝚎𝚛-𝟷 https://t.co/GTHC2A6BPN",
+        "createdAt": "2026-09-07T18:52:25.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097032596891004928/vid/avc1/1920x1080/Kha2xMv6Bik2wDx7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097032596891004928/img/VcaqUwIBuYAjTAF5.jpg",
+            "durationMs": 79833
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "supermemory",
+        "company": "supermemory",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2097035274094272935",
+        "slug": "supermemory-272935",
+        "title": "Agents need continual learning. At supermemory, we are doubling down and pushing the frontier for…",
+        "product": "supermemory",
+        "company": "supermemory",
+        "description": "Agents need continual learning. At supermemory, we are doubling down and pushing the frontier for memory and in-context learning, for every agent and use case. Introducing 𝚕𝚎𝚊𝚛𝚗𝚎𝚛-𝟷",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/supermemory/status/2097035274094272935",
+        "tweetId": "2097035274094272935",
+        "authorName": "supermemory",
+        "authorHandle": "supermemory",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1929346189033713664/xvKtlKht.jpg",
+        "poster": "/posters/supermemory-272935.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097032596891004928/vid/avc1/1920x1080/Kha2xMv6Bik2wDx7.mp4",
+        "publishedAt": "2026-09-07T18:52:25.000Z",
+        "durationSeconds": 80,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2096637048182427740",
       "tweetId": "2096637048182427740",
