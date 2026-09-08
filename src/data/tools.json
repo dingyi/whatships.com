@@ -594,5 +594,15 @@
     "url": "https://creavit.studio/",
     "category": "editor",
     "poster": "/posters/tools/creavit-studio.webp"
+  },
+  {
+    "id": "tool-omascreen",
+    "slug": "omascreen",
+    "name": "Omascreen",
+    "tagline": "Make beautiful screen recordings with Omarchy",
+    "description": "Records your screen and zooms in on every click as you work. Capture, add a title or a transition, then export an MP4. Built for Omarchy.",
+    "url": "https://omascreen.com/",
+    "category": "editor",
+    "poster": "/posters/tools/omascreen.webp"
   }
 ]
