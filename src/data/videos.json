@@ -49298,5 +49298,30 @@
     "durationSeconds": 27,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-lapis-one",
+    "slug": "lapis-one",
+    "title": "Lapis One — a mini Linux PC for AI agents",
+    "product": "Lapis One",
+    "company": "Pamir",
+    "description": "Lapis One is Pamir's first mini PC: a small Linux computer at home for the age of AI agents, built to bring hands-on tech to everyone.",
+    "category": "hardware",
+    "tags": [
+      "pamir",
+      "lapis",
+      "linux"
+    ],
+    "tweetUrl": "https://x.com/pamir_ai/status/2097502085269131407",
+    "tweetId": "2097502085269131407",
+    "authorName": "pamir.ai",
+    "authorHandle": "pamir_ai",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2079479564410159104/fUxfNIZ7.jpg",
+    "poster": "/posters/lapis-one.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097501822277840896/vid/avc1/1920x1080/3hwZXR_3cM0mpkAa.mp4",
+    "publishedAt": "2026-09-09T01:47:21.000Z",
+    "durationSeconds": 87,
+    "featured": false,
+    "status": "published"
   }
 ]
