@@ -49173,5 +49173,30 @@
     "durationSeconds": 58,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-indent",
+    "slug": "indent",
+    "title": "Indent — one coworker for your whole company",
+    "product": "Indent",
+    "company": "Indent",
+    "description": "Indent is a single agent built to work with every member of your team at once. Instead of everyone setting up their own agents, build one together.",
+    "category": "ai",
+    "tags": [
+      "indent",
+      "agents",
+      "team"
+    ],
+    "tweetUrl": "https://x.com/sthupukari/status/2097370593335325073",
+    "tweetId": "2097370593335325073",
+    "authorName": "Sashank",
+    "authorHandle": "sthupukari",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2094211159322972161/b67r1OIm.jpg",
+    "poster": "/posters/indent.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097367947862061056/vid/avc1/1920x1080/xVB9A562j0AqMvvw.mp4",
+    "publishedAt": "2026-09-08T17:04:51.000Z",
+    "durationSeconds": 86,
+    "featured": false,
+    "status": "published"
   }
 ]
