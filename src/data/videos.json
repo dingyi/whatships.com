@@ -49123,5 +49123,55 @@
     "durationSeconds": 56,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-editframe-templates",
+    "slug": "editframe-templates",
+    "title": "Editframe templates — HTML/CSS launch videos",
+    "product": "Editframe templates",
+    "company": "Editframe",
+    "description": "Open-source Editframe templates for launch videos: HTML, CSS, and scripting, no screen recordings. Made in a few prompts and released for agents to fork.",
+    "category": "design",
+    "tags": [
+      "editframe",
+      "templates",
+      "video"
+    ],
+    "tweetUrl": "https://x.com/yudDIDit/status/2097364904491598203",
+    "tweetId": "2097364904491598203",
+    "authorName": "Jeremy Yudkin",
+    "authorHandle": "yudDIDit",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1965060462048899072/WGaI9Emz.jpg",
+    "poster": "/posters/editframe-templates.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097364864167809024/vid/avc1/1920x1080/cTsYJMH-qnlZ5-SR.mp4",
+    "publishedAt": "2026-09-08T16:42:15.000Z",
+    "durationSeconds": 27,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-chatgpt-images-2-5",
+    "slug": "chatgpt-images-2-5",
+    "title": "ChatGPT Images 2.5 — faster, sharper, smarter",
+    "product": "ChatGPT Images 2.5",
+    "company": "OpenAI",
+    "description": "ChatGPT Images 2.5 is faster and sharper, with better fidelity, consistent details across edits, and new tools for creating whatever you can dream of.",
+    "category": "ai",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "images"
+    ],
+    "tweetUrl": "https://x.com/OpenAI/status/2097394956457623964",
+    "tweetId": "2097394956457623964",
+    "authorName": "OpenAI",
+    "authorHandle": "OpenAI",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+    "poster": "/posters/chatgpt-images-2-5.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097390126577893376/vid/avc1/1920x1080/8IlFZqV8g8G39D8V.mp4",
+    "publishedAt": "2026-09-08T18:41:39.000Z",
+    "durationSeconds": 58,
+    "featured": false,
+    "status": "published"
   }
 ]
