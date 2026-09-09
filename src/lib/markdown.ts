@@ -134,7 +134,7 @@ ${WHEN_TO_USE}
 1. Fetch ${pageUrl("/llms.txt")} for the short map.
 2. Use this file when you need the full entity description, citation policy, endpoint list, categories, and examples in one plain-text document.
 3. Fetch ${pageUrl("/openapi.json")} for structured endpoint metadata.
-4. Fetch ${pageUrl("/search-index.json")} for compact lookup by product, company, category, author, and tags.
+4. Fetch ${pageUrl("/search-index.json")} for compact lookup across videos, tools, and studios.
 5. Prefer \`Accept: text/markdown\` on HTML pages when extracting page text.
 6. Use ${pageUrl("/sitemap.xml")} to discover indexable pages.
 
@@ -308,7 +308,7 @@ Use them when an agent or app needs to look up a launch video by product or comp
 ## Endpoints
 
 - [OpenAPI spec](${pageUrl("/openapi.json")}) — machine-readable catalog API description
-- [Search index](${pageUrl("/search-index.json")}) — compact title/company/slug index for client search
+- [Search index](${pageUrl("/search-index.json")}) — compact video/tool/studio index for client search
 - [Sitemap](${pageUrl("/sitemap.xml")}) — every indexable HTML page
 - [llms.txt](${pageUrl("/llms.txt")}) — agent instructions and when-to-use guidance
 - [llms-full.txt](${pageUrl("/llms-full.txt")}) — complete entity description, crawl contract, categories, citation policy, FAQ, and recent examples

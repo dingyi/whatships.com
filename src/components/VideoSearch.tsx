@@ -1,364 +1,268 @@
 import { Search } from "lucide-react";
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import { Input } from "@/components/ui/input";
 import { prefersReducedMotion, tokenMs } from "@/lib/motion";
+import {
+  filterSearchIndex,
+  SEARCH_KIND_LABELS,
+  SEARCH_KINDS,
+  type SearchIndexItem,
+} from "@/lib/search-index";
 
-export interface VideoSearchItem {
-  name: string;
-  slug: string;
-  meta: string;
-  searchText: string;
-}
+export type VideoSearchItem = SearchIndexItem;
+
+const SEARCH_LABEL = "Search videos, tools, and studios";
 
 interface Props {
-  items: VideoSearchItem[];
-  value: string;
-  onValueChange: (value: string) => void;
-  onClose: () => void;
-  loading?: boolean;
-  error?: boolean;
+  onActivate?: () => void;
 }
 
-export default function VideoSearch({
-  items,
-  value,
-  onValueChange,
-  onClose,
-  loading = false,
-  error = false,
-}: Props) {
+export default function VideoSearch({ onActivate }: Props) {
+  const [value, setValue] = useState("");
+  const [items, setItems] = useState<SearchIndexItem[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [closing, setClosing] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
   const rootRef = useRef<HTMLDivElement>(null);
-  const clearRef = useRef<HTMLDivElement>(null);
-  const mirrorRef = useRef<HTMLDivElement>(null);
-  const placeholderRef = useRef<HTMLDivElement>(null);
-  const glowRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const clearingRef = useRef(false);
-  const measuredRef = useRef(false);
-  const [boxHeight, setBoxHeight] = useState<number | undefined>(undefined);
-  const query = value.trim().toLocaleLowerCase();
-  const results = useMemo(
+  const closeTimerRef = useRef<number | null>(null);
+  const requestedRef = useRef(false);
+  const query = value.trim();
+  const results = useMemo(() => filterSearchIndex(items, value), [items, value]);
+  const groups = useMemo(
     () =>
-      query
-        ? items.filter((item) => item.searchText.includes(query)).slice(0, 12)
-        : [],
-    [items, query],
+      SEARCH_KINDS.map((kind) => ({
+        kind,
+        label: SEARCH_KIND_LABELS[kind],
+        items: results.filter((item) => item.kind === kind),
+      })).filter((group) => group.items.length > 0),
+    [results],
   );
+  const showPanel = open && query.length > 0;
+
+  const loadIndex = useCallback(() => {
+    if (requestedRef.current) return;
+    requestedRef.current = true;
+    setLoading(true);
+    setError(false);
+    fetch("/search-index.json")
+      .then((response) => {
+        if (!response.ok) throw new Error("Search index unavailable");
+        return response.json() as Promise<SearchIndexItem[]>;
+      })
+      .then((next) => setItems(next))
+      .catch(() => {
+        requestedRef.current = false;
+        setItems([]);
+        setError(true);
+      })
+      .finally(() => setLoading(false));
+  }, []);
+
+  const closePanel = useCallback(() => {
+    setOpen(false);
+    if (prefersReducedMotion()) {
+      setClosing(false);
+      return;
+    }
+    setClosing(true);
+    if (closeTimerRef.current) window.clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = window.setTimeout(() => {
+      setClosing(false);
+      closeTimerRef.current = null;
+    }, tokenMs("--dropdown-close-dur", 150));
+  }, []);
+
+  useEffect(() => () => {
+    if (closeTimerRef.current) window.clearTimeout(closeTimerRef.current);
+  }, []);
 
   useEffect(() => setActiveIndex(0), [query]);
 
   useEffect(() => {
-    if (mirrorRef.current) {
-      mirrorRef.current.textContent = value.replace(/ /g, "\u00a0");
-    }
-  }, [value]);
-
-  useLayoutEffect(() => {
-    const root = rootRef.current;
-    if (!root) return;
-    const next = root.scrollHeight;
-    if (!measuredRef.current) {
-      measuredRef.current = true;
-      const prev = root.style.transition;
-      root.style.transition = "none";
-      setBoxHeight(next);
-      void root.offsetHeight;
-      root.style.transition = prev;
-      return;
-    }
-    setBoxHeight(next);
-  }, [query, results.length, loading, error, value]);
-
-  function numToken(name: string, fallback: number) {
-    return tokenMs(name, fallback);
-  }
-
-  function bezier(str: string) {
-    const match = String(str).match(
-      /cubic-bezier\(([-\d.]+),\s*([-\d.]+),\s*([-\d.]+),\s*([-\d.]+)\)/,
+    const params = new URLSearchParams(window.location.search);
+    const inbound = params.get("q")?.trim();
+    if (!inbound && params.get("search") !== "1") return;
+    if (inbound) setValue(inbound);
+    setOpen(true);
+    loadIndex();
+    requestAnimationFrame(() =>
+      inputRef.current?.focus({ preventScroll: true }),
     );
-    if (!match) return (t: number) => t;
-    const [x1, y1, x2, y2] = match.slice(1).map(parseFloat);
-    const cx = 3 * x1;
-    const bx = 3 * (x2 - x1) - cx;
-    const ax = 1 - cx - bx;
-    const cy = 3 * y1;
-    const by = 3 * (y2 - y1) - cy;
-    const ay = 1 - cy - by;
-    return (t: number) => {
-      if (t <= 0) return 0;
-      if (t >= 1) return 1;
-      let s = t;
-      for (let i = 0; i < 8; i++) {
-        const dx = ((ax * s + bx) * s + cx) * s - t;
-        const d = (3 * ax * s + 2 * bx) * s + cx;
-        if (Math.abs(dx) < 1e-6 || d === 0) break;
-        s -= dx / d;
+  }, [loadIndex]);
+
+  useEffect(() => {
+    const onShortcut = (event: KeyboardEvent) => {
+      if (!(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "k")
+        return;
+      const target = event.target as HTMLElement | null;
+      if (target === inputRef.current) {
+        event.preventDefault();
+        inputRef.current?.select();
+        return;
       }
-      return ((ay * s + by) * s + cy) * s;
+      if (
+        target?.matches("input, textarea, select") ||
+        target?.isContentEditable
+      )
+        return;
+      event.preventDefault();
+      onActivate?.();
+      loadIndex();
+      setOpen(true);
+      inputRef.current?.focus();
     };
-  }
+    window.addEventListener("keydown", onShortcut);
+    return () => window.removeEventListener("keydown", onShortcut);
+  }, [loadIndex, onActivate]);
 
-  function buildGlow(text: string) {
-    const wrap = clearRef.current;
-    const input = inputRef.current;
-    if (!wrap || !input) return "";
-    const canvas = document.createElement("canvas").getContext("2d");
-    if (!canvas) return "";
-    canvas.font = getComputedStyle(input).font;
-    const isDark =
-      document.documentElement.getAttribute("data-theme") === "dark" ||
-      document.documentElement.classList.contains("dark");
-    const rgb = isDark ? "255,255,255" : "0,0,0";
-    const w = wrap.clientWidth || 280;
-    const padLeft = parseFloat(getComputedStyle(input).paddingLeft) || 0;
-    const spread = numToken("--glow-spread", 1.5);
-    const layers: string[] = [];
-    let x = 0;
-    text.split(/(\s+)/).forEach((seg) => {
-      const segW = canvas.measureText(seg).width;
-      if (seg.trim()) {
-        const cx = padLeft + x + segW / 2;
-        const hw = Math.max(segW * 0.45, 8) * spread;
-        (
-          [
-            [0, 0.8, 7, 0.22],
-            [hw * 0.45, 0.55, 8, 0.18],
-            [-hw * 0.4, 0.65, 6, 0.16],
-            [hw * 0.15, 0.9, 5, 0.14],
-          ] as const
-        ).forEach(([dx, rwm, rh, a]) => {
-          const lx = (((cx + dx) / w) * 100).toFixed(2);
-          layers.push(
-            `radial-gradient(ellipse ${Math.max(hw * rwm, 2).toFixed(1)}px ${rh}px at ${lx}% 100%, rgba(${rgb},${a}), transparent)`,
-          );
-        });
-      }
-      x += segW;
-    });
-    return layers.join(", ");
-  }
-
-  function clearWithAnimation() {
-    const wrap = clearRef.current;
-    const input =
-      inputRef.current ?? wrap?.querySelector("input") ?? null;
-    const mirror = mirrorRef.current;
-    const phold = placeholderRef.current;
-    const glow = glowRef.current;
-    if (!wrap || !input || !mirror || !phold || !glow) {
-      onValueChange("");
-      return;
-    }
-    if (clearingRef.current || !input.value) return;
-    if (prefersReducedMotion()) {
-      onValueChange("");
-      return;
-    }
-
-    clearingRef.current = true;
-    const keepFocus = document.activeElement === input;
-    const kept = input.value.replace(/ /g, "\u00a0");
-    mirror.textContent = kept;
-
-    const root = document.documentElement;
-    const total = numToken("--clear-dur", 1000);
-    const outDur = numToken("--clear-out-dur", 400);
-    const inDur = numToken("--clear-in-dur", 400);
-    const outFly = numToken("--clear-out-fly", 12);
-    const inFly = numToken("--clear-in-fly", 12);
-    const blur = numToken("--clear-blur", 2);
-    const delay = numToken("--glow-delay", 50);
-    const peakAt = numToken("--glow-peak-at", 0.15);
-    const gOp = numToken("--glow-opacity", 0.42);
-    const easeOut = bezier(
-      getComputedStyle(root).getPropertyValue("--clear-out-ease"),
-    );
-    const easeIn = bezier(
-      getComputedStyle(root).getPropertyValue("--clear-in-ease"),
-    );
-
-    onValueChange("");
-    wrap.classList.remove("has-value");
-    wrap.classList.add("is-clearing");
-    glow.style.background = buildGlow(kept);
-    glow.style.opacity = "0";
-    phold.style.transform = `translateY(-${inFly}px)`;
-    phold.style.opacity = "0.9";
-    phold.style.filter = `blur(${blur}px)`;
-
-    const t0 = performance.now();
-    const tick = (now: number) => {
-      const el = now - t0;
-      const eo = easeOut(Math.min(1, el / outDur));
-      mirror.style.transform = `translateY(${(eo * outFly).toFixed(1)}px)`;
-      mirror.style.opacity = (1 - eo).toFixed(3);
-      mirror.style.filter = `blur(${(eo * blur).toFixed(1)}px)`;
-
-      const ei = easeIn(Math.min(1, el / inDur));
-      phold.style.transform = `translateY(${(-inFly + ei * inFly).toFixed(1)}px)`;
-      phold.style.opacity = (0.9 + ei * 0.1).toFixed(3);
-      phold.style.filter = `blur(${(blur - ei * blur).toFixed(1)}px)`;
-
-      let g = 0;
-      if (el > delay) {
-        const gp = Math.min(1, (el - delay) / Math.max(1, total - delay));
-        g = gp < peakAt ? gp / peakAt : 1 - (gp - peakAt) / (1 - peakAt);
-      }
-      glow.style.opacity = (g * gOp).toFixed(3);
-
-      if (el < total) {
-        requestAnimationFrame(tick);
-      } else {
-        wrap.classList.remove("is-clearing");
-        mirror.style.cssText = "";
-        phold.style.cssText = "";
-        mirror.textContent = "";
-        glow.style.opacity = "0";
-        glow.style.background = "";
-        clearingRef.current = false;
-        if (keepFocus) {
-          requestAnimationFrame(() =>
-            input.focus({ preventScroll: true }),
-          );
-        }
-      }
+  useEffect(() => {
+    if (!open) return;
+    const onPointer = (event: PointerEvent) => {
+      const target = event.target as Node | null;
+      if (target && rootRef.current?.contains(target)) return;
+      closePanel();
     };
-    requestAnimationFrame(tick);
-  }
+    window.addEventListener("pointerdown", onPointer);
+    return () => window.removeEventListener("pointerdown", onPointer);
+  }, [closePanel, open]);
 
   function chooseResult(index: number) {
     const result = results[index];
-    if (result) window.location.href = `/videos/${result.slug}/`;
+    if (result) window.location.href = result.href;
   }
 
-  return (
-    <div
-      className="video-search t-resize"
-      ref={rootRef}
-      style={boxHeight ? { height: boxHeight } : undefined}
-      onKeyDown={(event) => {
-        const fromInput = (event.target as HTMLElement).matches("input");
-        if (event.key === "ArrowDown" && results.length && fromInput) {
-          event.preventDefault();
-          setActiveIndex((index) => (index + 1) % results.length);
-        } else if (event.key === "ArrowUp" && results.length && fromInput) {
-          event.preventDefault();
-          setActiveIndex(
-            (index) => (index - 1 + results.length) % results.length,
-          );
-        } else if (event.key === "Enter" && results.length && fromInput) {
-          event.preventDefault();
-          chooseResult(activeIndex);
-        } else if (event.key === "Escape") {
-          event.preventDefault();
-          onClose();
-        }
-      }}
-    >
-      <div className="search-dialog__input-row">
-        <Search aria-hidden="true" size={17} strokeWidth={1.8} />
-        <div
-          className={`t-clear${value ? " has-value" : ""}`}
-          ref={clearRef}
-        >
-          <Input
-            autoFocus
-            ref={inputRef}
-            value={value}
-            onChange={(event) => onValueChange(event.target.value)}
-            placeholder="Search launch videos"
-            aria-label="Search launch videos"
-            role="combobox"
-            aria-expanded={query.length > 0}
-            aria-controls={query ? "video-search-results" : undefined}
-            aria-activedescendant={
-              query && results.length
-                ? `video-search-option-${results[activeIndex].slug}`
-                : undefined
-            }
-          />
-          <div className="t-clear-mirror" ref={mirrorRef} aria-hidden="true" />
-          <div
-            className="t-clear-placeholder"
-            ref={placeholderRef}
-            aria-hidden="true"
-          >
-            Search launch videos
-          </div>
-          <div className="t-clear-glow" ref={glowRef} aria-hidden="true" />
-        </div>
-        {value ? (
-          <button
-            type="button"
-            className="search-clear t-clear-btn"
-            onPointerDown={(event) => {
-              if (document.activeElement === inputRef.current) {
-                event.preventDefault();
-              }
-            }}
-            onMouseDown={(event) => {
-              if (document.activeElement === inputRef.current) {
-                event.preventDefault();
-              }
-            }}
-            onClick={clearWithAnimation}
-            aria-label="Clear search"
-          >
-            Clear
-          </button>
-        ) : (
-          <button
-            type="button"
-            className="search-escape"
-            onClick={onClose}
-            aria-label="Close search"
-          >
-            <span className="search-escape__kbd">Esc</span>
-            <span className="search-escape__close">Close</span>
-          </button>
-        )}
-      </div>
+  const panelVisible = showPanel || closing;
 
-      {query && (
-        <div
-          className="search-results"
-          id="video-search-results"
-          role="listbox"
-          aria-label="Video search results"
+  return (
+    <div className="header-search" ref={rootRef}>
+      <Search aria-hidden="true" size={15} strokeWidth={1.8} />
+      <input
+        ref={inputRef}
+        type="text"
+        value={value}
+        onChange={(event) => {
+          setValue(event.target.value);
+          setOpen(true);
+        }}
+        onFocus={() => {
+          onActivate?.();
+          loadIndex();
+          setOpen(true);
+        }}
+        onKeyDown={(event) => {
+          if (event.key === "ArrowDown" && results.length) {
+            event.preventDefault();
+            setActiveIndex((index) => (index + 1) % results.length);
+          } else if (event.key === "ArrowUp" && results.length) {
+            event.preventDefault();
+            setActiveIndex(
+              (index) => (index - 1 + results.length) % results.length,
+            );
+          } else if (event.key === "Enter" && results.length) {
+            event.preventDefault();
+            chooseResult(activeIndex);
+          } else if (event.key === "Escape") {
+            event.preventDefault();
+            if (showPanel) closePanel();
+            else {
+              setValue("");
+              inputRef.current?.blur();
+            }
+          }
+        }}
+        placeholder="Search"
+        aria-label={SEARCH_LABEL}
+        autoComplete="off"
+        spellCheck={false}
+        enterKeyHint="search"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded={showPanel}
+        aria-controls={showPanel ? "site-search-results" : undefined}
+        aria-activedescendant={
+          showPanel && results.length
+            ? `search-option-${results[activeIndex].id}`
+            : undefined
+        }
+      />
+      {value ? (
+        <button
+          type="button"
+          className="header-search__clear"
+          onMouseDown={(event) => event.preventDefault()}
+          onClick={() => {
+            setValue("");
+            inputRef.current?.focus();
+          }}
+          aria-label="Clear search"
         >
-          {loading ? (
-            <p className="search-results__status">
-              <span className="t-shimmer" data-text="Searching…">
-                Searching…
-              </span>
-            </p>
-          ) : results.length ? (
-            results.map((result, index) => (
-              <a
-                className={`search-result${index === activeIndex ? " is-active" : ""}`}
-                id={`video-search-option-${result.slug}`}
-                role="option"
-                aria-selected={index === activeIndex}
-                href={`/videos/${result.slug}/`}
-                onMouseEnter={() => setActiveIndex(index)}
-                key={result.slug}
-              >
-                <strong>{result.name}</strong>
-                <small>
-                  {result.meta} · /videos/{result.slug}
-                </small>
-              </a>
-            ))
-          ) : (
-            <p className="search-results__status">
-              {error
-                ? "Search is unavailable right now."
-                : "No videos found."}
-            </p>
-          )}
+          Clear
+        </button>
+      ) : (
+        <kbd className="header-search__kbd" aria-hidden="true">
+          <span>⌘</span>K
+        </kbd>
+      )}
+
+      {panelVisible && (
+        <div
+          className={`header-search-panel t-dropdown${showPanel ? " is-open" : ""}${closing && !showPanel ? " is-closing" : ""}`}
+          data-origin="top-center"
+        >
+          <div
+            className="search-results"
+            id="site-search-results"
+            role="listbox"
+            aria-label="Search results"
+          >
+            {loading && !items.length ? (
+              <p className="search-results__status">
+                <span className="t-shimmer" data-text="Searching…">
+                  Searching…
+                </span>
+              </p>
+            ) : results.length ? (
+              groups.map((group) => (
+                <div
+                  className="search-results__group"
+                  role="group"
+                  aria-label={group.label}
+                  key={group.kind}
+                >
+                  <p className="search-results__label" aria-hidden="true">
+                    {group.label}
+                  </p>
+                  {group.items.map((result) => {
+                    const index = results.indexOf(result);
+                    return (
+                      <a
+                        className={`search-result${index === activeIndex ? " is-active" : ""}`}
+                        id={`search-option-${result.id}`}
+                        role="option"
+                        aria-selected={index === activeIndex}
+                        href={result.href}
+                        tabIndex={-1}
+                        onMouseEnter={() => setActiveIndex(index)}
+                        key={result.id}
+                      >
+                        <strong>{result.name}</strong>
+                        <small>{result.meta}</small>
+                      </a>
+                    );
+                  })}
+                </div>
+              ))
+            ) : (
+              <p className="search-results__status">
+                {error
+                  ? "Search is unavailable right now."
+                  : `No results for "${query}".`}
+              </p>
+            )}
+          </div>
         </div>
       )}
     </div>

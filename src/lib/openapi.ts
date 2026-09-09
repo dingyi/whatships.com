@@ -24,9 +24,9 @@ export function openApiSpec() {
       "/search-index.json": {
         get: {
           operationId: "getSearchIndex",
-          summary: "Compact launch-video search index",
+          summary: "Compact directory search index",
           description:
-            "Returns every published video as name, slug, meta, and searchText for client-side lookup.",
+            "Returns every published video, tool, and studio as kind, name, slug, href, meta, and searchText for client-side lookup.",
           responses: {
             "200": {
               description: "Search index array",
@@ -122,16 +122,30 @@ export function openApiSpec() {
         SearchIndexItem: {
           type: "object",
           additionalProperties: false,
-          required: ["name", "slug", "meta", "searchText"],
+          required: ["id", "kind", "name", "slug", "href", "meta", "searchText"],
           properties: {
-            name: { type: "string", description: "Launch video title" },
+            id: {
+              type: "string",
+              description: "Stable catalog id (plv-*, tool-*, studio-*, person-*)",
+            },
+            kind: {
+              type: "string",
+              enum: ["video", "tool", "studio"],
+              description: "Which directory the entry belongs to",
+            },
+            name: { type: "string", description: "Display title or name" },
             slug: {
               type: "string",
-              description: "Stable slug for /videos/{slug}/",
+              description: "Stable slug within that directory",
+            },
+            href: {
+              type: "string",
+              description:
+                "In-site destination: /videos/{slug}/, /tools/#{id}, or /studios/#{id}",
             },
             meta: {
               type: "string",
-              description: "Company and category label",
+              description: "Secondary label (company, category, host, or kind)",
             },
             searchText: { type: "string" },
           },

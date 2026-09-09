@@ -57,7 +57,7 @@ import {
             const host = toolHost(tool.url);
             const category = toolCategoryLabel(tool.category);
             return (
-              <article class="video-card" data-category={tool.category}>
+              <article class="video-card" id={tool.id} data-category={tool.category}>
                 <span class="corner one" aria-hidden="true" />
                 <span class="corner two" aria-hidden="true" />
                 <span class="corner three" aria-hidden="true" />

@@ -1,22 +1,8 @@
-import {
-  ArrowLeft,
-  ArrowRight,
-  ExternalLink,
-  Play,
-  Search,
-} from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play } from "lucide-react";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import PageHeader from "@/components/PageHeader";
 import VideoPlayerDialog from "@/components/VideoPlayerDialog";
-import VideoSearch, {
-  type VideoSearchItem,
-} from "@/components/VideoSearch";
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-} from "@/components/ui/dialog";
 import {
   Select,
   SelectContent,
@@ -201,47 +187,19 @@ function VideoCard({
 export default function HomeApp({ videos, totalCount }: Props) {
   const [catalog, setCatalog] = useState(videos);
   const [catalogComplete, setCatalogComplete] = useState(false);
-  const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [page, setPage] = useState(1);
-  const [searchOpen, setSearchOpen] = useState(false);
   const [playingVideo, setPlayingVideo] = useState<DirectoryVideo | null>(null);
   const [ready, setReady] = useState(false);
 
-  const searchItems = useMemo<VideoSearchItem[]>(
-    () =>
-      catalog.map((video) => ({
-        name: video.title,
-        slug: video.slug,
-        meta: `${video.company} · ${categoryLabel(video.category)}`,
-        searchText: [
-          video.title,
-          video.product,
-          video.company,
-          video.description,
-          video.authorName,
-          video.authorHandle,
-          video.tags.join(" "),
-          categoryLabel(video.category),
-        ]
-          .join(" ")
-          .toLocaleLowerCase(),
-      })),
-    [catalog],
-  );
-
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const nextQuery = params.get("q") ?? "";
     const nextCategory = params.get("category") ?? "all";
     const nextPage = Number(params.get("page") ?? 1);
-    setQuery(nextQuery);
     setCategory(nextCategory);
     setPage(nextPage);
-    setSearchOpen(params.get("search") === "1");
 
-    const needsFullCatalog =
-      Boolean(nextQuery) || nextCategory !== "all" || nextPage > 1;
+    const needsFullCatalog = nextCategory !== "all" || nextPage > 1;
 
     let ignore = false;
     fetch("/directory-index.json")
@@ -269,13 +227,11 @@ export default function HomeApp({ videos, totalCount }: Props) {
   }, []);
 
   const filtered = useMemo(
-    () => filterVideos(catalog, query, category),
-    [catalog, query, category],
+    () => filterVideos(catalog, "", category),
+    [catalog, category],
   );
   const resultCount =
-    catalogComplete || query || category !== "all"
-      ? filtered.length
-      : totalCount;
+    catalogComplete || category !== "all" ? filtered.length : totalCount;
   const currentPage = clampPage(page, filtered.length);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const visible = filtered.slice(
@@ -286,17 +242,11 @@ export default function HomeApp({ videos, totalCount }: Props) {
     category === "all"
       ? null
       : CATEGORIES.find((item) => item.id === category)?.label;
-  const emptyContext = [
-    query ? `“${query}”` : null,
-    selectedCategoryLabel,
-  ]
-    .filter(Boolean)
-    .join(" in ");
+  const emptyContext = selectedCategoryLabel ?? "";
 
   useEffect(() => {
     if (!ready) return;
     const params = new URLSearchParams();
-    if (query) params.set("q", query);
     if (category !== "all") params.set("category", category);
     if (currentPage > 1) params.set("page", String(currentPage));
     const queryString = params.toString();
@@ -307,7 +257,7 @@ export default function HomeApp({ videos, totalCount }: Props) {
         ? `${window.location.pathname}?${queryString}`
         : window.location.pathname,
     );
-  }, [category, currentPage, query, ready]);
+  }, [category, currentPage, ready]);
 
   useEffect(() => {
     if (!ready) return;
@@ -349,11 +299,7 @@ export default function HomeApp({ videos, totalCount }: Props) {
 
   return (
     <>
-      <PageHeader
-        active="discover"
-        homeSearch
-        onSearch={() => setSearchOpen(true)}
-      />
+      <PageHeader active="discover" />
       <main data-directory-ready={ready}>
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero__inner">
@@ -410,18 +356,6 @@ export default function HomeApp({ videos, totalCount }: Props) {
               </ShapeProvider>
               <ResultCount count={resultCount} />
             </div>
-            <button
-              className="directory-search"
-              type="button"
-              aria-label="Search launch videos"
-              onClick={() => setSearchOpen(true)}
-            >
-              <Search aria-hidden="true" size={15} strokeWidth={1.8} />
-              <span>Search videos</span>
-              <kbd aria-hidden="true">
-                <span>⌘</span>K
-              </kbd>
-            </button>
           </div>
 
           {visible.length ? (
@@ -439,7 +373,6 @@ export default function HomeApp({ videos, totalCount }: Props) {
             <EmptyState
               context={emptyContext}
               onReset={() => {
-                setQuery("");
                 setCategory("all");
                 setPage(1);
               }}
@@ -486,20 +419,6 @@ export default function HomeApp({ videos, totalCount }: Props) {
         </section>
       </main>
 
-      <Dialog open={searchOpen} onOpenChange={setSearchOpen}>
-        <DialogContent className="search-dialog" showCloseButton={false}>
-          <DialogTitle className="sr-only">Search launch videos</DialogTitle>
-          <VideoSearch
-            items={searchItems}
-            value={query}
-            onValueChange={(value) => {
-              setQuery(value);
-              setPage(1);
-            }}
-            onClose={() => setSearchOpen(false)}
-          />
-        </DialogContent>
-      </Dialog>
       <VideoPlayerDialog
         video={playingVideo}
         open={Boolean(playingVideo)}
