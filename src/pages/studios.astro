@@ -56,7 +56,7 @@ import {
             const host = studioHost(studio.url);
             const kind = studioKindLabel(studio.kind);
             return (
-              <article class="video-card" data-kind={studio.kind}>
+              <article class="video-card" id={studio.id} data-kind={studio.kind}>
                 <span class="corner one" aria-hidden="true" />
                 <span class="corner two" aria-hidden="true" />
                 <span class="corner three" aria-hidden="true" />
