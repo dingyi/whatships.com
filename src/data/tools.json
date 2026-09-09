@@ -604,5 +604,15 @@
     "url": "https://omascreen.com/",
     "category": "editor",
     "poster": "/posters/tools/omascreen.webp"
+  },
+  {
+    "id": "tool-editframe",
+    "slug": "editframe",
+    "name": "Editframe",
+    "tagline": "Build Video With Code",
+    "description": "Declarative HTML + CSS that renders to video. Script it, use React, or prompt an agent. Instant browser preview. Parallel cloud rendering at scale.",
+    "url": "https://editframe.com/",
+    "category": "editor",
+    "poster": "/posters/tools/editframe.webp"
   }
 ]
