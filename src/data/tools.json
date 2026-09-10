@@ -614,5 +614,15 @@
     "url": "https://editframe.com/",
     "category": "editor",
     "poster": "/posters/tools/editframe.webp"
+  },
+  {
+    "id": "tool-openscreenshot",
+    "slug": "openscreenshot",
+    "name": "OpenScreenShot",
+    "tagline": "Click. Captured. Done.",
+    "description": "Free, open-source Chrome extension: full page screenshot in one click, plus annotate, blur, PNG/JPEG/WebP/PDF export, and a tab recorder. MIT licensed. Nothing leaves your machine.",
+    "url": "https://openscreenshot.app/",
+    "category": "editor",
+    "poster": "/posters/tools/openscreenshot.webp"
   }
 ]
