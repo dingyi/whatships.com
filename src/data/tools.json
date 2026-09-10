@@ -624,5 +624,15 @@
     "url": "https://openscreenshot.app/",
     "category": "editor",
     "poster": "/posters/tools/openscreenshot.webp"
+  },
+  {
+    "id": "tool-pexo",
+    "slug": "pexo",
+    "name": "Pexo",
+    "tagline": "The AI video agent that turns ideas into videos",
+    "description": "Simply talk to Pexo. Get minutes of finished video, not seconds of clips. Story, scenes, voiceover, captions, music, and motion graphics, ready for TikTok, YouTube, Instagram, and X.",
+    "url": "https://pexo.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/pexo.webp"
   }
 ]
