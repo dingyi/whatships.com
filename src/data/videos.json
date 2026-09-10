@@ -49348,5 +49348,80 @@
     "durationSeconds": 63,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-muse",
+    "slug": "muse",
+    "title": "Muse — Meta's personal AI agent",
+    "product": "Muse",
+    "company": "Meta",
+    "description": "Muse is Meta's personal AI agent that gets things done across every part of life. Download the Muse app to get started.",
+    "category": "ai",
+    "tags": [
+      "muse",
+      "meta",
+      "agent"
+    ],
+    "tweetUrl": "https://x.com/Muse/status/2097399178376671666",
+    "tweetId": "2097399178376671666",
+    "authorName": "Muse",
+    "authorHandle": "Muse",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2097397574206636032/rBT8eRqB.jpg",
+    "poster": "/posters/muse.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097399096252243968/vid/avc1/1920x1080/xZq-w3nY4HDpQfda.mp4",
+    "publishedAt": "2026-09-08T18:58:26.000Z",
+    "durationSeconds": 83,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-cube-type",
+    "slug": "cube-type",
+    "title": "CUBE Type — isometric block letters in the browser",
+    "product": "CUBE Type",
+    "company": "Bear Liu",
+    "description": "CUBE Type is a small web tool: type a few words and they come out as isometric block letters you can style and export for posters, social posts, stickers, and slide titles.",
+    "category": "design",
+    "tags": [
+      "cube-type",
+      "type",
+      "web"
+    ],
+    "tweetUrl": "https://x.com/bearliu/status/2097469304929484831",
+    "tweetId": "2097469304929484831",
+    "authorName": "Bear Liu",
+    "authorHandle": "bearliu",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/803996540696084480/Z-uk8--s.jpg",
+    "poster": "/posters/cube-type.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097468983595388928/vid/avc1/1920x1080/1-XsNExREVc5BNuG.mp4",
+    "publishedAt": "2026-09-08T23:37:06.000Z",
+    "durationSeconds": 48,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-tldraw-flash-demo",
+    "slug": "tldraw-flash-demo",
+    "title": "tldraw Flash — what you can do on canvas",
+    "product": "tldraw Flash",
+    "company": "tldraw",
+    "description": "A walkthrough of what you can do with tldraw Flash: animate hand-drawn ideas on the canvas.",
+    "category": "design",
+    "tags": [
+      "tldraw",
+      "flash",
+      "canvas"
+    ],
+    "tweetUrl": "https://x.com/tldraw/status/2097330001334989060",
+    "tweetId": "2097330001334989060",
+    "authorName": "tldraw",
+    "authorHandle": "tldraw",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
+    "poster": "/posters/tldraw-flash-demo.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097329530843353088/vid/avc1/1920x1080/2xtnF7P__nrHsGCU.mp4",
+    "publishedAt": "2026-09-08T14:23:33.000Z",
+    "durationSeconds": 218,
+    "featured": false,
+    "status": "published"
   }
 ]
