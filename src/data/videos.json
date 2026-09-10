@@ -49423,5 +49423,30 @@
     "durationSeconds": 218,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-openshaders",
+    "slug": "openshaders",
+    "title": "OpenShaders — discover, build, and ship shaders",
+    "product": "OpenShaders",
+    "company": "OpenShaders",
+    "description": "OpenShaders is the home shaders deserve: discover, build, publish, and install WebGL/WebGPU shaders made to ship. Open source, one click away.",
+    "category": "design",
+    "tags": [
+      "openshaders",
+      "webgl",
+      "shaders"
+    ],
+    "tweetUrl": "https://x.com/davidhaz/status/2097609187526062436",
+    "tweetId": "2097609187526062436",
+    "authorName": "David Haz",
+    "authorHandle": "davidhaz",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A.jpg",
+    "poster": "/posters/openshaders.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097607342334656512/vid/avc1/1920x1080/VbKE506vIEUnW1n-.mp4",
+    "publishedAt": "2026-09-09T08:52:56.000Z",
+    "durationSeconds": 35,
+    "featured": false,
+    "status": "published"
   }
 ]
