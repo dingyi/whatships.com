@@ -49323,5 +49323,30 @@
     "durationSeconds": 87,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-suno-v6",
+    "slug": "suno-v6",
+    "title": "Suno v6 — our best models yet",
+    "product": "Suno v6",
+    "company": "Suno",
+    "description": "Suno v6 is the new model family, built in partnership with artists and producers. Welcome to the v6 era.",
+    "category": "ai",
+    "tags": [
+      "suno",
+      "music",
+      "v6"
+    ],
+    "tweetUrl": "https://x.com/suno/status/2097714273942163823",
+    "tweetId": "2097714273942163823",
+    "authorName": "Suno",
+    "authorHandle": "suno",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1917978610683514880/JbHhI1yH.jpg",
+    "poster": "/posters/suno-v6.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097713845657911296/vid/avc1/1080x1920/0cBDgry6kRV9aEMK.mp4",
+    "publishedAt": "2026-09-09T15:50:31.000Z",
+    "durationSeconds": 63,
+    "featured": false,
+    "status": "published"
   }
 ]
