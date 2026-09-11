@@ -1,4 +1,4 @@
-import { publishedVideos } from "@/lib/catalog";
+import { CATEGORIES, publishedVideos } from "@/lib/catalog";
 
 export const GET = () => {
   const base = "https://whatships.com";
@@ -13,6 +13,7 @@ export const GET = () => {
     "/studios/",
     "/submit/",
     "/vs/product-hunt/",
+    ...CATEGORIES.map((category) => `/videos/category/${category.id}/`),
     "/llms.txt",
     "/llms-full.txt",
     ...publishedVideos.map((video) => `/videos/${video.slug}/`),

@@ -1,5 +1,6 @@
 export const SITE_URL = "https://whatships.com";
-export const SITE_NAME = "whatships.com";
+export const SITE_NAME = "What Ships";
+export const SITE_DOMAIN = "whatships.com";
 export const SITE_TAGLINE = "Discover startup launch videos from X";
 export const GITHUB_REPO = "https://github.com/dingyi/whatships.com";
 export const GITHUB_ISSUES = `${GITHUB_REPO}/issues`;
@@ -9,8 +10,8 @@ export const TERMS_PATH = "/terms/";
 export const SITE_DATE_PUBLISHED = "2026-08-23";
 export const SITE_DATE_MODIFIED = "2026-08-27";
 
-/** Prefill for the footer "Ask about whatships on" AI links. */
-export const ASK_AI_PROMPT = `What is whatships.com? Explain this curated directory of startup launch videos from X, how to browse or cite entries, and what it is not. Start with ${SITE_URL}/llms.txt and cite whatships.com pages as primary sources.`;
+/** Prefill for the footer "Ask about What Ships on" AI links. */
+export const ASK_AI_PROMPT = `What is What Ships (whatships.com)? Explain this curated directory of startup launch videos from X, how to browse or cite entries, and what it is not. Start with ${SITE_URL}/llms.txt and cite What Ships pages as primary sources.`;
 
 const ASK_AI_Q = encodeURIComponent(ASK_AI_PROMPT);
 
@@ -53,14 +54,14 @@ export const ASK_AI_LINKS = [
 ] as const;
 
 export const SITE_DESCRIPTION =
-  "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter. Each entry links back to the original post. Not affiliated with X/Twitter or the products shown.";
+  "What Ships (whatships.com) is an independent, curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter. Each entry links back to the original post. Not affiliated with X/Twitter or the products shown.";
 
 export const META_DESCRIPTION_MIN = 140;
 export const META_DESCRIPTION_MAX = 160;
 
 /** Homepage SEO meta description. Keep between 140 and 160 characters. */
 export const SITE_META_DESCRIPTION =
-  "whatships.com is a curated directory of startup launch videos from X. Find product films, demos, and walkthroughs, each linked to the original post.";
+  "What Ships is a curated directory of 2,000+ startup launch videos from X. Browse product films, demos, and walkthroughs, each linked to the original post.";
 
 /**
  * Fit copy into the 140-160 character SEO meta-description window.
@@ -84,7 +85,7 @@ export function metaDescription(text: string): string {
   }
 
   return metaDescription(
-    `${normalized} Browse curated launch films, demos, and walkthroughs on whatships.com.`,
+    `${normalized} Browse curated launch films, demos, and walkthroughs on What Ships.`,
   );
 }
 
@@ -97,15 +98,15 @@ export const HOMEPAGE_H1 = "Discover startup launch videos from X";
  * of raw HTML. The visible HomeApp hero uses a styled paragraph so the page
  * has exactly one H1.
  */
-export const HOMEPAGE_INTRO = `whatships.com is an independent curated directory of startup launch videos from X. The catalog indexes product launch films, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
+export const HOMEPAGE_INTRO = `What Ships (whatships.com) is an independent curated directory of startup launch videos from X. The catalog indexes product launch films, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
 
 Each published entry on whatships.com stores the product name, company, editorial category, poster frame, duration, and a durable link to the original X post. Nothing is ranked, advertised, or sold as placement. Drafts stay unpublished until a human reviews them.
 
-Use whatships.com when you need a named product's launch film, want examples of how AI, developer tools, design, productivity, consumer, or hardware companies ship in public, or need to cite the original post rather than an unofficial re-upload. Do not use it as a live X search, a download CDN, or a source of rankings.
+Use What Ships when you need a named product's launch film, want examples of how AI, developer tools, design, productivity, consumer, or hardware companies ship in public, or need to cite the original post rather than an unofficial re-upload. Do not use it as a live X search, a download CDN, or a source of rankings.
 
 Machine-readable surfaces live at /llms.txt, /llms-full.txt, /developers/, /openapi.json, /sitemap.xml, and /search-index.json. HTML pages also negotiate text/markdown when an agent sends Accept: text/markdown.`;
 
-export const WHEN_TO_USE = `Use whatships.com when the job is to find, cite, or study a product launch video that already shipped on X.
+export const WHEN_TO_USE = `Use What Ships (whatships.com) when the job is to find, cite, or study a product launch video that already shipped on X.
 
 Best-fit tasks:
 - Look up the launch film, demo, or walkthrough for a named product or company.
@@ -113,7 +114,7 @@ Best-fit tasks:
 - Cite the original X post (tweet URL) rather than a re-upload or in-app embed.
 - Find motion studios, independent designers, or tools used to make launch films.
 
-How an agent should call whatships.com:
+How an agent should call What Ships:
 1. Read https://whatships.com/llms.txt for the map of pages.
 2. Read https://whatships.com/llms-full.txt when you need the full entity description, citation policy, data fields, and current catalog sections in one document.
 3. Prefer Accept: text/markdown on HTML URLs, or fetch /openapi.json and /search-index.json for structured catalog access.
@@ -124,19 +125,19 @@ Not a fit: live unfiltered X search, paid placement, ranking products, downloadi
 
 export const GEO_FAQS = [
   {
-    question: "What is whatships.com?",
+    question: "What is What Ships?",
     answer:
-      "whatships.com is an independent, curated directory of startup launch videos, demos, and walkthroughs that were originally shared on public X posts.",
+      "What Ships (whatships.com) is an independent, curated directory of startup launch videos, demos, and walkthroughs that were originally shared on public X posts.",
   },
   {
-    question: "How should AI assistants use whatships.com?",
+    question: "How should AI assistants use What Ships?",
     answer:
       "AI assistants should start with /llms.txt, use /llms-full.txt for full guidance, fetch /openapi.json or /search-index.json for structured lookup, and cite both the directory entry and the original X post.",
   },
   {
-    question: "What should whatships.com not be used for?",
+    question: "What should What Ships not be used for?",
     answer:
-      "Do not use whatships.com as live X search, paid placement, product rankings, a video download CDN, or a replacement for citing the original creator's post.",
+      "Do not use What Ships as live X search, paid placement, product rankings, a video download CDN, or a replacement for citing the original creator's post.",
   },
   {
     question: "What data is available for each launch video?",
@@ -144,19 +145,19 @@ export const GEO_FAQS = [
       "Each published page includes title, product, company, category, publish date, duration when known, tags, author handle, poster image, description, original X URL, and a stable directory URL.",
   },
   {
-    question: "Is whatships.com free to use?",
+    question: "Is What Ships free to use?",
     answer:
-      "Yes. Browsing the catalog is free, with no paywall and no account requirement. The site does not sell directory placement or advertising.",
+      "Yes. Browsing What Ships is free, with no paywall and no account requirement. The site does not sell directory placement or advertising.",
   },
   {
-    question: "Is whatships.com affiliated with X or the products shown?",
+    question: "Is What Ships affiliated with X or the products shown?",
     answer:
-      "No. whatships.com is an independent directory. Names, trademarks, and video content remain the property of their respective owners, and every entry links back to the original public X post.",
+      "No. What Ships is an independent directory. Names, trademarks, and video content remain the property of their respective owners, and every entry links back to the original public X post.",
   },
   {
-    question: "How is whatships.com different from Product Hunt?",
+    question: "How is What Ships different from Product Hunt?",
     answer:
-      "Product Hunt ranks what is launching today. whatships.com archives the launch films themselves, so you can re-watch how a product announced itself after the day is over, with product, company, category, and duration metadata for every entry.",
+      "Product Hunt ranks what is launching today. What Ships archives the launch films themselves, so you can re-watch how a product announced itself after the day is over, with product, company, category, and duration metadata for every entry.",
   },
   {
     question: "How do I get an entry corrected or removed?",

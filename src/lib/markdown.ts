@@ -25,6 +25,7 @@ import {
   SITE_URL,
   WHEN_TO_USE,
 } from "@/lib/site";
+import { PAGE_SIZE } from "@/lib/directory";
 import { publishedStudios, studioKindLabel } from "@/lib/studios";
 import { publishedTools, toolCategoryLabel } from "@/lib/tools";
 import { guideMarkdown, guidePath, guideTitle } from "@/lib/guide-vs-product-hunt";
@@ -50,7 +51,7 @@ export function homepageMarkdown(videos: LaunchVideo[] = publishedVideos): strin
     "",
     HOMEPAGE_INTRO,
     "",
-    "## When to use whatships.com",
+    "## When to use What Ships",
     "",
     WHEN_TO_USE,
     "",
@@ -117,7 +118,7 @@ Source repository: ${GITHUB_REPO}
 ## Entity identity
 
 - Canonical site: ${SITE_URL}/
-- Brand names: ${SITE_NAME}, whatships, What Ships
+- Brand names: What Ships (canonical), whatships.com (domain), whatships (informal)
 - Publisher and author: ${SITE_NAME} editorial
 - Contact: ${pageUrl("/contact/")}
 - Developer resources: ${pageUrl("/developers/")}
@@ -239,7 +240,7 @@ Use the [Submit](${pageUrl("/submit/")}) form to propose a launch video, tool, s
 
 ## Developer resources
 
-Agents and integrators should start at [whatships.com developer resources](${pageUrl("/developers/")}), which lists the OpenAPI spec, search index, llms.txt, and markdown negotiation. The project source is ${GITHUB_REPO}.
+Agents and integrators should start at [What Ships developer resources](${pageUrl("/developers/")}), which lists the OpenAPI spec, search index, llms.txt, and markdown negotiation. The project source is ${GITHUB_REPO}.
 
 ${SITE_NAME} does not run paid placement, affiliate rankings, or a public write API.
 `;
@@ -358,6 +359,25 @@ export function studiosMarkdown(): string {
   return lines.join("\n");
 }
 
+export function categoryMarkdown(
+  category: (typeof CATEGORIES)[number],
+  videos: LaunchVideo[] = publishedVideos,
+): string {
+  const label = categoryLabel(category.id);
+  const items = videos.slice(0, PAGE_SIZE);
+  return [
+    `# ${label} startup launch videos — ${SITE_NAME}`,
+    "",
+    `${videos.length} curated ${label} startup launch videos from X. Each entry stores the product, company, and duration when known, and links to the original post.`,
+    "",
+    ...items.map(
+      (video) =>
+        `- [${video.title}](${pageUrl(`/videos/${video.slug}/`)}) — ${video.company}, ${formatPublishedAt(video.publishedAt)}`,
+    ),
+    "",
+  ].join("\n");
+}
+
 export function submitMarkdown(): string {
   return `# Submit a listing — ${SITE_NAME}
 
@@ -381,7 +401,17 @@ export async function writeMarkdownAssets(distDir: string | URL): Promise<void> 
     ["tools/index.md", toolsMarkdown()],
     ["studios/index.md", studiosMarkdown()],
     ["submit/index.md", submitMarkdown()],
-    [guidePath.replace(/^\//, "").replace(/\/$/, "") + "/index.md", guideMarkdown()],
+    [
+      guidePath.replace(/^\//, "").replace(/\/$/, "") + "/index.md",
+      guideMarkdown(),
+    ],
+    ...CATEGORIES.map(
+      (category) =>
+        [
+          `videos/category/${category.id}/index.md`,
+          categoryMarkdown(category),
+        ] as const,
+    ),
   ]);
   for (const video of publishedVideos) {
     files.set(`videos/${video.slug}/index.md`, videoMarkdown(video));
