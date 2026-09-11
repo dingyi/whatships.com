@@ -253,7 +253,7 @@ export default function AskAiPhosphor({ links }: { links: readonly AskAiLink[] }
           aria-hidden="true"
           data-phosphor-canvas
         />
-        <ul className="footer-ask-list" aria-label="Ask an AI about whatships.com">
+        <ul className="footer-ask-list" aria-label="Ask an AI about What Ships">
           {links.map((ai, index) => (
             <li key={ai.id} data-ask-ai-cell={index}>
               <a
@@ -261,8 +261,8 @@ export default function AskAiPhosphor({ links }: { links: readonly AskAiLink[] }
                 href={ai.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Ask about whatships on ${ai.name}`}
-                title={`Ask about whatships on ${ai.name}`}
+                aria-label={`Ask about What Ships on ${ai.name}`}
+                title={`Ask about What Ships on ${ai.name}`}
                 onPointerEnter={(event) => {
                   wakeCell(
                     index,

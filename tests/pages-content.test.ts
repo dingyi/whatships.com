@@ -41,7 +41,7 @@ describe("trust and developer pages", () => {
 
   it("names whatships in the developers heading and title", () => {
     const source = readFileSync("src/pages/developers.astro", "utf8");
-    expect(source).toContain("whatships.com developer resources");
+    expect(source).toContain("What Ships developer resources");
   });
 
   it("allows public AI crawlers and advertises full llms guidance", () => {
@@ -78,8 +78,8 @@ describe("trust and developer pages", () => {
     );
     expect(footer).toContain("/privacy/");
     expect(footer).toContain("/terms/");
-    expect(footer).toContain("Ask about whatships on");
-    expect(askAi).toContain("Ask an AI about whatships.com");
+    expect(footer).toContain("Ask about What Ships on");
+    expect(askAi).toContain("Ask an AI about What Ships");
     expect(layout).toContain('hreflang="x-default"');
     expect(layout).toContain('og:site_name');
   });

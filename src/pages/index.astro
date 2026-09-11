@@ -2,7 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import HomeApp from "@/components/HomeApp";
 import SiteFooter from "@/components/SiteFooter.astro";
-import { publishedVideos } from "@/lib/catalog";
+import { CATEGORIES, categoryLabel, publishedVideos } from "@/lib/catalog";
 import { PAGE_SIZE, gridPoster, toDirectoryVideo } from "@/lib/directory";
 import { homepageJsonLd } from "@/lib/schema";
 import {
@@ -18,7 +18,7 @@ const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
 ---
 
 <BaseLayout
-  title={`${SITE_NAME} — Discover startup launch videos`}
+  title={`Startup Launch Videos from X — ${SITE_NAME}`}
   description={SITE_META_DESCRIPTION}
 >
   {
@@ -50,6 +50,37 @@ const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
     totalCount={publishedVideos.length}
     client:idle
   />
+  <section class="home-browse" aria-labelledby="home-browse-title">
+    <div class="home-browse__inner">
+      <div class="home-browse__head">
+        <h2 id="home-browse-title">Browse startup launch videos by category</h2>
+        <p class="home-browse__stats">
+          {publishedVideos.length} launch films indexed from X · updated weekly
+        </p>
+      </div>
+      <ul class="home-browse__list">
+        {
+          CATEGORIES.map((item) => (
+            <li>
+              <a
+                class="home-browse__link"
+                href={`/videos/category/${item.id}/`}
+              >
+                <span>{categoryLabel(item.id)}</span>
+                <span class="home-browse__count">
+                  {
+                    publishedVideos.filter(
+                      (video) => video.category === item.id,
+                    ).length
+                  }
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
   <SiteFooter />
   <script is:inline>
     if (window.location.search) {
@@ -60,3 +91,74 @@ const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
     }
   </script>
 </BaseLayout>
+
+<style>
+  .home-browse {
+    padding: 0 16px 56px;
+  }
+  .home-browse__inner {
+    max-width: 1920px;
+    margin: 0 auto;
+    border-top: 0.5px solid var(--grid-line);
+    padding-top: 24px;
+  }
+  .home-browse__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 0 0 16px;
+  }
+  .home-browse__head h2 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .home-browse__stats {
+    margin: 0;
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .home-browse__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 0.5px solid var(--grid-line);
+  }
+  .home-browse__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 12px;
+    border: 0.5px solid var(--grid-line);
+    border-left: 0;
+    background: var(--card);
+    color: var(--foreground);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .home-browse__link:hover {
+    background: var(--background);
+  }
+  .home-browse__link:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: -2px;
+  }
+  .home-browse__count {
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+  }
+</style>

@@ -173,7 +173,7 @@ export const guideFaqs = [
       "Cite the WhatShips directory entry for the stable video page, and include the original X post URL shown on that page. That matches the citation policy documented on the site.",
   },
   {
-    question: "Is whatships.com free?",
+    question: "Is What Ships free?",
     answer:
       "Yes. Browsing the catalog is free, there is no account requirement, and the site runs no paid placement or advertising.",
   },
@@ -199,7 +199,7 @@ export const guideFaqs = [
 
 export const guideSources = [
   {
-    name: "whatships.com — the launch-video catalog",
+    name: "What Ships — the launch-video catalog",
     url: `${SITE_URL}/`,
   },
   {

@@ -36,8 +36,8 @@ describe("agent-facing copy", () => {
   it("keeps homepage intro over 500 characters with the brand name", () => {
     expect(HOMEPAGE_INTRO.length).toBeGreaterThan(500);
     expect(HOMEPAGE_INTRO).toContain(SITE_NAME);
-    expect(homepageMarkdown()).toContain("# whatships.com");
-    expect(homepageMarkdown()).toContain("When to use whatships.com");
+    expect(homepageMarkdown()).toContain("# What Ships");
+    expect(homepageMarkdown()).toContain("When to use What Ships");
     expect(homepageMarkdown()).toContain("llms-full.txt");
     expect(homepageMarkdown()).toContain("Sources and quotations");
     expect(homepageMarkdown()).toContain("https://llmstxt.org/");
@@ -62,8 +62,8 @@ describe("agent-facing copy", () => {
     ]) {
       expect(visibleText(body).length).toBeGreaterThan(500);
     }
-    expect(developersMarkdown()).toContain("whatships.com developer resources");
-    expect(contactMarkdown()).toContain("Contact whatships.com");
+    expect(developersMarkdown()).toContain("What Ships developer resources");
+    expect(contactMarkdown()).toContain("Contact What Ships");
   });
 
   it("emits a per-video markdown page with original post link", () => {
@@ -76,7 +76,7 @@ describe("agent-facing copy", () => {
 
   it("emits a full llms guide with citation and schema guidance", () => {
     const body = llmsFullText();
-    expect(body).toContain("# whatships.com full agent guide");
+    expect(body).toContain("# What Ships full agent guide");
     expect(body).toContain("Last modified: 2026-08-27");
     expect(body).toContain("Citation policy");
     expect(body).toContain("FAQ");
@@ -100,7 +100,7 @@ describe("structured data", () => {
       url: "https://whatships.com/contact/",
     });
     expect(org?.name).toBe(SITE_NAME);
-    expect(org).not.toHaveProperty("alternateName");
+    expect(org?.alternateName).toEqual(["whatships.com", "whatships"]);
     const types = graph.map((node) => node["@type"]);
     expect(types).toContain("WebSite");
     expect(types).toContain("Organization");
@@ -139,7 +139,7 @@ describe("OpenAPI", () => {
   it("names whatships.com in the spec title", () => {
     const spec = openApiSpec();
     expect(spec.openapi).toBe("3.1.0");
-    expect(spec.info.title).toBe("whatships.com developer resources");
+    expect(spec.info.title).toBe("What Ships developer resources");
     expect(spec.paths["/search-index.json"]).toBeTruthy();
     expect(spec.paths["/openapi.json"]).toBeTruthy();
     expect(spec.paths["/llms-full.txt"]).toBeTruthy();

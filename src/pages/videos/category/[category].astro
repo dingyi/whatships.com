@@ -1,0 +1,306 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import {
+  CATEGORIES,
+  categoryLabel,
+  formatDuration,
+  formatPublishedAt,
+  publishedVideos,
+} from "@/lib/catalog";
+import { PAGE_SIZE, gridPoster } from "@/lib/directory";
+import {
+  SITE_DATE_MODIFIED,
+  SITE_NAME,
+  SITE_URL,
+  metaDescription,
+} from "@/lib/site";
+
+export function getStaticPaths() {
+  return CATEGORIES.filter((category) =>
+    publishedVideos.some((video) => video.category === category.id),
+  ).map((category) => ({
+    params: { category: category.id },
+    props: {
+      category,
+      videos: publishedVideos.filter((video) => video.category === category.id),
+    },
+  }));
+}
+
+interface Props {
+  category: (typeof CATEGORIES)[number];
+  videos: typeof publishedVideos;
+}
+
+const { category, videos } = Astro.props;
+const label = categoryLabel(category.id);
+const labelLower = label === "AI" ? "AI" : label.toLowerCase();
+const shown = videos.slice(0, PAGE_SIZE);
+const hidden = videos.length - shown.length;
+const latest = videos.length ? formatPublishedAt(videos[0].publishedAt) : null;
+const earliest = videos.length
+  ? formatPublishedAt(videos[videos.length - 1].publishedAt)
+  : null;
+
+const description = metaDescription(
+  `${videos.length} ${labelLower} startup launch videos from X, curated by What Ships with product, company, and duration metadata plus a link to each original post.`,
+);
+
+const site = Astro.site ?? SITE_URL;
+const pageUrl = new URL(`/videos/category/${category.id}/`, site).toString();
+
+const categoryJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": `${pageUrl}#collection`,
+      url: pageUrl,
+      name: `${label} startup launch videos — ${SITE_NAME}`,
+      description,
+      inLanguage: "en",
+      dateModified: SITE_DATE_MODIFIED,
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      publisher: { "@id": `${SITE_URL}/#organization` },
+      mainEntity: {
+        "@type": "ItemList",
+        "@id": `${pageUrl}#videos`,
+        name: `${label} startup launch videos`,
+        numberOfItems: shown.length,
+        itemListElement: shown.map((video, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "CreativeWork",
+            name: video.title,
+            url: new URL(`/videos/${video.slug}/`, site).toString(),
+            description: video.description || undefined,
+            publisher: video.company,
+          },
+        })),
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: SITE_NAME,
+          item: `${SITE_URL}/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: `${label} startup launch videos`,
+          item: pageUrl,
+        },
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title={`${label} startup launch videos — ${SITE_NAME}`}
+  description={description}
+>
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(categoryJsonLd)}
+  />
+  <PageHeader client:idle />
+  <main>
+    <section class="hero" aria-labelledby="category-title">
+      <div class="hero__inner">
+        <h1 id="category-title">{label} startup launch videos from X</h1>
+        <p class="hero__copy">
+          {videos.length} {labelLower} startup launch videos indexed
+          {earliest && latest ? `, ${earliest} to ${latest}` : ""}. Every entry
+          stores the product, company, duration when known, and a durable link
+          to the original X post — study the film or cite the source instead of
+          a re-upload.
+        </p>
+      </div>
+    </section>
+
+    <section class="directory" aria-labelledby="category-title">
+      <nav class="category-chips" aria-label="Browse other categories">
+        {
+          CATEGORIES.map((item) => (
+            <a
+              class="category-chip"
+              href={`/videos/category/${item.id}/`}
+              aria-current={item.id === category.id ? "page" : undefined}
+            >
+              {categoryLabel(item.id)}
+            </a>
+          ))
+        }
+      </nav>
+      <div class="video-grid">
+        {
+          shown.map((video, index) => {
+            const small = gridPoster(video.poster);
+            const duration = formatDuration(video.durationSeconds);
+            return (
+              <article class="video-card" id={video.id}>
+                <span class="corner one" aria-hidden="true" />
+                <span class="corner two" aria-hidden="true" />
+                <span class="corner three" aria-hidden="true" />
+                <span class="corner four" aria-hidden="true" />
+                <div class="video-card__main">
+                  <a
+                    class="video-card__media"
+                    href={`/videos/${video.slug}/`}
+                    aria-label={`Open ${video.title}`}
+                  >
+                    <img
+                      src={small}
+                      srcset={`${small} 960w, ${video.poster} 1440w`}
+                      sizes="(max-width: 699px) calc(100vw - 34px), 420px"
+                      alt={`Poster for ${video.title}`}
+                      loading={index < 6 ? "eager" : "lazy"}
+                      decoding="async"
+                      fetchpriority={index === 0 ? "high" : undefined}
+                      width="1440"
+                      height="810"
+                    />
+                    <span class="video-card__play" aria-hidden="true">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        stroke="none"
+                        aria-hidden="true"
+                      >
+                        <polygon points="6 3 20 12 6 21 6 3" />
+                      </svg>
+                    </span>
+                    {duration && (
+                      <span class="video-card__duration" aria-hidden="true">
+                        {duration}
+                      </span>
+                    )}
+                    <span class="video-card__hover-label" aria-hidden="true">
+                      <span>{video.company}</span>
+                    </span>
+                  </a>
+                  <div class="video-card__body">
+                    <div>
+                      <h2>
+                        <a href={`/videos/${video.slug}/`}>{video.title}</a>
+                      </h2>
+                      <p class="video-card__meta">
+                        {video.company}
+                        <span aria-hidden="true"> · </span>
+                        {formatPublishedAt(video.publishedAt)}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="video-card__external"
+                  href={video.tweetUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View the original post for ${video.title} on X`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    />
+                  </svg>
+                </a>
+              </article>
+            );
+          })
+        }
+      </div>
+      {
+        hidden > 0 && (
+          <p class="category-more">
+            Showing the {shown.length} most recent of {videos.length} entries.
+            The full catalog with search lives on the{" "}
+            <a href="/">home grid</a>.
+          </p>
+        )
+      }
+    </section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
+
+<style>
+  .category-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 16px;
+  }
+  .category-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 0 10px;
+    border: 0.5px solid var(--grid-line);
+    background: var(--card);
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .category-chip:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .category-chip[aria-current="page"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
+  .category-chip:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .category-more {
+    margin: 16px 0 0;
+    color: var(--muted-foreground);
+    font-size: 13px;
+  }
+  .category-more a {
+    color: var(--foreground);
+    text-underline-offset: 2px;
+  }
+  @media (max-width: 699px) {
+    .category-chip {
+      min-height: 44px;
+      padding: 0 12px;
+    }
+  }
+</style>

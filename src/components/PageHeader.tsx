@@ -76,8 +76,8 @@ export default function PageHeader({ active }: Props) {
     <header className="site-header" data-header-ready={ready}>
       <nav className="site-nav" aria-label="Primary navigation">
         <div className="nav-left">
-          <a className="wordmark" href="/" aria-label="whatships.com home">
-            whatships.com
+          <a className="wordmark" href="/" aria-label="What Ships home">
+            What Ships
           </a>
           <div className="desktop-nav">
             <a
