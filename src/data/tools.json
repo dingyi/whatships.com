@@ -634,5 +634,15 @@
     "url": "https://pexo.ai/",
     "category": "ai",
     "poster": "/posters/tools/pexo.webp"
+  },
+  {
+    "id": "tool-screenshot-studio",
+    "slug": "screenshot-studio",
+    "name": "Screenshot Studio",
+    "tagline": "Free screenshot editor and mockup maker",
+    "description": "Free, open-source screenshot editor in the browser. Add gradient backgrounds, Safari or Chrome mockups, 3D tilt, shadows, and animations, then export PNG, JPEG, WebP, MP4, WebM, or GIF. No signup.",
+    "url": "https://www.screenshot-studio.com/",
+    "category": "mockup",
+    "poster": "/posters/tools/screenshot-studio.webp"
   }
 ]
