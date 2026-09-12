@@ -724,10 +724,8 @@ img {
   font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 400;
-  letter-spacing: 0.02em;
   line-height: 1.55;
-  text-transform: uppercase;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 /* Noiced pattern: outer container padding (16px) + max-width, grid gap:0 inside */
