@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T08:11:02.959Z",
+  "updatedAt": "2026-09-12T09:34:32.171Z",
   "items": [
     {
       "id": "disc-2098533675050672134",
@@ -55,187 +55,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098532225167851527/vid/avc1/1124x662/Lk0gQEBoRBp3SlYN.mp4",
         "publishedAt": "2026-09-11T22:06:31.000Z",
         "durationSeconds": 10,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098504189773041852",
-      "tweetId": "2098504189773041852",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:02.619Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2098504189773041852",
-        "tweetUrl": "https://x.com/cerebras/status/2098504189773041852",
-        "authorHandle": "cerebras",
-        "authorName": "Cerebras",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1894806880804913152/zLdh072p.jpg",
-        "text": "Qwen3.8-27B is now live at Cerebras speed.\n\nThe dense, open-weight model from @Alibaba_Qwen  scores 34 on the Artificial Analysis Intelligence Index—making it comparable to models such as GPT-5.6 Luna, DeepseekV4 Pro, and Claude Sonnet 4.6. https://t.co/0tkRRn49Ft",
-        "createdAt": "2026-09-11T20:09:21.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098503990883336195/vid/avc1/3552x2002/P-DEpFQDiYclIYW-.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098503990883336195/img/-geCIFX_rUIUClXI.jpg",
-            "durationMs": 48310
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cerebras",
-        "company": "Cerebras",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098504189773041852",
-        "slug": "cerebras-041852",
-        "title": "Qwen3.8-27B is now live at Cerebras speed. The dense, open-weight model from @Alibaba_Qwen scores…",
-        "product": "Cerebras",
-        "company": "Cerebras",
-        "description": "Qwen3.8-27B is now live at Cerebras speed. The dense, open-weight model from @Alibaba_Qwen scores 34 on the Artificial Analysis Intelligence Index—making it comparable to models such as GPT-5.6 Luna, DeepseekV4 Pro, and Claude Sonnet 4.6.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cerebras/status/2098504189773041852",
-        "tweetId": "2098504189773041852",
-        "authorName": "Cerebras",
-        "authorHandle": "cerebras",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1894806880804913152/zLdh072p.jpg",
-        "poster": "/posters/cerebras-041852.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098503990883336195/vid/avc1/3552x2002/P-DEpFQDiYclIYW-.mp4",
-        "publishedAt": "2026-09-11T20:09:21.000Z",
-        "durationSeconds": 48,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098482627007414675",
-      "tweetId": "2098482627007414675",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:02.294Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b",
-        "signal:\\bavailable (?:today|now|on)\\b"
-      ],
-      "post": {
-        "tweetId": "2098482627007414675",
-        "tweetUrl": "https://x.com/modal/status/2098482627007414675",
-        "authorHandle": "modal",
-        "authorName": "Modal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1899521344766627840/3lInURMw.jpg",
-        "text": "DeepSeek v4.1-Flash, a new multimodal model from @deepseek_ai, is now available on Modal.\n\nv4.1-Flash uses DeepSeek's Causal Encoder-Decoder architecture, activating 16B parameters for input and 8B parameters for output to improve cost efficiency for input-heavy agentic https://t.co/8Dd4v0NV2t",
-        "createdAt": "2026-09-11T18:43:40.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098482234902941696/vid/avc1/1280x720/sNTVL-tY9XWp7Kzc.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098482234902941696/img/sV9L-96G3yDyZFbY.jpg",
-            "durationMs": 4000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "modal",
-        "company": "Modal",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098482627007414675",
-        "slug": "modal-414675",
-        "title": "DeepSeek v4.1-Flash, a new multimodal model from @deepseek_ai, is now available on Modal. v4.1-Fl…",
-        "product": "Modal",
-        "company": "Modal",
-        "description": "DeepSeek v4.1-Flash, a new multimodal model from @deepseek_ai, is now available on Modal. v4.1-Flash uses DeepSeek's Causal Encoder-Decoder architecture, activating 16B parameters for input and 8B parameters for output to improve cost efficiency for input-heavy agentic",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/modal/status/2098482627007414675",
-        "tweetId": "2098482627007414675",
-        "authorName": "Modal",
-        "authorHandle": "modal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1899521344766627840/3lInURMw.jpg",
-        "poster": "/posters/modal-414675.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098482234902941696/vid/avc1/1280x720/sNTVL-tY9XWp7Kzc.mp4",
-        "publishedAt": "2026-09-11T18:43:40.000Z",
-        "durationSeconds": 4,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098482444987167060",
-      "tweetId": "2098482444987167060",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:01.958Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bmeet\\b.{0,40}\\b(?:our|the|new)\\b"
-      ],
-      "post": {
-        "tweetId": "2098482444987167060",
-        "tweetUrl": "https://x.com/subramanya/status/2098482444987167060",
-        "authorHandle": "subramanya",
-        "authorName": "Subramanya N",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1831465807366201344/bX93waa3.jpg",
-        "text": "Their whole world. One little app. 🐾\n\nMeet Paww - the all-in-one app for dogs and their people. Everyday care, important details, and little wins, together.\n\nSign up for beta → https://t.co/3o0MdkNb4R https://t.co/GmKX2CbEJO",
-        "createdAt": "2026-09-11T18:42:57.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098482377102397440/vid/avc1/1920x1080/JK7Hm9xHzeTQkZHP.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098482377102397440/img/EPXO9IDkB2t_7inq.jpg",
-            "durationMs": 40000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "subramanya",
-        "company": "Subramanya N",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098482444987167060",
-        "slug": "subramanya-n-167060",
-        "title": "Their whole world. One little app. 🐾 Meet Paww - the all-in-one app for dogs and their people. E…",
-        "product": "Subramanya N",
-        "company": "Subramanya N",
-        "description": "Their whole world. One little app. 🐾 Meet Paww - the all-in-one app for dogs and their people. Everyday care, important details, and little wins, together. Sign up for beta →",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/subramanya/status/2098482444987167060",
-        "tweetId": "2098482444987167060",
-        "authorName": "Subramanya N",
-        "authorHandle": "subramanya",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1831465807366201344/bX93waa3.jpg",
-        "poster": "/posters/subramanya-n-167060.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098482377102397440/vid/avc1/1920x1080/JK7Hm9xHzeTQkZHP.mp4",
-        "publishedAt": "2026-09-11T18:42:57.000Z",
-        "durationSeconds": 40,
         "featured": false,
         "status": "draft"
       },
@@ -363,71 +182,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098472160029463006",
-      "tweetId": "2098472160029463006",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:00.934Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098472160029463006",
-        "tweetUrl": "https://x.com/imarikchakma/status/2098472160029463006",
-        "authorHandle": "imarikchakma",
-        "authorName": "Arik Chakma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1485575513318256641/q4uMCram.jpg",
-        "text": "Introducing gpu-time ⏰\n\nI built a small browser-based model to convert from natural language text to JavaScript date and time.\n\nIt runs on web GPU. It's fast and can extract date and times from any English text.\n\nhttps://t.co/V1o0QDDrdf https://t.co/g9kQVIdfwT",
-        "createdAt": "2026-09-11T18:02:05.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098471498835193856/vid/avc1/1920x1080/OyTSN_HRbcpEklc8.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098471498835193856/img/TDBbWGHixubO_am8.jpg",
-            "durationMs": 91016
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "imarikchakma",
-        "company": "Arik Chakma",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098472160029463006",
-        "slug": "arik-chakma-463006",
-        "title": "Introducing gpu-time ⏰ I built a small browser-based model to convert from natural language text…",
-        "product": "Arik Chakma",
-        "company": "Arik Chakma",
-        "description": "Introducing gpu-time ⏰ I built a small browser-based model to convert from natural language text to JavaScript date and time. It runs on web GPU. It's fast and can extract date and times from any English text.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/imarikchakma/status/2098472160029463006",
-        "tweetId": "2098472160029463006",
-        "authorName": "Arik Chakma",
-        "authorHandle": "imarikchakma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1485575513318256641/q4uMCram.jpg",
-        "poster": "/posters/arik-chakma-463006.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098471498835193856/vid/avc1/1920x1080/OyTSN_HRbcpEklc8.mp4",
-        "publishedAt": "2026-09-11T18:02:05.000Z",
-        "durationSeconds": 91,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098457494716829978",
       "tweetId": "2098457494716829978",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:11:00.607Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:08:28.978Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -476,66 +235,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098457425938706432/vid/avc1/1920x1080/RB5CT91Q4Gl5fOvj.mp4",
         "publishedAt": "2026-09-11T17:03:48.000Z",
         "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098456611022839813",
-      "tweetId": "2098456611022839813",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:00.277Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098456611022839813",
-        "tweetUrl": "https://x.com/olivieropinotti/status/2098456611022839813",
-        "authorHandle": "olivieropinotti",
-        "authorName": "Oliviero Pinotti",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073155946633691136/LBJlrSUE.jpg",
-        "text": "Introducing Alfera, your AI coworker for your whole company.\n\nIt knows your business, works across your apps, and finishes the job.  \n\nFrom handling customer support, creating apps, managing ad campaigns to building presentations, here's what you can hand off: https://t.co/rwHO3tRDHt",
-        "createdAt": "2026-09-11T17:00:18.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098456529280348160/vid/avc1/1920x1080/WPNOLlnlb_Kg8ypQ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098456529280348160/img/jqLejFrqjFNiZH5H.jpg",
-            "durationMs": 130054
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "olivieropinotti",
-        "company": "Oliviero Pinotti",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098456611022839813",
-        "slug": "oliviero-pinotti-839813",
-        "title": "Introducing Alfera, your AI coworker for your whole company. It knows your business, works across…",
-        "product": "Oliviero Pinotti",
-        "company": "Oliviero Pinotti",
-        "description": "Introducing Alfera, your AI coworker for your whole company. It knows your business, works across your apps, and finishes the job. From handling customer support, creating apps, managing ad campaigns to building presentations, here's what you can hand off:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/olivieropinotti/status/2098456611022839813",
-        "tweetId": "2098456611022839813",
-        "authorName": "Oliviero Pinotti",
-        "authorHandle": "olivieropinotti",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073155946633691136/LBJlrSUE.jpg",
-        "poster": "/posters/oliviero-pinotti-839813.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098456529280348160/vid/avc1/1920x1080/WPNOLlnlb_Kg8ypQ.mp4",
-        "publishedAt": "2026-09-11T17:00:18.000Z",
-        "durationSeconds": 130,
         "featured": false,
         "status": "draft"
       },
@@ -723,131 +422,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098409362041753708",
-      "tweetId": "2098409362041753708",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:58.828Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098409362041753708",
-        "tweetUrl": "https://x.com/higgsfield/status/2098409362041753708",
-        "authorHandle": "higgsfield",
-        "authorName": "Higgsfield AI 🧩",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "text": "ChatGPT can now do motion design in After Effects.\n\nIntroducing Higgsfield AI Motion Designer.\n\nOur ChatGPT plugin understands animation principles, writes expressions, and retains context in your After Effects projects.\n\nTry Higgsfield’s ChatGPT plugin now in After Effects. https://t.co/G1Jpc4saW5",
-        "createdAt": "2026-09-11T13:52:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098407971227398144/vid/avc1/1920x1080/jFycYXjVGgAwzmzi.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098407971227398144/img/hrp9Hd4kn5VL5Nxx.jpg",
-            "durationMs": 81966
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "higgsfield",
-        "company": "Higgsfield AI 🧩",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098409362041753708",
-        "slug": "higgsfield-ai-753708",
-        "title": "ChatGPT can now do motion design in After Effects. Introducing Higgsfield AI Motion Designer. Our…",
-        "product": "Higgsfield AI 🧩",
-        "company": "Higgsfield AI 🧩",
-        "description": "ChatGPT can now do motion design in After Effects. Introducing Higgsfield AI Motion Designer. Our ChatGPT plugin understands animation principles, writes expressions, and retains context in your After Effects projects. Try Higgsfield’s ChatGPT plugin now in After Effects.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/higgsfield/status/2098409362041753708",
-        "tweetId": "2098409362041753708",
-        "authorName": "Higgsfield AI 🧩",
-        "authorHandle": "higgsfield",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/higgsfield-ai-753708.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098407971227398144/vid/avc1/1920x1080/jFycYXjVGgAwzmzi.mp4",
-        "publishedAt": "2026-09-11T13:52:33.000Z",
-        "durationSeconds": 82,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098408580852641795",
-      "tweetId": "2098408580852641795",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:58.425Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2098408580852641795",
-        "tweetUrl": "https://x.com/Hailuo_AI/status/2098408580852641795",
-        "authorHandle": "Hailuo_AI",
-        "authorName": "MiniMax Design (H3)",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086821620228980736/JzAOUvuf.jpg",
-        "text": "💥 MiniMax Design Major Upgrade!\n\n🤖 GPT-6 Astra is Now Live!\n🔌 New MCP integrations for Blender, PS, AE and more\n👥 Collaborative Projects for seamless teamwork\n\nCreate 3D models with a single prompt; turn AI clips directly into editable AE projects...\n💡Bring AI Creativity https://t.co/rfIzQFTP3u",
-        "createdAt": "2026-09-11T13:49:26.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098406677360132096/vid/avc1/2560x1440/TWut6LICjoTCznK4.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098406677360132096/img/fOOF9WbFiCNqltzB.jpg",
-            "durationMs": 82616
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Hailuo_AI",
-        "company": "MiniMax Design (H3)",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098408580852641795",
-        "slug": "minimax-design-h3-641795",
-        "title": "💥 MiniMax Design Major Upgrade! 🤖 GPT-6 Astra is Now Live! 🔌 New MCP integrations for Blender,…",
-        "product": "MiniMax Design (H3)",
-        "company": "MiniMax Design (H3)",
-        "description": "💥 MiniMax Design Major Upgrade! 🤖 GPT-6 Astra is Now Live! 🔌 New MCP integrations for Blender, PS, AE and more 👥 Collaborative Projects for seamless teamwork Create 3D models with a single prompt; turn AI clips directly into editable AE projects... 💡Bring AI Creativity",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Hailuo_AI/status/2098408580852641795",
-        "tweetId": "2098408580852641795",
-        "authorName": "MiniMax Design (H3)",
-        "authorHandle": "Hailuo_AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086821620228980736/JzAOUvuf.jpg",
-        "poster": "/posters/minimax-design-h3-641795.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098406677360132096/vid/avc1/2560x1440/TWut6LICjoTCznK4.mp4",
-        "publishedAt": "2026-09-11T13:49:26.000Z",
-        "durationSeconds": 83,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098406139939737605",
       "tweetId": "2098406139939737605",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:58.085Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:12:36.349Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -1143,66 +722,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098318574590800098",
-      "tweetId": "2098318574590800098",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:56.424Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098318574590800098",
-        "tweetUrl": "https://x.com/freebeat_ai/status/2098318574590800098",
-        "authorHandle": "freebeat_ai",
-        "authorName": "Freebeat AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2036876138396708864/cedJzz7z.jpg",
-        "text": "Still using basic subtitles for your music videos? 👀\n\nWhat if your lyrics could actually become part of the scene? 🎵\n\nThat’s what we just launched with Freebeat Lyrics Video. \n\nYour lyrics can now match your MV aesthetic, sit naturally inside the scene with real depth, and come https://t.co/2UA3xWmgOU",
-        "createdAt": "2026-09-11T07:51:47.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098317475813490688/vid/avc1/1920x1080/N0Pde_tQLnzSUqlz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098317475813490688/img/tvg-8H8WKCtp_tZV.jpg",
-            "durationMs": 42353
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "freebeat_ai",
-        "company": "Freebeat AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098318574590800098",
-        "slug": "freebeat-ai-800098",
-        "title": "Still using basic subtitles for your music videos? 👀 What if your lyrics could actually become p…",
-        "product": "Freebeat AI",
-        "company": "Freebeat AI",
-        "description": "Still using basic subtitles for your music videos? 👀 What if your lyrics could actually become part of the scene? 🎵 That’s what we just launched with Freebeat Lyrics Video. Your lyrics can now match your MV aesthetic, sit naturally inside the scene with real depth, and come",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/freebeat_ai/status/2098318574590800098",
-        "tweetId": "2098318574590800098",
-        "authorName": "Freebeat AI",
-        "authorHandle": "freebeat_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2036876138396708864/cedJzz7z.jpg",
-        "poster": "/posters/freebeat-ai-800098.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098317475813490688/vid/avc1/1920x1080/N0Pde_tQLnzSUqlz.mp4",
-        "publishedAt": "2026-09-11T07:51:47.000Z",
-        "durationSeconds": 42,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098537240121192705",
       "tweetId": "2098537240121192705",
       "reviewStatus": "pending",
@@ -1324,9 +843,9 @@
     {
       "id": "disc-2098561251358216344",
       "tweetId": "2098561251358216344",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:55.342Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:45.446Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1444,9 +963,9 @@
     {
       "id": "disc-2098511298963141098",
       "tweetId": "2098511298963141098",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:54.653Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:48.593Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1756,9 +1275,9 @@
     {
       "id": "disc-2098462003488837661",
       "tweetId": "2098462003488837661",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:52.979Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:52.987Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1876,9 +1395,9 @@
     {
       "id": "disc-2098453718970839334",
       "tweetId": "2098453718970839334",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:52.300Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:58.934Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1936,9 +1455,9 @@
     {
       "id": "disc-2098527076903207195",
       "tweetId": "2098527076903207195",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:51.974Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:14:02.330Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2046,66 +1565,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098509174875512832/vid/avc1/1920x1080/bDPQuCFtzKfh6JtO.mp4?tag=16",
         "publishedAt": "2026-09-11T20:29:22.000Z",
         "durationSeconds": 56,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098497550709854647",
-      "tweetId": "2098497550709854647",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:51.309Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098497550709854647",
-        "tweetUrl": "https://x.com/fal/status/2098497550709854647",
-        "authorHandle": "fal",
-        "authorName": "fal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
-        "text": "Introducing H3 Max Camera Controls, the world's fastest 3D video model.\n\nTurn a single viewpoint into a navigable 3D scene in less than 3 seconds.\n\nSet the horizontal and vertical camera angle in degrees, and H3 Max Camera Controls moves through the scene while preserving https://t.co/XOm0ta5K4c",
-        "createdAt": "2026-09-11T19:42:58.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/ext_tw_video/2098497465158668293/pu/vid/avc1/1280x720/ftx_--MiA42-PBgd.mp4?tag=12",
-            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2098497465158668293/pu/img/EFJBo1rcmKIHv-hA.jpg",
-            "durationMs": 29362
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fal",
-        "company": "fal",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098497550709854647",
-        "slug": "fal-854647",
-        "title": "Introducing H3 Max Camera Controls, the world's fastest 3D video model. Turn a single viewpoint i…",
-        "product": "fal",
-        "company": "fal",
-        "description": "Introducing H3 Max Camera Controls, the world's fastest 3D video model. Turn a single viewpoint into a navigable 3D scene in less than 3 seconds. Set the horizontal and vertical camera angle in degrees, and H3 Max Camera Controls moves through the scene while preserving",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fal/status/2098497550709854647",
-        "tweetId": "2098497550709854647",
-        "authorName": "fal",
-        "authorHandle": "fal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
-        "poster": "/posters/fal-854647.webp",
-        "videoUrl": "https://video.twimg.com/ext_tw_video/2098497465158668293/pu/vid/avc1/1280x720/ftx_--MiA42-PBgd.mp4?tag=12",
-        "publishedAt": "2026-09-11T19:42:58.000Z",
-        "durationSeconds": 29,
         "featured": false,
         "status": "draft"
       },
@@ -2235,9 +1694,9 @@
     {
       "id": "disc-2098189165221253567",
       "tweetId": "2098189165221253567",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:20.136Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:14:09.386Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2357,66 +1816,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098133154901135756",
-      "tweetId": "2098133154901135756",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:19.333Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098133154901135756",
-        "tweetUrl": "https://x.com/rivet_dev/status/2098133154901135756",
-        "authorHandle": "rivet_dev",
-        "authorName": "Rivet",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2088370694765867008/gAkvf6U5.jpg",
-        "text": "Introducing Rivet MCP\n\nConnect your favorite agent to build, inspect, and manage your agentic infrastructure. https://t.co/vYV5rXug8u",
-        "createdAt": "2026-09-10T19:35:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098115158157709312/vid/avc1/1920x1080/P5dLtrC-BnV995bL.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098115158157709312/img/uHq2d_N4tkNeSheI.jpg",
-            "durationMs": 18000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "rivet_dev",
-        "company": "Rivet",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098133154901135756",
-        "slug": "rivet-135756",
-        "title": "Introducing Rivet MCP Connect your favorite agent to build, inspect, and manage your agentic infr…",
-        "product": "Rivet",
-        "company": "Rivet",
-        "description": "Introducing Rivet MCP Connect your favorite agent to build, inspect, and manage your agentic infrastructure.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/rivet_dev/status/2098133154901135756",
-        "tweetId": "2098133154901135756",
-        "authorName": "Rivet",
-        "authorHandle": "rivet_dev",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2088370694765867008/gAkvf6U5.jpg",
-        "poster": "/posters/rivet-135756.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098115158157709312/vid/avc1/1920x1080/P5dLtrC-BnV995bL.mp4",
-        "publishedAt": "2026-09-10T19:35:00.000Z",
-        "durationSeconds": 18,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098197431267586389",
       "tweetId": "2098197431267586389",
       "reviewStatus": "pending",
@@ -2478,9 +1877,9 @@
     {
       "id": "disc-2098080760393572567",
       "tweetId": "2098080760393572567",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:18.596Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:12:44.850Z",
       "score": 78,
       "reasons": [
         "has-video",
@@ -2540,9 +1939,9 @@
     {
       "id": "disc-2098179516497862674",
       "tweetId": "2098179516497862674",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:18.244Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:09:30.527Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -2601,9 +2000,9 @@
     {
       "id": "disc-2098197807282700692",
       "tweetId": "2098197807282700692",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:17.891Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:14:16.393Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2781,9 +2180,9 @@
     {
       "id": "disc-2098187185900146739",
       "tweetId": "2098187185900146739",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:16.810Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:12:53.570Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -2842,9 +2241,9 @@
     {
       "id": "disc-2098105634566631855",
       "tweetId": "2098105634566631855",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:16.281Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:02.780Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -2958,66 +2357,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098119161130184704/vid/avc1/3840x2160/ZgGwjjPVtCc8YrFg.mp4",
         "publishedAt": "2026-09-10T18:42:26.000Z",
         "durationSeconds": 252,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098067763457659186",
-      "tweetId": "2098067763457659186",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:15.351Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098067763457659186",
-        "tweetUrl": "https://x.com/RikinPatel13/status/2098067763457659186",
-        "authorHandle": "RikinPatel13",
-        "authorName": "Rikin",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2009683848792023040/CkZfGn4P.jpg",
-        "text": "We launched https://t.co/qwqy3N3TZW today! 🎉\n\nFor three years, I’ve wanted a place for Ramp designers to share their work and personality, and for y'all to get to know us.\n\nSo @lalizlabeth, @baothiento, Nicholas Ano, @PaulJun_, @viktorhofte, @pontusab, and I built one!\n\nJust V1, https://t.co/ewoWQKL7qC",
-        "createdAt": "2026-09-10T15:15:09.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098065264785174531/vid/avc1/1920x1080/0nobTFND9gjx9MvR.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098065264785174531/img/TOLM-f-7qg5JaPTU.jpg",
-            "durationMs": 20000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "RikinPatel13",
-        "company": "Rikin",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098067763457659186",
-        "slug": "rikin-659186",
-        "title": "We launched today! 🎉 For three years, I’ve wanted a place for Ramp designers to share their work…",
-        "product": "Rikin",
-        "company": "Rikin",
-        "description": "We launched today! 🎉 For three years, I’ve wanted a place for Ramp designers to share their work and personality, and for y'all to get to know us. So @lalizlabeth, @baothiento, Nicholas Ano, @PaulJun_, @viktorhofte, @pontusab, and I built one! Just V1,",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/RikinPatel13/status/2098067763457659186",
-        "tweetId": "2098067763457659186",
-        "authorName": "Rikin",
-        "authorHandle": "RikinPatel13",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2009683848792023040/CkZfGn4P.jpg",
-        "poster": "/posters/rikin-659186.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098065264785174531/vid/avc1/1920x1080/0nobTFND9gjx9MvR.mp4",
-        "publishedAt": "2026-09-10T15:15:09.000Z",
-        "durationSeconds": 20,
         "featured": false,
         "status": "draft"
       },
@@ -3274,9 +2613,9 @@
     {
       "id": "disc-2098175952354435387",
       "tweetId": "2098175952354435387",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:13.358Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:14:22.670Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3385,186 +2724,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098163307706511360/vid/avc1/1920x1080/PyHRaYDX99pQplXf.mp4",
         "publishedAt": "2026-09-10T23:57:07.000Z",
         "durationSeconds": 31,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098084379474251777",
-      "tweetId": "2098084379474251777",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:12.617Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098084379474251777",
-        "tweetUrl": "https://x.com/MaxBrodeurUrbas/status/2098084379474251777",
-        "authorHandle": "MaxBrodeurUrbas",
-        "authorName": "Max Brodeur-Urbas",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998295391721361409/pYhBqohs.jpg",
-        "text": "Introducing Gumball\n\nModel agnostic, proactive, self improving. \n\nAll in your company’s private cloud https://t.co/1ndSTbsdBh",
-        "createdAt": "2026-09-10T16:21:11.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098083628395970563/vid/avc1/3840x2160/u6JtVNo4BEG2HGYu.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098083628395970563/img/m052BCr8vhbzZNxz.jpg",
-            "durationMs": 46000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "MaxBrodeurUrbas",
-        "company": "Max Brodeur-Urbas",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098084379474251777",
-        "slug": "max-brodeur-urbas-251777",
-        "title": "Introducing Gumball Model agnostic, proactive, self improving. All in your company’s private cloud",
-        "product": "Max Brodeur-Urbas",
-        "company": "Max Brodeur-Urbas",
-        "description": "Introducing Gumball Model agnostic, proactive, self improving. All in your company’s private cloud",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/MaxBrodeurUrbas/status/2098084379474251777",
-        "tweetId": "2098084379474251777",
-        "authorName": "Max Brodeur-Urbas",
-        "authorHandle": "MaxBrodeurUrbas",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998295391721361409/pYhBqohs.jpg",
-        "poster": "/posters/max-brodeur-urbas-251777.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098083628395970563/vid/avc1/3840x2160/u6JtVNo4BEG2HGYu.mp4",
-        "publishedAt": "2026-09-10T16:21:11.000Z",
-        "durationSeconds": 46,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098086756054933755",
-      "tweetId": "2098086756054933755",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:12.207Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098086756054933755",
-        "tweetUrl": "https://x.com/MahyadGhassemi/status/2098086756054933755",
-        "authorHandle": "MahyadGhassemi",
-        "authorName": "Mahyad",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1876696464375631872/-hbpck1P.jpg",
-        "text": "we’re finally launching https://t.co/aZoUDTlZ8W on YC!\n\nmost apps were designed for people, not for agents\n\n@Okibi_ai turns your product into a CLI, so AI agents can use it just like your users do. https://t.co/WWp3sT1GVQ",
-        "createdAt": "2026-09-10T16:30:37.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098086689730379776/vid/avc1/1920x1080/ioj1OWNWU70eix0z.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098086689730379776/img/UXr4AivEJgJlToJ7.jpg",
-            "durationMs": 121322
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "MahyadGhassemi",
-        "company": "Mahyad",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098086756054933755",
-        "slug": "mahyad-933755",
-        "title": "we’re finally launching on YC! most apps were designed for people, not for agents @Okibi_ai turns…",
-        "product": "Mahyad",
-        "company": "Mahyad",
-        "description": "we’re finally launching on YC! most apps were designed for people, not for agents @Okibi_ai turns your product into a CLI, so AI agents can use it just like your users do.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/MahyadGhassemi/status/2098086756054933755",
-        "tweetId": "2098086756054933755",
-        "authorName": "Mahyad",
-        "authorHandle": "MahyadGhassemi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1876696464375631872/-hbpck1P.jpg",
-        "poster": "/posters/mahyad-933755.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098086689730379776/vid/avc1/1920x1080/ioj1OWNWU70eix0z.mp4",
-        "publishedAt": "2026-09-10T16:30:37.000Z",
-        "durationSeconds": 121,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098115046438215791",
-      "tweetId": "2098115046438215791",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:11.841Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098115046438215791",
-        "tweetUrl": "https://x.com/humansand/status/2098115046438215791",
-        "authorHandle": "humansand",
-        "authorName": "humans&",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2013582555933478912/JKuMlTII.jpg",
-        "text": "For AI to work with us, it needs to understand us\n\nToday, we're introducing Persimmon, the first large-scale model designed to realistically simulate how people talk and interact https://t.co/KG3rahQphQ",
-        "createdAt": "2026-09-10T18:23:02.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098085104996499456/vid/avc1/1920x1080/y8ZyxA9DxMZvU7JB.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098085104996499456/img/x1HrEJEA_C2kw7QC.jpg",
-            "durationMs": 42333
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "humansand",
-        "company": "humans&",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098115046438215791",
-        "slug": "humans-215791",
-        "title": "For AI to work with us, it needs to understand us Today, we're introducing Persimmon, the first l…",
-        "product": "humans&",
-        "company": "humans&",
-        "description": "For AI to work with us, it needs to understand us Today, we're introducing Persimmon, the first large-scale model designed to realistically simulate how people talk and interact",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/humansand/status/2098115046438215791",
-        "tweetId": "2098115046438215791",
-        "authorName": "humans&",
-        "authorHandle": "humansand",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2013582555933478912/JKuMlTII.jpg",
-        "poster": "/posters/humans-215791.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098085104996499456/vid/avc1/1920x1080/y8ZyxA9DxMZvU7JB.mp4",
-        "publishedAt": "2026-09-10T18:23:02.000Z",
-        "durationSeconds": 42,
         "featured": false,
         "status": "draft"
       },
@@ -3884,9 +3043,9 @@
     {
       "id": "disc-2097751351296143567",
       "tweetId": "2097751351296143567",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:34.908Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:09:43.078Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -3945,9 +3104,9 @@
     {
       "id": "disc-2097843525681357173",
       "tweetId": "2097843525681357173",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:34.600Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:11:17.091Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -4134,9 +3293,9 @@
     {
       "id": "disc-2097698700944384004",
       "tweetId": "2097698700944384004",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:33.659Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:13:21.732Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -4195,9 +3354,9 @@
     {
       "id": "disc-2097762296986817012",
       "tweetId": "2097762296986817012",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:33.359Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:12:47.370Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -4433,70 +3592,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097832465624887774",
-      "tweetId": "2097832465624887774",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:32.126Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097832465624887774",
-        "tweetUrl": "https://x.com/higgsfield/status/2097832465624887774",
-        "authorHandle": "higgsfield",
-        "authorName": "Higgsfield AI 🧩",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "text": "We built a site for creating animations with GPT-6 Astra:\n\n&gt;You draw the first and last frames\n\n&gt;GPT 2.5 generates the frames in between\n\n&gt;the site stitches them into a finished animation.\n\nAttached the link below. https://t.co/O6goD0dMg0",
-        "createdAt": "2026-09-09T23:40:10.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097831175557681152/vid/avc1/1080x1440/q6dGQBcSOem1gwpV.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097831175557681152/img/_NDNKGRUz-spBaFu.jpg",
-            "durationMs": 19602
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "higgsfield",
-        "company": "Higgsfield AI 🧩",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097832465624887774",
-        "slug": "higgsfield-ai-887774",
-        "title": "We built a site for creating animations with GPT-6 Astra: &gt;You draw the first and last frames…",
-        "product": "Higgsfield AI 🧩",
-        "company": "Higgsfield AI 🧩",
-        "description": "We built a site for creating animations with GPT-6 Astra: &gt;You draw the first and last frames &gt;GPT 2.5 generates the frames in between &gt;the site stitches them into a finished animation. Attached the link below.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/higgsfield/status/2097832465624887774",
-        "tweetId": "2097832465624887774",
-        "authorName": "Higgsfield AI 🧩",
-        "authorHandle": "higgsfield",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/higgsfield-ai-887774.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097831175557681152/vid/avc1/1080x1440/q6dGQBcSOem1gwpV.mp4",
-        "publishedAt": "2026-09-09T23:40:10.000Z",
-        "durationSeconds": 20,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097763347743601096",
       "tweetId": "2097763347743601096",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:31.820Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:11:35.936Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -4555,9 +3655,9 @@
     {
       "id": "disc-2097745295706833121",
       "tweetId": "2097745295706833121",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:31.508Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:06:36.294Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -4614,9 +3714,9 @@
     {
       "id": "disc-2097764136965009838",
       "tweetId": "2097764136965009838",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:31.193Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:15:12.494Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -5349,9 +4449,9 @@
     {
       "id": "disc-2097814431912574991",
       "tweetId": "2097814431912574991",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:27.390Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:07:12.720Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -5775,9 +4875,9 @@
     {
       "id": "disc-2097436360357331220",
       "tweetId": "2097436360357331220",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:25.176Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:11:40.736Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -6016,9 +5116,9 @@
     {
       "id": "disc-2097432765142532487",
       "tweetId": "2097432765142532487",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:23.607Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:06:08.311Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -6071,65 +5171,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097432278003855360/vid/avc1/1920x1080/AkR9smfRzOYIB-JM.mp4",
         "publishedAt": "2026-09-08T21:11:54.000Z",
         "durationSeconds": 79,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097402344061510004",
-      "tweetId": "2097402344061510004",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:23.289Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097402344061510004",
-        "tweetUrl": "https://x.com/alexandr_wang/status/2097402344061510004",
-        "authorHandle": "alexandr_wang",
-        "authorName": "Alexandr Wang",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1631421210205749248/uohbT_40.jpg",
-        "text": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure.\n\ntry it now: https://t.co/n7swQh9v6C. https://t.co/Yb783uwpJ5",
-        "createdAt": "2026-09-08T19:11:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097397839869698049/vid/avc1/1920x1080/0YejoM4OlEgfN2Jz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097397839869698049/img/EBXBYqEIsH9rB2m-.jpg",
-            "durationMs": 120120
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "alexandr_wang",
-        "company": "Alexandr Wang",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097402344061510004",
-        "slug": "alexandr-wang-510004",
-        "title": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, c…",
-        "product": "Alexandr Wang",
-        "company": "Alexandr Wang",
-        "description": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure. try it now:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/alexandr_wang/status/2097402344061510004",
-        "tweetId": "2097402344061510004",
-        "authorName": "Alexandr Wang",
-        "authorHandle": "alexandr_wang",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1631421210205749248/uohbT_40.jpg",
-        "poster": "/posters/alexandr-wang-510004.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097397839869698049/vid/avc1/1920x1080/0YejoM4OlEgfN2Jz.mp4",
-        "publishedAt": "2026-09-08T19:11:01.000Z",
-        "durationSeconds": 120,
         "featured": false,
         "status": "draft"
       },
@@ -6258,65 +5299,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097330001334989060",
-      "tweetId": "2097330001334989060",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:22.376Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097330001334989060",
-        "tweetUrl": "https://x.com/tldraw/status/2097330001334989060",
-        "authorHandle": "tldraw",
-        "authorName": "tldraw",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
-        "text": "what you can do with tldraw flash https://t.co/GFJjclCGc8",
-        "createdAt": "2026-09-08T14:23:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097329530843353088/vid/avc1/1920x1080/2xtnF7P__nrHsGCU.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097329530843353088/img/_ijOX_izHQQwUVHC.jpg",
-            "durationMs": 218238
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tldraw",
-        "company": "tldraw",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097330001334989060",
-        "slug": "tldraw-989060",
-        "title": "what you can do with tldraw flash",
-        "product": "tldraw",
-        "company": "tldraw",
-        "description": "what you can do with tldraw flash",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tldraw/status/2097330001334989060",
-        "tweetId": "2097330001334989060",
-        "authorName": "tldraw",
-        "authorHandle": "tldraw",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
-        "poster": "/posters/tldraw-989060.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097329530843353088/vid/avc1/1920x1080/2xtnF7P__nrHsGCU.mp4",
-        "publishedAt": "2026-09-08T14:23:33.000Z",
-        "durationSeconds": 218,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097473082378379348",
       "tweetId": "2097473082378379348",
       "reviewStatus": "pending",
@@ -6377,68 +5359,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097289257786450084",
-      "tweetId": "2097289257786450084",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:21.727Z",
-      "reviewedAt": null,
-      "score": 74,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\blaunch(?:ing|ed)?\\b",
-        "signal:\\bproduct (?:launch|demo|walkthrough)\\b"
-      ],
-      "post": {
-        "tweetId": "2097289257786450084",
-        "tweetUrl": "https://x.com/karankendre/status/2097289257786450084",
-        "authorHandle": "karankendre",
-        "authorName": "Karan",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2063315967493722112/M13PVDg2.jpg",
-        "text": "I think I just solved the AI launch videos problem.\n\nIntroducing Cutroom Studio: an AI studio for product launch videos.\n\nIt uses @MiniMax_AI M3 to turn your website or brief into a storyboard. Edit every scene. Export in 1080p.\n\nYour first 3 videos are free.\nNo signup required. https://t.co/Swyu2A32Wf",
-        "createdAt": "2026-09-08T11:41:39.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097289153448980480/vid/avc1/1920x1080/fZTQPcJWiQnjkT3n.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097289153448980480/img/HmxF90fBeW-NHOVA.jpg",
-            "durationMs": 46100
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "karankendre",
-        "company": "Karan",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097289257786450084",
-        "slug": "karan-450084",
-        "title": "I think I just solved the AI launch videos problem. Introducing Cutroom Studio: an AI studio for…",
-        "product": "Karan",
-        "company": "Karan",
-        "description": "I think I just solved the AI launch videos problem. Introducing Cutroom Studio: an AI studio for product launch videos. It uses @MiniMax_AI M3 to turn your website or brief into a storyboard. Edit every scene. Export in 1080p. Your first 3 videos are free. No signup required.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/karankendre/status/2097289257786450084",
-        "tweetId": "2097289257786450084",
-        "authorName": "Karan",
-        "authorHandle": "karankendre",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2063315967493722112/M13PVDg2.jpg",
-        "poster": "/posters/karan-450084.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097289153448980480/vid/avc1/1920x1080/fZTQPcJWiQnjkT3n.mp4",
-        "publishedAt": "2026-09-08T11:41:39.000Z",
-        "durationSeconds": 46,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097375337730715753",
       "tweetId": "2097375337730715753",
       "reviewStatus": "pending",
@@ -6492,127 +5412,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097374784472686592/vid/avc1/3840x2070/0vSDjiDZznVd-iWn.mp4",
         "publishedAt": "2026-09-08T17:23:42.000Z",
         "durationSeconds": 48,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097477196130529296",
-      "tweetId": "2097477196130529296",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:21.068Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2097477196130529296",
-        "tweetUrl": "https://x.com/chroxify/status/2097477196130529296",
-        "authorHandle": "chroxify",
-        "authorName": "Christo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1957442656268693505/Ei7j1tS7.jpg",
-        "text": "Introducing BuzzKit, an Open Source Notification Orchestration Layer\n\nBuzzKit is built to make notifications as simple as possible, with everything you need for push, live activities, email &amp; SMS built in from the start\n\nLink and more info ↓ https://t.co/OALDG9GhHr",
-        "createdAt": "2026-09-09T00:08:27.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097476791984152576/vid/avc1/3420x2160/beEreuxBTNaPF8FP.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097476791984152576/img/bkviLSk_BF4gwJG7.jpg",
-            "durationMs": 15166
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "chroxify",
-        "company": "Christo",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097477196130529296",
-        "slug": "christo-529296",
-        "title": "Introducing BuzzKit, an Open Source Notification Orchestration Layer BuzzKit is built to make not…",
-        "product": "Christo",
-        "company": "Christo",
-        "description": "Introducing BuzzKit, an Open Source Notification Orchestration Layer BuzzKit is built to make notifications as simple as possible, with everything you need for push, live activities, email &amp; SMS built in from the start Link and more info ↓",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/chroxify/status/2097477196130529296",
-        "tweetId": "2097477196130529296",
-        "authorName": "Christo",
-        "authorHandle": "chroxify",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1957442656268693505/Ei7j1tS7.jpg",
-        "poster": "/posters/christo-529296.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097476791984152576/vid/avc1/3420x2160/beEreuxBTNaPF8FP.mp4",
-        "publishedAt": "2026-09-09T00:08:27.000Z",
-        "durationSeconds": 15,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097399178376671666",
-      "tweetId": "2097399178376671666",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:20.747Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2097399178376671666",
-        "tweetUrl": "https://x.com/Muse/status/2097399178376671666",
-        "authorHandle": "Muse",
-        "authorName": "Muse",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097397574206636032/rBT8eRqB.jpg",
-        "text": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://t.co/KBjYWfshGo https://t.co/1exp56xj93",
-        "createdAt": "2026-09-08T18:58:26.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097399096252243968/vid/avc1/1920x1080/xZq-w3nY4HDpQfda.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097399096252243968/img/-ZvXeDTYAgvPclOk.jpg",
-            "durationMs": 82602
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Muse",
-        "company": "Muse",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097399178376671666",
-        "slug": "muse-671666",
-        "title": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of lif…",
-        "product": "Muse",
-        "company": "Muse",
-        "description": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life. Download the Muse app and get started:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Muse/status/2097399178376671666",
-        "tweetId": "2097399178376671666",
-        "authorName": "Muse",
-        "authorHandle": "Muse",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097397574206636032/rBT8eRqB.jpg",
-        "poster": "/posters/muse-671666.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097399096252243968/vid/avc1/1920x1080/xZq-w3nY4HDpQfda.mp4",
-        "publishedAt": "2026-09-08T18:58:26.000Z",
-        "durationSeconds": 83,
         "featured": false,
         "status": "draft"
       },
@@ -8360,9 +7159,9 @@
     {
       "id": "disc-2096724610217632189",
       "tweetId": "2096724610217632189",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-07T08:19:34.488Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T09:10:16.423Z",
       "score": 74,
       "reasons": [
         "has-video",
