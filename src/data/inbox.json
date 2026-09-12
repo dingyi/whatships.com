@@ -1,66 +1,6 @@
 {
-  "updatedAt": "2026-09-12T09:34:32.171Z",
+  "updatedAt": "2026-09-12T11:57:44.443Z",
   "items": [
-    {
-      "id": "disc-2098533675050672134",
-      "tweetId": "2098533675050672134",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:02.959Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bmeet\\b.{0,40}\\b(?:our|the|new)\\b"
-      ],
-      "post": {
-        "tweetId": "2098533675050672134",
-        "tweetUrl": "https://x.com/ChatGPT/status/2098533675050672134",
-        "authorHandle": "ChatGPT",
-        "authorName": "ChatGPT",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081980424666935296/qU5G7mQg.jpg",
-        "text": "Your pet has a job now.\n\nPets help you keep track of your chats while you’re away from the desktop app. Now, you can start a new chat right from your pet, too.\n\nNot a pet person? Meet Mini: the same shortcuts and updates, taking up less space on your screen.\n\nPick your pet—or go https://t.co/jKuwztlt4W",
-        "createdAt": "2026-09-11T22:06:31.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098532225167851527/vid/avc1/1124x662/Lk0gQEBoRBp3SlYN.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098532225167851527/img/_Iv5rJ7TX7o9dtB7.jpg",
-            "durationMs": 10450
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ChatGPT",
-        "company": "ChatGPT",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098533675050672134",
-        "slug": "chatgpt-672134",
-        "title": "Your pet has a job now. Pets help you keep track of your chats while you’re away from the desktop…",
-        "product": "ChatGPT",
-        "company": "ChatGPT",
-        "description": "Your pet has a job now. Pets help you keep track of your chats while you’re away from the desktop app. Now, you can start a new chat right from your pet, too. Not a pet person? Meet Mini: the same shortcuts and updates, taking up less space on your screen. Pick your pet—or go",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ChatGPT/status/2098533675050672134",
-        "tweetId": "2098533675050672134",
-        "authorName": "ChatGPT",
-        "authorHandle": "ChatGPT",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081980424666935296/qU5G7mQg.jpg",
-        "poster": "/posters/chatgpt-672134.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098532225167851527/vid/avc1/1124x662/Lk0gQEBoRBp3SlYN.mp4",
-        "publishedAt": "2026-09-11T22:06:31.000Z",
-        "durationSeconds": 10,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
     {
       "id": "disc-2098479257202663797",
       "tweetId": "2098479257202663797",
@@ -115,66 +55,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098479226307723265/vid/avc1/1920x1080/PP_9bHzMNpjNkWHv.mp4",
         "publishedAt": "2026-09-11T18:30:17.000Z",
         "durationSeconds": 32,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098474861257498863",
-      "tweetId": "2098474861257498863",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:11:01.269Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098474861257498863",
-        "tweetUrl": "https://x.com/0x_kaize/status/2098474861257498863",
-        "authorHandle": "0x_kaize",
-        "authorName": "kaize",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2096527373109985280/9trk5zxG.jpg",
-        "text": "Introducing freeLLM v1.0 - the FREE AI models directory\n\nPeople still pay $20-200/mo while FREE frontier APIs sit right next to them\n\nI collected 900+ ways to get FREE access:\n\n&gt; 900 models across 70 providers\n&gt; GPT-6 Astra, Claude Fable 5.1, DeepSeek V4, Kimi K3 for FREE\n&gt; Daily https://t.co/8WuFrApk4i",
-        "createdAt": "2026-09-11T18:12:49.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098474674019590148/vid/avc1/1926x1080/Kc3O9WvxYLmtg5qI.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098474674019590148/img/_PXTZ1UAaeKXcl1m.jpg",
-            "durationMs": 10900
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "0x_kaize",
-        "company": "kaize",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098474861257498863",
-        "slug": "kaize-498863",
-        "title": "Introducing freeLLM v1.0 - the FREE AI models directory People still pay $20-200/mo while FREE fr…",
-        "product": "kaize",
-        "company": "kaize",
-        "description": "Introducing freeLLM v1.0 - the FREE AI models directory People still pay $20-200/mo while FREE frontier APIs sit right next to them I collected 900+ ways to get FREE access: &gt; 900 models across 70 providers &gt; GPT-6 Astra, Claude Fable 5.1, DeepSeek V4, Kimi K3 for FREE &…",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/0x_kaize/status/2098474861257498863",
-        "tweetId": "2098474861257498863",
-        "authorName": "kaize",
-        "authorHandle": "0x_kaize",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2096527373109985280/9trk5zxG.jpg",
-        "poster": "/posters/kaize-498863.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098474674019590148/vid/avc1/1926x1080/Kc3O9WvxYLmtg5qI.mp4",
-        "publishedAt": "2026-09-11T18:12:49.000Z",
-        "durationSeconds": 11,
         "featured": false,
         "status": "draft"
       },
@@ -304,9 +184,9 @@
     {
       "id": "disc-2098422562036564261",
       "tweetId": "2098422562036564261",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:59.613Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:54:05.673Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -544,71 +424,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098437702681329688",
-      "tweetId": "2098437702681329688",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:57.425Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098437702681329688",
-        "tweetUrl": "https://x.com/ego_agent/status/2098437702681329688",
-        "authorHandle": "ego_agent",
-        "authorName": "ego",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072978218433630208/VWdTMuV1.jpg",
-        "text": "Every update deserves a proper reveal.\n\nIntroducing the ego changelog. https://t.co/VKWzPaqOy7",
-        "createdAt": "2026-09-11T15:45:10.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098437665435893762/vid/avc1/1652x1080/2TxGEcJTjqQubqIN.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098437665435893762/img/YNuIIYpMyJmjB7ZY.jpg",
-            "durationMs": 14301
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ego_agent",
-        "company": "ego",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098437702681329688",
-        "slug": "ego-329688",
-        "title": "Every update deserves a proper reveal. Introducing the ego changelog.",
-        "product": "ego",
-        "company": "ego",
-        "description": "Every update deserves a proper reveal. Introducing the ego changelog.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ego_agent/status/2098437702681329688",
-        "tweetId": "2098437702681329688",
-        "authorName": "ego",
-        "authorHandle": "ego_agent",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072978218433630208/VWdTMuV1.jpg",
-        "poster": "/posters/ego-329688.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098437665435893762/vid/avc1/1652x1080/2TxGEcJTjqQubqIN.mp4?tag=16",
-        "publishedAt": "2026-09-11T15:45:10.000Z",
-        "durationSeconds": 14,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098561410175283412",
       "tweetId": "2098561410175283412",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:57.096Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:54:20.604Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -665,9 +485,9 @@
     {
       "id": "disc-2098481789040030206",
       "tweetId": "2098481789040030206",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:56.763Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:54:23.850Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1211,9 +1031,9 @@
     {
       "id": "disc-2098524930833105374",
       "tweetId": "2098524930833105374",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:53.310Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:54:31.157Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2671,126 +2491,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098199118518907145",
-      "tweetId": "2098199118518907145",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:12.989Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098199118518907145",
-        "tweetUrl": "https://x.com/rive_app/status/2098199118518907145",
-        "authorHandle": "rive_app",
-        "authorName": "Rive",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
-        "text": "Introducing the Rive CLI and RML. A command-line tool and a text format for building Rive files with your AI agent.\n\nEverything in this video was built by agents working with a person in the Rive CLI. https://t.co/gT35xfJ5HG",
-        "createdAt": "2026-09-10T23:57:07.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098163307706511360/vid/avc1/1920x1080/PyHRaYDX99pQplXf.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098163307706511360/img/D_XQM6X04cEBYzCd.jpg",
-            "durationMs": 31266
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "rive_app",
-        "company": "Rive",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098199118518907145",
-        "slug": "rive-907145",
-        "title": "Introducing the Rive CLI and RML. A command-line tool and a text format for building Rive files w…",
-        "product": "Rive",
-        "company": "Rive",
-        "description": "Introducing the Rive CLI and RML. A command-line tool and a text format for building Rive files with your AI agent. Everything in this video was built by agents working with a person in the Rive CLI.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/rive_app/status/2098199118518907145",
-        "tweetId": "2098199118518907145",
-        "authorName": "Rive",
-        "authorHandle": "rive_app",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP_.jpg",
-        "poster": "/posters/rive-907145.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098163307706511360/vid/avc1/1920x1080/PyHRaYDX99pQplXf.mp4",
-        "publishedAt": "2026-09-10T23:57:07.000Z",
-        "durationSeconds": 31,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098142686486356185",
-      "tweetId": "2098142686486356185",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:11.451Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098142686486356185",
-        "tweetUrl": "https://x.com/cognition/status/2098142686486356185",
-        "authorHandle": "cognition",
-        "authorName": "Cognition",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
-        "text": "Introducing Devin Voice 🦦 ☎️ \n\nYour favorite AI software engineer just got a landline. \n\nYou say it, Devin ships it.\n\nPowered by GPT-Live and our new SWE-2 model. https://t.co/j3eogi1xc2",
-        "createdAt": "2026-09-10T20:12:52.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098141310645616640/vid/avc1/3840x2160/oJj0tf5Eb7M8GFjG.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098141310645616640/img/nV3fClGJnK27ctMV.jpg",
-            "durationMs": 51301
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cognition",
-        "company": "Cognition",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098142686486356185",
-        "slug": "cognition-356185",
-        "title": "Introducing Devin Voice 🦦 ☎️ Your favorite AI software engineer just got a landline. You say it,…",
-        "product": "Cognition",
-        "company": "Cognition",
-        "description": "Introducing Devin Voice 🦦 ☎️ Your favorite AI software engineer just got a landline. You say it, Devin ships it. Powered by GPT-Live and our new SWE-2 model.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cognition/status/2098142686486356185",
-        "tweetId": "2098142686486356185",
-        "authorName": "Cognition",
-        "authorHandle": "cognition",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
-        "poster": "/posters/cognition-356185.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098141310645616640/vid/avc1/3840x2160/oJj0tf5Eb7M8GFjG.mp4",
-        "publishedAt": "2026-09-10T20:12:52.000Z",
-        "durationSeconds": 51,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098085616663863427",
       "tweetId": "2098085616663863427",
       "reviewStatus": "pending",
@@ -2853,9 +2553,9 @@
     {
       "id": "disc-2098099269551149398",
       "tweetId": "2098099269551149398",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:10.691Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:50:46.387Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3474,9 +3174,9 @@
     {
       "id": "disc-2097842386651029718",
       "tweetId": "2097842386651029718",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:32.747Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:51:16.824Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3534,9 +3234,9 @@
     {
       "id": "disc-2097828167167668714",
       "tweetId": "2097828167167668714",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:32.432Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:51:21.120Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3959,9 +3659,9 @@
     {
       "id": "disc-2097831234701304234",
       "tweetId": "2097831234701304234",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:29.856Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:51:24.491Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4079,9 +3779,9 @@
     {
       "id": "disc-2097836196839792797",
       "tweetId": "2097836196839792797",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:29.209Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:50:49.182Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -4140,9 +3840,9 @@
     {
       "id": "disc-2097803809338630276",
       "tweetId": "2097803809338630276",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:28.906Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:51:27.448Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4200,9 +3900,9 @@
     {
       "id": "disc-2097786886584705267",
       "tweetId": "2097786886584705267",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:28.602Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:52:13.321Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4251,66 +3951,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097785294842179584/vid/avc1/3840x2160/nQ4ci8YEVwPg9PAD.mp4",
         "publishedAt": "2026-09-09T20:39:03.000Z",
         "durationSeconds": 37,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097770600966090895",
-      "tweetId": "2097770600966090895",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:28.296Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2097770600966090895",
-        "tweetUrl": "https://x.com/fomo/status/2097770600966090895",
-        "authorHandle": "fomo",
-        "authorName": "fomo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
-        "text": "Multi factor authentication now live for all fomo users.\n\nPasskeys, authenticator app, and Face ID.\n\nOn-chain by default, yours by design. https://t.co/3ABepbQqSD",
-        "createdAt": "2026-09-09T19:34:20.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097757173149204488/vid/avc1/1080x1350/PCDX4is4cldtZKvg.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097757173149204488/img/t-0LAIeFcy1j3y5M.jpg",
-            "durationMs": 28166
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fomo",
-        "company": "fomo",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097770600966090895",
-        "slug": "fomo-090895",
-        "title": "Multi factor authentication now live for all fomo users. Passkeys, authenticator app, and Face ID…",
-        "product": "fomo",
-        "company": "fomo",
-        "description": "Multi factor authentication now live for all fomo users. Passkeys, authenticator app, and Face ID. On-chain by default, yours by design.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fomo/status/2097770600966090895",
-        "tweetId": "2097770600966090895",
-        "authorName": "fomo",
-        "authorHandle": "fomo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999626120467996676/pY72IgiB.jpg",
-        "poster": "/posters/fomo-090895.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097757173149204488/vid/avc1/1080x1350/PCDX4is4cldtZKvg.mp4",
-        "publishedAt": "2026-09-09T19:34:20.000Z",
-        "durationSeconds": 28,
         "featured": false,
         "status": "draft"
       },
@@ -4514,9 +4154,9 @@
     {
       "id": "disc-2097696082465522027",
       "tweetId": "2097696082465522027",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:27.077Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:51:46.106Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4815,9 +4455,9 @@
     {
       "id": "disc-2097429015418077664",
       "tweetId": "2097429015418077664",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:25.484Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:52:45.822Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -5054,66 +4694,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2097317088142741704",
-      "tweetId": "2097317088142741704",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:23.922Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2097317088142741704",
-        "tweetUrl": "https://x.com/tanvir_ui/status/2097317088142741704",
-        "authorHandle": "tanvir_ui",
-        "authorName": "Tanvir Ahammed | Product Designer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2071623109350940672/FWTsdqZW.jpg",
-        "text": "Just launched Imagio on @framer 🚀\n\nMost AI tool sites are just a product screenshot with a gradient behind it. Imagio isn't.\n\nLive now. Link below 👇 https://t.co/ZFOnvcW123",
-        "createdAt": "2026-09-08T13:32:14.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097313423382204417/vid/avc1/1440x1080/tfhACBnfiu9MFeKz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097313423382204417/img/yRbRSP8GxWpZ5YjI.jpg",
-            "durationMs": 55000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tanvir_ui",
-        "company": "Tanvir Ahammed | Product Designer",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097317088142741704",
-        "slug": "tanvir-ahammed-product-designer-741704",
-        "title": "Just launched Imagio on @framer 🚀 Most AI tool sites are just a product screenshot with a gradie…",
-        "product": "Tanvir Ahammed | Product Designer",
-        "company": "Tanvir Ahammed | Product Designer",
-        "description": "Just launched Imagio on @framer 🚀 Most AI tool sites are just a product screenshot with a gradient behind it. Imagio isn't. Live now. Link below 👇",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tanvir_ui/status/2097317088142741704",
-        "tweetId": "2097317088142741704",
-        "authorName": "Tanvir Ahammed | Product Designer",
-        "authorHandle": "tanvir_ui",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2071623109350940672/FWTsdqZW.jpg",
-        "poster": "/posters/tanvir-ahammed-product-designer-741704.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097313423382204417/vid/avc1/1440x1080/tfhACBnfiu9MFeKz.mp4",
-        "publishedAt": "2026-09-08T13:32:14.000Z",
-        "durationSeconds": 55,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2097432765142532487",
       "tweetId": "2097432765142532487",
       "reviewStatus": "rejected",
@@ -5180,9 +4760,9 @@
     {
       "id": "disc-2097357960787763647",
       "tweetId": "2097357960787763647",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:22.985Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:50:52.229Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -5241,9 +4821,9 @@
     {
       "id": "disc-2097421079824543776",
       "tweetId": "2097421079824543776",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:22.678Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:53:13.318Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -5301,9 +4881,9 @@
     {
       "id": "disc-2097473082378379348",
       "tweetId": "2097473082378379348",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:22.053Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T11:53:15.578Z",
       "score": 42,
       "reasons": [
         "has-video",
