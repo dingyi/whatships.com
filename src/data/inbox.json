@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-12T11:57:44.443Z",
+  "updatedAt": "2026-09-12T15:53:25.373Z",
   "items": [
     {
       "id": "disc-2098479257202663797",
       "tweetId": "2098479257202663797",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:11:01.628Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:49:07.122Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -603,9 +603,9 @@
     {
       "id": "disc-2098436252861395369",
       "tweetId": "2098436252861395369",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:55.700Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:49:30.015Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -714,66 +714,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098561160262082560/vid/avc1/3280x2160/-xB8gAVzamdUnMza.mp4",
         "publishedAt": "2026-09-11T23:56:06.000Z",
         "durationSeconds": 74,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098538740495134762",
-      "tweetId": "2098538740495134762",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:55.013Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098538740495134762",
-        "tweetUrl": "https://x.com/GetNunoAi/status/2098538740495134762",
-        "authorHandle": "GetNunoAi",
-        "authorName": "Nuno Ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086888238569132032/tjusW_2N.jpg",
-        "text": "Introducing Nuno AI your AI social media agent.\n\nCreate, plan, and publish content for Instagram, Facebook, TikTok, X, and LinkedIn, all from one place.\n\nContent creation, visuals, ads, platform adaptation, and publishing. Nuno runs the workflow so you can focus on growing your https://t.co/HIYZlQDurA",
-        "createdAt": "2026-09-11T22:26:39.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098538702758981632/vid/avc1/1920x1080/CTBKO7SHuGnC4LQQ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098538702758981632/img/OjS2fppAUcZS_MjR.jpg",
-            "durationMs": 54144
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "GetNunoAi",
-        "company": "Nuno Ai",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098538740495134762",
-        "slug": "nuno-ai-134762",
-        "title": "Introducing Nuno AI your AI social media agent. Create, plan, and publish content for Instagram,…",
-        "product": "Nuno Ai",
-        "company": "Nuno Ai",
-        "description": "Introducing Nuno AI your AI social media agent. Create, plan, and publish content for Instagram, Facebook, TikTok, X, and LinkedIn, all from one place. Content creation, visuals, ads, platform adaptation, and publishing. Nuno runs the workflow so you can focus on growing your",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/GetNunoAi/status/2098538740495134762",
-        "tweetId": "2098538740495134762",
-        "authorName": "Nuno Ai",
-        "authorHandle": "GetNunoAi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2086888238569132032/tjusW_2N.jpg",
-        "poster": "/posters/nuno-ai-134762.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098538702758981632/vid/avc1/1920x1080/CTBKO7SHuGnC4LQQ.mp4",
-        "publishedAt": "2026-09-11T22:26:39.000Z",
-        "durationSeconds": 54,
         "featured": false,
         "status": "draft"
       },
@@ -1153,66 +1093,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098438725940224208",
-      "tweetId": "2098438725940224208",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-12T08:10:52.640Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098438725940224208",
-        "tweetUrl": "https://x.com/wojkuli/status/2098438725940224208",
-        "authorHandle": "wojkuli",
-        "authorName": "Woj Kulikowski (SF 4-12 NYC 12-18 Sep)",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2030668539997061120/Loo1ZHIc.jpg",
-        "text": "Introducing Boski, the personal agent that understands your goals and works 24/7 to get things done for you.\n\nCompared to other agents, we are building Boski to be maximally proactive, focused on getting to know you and achieving your goals.\n\nYou don’t have to connect your https://t.co/eENxmsb2KT",
-        "createdAt": "2026-09-11T15:49:14.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098438609628168192/vid/avc1/1920x1080/4_8YAg7By8tf0al7.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098438609628168192/img/0PeMTUmBMrvKWmaM.jpg",
-            "durationMs": 45800
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "wojkuli",
-        "company": "Woj Kulikowski (SF 4-12 NYC 12-18 Sep)",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098438725940224208",
-        "slug": "woj-kulikowski-sf-4-12-nyc-12-18-sep-224208",
-        "title": "Introducing Boski, the personal agent that understands your goals and works 24/7 to get things do…",
-        "product": "Woj Kulikowski (SF 4-12 NYC 12-18 Sep)",
-        "company": "Woj Kulikowski (SF 4-12 NYC 12-18 Sep)",
-        "description": "Introducing Boski, the personal agent that understands your goals and works 24/7 to get things done for you. Compared to other agents, we are building Boski to be maximally proactive, focused on getting to know you and achieving your goals. You don’t have to connect your",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/wojkuli/status/2098438725940224208",
-        "tweetId": "2098438725940224208",
-        "authorName": "Woj Kulikowski (SF 4-12 NYC 12-18 Sep)",
-        "authorHandle": "wojkuli",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2030668539997061120/Loo1ZHIc.jpg",
-        "poster": "/posters/woj-kulikowski-sf-4-12-nyc-12-18-sep-224208.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098438609628168192/vid/avc1/1920x1080/4_8YAg7By8tf0al7.mp4",
-        "publishedAt": "2026-09-11T15:49:14.000Z",
-        "durationSeconds": 46,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098453718970839334",
       "tweetId": "2098453718970839334",
       "reviewStatus": "rejected",
@@ -1394,9 +1274,9 @@
     {
       "id": "disc-2098169354969813226",
       "tweetId": "2098169354969813226",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:20.959Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:44:05.945Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1454,9 +1334,9 @@
     {
       "id": "disc-2098192454142832858",
       "tweetId": "2098192454142832858",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:20.604Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:50:04.089Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1880,9 +1760,9 @@
     {
       "id": "disc-2098181881028128867",
       "tweetId": "2098181881028128867",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:17.535Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:50:06.214Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2491,66 +2371,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098085616663863427",
-      "tweetId": "2098085616663863427",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:11.071Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098085616663863427",
-        "tweetUrl": "https://x.com/tavus/status/2098085616663863427",
-        "authorHandle": "tavus",
-        "authorName": "Tavus",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1974200616399593472/ZFG0msxY.jpg",
-        "text": "Introducing Phoenix-4.5, the fastest and most expressive real-time human rendering model on the market.\n\nMore natural than ever before: richer facial animation, more expressive emotion and micro-movements, and movement that now extends through the upper body.\n\nIt is the closest https://t.co/0rJW7M7OTs",
-        "createdAt": "2026-09-10T16:26:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098084767661277184/vid/avc1/1920x1080/A0uAHulihVpPNrtK.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098084767661277184/img/8Y6yElTedhPtVKqE.jpg",
-            "durationMs": 317191
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tavus",
-        "company": "Tavus",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098085616663863427",
-        "slug": "tavus-863427",
-        "title": "Introducing Phoenix-4.5, the fastest and most expressive real-time human rendering model on the m…",
-        "product": "Tavus",
-        "company": "Tavus",
-        "description": "Introducing Phoenix-4.5, the fastest and most expressive real-time human rendering model on the market. More natural than ever before: richer facial animation, more expressive emotion and micro-movements, and movement that now extends through the upper body. It is the closest",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tavus/status/2098085616663863427",
-        "tweetId": "2098085616663863427",
-        "authorName": "Tavus",
-        "authorHandle": "tavus",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1974200616399593472/ZFG0msxY.jpg",
-        "poster": "/posters/tavus-863427.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098084767661277184/vid/avc1/1920x1080/A0uAHulihVpPNrtK.mp4",
-        "publishedAt": "2026-09-10T16:26:06.000Z",
-        "durationSeconds": 317,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098099269551149398",
       "tweetId": "2098099269551149398",
       "reviewStatus": "rejected",
@@ -2604,136 +2424,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098099188697600000/vid/avc1/1920x1080/RI4peZFCIG-MU__I.mp4?tag=16",
         "publishedAt": "2026-09-10T17:20:21.000Z",
         "durationSeconds": 77,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098118191029624911",
-      "tweetId": "2098118191029624911",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:10.343Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2098118191029624911",
-        "tweetUrl": "https://x.com/OpenAI/status/2098118191029624911",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "Now available: ChatGPT for Financial Services.\n\nThis is a tailored ChatGPT Work experience that combines built-in financial data with GPT-6 Astra’s reasoning.\n\nTeams can develop research, build financial models, and create customized client materials.\n\nhttps://t.co/6WP5OJdnE8 https://t.co/AundGG3jtc",
-        "createdAt": "2026-09-10T18:35:32.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098111416284897280/vid/avc1/1920x1080/9ozTNPyavdJ3UWzK.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098111416284897280/img/-Gom48UCkB8Tdn4q.jpg",
-            "durationMs": 81214
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2098118191029624911",
-        "slug": "openai-624911",
-        "title": "Now available: ChatGPT for Financial Services. This is a tailored ChatGPT Work experience that co…",
-        "product": "OpenAI",
-        "company": "OpenAI",
-        "description": "Now available: ChatGPT for Financial Services. This is a tailored ChatGPT Work experience that combines built-in financial data with GPT-6 Astra’s reasoning. Teams can develop research, build financial models, and create customized client materials.",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2098118191029624911",
-        "tweetId": "2098118191029624911",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/openai-624911.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098111416284897280/vid/avc1/1920x1080/9ozTNPyavdJ3UWzK.mp4",
-        "publishedAt": "2026-09-10T18:35:32.000Z",
-        "durationSeconds": 81,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098162488013455784",
-      "tweetId": "2098162488013455784",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:09.996Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098162488013455784",
-        "tweetUrl": "https://x.com/cursor_ai/status/2098162488013455784",
-        "authorHandle": "cursor_ai",
-        "authorName": "Cursor",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
-        "text": "Introducing Projects, a new way of working in Cursor.\n\nRather than creating a chat for every task, you work with a coordinator agent in a single, persistent thread.\n\nLike @bot, your agent is always on, proactively manages work with subagents, and improves over time. https://t.co/9RREyjtnTz",
-        "createdAt": "2026-09-10T21:31:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098151257902809092/vid/avc1/1920x1080/GWFN05NST0f39cB3.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098151257902809092/img/7V5b7uUDmeLhB2QY.jpg",
-            "durationMs": 93968
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cursor_ai",
-        "company": "Cursor",
-        "category": "developer-tools",
-        "tags": [
-          "ide",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2098162488013455784",
-        "slug": "cursor-455784",
-        "title": "Introducing Projects, a new way of working in Cursor. Rather than creating a chat for every task,…",
-        "product": "Cursor",
-        "company": "Cursor",
-        "description": "Introducing Projects, a new way of working in Cursor. Rather than creating a chat for every task, you work with a coordinator agent in a single, persistent thread. Like @bot, your agent is always on, proactively manages work with subagents, and improves over time.",
-        "category": "developer-tools",
-        "tags": [
-          "ide",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cursor_ai/status/2098162488013455784",
-        "tweetId": "2098162488013455784",
-        "authorName": "Cursor",
-        "authorHandle": "cursor_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
-        "poster": "/posters/cursor-455784.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098151257902809092/vid/avc1/1920x1080/GWFN05NST0f39cB3.mp4",
-        "publishedAt": "2026-09-10T21:31:33.000Z",
-        "durationSeconds": 94,
         "featured": false,
         "status": "draft"
       },
@@ -3539,9 +3229,9 @@
     {
       "id": "disc-2097760959989445006",
       "tweetId": "2097760959989445006",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:30.494Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:44:16.108Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3599,9 +3289,9 @@
     {
       "id": "disc-2097802121651364249",
       "tweetId": "2097802121651364249",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:30.173Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:50:48.368Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3710,66 +3400,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097831058972803072/vid/avc1/1080x1920/s3t-hX8YB_PFgNzu.mp4",
         "publishedAt": "2026-09-09T23:35:16.000Z",
         "durationSeconds": 33,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097838259762340028",
-      "tweetId": "2097838259762340028",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:29.555Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2097838259762340028",
-        "tweetUrl": "https://x.com/ky__zo/status/2097838259762340028",
-        "authorHandle": "ky__zo",
-        "authorName": "kyzo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1949750659940507649/ct319x_A.jpg",
-        "text": "introducing One\n\na toolbar i made for myself to talk with my agents.\n\nconnects to your codex and claude code.\nshows you all agent statuses.\nsees your screen and knows what agents are doing.\nroutes your messages.\n\nfree with your chatgpt sub.\nenjoy. https://t.co/dh489f04Mm",
-        "createdAt": "2026-09-10T00:03:11.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097835555874811904/vid/avc1/1772x1080/MllSODcsvfVUUmYy.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097835555874811904/img/EG4gHOU5jIIg9LbG.jpg",
-            "durationMs": 52864
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ky__zo",
-        "company": "kyzo",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097838259762340028",
-        "slug": "kyzo-340028",
-        "title": "introducing One a toolbar i made for myself to talk with my agents. connects to your codex and cl…",
-        "product": "kyzo",
-        "company": "kyzo",
-        "description": "introducing One a toolbar i made for myself to talk with my agents. connects to your codex and claude code. shows you all agent statuses. sees your screen and knows what agents are doing. routes your messages. free with your chatgpt sub. enjoy.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ky__zo/status/2097838259762340028",
-        "tweetId": "2097838259762340028",
-        "authorName": "kyzo",
-        "authorHandle": "ky__zo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1949750659940507649/ct319x_A.jpg",
-        "poster": "/posters/kyzo-340028.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097835555874811904/vid/avc1/1772x1080/MllSODcsvfVUUmYy.mp4",
-        "publishedAt": "2026-09-10T00:03:11.000Z",
-        "durationSeconds": 53,
         "featured": false,
         "status": "draft"
       },
@@ -3951,71 +3581,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097785294842179584/vid/avc1/3840x2160/nQ4ci8YEVwPg9PAD.mp4",
         "publishedAt": "2026-09-09T20:39:03.000Z",
         "durationSeconds": 37,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097523484629090408",
-      "tweetId": "2097523484629090408",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:27.995Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bmeet\\b.{0,40}\\b(?:our|the|new)\\b"
-      ],
-      "post": {
-        "tweetId": "2097523484629090408",
-        "tweetUrl": "https://x.com/OpenAI/status/2097523484629090408",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "Small business owners deserve every advantage.\n\nMeet the 16 plugins that help take work off your plate so you can focus on what matters most—running your business.\n\nExplore the small business collection: https://t.co/VVRewAmWdf https://t.co/JSo5dAuncy",
-        "createdAt": "2026-09-09T03:12:23.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097523257851441152/vid/avc1/1920x1080/bXZVaco6ww-dqb1i.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HRvnF0xboAAFxIJ.jpg",
-            "durationMs": 25233
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2097523484629090408",
-        "slug": "openai-090408",
-        "title": "Small business owners deserve every advantage. Meet the 16 plugins that help take work off your p…",
-        "product": "OpenAI",
-        "company": "OpenAI",
-        "description": "Small business owners deserve every advantage. Meet the 16 plugins that help take work off your plate so you can focus on what matters most—running your business. Explore the small business collection:",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2097523484629090408",
-        "tweetId": "2097523484629090408",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/openai-090408.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097523257851441152/vid/avc1/1920x1080/bXZVaco6ww-dqb1i.mp4",
-        "publishedAt": "2026-09-09T03:12:23.000Z",
-        "durationSeconds": 25,
         "featured": false,
         "status": "draft"
       },
@@ -4214,9 +3779,9 @@
     {
       "id": "disc-2097748796620881978",
       "tweetId": "2097748796620881978",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:26.774Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:50:53.044Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -4334,9 +3899,9 @@
     {
       "id": "disc-2097827866079826131",
       "tweetId": "2097827866079826131",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:26.165Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:51:01.357Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -4394,9 +3959,9 @@
     {
       "id": "disc-2097330180490436667",
       "tweetId": "2097330180490436667",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:25.837Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:43:37.725Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -4576,9 +4141,9 @@
     {
       "id": "disc-2097305231906271719",
       "tweetId": "2097305231906271719",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:24.549Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:51:04.904Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -4941,9 +4506,9 @@
     {
       "id": "disc-2097375337730715753",
       "tweetId": "2097375337730715753",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:21.389Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:51:10.110Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -5060,9 +4625,9 @@
     {
       "id": "disc-2097038836870308292",
       "tweetId": "2097038836870308292",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:07.808Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-12T15:45:49.644Z",
       "score": 42,
       "reasons": [
         "has-video",
