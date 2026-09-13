@@ -654,5 +654,15 @@
     "url": "https://focusee.imobie.com/",
     "category": "editor",
     "poster": "/posters/tools/focusee.webp"
+  },
+  {
+    "id": "tool-screencursor",
+    "slug": "screencursor",
+    "name": "ScreenCursor",
+    "tagline": "Screen recorder with auto zoom effects",
+    "description": "A Chrome screen recorder with auto zoom effects. Every click, drag and keystroke becomes a camera move. No watermark, no account, nothing uploaded.",
+    "url": "https://screencursor.com/",
+    "category": "editor",
+    "poster": "/posters/tools/screencursor.webp"
   }
 ]
