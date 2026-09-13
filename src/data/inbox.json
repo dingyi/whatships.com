@@ -1,6 +1,1683 @@
 {
-  "updatedAt": "2026-09-12T15:53:25.373Z",
+  "updatedAt": "2026-09-13T08:34:16.633Z",
   "items": [
+    {
+      "id": "disc-2098879082456875474",
+      "tweetId": "2098879082456875474",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:16.632Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2098879082456875474",
+        "tweetUrl": "https://x.com/0nabilbk/status/2098879082456875474",
+        "authorHandle": "0nabilbk",
+        "authorName": "Nabil",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2073920534648434688/lJIdAX_B.jpg",
+        "text": "hi,\n\ni’m Nabil, a solo founder from Morocco this isn't a launch (yet!) \nspent the past 3 weeks talking to 15 founders who build with ai, mostly alone or with a small team. \nbuilding got faster. a lot faster obviously. what didn't keep up is the record of why. the decision is https://t.co/n0nCzoW5oe",
+        "createdAt": "2026-09-12T20:59:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098879041080340480/vid/avc1/1080x1080/Es9b5W64LsjOfzPo.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098879041080340480/img/flpNmnPb9R1e9xRX.jpg",
+            "durationMs": 30400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "0nabilbk",
+        "company": "Nabil",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098879082456875474",
+        "slug": "nabil-875474",
+        "title": "hi, i’m Nabil, a solo founder from Morocco this isn't a launch (yet!) spent the past 3 weeks talk…",
+        "product": "Nabil",
+        "company": "Nabil",
+        "description": "hi, i’m Nabil, a solo founder from Morocco this isn't a launch (yet!) spent the past 3 weeks talking to 15 founders who build with ai, mostly alone or with a small team. building got faster. a lot faster obviously. what didn't keep up is the record of why. the decision is",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/0nabilbk/status/2098879082456875474",
+        "tweetId": "2098879082456875474",
+        "authorName": "Nabil",
+        "authorHandle": "0nabilbk",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2073920534648434688/lJIdAX_B.jpg",
+        "poster": "/posters/nabil-875474.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098879041080340480/vid/avc1/1080x1080/Es9b5W64LsjOfzPo.mp4",
+        "publishedAt": "2026-09-12T20:59:03.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098863709040836750",
+      "tweetId": "2098863709040836750",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:16.312Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098863709040836750",
+        "tweetUrl": "https://x.com/altsmorocco/status/2098863709040836750",
+        "authorHandle": "altsmorocco",
+        "authorName": "ALTs Morocco",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1872012272832258049/kCjtzg1D.jpg",
+        "text": "introducing: alts x @xai 🇲🇦 \n\none saturday morning in casablanca. Grok Bot credits, a 30-min workshop, then hours of building whatever you've been putting off.\n\nlaptop + idea. or just the laptop.\n\nlimited spots, grab yours: \nhttps://t.co/CPK7zOF2wL https://t.co/jiWgi6oA4U",
+        "createdAt": "2026-09-12T19:57:57.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098863627680043009/vid/avc1/1014x720/vykHqzd8AIlj9cBL.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098863627680043009/img/aCvoN-MvimCndgzS.jpg",
+            "durationMs": 35502
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "altsmorocco",
+        "company": "ALTs Morocco",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098863709040836750",
+        "slug": "alts-morocco-836750",
+        "title": "introducing: alts x @xai 🇲🇦 one saturday morning in casablanca. Grok Bot credits, a 30-min work…",
+        "product": "ALTs Morocco",
+        "company": "ALTs Morocco",
+        "description": "introducing: alts x @xai 🇲🇦 one saturday morning in casablanca. Grok Bot credits, a 30-min workshop, then hours of building whatever you've been putting off. laptop + idea. or just the laptop. limited spots, grab yours:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/altsmorocco/status/2098863709040836750",
+        "tweetId": "2098863709040836750",
+        "authorName": "ALTs Morocco",
+        "authorHandle": "altsmorocco",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1872012272832258049/kCjtzg1D.jpg",
+        "poster": "/posters/alts-morocco-836750.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098863627680043009/vid/avc1/1014x720/vykHqzd8AIlj9cBL.mp4",
+        "publishedAt": "2026-09-12T19:57:57.000Z",
+        "durationSeconds": 36,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098862877687914680",
+      "tweetId": "2098862877687914680",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:15.990Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2098862877687914680",
+        "tweetUrl": "https://x.com/trySynara/status/2098862877687914680",
+        "authorHandle": "trySynara",
+        "authorName": "Synara",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2062620311686701056/fAoNL41A.jpg",
+        "text": "Synara Docs are now live.\n\nFrom connecting your first coding agent to running parallel agents, worktrees, browser verification, automations, pull requests, and more, every workflow now has a place to start.\n\nDiscover what Synara can do, learn how each feature works, or quickly https://t.co/JxnsSdMqXs",
+        "createdAt": "2026-09-12T19:54:39.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098862845383319554/vid/avc1/1920x1080/SBdu03gbit2NmMii.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098862845383319554/img/W09C5GoD33hEHdKG.jpg",
+            "durationMs": 14101
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "trySynara",
+        "company": "Synara",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098862877687914680",
+        "slug": "synara-914680",
+        "title": "Synara Docs are now live. From connecting your first coding agent to running parallel agents, wor…",
+        "product": "Synara",
+        "company": "Synara",
+        "description": "Synara Docs are now live. From connecting your first coding agent to running parallel agents, worktrees, browser verification, automations, pull requests, and more, every workflow now has a place to start. Discover what Synara can do, learn how each feature works, or quickly",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/trySynara/status/2098862877687914680",
+        "tweetId": "2098862877687914680",
+        "authorName": "Synara",
+        "authorHandle": "trySynara",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2062620311686701056/fAoNL41A.jpg",
+        "poster": "/posters/synara-914680.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098862845383319554/vid/avc1/1920x1080/SBdu03gbit2NmMii.mp4",
+        "publishedAt": "2026-09-12T19:54:39.000Z",
+        "durationSeconds": 14,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098855164262162507",
+      "tweetId": "2098855164262162507",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:15.661Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2098855164262162507",
+        "tweetUrl": "https://x.com/Hanzalah_X/status/2098855164262162507",
+        "authorHandle": "Hanzalah_X",
+        "authorName": "Hazzy",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048975072229203968/5FyxP2iJ.jpg",
+        "text": "just launched my second chip on @Finchtech_ai\n\nWeb3 Red Flag Detector\n\nevery time a new project drops people are asking the same questions\n\nis the team legit? do the tokenomics make sense? is the vesting schedule designed to dump on retail?\n\nthe information is usually out there https://t.co/rZKwc6nifo",
+        "createdAt": "2026-09-12T19:24:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098849005233152000/vid/avc1/1920x1080/eLCNJVOggzc1xnHb.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098849005233152000/img/7DBDy4T6ThwYOy_4.jpg",
+            "durationMs": 136250
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Hanzalah_X",
+        "company": "Hazzy",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098855164262162507",
+        "slug": "hazzy-162507",
+        "title": "just launched my second chip on @Finchtech_ai Web3 Red Flag Detector every time a new project dro…",
+        "product": "Hazzy",
+        "company": "Hazzy",
+        "description": "just launched my second chip on @Finchtech_ai Web3 Red Flag Detector every time a new project drops people are asking the same questions is the team legit? do the tokenomics make sense? is the vesting schedule designed to dump on retail? the information is usually out there",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Hanzalah_X/status/2098855164262162507",
+        "tweetId": "2098855164262162507",
+        "authorName": "Hazzy",
+        "authorHandle": "Hanzalah_X",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2048975072229203968/5FyxP2iJ.jpg",
+        "poster": "/posters/hazzy-162507.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098849005233152000/vid/avc1/1920x1080/eLCNJVOggzc1xnHb.mp4",
+        "publishedAt": "2026-09-12T19:24:00.000Z",
+        "durationSeconds": 136,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098828264529633440",
+      "tweetId": "2098828264529633440",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:15.342Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2098828264529633440",
+        "tweetUrl": "https://x.com/grokkedd/status/2098828264529633440",
+        "authorHandle": "grokkedd",
+        "authorName": "grokked",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069833046719655938/g501fSwZ.jpg",
+        "text": "MiniMax just gave designers a way to skip the boring parts of Blender and After Effects\n\nMiniMax quietly runs a full separate platform for designers, MiniMax Design, and it just got a major upgrade. GPT-6 Astra is now live inside it, and MCP connections open it up to Photoshop, https://t.co/8zEqx4qhlo",
+        "createdAt": "2026-09-12T17:37:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098828118093942784/vid/avc1/1280x720/PVY-wwHu9BznvR-s.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098828118093942784/img/jr_D_deFyp5MNdfA.jpg",
+            "durationMs": 82593
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "grokkedd",
+        "company": "grokked",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098828264529633440",
+        "slug": "grokked-633440",
+        "title": "MiniMax just gave designers a way to skip the boring parts of Blender and After Effects MiniMax q…",
+        "product": "grokked",
+        "company": "grokked",
+        "description": "MiniMax just gave designers a way to skip the boring parts of Blender and After Effects MiniMax quietly runs a full separate platform for designers, MiniMax Design, and it just got a major upgrade. GPT-6 Astra is now live inside it, and MCP connections open it up to Photoshop,",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/grokkedd/status/2098828264529633440",
+        "tweetId": "2098828264529633440",
+        "authorName": "grokked",
+        "authorHandle": "grokkedd",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2069833046719655938/g501fSwZ.jpg",
+        "poster": "/posters/grokked-633440.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098828118093942784/vid/avc1/1280x720/PVY-wwHu9BznvR-s.mp4",
+        "publishedAt": "2026-09-12T17:37:07.000Z",
+        "durationSeconds": 83,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098822916481909072",
+      "tweetId": "2098822916481909072",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:15.026Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098822916481909072",
+        "tweetUrl": "https://x.com/shipper_now/status/2098822916481909072",
+        "authorHandle": "shipper_now",
+        "authorName": "Shipper",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
+        "text": "Introducing ChatGPT Astra for 'Web to App'\nTurn any website into a native mobile app\n\nJust paste a URL.\n\nGPT-6 Astra will take over your Mac and turn the original website into a mobile app, then submit it to the app stores when it’s ready.\n\nI've been using this internally a ton https://t.co/0n7bq4BmVz",
+        "createdAt": "2026-09-12T17:15:52.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098822882965192704/vid/avc1/1920x1080/balYniRS6p8lwx7D.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098822882965192704/img/vmimgJYMpy70L_ko.jpg",
+            "durationMs": 25345
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shipper_now",
+        "company": "Shipper",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098822916481909072",
+        "slug": "shipper-909072",
+        "title": "Introducing ChatGPT Astra for 'Web to App' Turn any website into a native mobile app Just paste a…",
+        "product": "Shipper",
+        "company": "Shipper",
+        "description": "Introducing ChatGPT Astra for 'Web to App' Turn any website into a native mobile app Just paste a URL. GPT-6 Astra will take over your Mac and turn the original website into a mobile app, then submit it to the app stores when it’s ready. I've been using this internally a ton",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shipper_now/status/2098822916481909072",
+        "tweetId": "2098822916481909072",
+        "authorName": "Shipper",
+        "authorHandle": "shipper_now",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
+        "poster": "/posters/shipper-909072.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098822882965192704/vid/avc1/1920x1080/balYniRS6p8lwx7D.mp4?tag=16",
+        "publishedAt": "2026-09-12T17:15:52.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098818930567479684",
+      "tweetId": "2098818930567479684",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:14.701Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2098818930567479684",
+        "tweetUrl": "https://x.com/coledermo/status/2098818930567479684",
+        "authorHandle": "coledermo",
+        "authorName": "cole",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072556217655009280/P2fIkb2E.jpg",
+        "text": "Locus Pro is now live as a plugin on Vercel for their EVE agent.\n\nSimply tell EVE \"npx skills add locus-technologies/locus-pro-plugin\"\n\nyou just need to click the link to attach an email and fund your account\n\nMake your agent 50x better today in 5min. Do it. https://t.co/oxeLLDskvs",
+        "createdAt": "2026-09-12T17:00:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098569214768402432/vid/avc1/1920x1080/I5B0BcuCdqvifg2M.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098569214768402432/img/XpbN14M48Mzm0qk5.jpg",
+            "durationMs": 23964
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "coledermo",
+        "company": "cole",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098818930567479684",
+        "slug": "cole-479684",
+        "title": "Locus Pro is now live as a plugin on Vercel for their EVE agent. Simply tell EVE \"npx skills add…",
+        "product": "cole",
+        "company": "cole",
+        "description": "Locus Pro is now live as a plugin on Vercel for their EVE agent. Simply tell EVE \"npx skills add locus-technologies/locus-pro-plugin\" you just need to click the link to attach an email and fund your account Make your agent 50x better today in 5min. Do it.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/coledermo/status/2098818930567479684",
+        "tweetId": "2098818930567479684",
+        "authorName": "cole",
+        "authorHandle": "coledermo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072556217655009280/P2fIkb2E.jpg",
+        "poster": "/posters/cole-479684.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098569214768402432/vid/avc1/1920x1080/I5B0BcuCdqvifg2M.mp4",
+        "publishedAt": "2026-09-12T17:00:01.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098700511994384885",
+      "tweetId": "2098700511994384885",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:14.385Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bshipping\\b"
+      ],
+      "post": {
+        "tweetId": "2098700511994384885",
+        "tweetUrl": "https://x.com/manyways_rh/status/2098700511994384885",
+        "authorHandle": "manyways_rh",
+        "authorName": "Manyways",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094729983931588608/-xugCzl4.jpg",
+        "text": "After shipping our deeper coding agent integration, two gaps became clear: finding models worth testing for your workflow, and our systems having enough data to make that call in their fresh state.\n\nDispatch now has capability filter tags for tool calling, reasoning, structured https://t.co/9NveCpcQxE",
+        "createdAt": "2026-09-12T09:09:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098700297095008256/vid/avc1/2656x2160/pKNDiHksmFXZyC1y.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098700297095008256/img/l_VjMIf8uZHaDUC8.jpg",
+            "durationMs": 25518
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "manyways_rh",
+        "company": "Manyways",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098700511994384885",
+        "slug": "manyways-384885",
+        "title": "After shipping our deeper coding agent integration, two gaps became clear: finding models worth t…",
+        "product": "Manyways",
+        "company": "Manyways",
+        "description": "After shipping our deeper coding agent integration, two gaps became clear: finding models worth testing for your workflow, and our systems having enough data to make that call in their fresh state. Dispatch now has capability filter tags for tool calling, reasoning, structured",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/manyways_rh/status/2098700511994384885",
+        "tweetId": "2098700511994384885",
+        "authorName": "Manyways",
+        "authorHandle": "manyways_rh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094729983931588608/-xugCzl4.jpg",
+        "poster": "/posters/manyways-384885.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098700297095008256/vid/avc1/2656x2160/pKNDiHksmFXZyC1y.mp4",
+        "publishedAt": "2026-09-12T09:09:28.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098691794577858958",
+      "tweetId": "2098691794577858958",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:14.052Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bnew (?:feature|product|app|model|agent|version)\\b"
+      ],
+      "post": {
+        "tweetId": "2098691794577858958",
+        "tweetUrl": "https://x.com/TimYifyisopse/status/2098691794577858958",
+        "authorHandle": "TimYifyisopse",
+        "authorName": "What1slove",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085048967134371840/bcedBYtT.jpg",
+        "text": "Ocean Inference: AI Compute When You Need It\n\nHi everyone, today I want to tell you about a new product from @ONcompute. For me, this is a very useful addition because running AI models can be expensive, especially when a GPU keeps running even when you are not using it.\n\nWith https://t.co/hNduLlwR8F",
+        "createdAt": "2026-09-12T08:34:50.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098689171145797632/vid/avc1/1920x1080/zDbg94x15vLeCKYd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098689171145797632/img/i0LClXqOvOmIGRGp.jpg",
+            "durationMs": 29000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TimYifyisopse",
+        "company": "What1slove",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098691794577858958",
+        "slug": "what1slove-858958",
+        "title": "Ocean Inference: AI Compute When You Need It Hi everyone, today I want to tell you about a new pr…",
+        "product": "What1slove",
+        "company": "What1slove",
+        "description": "Ocean Inference: AI Compute When You Need It Hi everyone, today I want to tell you about a new product from @ONcompute. For me, this is a very useful addition because running AI models can be expensive, especially when a GPU keeps running even when you are not using it. With",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TimYifyisopse/status/2098691794577858958",
+        "tweetId": "2098691794577858958",
+        "authorName": "What1slove",
+        "authorHandle": "TimYifyisopse",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085048967134371840/bcedBYtT.jpg",
+        "poster": "/posters/what1slove-858958.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098689171145797632/vid/avc1/1920x1080/zDbg94x15vLeCKYd.mp4",
+        "publishedAt": "2026-09-12T08:34:50.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098588656554381796",
+      "tweetId": "2098588656554381796",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:13.722Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2098588656554381796",
+        "tweetUrl": "https://x.com/RoundtableSpace/status/2098588656554381796",
+        "authorHandle": "RoundtableSpace",
+        "authorName": "0xMarioNawfal",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg.jpg",
+        "text": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity skills, supported CLI workflows and direct Editor control from a single install with no configuration required.\n\n→ Available directly in the Claude Code plugin directory\n→ 29 native https://t.co/SkvGjyAJuy",
+        "createdAt": "2026-09-12T01:45:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098538384516112384/vid/avc1/1280x720/OoF63n5EGN2FkkF6.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098538384516112384/img/73PiYki-7ITklYf7.jpg",
+            "durationMs": 15061
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "RoundtableSpace",
+        "company": "0xMarioNawfal",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098588656554381796",
+        "slug": "0xmarionawfal-381796",
+        "title": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity s…",
+        "product": "0xMarioNawfal",
+        "company": "0xMarioNawfal",
+        "description": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity skills, supported CLI workflows and direct Editor control from a single install with no configuration required. → Available directly in the Claude Code plugin directory → 29 native",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/RoundtableSpace/status/2098588656554381796",
+        "tweetId": "2098588656554381796",
+        "authorName": "0xMarioNawfal",
+        "authorHandle": "RoundtableSpace",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg.jpg",
+        "poster": "/posters/0xmarionawfal-381796.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098538384516112384/vid/avc1/1280x720/OoF63n5EGN2FkkF6.mp4",
+        "publishedAt": "2026-09-12T01:45:00.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098752941276766519",
+      "tweetId": "2098752941276766519",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:13.381Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2098752941276766519",
+        "tweetUrl": "https://x.com/rammcodes/status/2098752941276766519",
+        "authorHandle": "rammcodes",
+        "authorName": "Ram Maheshwari",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1670741259030495232/mYClo23G.jpg",
+        "text": "Wait what?... Vercel launched something amazing for AI coding agents. 🤯\n\nIt's called vgpu, an agent-first WebGPU library designed for both developers and coding agents.\n\nIt comes with TONS of examples, agent-ready docs, CLI tooling, MCP support, and more. \n\nWebGPU + AI agents is https://t.co/2SVPRCzMwT",
+        "createdAt": "2026-09-12T12:37:48.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098750012939464704/vid/avc1/3230x2160/bEwuxn6tGvfCW7DH.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098750012939464704/img/Hz0Lf7_h8Xz-jNio.jpg",
+            "durationMs": 40616
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "rammcodes",
+        "company": "Ram Maheshwari",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098752941276766519",
+        "slug": "ram-maheshwari-766519",
+        "title": "Wait what?... Vercel launched something amazing for AI coding agents. 🤯 It's called vgpu, an age…",
+        "product": "Ram Maheshwari",
+        "company": "Ram Maheshwari",
+        "description": "Wait what?... Vercel launched something amazing for AI coding agents. 🤯 It's called vgpu, an agent-first WebGPU library designed for both developers and coding agents. It comes with TONS of examples, agent-ready docs, CLI tooling, MCP support, and more. WebGPU + AI agents is",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/rammcodes/status/2098752941276766519",
+        "tweetId": "2098752941276766519",
+        "authorName": "Ram Maheshwari",
+        "authorHandle": "rammcodes",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1670741259030495232/mYClo23G.jpg",
+        "poster": "/posters/ram-maheshwari-766519.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098750012939464704/vid/avc1/3230x2160/bEwuxn6tGvfCW7DH.mp4",
+        "publishedAt": "2026-09-12T12:37:48.000Z",
+        "durationSeconds": 41,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098897542197239865",
+      "tweetId": "2098897542197239865",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:13.065Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098897542197239865",
+        "tweetUrl": "https://x.com/EHuanglu/status/2098897542197239865",
+        "authorHandle": "EHuanglu",
+        "authorName": "el.cine",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1793460098867838976/hoeoWt9M.jpg",
+        "text": "wtf.. gpt-6 astra has automated AI filmmaking\n\nit can connect to filmera mcp, turns idea into full workflow with prompt automatically.. character sheet, props, settings are all customisable\n\nopen-sourced workflow + full prompt below 👇 https://t.co/07Qkt96BH4",
+        "createdAt": "2026-09-12T22:12:24.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098897494906400768/vid/avc1/1920x1080/XCMMgTKHlVBHU7fE.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098897494906400768/img/GAPyIsIVAZQB_syA.jpg",
+            "durationMs": 29481
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "EHuanglu",
+        "company": "el.cine",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098897542197239865",
+        "slug": "elcine-239865",
+        "title": "wtf.. gpt-6 astra has automated AI filmmaking it can connect to filmera mcp, turns idea into full…",
+        "product": "el.cine",
+        "company": "el.cine",
+        "description": "wtf.. gpt-6 astra has automated AI filmmaking it can connect to filmera mcp, turns idea into full workflow with prompt automatically.. character sheet, props, settings are all customisable open-sourced workflow + full prompt below 👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/EHuanglu/status/2098897542197239865",
+        "tweetId": "2098897542197239865",
+        "authorName": "el.cine",
+        "authorHandle": "EHuanglu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1793460098867838976/hoeoWt9M.jpg",
+        "poster": "/posters/elcine-239865.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098897494906400768/vid/avc1/1920x1080/XCMMgTKHlVBHU7fE.mp4?tag=16",
+        "publishedAt": "2026-09-12T22:12:24.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098823660001964143",
+      "tweetId": "2098823660001964143",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:12.747Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098823660001964143",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098823660001964143",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "You can literally design clothes by talking to GPT-6 Astra.\n\nWith the Higgsfield plugin, Astra can:\n\n&gt; Generate the references\n&gt; Create sewing patterns and build the dress in Marvelous Designer\n&gt; Simulate the cloth\n\nYou get an animated 3D garment exported to Blender. https://t.co/fkJKMjg5I3",
+        "createdAt": "2026-09-12T17:18:49.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098823236809351168/vid/avc1/1440x1080/nVHzGATE18IUnoOQ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098823236809351168/img/Ew69CnSwYM06bbA9.jpg",
+            "durationMs": 25854
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098823660001964143",
+        "slug": "higgsfield-ai-964143",
+        "title": "You can literally design clothes by talking to GPT-6 Astra. With the Higgsfield plugin, Astra can…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "You can literally design clothes by talking to GPT-6 Astra. With the Higgsfield plugin, Astra can: &gt; Generate the references &gt; Create sewing patterns and build the dress in Marvelous Designer &gt; Simulate the cloth You get an animated 3D garment exported to Blender.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098823660001964143",
+        "tweetId": "2098823660001964143",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-964143.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098823236809351168/vid/avc1/1440x1080/nVHzGATE18IUnoOQ.mp4",
+        "publishedAt": "2026-09-12T17:18:49.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098832333860479485",
+      "tweetId": "2098832333860479485",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:12.420Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\brebuilt\\b"
+      ],
+      "post": {
+        "tweetId": "2098832333860479485",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098832333860479485",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "GPT-6 Astra rebuilt this level of detail as vectors in Adobe Illustrator. In minutes.\n\nWith Astra + Higgsfield, these references became layered Illustrator files with thousands of editable paths, preserving the fine detail.\n\nAround 7–13 minutes of vector assembly per illustration https://t.co/waBYlEpXq2",
+        "createdAt": "2026-09-12T17:53:17.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098831742484504576/vid/avc1/1920x2400/UpXd6nZDhpdrN5Q3.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098831742484504576/img/TPfBZsfJB2lhG1aT.jpg",
+            "durationMs": 18960
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098832333860479485",
+        "slug": "higgsfield-ai-479485",
+        "title": "GPT-6 Astra rebuilt this level of detail as vectors in Adobe Illustrator. In minutes. With Astra…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "GPT-6 Astra rebuilt this level of detail as vectors in Adobe Illustrator. In minutes. With Astra + Higgsfield, these references became layered Illustrator files with thousands of editable paths, preserving the fine detail. Around 7–13 minutes of vector assembly per illustration",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098832333860479485",
+        "tweetId": "2098832333860479485",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-479485.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098831742484504576/vid/avc1/1920x2400/UpXd6nZDhpdrN5Q3.mp4",
+        "publishedAt": "2026-09-12T17:53:17.000Z",
+        "durationSeconds": 19,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098852559180193891",
+      "tweetId": "2098852559180193891",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:12.090Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098852559180193891",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098852559180193891",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "GPT-6 Astra turned street footage and a 3D model into a finished VFX shot.\n\nHere’s the Blender + After Effects pipeline it handled through Higgsfield:\n\n&gt;Solve the camera.\n\n&gt;Light and render the robot.\n\n&gt;Match the CG to the footage, including blur and grain.\n\n&gt;Finish the comp. https://t.co/3Xni2aFpM2",
+        "createdAt": "2026-09-12T19:13:39.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098851378219331584/vid/avc1/1920x1080/86ZrYyuJwhD3JnK8.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098851378219331584/img/E6QnMftW-8vGwogv.jpg",
+            "durationMs": 26132
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098852559180193891",
+        "slug": "higgsfield-ai-193891",
+        "title": "GPT-6 Astra turned street footage and a 3D model into a finished VFX shot. Here’s the Blender + A…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "GPT-6 Astra turned street footage and a 3D model into a finished VFX shot. Here’s the Blender + After Effects pipeline it handled through Higgsfield: &gt;Solve the camera. &gt;Light and render the robot. &gt;Match the CG to the footage, including blur and grain. &gt;Finish the…",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098852559180193891",
+        "tweetId": "2098852559180193891",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-193891.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098851378219331584/vid/avc1/1920x1080/86ZrYyuJwhD3JnK8.mp4",
+        "publishedAt": "2026-09-12T19:13:39.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098852668945186863",
+      "tweetId": "2098852668945186863",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:11.774Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098852668945186863",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098852668945186863",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "\"hey astra, create parallax effect in after effects\"\n\nHiggsfield’s ChatGPT plugin handled the 3D layers, camera movement, and transition from sunset to night.\n\nType @Higgsfield /use-after-effects in ChatGPT and describe the scene you want. https://t.co/UOV2dTcv7u",
+        "createdAt": "2026-09-12T19:14:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098845080597700608/vid/avc1/2160x2160/2rqSBJ9CzNUNsBFg.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098845080597700608/img/aLIUaO3os70ZmRpU.jpg",
+            "durationMs": 8033
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098852668945186863",
+        "slug": "higgsfield-ai-186863",
+        "title": "\"hey astra, create parallax effect in after effects\" Higgsfield’s ChatGPT plugin handled the 3D l…",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "\"hey astra, create parallax effect in after effects\" Higgsfield’s ChatGPT plugin handled the 3D layers, camera movement, and transition from sunset to night. Type @Higgsfield /use-after-effects in ChatGPT and describe the scene you want.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098852668945186863",
+        "tweetId": "2098852668945186863",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-186863.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098845080597700608/vid/avc1/2160x2160/2rqSBJ9CzNUNsBFg.mp4",
+        "publishedAt": "2026-09-12T19:14:05.000Z",
+        "durationSeconds": 8,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098722535936508243",
+      "tweetId": "2098722535936508243",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:11.460Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bmeet\\b.{0,40}\\b(?:our|the|new)\\b",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2098722535936508243",
+        "tweetUrl": "https://x.com/luvusdev/status/2098722535936508243",
+        "authorHandle": "luvusdev",
+        "authorName": "Luvus",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095462268352049152/CrNm942N.jpg",
+        "text": "&gt;_ Luvus 0.14.1 just shipped.\n\nThis release turns Luvus into mission control across local and remote development:\n\n- Run scheduled multiple agent automations\n- Meet the new gold pixel Luvus logo\n- Save and manage persistent multiple SSH machines\n- Browse remote workspaces beside https://t.co/bftM8kVC2K",
+        "createdAt": "2026-09-12T10:36:59.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098716546680135680/vid/avc1/800x800/JJPzJHiNdX8G5529.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098716546680135680/img/uSh31kP0YlfrPJrr.jpg",
+            "durationMs": 1333
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "luvusdev",
+        "company": "Luvus",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098722535936508243",
+        "slug": "luvus-508243",
+        "title": "&gt;_ Luvus 0.14.1 just shipped. This release turns Luvus into mission control across local and r…",
+        "product": "Luvus",
+        "company": "Luvus",
+        "description": "&gt;_ Luvus 0.14.1 just shipped. This release turns Luvus into mission control across local and remote development: - Run scheduled multiple agent automations - Meet the new gold pixel Luvus logo - Save and manage persistent multiple SSH machines - Browse remote workspaces beside",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/luvusdev/status/2098722535936508243",
+        "tweetId": "2098722535936508243",
+        "authorName": "Luvus",
+        "authorHandle": "luvusdev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095462268352049152/CrNm942N.jpg",
+        "poster": "/posters/luvus-508243.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098716546680135680/vid/avc1/800x800/JJPzJHiNdX8G5529.mp4",
+        "publishedAt": "2026-09-12T10:36:59.000Z",
+        "durationSeconds": 1,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098720288775311626",
+      "tweetId": "2098720288775311626",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:11.126Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098720288775311626",
+        "tweetUrl": "https://x.com/0xdevrel/status/2098720288775311626",
+        "authorHandle": "0xdevrel",
+        "authorName": "Manish",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098766825161154560/Nlpt5uKT.jpg",
+        "text": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security.\n\nApple sandboxed, notarized, and currently in review for the Mac App Store.\n\nI kept seeing people complain about Diskbuddy being slow, freezing during duplicate scans, and using too https://t.co/ODpuDHmiHy",
+        "createdAt": "2026-09-12T10:28:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098717786696753153/vid/avc1/1552x1080/LwUtRqFoRIBdBysb.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098717786696753153/img/v-6wN-9yZP-NsUjg.jpg",
+            "durationMs": 101766
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "0xdevrel",
+        "company": "Manish",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098720288775311626",
+        "slug": "manish-311626",
+        "title": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security…",
+        "product": "Manish",
+        "company": "Manish",
+        "description": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security. Apple sandboxed, notarized, and currently in review for the Mac App Store. I kept seeing people complain about Diskbuddy being slow, freezing during duplicate scans, and using too",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/0xdevrel/status/2098720288775311626",
+        "tweetId": "2098720288775311626",
+        "authorName": "Manish",
+        "authorHandle": "0xdevrel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098766825161154560/Nlpt5uKT.jpg",
+        "poster": "/posters/manish-311626.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098717786696753153/vid/avc1/1552x1080/LwUtRqFoRIBdBysb.mp4",
+        "publishedAt": "2026-09-12T10:28:03.000Z",
+        "durationSeconds": 102,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098771636929658899",
+      "tweetId": "2098771636929658899",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:10.802Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098771636929658899",
+        "tweetUrl": "https://x.com/StackDhruv/status/2098771636929658899",
+        "authorHandle": "StackDhruv",
+        "authorName": "dhruvieiei",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1937359279566295040/UHYM5hzR.jpg",
+        "text": "Introducing the best way to catch agent screwups.\n\nAgents keep breaking guardrails and hallucinating in production while everything looks fine on the surface.\n\nPlug yours into Agnost. Define your rules. Find the violations, down to the exact message.\n\nThen turn recurring failures https://t.co/CLYfd5b9wh",
+        "createdAt": "2026-09-12T13:52:06.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098768461694644225/vid/avc1/1920x1080/pz7tdwqBtmMovhVx.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098768461694644225/img/Kr1AT2F8vnslRn7j.jpg",
+            "durationMs": 43000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "StackDhruv",
+        "company": "dhruvieiei",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098771636929658899",
+        "slug": "dhruvieiei-658899",
+        "title": "Introducing the best way to catch agent screwups. Agents keep breaking guardrails and hallucinati…",
+        "product": "dhruvieiei",
+        "company": "dhruvieiei",
+        "description": "Introducing the best way to catch agent screwups. Agents keep breaking guardrails and hallucinating in production while everything looks fine on the surface. Plug yours into Agnost. Define your rules. Find the violations, down to the exact message. Then turn recurring failures",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/StackDhruv/status/2098771636929658899",
+        "tweetId": "2098771636929658899",
+        "authorName": "dhruvieiei",
+        "authorHandle": "StackDhruv",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1937359279566295040/UHYM5hzR.jpg",
+        "poster": "/posters/dhruvieiei-658899.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098768461694644225/vid/avc1/1920x1080/pz7tdwqBtmMovhVx.mp4",
+        "publishedAt": "2026-09-12T13:52:06.000Z",
+        "durationSeconds": 43,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098876411893436713",
+      "tweetId": "2098876411893436713",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:10.477Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098876411893436713",
+        "tweetUrl": "https://x.com/dipxsyy/status/2098876411893436713",
+        "authorHandle": "dipxsyy",
+        "authorName": "Deepanshu Mishra",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084013187356393472/hG0_abwq.jpg",
+        "text": "Your agent can now take screenshots of your products and make them look fantastic while you’re asleep.\n\nIntroducing @shottr_cc MCP. Link in the comments. https://t.co/hBpiwjtByW",
+        "createdAt": "2026-09-12T20:48:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098875858773831680/vid/avc1/3298x2160/QYttglRfK6uw2cgZ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098875858773831680/img/O1hqXdd8cQiFXuu9.jpg",
+            "durationMs": 26650
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dipxsyy",
+        "company": "Deepanshu Mishra",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098876411893436713",
+        "slug": "deepanshu-mishra-436713",
+        "title": "Your agent can now take screenshots of your products and make them look fantastic while you’re as…",
+        "product": "Deepanshu Mishra",
+        "company": "Deepanshu Mishra",
+        "description": "Your agent can now take screenshots of your products and make them look fantastic while you’re asleep. Introducing @shottr_cc MCP. Link in the comments.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dipxsyy/status/2098876411893436713",
+        "tweetId": "2098876411893436713",
+        "authorName": "Deepanshu Mishra",
+        "authorHandle": "dipxsyy",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084013187356393472/hG0_abwq.jpg",
+        "poster": "/posters/deepanshu-mishra-436713.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098875858773831680/vid/avc1/3298x2160/QYttglRfK6uw2cgZ.mp4",
+        "publishedAt": "2026-09-12T20:48:26.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098728093883965781",
+      "tweetId": "2098728093883965781",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:10.158Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098728093883965781",
+        "tweetUrl": "https://x.com/typeui_sh/status/2098728093883965781",
+        "authorHandle": "typeui_sh",
+        "authorName": "TypeUI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067951258376273920/RpzLUM6P.png",
+        "text": "Introducing a new design skill: Methodical 🚚\n\nUse this design system with your AI provider to build websites that take on a bold color with clean and well spaces section to increase conversions.\n\n🔗 Get it from here: https://t.co/NLn0brQIuA https://t.co/d8WiCCzPfb",
+        "createdAt": "2026-09-12T10:59:04.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098727519327604736/vid/avc1/3456x1790/YZOeSp5NeUvIYxhM.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098727519327604736/img/v72TcxATeUo_M6zP.jpg",
+            "durationMs": 29441
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "typeui_sh",
+        "company": "TypeUI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098728093883965781",
+        "slug": "typeui-965781",
+        "title": "Introducing a new design skill: Methodical 🚚 Use this design system with your AI provider to bui…",
+        "product": "TypeUI",
+        "company": "TypeUI",
+        "description": "Introducing a new design skill: Methodical 🚚 Use this design system with your AI provider to build websites that take on a bold color with clean and well spaces section to increase conversions. 🔗 Get it from here:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/typeui_sh/status/2098728093883965781",
+        "tweetId": "2098728093883965781",
+        "authorName": "TypeUI",
+        "authorHandle": "typeui_sh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067951258376273920/RpzLUM6P.png",
+        "poster": "/posters/typeui-965781.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098727519327604736/vid/avc1/3456x1790/YZOeSp5NeUvIYxhM.mp4",
+        "publishedAt": "2026-09-12T10:59:04.000Z",
+        "durationSeconds": 29,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098698186164756798",
+      "tweetId": "2098698186164756798",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:09.843Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098698186164756798",
+        "tweetUrl": "https://x.com/Moon_Lab5/status/2098698186164756798",
+        "authorHandle": "Moon_Lab5",
+        "authorName": "ムーン🌝育児アプリ作ってます",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057099013636399104/tYuAPTlh.jpg",
+        "text": "【🎉リリースのお知らせ🎉】\n\n子どもの言葉を記録・共有できるアプリ\n『しゃべろぐ』をリリースいたしました🎨\n基本無料で使えます🌷\n\nDLはリプのURLからどうぞ👇 https://t.co/ELpEFz0gjC",
+        "createdAt": "2026-09-12T09:00:14.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098698162802450433/vid/avc1/1080x1440/fn947j4dPEDOeqz8.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098698162802450433/img/A__8KKlSqIs-hk1W.jpg",
+            "durationMs": 14240
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Moon_Lab5",
+        "company": "ムーン🌝育児アプリ作ってます",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098698186164756798",
+        "slug": "launch-64756798",
+        "title": "【🎉リリースのお知らせ🎉】 子どもの言葉を記録・共有できるアプリ 『しゃべろぐ』をリリースいたしました🎨 基本無料で使えます🌷 DLはリプのURLからどうぞ👇",
+        "product": "ムーン🌝育児アプリ作ってます",
+        "company": "ムーン🌝育児アプリ作ってます",
+        "description": "【🎉リリースのお知らせ🎉】 子どもの言葉を記録・共有できるアプリ 『しゃべろぐ』をリリースいたしました🎨 基本無料で使えます🌷 DLはリプのURLからどうぞ👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Moon_Lab5/status/2098698186164756798",
+        "tweetId": "2098698186164756798",
+        "authorName": "ムーン🌝育児アプリ作ってます",
+        "authorHandle": "Moon_Lab5",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2057099013636399104/tYuAPTlh.jpg",
+        "poster": "/posters/launch-64756798.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098698162802450433/vid/avc1/1080x1440/fn947j4dPEDOeqz8.mp4",
+        "publishedAt": "2026-09-12T09:00:14.000Z",
+        "durationSeconds": 14,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098748105285853190",
+      "tweetId": "2098748105285853190",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:09.522Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2098748105285853190",
+        "tweetUrl": "https://x.com/TTrimoreau/status/2098748105285853190",
+        "authorHandle": "TTrimoreau",
+        "authorName": "Thomas Trimoreau",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2016450892006883328/8erNdoxt.jpg",
+        "text": "You no longer need to spend thousands of dollars on a launch video.\n\nIntroducing https://t.co/os8JVvrpLT 🎬\n\nTurn your product into a professional launch video in minutes.\n\nNo agency.\nNo video editor.\nNo huge upfront cost before you even know if people want your product.\n\nBuild https://t.co/dSCJx81jxP",
+        "createdAt": "2026-09-12T12:18:35.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098747747046477824/vid/avc1/3840x2160/zSVB8C2-xsfmsepz.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098747747046477824/img/prceibpTMJsbP5HH.jpg",
+            "durationMs": 84897
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TTrimoreau",
+        "company": "Thomas Trimoreau",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098748105285853190",
+        "slug": "thomas-trimoreau-853190",
+        "title": "You no longer need to spend thousands of dollars on a launch video. Introducing 🎬 Turn your prod…",
+        "product": "Thomas Trimoreau",
+        "company": "Thomas Trimoreau",
+        "description": "You no longer need to spend thousands of dollars on a launch video. Introducing 🎬 Turn your product into a professional launch video in minutes. No agency. No video editor. No huge upfront cost before you even know if people want your product. Build",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TTrimoreau/status/2098748105285853190",
+        "tweetId": "2098748105285853190",
+        "authorName": "Thomas Trimoreau",
+        "authorHandle": "TTrimoreau",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2016450892006883328/8erNdoxt.jpg",
+        "poster": "/posters/thomas-trimoreau-853190.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098747747046477824/vid/avc1/3840x2160/zSVB8C2-xsfmsepz.mp4",
+        "publishedAt": "2026-09-12T12:18:35.000Z",
+        "durationSeconds": 85,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098758531059188031",
+      "tweetId": "2098758531059188031",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:09.197Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2098758531059188031",
+        "tweetUrl": "https://x.com/0xCapx/status/2098758531059188031",
+        "authorHandle": "0xCapx",
+        "authorName": "Capx AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1952769112058236928/Vgl1S3bK.jpg",
+        "text": "Introducing Capx Casa - the control plane for agent-run companies.\n\nCasa turns company context into an ordered operating plan, routes work to specialist operators, reviews the output, and keeps the company brain current under human control.\n\nOpen-source and 100% free to use, https://t.co/xM1f1WFDta",
+        "createdAt": "2026-09-12T13:00:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098746657185906688/vid/avc1/1920x1080/O3y9TGDn9cfNbOOZ.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098746657185906688/img/e9TmjTXJWgkDWpZ7.jpg",
+            "durationMs": 30421
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "0xCapx",
+        "company": "Capx AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098758531059188031",
+        "slug": "capx-ai-188031",
+        "title": "Introducing Capx Casa - the control plane for agent-run companies. Casa turns company context int…",
+        "product": "Capx AI",
+        "company": "Capx AI",
+        "description": "Introducing Capx Casa - the control plane for agent-run companies. Casa turns company context into an ordered operating plan, routes work to specialist operators, reviews the output, and keeps the company brain current under human control. Open-source and 100% free to use,",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/0xCapx/status/2098758531059188031",
+        "tweetId": "2098758531059188031",
+        "authorName": "Capx AI",
+        "authorHandle": "0xCapx",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1952769112058236928/Vgl1S3bK.jpg",
+        "poster": "/posters/capx-ai-188031.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098746657185906688/vid/avc1/1920x1080/O3y9TGDn9cfNbOOZ.mp4",
+        "publishedAt": "2026-09-12T13:00:01.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098912016987730059",
+      "tweetId": "2098912016987730059",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:08.880Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098912016987730059",
+        "tweetUrl": "https://x.com/dexhorthy/status/2098912016987730059",
+        "authorHandle": "dexhorthy",
+        "authorName": "dex",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1936650128518938624/tCFV_MZO.jpg",
+        "text": "coming soon to a humanlayer new you:\n\nlive multiplayer prompting - co-author a single prompt with your team. \n\nA few weeks ago we shipped \"send a prompt to your colleague's session\" - now we made each individual prompt collaborative. \n\nNo cloud agents required, works wherever you https://t.co/6sMMm8fVP0",
+        "createdAt": "2026-09-12T23:09:55.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098911129234030592/vid/avc1/1920x1080/ainl7rbkv-BdQkTL.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098911129234030592/img/Xe4IqUT38C2YgfE1.jpg",
+            "durationMs": 73941
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dexhorthy",
+        "company": "dex",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098912016987730059",
+        "slug": "dex-730059",
+        "title": "coming soon to a humanlayer new you: live multiplayer prompting - co-author a single prompt with…",
+        "product": "dex",
+        "company": "dex",
+        "description": "coming soon to a humanlayer new you: live multiplayer prompting - co-author a single prompt with your team. A few weeks ago we shipped \"send a prompt to your colleague's session\" - now we made each individual prompt collaborative. No cloud agents required, works wherever you",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dexhorthy/status/2098912016987730059",
+        "tweetId": "2098912016987730059",
+        "authorName": "dex",
+        "authorHandle": "dexhorthy",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1936650128518938624/tCFV_MZO.jpg",
+        "poster": "/posters/dex-730059.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098911129234030592/vid/avc1/1920x1080/ainl7rbkv-BdQkTL.mp4",
+        "publishedAt": "2026-09-12T23:09:55.000Z",
+        "durationSeconds": 74,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098854167670616328",
+      "tweetId": "2098854167670616328",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:08.548Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2098854167670616328",
+        "tweetUrl": "https://x.com/supermemory/status/2098854167670616328",
+        "authorHandle": "supermemory",
+        "authorName": "supermemory",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097722228054048768/kw2Eo329.jpg",
+        "text": "Introducing the new supermemory console.\n\nRevamped design, better UX, new functionalities! https://t.co/rvdf5B5IbE",
+        "createdAt": "2026-09-12T19:20:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098854133453434880/vid/avc1/1920x1080/l8PCtJdN8-vndmvg.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098854133453434880/img/B2-zehXv07rNaU_b.jpg",
+            "durationMs": 27500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "supermemory",
+        "company": "supermemory",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098854167670616328",
+        "slug": "supermemory-616328",
+        "title": "Introducing the new supermemory console. Revamped design, better UX, new functionalities!",
+        "product": "supermemory",
+        "company": "supermemory",
+        "description": "Introducing the new supermemory console. Revamped design, better UX, new functionalities!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/supermemory/status/2098854167670616328",
+        "tweetId": "2098854167670616328",
+        "authorName": "supermemory",
+        "authorHandle": "supermemory",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097722228054048768/kw2Eo329.jpg",
+        "poster": "/posters/supermemory-616328.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098854133453434880/vid/avc1/1920x1080/l8PCtJdN8-vndmvg.mp4?tag=16",
+        "publishedAt": "2026-09-12T19:20:03.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098824969124004135",
+      "tweetId": "2098824969124004135",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:08.226Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098824969124004135",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098824969124004135",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "this is like cursor but for motion designers.\n\nHiggsfield plugin in ChatGPT + GPT-6 Astra https://t.co/7FbDaLDiVo",
+        "createdAt": "2026-09-12T17:24:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098824709995642880/vid/avc1/2160x2160/9ZxKoicPBvBzA08b.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098824709995642880/img/cxu2FSIXl6Z1kO3G.jpg",
+            "durationMs": 20100
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098824969124004135",
+        "slug": "higgsfield-ai-004135",
+        "title": "this is like cursor but for motion designers. Higgsfield plugin in ChatGPT + GPT-6 Astra",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "this is like cursor but for motion designers. Higgsfield plugin in ChatGPT + GPT-6 Astra",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098824969124004135",
+        "tweetId": "2098824969124004135",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-004135.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098824709995642880/vid/avc1/2160x2160/9ZxKoicPBvBzA08b.mp4",
+        "publishedAt": "2026-09-12T17:24:01.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098784334383915025",
+      "tweetId": "2098784334383915025",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-13T08:34:07.910Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2098784334383915025",
+        "tweetUrl": "https://x.com/arihantCodes/status/2098784334383915025",
+        "authorHandle": "arihantCodes",
+        "authorName": "Arihant Jain",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957841804021149699/gfdMYWO7.jpg",
+        "text": "Introducing SVG Charts.\n\nA collection of minimal, animated chart components for React.\n\nNow you can add beautiful, interactive charts to your app with a single CLI command. ✨\n\nPart of Spectrum UI. \nOpen source.\n\nTry it: https://t.co/bUywKxvrGT https://t.co/pFITxwynCr",
+        "createdAt": "2026-09-12T14:42:33.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098784211994087425/vid/avc1/3024x1964/jWZ_8LHkW4Qy0f5U.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098784211994087425/img/9u7Tc2YRULslrEWM.jpg",
+            "durationMs": 72116
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "arihantCodes",
+        "company": "Arihant Jain",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098784334383915025",
+        "slug": "arihant-jain-915025",
+        "title": "Introducing SVG Charts. A collection of minimal, animated chart components for React. Now you can…",
+        "product": "Arihant Jain",
+        "company": "Arihant Jain",
+        "description": "Introducing SVG Charts. A collection of minimal, animated chart components for React. Now you can add beautiful, interactive charts to your app with a single CLI command. ✨ Part of Spectrum UI. Open source. Try it:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/arihantCodes/status/2098784334383915025",
+        "tweetId": "2098784334383915025",
+        "authorName": "Arihant Jain",
+        "authorHandle": "arihantCodes",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1957841804021149699/gfdMYWO7.jpg",
+        "poster": "/posters/arihant-jain-915025.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098784211994087425/vid/avc1/3024x1964/jWZ_8LHkW4Qy0f5U.mp4",
+        "publishedAt": "2026-09-12T14:42:33.000Z",
+        "durationSeconds": 72,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2098479257202663797",
       "tweetId": "2098479257202663797",
