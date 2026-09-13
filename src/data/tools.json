@@ -644,5 +644,15 @@
     "url": "https://www.screenshot-studio.com/",
     "category": "mockup",
     "poster": "/posters/tools/screenshot-studio.webp"
+  },
+  {
+    "id": "tool-focusee",
+    "slug": "focusee",
+    "name": "FocuSee",
+    "tagline": "Auto-editing screen recorder for Windows and Mac",
+    "description": "You record, FocuSee perfects the rest. Auto pan and zoom, cursor effects, AI audio enhancement, and a teleprompter. For product demos, tutorials, and marketing videos.",
+    "url": "https://focusee.imobie.com/",
+    "category": "editor",
+    "poster": "/posters/tools/focusee.webp"
   }
 ]
