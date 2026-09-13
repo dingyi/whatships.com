@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T08:34:16.633Z",
+  "updatedAt": "2026-09-13T17:10:26.041Z",
   "items": [
     {
       "id": "disc-2098879082456875474",
@@ -244,9 +244,9 @@
     {
       "id": "disc-2098828264529633440",
       "tweetId": "2098828264529633440",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:15.342Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:03:40.873Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -295,126 +295,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098828118093942784/vid/avc1/1280x720/PVY-wwHu9BznvR-s.mp4",
         "publishedAt": "2026-09-12T17:37:07.000Z",
         "durationSeconds": 83,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098822916481909072",
-      "tweetId": "2098822916481909072",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:15.026Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098822916481909072",
-        "tweetUrl": "https://x.com/shipper_now/status/2098822916481909072",
-        "authorHandle": "shipper_now",
-        "authorName": "Shipper",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
-        "text": "Introducing ChatGPT Astra for 'Web to App'\nTurn any website into a native mobile app\n\nJust paste a URL.\n\nGPT-6 Astra will take over your Mac and turn the original website into a mobile app, then submit it to the app stores when it’s ready.\n\nI've been using this internally a ton https://t.co/0n7bq4BmVz",
-        "createdAt": "2026-09-12T17:15:52.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098822882965192704/vid/avc1/1920x1080/balYniRS6p8lwx7D.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098822882965192704/img/vmimgJYMpy70L_ko.jpg",
-            "durationMs": 25345
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shipper_now",
-        "company": "Shipper",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098822916481909072",
-        "slug": "shipper-909072",
-        "title": "Introducing ChatGPT Astra for 'Web to App' Turn any website into a native mobile app Just paste a…",
-        "product": "Shipper",
-        "company": "Shipper",
-        "description": "Introducing ChatGPT Astra for 'Web to App' Turn any website into a native mobile app Just paste a URL. GPT-6 Astra will take over your Mac and turn the original website into a mobile app, then submit it to the app stores when it’s ready. I've been using this internally a ton",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shipper_now/status/2098822916481909072",
-        "tweetId": "2098822916481909072",
-        "authorName": "Shipper",
-        "authorHandle": "shipper_now",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
-        "poster": "/posters/shipper-909072.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098822882965192704/vid/avc1/1920x1080/balYniRS6p8lwx7D.mp4?tag=16",
-        "publishedAt": "2026-09-12T17:15:52.000Z",
-        "durationSeconds": 25,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098818930567479684",
-      "tweetId": "2098818930567479684",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:14.701Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2098818930567479684",
-        "tweetUrl": "https://x.com/coledermo/status/2098818930567479684",
-        "authorHandle": "coledermo",
-        "authorName": "cole",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072556217655009280/P2fIkb2E.jpg",
-        "text": "Locus Pro is now live as a plugin on Vercel for their EVE agent.\n\nSimply tell EVE \"npx skills add locus-technologies/locus-pro-plugin\"\n\nyou just need to click the link to attach an email and fund your account\n\nMake your agent 50x better today in 5min. Do it. https://t.co/oxeLLDskvs",
-        "createdAt": "2026-09-12T17:00:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098569214768402432/vid/avc1/1920x1080/I5B0BcuCdqvifg2M.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098569214768402432/img/XpbN14M48Mzm0qk5.jpg",
-            "durationMs": 23964
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "coledermo",
-        "company": "cole",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098818930567479684",
-        "slug": "cole-479684",
-        "title": "Locus Pro is now live as a plugin on Vercel for their EVE agent. Simply tell EVE \"npx skills add…",
-        "product": "cole",
-        "company": "cole",
-        "description": "Locus Pro is now live as a plugin on Vercel for their EVE agent. Simply tell EVE \"npx skills add locus-technologies/locus-pro-plugin\" you just need to click the link to attach an email and fund your account Make your agent 50x better today in 5min. Do it.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/coledermo/status/2098818930567479684",
-        "tweetId": "2098818930567479684",
-        "authorName": "cole",
-        "authorHandle": "coledermo",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072556217655009280/P2fIkb2E.jpg",
-        "poster": "/posters/cole-479684.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098569214768402432/vid/avc1/1920x1080/I5B0BcuCdqvifg2M.mp4",
-        "publishedAt": "2026-09-12T17:00:01.000Z",
-        "durationSeconds": 24,
         "featured": false,
         "status": "draft"
       },
@@ -604,9 +484,9 @@
     {
       "id": "disc-2098752941276766519",
       "tweetId": "2098752941276766519",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:13.381Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:04:30.217Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -782,9 +662,9 @@
     {
       "id": "disc-2098832333860479485",
       "tweetId": "2098832333860479485",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:12.420Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:04:34.204Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -842,9 +722,9 @@
     {
       "id": "disc-2098852559180193891",
       "tweetId": "2098852559180193891",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:12.090Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:06:11.306Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1019,126 +899,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098720288775311626",
-      "tweetId": "2098720288775311626",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:11.126Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098720288775311626",
-        "tweetUrl": "https://x.com/0xdevrel/status/2098720288775311626",
-        "authorHandle": "0xdevrel",
-        "authorName": "Manish",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2098766825161154560/Nlpt5uKT.jpg",
-        "text": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security.\n\nApple sandboxed, notarized, and currently in review for the Mac App Store.\n\nI kept seeing people complain about Diskbuddy being slow, freezing during duplicate scans, and using too https://t.co/ODpuDHmiHy",
-        "createdAt": "2026-09-12T10:28:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098717786696753153/vid/avc1/1552x1080/LwUtRqFoRIBdBysb.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098717786696753153/img/v-6wN-9yZP-NsUjg.jpg",
-            "durationMs": 101766
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "0xdevrel",
-        "company": "Manish",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098720288775311626",
-        "slug": "manish-311626",
-        "title": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security…",
-        "product": "Manish",
-        "company": "Manish",
-        "description": "Introducing SpareDisk: a no-nonsense Diskbuddy alternative built for speed, privacy, and security. Apple sandboxed, notarized, and currently in review for the Mac App Store. I kept seeing people complain about Diskbuddy being slow, freezing during duplicate scans, and using too",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/0xdevrel/status/2098720288775311626",
-        "tweetId": "2098720288775311626",
-        "authorName": "Manish",
-        "authorHandle": "0xdevrel",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2098766825161154560/Nlpt5uKT.jpg",
-        "poster": "/posters/manish-311626.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098717786696753153/vid/avc1/1552x1080/LwUtRqFoRIBdBysb.mp4",
-        "publishedAt": "2026-09-12T10:28:03.000Z",
-        "durationSeconds": 102,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098771636929658899",
-      "tweetId": "2098771636929658899",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:10.802Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098771636929658899",
-        "tweetUrl": "https://x.com/StackDhruv/status/2098771636929658899",
-        "authorHandle": "StackDhruv",
-        "authorName": "dhruvieiei",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1937359279566295040/UHYM5hzR.jpg",
-        "text": "Introducing the best way to catch agent screwups.\n\nAgents keep breaking guardrails and hallucinating in production while everything looks fine on the surface.\n\nPlug yours into Agnost. Define your rules. Find the violations, down to the exact message.\n\nThen turn recurring failures https://t.co/CLYfd5b9wh",
-        "createdAt": "2026-09-12T13:52:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098768461694644225/vid/avc1/1920x1080/pz7tdwqBtmMovhVx.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098768461694644225/img/Kr1AT2F8vnslRn7j.jpg",
-            "durationMs": 43000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "StackDhruv",
-        "company": "dhruvieiei",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098771636929658899",
-        "slug": "dhruvieiei-658899",
-        "title": "Introducing the best way to catch agent screwups. Agents keep breaking guardrails and hallucinati…",
-        "product": "dhruvieiei",
-        "company": "dhruvieiei",
-        "description": "Introducing the best way to catch agent screwups. Agents keep breaking guardrails and hallucinating in production while everything looks fine on the surface. Plug yours into Agnost. Define your rules. Find the violations, down to the exact message. Then turn recurring failures",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/StackDhruv/status/2098771636929658899",
-        "tweetId": "2098771636929658899",
-        "authorName": "dhruvieiei",
-        "authorHandle": "StackDhruv",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1937359279566295040/UHYM5hzR.jpg",
-        "poster": "/posters/dhruvieiei-658899.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098768461694644225/vid/avc1/1920x1080/pz7tdwqBtmMovhVx.mp4",
-        "publishedAt": "2026-09-12T13:52:06.000Z",
-        "durationSeconds": 43,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098876411893436713",
       "tweetId": "2098876411893436713",
       "reviewStatus": "pending",
@@ -1261,9 +1021,9 @@
     {
       "id": "disc-2098698186164756798",
       "tweetId": "2098698186164756798",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:09.843Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:05:05.628Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1552,65 +1312,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098854133453434880/vid/avc1/1920x1080/l8PCtJdN8-vndmvg.mp4?tag=16",
         "publishedAt": "2026-09-12T19:20:03.000Z",
         "durationSeconds": 28,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098824969124004135",
-      "tweetId": "2098824969124004135",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:08.226Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2098824969124004135",
-        "tweetUrl": "https://x.com/higgsfield_ai/status/2098824969124004135",
-        "authorHandle": "higgsfield_ai",
-        "authorName": "Higgsfield AI 🧩",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
-        "text": "this is like cursor but for motion designers.\n\nHiggsfield plugin in ChatGPT + GPT-6 Astra https://t.co/7FbDaLDiVo",
-        "createdAt": "2026-09-12T17:24:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098824709995642880/vid/avc1/2160x2160/9ZxKoicPBvBzA08b.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098824709995642880/img/cxu2FSIXl6Z1kO3G.jpg",
-            "durationMs": 20100
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "higgsfield_ai",
-        "company": "Higgsfield AI 🧩",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098824969124004135",
-        "slug": "higgsfield-ai-004135",
-        "title": "this is like cursor but for motion designers. Higgsfield plugin in ChatGPT + GPT-6 Astra",
-        "product": "Higgsfield AI 🧩",
-        "company": "Higgsfield AI 🧩",
-        "description": "this is like cursor but for motion designers. Higgsfield plugin in ChatGPT + GPT-6 Astra",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/higgsfield_ai/status/2098824969124004135",
-        "tweetId": "2098824969124004135",
-        "authorName": "Higgsfield AI 🧩",
-        "authorHandle": "higgsfield_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
-        "poster": "/posters/higgsfield-ai-004135.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098824709995642880/vid/avc1/2160x2160/9ZxKoicPBvBzA08b.mp4",
-        "publishedAt": "2026-09-12T17:24:01.000Z",
-        "durationSeconds": 20,
         "featured": false,
         "status": "draft"
       },
@@ -1921,9 +1622,9 @@
     {
       "id": "disc-2098418926933704940",
       "tweetId": "2098418926933704940",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:59.174Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:04:46.963Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3131,9 +2832,9 @@
     {
       "id": "disc-2097847799379550441",
       "tweetId": "2097847799379550441",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:19.785Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:05:52.029Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -3186,65 +2887,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097847288685350912/vid/avc1/1916x1080/bVb3OldLXUF-o1Io.mp4",
         "publishedAt": "2026-09-10T00:41:06.000Z",
         "durationSeconds": 36,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098197431267586389",
-      "tweetId": "2098197431267586389",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:18.985Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2098197431267586389",
-        "tweetUrl": "https://x.com/fal/status/2098197431267586389",
-        "authorHandle": "fal",
-        "authorName": "fal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
-        "text": "Perfect your shots with H3 Max Reference-to-Video, live now on fal. https://t.co/9zNMJDMDwI",
-        "createdAt": "2026-09-10T23:50:24.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/ext_tw_video/2098197369099530242/pu/vid/avc1/1280x720/SzHpcL4fG97BDOwv.mp4?tag=12",
-            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2098197369099530242/pu/img/gEnr7Ua_eDadHE6W.jpg",
-            "durationMs": 35166
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "fal",
-        "company": "fal",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098197431267586389",
-        "slug": "fal-586389",
-        "title": "Perfect your shots with H3 Max Reference-to-Video, live now on fal.",
-        "product": "fal",
-        "company": "fal",
-        "description": "Perfect your shots with H3 Max Reference-to-Video, live now on fal.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/fal/status/2098197431267586389",
-        "tweetId": "2098197431267586389",
-        "authorName": "fal",
-        "authorHandle": "fal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX.jpg",
-        "poster": "/posters/fal-586389.webp",
-        "videoUrl": "https://video.twimg.com/ext_tw_video/2098197369099530242/pu/vid/avc1/1280x720/SzHpcL4fG97BDOwv.mp4?tag=12",
-        "publishedAt": "2026-09-10T23:50:24.000Z",
-        "durationSeconds": 35,
         "featured": false,
         "status": "draft"
       },
@@ -3679,9 +3321,9 @@
     {
       "id": "disc-2098119927240462699",
       "tweetId": "2098119927240462699",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:15.720Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:06:01.715Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -3931,9 +3573,9 @@
     {
       "id": "disc-2098093862548099111",
       "tweetId": "2098093862548099111",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:13.741Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:06:05.254Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -4296,9 +3938,9 @@
     {
       "id": "disc-2097723754566574118",
       "tweetId": "2097723754566574118",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:33.967Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:06:30.362Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -4473,65 +4115,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097761557975646208/vid/avc1/1856x1080/KL0Ad9yvuOxQRoyi.mp4",
         "publishedAt": "2026-09-09T19:01:20.000Z",
         "durationSeconds": 27,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097715528575909947",
-      "tweetId": "2097715528575909947",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:33.054Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097715528575909947",
-        "tweetUrl": "https://x.com/tldraw/status/2097715528575909947",
-        "authorHandle": "tldraw",
-        "authorName": "tldraw",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
-        "text": "Today, we landed the newest release of https://t.co/zzRWgUwgQD. This week was all about smoothing out the edges, which included:\n\n➡️ Switching pages is now its own undo step, so undo behaves the way you'd expect. https://t.co/OYRxE77Rai",
-        "createdAt": "2026-09-09T15:55:30.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097707078291009536/vid/avc1/2240x1260/3C0PD2TbW8kYkple.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097707078291009536/img/muG8O2JG5ym8NdlG.jpg",
-            "durationMs": 19800
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tldraw",
-        "company": "tldraw",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097715528575909947",
-        "slug": "tldraw-909947",
-        "title": "Today, we landed the newest release of This week was all about smoothing out the edges, which inc…",
-        "product": "tldraw",
-        "company": "tldraw",
-        "description": "Today, we landed the newest release of This week was all about smoothing out the edges, which included: ➡️ Switching pages is now its own undo step, so undo behaves the way you'd expect.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tldraw/status/2097715528575909947",
-        "tweetId": "2097715528575909947",
-        "authorName": "tldraw",
-        "authorHandle": "tldraw",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1998824870461796352/HFsywfLU.jpg",
-        "poster": "/posters/tldraw-909947.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097707078291009536/vid/avc1/2240x1260/3C0PD2TbW8kYkple.mp4",
-        "publishedAt": "2026-09-09T15:55:30.000Z",
-        "durationSeconds": 20,
         "featured": false,
         "status": "draft"
       },
@@ -5267,9 +4850,9 @@
     {
       "id": "disc-2097767544543412400",
       "tweetId": "2097767544543412400",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:27.694Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:06:16.700Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -5878,9 +5461,9 @@
     {
       "id": "disc-2097377834129883305",
       "tweetId": "2097377834129883305",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-10T10:58:24.241Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:04:59.375Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -6421,9 +6004,9 @@
     {
       "id": "disc-2097005464542192125",
       "tweetId": "2097005464542192125",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-08T14:26:07.049Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T17:05:01.948Z",
       "score": 38,
       "reasons": [
         "has-video",
