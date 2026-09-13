@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:10:26.041Z",
+  "updatedAt": "2026-09-13T18:33:12.087Z",
   "items": [
     {
       "id": "disc-2098879082456875474",
@@ -64,9 +64,9 @@
     {
       "id": "disc-2098863709040836750",
       "tweetId": "2098863709040836750",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:16.312Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:25:29.745Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -304,9 +304,9 @@
     {
       "id": "disc-2098700511994384885",
       "tweetId": "2098700511994384885",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:14.385Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:25:48.344Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -415,66 +415,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098689171145797632/vid/avc1/1920x1080/zDbg94x15vLeCKYd.mp4",
         "publishedAt": "2026-09-12T08:34:50.000Z",
         "durationSeconds": 29,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098588656554381796",
-      "tweetId": "2098588656554381796",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:13.722Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098588656554381796",
-        "tweetUrl": "https://x.com/RoundtableSpace/status/2098588656554381796",
-        "authorHandle": "RoundtableSpace",
-        "authorName": "0xMarioNawfal",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg.jpg",
-        "text": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity skills, supported CLI workflows and direct Editor control from a single install with no configuration required.\n\n→ Available directly in the Claude Code plugin directory\n→ 29 native https://t.co/SkvGjyAJuy",
-        "createdAt": "2026-09-12T01:45:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098538384516112384/vid/avc1/1280x720/OoF63n5EGN2FkkF6.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098538384516112384/img/73PiYki-7ITklYf7.jpg",
-            "durationMs": 15061
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "RoundtableSpace",
-        "company": "0xMarioNawfal",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098588656554381796",
-        "slug": "0xmarionawfal-381796",
-        "title": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity s…",
-        "product": "0xMarioNawfal",
-        "company": "0xMarioNawfal",
-        "description": "Unity just launched an official first-party plugin for Claude Code that unlocks 29 native Unity skills, supported CLI workflows and direct Editor control from a single install with no configuration required. → Available directly in the Claude Code plugin directory → 29 native",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/RoundtableSpace/status/2098588656554381796",
-        "tweetId": "2098588656554381796",
-        "authorName": "0xMarioNawfal",
-        "authorHandle": "RoundtableSpace",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg.jpg",
-        "poster": "/posters/0xmarionawfal-381796.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098538384516112384/vid/avc1/1280x720/OoF63n5EGN2FkkF6.mp4",
-        "publishedAt": "2026-09-12T01:45:00.000Z",
-        "durationSeconds": 15,
         "featured": false,
         "status": "draft"
       },
@@ -603,9 +543,9 @@
     {
       "id": "disc-2098823660001964143",
       "tweetId": "2098823660001964143",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:12.747Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:33.359Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -840,9 +780,9 @@
     {
       "id": "disc-2098722535936508243",
       "tweetId": "2098722535936508243",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:11.460Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:29:18.920Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -901,9 +841,9 @@
     {
       "id": "disc-2098876411893436713",
       "tweetId": "2098876411893436713",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:10.477Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:25:39.886Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -961,9 +901,9 @@
     {
       "id": "disc-2098728093883965781",
       "tweetId": "2098728093883965781",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:10.158Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:29:16.579Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1078,133 +1018,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098748105285853190",
-      "tweetId": "2098748105285853190",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:09.522Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098748105285853190",
-        "tweetUrl": "https://x.com/TTrimoreau/status/2098748105285853190",
-        "authorHandle": "TTrimoreau",
-        "authorName": "Thomas Trimoreau",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2016450892006883328/8erNdoxt.jpg",
-        "text": "You no longer need to spend thousands of dollars on a launch video.\n\nIntroducing https://t.co/os8JVvrpLT 🎬\n\nTurn your product into a professional launch video in minutes.\n\nNo agency.\nNo video editor.\nNo huge upfront cost before you even know if people want your product.\n\nBuild https://t.co/dSCJx81jxP",
-        "createdAt": "2026-09-12T12:18:35.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098747747046477824/vid/avc1/3840x2160/zSVB8C2-xsfmsepz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098747747046477824/img/prceibpTMJsbP5HH.jpg",
-            "durationMs": 84897
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "TTrimoreau",
-        "company": "Thomas Trimoreau",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098748105285853190",
-        "slug": "thomas-trimoreau-853190",
-        "title": "You no longer need to spend thousands of dollars on a launch video. Introducing 🎬 Turn your prod…",
-        "product": "Thomas Trimoreau",
-        "company": "Thomas Trimoreau",
-        "description": "You no longer need to spend thousands of dollars on a launch video. Introducing 🎬 Turn your product into a professional launch video in minutes. No agency. No video editor. No huge upfront cost before you even know if people want your product. Build",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/TTrimoreau/status/2098748105285853190",
-        "tweetId": "2098748105285853190",
-        "authorName": "Thomas Trimoreau",
-        "authorHandle": "TTrimoreau",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2016450892006883328/8erNdoxt.jpg",
-        "poster": "/posters/thomas-trimoreau-853190.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098747747046477824/vid/avc1/3840x2160/zSVB8C2-xsfmsepz.mp4",
-        "publishedAt": "2026-09-12T12:18:35.000Z",
-        "durationSeconds": 85,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098758531059188031",
-      "tweetId": "2098758531059188031",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:09.197Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2098758531059188031",
-        "tweetUrl": "https://x.com/0xCapx/status/2098758531059188031",
-        "authorHandle": "0xCapx",
-        "authorName": "Capx AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1952769112058236928/Vgl1S3bK.jpg",
-        "text": "Introducing Capx Casa - the control plane for agent-run companies.\n\nCasa turns company context into an ordered operating plan, routes work to specialist operators, reviews the output, and keeps the company brain current under human control.\n\nOpen-source and 100% free to use, https://t.co/xM1f1WFDta",
-        "createdAt": "2026-09-12T13:00:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098746657185906688/vid/avc1/1920x1080/O3y9TGDn9cfNbOOZ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098746657185906688/img/e9TmjTXJWgkDWpZ7.jpg",
-            "durationMs": 30421
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "0xCapx",
-        "company": "Capx AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098758531059188031",
-        "slug": "capx-ai-188031",
-        "title": "Introducing Capx Casa - the control plane for agent-run companies. Casa turns company context int…",
-        "product": "Capx AI",
-        "company": "Capx AI",
-        "description": "Introducing Capx Casa - the control plane for agent-run companies. Casa turns company context into an ordered operating plan, routes work to specialist operators, reviews the output, and keeps the company brain current under human control. Open-source and 100% free to use,",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/0xCapx/status/2098758531059188031",
-        "tweetId": "2098758531059188031",
-        "authorName": "Capx AI",
-        "authorHandle": "0xCapx",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1952769112058236928/Vgl1S3bK.jpg",
-        "poster": "/posters/capx-ai-188031.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098746657185906688/vid/avc1/1920x1080/O3y9TGDn9cfNbOOZ.mp4",
-        "publishedAt": "2026-09-12T13:00:01.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098912016987730059",
       "tweetId": "2098912016987730059",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:08.880Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:46.527Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1252,66 +1070,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098911129234030592/vid/avc1/1920x1080/ainl7rbkv-BdQkTL.mp4",
         "publishedAt": "2026-09-12T23:09:55.000Z",
         "durationSeconds": 74,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098854167670616328",
-      "tweetId": "2098854167670616328",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:08.548Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2098854167670616328",
-        "tweetUrl": "https://x.com/supermemory/status/2098854167670616328",
-        "authorHandle": "supermemory",
-        "authorName": "supermemory",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097722228054048768/kw2Eo329.jpg",
-        "text": "Introducing the new supermemory console.\n\nRevamped design, better UX, new functionalities! https://t.co/rvdf5B5IbE",
-        "createdAt": "2026-09-12T19:20:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098854133453434880/vid/avc1/1920x1080/l8PCtJdN8-vndmvg.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098854133453434880/img/B2-zehXv07rNaU_b.jpg",
-            "durationMs": 27500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "supermemory",
-        "company": "supermemory",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098854167670616328",
-        "slug": "supermemory-616328",
-        "title": "Introducing the new supermemory console. Revamped design, better UX, new functionalities!",
-        "product": "supermemory",
-        "company": "supermemory",
-        "description": "Introducing the new supermemory console. Revamped design, better UX, new functionalities!",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/supermemory/status/2098854167670616328",
-        "tweetId": "2098854167670616328",
-        "authorName": "supermemory",
-        "authorHandle": "supermemory",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097722228054048768/kw2Eo329.jpg",
-        "poster": "/posters/supermemory-616328.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098854133453434880/vid/avc1/1920x1080/l8PCtJdN8-vndmvg.mp4?tag=16",
-        "publishedAt": "2026-09-12T19:20:03.000Z",
-        "durationSeconds": 28,
         "featured": false,
         "status": "draft"
       },
@@ -1743,9 +1501,9 @@
     {
       "id": "disc-2098546879017431444",
       "tweetId": "2098546879017431444",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:57.757Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:25:25.108Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -1922,9 +1680,9 @@
     {
       "id": "disc-2098537240121192705",
       "tweetId": "2098537240121192705",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:56.045Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:40.079Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2221,9 +1979,9 @@
     {
       "id": "disc-2098522380356481326",
       "tweetId": "2098522380356481326",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:53.969Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:37.345Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2285,9 +2043,9 @@
     {
       "id": "disc-2098451477308067875",
       "tweetId": "2098451477308067875",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:53.636Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:50.695Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2593,9 +2351,9 @@
     {
       "id": "disc-2098509226335412479",
       "tweetId": "2098509226335412479",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:51.637Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:31.014Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -3385,9 +3143,9 @@
     {
       "id": "disc-2098093035456278571",
       "tweetId": "2098093035456278571",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:14.849Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-13T18:26:23.283Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -3865,70 +3623,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097843452583329792/vid/avc1/1080x1920/soJZ8JCluc_6KO2N.mp4",
         "publishedAt": "2026-09-10T00:24:07.000Z",
         "durationSeconds": 67,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097701910463631605",
-      "tweetId": "2097701910463631605",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:34.291Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097701910463631605",
-        "tweetUrl": "https://x.com/supabase/status/2097701910463631605",
-        "authorHandle": "supabase",
-        "authorName": "Supabase",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ.jpg",
-        "text": "Supabase is now a connector in Gemini Enterprise. ✨\n\nQuery your Supabase projects and take action in natural language, right alongside the tools your team already uses like GitHub, Linear, and Jira.\n\nLearn more ↓\nhttps://t.co/rFo69emmSs https://t.co/SaseJmbUCj",
-        "createdAt": "2026-09-09T15:01:23.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/ext_tw_video/2097701863663472640/pu/vid/avc1/1280x720/lwpLuMwU7Z3zXUg1.mp4?tag=12",
-            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2097701863663472640/pu/img/HXpkCiJV4YQOqPN_.jpg",
-            "durationMs": 16299
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "supabase",
-        "company": "Supabase",
-        "category": "developer-tools",
-        "tags": [
-          "backend",
-          "database"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2097701910463631605",
-        "slug": "supabase-631605",
-        "title": "Supabase is now a connector in Gemini Enterprise. ✨ Query your Supabase projects and take action…",
-        "product": "Supabase",
-        "company": "Supabase",
-        "description": "Supabase is now a connector in Gemini Enterprise. ✨ Query your Supabase projects and take action in natural language, right alongside the tools your team already uses like GitHub, Linear, and Jira. Learn more ↓",
-        "category": "developer-tools",
-        "tags": [
-          "backend",
-          "database",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/supabase/status/2097701910463631605",
-        "tweetId": "2097701910463631605",
-        "authorName": "Supabase",
-        "authorHandle": "supabase",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ.jpg",
-        "poster": "/posters/supabase-631605.webp",
-        "videoUrl": "https://video.twimg.com/ext_tw_video/2097701863663472640/pu/vid/avc1/1280x720/lwpLuMwU7Z3zXUg1.mp4?tag=12",
-        "publishedAt": "2026-09-09T15:01:23.000Z",
-        "durationSeconds": 16,
         "featured": false,
         "status": "draft"
       },
@@ -5090,66 +4784,6 @@
         "videoUrl": "https://video.twimg.com/ext_tw_video/2097748761971748864/pu/vid/avc1/720x720/BpF-Fww8skKGE0O8.mp4?tag=12",
         "publishedAt": "2026-09-09T18:07:42.000Z",
         "durationSeconds": 24,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097794847524495402",
-      "tweetId": "2097794847524495402",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:26.466Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2097794847524495402",
-        "tweetUrl": "https://x.com/HenrikTaro/status/2097794847524495402",
-        "authorHandle": "HenrikTaro",
-        "authorName": "Henrik Hansson",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1915610859705163776/UFSFkodI.jpg",
-        "text": "We built a Unix-like desktop in the browser for humans and agents.\n\nComposable tools, native DOCX/XLSX/PPTX editing and capability-level approval gates.\n\nThe ambition: make entire projects delegable.\n\nIntroducing the Vesence Agent-Native Desktop. https://t.co/xggd6FDLlc",
-        "createdAt": "2026-09-09T21:10:41.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097793992679444480/vid/avc1/1920x1080/oHQ1K6SvWGZzNSMK.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097793992679444480/img/pw-ep5NMUV-18RQP.jpg",
-            "durationMs": 21500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "HenrikTaro",
-        "company": "Henrik Hansson",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2097794847524495402",
-        "slug": "henrik-hansson-495402",
-        "title": "We built a Unix-like desktop in the browser for humans and agents. Composable tools, native DOCX/…",
-        "product": "Henrik Hansson",
-        "company": "Henrik Hansson",
-        "description": "We built a Unix-like desktop in the browser for humans and agents. Composable tools, native DOCX/XLSX/PPTX editing and capability-level approval gates. The ambition: make entire projects delegable. Introducing the Vesence Agent-Native Desktop.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/HenrikTaro/status/2097794847524495402",
-        "tweetId": "2097794847524495402",
-        "authorName": "Henrik Hansson",
-        "authorHandle": "HenrikTaro",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1915610859705163776/UFSFkodI.jpg",
-        "poster": "/posters/henrik-hansson-495402.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097793992679444480/vid/avc1/1920x1080/oHQ1K6SvWGZzNSMK.mp4",
-        "publishedAt": "2026-09-09T21:10:41.000Z",
-        "durationSeconds": 22,
         "featured": false,
         "status": "draft"
       },
