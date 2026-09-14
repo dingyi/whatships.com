@@ -674,5 +674,15 @@
     "url": "https://www.bettershot.site/",
     "category": "editor",
     "poster": "/posters/tools/bettershot.webp"
+  },
+  {
+    "id": "tool-gramotion",
+    "slug": "gramotion",
+    "name": "Gramotion",
+    "tagline": "Create stunning motion graphics",
+    "description": "Browser motion graphics editor. Drop shapes, text, images, and video onto a Figma-like canvas, animate on a simple timeline, and export MP4 or GIF.",
+    "url": "https://gramotion.video/",
+    "category": "motion",
+    "poster": "/posters/tools/gramotion.webp"
   }
 ]
