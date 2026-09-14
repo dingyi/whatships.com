@@ -664,5 +664,15 @@
     "url": "https://screencursor.com/",
     "category": "editor",
     "poster": "/posters/tools/screencursor.webp"
+  },
+  {
+    "id": "tool-bettershot",
+    "slug": "bettershot",
+    "name": "Better Shot",
+    "tagline": "Capture clearly. Share beautifully.",
+    "description": "Free, open source screenshot and screen recorder for macOS. Cursor auto-zoom, face cam, on-device captions, and a full editor. No account, no subscription, no watermark.",
+    "url": "https://www.bettershot.site/",
+    "category": "editor",
+    "poster": "/posters/tools/bettershot.webp"
   }
 ]
