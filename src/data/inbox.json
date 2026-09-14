@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T02:45:35.170Z",
+  "updatedAt": "2026-09-14T07:21:46.044Z",
   "items": [
     {
       "id": "disc-2099209623622320381",
@@ -64,9 +64,9 @@
     {
       "id": "disc-2099205136413593605",
       "tweetId": "2099205136413593605",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:34.851Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:04:54.226Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -124,9 +124,9 @@
     {
       "id": "disc-2099075241775608056",
       "tweetId": "2099075241775608056",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:34.524Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:09.089Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -183,9 +183,9 @@
     {
       "id": "disc-2099102385029411200",
       "tweetId": "2099102385029411200",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:34.165Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:09:18.473Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -242,9 +242,9 @@
     {
       "id": "disc-2099202613434872141",
       "tweetId": "2099202613434872141",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:33.819Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:15:56.587Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -361,9 +361,9 @@
     {
       "id": "disc-2098940163703631973",
       "tweetId": "2098940163703631973",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:33.164Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:08:46.617Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -420,9 +420,9 @@
     {
       "id": "disc-2099171868502585553",
       "tweetId": "2099171868502585553",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:32.813Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:16:01.608Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -480,9 +480,9 @@
     {
       "id": "disc-2099228915768144207",
       "tweetId": "2099228915768144207",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:32.449Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:15:44.880Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -539,9 +539,9 @@
     {
       "id": "disc-2099112302020546860",
       "tweetId": "2099112302020546860",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:32.120Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:01.604Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -598,9 +598,9 @@
     {
       "id": "disc-2099280190635700659",
       "tweetId": "2099280190635700659",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:31.788Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:52.558Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -657,9 +657,9 @@
     {
       "id": "disc-2099136570532250104",
       "tweetId": "2099136570532250104",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:31.441Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:04:50.327Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -717,9 +717,9 @@
     {
       "id": "disc-2099108282514182290",
       "tweetId": "2099108282514182290",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:31.115Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:16:06.721Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -777,9 +777,9 @@
     {
       "id": "disc-2098961015413313736",
       "tweetId": "2098961015413313736",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:30.785Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:49.042Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -836,9 +836,9 @@
     {
       "id": "disc-2098935884989321286",
       "tweetId": "2098935884989321286",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:30.449Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:45.428Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -895,9 +895,9 @@
     {
       "id": "disc-2099256905239535988",
       "tweetId": "2099256905239535988",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:30.126Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:39.363Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -954,9 +954,9 @@
     {
       "id": "disc-2099197195907973362",
       "tweetId": "2099197195907973362",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:29.661Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:08:42.895Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1009,67 +1009,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2099141686035152899/vid/avc1/2560x1440/QXmShsrxLrGB4JmO.mp4",
         "publishedAt": "2026-09-13T18:03:07.000Z",
         "durationSeconds": 93,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2099187195345330561",
-      "tweetId": "2099187195345330561",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-14T02:45:29.331Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2099187195345330561",
-        "tweetUrl": "https://x.com/TheAgentNet/status/2099187195345330561",
-        "authorHandle": "TheAgentNet",
-        "authorName": "AgentNet",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2098672584997105664/Ef9WBgbf.jpg",
-        "text": "Introducing Webagent.\n\nour open source harness for creating public facing agents in minutes.\n\ngive it your website, get an agent, let it talk to other agents.\n\nyour website, now agent ready. https://t.co/neAKbSRD7A",
-        "createdAt": "2026-09-13T17:23:23.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099187163762135040/vid/avc1/1920x1080/IV-fOijXOdJCx5Gx.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099187163762135040/img/dSTTLpw0p2ndOTok.jpg",
-            "durationMs": 12010
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "TheAgentNet",
-        "company": "AgentNet",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2099187195345330561",
-        "slug": "agentnet-330561",
-        "title": "Introducing Webagent. our open source harness for creating public facing agents in minutes. give…",
-        "product": "AgentNet",
-        "company": "AgentNet",
-        "description": "Introducing Webagent. our open source harness for creating public facing agents in minutes. give it your website, get an agent, let it talk to other agents. your website, now agent ready.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/TheAgentNet/status/2099187195345330561",
-        "tweetId": "2099187195345330561",
-        "authorName": "AgentNet",
-        "authorHandle": "TheAgentNet",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2098672584997105664/Ef9WBgbf.jpg",
-        "poster": "/posters/agentnet-330561.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099187163762135040/vid/avc1/1920x1080/IV-fOijXOdJCx5Gx.mp4",
-        "publishedAt": "2026-09-13T17:23:23.000Z",
-        "durationSeconds": 12,
         "featured": false,
         "status": "draft"
       },
@@ -1137,66 +1076,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098879082456875474",
-      "tweetId": "2098879082456875474",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:16.632Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098879082456875474",
-        "tweetUrl": "https://x.com/0nabilbk/status/2098879082456875474",
-        "authorHandle": "0nabilbk",
-        "authorName": "Nabil",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073920534648434688/lJIdAX_B.jpg",
-        "text": "hi,\n\ni’m Nabil, a solo founder from Morocco this isn't a launch (yet!) \nspent the past 3 weeks talking to 15 founders who build with ai, mostly alone or with a small team. \nbuilding got faster. a lot faster obviously. what didn't keep up is the record of why. the decision is https://t.co/n0nCzoW5oe",
-        "createdAt": "2026-09-12T20:59:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098879041080340480/vid/avc1/1080x1080/Es9b5W64LsjOfzPo.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098879041080340480/img/flpNmnPb9R1e9xRX.jpg",
-            "durationMs": 30400
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "0nabilbk",
-        "company": "Nabil",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098879082456875474",
-        "slug": "nabil-875474",
-        "title": "hi, i’m Nabil, a solo founder from Morocco this isn't a launch (yet!) spent the past 3 weeks talk…",
-        "product": "Nabil",
-        "company": "Nabil",
-        "description": "hi, i’m Nabil, a solo founder from Morocco this isn't a launch (yet!) spent the past 3 weeks talking to 15 founders who build with ai, mostly alone or with a small team. building got faster. a lot faster obviously. what didn't keep up is the record of why. the decision is",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/0nabilbk/status/2098879082456875474",
-        "tweetId": "2098879082456875474",
-        "authorName": "Nabil",
-        "authorHandle": "0nabilbk",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073920534648434688/lJIdAX_B.jpg",
-        "poster": "/posters/nabil-875474.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098879041080340480/vid/avc1/1080x1080/Es9b5W64LsjOfzPo.mp4",
-        "publishedAt": "2026-09-12T20:59:03.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098863709040836750",
       "tweetId": "2098863709040836750",
       "reviewStatus": "rejected",
@@ -1257,71 +1136,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098862877687914680",
-      "tweetId": "2098862877687914680",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:15.990Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2098862877687914680",
-        "tweetUrl": "https://x.com/trySynara/status/2098862877687914680",
-        "authorHandle": "trySynara",
-        "authorName": "Synara",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062620311686701056/fAoNL41A.jpg",
-        "text": "Synara Docs are now live.\n\nFrom connecting your first coding agent to running parallel agents, worktrees, browser verification, automations, pull requests, and more, every workflow now has a place to start.\n\nDiscover what Synara can do, learn how each feature works, or quickly https://t.co/JxnsSdMqXs",
-        "createdAt": "2026-09-12T19:54:39.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098862845383319554/vid/avc1/1920x1080/SBdu03gbit2NmMii.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098862845383319554/img/W09C5GoD33hEHdKG.jpg",
-            "durationMs": 14101
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "trySynara",
-        "company": "Synara",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098862877687914680",
-        "slug": "synara-914680",
-        "title": "Synara Docs are now live. From connecting your first coding agent to running parallel agents, wor…",
-        "product": "Synara",
-        "company": "Synara",
-        "description": "Synara Docs are now live. From connecting your first coding agent to running parallel agents, worktrees, browser verification, automations, pull requests, and more, every workflow now has a place to start. Discover what Synara can do, learn how each feature works, or quickly",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/trySynara/status/2098862877687914680",
-        "tweetId": "2098862877687914680",
-        "authorName": "Synara",
-        "authorHandle": "trySynara",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062620311686701056/fAoNL41A.jpg",
-        "poster": "/posters/synara-914680.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098862845383319554/vid/avc1/1920x1080/SBdu03gbit2NmMii.mp4",
-        "publishedAt": "2026-09-12T19:54:39.000Z",
-        "durationSeconds": 14,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098855164262162507",
       "tweetId": "2098855164262162507",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:15.661Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:09:33.126Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1499,9 +1318,9 @@
     {
       "id": "disc-2098691794577858958",
       "tweetId": "2098691794577858958",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:14.052Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:15:09.803Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1619,9 +1438,9 @@
     {
       "id": "disc-2098897542197239865",
       "tweetId": "2098897542197239865",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:13.065Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:05:41.938Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1856,9 +1675,9 @@
     {
       "id": "disc-2098852668945186863",
       "tweetId": "2098852668945186863",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-13T08:34:11.774Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:09:02.163Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -2212,67 +2031,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2098784334383915025",
-      "tweetId": "2098784334383915025",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-13T08:34:07.910Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2098784334383915025",
-        "tweetUrl": "https://x.com/arihantCodes/status/2098784334383915025",
-        "authorHandle": "arihantCodes",
-        "authorName": "Arihant Jain",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1957841804021149699/gfdMYWO7.jpg",
-        "text": "Introducing SVG Charts.\n\nA collection of minimal, animated chart components for React.\n\nNow you can add beautiful, interactive charts to your app with a single CLI command. ✨\n\nPart of Spectrum UI. \nOpen source.\n\nTry it: https://t.co/bUywKxvrGT https://t.co/pFITxwynCr",
-        "createdAt": "2026-09-12T14:42:33.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098784211994087425/vid/avc1/3024x1964/jWZ_8LHkW4Qy0f5U.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098784211994087425/img/9u7Tc2YRULslrEWM.jpg",
-            "durationMs": 72116
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "arihantCodes",
-        "company": "Arihant Jain",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098784334383915025",
-        "slug": "arihant-jain-915025",
-        "title": "Introducing SVG Charts. A collection of minimal, animated chart components for React. Now you can…",
-        "product": "Arihant Jain",
-        "company": "Arihant Jain",
-        "description": "Introducing SVG Charts. A collection of minimal, animated chart components for React. Now you can add beautiful, interactive charts to your app with a single CLI command. ✨ Part of Spectrum UI. Open source. Try it:",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/arihantCodes/status/2098784334383915025",
-        "tweetId": "2098784334383915025",
-        "authorName": "Arihant Jain",
-        "authorHandle": "arihantCodes",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1957841804021149699/gfdMYWO7.jpg",
-        "poster": "/posters/arihant-jain-915025.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098784211994087425/vid/avc1/3024x1964/jWZ_8LHkW4Qy0f5U.mp4",
-        "publishedAt": "2026-09-12T14:42:33.000Z",
-        "durationSeconds": 72,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2098479257202663797",
       "tweetId": "2098479257202663797",
       "reviewStatus": "rejected",
@@ -2395,9 +2153,9 @@
     {
       "id": "disc-2098428926385324376",
       "tweetId": "2098428926385324376",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-12T08:10:59.952Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:15:52.176Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4406,9 +4164,9 @@
     {
       "id": "disc-2098116002605064246",
       "tweetId": "2098116002605064246",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:14.112Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-14T07:15:40.707Z",
       "score": 38,
       "reasons": [
         "has-video",
