@@ -1,6 +1,1141 @@
 {
-  "updatedAt": "2026-09-13T18:33:12.087Z",
+  "updatedAt": "2026-09-14T02:45:35.170Z",
   "items": [
+    {
+      "id": "disc-2099209623622320381",
+      "tweetId": "2099209623622320381",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:35.170Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2099209623622320381",
+        "tweetUrl": "https://x.com/InvestNorthwise/status/2099209623622320381",
+        "authorHandle": "InvestNorthwise",
+        "authorName": "Northwise Project",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2018034722664783872/y3PZ44Ly.jpg",
+        "text": "Introducing the Northwise Data Center Tracker.\n\nExplore the sites behind the AI buildout, compare companies and test how your assumptions change a forecast.\n\n$NBIS $IREN $CIFR $CRWV $WULF $KEEL\n\nHere is what you can do with it. 1/6 https://t.co/Hecvbsr8WM",
+        "createdAt": "2026-09-13T18:52:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099209476406644737/vid/avc1/1600x1200/IgMRsxNwuin3sHlk.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099209476406644737/img/bvOdAuWZhh75cQgY.jpg",
+            "durationMs": 40000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "InvestNorthwise",
+        "company": "Northwise Project",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099209623622320381",
+        "slug": "northwise-project-320381",
+        "title": "Introducing the Northwise Data Center Tracker. Explore the sites behind the AI buildout, compare…",
+        "product": "Northwise Project",
+        "company": "Northwise Project",
+        "description": "Introducing the Northwise Data Center Tracker. Explore the sites behind the AI buildout, compare companies and test how your assumptions change a forecast. $NBIS $IREN $CIFR $CRWV $WULF $KEEL Here is what you can do with it. 1/6",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/InvestNorthwise/status/2099209623622320381",
+        "tweetId": "2099209623622320381",
+        "authorName": "Northwise Project",
+        "authorHandle": "InvestNorthwise",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2018034722664783872/y3PZ44Ly.jpg",
+        "poster": "/posters/northwise-project-320381.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099209476406644737/vid/avc1/1600x1200/IgMRsxNwuin3sHlk.mp4",
+        "publishedAt": "2026-09-13T18:52:30.000Z",
+        "durationSeconds": 40,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099205136413593605",
+      "tweetId": "2099205136413593605",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:34.851Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2099205136413593605",
+        "tweetUrl": "https://x.com/Saboo_Shubham_/status/2099205136413593605",
+        "authorHandle": "Saboo_Shubham_",
+        "authorName": "Shubham Saboo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W.jpg",
+        "text": "I just shipped a free crash course on building AI agents without writing a single line of code.\n\nIn 20 mins, I take one problem through the full agent development lifecycle using just a coding agent.\n\nYou can use Codex, Claude Code, Antigravity or anything else. https://t.co/fh46naeNaJ",
+        "createdAt": "2026-09-13T18:34:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099205070906880000/vid/avc1/1920x1080/nVRrVKvki_QOgFjm.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099205070906880000/img/_91fGKNER7T05jB8.jpg",
+            "durationMs": 48650
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Saboo_Shubham_",
+        "company": "Shubham Saboo",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099205136413593605",
+        "slug": "shubham-saboo-593605",
+        "title": "I just shipped a free crash course on building AI agents without writing a single line of code. I…",
+        "product": "Shubham Saboo",
+        "company": "Shubham Saboo",
+        "description": "I just shipped a free crash course on building AI agents without writing a single line of code. In 20 mins, I take one problem through the full agent development lifecycle using just a coding agent. You can use Codex, Claude Code, Antigravity or anything else.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Saboo_Shubham_/status/2099205136413593605",
+        "tweetId": "2099205136413593605",
+        "authorName": "Shubham Saboo",
+        "authorHandle": "Saboo_Shubham_",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W.jpg",
+        "poster": "/posters/shubham-saboo-593605.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099205070906880000/vid/avc1/1920x1080/nVRrVKvki_QOgFjm.mp4",
+        "publishedAt": "2026-09-13T18:34:40.000Z",
+        "durationSeconds": 49,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099075241775608056",
+      "tweetId": "2099075241775608056",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:34.524Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099075241775608056",
+        "tweetUrl": "https://x.com/alex_verem/status/2099075241775608056",
+        "authorHandle": "alex_verem",
+        "authorName": "Alex Veremeyenko",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2066549522285649920/ZbW4cujK.jpg",
+        "text": "A designer built this brilliant children's book webapp with Fable 5.1 in three days.\n\nMeng To, the designer behind DesignCode, used Claude's Fable 5.1 model to build StoryComet, an interactive reading app for kids. It holds 15 animated picture books in five languages, each with https://t.co/BcTX2lhhIL",
+        "createdAt": "2026-09-13T09:58:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099075114092613632/vid/avc1/1440x1080/vc3uRJQvIQVFClaq.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099075114092613632/img/HxJYblrC6_L0KcVZ.jpg",
+            "durationMs": 130346
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "alex_verem",
+        "company": "Alex Veremeyenko",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099075241775608056",
+        "slug": "alex-veremeyenko-608056",
+        "title": "A designer built this brilliant children's book webapp with Fable 5.1 in three days. Meng To, the…",
+        "product": "Alex Veremeyenko",
+        "company": "Alex Veremeyenko",
+        "description": "A designer built this brilliant children's book webapp with Fable 5.1 in three days. Meng To, the designer behind DesignCode, used Claude's Fable 5.1 model to build StoryComet, an interactive reading app for kids. It holds 15 animated picture books in five languages, each with",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/alex_verem/status/2099075241775608056",
+        "tweetId": "2099075241775608056",
+        "authorName": "Alex Veremeyenko",
+        "authorHandle": "alex_verem",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2066549522285649920/ZbW4cujK.jpg",
+        "poster": "/posters/alex-veremeyenko-608056.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099075114092613632/vid/avc1/1440x1080/vc3uRJQvIQVFClaq.mp4?tag=16",
+        "publishedAt": "2026-09-13T09:58:31.000Z",
+        "durationSeconds": 130,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099102385029411200",
+      "tweetId": "2099102385029411200",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:34.165Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099102385029411200",
+        "tweetUrl": "https://x.com/yeasindesign/status/2099102385029411200",
+        "authorHandle": "yeasindesign",
+        "authorName": "Arafat",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030463913645801472/Wsf-G_qe.jpg",
+        "text": "UI designers are cooked \n\nI built this entire app onboarding with one prompt in Fable 5.\n\nNo Figma. No code. Minutes, not days.\n\nSteal the prompt below 👇 https://t.co/AXmrFO8y54",
+        "createdAt": "2026-09-13T11:46:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2097213017066987520/vid/avc1/1252x864/zJh2GOmE1O3tKuvr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097213017066987520/img/gljsuO1l_Y-VnJAG.jpg",
+            "durationMs": 7980
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "yeasindesign",
+        "company": "Arafat",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099102385029411200",
+        "slug": "arafat-411200",
+        "title": "UI designers are cooked I built this entire app onboarding with one prompt in Fable 5. No Figma.…",
+        "product": "Arafat",
+        "company": "Arafat",
+        "description": "UI designers are cooked I built this entire app onboarding with one prompt in Fable 5. No Figma. No code. Minutes, not days. Steal the prompt below 👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/yeasindesign/status/2099102385029411200",
+        "tweetId": "2099102385029411200",
+        "authorName": "Arafat",
+        "authorHandle": "yeasindesign",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030463913645801472/Wsf-G_qe.jpg",
+        "poster": "/posters/arafat-411200.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2097213017066987520/vid/avc1/1252x864/zJh2GOmE1O3tKuvr.mp4",
+        "publishedAt": "2026-09-13T11:46:22.000Z",
+        "durationSeconds": 8,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099202613434872141",
+      "tweetId": "2099202613434872141",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:33.819Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2099202613434872141",
+        "tweetUrl": "https://x.com/yusukelp/status/2099202613434872141",
+        "authorHandle": "yusukelp",
+        "authorName": "Yusuke",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990427016139812864/PB85j3Hb.jpg",
+        "text": "Shoutout to @nthntrvls for the thoughtful feedback 🙏\n\nJust shipped:\n• light/dark mode\n• a cleaner share flow\n• clearer previews of what’s included in the paid report across all 4 scoring areas\n\nThis kind of honest feedback makes LandingBoost better. \nAppreciate you, man! https://t.co/OvV9nOa0AK",
+        "createdAt": "2026-09-13T18:24:38.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099202534904856576/vid/avc1/3084x2160/l5uV6RGTsZrDOuqj.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099202534904856576/img/VbOQ1JwNVrovKDBM.jpg",
+            "durationMs": 19933
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "yusukelp",
+        "company": "Yusuke",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099202613434872141",
+        "slug": "yusuke-872141",
+        "title": "Shoutout to @nthntrvls for the thoughtful feedback 🙏 Just shipped: • light/dark mode • a cleaner…",
+        "product": "Yusuke",
+        "company": "Yusuke",
+        "description": "Shoutout to @nthntrvls for the thoughtful feedback 🙏 Just shipped: • light/dark mode • a cleaner share flow • clearer previews of what’s included in the paid report across all 4 scoring areas This kind of honest feedback makes LandingBoost better. Appreciate you, man!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/yusukelp/status/2099202613434872141",
+        "tweetId": "2099202613434872141",
+        "authorName": "Yusuke",
+        "authorHandle": "yusukelp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990427016139812864/PB85j3Hb.jpg",
+        "poster": "/posters/yusuke-872141.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099202534904856576/vid/avc1/3084x2160/l5uV6RGTsZrDOuqj.mp4",
+        "publishedAt": "2026-09-13T18:24:38.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098931815507767680",
+      "tweetId": "2098931815507767680",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:33.493Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098931815507767680",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098931815507767680",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "lol, what if a fruit fly could prompt motion design https://t.co/lnNIk4WaeV",
+        "createdAt": "2026-09-13T00:28:35.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098931720146001920/vid/avc1/1920x1080/-nBlx23GqN4KSYu-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098931720146001920/img/1tfdaSeJST7HkVFB.jpg",
+            "durationMs": 12000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098931815507767680",
+        "slug": "higgsfield-ai-767680",
+        "title": "lol, what if a fruit fly could prompt motion design",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "lol, what if a fruit fly could prompt motion design",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098931815507767680",
+        "tweetId": "2098931815507767680",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-767680.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098931720146001920/vid/avc1/1920x1080/-nBlx23GqN4KSYu-.mp4",
+        "publishedAt": "2026-09-13T00:28:35.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098940163703631973",
+      "tweetId": "2098940163703631973",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:33.164Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098940163703631973",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098940163703631973",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "**calling**.... https://t.co/hOMDLvWzqm",
+        "createdAt": "2026-09-13T01:01:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098939575624491008/vid/avc1/3440x2160/-7UjzlS5bzqrkIH7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098939575624491008/img/M80js0hmp8G0uwC6.jpg",
+            "durationMs": 46550
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098940163703631973",
+        "slug": "higgsfield-ai-631973",
+        "title": "**calling**....",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "**calling**....",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098940163703631973",
+        "tweetId": "2098940163703631973",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-631973.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098939575624491008/vid/avc1/3440x2160/-7UjzlS5bzqrkIH7.mp4",
+        "publishedAt": "2026-09-13T01:01:46.000Z",
+        "durationSeconds": 47,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099171868502585553",
+      "tweetId": "2099171868502585553",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:32.813Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2099171868502585553",
+        "tweetUrl": "https://x.com/emelucrypto/status/2099171868502585553",
+        "authorHandle": "emelucrypto",
+        "authorName": "emelu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039648157198438400/KDm65fiW.jpg",
+        "text": "YOU CAN NOW WALK INTO A CLASSROOM FULL OF AI AGENTS\n\nMeet OpenMAIC\n\nan open-source multi-agent classroom from Tsinghua University\n\nGive it a topic or your own materials and it can build an entire interactive lesson.\n\n&gt; AI teachers that explain out loud\n\n&gt; AI classmates that https://t.co/mVMcW4H1Pm",
+        "createdAt": "2026-09-13T16:22:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099171807064702977/vid/avc1/1280x720/h-LqgV4EiEcHYWNr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099171807064702977/img/HHB1SdGFMaKav3OR.jpg",
+            "durationMs": 26300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "emelucrypto",
+        "company": "emelu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099171868502585553",
+        "slug": "emelu-585553",
+        "title": "YOU CAN NOW WALK INTO A CLASSROOM FULL OF AI AGENTS Meet OpenMAIC an open-source multi-agent clas…",
+        "product": "emelu",
+        "company": "emelu",
+        "description": "YOU CAN NOW WALK INTO A CLASSROOM FULL OF AI AGENTS Meet OpenMAIC an open-source multi-agent classroom from Tsinghua University Give it a topic or your own materials and it can build an entire interactive lesson. &gt; AI teachers that explain out loud &gt; AI classmates that",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/emelucrypto/status/2099171868502585553",
+        "tweetId": "2099171868502585553",
+        "authorName": "emelu",
+        "authorHandle": "emelucrypto",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039648157198438400/KDm65fiW.jpg",
+        "poster": "/posters/emelu-585553.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099171807064702977/vid/avc1/1280x720/h-LqgV4EiEcHYWNr.mp4",
+        "publishedAt": "2026-09-13T16:22:28.000Z",
+        "durationSeconds": 26,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099228915768144207",
+      "tweetId": "2099228915768144207",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:32.449Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099228915768144207",
+        "tweetUrl": "https://x.com/jaimintf/status/2099228915768144207",
+        "authorHandle": "jaimintf",
+        "authorName": "jaimin",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090476714908680202/iA4V5MvL.jpg",
+        "text": "best app ideas are rather simple to find.\n\n&gt; go to appllama\n&gt; filter apps with revenue more than $25k\n&gt; ratings less than 4.5\n&gt; pick the worst rated ones\n&gt; build it better using appllama mcp\n\nthank me later :) https://t.co/uftTXGGDon",
+        "createdAt": "2026-09-13T20:09:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099228741251497986/vid/avc1/3840x2160/t0XLr7C61VqJEjcN.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099228741251497986/img/bsWx8bEMqoWXNeLF.jpg",
+            "durationMs": 28332
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "jaimintf",
+        "company": "jaimin",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099228915768144207",
+        "slug": "jaimin-144207",
+        "title": "best app ideas are rather simple to find. &gt; go to appllama &gt; filter apps with revenue more…",
+        "product": "jaimin",
+        "company": "jaimin",
+        "description": "best app ideas are rather simple to find. &gt; go to appllama &gt; filter apps with revenue more than $25k &gt; ratings less than 4.5 &gt; pick the worst rated ones &gt; build it better using appllama mcp thank me later :)",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/jaimintf/status/2099228915768144207",
+        "tweetId": "2099228915768144207",
+        "authorName": "jaimin",
+        "authorHandle": "jaimintf",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090476714908680202/iA4V5MvL.jpg",
+        "poster": "/posters/jaimin-144207.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099228741251497986/vid/avc1/3840x2160/t0XLr7C61VqJEjcN.mp4",
+        "publishedAt": "2026-09-13T20:09:09.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099112302020546860",
+      "tweetId": "2099112302020546860",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:32.120Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099112302020546860",
+        "tweetUrl": "https://x.com/Stefan_3D_AI/status/2099112302020546860",
+        "authorHandle": "Stefan_3D_AI",
+        "authorName": "Stefan 3D AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1929963548442275844/tQZfTm8T.jpg",
+        "text": "A playable MetaHuman in Unreal Engine whose animation comes from a real-time AI, on CPU.\n\nThat's NVIDIA MotionBricks after the localai-org folks ported it to C++/GGML: a 0.73 GB model, free, running locally without a GPU.\n\nI wrote the Unreal plugin, wired up all 15 movement https://t.co/XzR0VHnVpj",
+        "createdAt": "2026-09-13T12:25:47.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099111071533719552/vid/avc1/1920x1080/CR4HFzGRxaQEqHei.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099111071533719552/img/P3lX43fTt7IaRKof.jpg",
+            "durationMs": 49300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Stefan_3D_AI",
+        "company": "Stefan 3D AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099112302020546860",
+        "slug": "stefan-3d-ai-546860",
+        "title": "A playable MetaHuman in Unreal Engine whose animation comes from a real-time AI, on CPU. That's N…",
+        "product": "Stefan 3D AI",
+        "company": "Stefan 3D AI",
+        "description": "A playable MetaHuman in Unreal Engine whose animation comes from a real-time AI, on CPU. That's NVIDIA MotionBricks after the localai-org folks ported it to C++/GGML: a 0.73 GB model, free, running locally without a GPU. I wrote the Unreal plugin, wired up all 15 movement",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Stefan_3D_AI/status/2099112302020546860",
+        "tweetId": "2099112302020546860",
+        "authorName": "Stefan 3D AI",
+        "authorHandle": "Stefan_3D_AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1929963548442275844/tQZfTm8T.jpg",
+        "poster": "/posters/stefan-3d-ai-546860.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099111071533719552/vid/avc1/1920x1080/CR4HFzGRxaQEqHei.mp4",
+        "publishedAt": "2026-09-13T12:25:47.000Z",
+        "durationSeconds": 49,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099280190635700659",
+      "tweetId": "2099280190635700659",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:31.788Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099280190635700659",
+        "tweetUrl": "https://x.com/adocomplete/status/2099280190635700659",
+        "authorHandle": "adocomplete",
+        "authorName": "Ado",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8.jpg",
+        "text": "Weekend hacking highlight: built by own Figma/Paper design studio. \n\nIt supports multiplayer, AI assistance in design, code export in multiple formats, and much more. This was super fun to build and I have so many ideas for v2. https://t.co/hPCYUIS6SV",
+        "createdAt": "2026-09-13T23:32:54.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099279816017186816/vid/avc1/1824x1080/8pJrcvKcKOzcF6pC.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099279816017186816/img/NMNauXUxTq-3BTKy.jpg",
+            "durationMs": 28133
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "adocomplete",
+        "company": "Ado",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099280190635700659",
+        "slug": "ado-700659",
+        "title": "Weekend hacking highlight: built by own Figma/Paper design studio. It supports multiplayer, AI as…",
+        "product": "Ado",
+        "company": "Ado",
+        "description": "Weekend hacking highlight: built by own Figma/Paper design studio. It supports multiplayer, AI assistance in design, code export in multiple formats, and much more. This was super fun to build and I have so many ideas for v2.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/adocomplete/status/2099280190635700659",
+        "tweetId": "2099280190635700659",
+        "authorName": "Ado",
+        "authorHandle": "adocomplete",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8.jpg",
+        "poster": "/posters/ado-700659.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099279816017186816/vid/avc1/1824x1080/8pJrcvKcKOzcF6pC.mp4",
+        "publishedAt": "2026-09-13T23:32:54.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099136570532250104",
+      "tweetId": "2099136570532250104",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:31.441Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2099136570532250104",
+        "tweetUrl": "https://x.com/maestro__dev/status/2099136570532250104",
+        "authorHandle": "maestro__dev",
+        "authorName": "Maestro",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090853062596251648/-T658S5n.jpg",
+        "text": "Automate your UI tests any way you want: with your coding agent, tap by tap in Maestro Studio's visual IDE, or in your own editor and run from the CLI.\n\nAll 3 in Maestro. OPEN SOURCE. https://t.co/4PgLBm5akC",
+        "createdAt": "2026-09-13T14:02:13.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099136536818454528/vid/avc1/1284x1080/0mfRnmYHamBWMAnb.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099136536818454528/img/AT_kcPSdwbT-gIyY.jpg",
+            "durationMs": 35247
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "maestro__dev",
+        "company": "Maestro",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099136570532250104",
+        "slug": "maestro-250104",
+        "title": "Automate your UI tests any way you want: with your coding agent, tap by tap in Maestro Studio's v…",
+        "product": "Maestro",
+        "company": "Maestro",
+        "description": "Automate your UI tests any way you want: with your coding agent, tap by tap in Maestro Studio's visual IDE, or in your own editor and run from the CLI. All 3 in Maestro. OPEN SOURCE.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/maestro__dev/status/2099136570532250104",
+        "tweetId": "2099136570532250104",
+        "authorName": "Maestro",
+        "authorHandle": "maestro__dev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2090853062596251648/-T658S5n.jpg",
+        "poster": "/posters/maestro-250104.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099136536818454528/vid/avc1/1284x1080/0mfRnmYHamBWMAnb.mp4?tag=16",
+        "publishedAt": "2026-09-13T14:02:13.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099108282514182290",
+      "tweetId": "2099108282514182290",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:31.115Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2099108282514182290",
+        "tweetUrl": "https://x.com/agentlayer_ai/status/2099108282514182290",
+        "authorHandle": "agentlayer_ai",
+        "authorName": "AgentLayer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2024112901783433217/9j27Ydr8.jpg",
+        "text": "introducing agentlayer x402 mcp\n\ngive your agent the ability to discover and pay for services\n\n- easy connection: just paste the link and sign in with google/github\n- nothing extra: x402 only\n- use it across different agentic apps with one wallet for all\n\nworks across popular ai https://t.co/jNZMLMOEok",
+        "createdAt": "2026-09-13T12:09:48.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099108254148407296/vid/avc1/1920x1080/3wchlosCwICWTWro.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099108254148407296/img/DhD-G3v8q7eAtV5i.jpg",
+            "durationMs": 12600
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "agentlayer_ai",
+        "company": "AgentLayer",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099108282514182290",
+        "slug": "agentlayer-182290",
+        "title": "introducing agentlayer x402 mcp give your agent the ability to discover and pay for services - ea…",
+        "product": "AgentLayer",
+        "company": "AgentLayer",
+        "description": "introducing agentlayer x402 mcp give your agent the ability to discover and pay for services - easy connection: just paste the link and sign in with google/github - nothing extra: x402 only - use it across different agentic apps with one wallet for all works across popular ai",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/agentlayer_ai/status/2099108282514182290",
+        "tweetId": "2099108282514182290",
+        "authorName": "AgentLayer",
+        "authorHandle": "agentlayer_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2024112901783433217/9j27Ydr8.jpg",
+        "poster": "/posters/agentlayer-182290.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099108254148407296/vid/avc1/1920x1080/3wchlosCwICWTWro.mp4",
+        "publishedAt": "2026-09-13T12:09:48.000Z",
+        "durationSeconds": 13,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098961015413313736",
+      "tweetId": "2098961015413313736",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:30.785Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098961015413313736",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098961015413313736",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "GPT-6 Astra upgraded the fly. It’s doing motion design now. https://t.co/PHSKNcXNn1",
+        "createdAt": "2026-09-13T02:24:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098960786144325632/vid/avc1/1920x1080/CrTBq9TTjOtaQ6Dx.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098960786144325632/img/XYunFVb8XrZ7pu-v.jpg",
+            "durationMs": 25000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098961015413313736",
+        "slug": "higgsfield-ai-313736",
+        "title": "GPT-6 Astra upgraded the fly. It’s doing motion design now.",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "GPT-6 Astra upgraded the fly. It’s doing motion design now.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098961015413313736",
+        "tweetId": "2098961015413313736",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-313736.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098960786144325632/vid/avc1/1920x1080/CrTBq9TTjOtaQ6Dx.mp4",
+        "publishedAt": "2026-09-13T02:24:37.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2098935884989321286",
+      "tweetId": "2098935884989321286",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:30.449Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2098935884989321286",
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098935884989321286",
+        "authorHandle": "higgsfield_ai",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "text": "We can’t hide it anymore…\n\nIf you’re an animator, you have to try this. GPT-6 Astra + Photoshop. https://t.co/ARynv5BpEt",
+        "createdAt": "2026-09-13T00:44:45.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2098935832614981632/vid/avc1/1440x1080/MNMeXL8vpjKABzW4.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098935832614981632/img/fPgIF-Kkga-t2_tg.jpg",
+            "durationMs": 14953
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield_ai",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2098935884989321286",
+        "slug": "higgsfield-ai-321286",
+        "title": "We can’t hide it anymore… If you’re an animator, you have to try this. GPT-6 Astra + Photoshop.",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "We can’t hide it anymore… If you’re an animator, you have to try this. GPT-6 Astra + Photoshop.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield_ai/status/2098935884989321286",
+        "tweetId": "2098935884989321286",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU.jpg",
+        "poster": "/posters/higgsfield-ai-321286.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2098935832614981632/vid/avc1/1440x1080/MNMeXL8vpjKABzW4.mp4",
+        "publishedAt": "2026-09-13T00:44:45.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099256905239535988",
+      "tweetId": "2099256905239535988",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:30.126Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099256905239535988",
+        "tweetUrl": "https://x.com/tableau/status/2099256905239535988",
+        "authorHandle": "tableau",
+        "authorName": "Tableau",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h.jpg",
+        "text": "Analytics just got a lot more conversational. \n\nThe new Tableau plugin for @ChatGPT Work lets you build, create, and publish Tableau visualizations—right inside your AI workflow. \n\nFull interactivity, zero screenshots, and built on the data you already trust.\n\nLearn more about https://t.co/QzUuRIq2RR",
+        "createdAt": "2026-09-13T22:00:23.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099256841662242819/vid/avc1/1850x1080/zLK6vuX7mrtgYQ0h.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/media/HSIPA19W0A0cJHw.jpg",
+            "durationMs": 28233
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "tableau",
+        "company": "Tableau",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099256905239535988",
+        "slug": "tableau-535988",
+        "title": "Analytics just got a lot more conversational. The new Tableau plugin for @ChatGPT Work lets you b…",
+        "product": "Tableau",
+        "company": "Tableau",
+        "description": "Analytics just got a lot more conversational. The new Tableau plugin for @ChatGPT Work lets you build, create, and publish Tableau visualizations—right inside your AI workflow. Full interactivity, zero screenshots, and built on the data you already trust. Learn more about",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/tableau/status/2099256905239535988",
+        "tweetId": "2099256905239535988",
+        "authorName": "Tableau",
+        "authorHandle": "tableau",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h.jpg",
+        "poster": "/posters/tableau-535988.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099256841662242819/vid/avc1/1850x1080/zLK6vuX7mrtgYQ0h.mp4?tag=16",
+        "publishedAt": "2026-09-13T22:00:23.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099197195907973362",
+      "tweetId": "2099197195907973362",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:29.661Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2099197195907973362",
+        "tweetUrl": "https://x.com/framer/status/2099197195907973362",
+        "authorHandle": "framer",
+        "authorName": "Framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "text": "How to build the iPhone Duo folding slider with the Framer Agent\n\n00:11 Recreate the section in Framer\n00:15 Add the prompt\n01:03 Upload frames in sequence order\n01:13 Paste all the images\n01:22 Hit play\n\nThe Framer Agent can build it in under a minute. Just prompt it. https://t.co/mnOqiTQnwv",
+        "createdAt": "2026-09-13T18:03:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099141686035152899/vid/avc1/2560x1440/QXmShsrxLrGB4JmO.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099141686035152899/img/YQEHa3Q8JPvR20Ee.jpg",
+            "durationMs": 93332
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "framer",
+        "company": "Framer",
+        "category": "design",
+        "tags": [
+          "design",
+          "web"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2099197195907973362",
+        "slug": "framer-973362",
+        "title": "How to build the iPhone Duo folding slider with the Framer Agent 00:11 Recreate the section in Fr…",
+        "product": "Framer",
+        "company": "Framer",
+        "description": "How to build the iPhone Duo folding slider with the Framer Agent 00:11 Recreate the section in Framer 00:15 Add the prompt 01:03 Upload frames in sequence order 01:13 Paste all the images 01:22 Hit play The Framer Agent can build it in under a minute. Just prompt it.",
+        "category": "design",
+        "tags": [
+          "design",
+          "web",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/framer/status/2099197195907973362",
+        "tweetId": "2099197195907973362",
+        "authorName": "Framer",
+        "authorHandle": "framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "poster": "/posters/framer-973362.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099141686035152899/vid/avc1/2560x1440/QXmShsrxLrGB4JmO.mp4",
+        "publishedAt": "2026-09-13T18:03:07.000Z",
+        "durationSeconds": 93,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099187195345330561",
+      "tweetId": "2099187195345330561",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:29.331Z",
+      "reviewedAt": null,
+      "score": 60,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2099187195345330561",
+        "tweetUrl": "https://x.com/TheAgentNet/status/2099187195345330561",
+        "authorHandle": "TheAgentNet",
+        "authorName": "AgentNet",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098672584997105664/Ef9WBgbf.jpg",
+        "text": "Introducing Webagent.\n\nour open source harness for creating public facing agents in minutes.\n\ngive it your website, get an agent, let it talk to other agents.\n\nyour website, now agent ready. https://t.co/neAKbSRD7A",
+        "createdAt": "2026-09-13T17:23:23.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099187163762135040/vid/avc1/1920x1080/IV-fOijXOdJCx5Gx.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099187163762135040/img/dSTTLpw0p2ndOTok.jpg",
+            "durationMs": 12010
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "TheAgentNet",
+        "company": "AgentNet",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099187195345330561",
+        "slug": "agentnet-330561",
+        "title": "Introducing Webagent. our open source harness for creating public facing agents in minutes. give…",
+        "product": "AgentNet",
+        "company": "AgentNet",
+        "description": "Introducing Webagent. our open source harness for creating public facing agents in minutes. give it your website, get an agent, let it talk to other agents. your website, now agent ready.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/TheAgentNet/status/2099187195345330561",
+        "tweetId": "2099187195345330561",
+        "authorName": "AgentNet",
+        "authorHandle": "TheAgentNet",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098672584997105664/Ef9WBgbf.jpg",
+        "poster": "/posters/agentnet-330561.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099187163762135040/vid/avc1/1920x1080/IV-fOijXOdJCx5Gx.mp4",
+        "publishedAt": "2026-09-13T17:23:23.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2099204649127673873",
+      "tweetId": "2099204649127673873",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-14T02:45:28.998Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2099204649127673873",
+        "tweetUrl": "https://x.com/pwnies/status/2099204649127673873",
+        "authorHandle": "pwnies",
+        "authorName": "Jacob Miller",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1040132216297144320/Pkujbodk.jpg",
+        "text": "Just launched https://t.co/KvGLEERdA8, an autoresearch loop for speeding up your frontend. \n\nI spent ~$10k in fable api credits speeding up the top 200 github repos, took the learnings and tracked the most common wins.\n\nThe loop iterates through them to find speedups. https://t.co/lIXXC4vuPi",
+        "createdAt": "2026-09-13T18:32:44.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2099204277348831233/vid/avc1/1152x794/lKmKU1rwHtiqfZo3.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099204277348831233/img/yvxHaIOkAK7zg-oW.jpg",
+            "durationMs": 21055
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "pwnies",
+        "company": "Jacob Miller",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2099204649127673873",
+        "slug": "jacob-miller-673873",
+        "title": "Just launched an autoresearch loop for speeding up your frontend. I spent ~$10k in fable api cred…",
+        "product": "Jacob Miller",
+        "company": "Jacob Miller",
+        "description": "Just launched an autoresearch loop for speeding up your frontend. I spent ~$10k in fable api credits speeding up the top 200 github repos, took the learnings and tracked the most common wins. The loop iterates through them to find speedups.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/pwnies/status/2099204649127673873",
+        "tweetId": "2099204649127673873",
+        "authorName": "Jacob Miller",
+        "authorHandle": "pwnies",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1040132216297144320/Pkujbodk.jpg",
+        "poster": "/posters/jacob-miller-673873.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2099204277348831233/vid/avc1/1152x794/lKmKU1rwHtiqfZo3.mp4",
+        "publishedAt": "2026-09-13T18:32:44.000Z",
+        "durationSeconds": 21,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2098879082456875474",
       "tweetId": "2098879082456875474",
