@@ -694,5 +694,15 @@
     "url": "https://clapper.archastro.tryintern.dev/",
     "category": "editor",
     "poster": "/posters/tools/clapper.webp"
+  },
+  {
+    "id": "tool-lumary",
+    "slug": "lumary",
+    "name": "Lumary",
+    "tagline": "Your screen. Your studio.",
+    "description": "Professional screen recording for macOS with multi-source capture, screen annotation, ProRes workflows, on-device transcription, and privacy-first architecture.",
+    "url": "https://lumary.app/",
+    "category": "editor",
+    "poster": "/posters/tools/lumary.webp"
   }
 ]
