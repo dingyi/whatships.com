@@ -684,5 +684,15 @@
     "url": "https://gramotion.video/",
     "category": "motion",
     "poster": "/posters/tools/gramotion.webp"
+  },
+  {
+    "id": "tool-clapper",
+    "slug": "clapper",
+    "name": "Clapper",
+    "tagline": "Write videos in React. Render them to MP4.",
+    "description": "Write videos in React, render them to MP4, and review them like a studio. Open source, MIT. Every frame is a function of the frame number. Music is TypeScript.",
+    "url": "https://clapper.archastro.tryintern.dev/",
+    "category": "editor",
+    "poster": "/posters/tools/clapper.webp"
   }
 ]
