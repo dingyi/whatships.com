@@ -38,7 +38,8 @@ describe("directory video projection", () => {
     expect(slim).not.toHaveProperty("featured");
     expect(slim).not.toHaveProperty("status");
     expect(slim).not.toHaveProperty("tweetId");
-    expect(slim).not.toHaveProperty("authorAvatar");
+    // The card avatar renders from this — it rides along now.
+    expect(slim.authorAvatar).toBe(seed.authorAvatar);
     expect(gridPoster("/posters/mojo.webp")).toBe("/posters/mojo-960.webp");
   });
 });

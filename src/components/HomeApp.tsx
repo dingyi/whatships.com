@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, ExternalLink, Play } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight, Play } from "lucide-react";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import PageHeader from "@/components/PageHeader";
@@ -11,9 +11,12 @@ import {
 } from "@/components/ui/select";
 import {
   CATEGORIES,
+  authorAvatarSrc,
   categoryLabel,
   formatDuration,
   formatPublishedAt,
+  formatViewsDetail,
+  formatViewsLabel,
 } from "@/lib/catalog";
 import { ShapeProvider } from "@/lib/shape-context";
 import {
@@ -87,6 +90,8 @@ function VideoCard({
   index: number;
 }) {
   const duration = formatDuration(video.durationSeconds);
+  const viewsLabel = formatViewsLabel(video);
+  const viewsDetail = formatViewsDetail(video);
   // Mobile shows one column; only the first two posters are above the fold.
   const eager = index < 2;
   const small = gridPoster(video.poster);
@@ -116,7 +121,9 @@ function VideoCard({
           type="button"
           className="video-card__media"
           onClick={() => onPlay(video)}
-          aria-label={`Play ${video.title}${duration ? `, ${duration}` : ""}`}
+          aria-label={`Play ${video.title}${duration ? `, ${duration}` : ""}${
+            viewsDetail ? `, ${viewsDetail}` : ""
+          }`}
         >
           <img
             src={small}
@@ -132,14 +139,37 @@ function VideoCard({
           <span className="video-card__play" aria-hidden="true">
             <Play size={18} fill="currentColor" />
           </span>
+          {viewsLabel && (
+            <span
+              className="video-card__views"
+              title={viewsDetail ?? undefined}
+              aria-hidden="true"
+            >
+              {viewsLabel}
+            </span>
+          )}
           {duration && (
             <span className="video-card__duration" aria-hidden="true">
               {duration}
             </span>
           )}
-          <span className="video-card__hover-label" aria-hidden="true">
-            <span>{video.company}</span>
-          </span>
+          {video.authorAvatar && (
+            <span className="video-card__author" aria-hidden="true">
+              <img
+                src={authorAvatarSrc(video.authorAvatar)}
+                data-orig={video.authorAvatar}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                width="20"
+                height="20"
+              />
+              <span className="video-card__author-handle">
+                @{video.authorHandle}
+              </span>
+            </span>
+          )}
         </button>
         <div className="video-card__body">
           <div>
@@ -178,7 +208,7 @@ function VideoCard({
         rel="noopener noreferrer"
         aria-label={`Open original post for ${video.title} on X`}
       >
-        <ExternalLink size={17} aria-hidden="true" />
+        <ArrowUpRight size={11} aria-hidden="true" />
       </a>
     </article>
   );

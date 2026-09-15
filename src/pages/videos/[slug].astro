@@ -8,6 +8,7 @@ import {
   categoryLabel,
   formatDuration,
   formatPublishedAt,
+  formatViewsCount,
   getSimilarVideos,
   normalizeTweetUrl,
   playbackUrl,
@@ -51,6 +52,10 @@ const totalLabel = String(total).padStart(counterWidth, "0");
 const monogram = video.company.trim().slice(0, 1).toUpperCase();
 const similarVideos = getSimilarVideos(video);
 const duration = formatDuration(video.durationSeconds);
+const viewsCount = formatViewsCount(video.views);
+const viewsCaptured = video.viewsCapturedAt
+  ? formatPublishedAt(video.viewsCapturedAt)
+  : null;
 const handle = video.authorHandle.replace(/^@/, "");
 const tweetUrl = normalizeTweetUrl(video.tweetUrl);
 const categoryLabelLower = categoryLabel(video.category).toLowerCase();
@@ -262,6 +267,21 @@ const videoJsonLd = {
             </div>
           )
         }
+        {
+          viewsCount && (
+            <div class="detail-fact">
+              <dt>Views on X</dt>
+              <dd>
+                {viewsCount}
+                {viewsCaptured && (
+                  <span class="detail-fact__note">
+                    snapshot {viewsCaptured}
+                  </span>
+                )}
+              </dd>
+            </div>
+          )
+        }
         <div class="detail-fact">
           <dt>Author</dt>
           <dd>
@@ -345,6 +365,14 @@ const videoJsonLd = {
             duration && (
               <li>
                 <strong>Runtime</strong> {duration}
+              </li>
+            )
+          }
+          {
+            viewsCount && (
+              <li>
+                <strong>Views on X</strong> {viewsCount}
+                {viewsCaptured && ` as of ${viewsCaptured}`}
               </li>
             )
           }
@@ -455,9 +483,6 @@ const videoJsonLd = {
                   <span class="video-card__play" aria-hidden="true">
                     <Play size={18} fill="currentColor" />
                   </span>
-                  <span class="video-card__hover-label" aria-hidden="true">
-                    <span>{similar.company}</span>
-                  </span>
                 </div>
                 <div class="video-card__body">
                   <div>
@@ -477,7 +502,7 @@ const videoJsonLd = {
                 rel="noopener noreferrer"
                 aria-label={`Open original post for ${similar.title} on X`}
               >
-                <ArrowUpRight size={17} aria-hidden="true" />
+                <ArrowUpRight size={11} aria-hidden="true" />
               </a>
             </article>
           ))

@@ -81,9 +81,6 @@ import {
                       width="1440"
                       height="810"
                     />
-                    <span class="video-card__hover-label" aria-hidden="true">
-                      <span>Visit site</span>
-                    </span>
                   </a>
                   <div class="video-card__body">
                     <div>
@@ -106,8 +103,8 @@ import {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="17"
-                    height="17"
+                    width="11"
+                    height="11"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -116,9 +113,8 @@ import {
                     stroke-linejoin="round"
                     aria-hidden="true"
                   >
-                    <path d="M15 3h6v6"></path>
-                    <path d="M10 14 21 3"></path>
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
                   </svg>
                 </a>
               </article>
@@ -191,8 +187,9 @@ import {
     line-height: 16px;
     text-transform: uppercase;
   }
+  /* 12px card pad + 16px kicker + 8px kicker margin + 9px media inset. */
   .directory .video-card__external {
-    top: 46px;
+    top: 45px;
   }
   @media (max-width: 699px) {
     .tool-filter {

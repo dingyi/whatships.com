@@ -4,9 +4,12 @@ import PageHeader from "@/components/PageHeader";
 import SiteFooter from "@/components/SiteFooter.astro";
 import {
   CATEGORIES,
+  authorAvatarSrc,
   categoryLabel,
   formatDuration,
   formatPublishedAt,
+  formatViewsDetail,
+  formatViewsLabel,
   publishedVideos,
 } from "@/lib/catalog";
 import { PAGE_SIZE, gridPoster } from "@/lib/directory";
@@ -147,6 +150,8 @@ const categoryJsonLd = {
           shown.map((video, index) => {
             const small = gridPoster(video.poster);
             const duration = formatDuration(video.durationSeconds);
+            const viewsLabel = formatViewsLabel(video);
+            const viewsDetail = formatViewsDetail(video);
             return (
               <article class="video-card" id={video.id}>
                 <span class="corner one" aria-hidden="true" />
@@ -157,7 +162,7 @@ const categoryJsonLd = {
                   <a
                     class="video-card__media"
                     href={`/videos/${video.slug}/`}
-                    aria-label={`Open ${video.title}`}
+                    aria-label={`Open ${video.title}${viewsDetail ? `, ${viewsDetail}` : ""}`}
                   >
                     <img
                       src={small}
@@ -183,14 +188,37 @@ const categoryJsonLd = {
                         <polygon points="6 3 20 12 6 21 6 3" />
                       </svg>
                     </span>
+                    {viewsLabel && (
+                      <span
+                        class="video-card__views"
+                        title={viewsDetail ?? undefined}
+                        aria-hidden="true"
+                      >
+                        {viewsLabel}
+                      </span>
+                    )}
                     {duration && (
                       <span class="video-card__duration" aria-hidden="true">
                         {duration}
                       </span>
                     )}
-                    <span class="video-card__hover-label" aria-hidden="true">
-                      <span>{video.company}</span>
-                    </span>
+                    {video.authorAvatar && (
+                      <span class="video-card__author" aria-hidden="true">
+                        <img
+                          src={authorAvatarSrc(video.authorAvatar)}
+                          data-orig={video.authorAvatar}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          referrerpolicy="no-referrer"
+                          width="20"
+                          height="20"
+                        />
+                        <span class="video-card__author-handle">
+                          @{video.authorHandle}
+                        </span>
+                      </span>
+                    )}
                   </a>
                   <div class="video-card__body">
                     <div>
@@ -214,8 +242,8 @@ const categoryJsonLd = {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="17"
-                    height="17"
+                    width="11"
+                    height="11"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -224,11 +252,8 @@ const categoryJsonLd = {
                     stroke-linejoin="round"
                     aria-hidden="true"
                   >
-                    <path d="M15 3h6v6"></path>
-                    <path d="M10 14 21 3"></path>
-                    <path
-                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                    />
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
                   </svg>
                 </a>
               </article>
@@ -267,40 +292,5 @@ const categoryJsonLd = {
     border: 0.5px solid var(--grid-line);
     background: var(--card);
     color: var(--muted-foreground);
-    font-family: var(--font-mono);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    line-height: 1;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  .category-chip:hover {
-    color: var(--foreground);
-    border-color: var(--n-400);
-  }
-  .category-chip[aria-current="page"] {
-    background: var(--foreground);
-    border-color: var(--foreground);
-    color: var(--background);
-  }
-  .category-chip:focus-visible {
-    outline: 2px solid var(--focus-ring);
-    outline-offset: 2px;
-  }
-  .category-more {
-    margin: 16px 0 0;
-    color: var(--muted-foreground);
-    font-size: 13px;
-  }
-  .category-more a {
-    color: var(--foreground);
-    text-underline-offset: 2px;
-  }
-  @media (max-width: 699px) {
-    .category-chip {
-      min-height: 44px;
-      padding: 0 12px;
-    }
-  }
-</style>
+
+[Showing lines 1-300 of 338. Use :301 to continue]

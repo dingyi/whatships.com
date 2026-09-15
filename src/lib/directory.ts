@@ -18,10 +18,13 @@ export type DirectoryVideo = Pick<
   | "tweetUrl"
   | "authorName"
   | "authorHandle"
+  | "authorAvatar"
   | "poster"
   | "videoUrl"
   | "publishedAt"
   | "durationSeconds"
+  | "views"
+  | "viewsCapturedAt"
 > & {
   streamUrl?: string | null;
 };
@@ -39,12 +42,15 @@ export function toDirectoryVideo(video: LaunchVideo): DirectoryVideo {
     tweetUrl: video.tweetUrl,
     authorName: video.authorName,
     authorHandle: video.authorHandle,
+    authorAvatar: video.authorAvatar,
     poster: video.poster,
     videoUrl: video.videoUrl,
     publishedAt: video.publishedAt,
     durationSeconds: video.durationSeconds,
   };
   if (video.streamUrl) item.streamUrl = video.streamUrl;
+  if (typeof video.views === "number") item.views = video.views;
+  if (video.viewsCapturedAt) item.viewsCapturedAt = video.viewsCapturedAt;
   return item;
 }
 

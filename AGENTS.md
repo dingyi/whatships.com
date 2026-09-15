@@ -60,7 +60,11 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
    `node scripts/capture-posters.mjs --slug=<slug>` — emits
    `public/posters/<slug>.webp` (1440×810) and `<slug>-960.webp` (grid).
    The script no longer produces streams; ignore `public/streams` entirely.
-4. `node_modules/.bin/vitest run` → `astro build` → commit
+4. Snapshot the view count: `node scripts/fetch-views.mjs --slug=<slug>`
+   writes `views` + `viewsCapturedAt` (see "View counts" below). Optional —
+   the card chip simply does not render without it — but every published
+   entry is expected to have one.
+5. `node_modules/.bin/vitest run` → `astro build` → commit
    (`videos.json` + `public/posters/`) → push. Actions deploys in ~1 min.
    New pages can 404 briefly at the edge; retry before assuming failure.
 
@@ -74,6 +78,20 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
   IDs are `studio-<slug>` or `person-<slug>`.
 - Categories (`src/lib/catalog.ts`): `ai`, `developer-tools`, `design`,
   `motion`, `productivity`, `consumer`, `hardware`, `other`.
+- **View counts**: `views` + `viewsCapturedAt` on a catalog entry are a
+  *snapshot* — X view counts only grow, so a number without its capture
+  date is a lie. The syndication endpoint we use for adding videos does
+  **not** return view counts; `scripts/fetch-views.mjs` reads them from the
+  public fxtwitter mirror (`api.fxtwitter.com/i/status/<id>`) instead.
+  Default run refreshes only unread/stale (>14 days) snapshots;
+  `--all` refreshes everything, `--slug=` targets one, `--dry-run` fetches
+  without writing. `views: null` plus a stamp means "read it, the provider
+  had no count" (deleted post or withheld metrics) — those age like any
+  other snapshot, so the default run stays a no-op and exits 0. A dozen
+  entries are in that state; the linked post being gone is an editorial
+  call, not something the script can repair. Never fetch views at build
+  time — the catalog stays a plain committed file, and `astro build` must
+  not depend on a third party.
 - Admin review queue: `src/data/inbox.json` + local-only `/admin`
   (`pnpm dev` → http://localhost:4321/admin/; never shipped in `astro build`).
   `scripts/apply-inbox.mjs` merges approved drafts.
@@ -103,5 +121,9 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
   (not committed).
 - Grid posters need both sizes; `poster` field always points to the 1440w
   file, code derives the `-960` variant.
+- Card overlays come in pairs: the view chip (`.video-card__views`) sits
+  top-left and the runtime (`.video-card__duration`) bottom-right. They
+  share one token block in `global.css` — restyle them together, and keep
+  the exact count + capture date in the chip's `title`.
 - Validate pnpm config edits — no placeholder text in
   `pnpm-workspace.yaml` (`allowBuilds` takes booleans).

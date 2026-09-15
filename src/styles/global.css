@@ -186,7 +186,6 @@
   --corner-color: var(--n-600);
   --grid-line: var(--n-300);
   --media-border: var(--n-200);
-  --hover-scrim: rgb(0 0 0 / 0.85);
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
@@ -977,31 +976,7 @@ img {
 .video-card:hover .video-card__media img {
   transform: none;
 }
-.video-card__hover-label {
-  pointer-events: none;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--media-border);
-  opacity: 0;
-  background: var(--hover-scrim);
-  backdrop-filter: grayscale(1);
-  transition: opacity 140ms ease;
-}
-.video-card__media:hover .video-card__hover-label,
-.video-card__media:focus-visible .video-card__hover-label {
-  opacity: 1;
-}
-.video-card__hover-label span {
-  color: #fafafa;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
+
 .video-card__body {
   display: block;
   min-height: 48px;
@@ -1051,22 +1026,30 @@ img {
   letter-spacing: -0.01em;
   line-height: 18px;
 }
+/* Fourth corner overlay, same scrim language as the views/duration chips
+   and the author pill. 21px = the card's 12px padding + the media's 1px
+   border + the 8px inset those three share. */
 .video-card__external {
   position: absolute;
-  top: 18px;
-  right: 18px;
+  top: 21px;
+  right: 21px;
   z-index: 3;
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 16px;
+  height: 16px;
   place-items: center;
-  border: 0.5px solid var(--grid-line);
+  border: 0;
   border-radius: 0;
-  background: var(--card);
-  color: var(--foreground);
+  background: rgb(0 0 0 / 45%);
+  color: rgb(255 255 255 / 92%);
   opacity: 0;
-  transform: none;
-  transition: opacity 140ms ease;
+  transition: opacity var(--duration-quick) var(--ease-smooth-out);
+}
+/* Chip-height box, 44px tap target — it stays visible on touch. */
+.video-card__external::after {
+  content: "";
+  position: absolute;
+  inset: -14px;
 }
 .video-card:hover .video-card__external,
 .video-card__external:focus-visible {
@@ -1769,6 +1752,15 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   line-height: 1.55;
   text-align: right;
 }
+/* Snapshot caveat under a detail value — view counts are read at a point in
+   time, not live. */
+.detail-fact__note {
+  display: block;
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
 .detail-fact--about dd {
   max-width: 440px;
   justify-self: end;
@@ -2106,34 +2098,110 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   width: 42px;
   height: 42px;
   place-items: center;
-  border: 0.5px solid rgb(255 255 255 / 35%);
-  border-radius: 0;
-  background: rgb(0 0 0 / 55%);
-  color: var(--n-50);
-  opacity: 0.95;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: opacity 140ms ease;
-}
-.video-card__media:hover .video-card__play {
-  opacity: 0;
-}
-.video-card__duration {
-  position: absolute;
-  right: 8px;
-  bottom: 8px;
-  z-index: 1;
-  padding: 3px 6px;
-  border: 0.5px solid rgb(255 255 255 / 20%);
+  border: 0.5px solid rgb(255 255 255 / 70%);
   border-radius: 0;
   background: rgb(0 0 0 / 72%);
-  color: #fafafa;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition:
+    background var(--duration-quick) var(--ease-smooth-out),
+    border-color var(--duration-quick) var(--ease-smooth-out);
+}
+.video-card__media:hover .video-card__play {
+  background: rgb(0 0 0 / 82%);
+  border-color: rgb(255 255 255 / 85%);
+}
+.video-card__duration,
+.video-card__views {
+  position: absolute;
+  z-index: 1;
+  padding: 2px 5px;
+  border-radius: 0;
+  background: rgb(0 0 0 / 45%);
+  color: rgb(255 255 255 / 92%);
   font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.04em;
   line-height: 1.2;
+}
+.video-card__duration {
+  right: 8px;
+  bottom: 8px;
+}
+/* View counts are a snapshot of X, not a live number — the title attribute
+   carries the exact count and the capture date. */
+.video-card__views {
+  left: 8px;
+  top: 8px;
+}
+/* Grid cards hide the runtime until hover (posts.design-style); the detail
+   player reuses the class and keeps it visible. Duration stays in the
+   media's aria-label, so touch users lose nothing. */
+.video-card__media .video-card__duration {
+  opacity: 0;
+  transition: opacity var(--duration-quick) var(--ease-smooth-out);
+}
+.video-card__media:hover .video-card__duration,
+.video-card__media:focus-visible .video-card__duration {
+  opacity: 1;
+}
+/* Author pill: original poster's avatar, always present bottom-left in
+   grayscale; hover restores color and slides out the @handle. */
+.video-card__author {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 16px);
+  padding: 2px;
+  background: rgb(0 0 0 / 45%);
+  color: rgb(255 255 255 / 92%);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  pointer-events: none;
+}
+.video-card__author img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: filter var(--duration-quick) var(--ease-smooth-out);
+}
+.video-card__author-handle {
+  max-width: 0;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(calc(-1 * var(--distance-micro)));
+  transition:
+    max-width var(--duration-fast) var(--ease-smooth-out),
+    padding var(--duration-fast) var(--ease-smooth-out),
+    opacity var(--duration-quick) var(--ease-smooth-out),
+    transform var(--duration-fast) var(--ease-smooth-out);
+}
+.video-card__media:hover .video-card__author img,
+.video-card__media:focus-visible .video-card__author img {
+  filter: none;
+}
+.video-card__media:hover .video-card__author-handle,
+.video-card__media:focus-visible .video-card__author-handle {
+  max-width: 160px;
+  padding: 0 6px;
+  opacity: 1;
+  transform: none;
+}
+.video-card__author[hidden] {
+  display: none;
 }
 .video-card__meta {
   margin: 4px 0 0;
@@ -2185,14 +2253,17 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   width: 42px;
   height: 42px;
   place-items: center;
-  border: 0.5px solid rgb(255 255 255 / 35%);
+  border: 0.5px solid rgb(255 255 255 / 70%);
   border-radius: 0;
-  background: rgb(0 0 0 / 55%);
-  color: #fafafa;
-  transition: background 140ms ease;
+  background: rgb(0 0 0 / 72%);
+  color: #fff;
+  transition:
+    background var(--duration-quick) var(--ease-smooth-out),
+    border-color var(--duration-quick) var(--ease-smooth-out);
 }
 .detail-play-link:hover .detail-player__play {
-  background: rgb(0 0 0 / 72%);
+  background: rgb(0 0 0 / 82%);
+  border-color: rgb(255 255 255 / 85%);
 }
 .detail-play-link .video-card__duration {
   pointer-events: none;
