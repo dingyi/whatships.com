@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T12:08:57.304Z",
+  "updatedAt": "2026-09-15T13:02:36.326Z",
   "items": [
     {
       "id": "disc-2099633165895938073",
@@ -188,9 +188,9 @@
     {
       "id": "disc-2099571028649271462",
       "tweetId": "2099571028649271462",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-15T09:32:05.259Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T12:42:54.284Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -253,9 +253,9 @@
     {
       "id": "disc-2099550668893683815",
       "tweetId": "2099550668893683815",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-15T09:32:04.930Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T12:45:21.445Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -317,9 +317,9 @@
     {
       "id": "disc-2099573294219555065",
       "tweetId": "2099573294219555065",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-15T09:32:04.603Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T12:44:45.688Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -435,9 +435,9 @@
     {
       "id": "disc-2099570363998887963",
       "tweetId": "2099570363998887963",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-15T09:32:02.009Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T12:42:48.229Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -559,9 +559,9 @@
     {
       "id": "disc-2099609501943078913",
       "tweetId": "2099609501943078913",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-15T09:32:00.979Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T12:55:14.700Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -4581,66 +4581,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2098180775816376324/vid/avc1/1080x1080/29rhafJPgEAP9RQl.mp4",
         "publishedAt": "2026-09-10T22:48:37.000Z",
         "durationSeconds": 114,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2098063108816372219",
-      "tweetId": "2098063108816372219",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-11T04:40:17.182Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2098063108816372219",
-        "tweetUrl": "https://x.com/laxachx/status/2098063108816372219",
-        "authorHandle": "laxachx",
-        "authorName": "Laxman Acharya",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097381502908846080/nUGvFsa8.jpg",
-        "text": "We're officially launching ACHX Studio.\n\nLaunch videos for next unicorns.\n\nFor the last while, we've been quietly building a studio around one belief. Most products don't fail because they're bad. They fail because nobody understood them fast enough.\n\nThat's the gap we close.\n\nWe https://t.co/WMtGjIn6xS",
-        "createdAt": "2026-09-10T14:56:39.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2098061875942727680/vid/avc1/1280x720/RAjyXEOlNN2gOFiW.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2098061875942727680/img/JVh_pKLw1xyreWKn.jpg",
-            "durationMs": 68083
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "laxachx",
-        "company": "Laxman Acharya",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2098063108816372219",
-        "slug": "laxman-acharya-372219",
-        "title": "We're officially launching ACHX Studio. Launch videos for next unicorns. For the last while, we'v…",
-        "product": "Laxman Acharya",
-        "company": "Laxman Acharya",
-        "description": "We're officially launching ACHX Studio. Launch videos for next unicorns. For the last while, we've been quietly building a studio around one belief. Most products don't fail because they're bad. They fail because nobody understood them fast enough. That's the gap we close. We",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/laxachx/status/2098063108816372219",
-        "tweetId": "2098063108816372219",
-        "authorName": "Laxman Acharya",
-        "authorHandle": "laxachx",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2097381502908846080/nUGvFsa8.jpg",
-        "poster": "/posters/laxman-acharya-372219.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2098061875942727680/vid/avc1/1280x720/RAjyXEOlNN2gOFiW.mp4",
-        "publishedAt": "2026-09-10T14:56:39.000Z",
-        "durationSeconds": 68,
         "featured": false,
         "status": "draft"
       },
