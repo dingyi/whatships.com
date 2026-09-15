@@ -63,5 +63,16 @@
     "url": "https://rsquare.work/",
     "kind": "studio",
     "poster": "/posters/studios/rsquare.webp"
+  },
+  {
+    "id": "studio-achx",
+    "slug": "achx",
+    "name": "AchX",
+    "tagline": "Launch partner for next unicorns",
+    "description": "We create launch films, demos and content that make your audience trust you before you even pitch them. Founded by Lax Acharya.",
+    "url": "https://www.achxstudio.com/",
+    "kind": "studio",
+    "xHandle": "laxachx",
+    "poster": "/posters/studios/achx.webp"
   }
 ]
