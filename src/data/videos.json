@@ -56503,5 +56503,55 @@
     "durationSeconds": 65,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-linear-loops-update",
+    "slug": "linear-loops-update",
+    "title": "Linear Loops — trigger from projects and cycles",
+    "product": "Linear Loops",
+    "company": "Linear",
+    "description": "Linear Loops can now trigger from project, initiative, cycle, and issue changes, edit documents automatically, and send tailored Slack updates.",
+    "category": "productivity",
+    "tags": [
+      "linear",
+      "loops",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/linear/status/2099541754051530805",
+    "tweetId": "2099541754051530805",
+    "authorName": "Linear",
+    "authorHandle": "linear",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
+    "poster": "/posters/linear-loops-update.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2099536549826183168/vid/avc1/1920x1080/yAkuyjOZoCMDPNv0.mp4",
+    "publishedAt": "2026-09-14T16:52:16.000Z",
+    "durationSeconds": 28,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-motion-mcp-codex",
+    "slug": "motion-mcp-codex",
+    "title": "Motion MCP — Codex can now make launch videos",
+    "product": "Motion MCP for Codex",
+    "company": "Motion",
+    "description": "The Motion MCP for Codex lets Codex build scenes, animations, and transitions directly inside Motion. Give it your assets and describe what you want.",
+    "category": "design",
+    "tags": [
+      "motion",
+      "mcp",
+      "codex"
+    ],
+    "tweetUrl": "https://x.com/motion_so/status/2099542179697902025",
+    "tweetId": "2099542179697902025",
+    "authorName": "Motion",
+    "authorHandle": "motion_so",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
+    "poster": "/posters/motion-mcp-codex.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2099530435193602048/vid/avc1/1920x1080/sePYBotLk0_al6MX.mp4",
+    "publishedAt": "2026-09-14T16:53:57.000Z",
+    "durationSeconds": 30,
+    "featured": false,
+    "status": "published"
   }
 ]

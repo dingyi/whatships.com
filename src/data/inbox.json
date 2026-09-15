@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T13:02:36.326Z",
+  "updatedAt": "2026-09-15T15:59:33.603Z",
   "items": [
     {
       "id": "disc-2099633165895938073",
@@ -677,136 +677,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2099541754051530805",
-      "tweetId": "2099541754051530805",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-15T09:31:59.988Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2099541754051530805",
-        "tweetUrl": "https://x.com/linear/status/2099541754051530805",
-        "authorHandle": "linear",
-        "authorName": "Linear",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
-        "text": "New capabilities for Linear Loops:\n\n• Trigger from project, initiative, cycle, and issue changes\n• Edit documents automatically\n• Send tailored Slack updates\n\n🔗: https://t.co/BCCFwu91iV https://t.co/VkhZZy2Pg3",
-        "createdAt": "2026-09-14T16:52:16.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099536549826183168/vid/avc1/1920x1080/yAkuyjOZoCMDPNv0.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099536549826183168/img/5Fo_7qC4VhYGvMZQ.jpg",
-            "durationMs": 28457
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "linear",
-        "company": "Linear",
-        "category": "productivity",
-        "tags": [
-          "saas",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2099541754051530805",
-        "slug": "linear-530805",
-        "title": "New capabilities for Linear Loops: • Trigger from project, initiative, cycle, and issue changes •…",
-        "product": "Linear",
-        "company": "Linear",
-        "description": "New capabilities for Linear Loops: • Trigger from project, initiative, cycle, and issue changes • Edit documents automatically • Send tailored Slack updates 🔗:",
-        "category": "productivity",
-        "tags": [
-          "saas",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/linear/status/2099541754051530805",
-        "tweetId": "2099541754051530805",
-        "authorName": "Linear",
-        "authorHandle": "linear",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg.jpg",
-        "poster": "/posters/linear-530805.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099536549826183168/vid/avc1/1920x1080/yAkuyjOZoCMDPNv0.mp4",
-        "publishedAt": "2026-09-14T16:52:16.000Z",
-        "durationSeconds": 28,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2099542179697902025",
-      "tweetId": "2099542179697902025",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-15T09:31:59.666Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2099542179697902025",
-        "tweetUrl": "https://x.com/motion_so/status/2099542179697902025",
-        "authorHandle": "motion_so",
-        "authorName": "Motion",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
-        "text": "Codex can now make launch videos.\n\nIntroducing the Motion MCP for Codex\n\nConnect it to motion through the MCP, give it your assets and describe what you want.\n\nCodex builds the scenes, animations and transitions directly inside motion.\n\nThis video was created using the MCP 👇 https://t.co/Hn1cg66KBj",
-        "createdAt": "2026-09-14T16:53:57.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099530435193602048/vid/avc1/3840x2160/necdA3qsl_nURh3u.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099530435193602048/img/ebmU_U3Q7cbnkk11.jpg",
-            "durationMs": 30000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "motion_so",
-        "company": "Motion",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2099542179697902025",
-        "slug": "motion-902025",
-        "title": "Codex can now make launch videos. Introducing the Motion MCP for Codex Connect it to motion throu…",
-        "product": "Motion",
-        "company": "Motion",
-        "description": "Codex can now make launch videos. Introducing the Motion MCP for Codex Connect it to motion through the MCP, give it your assets and describe what you want. Codex builds the scenes, animations and transitions directly inside motion. This video was created using the MCP 👇",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/motion_so/status/2099542179697902025",
-        "tweetId": "2099542179697902025",
-        "authorName": "Motion",
-        "authorHandle": "motion_so",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
-        "poster": "/posters/motion-902025.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099530435193602048/vid/avc1/3840x2160/necdA3qsl_nURh3u.mp4",
-        "publishedAt": "2026-09-14T16:53:57.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2099209623622320381",
       "tweetId": "2099209623622320381",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:35.170Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T15:48:32.143Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1102,9 +977,9 @@
     {
       "id": "disc-2098931815507767680",
       "tweetId": "2098931815507767680",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-14T02:45:33.493Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T15:50:01.862Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -4840,9 +4715,9 @@
     {
       "id": "disc-2098066397448352106",
       "tweetId": "2098066397448352106",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-11T04:40:14.473Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-15T15:55:02.600Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -5743,70 +5618,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2097764120145936384/vid/avc1/1920x1920/a8a4E7KJMDT_HyjK.mp4",
         "publishedAt": "2026-09-09T19:08:39.000Z",
         "durationSeconds": 8,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2097795419296477256",
-      "tweetId": "2097795419296477256",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-10T10:58:30.807Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2097795419296477256",
-        "tweetUrl": "https://x.com/Google/status/2097795419296477256",
-        "authorHandle": "Google",
-        "authorName": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "text": "Google Pics — our image creation and editing tool in @GoogleWorkspace — is rolling out to Google AI Pro and Ultra subscribers and most Workspace business customers.\n\nBuilt on our Nano Banana image generation and editing model, Pics gives you the control you need to create https://t.co/t0jQZYQ6nB",
-        "createdAt": "2026-09-09T21:12:57.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2097794247709601793/vid/avc1/1920x1080/OnF0LpgfdYiL9_a4.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2097794247709601793/img/EsNOi2MeXcV13x2o.jpg",
-            "durationMs": 98772
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Google",
-        "company": "Google",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2097795419296477256",
-        "slug": "google-477256",
-        "title": "Google Pics — our image creation and editing tool in @GoogleWorkspace — is rolling out to Google…",
-        "product": "Google",
-        "company": "Google",
-        "description": "Google Pics — our image creation and editing tool in @GoogleWorkspace — is rolling out to Google AI Pro and Ultra subscribers and most Workspace business customers. Built on our Nano Banana image generation and editing model, Pics gives you the control you need to create",
-        "category": "ai",
-        "tags": [
-          "google",
-          "gemini",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Google/status/2097795419296477256",
-        "tweetId": "2097795419296477256",
-        "authorName": "Google",
-        "authorHandle": "Google",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3.jpg",
-        "poster": "/posters/google-477256.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2097794247709601793/vid/avc1/1920x1080/OnF0LpgfdYiL9_a4.mp4",
-        "publishedAt": "2026-09-09T21:12:57.000Z",
-        "durationSeconds": 99,
         "featured": false,
         "status": "draft"
       },
