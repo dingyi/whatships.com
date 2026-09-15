@@ -152,6 +152,9 @@ const categoryJsonLd = {
             const duration = formatDuration(video.durationSeconds);
             const viewsLabel = formatViewsLabel(video);
             const viewsDetail = formatViewsDetail(video);
+            const mediaLabel = viewsDetail
+              ? `Open ${video.title}, ${viewsDetail}`
+              : `Open ${video.title}`;
             return (
               <article class="video-card" id={video.id}>
                 <span class="corner one" aria-hidden="true" />
@@ -162,7 +165,7 @@ const categoryJsonLd = {
                   <a
                     class="video-card__media"
                     href={`/videos/${video.slug}/`}
-                    aria-label={`Open ${video.title}${viewsDetail ? `, ${viewsDetail}` : ""}`}
+                    aria-label={mediaLabel}
                   >
                     <img
                       src={small}
@@ -262,7 +265,7 @@ const categoryJsonLd = {
         }
       </div>
       {
-        hidden > 0 && (
+        hidden !== 0 && (
           <p class="category-more">
             Showing the {shown.length} most recent of {videos.length} entries.
             The full catalog with search lives on the{" "}
@@ -292,5 +295,42 @@ const categoryJsonLd = {
     border: 0.5px solid var(--grid-line);
     background: var(--card);
     color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .category-chip:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .category-chip[aria-current="page"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
+  .category-chip:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .category-more {
+    margin: 16px 0 0;
+    color: var(--muted-foreground);
+    font-size: 13px;
+  }
+  .category-more a {
+    color: var(--foreground);
+    text-underline-offset: 2px;
+  }
+  @media (max-width: 699px) {
+    .category-chip {
+      min-height: 44px;
+      padding: 0 12px;
+    }
+  }
+</style>
 
 [Showing lines 1-300 of 338. Use :301 to continue]
