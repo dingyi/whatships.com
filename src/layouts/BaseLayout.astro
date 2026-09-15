@@ -135,6 +135,27 @@ const seoDescription = metaDescription(description);
           true,
         );
 
+        // Card avatars fetch X's small `_bigger` variant, which not every
+        // avatar has: retry the original URL once, then hide the pill.
+        // Capture phase — img error events do not bubble, and this must
+        // fire before React hydration attaches anything.
+        document.addEventListener(
+          "error",
+          function (event) {
+            var img = event.target;
+            if (!(img instanceof HTMLImageElement) || !img.dataset.orig)
+              return;
+            var pill = img.closest(".video-card__author");
+            if (img.dataset.tried === "1" || !pill) {
+              if (pill) pill.setAttribute("hidden", "");
+              return;
+            }
+            img.dataset.tried = "1";
+            img.src = img.dataset.orig;
+          },
+          true,
+        );
+
         window.__plvApplyTheme = apply;
         window.__plvCurrentTheme = current;
       })();

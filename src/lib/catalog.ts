@@ -44,6 +44,16 @@ export interface LaunchVideo {
   durationSeconds: number | null;
   featured: boolean;
   status: "published" | "draft";
+  /**
+   * Public view count on X, captured by scripts/fetch-views.mjs. X's own
+   * syndication endpoint — the one used to add videos — does not expose view
+   * counts, so the value comes from the fxtwitter mirror. Views only ever
+   * grow: this is a snapshot, never a live value. Always shown with
+   * viewsCapturedAt.
+   */
+  views?: number | null;
+  /** ISO timestamp for when `views` was read. */
+  viewsCapturedAt?: string | null;
 }
 
 export const allVideos = videosData as LaunchVideo[];
@@ -78,6 +88,67 @@ export function formatDuration(seconds: number | null) {
   const mins = Math.floor(seconds / 60);
   const secs = Math.round(seconds % 60);
   return `${mins}:${String(secs).padStart(2, "0")}`;
+}
+
+const compactViews = new Intl.NumberFormat("en-US", {
+  notation: "compact",
+  maximumFractionDigits: 1,
+});
+
+const fullViews = new Intl.NumberFormat("en-US");
+
+function usableViews(views: number | null | undefined) {
+  return typeof views === "number" && Number.isFinite(views) && views >= 0 ? views : null;
+}
+
+/** "1.1M" — the compact number used on cards. */
+export function formatViews(views: number | null | undefined) {
+  const value = usableViews(views);
+  return value == null ? null : compactViews.format(value);
+}
+
+/** "1,118,904" — the exact count, for tooltips and screen readers. */
+export function formatViewsCount(views: number | null | undefined) {
+  const value = usableViews(views);
+  return value == null ? null : fullViews.format(value);
+}
+
+/**
+ * Chip label for a card: "1.1M views". Null when the snapshot is missing,
+ * so callers can skip the chip entirely.
+ */
+export function formatViewsLabel(video: Pick<LaunchVideo, "views">) {
+  const compact = formatViews(video.views);
+  return compact == null ? null : `${compact} views`;
+}
+
+/** "1,118,904 views on X · snapshot Sep 15, 2026" for tooltips / sr-only. */
+export function formatViewsDetail(
+  video: Pick<LaunchVideo, "views" | "viewsCapturedAt">,
+) {
+  const count = formatViewsCount(video.views);
+  if (count == null) return null;
+  const captured = video.viewsCapturedAt
+    ? formatPublishedAt(video.viewsCapturedAt)
+    : null;
+  return captured
+    ? `${count} views on X · snapshot ${captured}`
+    : `${count} views on X`;
+}
+
+/**
+ * X serves sized profile-image variants by suffixing the file name —
+ * `<hash>_bigger.jpg` is 73×73. The catalog stores original URLs; card
+ * avatars display at 20px, so the grid should fetch the small variant
+ * instead of a grid's worth of 400×400 originals. Non-twimg URLs pass
+ * through untouched, as do URLs that already carry a size suffix.
+ */
+export function authorAvatarSrc(avatar: string) {
+  if (/(?:_bigger|_normal|_mini|_\d+x\d+)\./i.test(avatar)) return avatar;
+  return avatar.replace(
+    /^(https:\/\/pbs\.twimg\.com\/profile_images\/\d+\/[^/?#]*?)(\.(?:jpe?g|png|webp|gif))(?:[?#].*)?$/i,
+    "$1_bigger$2",
+  );
 }
 
 export function tweetPath(video: LaunchVideo) {
