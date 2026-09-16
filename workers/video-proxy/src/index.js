@@ -38,25 +38,74 @@ const CORS_HEADERS = {
     "Content-Length, Content-Range, Accept-Ranges",
 };
 
+/**
+ * Correlate events for one request. Cloudflare injects a cf-ray header on
+ * every edge request; fall back to a UUID outside Cloudflare (tests, local).
+ */
+function requestId(request) {
+  return request.headers.get("cf-ray") ?? crypto.randomUUID();
+}
+
+/** Compact error payload, without stack contents. */
+function errorSummary(error) {
+  return {
+    type: error?.constructor?.name ?? typeof error,
+    message: String(error?.message ?? error),
+  };
+}
+
+/**
+ * One structured log event per request (+ one extra on upstream fetch
+ * failure). JSON lines are what Cloudflare Workers Logs / Logpush keep.
+ */
+function logEvent(level, fields) {
+  const line = JSON.stringify({ level, ts: new Date().toISOString(), ...fields });
+  if (level === "error") console.error(line);
+  else console.log(line);
+}
+
 export default {
   async fetch(request) {
-    if (request.method === "OPTIONS") {
+    const startedAt = Date.now();
+    const ray = requestId(request);
+    const method = request.method;
+    const pathname = new URL(request.url).pathname;
+    const base = { worker: "video-proxy", ray, method, pathname };
+
+    if (method === "OPTIONS") {
+      logEvent("info", { ...base, status: 204, outcome: "preflight" });
       return new Response(null, { status: 204, headers: CORS_HEADERS });
     }
-    if (request.method !== "GET" && request.method !== "HEAD") {
+    if (method !== "GET" && method !== "HEAD") {
+      logEvent("info", { ...base, status: 405, outcome: "method_not_allowed" });
       return new Response("Method not allowed", { status: 405 });
     }
 
     const raw = new URL(request.url).searchParams.get("url");
-    if (!raw) return new Response("Missing ?url=", { status: 400 });
+    if (!raw) {
+      logEvent("info", { ...base, status: 400, outcome: "missing_url" });
+      return new Response("Missing ?url=", { status: 400 });
+    }
 
     let target;
     try {
       target = new URL(raw);
     } catch {
+      logEvent("info", {
+        ...base,
+        status: 400,
+        outcome: "invalid_url",
+      });
       return new Response("Invalid ?url=", { status: 400 });
     }
     if (target.protocol !== "https:" || !ALLOWED_HOSTS.has(target.hostname)) {
+      logEvent("info", {
+        ...base,
+        status: 403,
+        outcome: "host_not_allowed",
+        targetHost: target.hostname || null,
+        targetPath: target.pathname ? target.pathname.slice(0, 128) : null,
+      });
       return new Response("Host not allowed", { status: 403 });
     }
 
@@ -71,7 +120,15 @@ export default {
         headers: upstreamHeaders,
         redirect: "follow",
       });
-    } catch {
+    } catch (error) {
+      logEvent("error", {
+        ...base,
+        status: 502,
+        outcome: "upstream_fetch_error",
+        targetHost: target.hostname,
+        targetPath: target.pathname.slice(0, 128),
+        error: errorSummary(error),
+      });
       return new Response("Upstream fetch failed", { status: 502 });
     }
 
@@ -82,6 +139,18 @@ export default {
     }
     // Media URLs are immutable per variant; let browsers and the edge cache.
     headers.set("Cache-Control", "public, max-age=86400, immutable");
+
+    logEvent(
+      upstream.status >= 400 ? "error" : "info",
+      {
+        ...base,
+        status: upstream.status,
+        outcome: upstream.status >= 400 ? "upstream_error" : "served",
+        targetHost: target.hostname,
+        targetPath: target.pathname.slice(0, 128),
+        range: range ? range.slice(0, 64) : null,
+      },
+    );
 
     return new Response(upstream.body, {
       status: upstream.status,

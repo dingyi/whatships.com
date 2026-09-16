@@ -69,49 +69,106 @@ function notAcceptable(accept: string): Response {
   );
 }
 
+/**
+ * Correlate events for one request. Cloudflare injects a cf-ray header on
+ * every edge request; fall back to a UUID outside Cloudflare (tests, local).
+ */
+function requestId(request: Request): string {
+  return request.headers.get("cf-ray") ?? crypto.randomUUID();
+}
+
+/** One structured log event per request. JSON lines are what Workers Logs keep. */
+function logEvent(
+  level: "info" | "error",
+  fields: Record<string, unknown>,
+): void {
+  const line = JSON.stringify({ level, ts: new Date().toISOString(), ...fields });
+  if (level === "error") console.error(line);
+  else console.log(line);
+}
+
+/** What representation a request was answered with, for the wide event. */
+type Served =
+  | "passthrough"
+  | "html"
+  | "markdown"
+  | "not_found_markdown"
+  | "not_acceptable";
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const startedAt = Date.now();
+    const ray = requestId(request);
     const url = new URL(request.url);
-
-    if (shouldPassthrough(url.pathname)) {
-      return withAssetCache(url.pathname, await env.ASSETS.fetch(request));
-    }
-
+    const pathname = url.pathname;
     const accept = request.headers.get("accept");
-    const chosen = preferredType(accept, PRODUCES);
+    const base = { worker: "site", ray, method: request.method, pathname };
 
-    if (chosen === null && accept) {
-      return notAcceptable(accept);
+    let response: Response;
+    let served: Served;
+    try {
+      if (shouldPassthrough(pathname)) {
+        response = withAssetCache(pathname, await env.ASSETS.fetch(request));
+        served = "passthrough";
+      } else {
+        const chosen = preferredType(accept, PRODUCES);
+
+        if (chosen === null && accept) {
+          response = notAcceptable(accept);
+          served = "not_acceptable";
+        } else if (chosen === MARKDOWN_TYPE) {
+          const mdUrl = new URL(url);
+          mdUrl.pathname = markdownAssetPath(url.pathname);
+          const mdRes = await env.ASSETS.fetch(
+            new Request(mdUrl.toString(), request),
+          );
+          if (mdRes.ok) {
+            const headers = new Headers(mdRes.headers);
+            headers.set("Content-Type", MARKDOWN_HEADERS["Content-Type"]);
+            headers.set("Cache-Control", MARKDOWN_HEADERS["Cache-Control"]);
+            appendVaryAccept(headers);
+            response = new Response(mdRes.body, {
+              status: mdRes.status,
+              statusText: mdRes.statusText,
+              headers,
+            });
+            served = "markdown";
+          } else {
+            const htmlRes = await env.ASSETS.fetch(request);
+            if (htmlRes.status === 404) {
+              response = markdownResponse(NOT_FOUND_MARKDOWN, 404);
+              served = "not_found_markdown";
+            } else if (preferredType(accept, [HTML_TYPE])) {
+              response = withVary(htmlRes);
+              served = "html";
+            } else {
+              response = notAcceptable(accept ?? "");
+              served = "not_acceptable";
+            }
+          }
+        } else {
+          response = withVary(await env.ASSETS.fetch(request));
+          served = "html";
+        }
+      }
+    } catch (error) {
+      logEvent("error", {
+        ...base,
+        status: 500,
+        served: "error",
+        error: {
+          type: error instanceof Error ? error.constructor.name : typeof error,
+          message: String(error instanceof Error ? error.message : error),
+        },
+      });
+      throw error;
     }
-
-    if (chosen === MARKDOWN_TYPE) {
-      const mdUrl = new URL(url);
-      mdUrl.pathname = markdownAssetPath(url.pathname);
-      const mdRes = await env.ASSETS.fetch(
-        new Request(mdUrl.toString(), request),
-      );
-      if (mdRes.ok) {
-        const headers = new Headers(mdRes.headers);
-        headers.set("Content-Type", MARKDOWN_HEADERS["Content-Type"]);
-        headers.set("Cache-Control", MARKDOWN_HEADERS["Cache-Control"]);
-        appendVaryAccept(headers);
-        return new Response(mdRes.body, {
-          status: mdRes.status,
-          statusText: mdRes.statusText,
-          headers,
-        });
-      }
-
-      const htmlRes = await env.ASSETS.fetch(request);
-      if (htmlRes.status === 404) {
-        return markdownResponse(NOT_FOUND_MARKDOWN, 404);
-      }
-      if (preferredType(accept, [HTML_TYPE])) {
-        return withVary(htmlRes);
-      }
-      return notAcceptable(accept ?? "");
-    }
-
-    return withVary(await env.ASSETS.fetch(request));
+    logEvent("info", {
+      ...base,
+      status: response.status,
+      served,
+      durationMs: Date.now() - startedAt,
+    });
+    return response;
   },
 };
