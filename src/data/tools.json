@@ -714,5 +714,16 @@
     "url": "https://hypit.ai/",
     "category": "ai",
     "poster": "/posters/tools/hypit.webp"
+  },
+  {
+    "id": "tool-director",
+    "slug": "director",
+    "name": "Director",
+    "tagline": "From idea to final cut",
+    "description": "An agent skill for directing complete videos. Research, scripts, visual development, shot design, and delivery. Animated explainer, storytime, and cinematic drama. MIT.",
+    "url": "https://github.com/s1dashu/director",
+    "category": "skills",
+    "poster": "/posters/tools/director.webp",
+    "install": "npx skills add s1dashu/director"
   }
 ]
