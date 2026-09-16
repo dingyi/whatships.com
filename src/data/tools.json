@@ -704,5 +704,15 @@
     "url": "https://lumary.app/",
     "category": "editor",
     "poster": "/posters/tools/lumary.webp"
+  },
+  {
+    "id": "tool-hypit",
+    "slug": "hypit",
+    "name": "Hypit",
+    "tagline": "Clone any viral video with AI agents",
+    "description": "Drop in a reference video and rebuild shots, pacing, captions, and effects. Open source, BYOK, and free to use with Claude, Codex, and other agents.",
+    "url": "https://hypit.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/hypit.webp"
   }
 ]
