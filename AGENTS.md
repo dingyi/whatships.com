@@ -7,7 +7,7 @@ hosted on Cloudflare Workers static assets.
 ## Commands
 
 ```bash
-npx pnpm install          # pnpm 11 (no global pnpm on PATH; use npx)
+npx pnpm install          # pnpm 12 (no global pnpm on PATH; use npx)
 node_modules/.bin/astro dev
 node_modules/.bin/astro build
 node_modules/.bin/astro check
