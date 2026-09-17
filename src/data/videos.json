@@ -57203,5 +57203,55 @@
     "durationSeconds": 33,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-railway-sandboxes",
+    "slug": "railway-sandboxes",
+    "title": "Railway Sandboxes — thousands of VMs next to your infra",
+    "product": "Railway Sandboxes",
+    "company": "Railway",
+    "description": "Railway Sandboxes lets you spin up thousands of VMs next to your infra. Run, checkpoint, and fork so agents and code can execute right beside the rest of the stack.",
+    "category": "developer-tools",
+    "tags": [
+      "railway",
+      "sandboxes",
+      "vms"
+    ],
+    "tweetUrl": "https://x.com/Railway/status/2100267285373989020",
+    "tweetId": "2100267285373989020",
+    "authorName": "Railway",
+    "authorHandle": "Railway",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9.jpg",
+    "poster": "/posters/railway-sandboxes.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100267221423415296/vid/avc1/1920x1080/wXMCkKhHWMW_Ag_E.mp4",
+    "publishedAt": "2026-09-16T16:55:16.000Z",
+    "durationSeconds": 40,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-claude-cowork-chat",
+    "slug": "claude-cowork-chat",
+    "title": "Claude — Cowork and chat merge into one Claude",
+    "product": "Claude",
+    "company": "Anthropic",
+    "description": "Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report and Claude keeps going, even after you close the laptop. Rolling out to Pro and Max over the next few weeks.",
+    "category": "ai",
+    "tags": [
+      "claude",
+      "cowork",
+      "chat"
+    ],
+    "tweetUrl": "https://x.com/claudeai/status/2100258490740539730",
+    "tweetId": "2100258490740539730",
+    "authorName": "Claude",
+    "authorHandle": "claudeai",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
+    "poster": "/posters/claude-cowork-chat.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100254508953608194/vid/avc1/1920x1080/WgQeb5ahCdfWyas3.mp4",
+    "publishedAt": "2026-09-16T16:20:19.000Z",
+    "durationSeconds": 71,
+    "featured": false,
+    "status": "published"
   }
 ]
