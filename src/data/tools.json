@@ -725,5 +725,15 @@
     "category": "skills",
     "poster": "/posters/tools/director.webp",
     "install": "npx skills add s1dashu/director"
+  },
+  {
+    "id": "tool-launchvideo",
+    "slug": "launchvideo",
+    "name": "launchvideo.dev",
+    "tagline": "Launch videos, animated by your agent",
+    "description": "A skill pack that teaches Claude Code, Cursor, or Codex to render launch videos from your real components instead of a screen recording.",
+    "url": "https://www.launchvideo.dev/",
+    "category": "motion",
+    "poster": "/posters/tools/launchvideo.webp"
   }
 ]
