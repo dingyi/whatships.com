@@ -57253,5 +57253,30 @@
     "durationSeconds": 71,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-odyssey-3",
+    "slug": "odyssey-3",
+    "title": "Odyssey-3 — a world model for robots, cars, and games",
+    "product": "Odyssey-3",
+    "company": "Odyssey",
+    "description": "Odyssey-3 is a foundation world model that can control robots, power humanoids, drive cars, train AIs, pilot drones, and play video games.",
+    "category": "ai",
+    "tags": [
+      "odyssey",
+      "world-model",
+      "robots"
+    ],
+    "tweetUrl": "https://x.com/odysseyml/status/2099900067356586276",
+    "tweetId": "2099900067356586276",
+    "authorName": "Odyssey",
+    "authorHandle": "odysseyml",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2071642815944359936/IebkUQ-C.jpg",
+    "poster": "/posters/odyssey-3.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2099897328866115585/vid/avc1/1920x1080/ou18tLX_N6gGpHEc.mp4",
+    "publishedAt": "2026-09-15T16:36:04.000Z",
+    "durationSeconds": 97,
+    "featured": false,
+    "status": "published"
   }
 ]
