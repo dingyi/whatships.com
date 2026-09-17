@@ -4,6 +4,7 @@ import {
   Download,
   ExternalLink,
   LogOut,
+  Play,
   RotateCcw,
   X,
 } from "lucide-react";
@@ -20,7 +21,9 @@ import {
 import {
   CATEGORIES,
   categoryLabel,
+  formatDuration,
   formatPublishedAt,
+  playbackUrl,
   type CategoryId,
 } from "@/lib/catalog";
 import {
@@ -68,6 +71,134 @@ function Corners() {
 function previewUrl(item: InboxItem) {
   return item.post.media.find((media) => media.previewImageUrl)?.previewImageUrl
     ?? null;
+}
+
+/**
+ * Click-to-play preview of the candidate video. Playback goes through
+ * playbackUrl() (the video proxy) because video.twimg.com 403s any
+ * non-Twitter Referer — a direct <video src> would never load. When the
+ * proxy is unreachable (PUBLIC_VIDEO_PROXY_BASE unset in dev), fall back
+ * to a link at the raw URL: direct navigation sends no Referer, so the
+ * raw mp4 still opens in a new tab.
+ */
+function VideoPlayer({ item }: { item: InboxItem }) {
+  const [playing, setPlaying] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const poster = previewUrl(item);
+  const duration = item.draft.durationSeconds ?? null;
+
+  if (failed) {
+    return (
+      <div className="admin-player admin-player--failed">
+        {poster ? <img src={poster} alt="" loading="lazy" /> : null}
+        <div className="admin-player__fallback">
+          <p>Preview unavailable — proxy not reachable.</p>
+          {item.draft.videoUrl ? (
+            <a
+              href={item.draft.videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open raw video <ExternalLink size={12} aria-hidden="true" />
+            </a>
+          ) : null}
+        </div>
+      </div>
+    );
+  }
+
+  if (!playing) {
+    return (
+      <button
+        type="button"
+        className="admin-player"
+        onClick={() => setPlaying(true)}
+        aria-label={`Play preview of ${item.draft.title}`}
+      >
+        {poster ? <img src={poster} alt="" loading="lazy" /> : null}
+        <span className="admin-player__play" aria-hidden="true">
+          <Play size={18} strokeWidth={1.8} />
+        </span>
+        {duration
+          ? <span className="admin-player__chip">{formatDuration(duration)}</span>
+          : null}
+      </button>
+    );
+  }
+
+  return (
+    <video
+      className="admin-player admin-player--video"
+      src={playbackUrl(item.draft)}
+      poster={poster ?? undefined}
+      controls
+      autoPlay
+      playsInline
+      preload="auto"
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
+/**
+ * Queue thumbnail with a delayed hover preview: after 350ms under the
+ * cursor, swap the poster for a muted looping video so reviewers can scan
+ * the queue without opening each item. Non-mouse pointers skip it.
+ */
+function ListThumb({ item }: { item: InboxItem }) {
+  const [live, setLive] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const timerRef = useRef<number | null>(null);
+  const poster = previewUrl(item);
+  const duration = item.draft.durationSeconds ?? null;
+
+  useEffect(() => () => {
+    if (timerRef.current) window.clearTimeout(timerRef.current);
+  }, []);
+
+  if (failed || !item.draft.videoUrl) {
+    return (
+      <div className="admin-list__thumb">
+        {poster ? <img src={poster} alt="" loading="lazy" /> : <span aria-hidden="true" />}
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className="admin-list__thumb"
+      onPointerEnter={(event) => {
+        if (event.pointerType !== "mouse") return;
+        if (timerRef.current) window.clearTimeout(timerRef.current);
+        timerRef.current = window.setTimeout(() => setLive(true), 350);
+      }}
+      onPointerLeave={() => {
+        if (timerRef.current) window.clearTimeout(timerRef.current);
+        timerRef.current = null;
+        setLive(false);
+      }}
+    >
+      {poster ? <img src={poster} alt="" loading="lazy" /> : null}
+      {live ? (
+        <video
+          className="admin-list__live"
+          src={playbackUrl(item.draft)}
+          autoPlay
+          muted
+          loop
+          playsInline
+          onError={() => {
+            setFailed(true);
+            setLive(false);
+          }}
+        />
+      ) : (
+        duration
+          ? <span className="admin-list__duration">{formatDuration(duration)}</span>
+          : null
+      )}
+    </div>
+  );
 }
 
 export default function AdminApp({
@@ -188,6 +319,53 @@ export default function AdminApp({
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
   }, []);
+
+  // Review shortcuts: j/k or arrows move through the queue, a approves,
+  // r rejects. Ignored while typing in a field or with modifier keys held.
+  useEffect(() => {
+    if (!authed) return;
+    function onKey(event: KeyboardEvent) {
+      const target = event.target as HTMLElement | null;
+      if (
+        target
+        && (target.isContentEditable
+          || /^(input|textarea|select)$/i.test(target.tagName))
+      ) {
+        return;
+      }
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+      function focusListItem(id: string) {
+        document
+          .querySelector(`[data-item-id="${CSS.escape(id)}"]`)
+          ?.scrollIntoView({ block: "nearest" });
+      }
+
+      if (event.key === "j" || event.key === "ArrowDown") {
+        event.preventDefault();
+        const index = items.findIndex((item) => item.id === selected?.id);
+        const next = items[Math.min(index + 1, items.length - 1)] ?? items[0];
+        if (next) {
+          setSelectedId(next.id);
+          focusListItem(next.id);
+        }
+      } else if (event.key === "k" || event.key === "ArrowUp") {
+        event.preventDefault();
+        const index = items.findIndex((item) => item.id === selected?.id);
+        const prev = items[Math.max(index - 1, 0)] ?? items[0];
+        if (prev) {
+          setSelectedId(prev.id);
+          focusListItem(prev.id);
+        }
+      } else if (event.key === "a" && selected) {
+        setStatus(selected.id, "approved");
+      } else if (event.key === "r" && selected) {
+        setStatus(selected.id, "rejected");
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [authed, items, selected]);
 
   function logout() {
     try {
@@ -346,11 +524,12 @@ export default function AdminApp({
     <main className="admin-app">
 
       <section className="hero admin-hero" aria-labelledby="admin-title">
-        <div className="hero__inner">
+        <div className="hero__inner admin-hero__inner">
           <p className="eyebrow">Admin</p>
           <h1 id="admin-title">Discovery inbox</h1>
           <p className="hero__copy">
             Review auto-discovered launch films before they enter the catalog.
+            Hover a thumbnail to preview; click it to play with sound.
           </p>
         </div>
       </section>
@@ -385,6 +564,9 @@ export default function AdminApp({
             <p className="result-count">
               {items.length} {resultLabel}
               {dirty ? " · unsaved" : ""}
+            </p>
+            <p className="admin-shortcuts" aria-hidden="true">
+              J/K select · A approve · R reject
             </p>
           </div>
           <div className="admin-toolbar__actions">
@@ -448,7 +630,6 @@ export default function AdminApp({
               <Corners />
               <div className="admin-list__scroll">
                 {items.map((item) => {
-                  const preview = previewUrl(item);
                   const isSelected = selected?.id === item.id;
                   return (
                     <button
@@ -456,23 +637,18 @@ export default function AdminApp({
                       type="button"
                       className={`admin-list__item${isSelected ? " is-selected" : ""}`}
                       aria-current={isSelected ? "true" : undefined}
+                      data-item-id={item.id}
                       onClick={() => setSelectedId(item.id)}
                     >
-                      <div className="admin-list__thumb">
-                        {preview ? (
-                          <img src={preview} alt="" loading="lazy" />
-                        ) : (
-                          <span aria-hidden="true" />
-                        )}
-                      </div>
+                      <ListThumb item={item} />
                       <div className="admin-list__meta">
                         <strong>{item.draft.title}</strong>
                         <span>
-                          {item.watchlist.company}
+                          {item.draft.company}
                           <span aria-hidden="true"> · </span>
                           {categoryLabel(item.draft.category)}
                           <span aria-hidden="true"> · </span>
-                          {formatPublishedAt(item.discoveredAt)}
+                          {formatPublishedAt(item.draft.publishedAt)}
                         </span>
                         <em data-status={item.reviewStatus}>
                           {item.reviewStatus}
@@ -514,24 +690,26 @@ export default function AdminApp({
           </div>
         )}
 
-        <section className="admin-help" aria-labelledby="admin-workflow">
-          <h2 id="admin-workflow">Workflow</h2>
-          <ol>
-            <li>Review pending items; edit metadata; Approve or Reject.</li>
-            <li>
-              <strong>Download inbox.json</strong> and replace{" "}
-              <code>src/data/inbox.json</code> in the repo.
-            </li>
-            <li>
-              Run <code>pnpm inbox:apply</code> to merge approved drafts into{" "}
-              <code>videos.json</code>.
-            </li>
-            <li>
-              Run <code>pnpm posters:capture</code> for new slugs, then commit
-              and deploy.
-            </li>
-          </ol>
-        </section>
+        <details className="admin-help admin-section">
+          <summary>Workflow</summary>
+          <div className="admin-section__body">
+            <ol>
+              <li>Review pending items; edit metadata; Approve or Reject.</li>
+              <li>
+                <strong>Download inbox.json</strong> and replace{" "}
+                <code>src/data/inbox.json</code> in the repo.
+              </li>
+              <li>
+                Run <code>pnpm inbox:apply</code> to merge approved drafts into{" "}
+                <code>videos.json</code>.
+              </li>
+              <li>
+                Run <code>pnpm posters:capture</code> for new slugs, then commit
+                and deploy.
+              </li>
+            </ol>
+          </div>
+        </details>
       </section>
     </main>
   );
@@ -562,30 +740,25 @@ function ItemEditor({
   onStatus: (status: ReviewStatus) => void;
   onCopy: () => void;
 }) {
-  const preview = previewUrl(item);
   const tagsValue = item.draft.tags.join(", ");
+  const postedAt = formatPublishedAt(item.post.createdAt);
 
   return (
     <div className="admin-editor">
       <div className="admin-editor__hero">
-        {preview ? (
-          <img src={preview} alt="" />
-        ) : (
-          <div className="admin-editor__hero-empty" />
-        )}
-        <div>
-          <p className="eyebrow">@{item.draft.authorHandle}</p>
+        <VideoPlayer item={item} />
+        <div className="admin-editor__meta">
+          <p className="eyebrow">
+            @{item.draft.authorHandle}
+            <span aria-hidden="true"> · </span>
+            {postedAt}
+          </p>
           <h2>{item.draft.title}</h2>
           <p className="admin-editor__signals">
             {categoryLabel(item.draft.category)}
             <span aria-hidden="true"> · </span>
             score {item.score}
           </p>
-          {item.reasons.length ? (
-            <p className="admin-editor__reasons">
-              {item.reasons.slice(0, 4).join(" · ")}
-            </p>
-          ) : null}
           <div className="admin-editor__links">
             <a href={item.post.tweetUrl} target="_blank" rel="noopener noreferrer">
               Open on X <ExternalLink size={13} aria-hidden="true" />
@@ -593,11 +766,6 @@ function ItemEditor({
             {item.issueUrl ? (
               <a href={item.issueUrl} target="_blank" rel="noopener noreferrer">
                 GitHub issue <ExternalLink size={13} aria-hidden="true" />
-              </a>
-            ) : null}
-            {item.draft.videoUrl ? (
-              <a href={item.draft.videoUrl} target="_blank" rel="noopener noreferrer">
-                Video URL <ExternalLink size={13} aria-hidden="true" />
               </a>
             ) : null}
           </div>
@@ -644,107 +812,124 @@ function ItemEditor({
         </Button>
       </div>
 
-      <div className="admin-editor__grid">
-        <label className="submit-field">
-          <span>Title</span>
-          <Input
-            name="title"
-            value={item.draft.title}
-            onChange={(event) => onPatch({ title: event.target.value })}
-          />
-        </label>
-        <label className="submit-field">
-          <span>Product</span>
-          <Input
-            name="product"
-            value={item.draft.product}
-            onChange={(event) => onPatch({ product: event.target.value })}
-          />
-        </label>
-        <label className="submit-field">
-          <span>Company</span>
-          <Input
-            name="company"
-            value={item.draft.company}
-            onChange={(event) => onPatch({ company: event.target.value })}
-          />
-        </label>
-        <label className="submit-field">
-          <span>Category</span>
-          <Select
-            value={item.draft.category}
-            onValueChange={(value) => {
-              if (value) onPatch({ category: value as CategoryId });
-            }}
-          >
-            <SelectTrigger
-              className="admin-select"
-              placeholder="Select category"
+      <details className="admin-section" open>
+        <summary>Metadata</summary>
+        <div className="admin-section__body admin-editor__grid">
+          <label className="submit-field admin-field--full">
+            <span>Title</span>
+            <Input
+              name="title"
+              value={item.draft.title}
+              onChange={(event) => onPatch({ title: event.target.value })}
             />
-            <SelectContent>
-              {CATEGORIES.map((category, index) => (
-                <SelectItem
-                  key={category.id}
-                  index={index}
-                  value={category.id}
-                >
-                  {category.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </label>
-        <label className="submit-field admin-field--full">
-          <span>Description</span>
-          <textarea
-            className="submit-textarea"
-            name="description"
-            value={item.draft.description}
-            onChange={(event) => onPatch({ description: event.target.value })}
-            rows={4}
-          />
-        </label>
-        <label className="submit-field admin-field--full">
-          <span>Tags (comma-separated)</span>
-          <Input
-            name="tags"
-            value={tagsValue}
-            onChange={(event) =>
-              onPatch({
-                tags: event.target.value
-                  .split(",")
-                  .map((part) => part.trim())
-                  .filter(Boolean),
-              })
-            }
-          />
-        </label>
-        <label className="admin-check">
-          <input
-            type="checkbox"
-            name="featured"
-            checked={item.draft.featured}
-            onChange={(event) => onPatch({ featured: event.target.checked })}
-          />
-          <span>Featured on homepage</span>
-        </label>
-        <label className="submit-field admin-field--full">
-          <span>Editor notes</span>
-          <textarea
-            className="submit-textarea"
-            name="notes"
-            value={item.notes}
-            onChange={(event) => onNotes(event.target.value)}
-            rows={3}
-            placeholder="Internal notes (not published)…"
-          />
-        </label>
-      </div>
+          </label>
+          <label className="submit-field admin-field--full">
+            <span>Description</span>
+            <textarea
+              className="submit-textarea"
+              name="description"
+              value={item.draft.description}
+              onChange={(event) => onPatch({ description: event.target.value })}
+              rows={3}
+            />
+          </label>
+          <label className="submit-field">
+            <span>Category</span>
+            <Select
+              value={item.draft.category}
+              onValueChange={(value) => {
+                if (value) onPatch({ category: value as CategoryId });
+              }}
+            >
+              <SelectTrigger
+                className="admin-select"
+                placeholder="Select category"
+              />
+              <SelectContent>
+                {CATEGORIES.map((category, index) => (
+                  <SelectItem
+                    key={category.id}
+                    index={index}
+                    value={category.id}
+                  >
+                    {category.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </label>
+          <label className="admin-check admin-check--inline">
+            <input
+              type="checkbox"
+              name="featured"
+              checked={item.draft.featured}
+              onChange={(event) => onPatch({ featured: event.target.checked })}
+            />
+            <span>Featured on homepage</span>
+          </label>
+        </div>
+      </details>
 
-      <div className="admin-editor__post">
-        <h3>Original post</h3>
-        <blockquote>{item.post.text}</blockquote>
-      </div>
+      <details className="admin-section">
+        <summary>More fields</summary>
+        <div className="admin-section__body admin-editor__grid">
+          <label className="submit-field">
+            <span>Product</span>
+            <Input
+              name="product"
+              value={item.draft.product}
+              onChange={(event) => onPatch({ product: event.target.value })}
+            />
+          </label>
+          <label className="submit-field">
+            <span>Company</span>
+            <Input
+              name="company"
+              value={item.draft.company}
+              onChange={(event) => onPatch({ company: event.target.value })}
+            />
+          </label>
+          <label className="submit-field admin-field--full">
+            <span>Tags (comma-separated)</span>
+            <Input
+              name="tags"
+              value={tagsValue}
+              onChange={(event) =>
+                onPatch({
+                  tags: event.target.value
+                    .split(",")
+                    .map((part) => part.trim())
+                    .filter(Boolean),
+                })
+              }
+            />
+          </label>
+          <label className="submit-field admin-field--full">
+            <span>Editor notes</span>
+            <textarea
+              className="submit-textarea"
+              name="notes"
+              value={item.notes}
+              onChange={(event) => onNotes(event.target.value)}
+              rows={2}
+              placeholder="Internal notes (not published)…"
+            />
+          </label>
+        </div>
+      </details>
+
+      <details className="admin-section">
+        <summary>Original post</summary>
+        <div className="admin-section__body admin-editor__post">
+          <blockquote>{item.post.text}</blockquote>
+          {item.reasons.length ? (
+            <p className="admin-editor__reasons">
+              <span>Discovery signals</span>
+              {item.reasons.join(" · ")}
+            </p>
+          ) : null}
+        </div>
+      </details>
     </div>
   );
 }
