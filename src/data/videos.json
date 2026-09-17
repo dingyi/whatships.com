@@ -57278,5 +57278,30 @@
     "durationSeconds": 97,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-pencil-canvas",
+    "slug": "pencil-canvas",
+    "title": "Pencil — an agentic canvas for building bold ideas",
+    "product": "Pencil",
+    "company": "Pencil",
+    "description": "The new Pencil is an agentic canvas for building bold ideas. Import any website or web app, iterate on the canvas, and push changes back to code.",
+    "category": "design",
+    "tags": [
+      "pencil",
+      "canvas",
+      "agent"
+    ],
+    "tweetUrl": "https://x.com/tomkrcha/status/2100570466692071493",
+    "tweetId": "2100570466692071493",
+    "authorName": "Tom Krcha",
+    "authorHandle": "tomkrcha",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1923082649431580672/tBXWM1K5.jpg",
+    "poster": "/posters/pencil-canvas.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100455730704994304/vid/avc1/1920x1080/xfNJakco7fMKKWv1.mp4",
+    "publishedAt": "2026-09-17T13:00:00.000Z",
+    "durationSeconds": 33,
+    "featured": false,
+    "status": "published"
   }
 ]
