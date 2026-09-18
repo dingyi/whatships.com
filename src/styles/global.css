@@ -883,6 +883,9 @@ img {
 .header-search-panel .search-result {
   border-radius: 0;
 }
+.header-search-panel .search-result__thumb {
+  border-radius: 0;
+}
 
 /* ── Noiced-style grid ─────────────────────────────────────────────────── */
 /*
@@ -1241,6 +1244,13 @@ img {
   padding: 7px;
   border-top: 1px solid var(--border);
   overscroll-behavior: contain;
+  /* Scrollbar appears only while hovering; stable gutter avoids reflow. */
+  scrollbar-gutter: stable;
+  scrollbar-width: none;
+}
+.search-results:hover,
+.search-results:focus-within {
+  scrollbar-width: thin;
 }
 .search-results__group + .search-results__group {
   margin-top: 4px;
@@ -1258,13 +1268,28 @@ img {
   text-transform: uppercase;
 }
 .search-result {
-  display: block;
-  padding: 9px 12px 10px;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 7px 12px 7px 7px;
   border-radius: 10px;
+}
+.search-result__thumb {
+  display: block;
+  width: 72px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 0.5px solid var(--grid-line);
+  background: var(--muted);
+  border-radius: 6px;
+}
+.search-result__body {
+  min-width: 0;
 }
 .search-result:hover,
 .search-result.is-active {
-  background: var(--muted);
+  background: var(--accent);
 }
 .search-result strong,
 .search-result small {

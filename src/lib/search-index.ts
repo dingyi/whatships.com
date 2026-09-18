@@ -1,3 +1,4 @@
+import { gridPoster } from "./directory";
 import { categoryLabel, publishedVideos } from "./catalog";
 import { publishedStudios, studioHost } from "./studios";
 import { publishedTools, toolCategoryLabel, toolHost } from "./tools";
@@ -18,6 +19,8 @@ export interface SearchIndexItem {
   slug: string;
   href: string;
   meta: string;
+  /** 16:9 grid poster (960px variant) for thumbnails. */
+  poster: string;
   searchText: string;
 }
 
@@ -35,6 +38,7 @@ export function buildSearchIndex(): SearchIndexItem[] {
     slug: video.slug,
     href: `/videos/${video.slug}/`,
     meta: `${video.company} · ${categoryLabel(video.category)}`,
+    poster: gridPoster(video.poster),
     searchText: haystack([
       video.title,
       video.product,
@@ -55,6 +59,7 @@ export function buildSearchIndex(): SearchIndexItem[] {
     slug: tool.slug,
     href: `/tools/#${tool.id}`,
     meta: `${toolCategoryLabel(tool.category)} · ${toolHost(tool.url)}`,
+    poster: gridPoster(tool.poster),
     searchText: haystack([
       tool.name,
       tool.tagline,
@@ -74,6 +79,7 @@ export function buildSearchIndex(): SearchIndexItem[] {
       slug: studio.slug,
       href: `/studios/#${studio.id}`,
       meta: `${kindLabel} · ${studioHost(studio.url)}`,
+      poster: gridPoster(studio.poster),
       searchText: haystack([
         studio.name,
         studio.tagline,

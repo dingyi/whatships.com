@@ -122,7 +122,7 @@ export function openApiSpec() {
         SearchIndexItem: {
           type: "object",
           additionalProperties: false,
-          required: ["id", "kind", "name", "slug", "href", "meta", "searchText"],
+          required: ["id", "kind", "name", "slug", "href", "meta", "poster", "searchText"],
           properties: {
             id: {
               type: "string",
@@ -146,6 +146,10 @@ export function openApiSpec() {
             meta: {
               type: "string",
               description: "Secondary label (company, category, host, or kind)",
+            },
+            poster: {
+              type: "string",
+              description: "16:9 grid poster path (960px variant) under /public",
             },
             searchText: { type: "string" },
           },

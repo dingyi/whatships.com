@@ -248,8 +248,19 @@ export default function VideoSearch({ onActivate }: Props) {
                         onMouseEnter={() => setActiveIndex(index)}
                         key={result.id}
                       >
-                        <strong>{result.name}</strong>
-                        <small>{result.meta}</small>
+                        <img
+                          className="search-result__thumb"
+                          src={result.poster}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          width={960}
+                          height={540}
+                        />
+                        <span className="search-result__body">
+                          <strong>{result.name}</strong>
+                          <small>{result.meta}</small>
+                        </span>
                       </a>
                     );
                   })}
