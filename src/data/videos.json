@@ -57453,5 +57453,30 @@
     "durationSeconds": 38,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-aave-v3",
+    "slug": "aave-v3",
+    "title": "Aave V3 — a brand new look",
+    "product": "Aave V3",
+    "company": "Aave",
+    "description": "Aave V3 got a brand new look. The DeFi protocol refreshes its interface while keeping the same lending and borrowing core.",
+    "category": "consumer",
+    "tags": [
+      "aave",
+      "defi",
+      "v3"
+    ],
+    "tweetUrl": "https://x.com/aave/status/2100594160222765511",
+    "tweetId": "2100594160222765511",
+    "authorName": "Aave",
+    "authorHandle": "aave",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1808921860781821952/CmtvkzWo.png",
+    "poster": "/posters/aave-v3.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100592058725486593/vid/avc1/1920x1080/2NwgIj33BcnMwq8I.mp4",
+    "publishedAt": "2026-09-17T14:34:09.000Z",
+    "durationSeconds": 22,
+    "featured": false,
+    "status": "published"
   }
 ]
