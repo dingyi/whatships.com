@@ -745,5 +745,15 @@
     "url": "https://trypowermove.com/",
     "category": "editor",
     "poster": "/posters/tools/powermove.webp"
+  },
+  {
+    "id": "tool-dina",
+    "slug": "dina",
+    "name": "Dina",
+    "tagline": "Make every video worth watching",
+    "description": "A native macOS recorder and editor. Capture screen, camera, and keystrokes, then refine with automatic zoom, captions, and cinematic effects.",
+    "url": "https://www.dina.so/",
+    "category": "editor",
+    "poster": "/posters/tools/dina.webp"
   }
 ]
