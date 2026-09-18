@@ -57478,5 +57478,55 @@
     "durationSeconds": 22,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-cap-v0-6-launch",
+    "slug": "cap-v0-6-launch",
+    "title": "Cap v0.6 — open source screen recording and sharing",
+    "product": "Cap",
+    "company": "Cap",
+    "description": "Cap v0.6 is here: the open source screen recording and sharing app.",
+    "category": "productivity",
+    "tags": [
+      "cap",
+      "recording",
+      "open-source"
+    ],
+    "tweetUrl": "https://x.com/cap/status/2099888955818656212",
+    "tweetId": "2099888955818656212",
+    "authorName": "Cap",
+    "authorHandle": "cap",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1932075489503461376/xH9pc-b4.jpg",
+    "poster": "/posters/cap-v0-6-launch.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2099887174606782465/vid/avc1/1920x1080/ZMvI_a5ibQ8sp802.mp4",
+    "publishedAt": "2026-09-15T15:51:55.000Z",
+    "durationSeconds": 72,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-powermove",
+    "slug": "powermove",
+    "title": "Powermove — a video editor you can reshape with agents",
+    "product": "Powermove",
+    "company": "Powermove",
+    "description": "Powermove is a free video editor whose feature set you can shape. Connect a coding agent and ask for new functionality instead of waiting on someone else's roadmap.",
+    "category": "design",
+    "tags": [
+      "powermove",
+      "editor",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/zellzoi_design/status/2100842256727175329",
+    "tweetId": "2100842256727175329",
+    "authorName": "Chike",
+    "authorHandle": "zellzoi_design",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2061678435068440577/zyOvbift.jpg",
+    "poster": "/posters/powermove.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100796982776287232/vid/avc1/1920x1080/cKBCpkrekohd14Og.mp4",
+    "publishedAt": "2026-09-18T07:00:00.000Z",
+    "durationSeconds": 30,
+    "featured": false,
+    "status": "published"
   }
 ]
