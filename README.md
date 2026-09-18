@@ -1,6 +1,34 @@
-# whatships.com
+# What Ships
 
-A curated directory of startup launch videos, demos, and walkthroughs shared on X/Twitter — live at [whatships.com](https://whatships.com).
+> **2,159 curated startup launch videos from X** — every launch film, demo, and walkthrough archived with a stable URL, a poster frame, and a citation link back to the original post. New videos ship daily.
+
+[![Live site](https://img.shields.io/website?url=https%3A%2F%2Fwhatships.com&label=live%20site)](https://whatships.com)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/dingyi/whatships.com/deploy.yml?branch=main&label=deploy)](https://github.com/dingyi/whatships.com/actions/workflows/deploy.yml)
+[![Last commit](https://img.shields.io/github/last-commit/dingyi/whatships.com/main)](https://github.com/dingyi/whatships.com/commits/main)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**[whatships.com](https://whatships.com)** · [Browse videos](https://whatships.com/) · [Studios](https://whatships.com/studios/) · [Tools](https://whatships.com/tools/) · [Submit a video](https://whatships.com/submit/)
+
+| | | |
+|:---:|:---:|:---:|
+| [<img src="public/posters/claude-docs-slides.webp" width="270" alt="Claude launch video poster">](https://whatships.com/videos/claude-docs-slides/)<br>**Claude** | [<img src="public/posters/railway-sandboxes.webp" width="270" alt="Railway Sandboxes launch video poster">](https://whatships.com/videos/railway-sandboxes/)<br>**Railway Sandboxes** | [<img src="public/posters/elevenlabs-reception.webp" width="270" alt="Reception launch video poster">](https://whatships.com/videos/elevenlabs-reception/)<br>**Reception** |
+| [<img src="public/posters/framer-first-site.webp" width="270" alt="Framer Agent launch video poster">](https://whatships.com/videos/framer-first-site/)<br>**Framer Agent** | [<img src="public/posters/gemini-3-8-live.webp" width="270" alt="Gemini 3.8 Live launch video poster">](https://whatships.com/videos/gemini-3-8-live/)<br>**Gemini 3.8 Live** | [<img src="public/posters/pencil-canvas.webp" width="270" alt="Pencil launch video poster">](https://whatships.com/videos/pencil-canvas/)<br>**Pencil** |
+
+## What is What Ships?
+
+A curated, independent archive of how products announce themselves: launch films, first-look demos, and walkthroughs posted on X. Founders, designers, and marketers use it to study launch craft after the timeline has moved on. Nothing is ranked, placement is not sold, every entry is human-reviewed — and every page cites the original X post.
+
+Categories: AI · Developer tools · Design · Motion · Productivity · Consumer · Hardware
+
+## For agents and LLMs
+
+Every page is machine-readable without scraping: send `Accept: text/markdown` to any HTML URL, or use the structured surfaces — [`/llms.txt`](https://whatships.com/llms.txt), [`/llms-full.txt`](https://whatships.com/llms-full.txt), [`/openapi.json`](https://whatships.com/openapi.json), [`/search-index.json`](https://whatships.com/search-index.json), [`/sitemap.xml`](https://whatships.com/sitemap.xml).
+
+If you find a launch worth remembering, star the repo — the catalog grows daily.
+
+---
+
+The rest of this README is contributor documentation.
 
 ## Local development
 
