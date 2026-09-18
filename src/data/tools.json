@@ -735,5 +735,15 @@
     "url": "https://www.launchvideo.dev/",
     "category": "motion",
     "poster": "/posters/tools/launchvideo.webp"
+  },
+  {
+    "id": "tool-powermove",
+    "slug": "powermove",
+    "name": "Powermove",
+    "tagline": "Shape your video editor",
+    "description": "A motion editor with an agent in the loop and you in the driver's seat. Real layers, editable keyframes, and an interface that rewrites itself around the work.",
+    "url": "https://trypowermove.com/",
+    "category": "editor",
+    "poster": "/posters/tools/powermove.webp"
   }
 ]
