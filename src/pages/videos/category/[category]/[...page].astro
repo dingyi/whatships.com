@@ -1,0 +1,439 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PageHeader from "@/components/PageHeader";
+import SiteFooter from "@/components/SiteFooter.astro";
+import {
+  CATEGORIES,
+  authorAvatarSrc,
+  catalogDateModified,
+  categoryLabel,
+  formatDuration,
+  formatPublishedAt,
+  formatViewsDetail,
+  formatViewsLabel,
+  publishedVideos,
+} from "@/lib/catalog";
+import {
+  PAGE_SIZE,
+  gridPoster,
+  listingPageCount,
+  listingPagePath,
+} from "@/lib/directory";
+import {
+  SITE_DATE_MODIFIED,
+  SITE_NAME,
+  SITE_URL,
+  metaDescription,
+} from "@/lib/site";
+
+// Every entry gets a static, crawlable link from its category listing: page 1
+// lives at /videos/category/{id}/, later pages at /videos/category/{id}/{n}/.
+export function getStaticPaths() {
+  return CATEGORIES.flatMap((category) => {
+    const videos = publishedVideos.filter(
+      (video) => video.category === category.id,
+    );
+    if (videos.length === 0) return [];
+    const totalPages = listingPageCount(videos.length);
+    return Array.from({ length: totalPages }, (_, index) => {
+      const page = index + 1;
+      return {
+        params: {
+          category: category.id,
+          page: page === 1 ? undefined : String(page),
+        },
+        props: { category, videos, page, totalPages },
+      };
+    });
+  });
+}
+
+interface Props {
+  category: (typeof CATEGORIES)[number];
+  videos: typeof publishedVideos;
+  page: number;
+  totalPages: number;
+}
+
+const { category, videos, page, totalPages } = Astro.props;
+const label = categoryLabel(category.id);
+const labelLower = label === "AI" ? "AI" : label.toLowerCase();
+const shown = videos.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+const latest = videos.length ? formatPublishedAt(videos[0].publishedAt) : null;
+const earliest = videos.length
+  ? formatPublishedAt(videos[videos.length - 1].publishedAt)
+  : null;
+const pageSuffix = page > 1 ? ` — page ${page}` : "";
+
+const description = metaDescription(
+  `${videos.length} ${labelLower} startup launch videos from X${pageSuffix}: product launch videos, demos, and walkthroughs curated by What Ships with product, company, and duration metadata plus a link to each original post.`,
+);
+
+const site = Astro.site ?? SITE_URL;
+const basePath = `/videos/category/${category.id}/`;
+const pagePath = listingPagePath(basePath, page);
+const pageUrl = new URL(pagePath, site).toString();
+const prevPath = page > 1 ? listingPagePath(basePath, page - 1) : null;
+const nextPath = page < totalPages ? listingPagePath(basePath, page + 1) : null;
+// Every page links every other page, so any entry is one hop from page 1.
+const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
+const dateModified = catalogDateModified(videos) ?? SITE_DATE_MODIFIED;
+const pageTitle = `${label} startup & product launch videos${pageSuffix} — ${SITE_NAME}`;
+
+const categoryJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": `${pageUrl}#collection`,
+      url: pageUrl,
+      name: pageTitle,
+      description,
+      inLanguage: "en",
+      dateModified,
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      publisher: { "@id": `${SITE_URL}/#organization` },
+      mainEntity: {
+        "@type": "ItemList",
+        "@id": `${pageUrl}#videos`,
+        name: `${label} startup and product launch videos${pageSuffix}`,
+        numberOfItems: shown.length,
+        itemListElement: shown.map((video, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "CreativeWork",
+            name: video.title,
+            url: new URL(`/videos/${video.slug}/`, site).toString(),
+            description: video.description || undefined,
+            publisher: video.company,
+          },
+        })),
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: SITE_NAME,
+          item: `${SITE_URL}/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: `${label} launch videos`,
+          item: new URL(basePath, site).toString(),
+        },
+        ...(page > 1
+          ? [
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: `Page ${page}`,
+                item: pageUrl,
+              },
+            ]
+          : []),
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout title={pageTitle} description={description}>
+  {prevPath && <link slot="head" rel="prev" href={prevPath} />}
+  {nextPath && <link slot="head" rel="next" href={nextPath} />}
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(categoryJsonLd)}
+  />
+  <PageHeader client:idle />
+  <main>
+    <section class="hero" aria-labelledby="category-title">
+      <div class="hero__inner">
+        <h1 id="category-title">{label} startup launch videos from X</h1>
+        <p class="hero__copy">
+          {videos.length} {labelLower} product launch videos, demos, and
+          walkthroughs indexed
+          {earliest && latest ? `, ${earliest} to ${latest}` : ""}. Every entry
+          stores the product, company, duration when known, and a durable link
+          to the original X post — study the film or cite the source instead of
+          a re-upload.
+        </p>
+      </div>
+    </section>
+
+    <section class="directory" aria-labelledby="category-title">
+      <nav class="category-chips" aria-label="Browse other categories">
+        {
+          CATEGORIES.map((item) => (
+            <a
+              class="category-chip"
+              href={`/videos/category/${item.id}/`}
+              aria-current={item.id === category.id ? "page" : undefined}
+            >
+              {categoryLabel(item.id)}
+            </a>
+          ))
+        }
+      </nav>
+      <div class="video-grid">
+        {
+          shown.map((video, index) => {
+            const small = gridPoster(video.poster);
+            const duration = formatDuration(video.durationSeconds);
+            const viewsLabel = formatViewsLabel(video);
+            const viewsDetail = formatViewsDetail(video);
+            const mediaLabel = viewsDetail
+              ? `Open ${video.title}, ${viewsDetail}`
+              : `Open ${video.title}`;
+            return (
+              <article class="video-card" id={video.id}>
+                <span class="corner one" aria-hidden="true" />
+                <span class="corner two" aria-hidden="true" />
+                <span class="corner three" aria-hidden="true" />
+                <span class="corner four" aria-hidden="true" />
+                <div class="video-card__main">
+                  <a
+                    class="video-card__media"
+                    href={`/videos/${video.slug}/`}
+                    aria-label={mediaLabel}
+                  >
+                    <img
+                      src={small}
+                      srcset={`${small} 960w, ${video.poster} 1440w`}
+                      sizes="(max-width: 699px) calc(100vw - 34px), 420px"
+                      alt={`Poster for ${video.title}`}
+                      loading={index < 6 ? "eager" : "lazy"}
+                      decoding="async"
+                      fetchpriority={index === 0 ? "high" : undefined}
+                      width="1440"
+                      height="810"
+                    />
+                    <span class="video-card__play" aria-hidden="true">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        stroke="none"
+                        aria-hidden="true"
+                      >
+                        <polygon points="6 3 20 12 6 21 6 3" />
+                      </svg>
+                    </span>
+                    {viewsLabel && (
+                      <span
+                        class="video-card__views"
+                        title={viewsDetail ?? undefined}
+                        aria-hidden="true"
+                      >
+                        {viewsLabel}
+                      </span>
+                    )}
+                    {duration && (
+                      <span class="video-card__duration" aria-hidden="true">
+                        {duration}
+                      </span>
+                    )}
+                    {video.authorAvatar && (
+                      <span class="video-card__author" aria-hidden="true">
+                        <img
+                          src={authorAvatarSrc(video.authorAvatar)}
+                          data-orig={video.authorAvatar}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          referrerpolicy="no-referrer"
+                          width="20"
+                          height="20"
+                        />
+                        <span class="video-card__author-handle">
+                          @{video.authorHandle}
+                        </span>
+                      </span>
+                    )}
+                  </a>
+                  <div class="video-card__body">
+                    <div>
+                      <h2>
+                        <a href={`/videos/${video.slug}/`}>{video.title}</a>
+                      </h2>
+                      <p class="video-card__meta">
+                        {video.company}
+                        <span aria-hidden="true"> · </span>
+                        {formatPublishedAt(video.publishedAt)}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="video-card__external"
+                  href={video.tweetUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View the original post for ${video.title} on X`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="11"
+                    height="11"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
+              </article>
+            );
+          })
+        }
+      </div>
+      {
+        totalPages > 1 && (
+          <nav class="category-more" aria-label={`${label} launch videos pages`}>
+            <p>
+              Page {page} of {totalPages} · {videos.length} entries
+              {" · "}
+              {prevPath ? <a href={prevPath} rel="prev">Previous</a> : <span>Previous</span>}
+              {" / "}
+              {nextPath ? <a href={nextPath} rel="next">Next</a> : <span>Next</span>}
+            </p>
+            <ol class="category-pages">
+              {
+                pageNumbers.map((number) => (
+                  <li>
+                    {number === page ? (
+                      <span aria-current="page">{number}</span>
+                    ) : (
+                      <a href={listingPagePath(basePath, number)}>{number}</a>
+                    )}
+                  </li>
+                ))
+              }
+            </ol>
+            <p>
+              Search the full catalog on the <a href="/">home grid</a>.
+            </p>
+          </nav>
+        )
+      }
+    </section>
+  </main>
+  <SiteFooter />
+</BaseLayout>
+
+<style>
+  .category-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 16px;
+  }
+  .category-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 0 10px;
+    border: 0.5px solid var(--grid-line);
+    background: var(--card);
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .category-chip:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .category-chip[aria-current="page"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
+  .category-chip:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .category-more {
+    margin: 16px 0 0;
+    color: var(--muted-foreground);
+    font-size: 13px;
+  }
+  .category-more p {
+    margin: 0;
+  }
+  .category-more p + p {
+    margin-top: 8px;
+  }
+  .category-more a {
+    color: var(--foreground);
+    text-underline-offset: 2px;
+  }
+  .category-pages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .category-pages a,
+  .category-pages span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    padding: 0 8px;
+    border: 0.5px solid var(--grid-line);
+    background: var(--card);
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .category-pages a:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .category-pages a:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .category-pages span[aria-current="page"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
+  @media (max-width: 699px) {
+    .category-chip,
+    .category-pages a,
+    .category-pages span {
+      min-height: 44px;
+      padding: 0 12px;
+    }
+  }
+</style>
+
+[Showing lines 1-300 of 338. Use :301 to continue]
