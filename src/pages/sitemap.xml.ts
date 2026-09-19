@@ -1,25 +1,6 @@
-import { CATEGORIES, publishedVideos } from "@/lib/catalog";
+import { sitemapXml } from "@/lib/sitemap";
 
-export const GET = () => {
-  const base = "https://whatships.com";
-  const paths = [
-    "/",
-    "/about/",
-    "/contact/",
-    "/privacy/",
-    "/terms/",
-    "/developers/",
-    "/tools/",
-    "/studios/",
-    "/submit/",
-    "/vs/product-hunt/",
-    ...CATEGORIES.map((category) => `/videos/category/${category.id}/`),
-    "/llms.txt",
-    "/llms-full.txt",
-    ...publishedVideos.map((video) => `/videos/${video.slug}/`),
-  ];
-  const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map((path) => `\n  <url><loc>${base}${path}</loc></url>`).join("")}\n</urlset>\n`;
-  return new Response(body, {
+export const GET = () =>
+  new Response(sitemapXml(), {
     headers: { "Content-Type": "application/xml" },
   });
-};

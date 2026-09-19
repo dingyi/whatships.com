@@ -83,6 +83,40 @@ export function formatPublishedAt(iso: string) {
   }).format(date);
 }
 
+function isoDate(value: string | null | undefined) {
+  if (!value) return null;
+  const time = Date.parse(value);
+  return Number.isNaN(time) ? null : new Date(time).toISOString().slice(0, 10);
+}
+
+/**
+ * Date (YYYY-MM-DD) an entry page last changed: the post date, or the view
+ * snapshot if that is newer — refreshing the snapshot rewrites the page.
+ */
+export function videoDateModified(
+  video: Pick<LaunchVideo, "publishedAt" | "viewsCapturedAt">,
+) {
+  const candidates = [isoDate(video.publishedAt), isoDate(video.viewsCapturedAt)]
+    .filter((value): value is string => value !== null)
+    .sort();
+  return candidates.at(-1) ?? null;
+}
+
+/**
+ * Date (YYYY-MM-DD) a listing over `videos` last changed — the newest
+ * entry-level modification in the set. Null for an empty list.
+ */
+export function catalogDateModified(
+  videos: ReadonlyArray<Pick<LaunchVideo, "publishedAt" | "viewsCapturedAt">>,
+) {
+  let latest: string | null = null;
+  for (const video of videos) {
+    const modified = videoDateModified(video);
+    if (modified && (!latest || modified > latest)) latest = modified;
+  }
+  return latest;
+}
+
 export function formatDuration(seconds: number | null) {
   if (seconds == null || seconds <= 0) return null;
   const mins = Math.floor(seconds / 60);
