@@ -8,6 +8,7 @@ import { homepageJsonLd } from "@/lib/schema";
 import {
   HOMEPAGE_H1,
   HOMEPAGE_INTRO,
+  HOMEPAGE_TITLE,
   SITE_META_DESCRIPTION,
   SITE_NAME,
 } from "@/lib/site";
@@ -15,12 +16,19 @@ import {
 const firstPage = publishedVideos.slice(0, PAGE_SIZE).map(toDirectoryVideo);
 const lcpPoster = firstPage[0] ? gridPoster(firstPage[0].poster) : null;
 const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
+// The ItemList mirrors the newest entries already in the HTML grid; capped so
+// the JSON-LD block stays small.
+const jsonLd = homepageJsonLd(
+  firstPage.slice(0, 20).map((video) => ({
+    title: video.title,
+    slug: video.slug,
+    company: video.company,
+    description: video.description,
+  })),
+);
 ---
 
-<BaseLayout
-  title={`Startup Launch Videos from X — ${SITE_NAME}`}
-  description={SITE_META_DESCRIPTION}
->
+<BaseLayout title={HOMEPAGE_TITLE} description={SITE_META_DESCRIPTION}>
   {
     lcpPoster && (
       <link
@@ -36,7 +44,7 @@ const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
   <script
     type="application/ld+json"
     is:inline
-    set:html={JSON.stringify(homepageJsonLd())}
+    set:html={JSON.stringify(jsonLd)}
   />
   {/* Crawler copy outside the HomeApp island (AGENTS.md): one H1 plus the
       site intro, so agents that skip custom elements still see the summary.
