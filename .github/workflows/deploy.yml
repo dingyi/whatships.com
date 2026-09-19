@@ -24,6 +24,16 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
+      # Run the repository's own checks before anything reaches the edge.
+      # `pnpm build` succeeding is not a substitute for them: `astro check`
+      # covers template/type diagnostics and vitest covers the catalog,
+      # workers and page contract tests.
+      - name: Check
+        run: pnpm check
+
+      - name: Test
+        run: pnpm test:run
+
       # PUBLIC_VIDEO_PROXY_BASE is inlined into the client bundle at build
       # time; without it playback falls back to local /streams (dev only).
       - name: Build
