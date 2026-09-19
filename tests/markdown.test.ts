@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { publishedVideos } from "@/lib/catalog";
+import { CATEGORIES, catalogDateModified, publishedVideos } from "@/lib/catalog";
+import { PAGE_SIZE, listingPageCount } from "@/lib/directory";
 import {
   aboutMarkdown,
+  categoryMarkdown,
   contactMarkdown,
   developersMarkdown,
   homepageMarkdown,
@@ -108,10 +110,50 @@ describe("structured data", () => {
     // (Google requires matching on-page FAQ content), so keep it out.
     expect(types).not.toContain("FAQPage");
     expect(types).toContain("Article");
+    // dateModified tracks the newest catalog change, not a hardcoded date.
     expect(graph.find((node) => node["@type"] === "CollectionPage")).toMatchObject({
-      dateModified: "2026-08-27",
+      dateModified: catalogDateModified(publishedVideos),
       speakable: { "@type": "SpeakableSpecification" },
     });
+    expect(catalogDateModified(publishedVideos)).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+  });
+
+  it("lists the newest entries on the homepage when given them", () => {
+    const graph = homepageJsonLd(
+      publishedVideos.slice(0, 3).map((video) => ({
+        title: video.title,
+        slug: video.slug,
+        company: video.company,
+        description: video.description,
+      })),
+    )["@graph"] as Array<Record<string, any>>;
+    const home = graph.find((node) => node["@type"] === "CollectionPage");
+    expect(home?.mainEntity?.["@type"]).toBe("ItemList");
+    expect(home?.mainEntity?.itemListElement).toHaveLength(3);
+    expect(home?.mainEntity?.itemListElement[0].item.url).toBe(
+      `https://whatships.com/videos/${publishedVideos[0].slug}/`,
+    );
+  });
+});
+
+describe("category markdown pagination", () => {
+  it("splits a category into PAGE_SIZE pages that link each other", () => {
+    const ai = CATEGORIES.find((category) => category.id === "ai")!;
+    const inCategory = publishedVideos.filter((video) => video.category === "ai");
+    const totalPages = listingPageCount(inCategory.length);
+    expect(totalPages).toBeGreaterThan(1);
+
+    const first = categoryMarkdown(ai);
+    expect(first).toContain("# AI startup launch videos — What Ships");
+    expect(first).toContain("product launch videos");
+    expect(first).toContain(`/videos/${inCategory[0].slug}/`);
+    expect(first).not.toContain(`/videos/${inCategory[PAGE_SIZE].slug}/`);
+    expect(first).toContain("https://whatships.com/videos/category/ai/2/");
+
+    const second = categoryMarkdown(ai, publishedVideos, 2);
+    expect(second).toContain("# AI startup launch videos — page 2 — What Ships");
+    expect(second).toContain(`/videos/${inCategory[PAGE_SIZE].slug}/`);
+    expect(second).not.toContain(`/videos/${inCategory[0].slug}/`);
   });
 });
 

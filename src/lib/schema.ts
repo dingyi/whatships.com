@@ -1,3 +1,4 @@
+import { catalogDateModified, publishedVideos } from "@/lib/catalog";
 import {
   SITE_DATE_MODIFIED,
   SITE_DATE_PUBLISHED,
@@ -80,12 +81,16 @@ export function faqJsonLd(
 }
 
 export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
+  // The homepage changes whenever an entry is added or its view snapshot is
+  // refreshed, so its dateModified is the newest entry-level change.
+  const dateModified =
+    catalogDateModified(publishedVideos) ?? SITE_DATE_MODIFIED;
   const itemList =
     recentVideos.length > 0
       ? {
           "@type": "ItemList",
           "@id": `${SITE_URL}/#latest-launch-videos`,
-          name: "Latest startup launch videos",
+          name: "Latest startup and product launch videos",
           itemListElement: recentVideos.map((video, index) => ({
             "@type": "ListItem",
             position: index + 1,
@@ -113,7 +118,7 @@ export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
         description: SITE_DESCRIPTION,
         inLanguage: "en",
         datePublished: SITE_DATE_PUBLISHED,
-        dateModified: SITE_DATE_MODIFIED,
+        dateModified,
         isPartOf: { "@id": WEBSITE_ID },
         about: { "@id": ORGANIZATION_ID },
         publisher: { "@id": ORGANIZATION_ID },
@@ -127,10 +132,10 @@ export function homepageJsonLd(recentVideos: HomepageListItem[] = []) {
       {
         "@type": "Article",
         "@id": `${SITE_URL}/#overview-article`,
-        headline: `${SITE_NAME} startup launch-video catalog`,
+        headline: `${SITE_NAME} startup and product launch video catalog`,
         description: SITE_DESCRIPTION,
         datePublished: SITE_DATE_PUBLISHED,
-        dateModified: SITE_DATE_MODIFIED,
+        dateModified,
         inLanguage: "en",
         author: { "@id": ORGANIZATION_ID },
         publisher: { "@id": ORGANIZATION_ID },

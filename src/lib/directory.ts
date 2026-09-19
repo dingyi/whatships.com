@@ -1,8 +1,19 @@
 import type { LaunchVideo } from "@/lib/catalog";
 
-// 60 divides evenly by 3, 4, 5, and 6 columns, so a full page never leaves
-// a trailing empty cell in the grid at any common viewport width.
-export const PAGE_SIZE = 60;
+// 100 entries per page: the first page is rendered into the static HTML of
+// the homepage and each category page, so this is also how many entry links
+// a crawler sees per listing page. Divides evenly into 4 and 5 columns.
+export const PAGE_SIZE = 100;
+
+/** Number of static listing pages needed to link every one of `total` items. */
+export function listingPageCount(total: number) {
+  return Math.max(1, Math.ceil(total / PAGE_SIZE));
+}
+
+/** URL of page `page` of a paginated listing rooted at `basePath` (with trailing slash). */
+export function listingPagePath(basePath: string, page: number) {
+  return page <= 1 ? basePath : `${basePath}${page}/`;
+}
 
 /** Fields the homepage grid, search, and in-page player actually use. */
 export type DirectoryVideo = Pick<
@@ -86,7 +97,7 @@ export function filterVideos<T extends DirectoryVideo>(
 }
 
 export function clampPage(page: number, totalItems: number) {
-  const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
+  const totalPages = listingPageCount(totalItems);
   return Math.min(Math.max(1, Math.trunc(page) || 1), totalPages);
 }
 
