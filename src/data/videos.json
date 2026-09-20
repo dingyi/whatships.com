@@ -57603,5 +57603,55 @@
     "durationSeconds": 15,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-compositor",
+    "slug": "compositor",
+    "title": "Compositor — a free Photoshop-like image editor",
+    "product": "Compositor",
+    "company": "Compositor",
+    "description": "Compositor is a free, open-source Photoshop-like image editor. Robbie Tilton built it to leave Adobe, then released it with the compositing tools he actually uses.",
+    "category": "design",
+    "tags": [
+      "compositor",
+      "editor",
+      "open-source"
+    ],
+    "tweetUrl": "https://x.com/robbietilton/status/2100946395972976843",
+    "tweetId": "2100946395972976843",
+    "authorName": "Robbie Tilton",
+    "authorHandle": "robbietilton",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1842035847602049024/uGkmO5O7.jpg",
+    "poster": "/posters/compositor.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100944886430400512/vid/avc1/1668x1080/f0pQWVKBi0j_0o8K.mp4",
+    "publishedAt": "2026-09-18T13:53:49.000Z",
+    "durationSeconds": 35,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-kool-brushez",
+    "slug": "kool-brushez",
+    "title": "kool-brushez — new subway, figure, and gunpla brushes",
+    "product": "kool-brushez",
+    "company": "kool-brushez",
+    "description": "Three new brushes for kool-brushez: NYC subway lines, little figures from architecture drawings, and gunpla components. The UI now lets you try many brushes at once.",
+    "category": "design",
+    "tags": [
+      "kool-brushez",
+      "brushes",
+      "drawing"
+    ],
+    "tweetUrl": "https://x.com/blak3shao/status/2097092079838998542",
+    "tweetId": "2097092079838998542",
+    "authorName": "Blake Shao",
+    "authorHandle": "blak3shao",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1796725807814938624/7-bJ-Ujk.jpg",
+    "poster": "/posters/kool-brushez.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2097091996145901568/vid/avc1/1440x1080/fOZ5RXepEOpmajqz.mp4",
+    "publishedAt": "2026-09-07T22:38:08.000Z",
+    "durationSeconds": 17,
+    "featured": false,
+    "status": "published"
   }
 ]
