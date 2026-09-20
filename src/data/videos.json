@@ -57528,5 +57528,80 @@
     "durationSeconds": 30,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-monid-free-search",
+    "slug": "monid-free-search",
+    "title": "Monid — free webpage search and fetch for agents",
+    "product": "Monid",
+    "company": "Monid",
+    "description": "Monid now lets agents search and fetch any webpage for free. No subscriptions, no quotas, built with Tiny Fish.",
+    "category": "ai",
+    "tags": [
+      "monid",
+      "search",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/MonidHQ/status/2100705843453079718",
+    "tweetId": "2100705843453079718",
+    "authorName": "Monid",
+    "authorHandle": "MonidHQ",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2092798103523127296/oncgd8fr.jpg",
+    "poster": "/posters/monid-free-search.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100705814793383936/vid/avc1/1920x1080/1exFwLqe7JCZH704.mp4",
+    "publishedAt": "2026-09-17T21:57:56.000Z",
+    "durationSeconds": 35,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-grok-bot-voice-notes",
+    "slug": "grok-bot-voice-notes",
+    "title": "Grok Bot — it can send you voice notes",
+    "product": "Grok Bot",
+    "company": "xAI",
+    "description": "Grok Bot can now send you voice notes.",
+    "category": "ai",
+    "tags": [
+      "grok",
+      "bot",
+      "voice"
+    ],
+    "tweetUrl": "https://x.com/bot/status/2101014478255247544",
+    "tweetId": "2101014478255247544",
+    "authorName": "Grok Bot",
+    "authorHandle": "bot",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V.jpg",
+    "poster": "/posters/grok-bot-voice-notes.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2101002741590159360/vid/avc1/1920x1080/KDwPhFEZcWFgpzRu.mp4",
+    "publishedAt": "2026-09-18T18:24:21.000Z",
+    "durationSeconds": 19,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-glyph",
+    "slug": "glyph",
+    "title": "Glyph — a GPU typography engine for the web",
+    "product": "Glyph",
+    "company": "Poimandres",
+    "description": "Glyph v0.1.0 is a GPU-first typography engine for the web: batched drawing, incremental updates, and multilingual text that looks like a native app.",
+    "category": "design",
+    "tags": [
+      "glyph",
+      "typography",
+      "gpu"
+    ],
+    "tweetUrl": "https://x.com/pmndrs/status/2100980802091708818",
+    "tweetId": "2100980802091708818",
+    "authorName": "Poimandres",
+    "authorHandle": "pmndrs",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1307605289881997312/holvNXs5.jpg",
+    "poster": "/posters/glyph.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100980653206511616/vid/avc1/1950x1404/xCB0nvQiAr6qYNCG.mp4",
+    "publishedAt": "2026-09-18T16:10:32.000Z",
+    "durationSeconds": 15,
+    "featured": false,
+    "status": "published"
   }
 ]
