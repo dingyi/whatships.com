@@ -1,9 +1,11 @@
 import type { LaunchVideo } from "@/lib/catalog";
 
-// 100 entries per page: the first page is rendered into the static HTML of
+// 120 entries per page: the first page is rendered into the static HTML of
 // the homepage and each category page, so this is also how many entry links
-// a crawler sees per listing page. Divides evenly into 4 and 5 columns.
-export const PAGE_SIZE = 100;
+// a crawler sees per listing page. The grid auto-fills 1–6 columns (320px
+// min, 1920px max container), and 120 divides evenly by every count from 1
+// to 6, so a full page never leaves a trailing empty cell.
+export const PAGE_SIZE = 120;
 
 /** Number of static listing pages needed to link every one of `total` items. */
 export function listingPageCount(total: number) {
