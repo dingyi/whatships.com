@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 import {
   CATEGORIES,
+  catalogDateModified,
   categoryLabel,
   formatDuration,
   formatPublishedAt,
@@ -25,7 +26,11 @@ import {
   SITE_URL,
   WHEN_TO_USE,
 } from "@/lib/site";
-import { PAGE_SIZE } from "@/lib/directory";
+import {
+  PAGE_SIZE,
+  listingPageCount,
+  listingPagePath,
+} from "@/lib/directory";
 import { publishedStudios, studioKindLabel } from "@/lib/studios";
 import { publishedTools, toolCategoryLabel } from "@/lib/tools";
 import { guideMarkdown, guidePath, guideTitle } from "@/lib/guide-vs-product-hunt";
@@ -37,7 +42,8 @@ function pageUrl(pathname: string): string {
 }
 
 function catalogFact(videos: LaunchVideo[] = publishedVideos): string {
-  return `As of ${SITE_DATE_MODIFIED}, ${SITE_NAME} publishes ${videos.length} curated startup launch-video pages with stable URLs, markdown alternates, poster images, categories, and original X citations.`;
+  const asOf = catalogDateModified(videos) ?? SITE_DATE_MODIFIED;
+  return `As of ${asOf}, ${SITE_NAME} publishes ${videos.length} curated startup and product launch video pages with stable URLs, markdown alternates, poster images, categories, and original X citations.`;
 }
 
 export function homepageMarkdown(videos: LaunchVideo[] = publishedVideos): string {
@@ -362,14 +368,33 @@ export function studiosMarkdown(): string {
 export function categoryMarkdown(
   category: (typeof CATEGORIES)[number],
   videos: LaunchVideo[] = publishedVideos,
+  page = 1,
 ): string {
   const label = categoryLabel(category.id);
-  const items = videos.slice(0, PAGE_SIZE);
+  const inCategory = videos.filter((video) => video.category === category.id);
+  const totalPages = listingPageCount(inCategory.length);
+  const items = inCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const basePath = `/videos/category/${category.id}/`;
+  const pageSuffix = page > 1 ? ` — page ${page}` : "";
+  const pageLinks =
+    totalPages > 1
+      ? [
+          `Pages: ${Array.from({ length: totalPages }, (_, index) => index + 1)
+            .map((number) =>
+              number === page
+                ? `${number}`
+                : `[${number}](${pageUrl(listingPagePath(basePath, number))})`,
+            )
+            .join(" · ")}`,
+          "",
+        ]
+      : [];
   return [
-    `# ${label} startup launch videos — ${SITE_NAME}`,
+    `# ${label} startup launch videos${pageSuffix} — ${SITE_NAME}`,
     "",
-    `${videos.length} curated ${label} startup launch videos from X. Each entry stores the product, company, and duration when known, and links to the original post.`,
+    `${inCategory.length} curated ${label} startup launch videos from X — product launch videos, demos, and walkthroughs. Each entry stores the product, company, and duration when known, and links to the original post.`,
     "",
+    ...pageLinks,
     ...items.map(
       (video) =>
         `- [${video.title}](${pageUrl(`/videos/${video.slug}/`)}) — ${video.company}, ${formatPublishedAt(video.publishedAt)}`,
@@ -405,13 +430,20 @@ export async function writeMarkdownAssets(distDir: string | URL): Promise<void> 
       guidePath.replace(/^\//, "").replace(/\/$/, "") + "/index.md",
       guideMarkdown(),
     ],
-    ...CATEGORIES.map(
-      (category) =>
-        [
-          `videos/category/${category.id}/index.md`,
-          categoryMarkdown(category),
-        ] as const,
-    ),
+    ...CATEGORIES.flatMap((category) => {
+      const count = publishedVideos.filter(
+        (video) => video.category === category.id,
+      ).length;
+      if (count === 0) return [];
+      const basePath = `/videos/category/${category.id}/`;
+      return Array.from({ length: listingPageCount(count) }, (_, index) => {
+        const page = index + 1;
+        return [
+          `${listingPagePath(basePath, page).slice(1)}index.md`,
+          categoryMarkdown(category, publishedVideos, page),
+        ] as const;
+      });
+    }),
   ]);
   for (const video of publishedVideos) {
     files.set(`videos/${video.slug}/index.md`, videoMarkdown(video));

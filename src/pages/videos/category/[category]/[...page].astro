@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter.astro";
 import {
   CATEGORIES,
   authorAvatarSrc,
+  catalogDateModified,
   categoryLabel,
   formatDuration,
   formatPublishedAt,
@@ -12,7 +13,12 @@ import {
   formatViewsLabel,
   publishedVideos,
 } from "@/lib/catalog";
-import { PAGE_SIZE, gridPoster } from "@/lib/directory";
+import {
+  PAGE_SIZE,
+  gridPoster,
+  listingPageCount,
+  listingPagePath,
+} from "@/lib/directory";
 import {
   SITE_DATE_MODIFIED,
   SITE_NAME,
@@ -20,39 +26,59 @@ import {
   metaDescription,
 } from "@/lib/site";
 
+// Every entry gets a static, crawlable link from its category listing: page 1
+// lives at /videos/category/{id}/, later pages at /videos/category/{id}/{n}/.
 export function getStaticPaths() {
-  return CATEGORIES.filter((category) =>
-    publishedVideos.some((video) => video.category === category.id),
-  ).map((category) => ({
-    params: { category: category.id },
-    props: {
-      category,
-      videos: publishedVideos.filter((video) => video.category === category.id),
-    },
-  }));
+  return CATEGORIES.flatMap((category) => {
+    const videos = publishedVideos.filter(
+      (video) => video.category === category.id,
+    );
+    if (videos.length === 0) return [];
+    const totalPages = listingPageCount(videos.length);
+    return Array.from({ length: totalPages }, (_, index) => {
+      const page = index + 1;
+      return {
+        params: {
+          category: category.id,
+          page: page === 1 ? undefined : String(page),
+        },
+        props: { category, videos, page, totalPages },
+      };
+    });
+  });
 }
 
 interface Props {
   category: (typeof CATEGORIES)[number];
   videos: typeof publishedVideos;
+  page: number;
+  totalPages: number;
 }
 
-const { category, videos } = Astro.props;
+const { category, videos, page, totalPages } = Astro.props;
 const label = categoryLabel(category.id);
 const labelLower = label === "AI" ? "AI" : label.toLowerCase();
-const shown = videos.slice(0, PAGE_SIZE);
-const hidden = videos.length - shown.length;
+const shown = videos.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 const latest = videos.length ? formatPublishedAt(videos[0].publishedAt) : null;
 const earliest = videos.length
   ? formatPublishedAt(videos[videos.length - 1].publishedAt)
   : null;
+const pageSuffix = page > 1 ? ` — page ${page}` : "";
 
 const description = metaDescription(
-  `${videos.length} ${labelLower} startup launch videos from X, curated by What Ships with product, company, and duration metadata plus a link to each original post.`,
+  `${videos.length} ${labelLower} startup launch videos from X${pageSuffix}: product launch videos, demos, and walkthroughs curated by What Ships with product, company, and duration metadata plus a link to each original post.`,
 );
 
 const site = Astro.site ?? SITE_URL;
-const pageUrl = new URL(`/videos/category/${category.id}/`, site).toString();
+const basePath = `/videos/category/${category.id}/`;
+const pagePath = listingPagePath(basePath, page);
+const pageUrl = new URL(pagePath, site).toString();
+const prevPath = page > 1 ? listingPagePath(basePath, page - 1) : null;
+const nextPath = page < totalPages ? listingPagePath(basePath, page + 1) : null;
+// Every page links every other page, so any entry is one hop from page 1.
+const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
+const dateModified = catalogDateModified(videos) ?? SITE_DATE_MODIFIED;
+const pageTitle = `${label} startup & product launch videos${pageSuffix} — ${SITE_NAME}`;
 
 const categoryJsonLd = {
   "@context": "https://schema.org",
@@ -61,16 +87,16 @@ const categoryJsonLd = {
       "@type": "CollectionPage",
       "@id": `${pageUrl}#collection`,
       url: pageUrl,
-      name: `${label} startup launch videos — ${SITE_NAME}`,
+      name: pageTitle,
       description,
       inLanguage: "en",
-      dateModified: SITE_DATE_MODIFIED,
+      dateModified,
       isPartOf: { "@id": `${SITE_URL}/#website` },
       publisher: { "@id": `${SITE_URL}/#organization` },
       mainEntity: {
         "@type": "ItemList",
         "@id": `${pageUrl}#videos`,
-        name: `${label} startup launch videos`,
+        name: `${label} startup and product launch videos${pageSuffix}`,
         numberOfItems: shown.length,
         itemListElement: shown.map((video, index) => ({
           "@type": "ListItem",
@@ -98,19 +124,28 @@ const categoryJsonLd = {
         {
           "@type": "ListItem",
           position: 2,
-          name: `${label} startup launch videos`,
-          item: pageUrl,
+          name: `${label} launch videos`,
+          item: new URL(basePath, site).toString(),
         },
+        ...(page > 1
+          ? [
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: `Page ${page}`,
+                item: pageUrl,
+              },
+            ]
+          : []),
       ],
     },
   ],
 };
 ---
 
-<BaseLayout
-  title={`${label} startup launch videos — ${SITE_NAME}`}
-  description={description}
->
+<BaseLayout title={pageTitle} description={description}>
+  {prevPath && <link slot="head" rel="prev" href={prevPath} />}
+  {nextPath && <link slot="head" rel="next" href={nextPath} />}
   <script
     type="application/ld+json"
     is:inline
@@ -122,7 +157,8 @@ const categoryJsonLd = {
       <div class="hero__inner">
         <h1 id="category-title">{label} startup launch videos from X</h1>
         <p class="hero__copy">
-          {videos.length} {labelLower} startup launch videos indexed
+          {videos.length} {labelLower} product launch videos, demos, and
+          walkthroughs indexed
           {earliest && latest ? `, ${earliest} to ${latest}` : ""}. Every entry
           stores the product, company, duration when known, and a durable link
           to the original X post — study the film or cite the source instead of
@@ -265,12 +301,32 @@ const categoryJsonLd = {
         }
       </div>
       {
-        hidden !== 0 && (
-          <p class="category-more">
-            Showing the {shown.length} most recent of {videos.length} entries.
-            The full catalog with search lives on the{" "}
-            <a href="/">home grid</a>.
-          </p>
+        totalPages > 1 && (
+          <nav class="category-more" aria-label={`${label} launch videos pages`}>
+            <p>
+              Page {page} of {totalPages} · {videos.length} entries
+              {" · "}
+              {prevPath ? <a href={prevPath} rel="prev">Previous</a> : <span>Previous</span>}
+              {" / "}
+              {nextPath ? <a href={nextPath} rel="next">Next</a> : <span>Next</span>}
+            </p>
+            <ol class="category-pages">
+              {
+                pageNumbers.map((number) => (
+                  <li>
+                    {number === page ? (
+                      <span aria-current="page">{number}</span>
+                    ) : (
+                      <a href={listingPagePath(basePath, number)}>{number}</a>
+                    )}
+                  </li>
+                ))
+              }
+            </ol>
+            <p>
+              Search the full catalog on the <a href="/">home grid</a>.
+            </p>
+          </nav>
         )
       }
     </section>
@@ -321,12 +377,59 @@ const categoryJsonLd = {
     color: var(--muted-foreground);
     font-size: 13px;
   }
+  .category-more p {
+    margin: 0;
+  }
+  .category-more p + p {
+    margin-top: 8px;
+  }
   .category-more a {
     color: var(--foreground);
     text-underline-offset: 2px;
   }
+  .category-pages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .category-pages a,
+  .category-pages span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    padding: 0 8px;
+    border: 0.5px solid var(--grid-line);
+    background: var(--card);
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .category-pages a:hover {
+    color: var(--foreground);
+    border-color: var(--n-400);
+  }
+  .category-pages a:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .category-pages span[aria-current="page"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+    color: var(--background);
+  }
   @media (max-width: 699px) {
-    .category-chip {
+    .category-chip,
+    .category-pages a,
+    .category-pages span {
       min-height: 44px;
       padding: 0 12px;
     }

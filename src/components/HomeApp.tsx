@@ -337,8 +337,8 @@ export default function HomeApp({ videos, totalCount }: Props) {
               Discover startup launch videos from X
             </p>
             <p className="hero__copy">
-              A curated edit of launch films, demos, and walkthroughs that
-              introduce new products to the world.
+              A curated edit of product launch videos, demos, and walkthroughs
+              from startups introducing new products to the world.
             </p>
           </div>
         </section>

@@ -61,7 +61,14 @@ export const META_DESCRIPTION_MAX = 160;
 
 /** Homepage SEO meta description. Keep between 140 and 160 characters. */
 export const SITE_META_DESCRIPTION =
-  "What Ships is a curated directory of 2,000+ startup launch videos from X. Browse product films, demos, and walkthroughs, each linked to the original post.";
+  "What Ships is a curated directory of 2,000+ startup launch videos from X. Browse product launch videos, demos, and walkthroughs linked to the original post.";
+
+/**
+ * Homepage <title>. Names both search phrases the directory targets —
+ * "startup launch videos" and "product launch videos" — inside Google's
+ * ~60 character display window.
+ */
+export const HOMEPAGE_TITLE = `Startup & Product Launch Videos from X — ${SITE_NAME}`;
 
 /**
  * Fit copy into the 140-160 character SEO meta-description window.
@@ -98,7 +105,7 @@ export const HOMEPAGE_H1 = "Discover startup launch videos from X";
  * of raw HTML. The visible HomeApp hero uses a styled paragraph so the page
  * has exactly one H1.
  */
-export const HOMEPAGE_INTRO = `What Ships (whatships.com) is an independent curated directory of startup launch videos from X. The catalog indexes product launch films, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
+export const HOMEPAGE_INTRO = `What Ships (whatships.com) is an independent curated directory of startup launch videos from X. The catalog indexes product launch videos, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
 
 Each published entry on whatships.com stores the product name, company, editorial category, poster frame, duration, and a durable link to the original X post. Nothing is ranked, advertised, or sold as placement. Drafts stay unpublished until a human reviews them.
 

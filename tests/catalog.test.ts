@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  CATEGORIES,
   formatViews,
   formatViewsCount,
   formatViewsDetail,
@@ -39,6 +40,14 @@ describe("catalog", () => {
   it("keeps unique slugs", () => {
     const slugs = publishedVideos.map((video) => video.slug);
     expect(new Set(slugs).size).toBe(slugs.length);
+  });
+
+  it("files every published entry under a real category page", () => {
+    const known = new Set<string>(CATEGORIES.map((category) => category.id));
+    const strays = publishedVideos
+      .filter((video) => !known.has(video.category))
+      .map((video) => `${video.slug} → ${video.category}`);
+    expect(strays).toEqual([]);
   });
 });
 
