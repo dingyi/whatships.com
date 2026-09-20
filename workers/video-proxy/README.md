@@ -22,6 +22,11 @@ GET https://<your-worker>.workers.dev/?url=<encodeURIComponent(upstream URL)>
 
 ## Deploy
 
+Every push to `main` deploys this Worker from `.github/workflows/deploy.yml`
+(a `wrangler deploy` step run in this directory), so a merged change here
+reaches production without a manual step. Manual deploy, for a first-time
+setup or a local check:
+
 ```sh
 cd workers/video-proxy
 npx wrangler login        # once, opens Cloudflare auth
