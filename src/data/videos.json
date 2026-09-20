@@ -89,7 +89,7 @@
     "product": "EvilCharts",
     "company": "EvilCharts",
     "description": "ECharts rendering engine in EvilCharts for high-performance dashboards. 8 charts, 108 examples, 18 custom blocks. Free and open source for Next.js/React.",
-    "category": "devtools",
+    "category": "developer-tools",
     "tags": [
       "charts",
       "react",
@@ -252,7 +252,7 @@
     "product": "Canvas UI",
     "company": "Canvas UI",
     "description": "The first html-in-canvas component library. Real-time shaders over real, interactive UI. 24 components for React, Vue, Svelte, and vanilla TS. Free and open source.",
-    "category": "devtools",
+    "category": "developer-tools",
     "tags": [
       "ui",
       "canvas",

@@ -14,14 +14,11 @@ import {
   playbackUrl,
   publishedVideos,
   type LaunchVideo,
+  videoDateModified,
   xProfileUrl,
 } from "@/lib/catalog";
 import { gridPoster } from "@/lib/directory";
-import {
-  SITE_DATE_MODIFIED,
-  SITE_NAME,
-  SITE_URL,
-} from "@/lib/site";
+import { SITE_DATE_MODIFIED, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export async function getStaticPaths() {
   const total = publishedVideos.length;
@@ -58,16 +55,23 @@ const viewsCaptured = video.viewsCapturedAt
   : null;
 const handle = video.authorHandle.replace(/^@/, "");
 const tweetUrl = normalizeTweetUrl(video.tweetUrl);
-const categoryLabelLower = categoryLabel(video.category).toLowerCase();
+const categoryName = categoryLabel(video.category);
+const categoryLabelLower =
+  categoryName === "AI" ? "AI" : categoryName.toLowerCase();
+const categoryPath = `/videos/category/${video.category}/`;
 const categoryCount = publishedVideos.filter(
   (candidate) => candidate.category === video.category,
 ).length;
 const possessiveCompany = video.company ? `${video.company}'s ` : "";
+// Motion entries are reels, demos, and farewells rather than launches.
+const isLaunch = video.category !== "motion";
+const kindLabel = isLaunch ? "Product launch video" : "Launch film";
+const dateModified = videoDateModified(video) ?? SITE_DATE_MODIFIED;
 
 // Extractable definition block: identity sentence the catalog can back up.
 const definition = [
   `${video.product} is ${possessiveCompany}${categoryLabelLower} ${
-    video.category === "motion" ? "film" : "launch film"
+    isLaunch ? "product launch video" : "film"
   }, posted on X by @${handle} on ${formatPublishedAt(video.publishedAt)}.`,
   duration
     ? `The ${duration} film is archived here as entry ${positionLabel} of ${totalLabel} in the whatships.com catalog, with a durable link back to the original X post.`
@@ -110,7 +114,7 @@ const videoJsonLd = {
       description,
       inLanguage: "en",
       datePublished: video.publishedAt,
-      dateModified: SITE_DATE_MODIFIED,
+      dateModified,
       isPartOf: { "@id": `${SITE_URL}/#website` },
       about: { "@id": `${pageUrl}#video` },
       mainEntity: { "@id": `${pageUrl}#video` },
@@ -138,6 +142,12 @@ const videoJsonLd = {
         {
           "@type": "ListItem",
           position: 2,
+          name: `${categoryName} launch videos`,
+          item: new URL(categoryPath, site).toString(),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
           name: video.title,
           item: pageUrl,
         },
@@ -151,9 +161,11 @@ const videoJsonLd = {
       thumbnailUrl: posterUrl,
       uploadDate: video.publishedAt,
       ...(durationIso ? { duration: durationIso } : {}),
+      // No embedUrl: Google expects a standalone player URL there, and the
+      // detail page is not one. contentUrl + thumbnailUrl satisfy the spec.
       contentUrl,
-      embedUrl: pageUrl,
       url: pageUrl,
+      genre: `${categoryName} ${isLaunch ? "product launch video" : "film"}`,
       author: {
         "@type": "Person",
         name: video.authorName,
@@ -184,7 +196,7 @@ const videoJsonLd = {
 ---
 
 <BaseLayout
-  title={`${video.title} — whatships.com`}
+  title={`${video.title} — ${kindLabel} | ${SITE_NAME}`}
   description={description}
   image={video.poster}
 >
@@ -253,7 +265,15 @@ const videoJsonLd = {
         </div>
         <div class="detail-fact">
           <dt>Category</dt>
-          <dd>{categoryLabel(video.category)}</dd>
+          <dd>
+            <a
+              class="detail-website"
+              href={categoryPath}
+              aria-label={`Browse all ${categoryName} launch videos`}
+            >
+              {categoryName}
+            </a>
+          </dd>
         </div>
         <div class="detail-fact">
           <dt>Posted</dt>
@@ -431,7 +451,8 @@ const videoJsonLd = {
             to read the launch-day conversation as it happened.
           </li>
           <li>
-            Compare with the {categoryLabel(video.category)} launches linked
+            Compare with the{" "}
+            <a href={categoryPath}>{categoryName} launch videos</a> linked
             below, or browse the{" "}
             <a href="/studios/">studios directory</a> for the people who made
             the film.
