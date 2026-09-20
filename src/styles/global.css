@@ -1596,17 +1596,59 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   text-underline-offset: 3px;
   text-decoration-thickness: 0.5px;
 }
-.about-faq dt {
-  font-weight: 520;
-  margin-top: 14px;
+.about-content section.about-faq {
+  margin-top: 10px;
+  padding-top: 24px;
 }
-.about-faq dt:first-child {
-  margin-top: 0;
+.about-faq__list {
+  margin-top: 12px;
+  border-top: 0.5px solid var(--grid-line);
 }
-.about-faq dd {
-  margin: 4px 0 0;
+.about-faq__item {
+  border-bottom: 0.5px solid var(--grid-line);
+}
+.about-faq__item > summary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 0;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
   color: var(--foreground);
+  font-family: var(--font-sans);
   font-size: 16px;
+  font-weight: 560;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  text-wrap: pretty;
+}
+.about-faq__item > summary::-webkit-details-marker {
+  display: none;
+}
+.about-faq__item > summary::after {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--n-500);
+  content: "+";
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  line-height: 20px;
+}
+.about-faq__item[open] > summary {
+  padding-bottom: 8px;
+}
+.about-faq__item[open] > summary::after {
+  content: "−";
+}
+.about-content .about-faq__item > p {
+  margin: 0;
+  padding: 0 28px 16px 0;
+  color: var(--muted-foreground);
+  font-size: 15px;
   line-height: 24px;
 }
 .guide-definition {

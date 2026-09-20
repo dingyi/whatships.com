@@ -15,6 +15,15 @@ function proseFromAstro(path: string): string {
 }
 
 describe("trust and developer pages", () => {
+  it("renders the about FAQ as expandable details", () => {
+    const source = readFileSync("src/pages/about.astro", "utf8");
+    expect(source).toContain('class="about-faq"');
+    expect(source).toContain("<details class=\"about-faq__item\">");
+    expect(source).toContain("<summary>{faq.question}</summary>");
+    expect(source).toContain("<p>{faq.answer}</p>");
+    expect(source).not.toContain("<dt>{faq.question}</dt>");
+  });
+
   it("keeps about, contact, privacy, terms, and developers over 500 characters", () => {
     const pages = [
       "src/pages/about.astro",
