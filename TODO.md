@@ -2,10 +2,13 @@
 
 ## Goal
 
-Add umbrelOS 2.0 launch film from https://x.com/umbrel/status/2095200468645675324
+Integrate Waffo payment (Plan A: lightweight integration) for Fast-Track submissions and sponsorships without requiring user login or database.
 
 ## Progress
 
-- [x] Append `umbrelos-2` to `videos.json`
-- [x] Capture 1440w + 960w posters
-- [ ] Tests, push, merge to main
+- [x] Create Waffo configuration module `src/lib/waffo.ts`
+- [x] Add Fast-Track payment option to `SubmitForm.tsx` and submission logic
+- [x] Add Sponsorship / Fast-Track documentation in About and Submit pages
+- [x] Add unit tests for Waffo configuration and submission integration
+- [x] Run test suite (`vitest run` & `astro check`)
+- [ ] Commit, push and update PR

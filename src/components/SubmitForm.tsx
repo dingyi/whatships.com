@@ -1,4 +1,4 @@
-import { Check, Copy, ExternalLink } from "lucide-react";
+import { Check, Copy, ExternalLink, Zap } from "lucide-react";
 import {
   cloneElement,
   isValidElement,
@@ -33,6 +33,7 @@ import {
 } from "@/lib/submit";
 import { TOOL_CATEGORIES } from "@/lib/tools";
 import { shakeInput, swapText } from "@/lib/motion";
+import { WAFFO_PRODUCTS, buildWaffoCheckoutUrl } from "@/lib/waffo";
 
 type Step = "form" | "ready";
 
@@ -175,10 +176,55 @@ export default function SubmitForm() {
   }
 
   if (step === "ready") {
+    const waffoCheckoutUrl = form.fastTrack
+      ? buildWaffoCheckoutUrl(WAFFO_PRODUCTS.fastTrack.checkoutUrl, {
+          product: form.product || form.name,
+          tweetUrl: form.tweetUrl,
+        })
+      : null;
+
     return (
       <div className="submit-success">
         <h1>Open a GitHub issue to finish</h1>
         <p className="submit-lead">{copy.success}</p>
+
+        {waffoCheckoutUrl && (
+          <div className="submit-fast-track-banner" style={{
+            margin: "20px 0",
+            padding: "16px",
+            border: "0.5px solid var(--grid-line)",
+            background: "var(--card)",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "8px" }}>
+              <Zap size={16} style={{ color: "#eab308" }} />
+              <strong style={{ fontSize: "14px", fontFamily: "var(--font-mono)" }}>
+                Fast-Track Editorial Review ({WAFFO_PRODUCTS.fastTrack.price})
+              </strong>
+            </div>
+            <p style={{ margin: "0 0 12px", fontSize: "13px", color: "var(--muted-foreground)" }}>
+              {WAFFO_PRODUCTS.fastTrack.description} Complete payment via Waffo Pancake to activate priority 24h review.
+            </p>
+            <a
+              className="submit-secondary"
+              href={waffoCheckoutUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "6px",
+                borderColor: "var(--foreground)",
+                background: "var(--foreground)",
+                color: "var(--background)",
+                textDecoration: "none"
+              }}
+            >
+              Pay with Waffo ({WAFFO_PRODUCTS.fastTrack.price})
+              <ExternalLink size={13} aria-hidden="true" />
+            </a>
+          </div>
+        )}
+
         <div className="submit-success__actions">
           <a className="nav-submit submit-primary-link" href={issueUrl}>
             Open GitHub issue
@@ -549,6 +595,40 @@ export default function SubmitForm() {
           </Field>
         </fieldset>
       ) : null}
+
+      <fieldset className="submit-fieldset">
+        <legend>Review speed</legend>
+        <label
+          style={{
+            display: "flex",
+            alignItems: "flex-start",
+            gap: "12px",
+            padding: "12px",
+            border: "0.5px solid var(--grid-line)",
+            background: form.fastTrack ? "var(--muted)" : "var(--card)",
+            cursor: "pointer",
+          }}
+        >
+          <input
+            type="checkbox"
+            name="fastTrack"
+            checked={Boolean(form.fastTrack)}
+            onChange={(e) => update("fastTrack", e.target.checked)}
+            style={{ marginTop: "3px" }}
+          />
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <Zap size={14} style={{ color: "#eab308" }} />
+              <span style={{ fontFamily: "var(--font-mono)", fontSize: "12px", fontWeight: 600 }}>
+                Fast-Track Editorial Review ({WAFFO_PRODUCTS.fastTrack.price})
+              </span>
+            </div>
+            <p style={{ margin: "4px 0 0", fontSize: "12px", color: "var(--muted-foreground)", lineHeight: "1.4" }}>
+              {WAFFO_PRODUCTS.fastTrack.description} Powered securely by Waffo Pancake.
+            </p>
+          </div>
+        </label>
+      </fieldset>
 
       <div className="submit-actions">
         <Button type="submit" className="submit-button" size="lg">
