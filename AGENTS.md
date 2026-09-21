@@ -17,18 +17,21 @@ node_modules/.bin/wrangler deploy   # manual deploy (see below)
 
 ## Deployment (read carefully)
 
-- **Every push to `main` auto-deploys** via `.github/workflows/deploy.yml`:
-  build (with `PUBLIC_VIDEO_PROXY_BASE` inlined) → `rm -rf dist/streams` →
-  `wrangler deploy`. `/admin` is not part of the production build. Check
-  runs with `gh run list`.
-- Manual deploy: `npx pnpm deploy` (same three steps). Needs
+- **Every push to `main` auto-deploys both Workers** via
+  `.github/workflows/deploy.yml`: the site (build with
+  `PUBLIC_VIDEO_PROXY_BASE` inlined → `rm -rf dist/streams` →
+  `wrangler deploy`) and the video proxy (`wrangler deploy` in
+  `workers/video-proxy/`). `/admin` is not part of the production build.
+  Check runs with `gh run list`.
+- Manual deploy: `npx pnpm deploy` (site, same three steps) and
+  `cd workers/video-proxy && npx wrangler deploy` (proxy). Both need
   `CLOUDFLARE_API_TOKEN` in the environment.
 - Domains: `whatships.com` + `www` serve the site via `workers/site/`
   (markdown `Accept` negotiation + agent 404s in front of static assets);
-  `proxy.whatships.com` is the video proxy (`workers/video-proxy/`,
-  deployed separately with its own wrangler.toml). Do not revert the
-  site `wrangler.toml` to assets-only — agents would get HTML for
-  `Accept: text/markdown` again.
+  `proxy.whatships.com` is the video proxy (`workers/video-proxy/`, its own
+  wrangler.toml, deployed by the same workflow as a second `wrangler
+  deploy` step). Do not revert the site `wrangler.toml` to assets-only —
+  agents would get HTML for `Accept: text/markdown` again.
 - **Never commit `public/streams/` or `dist/`** — both are gitignored.
   Local streams are gone for good; do not regenerate or re-add them.
 
