@@ -11,4 +11,4 @@ Integrate Waffo payment (Plan A: lightweight integration) for Fast-Track submiss
 - [x] Add Sponsorship / Fast-Track documentation in About and Submit pages
 - [x] Add unit tests for Waffo configuration and submission integration
 - [x] Run test suite (`vitest run` & `astro check`)
-- [ ] Commit, push and update PR
+- [x] Commit, push and update PR
