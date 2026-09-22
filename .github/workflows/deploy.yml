@@ -5,9 +5,17 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Production deploys serialize on one group, but a run that has already
+# reached its Deploy step must never be killed by the next push: an
+# interrupted `wrangler deploy` leaves production indistinguishable from a
+# shipped deploy. With cancel-in-progress disabled an in-flight run always
+# finishes and only runs still waiting in the queue are superseded, which is
+# exactly the desired behaviour. The video proxy is a separate Worker with
+# its own workflow (deploy-video-proxy.yml) and its own concurrency group, so
+# a site failure can no longer hold back a proxy fix or vice versa.
 concurrency:
   group: deploy-production
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -47,18 +55,7 @@ jobs:
       - name: Strip local artifacts
         run: rm -rf dist/streams dist/admin
 
-
       - name: Deploy
         run: pnpm exec wrangler deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-
-      # The video proxy is a second Worker with its own wrangler.toml.
-      # The root `wrangler deploy` above cannot reach it, so a merged
-      # change under workers/video-proxy/ would otherwise never reach
-      # production. The built site bundle hard-codes proxy.whatships.com.
-      - name: Deploy video proxy
-        run: pnpm exec wrangler deploy
-        working-directory: workers/video-proxy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
