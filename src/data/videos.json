@@ -58743,5 +58743,30 @@
     "durationSeconds": 93,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-onlight",
+    "slug": "onlight",
+    "title": "Onlight — control Philips Hue from the Mac menu bar",
+    "product": "Onlight",
+    "company": "Onlight",
+    "description": "Onlight is a native macOS menu bar app for controlling Philips Hue lights. It is free to download.",
+    "category": "productivity",
+    "tags": [
+      "onlight",
+      "hue",
+      "macos"
+    ],
+    "tweetUrl": "https://x.com/jamesm/status/2101286767131513088",
+    "tweetId": "2101286767131513088",
+    "authorName": "James McDonald",
+    "authorHandle": "jamesm",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2097686155487531008/zha_6TSJ.jpg",
+    "poster": "/posters/onlight.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2101286683849408512/vid/avc1/1550x1080/Rsh2muntGnpQH45s.mp4",
+    "publishedAt": "2026-09-19T12:26:19.000Z",
+    "durationSeconds": 28,
+    "featured": false,
+    "status": "published"
   }
 ]
