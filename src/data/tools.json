@@ -765,5 +765,15 @@
     "url": "https://www.clueso.io/",
     "category": "ai",
     "poster": "/posters/tools/clueso.webp"
+  },
+  {
+    "id": "tool-smoothcut",
+    "slug": "smoothcut",
+    "name": "SmoothCut",
+    "tagline": "Automatic zooms, without a video editor",
+    "description": "Record your screen. SmoothCut adds the automatic zooms, the smooth cursor, and the camera layouts that make a product demo look produced, without a video editor.",
+    "url": "https://smoothcut.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/smoothcut.webp"
   }
 ]
