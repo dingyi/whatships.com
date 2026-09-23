@@ -755,5 +755,15 @@
     "url": "https://www.dina.so/",
     "category": "editor",
     "poster": "/posters/tools/dina.webp"
+  },
+  {
+    "id": "tool-clueso",
+    "slug": "clueso",
+    "name": "Clueso",
+    "tagline": "Product videos in minutes with AI",
+    "description": "Turns raw screen recordings into polished product videos and step-by-step documentation in minutes, with AI voiceovers, translation, and editing.",
+    "url": "https://www.clueso.io/",
+    "category": "ai",
+    "poster": "/posters/tools/clueso.webp"
   }
 ]
