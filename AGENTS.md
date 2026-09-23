@@ -7,13 +7,23 @@ hosted on Cloudflare Workers static assets.
 ## Commands
 
 ```bash
-npx pnpm install          # pnpm 12 (no global pnpm on PATH; use npx)
+npx pnpm@12.5.1 install   # pinned: CI pins the same version (see note below)
 node_modules/.bin/astro dev
 node_modules/.bin/astro build
 node_modules/.bin/astro check
 node_modules/.bin/vitest run
 node_modules/.bin/wrangler deploy   # manual deploy (see below)
 ```
+
+The pnpm version is pinned in `.github/workflows/deploy.yml`
+(`pnpm/action-setup` → `version: 12.5.1`) and **deliberately not** in
+`package.json`'s `packageManager` field. That field makes pnpm
+self-manage the manager version and rewrite `packageManagerDependencies`
+in `pnpm-lock.yaml` on every local `npx pnpm install` — the entry flips
+between `pnpm` and `@pnpm/exe` depending on the invocation, so the
+lockfile never stays clean, and `--frozen-lockfile` does not prevent the
+write. Do not re-add the field; pass the version to `npx` instead, since
+a `pnpm` on `PATH` may be older than CI's.
 
 ## Deployment (read carefully)
 
@@ -23,7 +33,7 @@ node_modules/.bin/wrangler deploy   # manual deploy (see below)
   `wrangler deploy`) and the video proxy (`wrangler deploy` in
   `workers/video-proxy/`). `/admin` is not part of the production build.
   Check runs with `gh run list`.
-- Manual deploy: `npx pnpm deploy` (site, same three steps) and
+- Manual deploy: `npx pnpm@12.5.1 deploy` (site, same three steps) and
   `cd workers/video-proxy && npx wrangler deploy` (proxy). Both need
   `CLOUDFLARE_API_TOKEN` in the environment.
 - Domains: `whatships.com` + `www` serve the site via `workers/site/`
