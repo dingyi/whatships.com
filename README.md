@@ -33,13 +33,16 @@ The rest of this README is contributor documentation.
 ## Local development
 
 ```bash
-pnpm install
-pnpm dev
+npx pnpm@12.5.1 install
+npx pnpm@12.5.1 dev
 ```
 
 Open [http://localhost:4321](http://localhost:4321).
 
 ## Scripts
+
+Run these with the pinned pnpm — `npx pnpm@12.5.1 <script>` — if the
+`pnpm` on your `PATH` is older than 12.5.1 (the version CI pins).
 
 | Command | Description |
 | --- | --- |
