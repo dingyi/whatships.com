@@ -58768,5 +58768,30 @@
     "durationSeconds": 28,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-cube-motion",
+    "slug": "cube-motion",
+    "title": "Cube Motion — an SVG animation library, drawn in JS",
+    "product": "Cube Motion",
+    "company": "Cube Motion",
+    "description": "Cube Motion is an animation library whose launch film is every frame an SVG drawn in JavaScript. No After Effects, no WebGL.",
+    "category": "design",
+    "tags": [
+      "cube-motion",
+      "svg",
+      "animation"
+    ],
+    "tweetUrl": "https://x.com/dwhitedesign/status/2102014506192851303",
+    "tweetId": "2102014506192851303",
+    "authorName": "Daniel White",
+    "authorHandle": "dwhitedesign",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2057915040057982976/gSIeaZnQ.jpg",
+    "poster": "/posters/cube-motion.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2102013677163442177/vid/avc1/1920x1080/LP7o3PXt1dB_h8q8.mp4",
+    "publishedAt": "2026-09-21T12:38:06.000Z",
+    "durationSeconds": 35,
+    "featured": false,
+    "status": "published"
   }
 ]
