@@ -3,10 +3,8 @@ import AdminApp from "@/components/AdminApp";
 import PageHeader from "@/components/PageHeader";
 import SiteFooter from "@/components/SiteFooter.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import inboxData from "@/data/inbox.json";
-import { normalizeInbox, sha256Hex } from "@/lib/inbox";
+import { sha256Hex } from "@/lib/inbox";
 
-const inbox = normalizeInbox(inboxData);
 const rawPassword = import.meta.env.ADMIN_PASSWORD ?? "";
 const passwordHash = rawPassword ? await sha256Hex(rawPassword) : "";
 const openAccess = import.meta.env.DEV && !rawPassword;
@@ -19,8 +17,8 @@ const openAccess = import.meta.env.DEV && !rawPassword;
   <meta slot="head" name="robots" content="noindex, nofollow" />
   <PageHeader client:load />
   <AdminApp
-    client:load
-    initialInbox={inbox}
+    client:only="react"
+    inboxUrl="/admin/inbox.json"
     passwordHash={passwordHash}
     openAccess={openAccess}
   />

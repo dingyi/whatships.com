@@ -28,6 +28,7 @@ import {
 } from "@/lib/catalog";
 import {
   filterInbox,
+  normalizeInbox,
   type InboxFile,
   type InboxItem,
   type ReviewStatus,
@@ -43,11 +44,27 @@ const DRAFT_KEY = "plv-admin-inbox-draft";
 type Filter = ReviewStatus | "all";
 
 interface Props {
-  initialInbox: InboxFile;
+  /** Dev-only JSON endpoint for the on-disk inbox. */
+  inboxUrl: string;
   /** SHA-256 hex of ADMIN_PASSWORD, or empty when open mode. */
   passwordHash: string;
   /** Dev-only open access when no password configured. */
   openAccess: boolean;
+}
+
+function parseDraft(raw: string | null): InboxFile | null {
+  if (!raw) return null;
+  try {
+    const parsed = JSON.parse(raw) as InboxFile;
+    if (parsed?.items && Array.isArray(parsed.items)) return parsed;
+  } catch {
+    // ignore corrupt draft
+  }
+  return null;
+}
+
+function isNewer(a: string, b: string) {
+  return Date.parse(a) > Date.parse(b);
 }
 
 const FILTERS = [
@@ -202,14 +219,15 @@ function ListThumb({ item }: { item: InboxItem }) {
 }
 
 export default function AdminApp({
-  initialInbox,
+  inboxUrl,
   passwordHash,
   openAccess,
 }: Props) {
   const [authed, setAuthed] = useState(openAccess);
   const [password, setPassword] = useState("");
   const [authError, setAuthError] = useState<string | null>(null);
-  const [inbox, setInbox] = useState<InboxFile>(initialInbox);
+  const [inbox, setInbox] = useState<InboxFile | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [filter, setFilter] = useState<Filter>("pending");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
@@ -218,6 +236,7 @@ export default function AdminApp({
   const loginWrapRef = useRef<HTMLLabelElement>(null);
   const tabsRef = useRef<HTMLDivElement>(null);
   const tabsFirstRef = useRef(true);
+  const persistTimer = useRef<number | null>(null);
 
   useEffect(() => {
     if (openAccess) {
@@ -235,23 +254,51 @@ export default function AdminApp({
 
   useEffect(() => {
     if (!authed) return;
-    try {
-      const raw = localStorage.getItem(DRAFT_KEY);
-      if (!raw) return;
-      const parsed = JSON.parse(raw) as InboxFile;
-      if (parsed?.items && Array.isArray(parsed.items)) {
-        setInbox(parsed);
-        setDirty(true);
-        setMessage("Restored local review draft from this browser.");
-      }
-    } catch {
-      // ignore corrupt draft
-    }
-  }, [authed]);
+    let cancelled = false;
+    setLoadError(null);
+    fetch(inboxUrl, { cache: "no-store" })
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error(`Inbox ${response.status}`);
+        }
+        return normalizeInbox(await response.json());
+      })
+      .then((server) => {
+        if (cancelled) return;
+        let draft: InboxFile | null = null;
+        try {
+          draft = parseDraft(localStorage.getItem(DRAFT_KEY));
+        } catch {
+          draft = null;
+        }
+        if (draft && isNewer(draft.updatedAt, server.updatedAt)) {
+          setInbox(draft);
+          setDirty(true);
+          setMessage("Restored local review draft from this browser.");
+          return;
+        }
+        setInbox(server);
+        setDirty(false);
+        if (draft) {
+          setMessage("Loaded latest inbox from disk. Browser draft was older — Reset local if this still looks stale.");
+        }
+      })
+      .catch((error: unknown) => {
+        if (cancelled) return;
+        setLoadError(error instanceof Error ? error.message : "Could not load inbox.");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [authed, inboxUrl]);
+
+  useEffect(() => () => {
+    if (persistTimer.current) window.clearTimeout(persistTimer.current);
+  }, []);
 
   const items = useMemo(
-    () => sortInboxItems(filterInbox(inbox.items, filter)),
-    [filter, inbox.items],
+    () => sortInboxItems(filterInbox(inbox?.items ?? [], filter)),
+    [filter, inbox],
   );
 
   const selected =
@@ -261,17 +308,18 @@ export default function AdminApp({
   }, [items, selected]);
 
   const counts = useMemo(() => {
+    const list = inbox?.items ?? [];
     const base = {
       pending: 0,
       approved: 0,
       rejected: 0,
-      all: inbox.items.length,
+      all: list.length,
     };
-    for (const item of inbox.items) {
+    for (const item of list) {
       base[item.reviewStatus] += 1;
     }
     return base;
-  }, [inbox.items]);
+  }, [inbox]);
 
   async function onLogin(event: { preventDefault: () => void }) {
     event.preventDefault();
@@ -379,15 +427,19 @@ export default function AdminApp({
   function persist(next: InboxFile, note?: string) {
     setInbox(next);
     setDirty(true);
-    try {
-      localStorage.setItem(DRAFT_KEY, JSON.stringify(next));
-    } catch {
-      // ignore quota
-    }
+    if (persistTimer.current) window.clearTimeout(persistTimer.current);
+    persistTimer.current = window.setTimeout(() => {
+      try {
+        localStorage.setItem(DRAFT_KEY, JSON.stringify(next));
+      } catch {
+        // ignore quota
+      }
+    }, 250);
     if (note) setMessage(note);
   }
 
   function updateItem(id: string, updater: (item: InboxItem) => InboxItem) {
+    if (!inbox) return;
     persist({
       updatedAt: new Date().toISOString(),
       items: inbox.items.map((item) =>
@@ -445,9 +497,20 @@ export default function AdminApp({
     } catch {
       // ignore
     }
-    setInbox(initialInbox);
     setDirty(false);
-    setMessage("Discarded browser draft; reloaded built-in inbox.");
+    setLoadError(null);
+    fetch(inboxUrl, { cache: "no-store" })
+      .then(async (response) => {
+        if (!response.ok) throw new Error(`Inbox ${response.status}`);
+        return normalizeInbox(await response.json());
+      })
+      .then((server) => {
+        setInbox(server);
+        setMessage("Discarded browser draft; reloaded inbox from disk.");
+      })
+      .catch((error: unknown) => {
+        setLoadError(error instanceof Error ? error.message : "Could not load inbox.");
+      });
   }
 
   if (!authed) {
@@ -509,6 +572,33 @@ export default function AdminApp({
             </Button>
           </div>
         </form>
+      </main>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <main className="submit-page admin-login">
+        <div className="submit-form">
+          <p className="eyebrow">Admin</p>
+          <h1>Could not load inbox</h1>
+          <p className="submit-lead">{loadError}</p>
+          <Button type="button" onClick={() => resetLocalDraft()}>
+            Retry
+          </Button>
+        </div>
+      </main>
+    );
+  }
+
+  if (!inbox) {
+    return (
+      <main className="submit-page admin-login">
+        <div className="submit-form">
+          <p className="eyebrow">Admin</p>
+          <h1>Loading inbox…</h1>
+          <p className="submit-lead">Fetching the on-disk review queue.</p>
+        </div>
       </main>
     );
   }
