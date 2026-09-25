@@ -20,9 +20,16 @@ Bring whatships.com in line with Google's spam policies
 
 ## Next steps
 
-- [ ] Rewrite the ~640 entries whose title/description are still raw post
-      text by hand (title ≤ 55 chars, own one-line description, real tags);
-      start with the 368 where both fields end in `…`
+- [x] Quality gate: `scripts/catalog-quality.mjs` + `tests/catalog-quality.test.ts`.
+      New entries must pass (title ≤ 55, no truncated post text, a written
+      description, 2+ real tags); discovery drafts no longer copy post text.
+- [ ] Work down `src/data/quality-backlog.json` (1067 entries at start):
+      `node scripts/rewrite-queue.mjs` → fill/review `proposed` in
+      `src/data/rewrites/batch-NNN.json` → `node scripts/apply-rewrites.mjs`.
+      Batch 001 (top 50 by views) is drafted and awaiting review.
+- [ ] Source tags (`launchgallery`, `manual-x-search`, `auto-discovery`) are
+      still rendered in the Tags row and `VideoObject` keywords like
+      `imported` was; strip them from output or data
 - [ ] Decide on reposts by aggregator accounts (e.g. RoundtableSpace,
       coinbureau): keep only the maker's original post where possible
 - [ ] Editorial call on entries with `views: null` (post deleted/withheld)
