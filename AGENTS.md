@@ -57,6 +57,13 @@ fetches upstream Referer-less and forwards `Range`.
 `PUBLIC_VIDEO_PROXY_BASE` is set) → `/streams/{slug}.mp4` (dev fallback).
 The base URL lives in `.env` locally and in the Actions workflow for builds.
 
+Grid cards hover-preview instead of showing a play chip on desktop:
+`src/lib/hover-preview.ts` (initialized in BaseLayout) plays a muted, looping
+`<video>` over the poster on pointer hover, one live stream at a time. Any
+card surface opts in by putting `data-preview-src={playbackUrl(video)}` on
+its `.video-card__media` element — no per-framework wiring. Touch and
+reduced-motion users keep the play chip; clicking still opens the player.
+
 ## Adding videos (the established recipe)
 
 1. Fetch tweet data from the public syndication endpoint (X API credits are

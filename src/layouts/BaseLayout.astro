@@ -164,5 +164,12 @@ const seoDescription = metaDescription(description);
   </head>
   <body>
     <slot />
+    <script>
+      // Hover-to-preview on video cards (see src/lib/hover-preview.ts).
+      // Document-level delegation, so it also covers React island cards
+      // before hydration and across pagination re-renders.
+      import { initHoverPreview } from "@/lib/hover-preview";
+      initHoverPreview();
+    </script>
   </body>
 </html>

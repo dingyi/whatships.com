@@ -491,7 +491,7 @@ const videoJsonLd = {
                 href={`/videos/${similar.slug}/`}
                 aria-label={`View ${similar.title}`}
               >
-                <div class="video-card__media">
+                <div class="video-card__media" data-preview-src={playbackUrl(similar)}>
                   <img
                     src={similar.poster.replace(/\.webp$/, "-960.webp")}
                     srcset={`${similar.poster.replace(/\.webp$/, "-960.webp")} 960w, ${similar.poster} 1440w`}
