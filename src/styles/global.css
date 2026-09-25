@@ -2152,6 +2152,30 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   background: rgb(0 0 0 / 82%);
   border-color: rgb(255 255 255 / 85%);
 }
+/* Hover-to-preview: the delegated script in BaseLayout swaps the poster for
+   a muted, looping <video> on pointer hover (desktop fine pointers only,
+   reduced-motion respected — see src/lib/hover-preview.ts). The preview sits
+   under the view/duration chips; the play chip hides entirely on devices
+   where previewing is live, since hover itself communicates playability —
+   touch and reduced-motion users keep it as the tap/press affordance. */
+.video-card__preview {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--n-100);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-quick) var(--ease-smooth-out);
+}
+.video-card__media.is-previewing .video-card__preview {
+  opacity: 1;
+}
+:root[data-hover-preview="on"] .video-card__play {
+  display: none;
+}
 .video-card__duration,
 .video-card__views {
   position: absolute;

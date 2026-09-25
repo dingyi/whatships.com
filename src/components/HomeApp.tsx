@@ -17,6 +17,7 @@ import {
   formatPublishedAt,
   formatViewsDetail,
   formatViewsLabel,
+  playbackUrl,
 } from "@/lib/catalog";
 import { ShapeProvider } from "@/lib/shape-context";
 import {
@@ -121,6 +122,7 @@ function VideoCard({
           type="button"
           className="video-card__media"
           onClick={() => onPlay(video)}
+          data-preview-src={playbackUrl(video)}
           aria-label={`Play ${video.title}${duration ? `, ${duration}` : ""}${
             viewsDetail ? `, ${viewsDetail}` : ""
           }`}
