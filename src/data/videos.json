@@ -58777,5 +58777,80 @@
     "durationSeconds": 18,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-x-ticker",
+    "slug": "x-ticker",
+    "title": "X — timeline, ticker, trade",
+    "product": "X Ticker",
+    "company": "X",
+    "description": "X puts a ticker on the timeline so you can follow markets and trade without leaving the feed.",
+    "category": "consumer",
+    "tags": [
+      "x",
+      "ticker",
+      "trade"
+    ],
+    "tweetUrl": "https://x.com/X/status/2102147636702634195",
+    "tweetId": "2102147636702634195",
+    "authorName": "X",
+    "authorHandle": "X",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1955359038532653056/OSHY3ewP.jpg",
+    "poster": "/posters/x-ticker.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2102147574534672385/vid/avc1/1920x1080/TT9XobnynUUlzndh.mp4",
+    "publishedAt": "2026-09-21T21:27:07.000Z",
+    "durationSeconds": 40,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-imagineart-pinterest",
+    "slug": "imagineart-pinterest",
+    "title": "ImagineArt — Pinterest boards on the canvas",
+    "product": "ImagineArt",
+    "company": "ImagineArt",
+    "description": "ImagineArt connects Pinterest, Dropbox, Unsplash, and Google Drive so you can pull boards and files onto the canvas instead of hunting them down.",
+    "category": "design",
+    "tags": [
+      "imagineart",
+      "pinterest",
+      "canvas"
+    ],
+    "tweetUrl": "https://x.com/ImagineArt_X/status/2102072389295309089",
+    "tweetId": "2102072389295309089",
+    "authorName": "ImagineArt",
+    "authorHandle": "ImagineArt_X",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1877234081228009476/wI6xWHMp.jpg",
+    "poster": "/posters/imagineart-pinterest.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2102071525230915584/vid/avc1/1920x1080/CUKaaiFfpHodFNf0.mp4",
+    "publishedAt": "2026-09-21T16:28:06.000Z",
+    "durationSeconds": 26,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-zingage",
+    "slug": "zingage",
+    "title": "Zingage — showreel 1.0 from Blissful 2026",
+    "product": "Zingage",
+    "company": "Blissful",
+    "description": "Zingage showreel 1.0 is part of Blissful's 2026 showreel series, with more project reels to come.",
+    "category": "motion",
+    "tags": [
+      "zingage",
+      "showreel",
+      "blissful"
+    ],
+    "tweetUrl": "https://x.com/stevelauda_/status/2101855047412031533",
+    "tweetId": "2101855047412031533",
+    "authorName": "Steve Lauda",
+    "authorHandle": "stevelauda_",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2048789743262138368/U-uAIS8T.jpg",
+    "poster": "/posters/zingage.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2101853785849204736/vid/avc1/1920x1080/qZKtYYtGG7cZ-8Dr.mp4",
+    "publishedAt": "2026-09-21T02:04:28.000Z",
+    "durationSeconds": 84,
+    "featured": false,
+    "status": "published"
   }
 ]
