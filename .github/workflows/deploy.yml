@@ -5,9 +5,17 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Production deploys serialize on one group, but a run that has already
+# reached its Deploy step must never be killed by the next push: an
+# interrupted `wrangler deploy` leaves production indistinguishable from a
+# shipped deploy. With cancel-in-progress disabled an in-flight run always
+# finishes and only runs still waiting in the queue are superseded, which is
+# exactly the desired behaviour. The video proxy is a separate Worker with
+# its own workflow (deploy-video-proxy.yml) and its own concurrency group, so
+# a site failure can no longer hold back a proxy fix or vice versa.
 concurrency:
   group: deploy-production
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -15,7 +23,15 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      # Version is pinned here, not in package.json's `packageManager` field:
+      # that field makes pnpm self-manage the manager version and rewrite
+      # `packageManagerDependencies` in pnpm-lock.yaml on every local
+      # `npx pnpm install` (the entry even flips between `pnpm` and
+      # `@pnpm/exe` depending on the invocation), which keeps the lockfile
+      # permanently dirty. Keep this in sync with the version in AGENTS.md.
       - uses: pnpm/action-setup@v6
+        with:
+          version: 12.5.1
 
       - uses: actions/setup-node@v7
         with:
@@ -23,6 +39,16 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+
+      # Run the repository's own checks before anything reaches the edge.
+      # `pnpm build` succeeding is not a substitute for them: `astro check`
+      # covers template/type diagnostics and vitest covers the catalog,
+      # workers and page contract tests.
+      - name: Check
+        run: pnpm check
+
+      - name: Test
+        run: pnpm test:run
 
       # PUBLIC_VIDEO_PROXY_BASE is inlined into the client bundle at build
       # time; without it playback falls back to local /streams (dev only).
@@ -36,7 +62,6 @@ jobs:
       # /admin is local-only; strip if a future change ever emits it.
       - name: Strip local artifacts
         run: rm -rf dist/streams dist/admin
-
 
       - name: Deploy
         run: pnpm exec wrangler deploy

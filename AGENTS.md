@@ -7,7 +7,7 @@ hosted on Cloudflare Workers static assets.
 ## Commands
 
 ```bash
-npx pnpm install          # pnpm 12 (no global pnpm on PATH; use npx)
+npx pnpm@12.5.1 install   # pinned: CI pins the same version (see note below)
 node_modules/.bin/astro dev
 node_modules/.bin/astro build
 node_modules/.bin/astro check
@@ -15,20 +15,40 @@ node_modules/.bin/vitest run
 node_modules/.bin/wrangler deploy   # manual deploy (see below)
 ```
 
+The pnpm version is pinned in `.github/workflows/deploy.yml` and
+`deploy-video-proxy.yml` (`pnpm/action-setup` → `version: 12.5.1`) and **deliberately not** in
+`package.json`'s `packageManager` field. That field makes pnpm
+self-manage the manager version and rewrite `packageManagerDependencies`
+in `pnpm-lock.yaml` on every local `npx pnpm install` — the entry flips
+between `pnpm` and `@pnpm/exe` depending on the invocation, so the
+lockfile never stays clean, and `--frozen-lockfile` does not prevent the
+write. Do not re-add the field; pass the version to `npx` instead, since
+a `pnpm` on `PATH` may be older than CI's.
+
 ## Deployment (read carefully)
 
-- **Every push to `main` auto-deploys** via `.github/workflows/deploy.yml`:
-  build (with `PUBLIC_VIDEO_PROXY_BASE` inlined) → `rm -rf dist/streams` →
-  `wrangler deploy`. `/admin` is not part of the production build. Check
-  runs with `gh run list`.
-- Manual deploy: `npx pnpm deploy` (same three steps). Needs
+- **Every push to `main` auto-deploys the site** via
+  `.github/workflows/deploy.yml` (build with `PUBLIC_VIDEO_PROXY_BASE`
+  inlined → `rm -rf dist/streams` → `wrangler deploy`). `/admin` is not
+  part of the production build. Check runs with `gh run list`.
+- **The video proxy deploys from its own workflow**,
+  `.github/workflows/deploy-video-proxy.yml`, path-filtered to
+  `workers/video-proxy/**` with its own `deploy-video-proxy` concurrency
+  group, so a site failure cannot hold back a proxy fix and a proxy change
+  no longer rides along in the site job.
+- Both production workflows serialize on their own concurrency group with
+  `cancel-in-progress: false`, so a run already inside `wrangler deploy` is
+  never killed by the next push (superseded runs that are still queued
+  collapse to the newest one).
+- Manual deploy: `npx pnpm@12.5.1 deploy` (site, same three steps) and
+  `cd workers/video-proxy && npx wrangler deploy` (proxy). Both need
   `CLOUDFLARE_API_TOKEN` in the environment.
 - Domains: `whatships.com` + `www` serve the site via `workers/site/`
   (markdown `Accept` negotiation + agent 404s in front of static assets);
-  `proxy.whatships.com` is the video proxy (`workers/video-proxy/`,
-  deployed separately with its own wrangler.toml). Do not revert the
-  site `wrangler.toml` to assets-only — agents would get HTML for
-  `Accept: text/markdown` again.
+  `proxy.whatships.com` is the video proxy (`workers/video-proxy/`, its own
+  wrangler.toml, deployed by `.github/workflows/deploy-video-proxy.yml`).
+  Do not revert the site `wrangler.toml` to assets-only —
+  agents would get HTML for `Accept: text/markdown` again.
 - **Never commit `public/streams/` or `dist/`** — both are gitignored.
   Local streams are gone for good; do not regenerate or re-add them.
 
@@ -43,6 +63,13 @@ fetches upstream Referer-less and forwards `Range`.
 `streamUrl` override → proxy-wrapped `videoUrl` (when
 `PUBLIC_VIDEO_PROXY_BASE` is set) → `/streams/{slug}.mp4` (dev fallback).
 The base URL lives in `.env` locally and in the Actions workflow for builds.
+
+Grid cards hover-preview instead of showing a play chip on desktop:
+`src/lib/hover-preview.ts` (initialized in BaseLayout) plays a muted, looping
+`<video>` over the poster on pointer hover, one live stream at a time. Any
+card surface opts in by putting `data-preview-src={playbackUrl(video)}` on
+its `.video-card__media` element — no per-framework wiring. Touch and
+reduced-motion users keep the play chip; clicking still opens the player.
 
 ## Adding videos (the established recipe)
 
@@ -72,6 +99,12 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 
 - Catalog: `src/data/videos.json` (published + draft). `publishedVideos`
   sorts by `publishedAt` desc at runtime — file order does not matter.
+- Write an edited title (≤ 55 chars) and one-line description for new
+  entries instead of pasting the post text — raw, truncated post copy
+  across hundreds of pages reads as scraped content to Google.
+- Duplicate entries (same video under several slugs): keep the maker's
+  original, set the others to `draft`, and add `old → kept` to
+  `src/data/redirects.json` — the site worker answers those with a 301.
 - Studios: `src/data/studios.json` + `/studios/` directory of motion
   studios and independent designers that make launch films
   (`kind: "studio" | "person"`). Posters live in `public/posters/studios/`.
@@ -115,7 +148,8 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 - Titles ≤ 55 chars (Google truncation). Dates format via
   `formatPublishedAt` (UTC-pinned — do not remove the `timeZone`).
 - Agent surfaces: keep an H1 plus 500+ chars of homepage copy **outside**
-  the `HomeApp` island (`data-agent-intro`); keep `/llms.txt` when-to-use
+  the `HomeApp` island (`data-agent-intro`), and keep it **visible** —
+  `sr-only` crawler copy is hidden text under Google's spam policy; keep `/llms.txt` when-to-use
   guidance; keep `/contact/`, `/privacy/`, `/developers/`, and
   `/openapi.json`. Markdown siblings are generated at build into `dist/`
   (not committed).
