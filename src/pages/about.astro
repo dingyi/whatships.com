@@ -77,16 +77,16 @@ const pageUrl = new URL("/about/", site).toString();
       </section>
       <section class="about-faq">
         <h2>Frequently asked questions</h2>
-        <dl>
+        <div class="about-faq__list">
           {
             GEO_FAQS.map((faq) => (
-              <div>
-                <dt>{faq.question}</dt>
-                <dd>{faq.answer}</dd>
-              </div>
+              <details class="about-faq__item">
+                <summary>{faq.question}</summary>
+                <p>{faq.answer}</p>
+              </details>
             ))
           }
-        </dl>
+        </div>
       </section>
     </div>
   </main>
