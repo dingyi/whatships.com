@@ -58272,5 +58272,30 @@
     "durationSeconds": 100,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-hyperframes-code2video-bench",
+    "slug": "hyperframes-code2video-bench",
+    "title": "HyperFrames — Code2Video Bench with DeepMind, Kaggle",
+    "product": "Code2Video Bench",
+    "company": "HyperFrames",
+    "description": "HyperFrames built the Code2Video Bench with Google DeepMind and Kaggle, so labs can measure code-to-video that feels alive rather than only SWE-bench code quality.",
+    "category": "design",
+    "tags": [
+      "hyperframes",
+      "code2video",
+      "benchmark"
+    ],
+    "tweetUrl": "https://x.com/HyperFrames_/status/2102084939026247684",
+    "tweetId": "2102084939026247684",
+    "authorName": "HyperFrames",
+    "authorHandle": "HyperFrames_",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2050290878221291520/ZNexbFre.jpg",
+    "poster": "/posters/hyperframes-code2video-bench.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2102084810533650432/vid/avc1/1920x1080/tvvSotYLScA4c4DF.mp4",
+    "publishedAt": "2026-09-21T17:17:58.000Z",
+    "durationSeconds": 88,
+    "featured": false,
+    "status": "published"
   }
 ]
