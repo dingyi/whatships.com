@@ -1,6 +1,731 @@
 {
-  "updatedAt": "2026-09-22T13:40:26.352Z",
+  "updatedAt": "2026-09-25T10:20:54.058Z",
   "items": [
+    {
+      "id": "disc-2102126749622345858",
+      "tweetId": "2102126749622345858",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:54.058Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2102126749622345858",
+        "tweetUrl": "https://x.com/runwayml/status/2102126749622345858",
+        "authorHandle": "runwayml",
+        "authorName": "Runway",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "text": "New expanded Workflows are available in Runway. Now with Compositing, Alpha, HDR, Depth Map and RGB Depth, so you can build more of your pipeline in one place. https://t.co/MbWB7uIhAW",
+        "createdAt": "2026-09-21T20:04:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102126262206554112/vid/avc1/1920x1080/UIu5y2XWi28uxBDR.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102126262206554112/img/FOffYI4DJQOB7SZC.jpg",
+            "durationMs": 33150
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "runwayml",
+        "company": "Runway",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2102126749622345858",
+        "slug": "runway-345858",
+        "title": "New expanded Workflows are available in Runway. Now with Compositing, Alpha, HDR, Depth Map and R…",
+        "product": "Runway",
+        "company": "Runway",
+        "description": "New expanded Workflows are available in Runway. Now with Compositing, Alpha, HDR, Depth Map and RGB Depth, so you can build more of your pipeline in one place.",
+        "category": "ai",
+        "tags": [
+          "video",
+          "generative",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/runwayml/status/2102126749622345858",
+        "tweetId": "2102126749622345858",
+        "authorName": "Runway",
+        "authorHandle": "runwayml",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+        "poster": "/posters/runway-345858.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102126262206554112/vid/avc1/1920x1080/UIu5y2XWi28uxBDR.mp4",
+        "publishedAt": "2026-09-21T20:04:07.000Z",
+        "durationSeconds": 33,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102061083645133050",
+      "tweetId": "2102061083645133050",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:53.720Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102061083645133050",
+        "tweetUrl": "https://x.com/byjasonz/status/2102061083645133050",
+        "authorHandle": "byjasonz",
+        "authorName": "Jason Zhao",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
+        "text": "this video doesn’t exist on my laptop\n\nbut I can still access, edit, and drag it into any app, without downloading it first\n\nintroducing Space: the infinite filesystem https://t.co/lbk76usRNz",
+        "createdAt": "2026-09-21T15:43:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2101881396696334336/vid/avc1/3840x2160/sfjQmR4e2aw9nUsf.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2101881396696334336/img/kc6-FSSS753qkxXS.jpg",
+            "durationMs": 78272
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "byjasonz",
+        "company": "Jason Zhao",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102061083645133050",
+        "slug": "jason-zhao-133050",
+        "title": "this video doesn’t exist on my laptop but I can still access, edit, and drag it into any app, wit…",
+        "product": "Jason Zhao",
+        "company": "Jason Zhao",
+        "description": "this video doesn’t exist on my laptop but I can still access, edit, and drag it into any app, without downloading it first introducing Space: the infinite filesystem",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/byjasonz/status/2102061083645133050",
+        "tweetId": "2102061083645133050",
+        "authorName": "Jason Zhao",
+        "authorHandle": "byjasonz",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
+        "poster": "/posters/jason-zhao-133050.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2101881396696334336/vid/avc1/3840x2160/sfjQmR4e2aw9nUsf.mp4",
+        "publishedAt": "2026-09-21T15:43:11.000Z",
+        "durationSeconds": 78,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102057296339595282",
+      "tweetId": "2102057296339595282",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:53.386Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102057296339595282",
+        "tweetUrl": "https://x.com/omiloai/status/2102057296339595282",
+        "authorHandle": "omiloai",
+        "authorName": "Omilo AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092945375925592064/tFFaG4IA.jpg",
+        "text": "Introducing Omilo to the world.\nTwo people. Two languages. One phone between them.\nHold to speak, release to hear the translation, and keep the conversation face to face.\nDownload now :\nIOS : https://t.co/TVJrEksEHO\nAndroid : https://t.co/upShYedCoP https://t.co/UZOtTT8hbh",
+        "createdAt": "2026-09-21T15:28:08.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102056905455603712/vid/avc1/1280x720/T3i1GW-BTUtl-QKO.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102056905455603712/img/8Xf6SnlWSgB0j7LQ.jpg",
+            "durationMs": 30080
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "omiloai",
+        "company": "Omilo AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102057296339595282",
+        "slug": "omilo-ai-595282",
+        "title": "Introducing Omilo to the world. Two people. Two languages. One phone between them. Hold to speak,…",
+        "product": "Omilo AI",
+        "company": "Omilo AI",
+        "description": "Introducing Omilo to the world. Two people. Two languages. One phone between them. Hold to speak, release to hear the translation, and keep the conversation face to face. Download now : IOS : Android :",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/omiloai/status/2102057296339595282",
+        "tweetId": "2102057296339595282",
+        "authorName": "Omilo AI",
+        "authorHandle": "omiloai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2092945375925592064/tFFaG4IA.jpg",
+        "poster": "/posters/omilo-ai-595282.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102056905455603712/vid/avc1/1280x720/T3i1GW-BTUtl-QKO.mp4?tag=14",
+        "publishedAt": "2026-09-21T15:28:08.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102012086314578179",
+      "tweetId": "2102012086314578179",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:53.048Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102012086314578179",
+        "tweetUrl": "https://x.com/Anshgrover23/status/2102012086314578179",
+        "authorHandle": "Anshgrover23",
+        "authorName": "Ansh Grover",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068962080611516416/Ai8DDahk.jpg",
+        "text": "Introducing Keep!\n\nBeautiful, living sky on the desktop. Quiet, and built for a Mac you already use.\n\nIt is a macOS menu bar agent. Local light, live weather, the next Calendar event, one intention for the day.\n\nLooking up should still feel like looking outside. https://t.co/j2QSol6lu9",
+        "createdAt": "2026-09-21T12:28:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102011791656284160/vid/avc1/2560x1440/WUw0Uh6bvfGc2fEn.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102011791656284160/img/JERxXaboCiao-xX8.jpg",
+            "durationMs": 15016
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Anshgrover23",
+        "company": "Ansh Grover",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102012086314578179",
+        "slug": "ansh-grover-578179",
+        "title": "Introducing Keep! Beautiful, living sky on the desktop. Quiet, and built for a Mac you already us…",
+        "product": "Ansh Grover",
+        "company": "Ansh Grover",
+        "description": "Introducing Keep! Beautiful, living sky on the desktop. Quiet, and built for a Mac you already use. It is a macOS menu bar agent. Local light, live weather, the next Calendar event, one intention for the day. Looking up should still feel like looking outside.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Anshgrover23/status/2102012086314578179",
+        "tweetId": "2102012086314578179",
+        "authorName": "Ansh Grover",
+        "authorHandle": "Anshgrover23",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068962080611516416/Ai8DDahk.jpg",
+        "poster": "/posters/ansh-grover-578179.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102011791656284160/vid/avc1/2560x1440/WUw0Uh6bvfGc2fEn.mp4",
+        "publishedAt": "2026-09-21T12:28:29.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102065462213279820",
+      "tweetId": "2102065462213279820",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:52.707Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102065462213279820",
+        "tweetUrl": "https://x.com/Superhuman/status/2102065462213279820",
+        "authorHandle": "Superhuman",
+        "authorName": "Superhuman",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097801207683399680/q0XNjL13.png",
+        "text": "Introducing your home base for deep work. Superhuman Go’s web app is where you can tackle complex tasks and manage all your agents. Learn more: https://t.co/P9z8LqS5yD https://t.co/WU27H54YJG",
+        "createdAt": "2026-09-21T16:00:35.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102065397092483072/vid/avc1/1080x1080/FYhcKbChdL89-IG_.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/media/HSwJYR_WsAIqiP4.jpg",
+            "durationMs": 6966
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Superhuman",
+        "company": "Superhuman",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102065462213279820",
+        "slug": "superhuman-279820",
+        "title": "Introducing your home base for deep work. Superhuman Go’s web app is where you can tackle complex…",
+        "product": "Superhuman",
+        "company": "Superhuman",
+        "description": "Introducing your home base for deep work. Superhuman Go’s web app is where you can tackle complex tasks and manage all your agents. Learn more:",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Superhuman/status/2102065462213279820",
+        "tweetId": "2102065462213279820",
+        "authorName": "Superhuman",
+        "authorHandle": "Superhuman",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097801207683399680/q0XNjL13.png",
+        "poster": "/posters/superhuman-279820.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102065397092483072/vid/avc1/1080x1080/FYhcKbChdL89-IG_.mp4?tag=16",
+        "publishedAt": "2026-09-21T16:00:35.000Z",
+        "durationSeconds": 7,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102068419965374666",
+      "tweetId": "2102068419965374666",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:52.362Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2102068419965374666",
+        "tweetUrl": "https://x.com/jasonfried/status/2102068419965374666",
+        "authorHandle": "jasonfried",
+        "authorName": "Jason Fried",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/3413742921/0e9ef95e76c4a965b9b177fa2267d6c1.png",
+        "text": "Just shipped a new convenience feature in Basecamp 5. Now you can drag images/files directly onto a docs &amp; files tool on your project page to upload them directly to the project.\n\nBefore you had to click through then upload. Now you can just drop them right where you want them on https://t.co/SzD8juVkaT",
+        "createdAt": "2026-09-21T16:12:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102068298896887808/vid/avc1/3200x2000/S3Jdd1hCSDqrPB_B.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102068298896887808/img/LKj68R6NO0zrOPiD.jpg",
+            "durationMs": 24166
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "jasonfried",
+        "company": "Jason Fried",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102068419965374666",
+        "slug": "jason-fried-374666",
+        "title": "Just shipped a new convenience feature in Basecamp 5. Now you can drag images/files directly onto…",
+        "product": "Jason Fried",
+        "company": "Jason Fried",
+        "description": "Just shipped a new convenience feature in Basecamp 5. Now you can drag images/files directly onto a docs &amp; files tool on your project page to upload them directly to the project. Before you had to click through then upload. Now you can just drop them right where you want t…",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/jasonfried/status/2102068419965374666",
+        "tweetId": "2102068419965374666",
+        "authorName": "Jason Fried",
+        "authorHandle": "jasonfried",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/3413742921/0e9ef95e76c4a965b9b177fa2267d6c1.png",
+        "poster": "/posters/jason-fried-374666.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102068298896887808/vid/avc1/3200x2000/S3Jdd1hCSDqrPB_B.mp4",
+        "publishedAt": "2026-09-21T16:12:20.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102112693041938825",
+      "tweetId": "2102112693041938825",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:51.682Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102112693041938825",
+        "tweetUrl": "https://x.com/shengkunye/status/2102112693041938825",
+        "authorHandle": "shengkunye",
+        "authorName": "Shengkun Ye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "text": "Introducing Jev + OpenRouter + tools.\n\nYou can now use Jev with 2,000 tools on Monid. Your agent picks the tools, Jev speeds the work up 30x.\n\n&gt; Score 2,000 leads\n&gt; Scan the TikTok viral video hooks\n&gt; Research fundraising of 200 companies\n&gt; Audit a site's SEO and rebuild the https://t.co/prr2faw40O",
+        "createdAt": "2026-09-21T19:08:16.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102112249112604672/vid/avc1/1920x1080/2uBaqEr_8A6mJe4N.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102112249112604672/img/3lR6gxILRYKTiMF_.jpg",
+            "durationMs": 32300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shengkunye",
+        "company": "Shengkun Ye",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102112693041938825",
+        "slug": "shengkun-ye-938825",
+        "title": "Introducing Jev + OpenRouter + tools. You can now use Jev with 2,000 tools on Monid. Your agent p…",
+        "product": "Shengkun Ye",
+        "company": "Shengkun Ye",
+        "description": "Introducing Jev + OpenRouter + tools. You can now use Jev with 2,000 tools on Monid. Your agent picks the tools, Jev speeds the work up 30x. &gt; Score 2,000 leads &gt; Scan the TikTok viral video hooks &gt; Research fundraising of 200 companies &gt; Audit a site's SEO and reb…",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shengkunye/status/2102112693041938825",
+        "tweetId": "2102112693041938825",
+        "authorName": "Shengkun Ye",
+        "authorHandle": "shengkunye",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
+        "poster": "/posters/shengkun-ye-938825.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102112249112604672/vid/avc1/1920x1080/2uBaqEr_8A6mJe4N.mp4",
+        "publishedAt": "2026-09-21T19:08:16.000Z",
+        "durationSeconds": 32,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102018545668272382",
+      "tweetId": "2102018545668272382",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:51.327Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102018545668272382",
+        "tweetUrl": "https://x.com/motiondotdev/status/2102018545668272382",
+        "authorHandle": "motiondotdev",
+        "authorName": "Motion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1967237939043135488/iP9UqXkF.png",
+        "text": "Introducing Motion Studio.\n\nEdit animations directly on your site with our intuitive visual editor and our new Ultramotion animation editing agent (powered by @typesafeai's Jev) for at least 10x faster edits than code LLMs. \n\nInspection and visual editing are free! https://t.co/aOpQkvHcHZ",
+        "createdAt": "2026-09-21T12:54:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102016311932964864/vid/avc1/1916x1080/XM5sfdRXMCrZzMVl.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102016311932964864/img/DnpupNIkzPEPePb-.jpg",
+            "durationMs": 18150
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "motiondotdev",
+        "company": "Motion",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102018545668272382",
+        "slug": "motion-272382",
+        "title": "Introducing Motion Studio. Edit animations directly on your site with our intuitive visual editor…",
+        "product": "Motion",
+        "company": "Motion",
+        "description": "Introducing Motion Studio. Edit animations directly on your site with our intuitive visual editor and our new Ultramotion animation editing agent (powered by @typesafeai's Jev) for at least 10x faster edits than code LLMs. Inspection and visual editing are free!",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/motiondotdev/status/2102018545668272382",
+        "tweetId": "2102018545668272382",
+        "authorName": "Motion",
+        "authorHandle": "motiondotdev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1967237939043135488/iP9UqXkF.png",
+        "poster": "/posters/motion-272382.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102016311932964864/vid/avc1/1916x1080/XM5sfdRXMCrZzMVl.mp4",
+        "publishedAt": "2026-09-21T12:54:09.000Z",
+        "durationSeconds": 18,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102141287738524089",
+      "tweetId": "2102141287738524089",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:50.984Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2102141287738524089",
+        "tweetUrl": "https://x.com/motion_so/status/2102141287738524089",
+        "authorHandle": "motion_so",
+        "authorName": "Motion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
+        "text": "Introducing Grok 4.7 for motion design.\n\nGive Grok your website and ask it to turn the product into a launch video brief.\n\nIt researches the product, maps the story, and writes every scene, animation, and transition.\n\nPaste the prompt into Motion and let it build.\n\nGrok wrote the https://t.co/MxZP0wg6M6",
+        "createdAt": "2026-09-21T21:01:53.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102141133820162048/vid/avc1/3840x2160/E9UHOM5hpPBEUi_G.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102141133820162048/img/3XO9y_uIcg5YV3lL.jpg",
+            "durationMs": 30000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "motion_so",
+        "company": "Motion",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102141287738524089",
+        "slug": "motion-524089",
+        "title": "Introducing Grok 4.7 for motion design. Give Grok your website and ask it to turn the product int…",
+        "product": "Motion",
+        "company": "Motion",
+        "description": "Introducing Grok 4.7 for motion design. Give Grok your website and ask it to turn the product into a launch video brief. It researches the product, maps the story, and writes every scene, animation, and transition. Paste the prompt into Motion and let it build. Grok wrote the",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/motion_so/status/2102141287738524089",
+        "tweetId": "2102141287738524089",
+        "authorName": "Motion",
+        "authorHandle": "motion_so",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2039020027962433536/IJDx4ADe.jpg",
+        "poster": "/posters/motion-524089.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102141133820162048/vid/avc1/3840x2160/E9UHOM5hpPBEUi_G.mp4",
+        "publishedAt": "2026-09-21T21:01:53.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102055632887324775",
+      "tweetId": "2102055632887324775",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:50.637Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102055632887324775",
+        "tweetUrl": "https://x.com/DeemosTech/status/2102055632887324775",
+        "authorHandle": "DeemosTech",
+        "authorName": "Hyper3D by Deemos",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1932867461642366976/Yze9x58F.jpg",
+        "text": "🚀 Introducing #HYPER3D Agentic Mode.\n\nAGI optimizes your input and chooses how to model it.\n\nGenerate editable N-GONS #3D model for #CAD, building &amp; industrial product.\n\n📏Adjust dimensions. 🏃‍♀️Add animation.\n\nTowards Production-Ready, to Agent-Ready.\n\nThis is Vibe Modeling👇 https://t.co/UWkMxap0CK",
+        "createdAt": "2026-09-21T15:21:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102048461231448066/vid/avc1/1080x1080/U5MNpcsCZAQSQijG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102048461231448066/img/F_cW_s94fI8xfKnw.jpg",
+            "durationMs": 34633
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "DeemosTech",
+        "company": "Hyper3D by Deemos",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102055632887324775",
+        "slug": "hyper3d-by-deemos-324775",
+        "title": "🚀 Introducing #HYPER3D Agentic Mode. AGI optimizes your input and chooses how to model it. Gener…",
+        "product": "Hyper3D by Deemos",
+        "company": "Hyper3D by Deemos",
+        "description": "🚀 Introducing #HYPER3D Agentic Mode. AGI optimizes your input and chooses how to model it. Generate editable N-GONS #3D model for #CAD, building &amp; industrial product. 📏Adjust dimensions. 🏃‍♀️Add animation. Towards Production-Ready, to Agent-Ready. This is Vibe Modeling👇",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/DeemosTech/status/2102055632887324775",
+        "tweetId": "2102055632887324775",
+        "authorName": "Hyper3D by Deemos",
+        "authorHandle": "DeemosTech",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1932867461642366976/Yze9x58F.jpg",
+        "poster": "/posters/hyper3d-by-deemos-324775.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102048461231448066/vid/avc1/1080x1080/U5MNpcsCZAQSQijG.mp4",
+        "publishedAt": "2026-09-21T15:21:31.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102091931681804604",
+      "tweetId": "2102091931681804604",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:50.297Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102091931681804604",
+        "tweetUrl": "https://x.com/0xaneri/status/2102091931681804604",
+        "authorHandle": "0xaneri",
+        "authorName": "aneri",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030061296566284288/NJQsdlvb.jpg",
+        "text": "Introducing Studio 4.0\n\nThe distance between having an idea and having a finished video keeps getting shorter. \n\nYou describe the video you want, and Studio Agent drafts the whole first cut on your timeline: clips placed, voiceovers generated, sound effects synced to your https://t.co/Jm6XVHl0iC",
+        "createdAt": "2026-09-21T17:45:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102090976982663168/vid/avc1/1920x1080/BX4H_Cu1wV8xJ9Zj.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102090976982663168/img/E4XDuApz-GLKGoiN.jpg",
+            "durationMs": 65633
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "0xaneri",
+        "company": "aneri",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102091931681804604",
+        "slug": "aneri-804604",
+        "title": "Introducing Studio 4.0 The distance between having an idea and having a finished video keeps gett…",
+        "product": "aneri",
+        "company": "aneri",
+        "description": "Introducing Studio 4.0 The distance between having an idea and having a finished video keeps getting shorter. You describe the video you want, and Studio Agent drafts the whole first cut on your timeline: clips placed, voiceovers generated, sound effects synced to your",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/0xaneri/status/2102091931681804604",
+        "tweetId": "2102091931681804604",
+        "authorName": "aneri",
+        "authorHandle": "0xaneri",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030061296566284288/NJQsdlvb.jpg",
+        "poster": "/posters/aneri-804604.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102090976982663168/vid/avc1/1920x1080/BX4H_Cu1wV8xJ9Zj.mp4",
+        "publishedAt": "2026-09-21T17:45:46.000Z",
+        "durationSeconds": 66,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2102078511775424801",
+      "tweetId": "2102078511775424801",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-25T10:20:49.945Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102078511775424801",
+        "tweetUrl": "https://x.com/ElevenLabs/status/2102078511775424801",
+        "authorHandle": "ElevenLabs",
+        "authorName": "ElevenLabs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2047043946807754752/7xmvtysh.png",
+        "text": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade.\n\nGenerate video, image, voice, music and sound effects inside your project, then edit, caption, and export in the same place. https://t.co/kggpTdPKMt",
+        "createdAt": "2026-09-21T16:52:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102078440375717888/vid/avc1/1920x1080/TCya7ayPoxzekbL2.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102078440375717888/img/a12dOLuvhoi6I6kp.jpg",
+            "durationMs": 65685
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ElevenLabs",
+        "company": "ElevenLabs",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102078511775424801",
+        "slug": "elevenlabs-424801",
+        "title": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade. G…",
+        "product": "ElevenLabs",
+        "company": "ElevenLabs",
+        "description": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade. Generate video, image, voice, music and sound effects inside your project, then edit, caption, and export in the same place.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ElevenLabs/status/2102078511775424801",
+        "tweetId": "2102078511775424801",
+        "authorName": "ElevenLabs",
+        "authorHandle": "ElevenLabs",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2047043946807754752/7xmvtysh.png",
+        "poster": "/posters/elevenlabs-424801.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102078440375717888/vid/avc1/1920x1080/TCya7ayPoxzekbL2.mp4",
+        "publishedAt": "2026-09-21T16:52:26.000Z",
+        "durationSeconds": 66,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2100993288178479108",
       "tweetId": "2100993288178479108",
