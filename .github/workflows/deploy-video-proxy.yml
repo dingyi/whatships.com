@@ -1,0 +1,51 @@
+name: Deploy video proxy
+
+# The video proxy is a second Worker (workers/video-proxy/, worker
+# plv-video-proxy on proxy.whatships.com) with its own wrangler.toml. The
+# root `wrangler deploy` cannot reach it, so it deploys here. It used to be a
+# step in the site workflow, which shared one failure domain and one
+# concurrency group with the site: a proxy fix could sit behind a broken site
+# build, and a site deploy that died before the proxy step shipped a bundle
+# pointing at a proxy that was never updated. This workflow is scoped to the
+# proxy's own files and serializes on its own group.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "workers/video-proxy/**"
+      - ".github/workflows/deploy-video-proxy.yml"
+  workflow_dispatch:
+
+# Same reasoning as the site deploy: a run already inside `wrangler deploy`
+# must not be killed by the next push. Disabled cancellation lets the
+# in-flight deploy finish and collapses superseded queued runs.
+concurrency:
+  group: deploy-video-proxy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 12.5.1
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # The proxy has its own contract test; run it before deploying.
+      - name: Test
+        run: pnpm exec vitest run tests/video-proxy.test.ts
+
+      - name: Deploy video proxy
+        run: pnpm exec wrangler deploy
+        working-directory: workers/video-proxy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
