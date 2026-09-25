@@ -11,6 +11,7 @@ import {
   formatPublishedAt,
   formatViewsDetail,
   formatViewsLabel,
+  playbackUrl,
   publishedVideos,
 } from "@/lib/catalog";
 import {
@@ -202,6 +203,7 @@ const categoryJsonLd = {
                     class="video-card__media"
                     href={`/videos/${video.slug}/`}
                     aria-label={mediaLabel}
+                    data-preview-src={playbackUrl(video)}
                   >
                     <img
                       src={small}
