@@ -11657,7 +11657,7 @@
     "publishedAt": "2026-05-17T12:15:00.000Z",
     "durationSeconds": 26,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 67030,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -11709,7 +11709,7 @@
     "publishedAt": "2026-05-17T17:15:00.000Z",
     "durationSeconds": 18,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 86391,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -11761,7 +11761,7 @@
     "publishedAt": "2026-05-17T18:15:00.000Z",
     "durationSeconds": 67,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 54042,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -11891,7 +11891,7 @@
     "publishedAt": "2026-05-17T20:53:40.000Z",
     "durationSeconds": 67,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 57759,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -12723,7 +12723,7 @@
     "publishedAt": "2026-05-18T22:15:00.000Z",
     "durationSeconds": 48,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 55738,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -16797,7 +16797,7 @@
     "publishedAt": "2026-06-30T17:02:45.000Z",
     "durationSeconds": 86,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 86503,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -36969,7 +36969,7 @@
     "publishedAt": "2026-08-21T20:46:19.000Z",
     "durationSeconds": 47,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 443733,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },

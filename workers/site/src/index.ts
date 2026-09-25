@@ -8,6 +8,10 @@ import {
   shouldPassthrough,
 } from "../../../src/lib/accept";
 import { NOT_FOUND_MARKDOWN } from "../../../src/lib/site";
+import redirects from "../../../src/data/redirects.json";
+
+/** Retired entry URLs (merged duplicates) → the entry that replaced them. */
+const REDIRECTS: Record<string, string> = redirects;
 
 export interface Env {
   ASSETS: {
@@ -89,6 +93,7 @@ function logEvent(
 
 /** What representation a request was answered with, for the wide event. */
 type Served =
+  | "redirect"
   | "passthrough"
   | "html"
   | "markdown"
@@ -106,8 +111,13 @@ export default {
 
     let response: Response;
     let served: Served;
+    const redirectTarget =
+      REDIRECTS[pathname.endsWith("/") ? pathname : `${pathname}/`];
     try {
-      if (shouldPassthrough(pathname)) {
+      if (redirectTarget) {
+        response = Response.redirect(new URL(redirectTarget, url).toString(), 301);
+        served = "redirect";
+      } else if (shouldPassthrough(pathname)) {
         response = withAssetCache(pathname, await env.ASSETS.fetch(request));
         served = "passthrough";
       } else {
