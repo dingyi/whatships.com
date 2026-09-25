@@ -85,11 +85,9 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 
 - Catalog: `src/data/videos.json` (published + draft). `publishedVideos`
   sorts by `publishedAt` desc at runtime — file order does not matter.
-- Thin entries (`isThinEntry()` in `src/lib/catalog.ts`: `imported` tag, or
-  title and description both ending in `…`) render with `noindex,follow`
-  and are left out of the sitemap. Write an edited title/description for
-  new entries instead of pasting post text; rewriting an entry and dropping
-  `imported` re-indexes it.
+- Write an edited title (≤ 55 chars) and one-line description for new
+  entries instead of pasting the post text — raw, truncated post copy
+  across hundreds of pages reads as scraped content to Google.
 - Duplicate entries (same video under several slugs): keep the maker's
   original, set the others to `draft`, and add `old → kept` to
   `src/data/redirects.json` — the site worker answers those with a 301.
