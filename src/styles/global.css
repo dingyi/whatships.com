@@ -727,6 +727,31 @@ img {
   text-wrap: pretty;
 }
 
+.home-about {
+  width: min(624px, 100%);
+  margin: 72px auto 0;
+  padding: 24px 16px 0;
+  box-sizing: border-box;
+  border-top: 0.5px solid var(--grid-line);
+}
+.home-about h2 {
+  margin: 0 0 12px;
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.home-about p {
+  margin: 0 0 12px;
+  color: var(--muted-foreground);
+  font-size: 14px;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
 /* Noiced pattern: outer container padding (16px) + max-width, grid gap:0 inside */
 .directory {
   scroll-margin-top: 24px;
@@ -1819,86 +1844,6 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   display: block;
   width: 14px;
   height: 14px;
-}
-.detail-insights {
-  width: min(624px, 100%);
-  margin: 48px auto 0;
-  text-align: left;
-}
-.insight {
-  border-top: 1px solid var(--grid-line);
-  padding: 18px 0 22px;
-}
-.insight h2 {
-  margin: 0 0 10px;
-  color: var(--muted-foreground);
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-.insight p,
-.insight li,
-.insight td,
-.insight dd {
-  color: var(--foreground);
-  font-size: 14px;
-  line-height: 1.55;
-}
-.insight p {
-  margin: 0;
-}
-.insight ul,
-.insight ol {
-  margin: 0;
-  padding-left: 18px;
-}
-.insight li {
-  margin: 4px 0;
-}
-.insight strong {
-  font-weight: 520;
-}
-.insight table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.insight th,
-.insight td {
-  border-top: 1px solid var(--grid-line);
-  padding: 8px 12px 8px 0;
-  text-align: left;
-  vertical-align: top;
-}
-.insight thead th {
-  border-top: 0;
-  color: var(--muted-foreground);
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-.insight thead th:last-child,
-.insight tbody td:last-child {
-  padding-left: 12px;
-}
-.insight tbody td:first-child {
-  color: var(--muted-foreground);
-}
-.insight-faq {
-  margin: 0;
-}
-.insight-faq dt {
-  font-weight: 520;
-  margin-top: 12px;
-}
-.insight-faq dt:first-child {
-  margin-top: 0;
-}
-.insight-faq dd {
-  margin: 4px 0 0;
 }
 .similar-videos {
   width: 100%;
