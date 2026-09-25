@@ -7,7 +7,18 @@ import {
   PRODUCES,
   shouldPassthrough,
 } from "../../../src/lib/accept";
-import { NOT_FOUND_MARKDOWN } from "../../../src/lib/site";
+import {
+  NOT_FOUND_MARKDOWN,
+  SITE_DOMAIN,
+  SITE_URL,
+} from "../../../src/lib/site";
+
+const WWW_HOST = `www.${SITE_DOMAIN}`;
+
+function isWwwHost(request: Request, url: URL): boolean {
+  const headerHost = request.headers.get("host")?.split(":")[0]?.toLowerCase();
+  return headerHost === WWW_HOST || url.hostname.toLowerCase() === WWW_HOST;
+}
 
 export interface Env {
   ASSETS: {
@@ -97,9 +108,17 @@ type Served =
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+
+    if (isWwwHost(request, url)) {
+      return new Response(null, {
+        status: 301,
+        headers: { Location: `${SITE_URL}${url.pathname}${url.search}` },
+      });
+    }
+
     const startedAt = Date.now();
     const ray = requestId(request);
-    const url = new URL(request.url);
     const pathname = url.pathname;
     const accept = request.headers.get("accept");
     const base = { worker: "site", ray, method: request.method, pathname };
