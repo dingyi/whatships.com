@@ -39,6 +39,11 @@ describe("trust and developer pages", () => {
     expect(introIndex).toBeLessThan(islandIndex);
   });
 
+  it("keeps homepage copy visible rather than screen-reader-only", () => {
+    const source = readFileSync("src/pages/index.astro", "utf8");
+    expect(source).not.toContain("sr-only");
+  });
+
   it("names whatships in the developers heading and title", () => {
     const source = readFileSync("src/pages/developers.astro", "utf8");
     expect(source).toContain("What Ships developer resources");

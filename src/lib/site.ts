@@ -96,14 +96,14 @@ export function metaDescription(text: string): string {
   );
 }
 
-/** Visible homepage H1 — keep in sync with HomeApp hero. */
+/** Homepage H1, rendered in the static hero in index.astro. */
 export const HOMEPAGE_H1 = "Discover startup launch videos from X";
 
 /**
- * Crawler-visible homepage copy. Kept out of the React island so AI
- * crawlers that ignore custom elements still see an H1 and 500+ characters
- * of raw HTML. The visible HomeApp hero uses a styled paragraph so the page
- * has exactly one H1.
+ * Homepage "About" copy. Rendered visibly in index.astro, outside the React
+ * island, so AI crawlers that ignore custom elements still see 500+
+ * characters of raw HTML. It must stay visible — hiding it (sr-only) would
+ * be hidden text under Google's spam policy.
  */
 export const HOMEPAGE_INTRO = `What Ships (whatships.com) is an independent curated directory of startup launch videos from X. The catalog indexes product launch videos, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
 

@@ -727,6 +727,31 @@ img {
   text-wrap: pretty;
 }
 
+.home-about {
+  width: min(624px, 100%);
+  margin: 72px auto 0;
+  padding: 24px 16px 0;
+  box-sizing: border-box;
+  border-top: 0.5px solid var(--grid-line);
+}
+.home-about h2 {
+  margin: 0 0 12px;
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.home-about p {
+  margin: 0 0 12px;
+  color: var(--muted-foreground);
+  font-size: 14px;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
 /* Noiced pattern: outer container padding (16px) + max-width, grid gap:0 inside */
 .directory {
   scroll-margin-top: 24px;
