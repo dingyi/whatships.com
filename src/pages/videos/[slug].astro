@@ -10,7 +10,6 @@ import {
   formatPublishedAt,
   formatViewsCount,
   getSimilarVideos,
-  isThinEntry,
   normalizeTweetUrl,
   playbackUrl,
   publishedVideos,
@@ -153,7 +152,6 @@ const videoJsonLd = {
   title={`${video.title} — ${kindLabel} | ${SITE_NAME}`}
   description={description}
   image={video.poster}
-  noindex={isThinEntry(video)}
 >
   <link
     slot="head"

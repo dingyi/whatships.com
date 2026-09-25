@@ -1,7 +1,6 @@
 import {
   CATEGORIES,
   catalogDateModified,
-  isThinEntry,
   publishedVideos,
   videoDateModified,
 } from "@/lib/catalog";
@@ -45,7 +44,6 @@ export function sitemapEntries(videos = publishedVideos): SitemapEntry[] {
   );
 
   for (const video of videos) {
-    if (isThinEntry(video)) continue;
     entries.push({
       path: `/videos/${video.slug}/`,
       lastmod: videoDateModified(video),
