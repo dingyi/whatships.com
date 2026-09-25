@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 
+import redirects from "@/data/redirects.json";
+import { publishedVideos } from "@/lib/catalog";
 import { NOT_FOUND_MARKDOWN } from "@/lib/site";
 import worker, { type Env } from "../workers/site/src/index";
 
@@ -135,6 +137,28 @@ describe("site worker negotiation", () => {
     expect(response.headers.get("Cache-Control")).toBe(
       "public, max-age=604800",
     );
+  });
+});
+
+describe("site worker redirects", () => {
+  it("301s retired duplicate entries, with or without a trailing slash", async () => {
+    for (const path of ["/videos/claude-code-3726/", "/videos/claude-code-3726"]) {
+      const response = await worker.fetch(request(path), env);
+      expect(response.status).toBe(301);
+      expect(response.headers.get("Location")).toBe(
+        "https://whatships.com/videos/claude-code-4651/",
+      );
+    }
+  });
+
+  it("points every redirect at a published entry and away from a published one", () => {
+    const published = new Set(
+      publishedVideos.map((video) => `/videos/${video.slug}/`),
+    );
+    for (const [from, to] of Object.entries(redirects)) {
+      expect(published.has(from), from).toBe(false);
+      expect(published.has(to), to).toBe(true);
+    }
   });
 });
 

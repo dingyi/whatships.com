@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import HomeApp from "@/components/HomeApp";
+import PageHeader from "@/components/PageHeader";
 import SiteFooter from "@/components/SiteFooter.astro";
 import { publishedVideos } from "@/lib/catalog";
 import { PAGE_SIZE, gridPoster, toDirectoryVideo } from "@/lib/directory";
@@ -46,18 +47,34 @@ const jsonLd = homepageJsonLd(
     is:inline
     set:html={JSON.stringify(jsonLd)}
   />
-  {/* Crawler copy outside the HomeApp island (AGENTS.md): one H1 plus the
-      site intro, so agents that skip custom elements still see the summary.
-      Kept to real editorial copy — no FAQ/citation padding. */}
-  <section class="sr-only" data-agent-intro>
-    <h1>{SITE_NAME} — {HOMEPAGE_H1}</h1>
-    {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
-  </section>
-  <HomeApp
-    videos={firstPage}
-    totalCount={publishedVideos.length}
-    client:idle
-  />
+  <PageHeader active="discover" client:idle />
+  {/* H1 and site intro live outside the HomeApp island (AGENTS.md) so agents
+      that skip custom elements still see them. Both are visible to people
+      too: crawler-only copy would be hidden text under Google's spam policy. */}
+  <main>
+    <section class="hero" data-agent-intro>
+      <div class="hero__inner">
+        <h1>{HOMEPAGE_H1}</h1>
+        <p class="hero__copy">
+          A curated edit of product launch videos, demos, and walkthroughs from
+          startups introducing new products to the world.
+        </p>
+      </div>
+    </section>
+    <HomeApp
+      videos={firstPage}
+      totalCount={publishedVideos.length}
+      client:idle
+    />
+    <section
+      class="home-about"
+      aria-labelledby="home-about-title"
+      data-agent-intro
+    >
+      <h2 id="home-about-title">About {SITE_NAME}</h2>
+      {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+    </section>
+  </main>
 
   <SiteFooter />
   <script is:inline>

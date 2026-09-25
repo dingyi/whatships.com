@@ -1,7 +1,6 @@
 import { ArrowLeft, ArrowRight, ArrowUpRight, Play } from "lucide-react";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
-import PageHeader from "@/components/PageHeader";
 import VideoPlayerDialog from "@/components/VideoPlayerDialog";
 import {
   Select,
@@ -331,20 +330,7 @@ export default function HomeApp({ videos, totalCount }: Props) {
 
   return (
     <>
-      <PageHeader active="discover" />
-      <main data-directory-ready={ready}>
-        <section className="hero" aria-labelledby="hero-title">
-          <div className="hero__inner">
-            <p className="hero__title" id="hero-title">
-              Discover startup launch videos from X
-            </p>
-            <p className="hero__copy">
-              A curated edit of product launch videos, demos, and walkthroughs
-              from startups introducing new products to the world.
-            </p>
-          </div>
-        </section>
-
+      <div data-directory-ready={ready}>
         <section
           className="directory"
           id="directory"
@@ -449,7 +435,7 @@ export default function HomeApp({ videos, totalCount }: Props) {
             </nav>
           )}
         </section>
-      </main>
+      </div>
 
       <VideoPlayerDialog
         video={playingVideo}

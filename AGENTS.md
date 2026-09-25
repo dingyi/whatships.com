@@ -92,6 +92,12 @@ reduced-motion users keep the play chip; clicking still opens the player.
 
 - Catalog: `src/data/videos.json` (published + draft). `publishedVideos`
   sorts by `publishedAt` desc at runtime — file order does not matter.
+- Write an edited title (≤ 55 chars) and one-line description for new
+  entries instead of pasting the post text — raw, truncated post copy
+  across hundreds of pages reads as scraped content to Google.
+- Duplicate entries (same video under several slugs): keep the maker's
+  original, set the others to `draft`, and add `old → kept` to
+  `src/data/redirects.json` — the site worker answers those with a 301.
 - Studios: `src/data/studios.json` + `/studios/` directory of motion
   studios and independent designers that make launch films
   (`kind: "studio" | "person"`). Posters live in `public/posters/studios/`.
@@ -135,7 +141,8 @@ reduced-motion users keep the play chip; clicking still opens the player.
 - Titles ≤ 55 chars (Google truncation). Dates format via
   `formatPublishedAt` (UTC-pinned — do not remove the `timeZone`).
 - Agent surfaces: keep an H1 plus 500+ chars of homepage copy **outside**
-  the `HomeApp` island (`data-agent-intro`); keep `/llms.txt` when-to-use
+  the `HomeApp` island (`data-agent-intro`), and keep it **visible** —
+  `sr-only` crawler copy is hidden text under Google's spam policy; keep `/llms.txt` when-to-use
   guidance; keep `/contact/`, `/privacy/`, `/developers/`, and
   `/openapi.json`. Markdown siblings are generated at build into `dist/`
   (not committed).
