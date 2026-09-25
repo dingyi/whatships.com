@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:20:54.058Z",
+  "updatedAt": "2026-09-25T12:21:58.015Z",
   "items": [
     {
       "id": "disc-2102126749622345858",
@@ -126,131 +126,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2102057296339595282",
-      "tweetId": "2102057296339595282",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-25T10:20:53.386Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102057296339595282",
-        "tweetUrl": "https://x.com/omiloai/status/2102057296339595282",
-        "authorHandle": "omiloai",
-        "authorName": "Omilo AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2092945375925592064/tFFaG4IA.jpg",
-        "text": "Introducing Omilo to the world.\nTwo people. Two languages. One phone between them.\nHold to speak, release to hear the translation, and keep the conversation face to face.\nDownload now :\nIOS : https://t.co/TVJrEksEHO\nAndroid : https://t.co/upShYedCoP https://t.co/UZOtTT8hbh",
-        "createdAt": "2026-09-21T15:28:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102056905455603712/vid/avc1/1280x720/T3i1GW-BTUtl-QKO.mp4?tag=14",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102056905455603712/img/8Xf6SnlWSgB0j7LQ.jpg",
-            "durationMs": 30080
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "omiloai",
-        "company": "Omilo AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102057296339595282",
-        "slug": "omilo-ai-595282",
-        "title": "Introducing Omilo to the world. Two people. Two languages. One phone between them. Hold to speak,…",
-        "product": "Omilo AI",
-        "company": "Omilo AI",
-        "description": "Introducing Omilo to the world. Two people. Two languages. One phone between them. Hold to speak, release to hear the translation, and keep the conversation face to face. Download now : IOS : Android :",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/omiloai/status/2102057296339595282",
-        "tweetId": "2102057296339595282",
-        "authorName": "Omilo AI",
-        "authorHandle": "omiloai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2092945375925592064/tFFaG4IA.jpg",
-        "poster": "/posters/omilo-ai-595282.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102056905455603712/vid/avc1/1280x720/T3i1GW-BTUtl-QKO.mp4?tag=14",
-        "publishedAt": "2026-09-21T15:28:08.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2102012086314578179",
-      "tweetId": "2102012086314578179",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-25T10:20:53.048Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102012086314578179",
-        "tweetUrl": "https://x.com/Anshgrover23/status/2102012086314578179",
-        "authorHandle": "Anshgrover23",
-        "authorName": "Ansh Grover",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2068962080611516416/Ai8DDahk.jpg",
-        "text": "Introducing Keep!\n\nBeautiful, living sky on the desktop. Quiet, and built for a Mac you already use.\n\nIt is a macOS menu bar agent. Local light, live weather, the next Calendar event, one intention for the day.\n\nLooking up should still feel like looking outside. https://t.co/j2QSol6lu9",
-        "createdAt": "2026-09-21T12:28:29.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102011791656284160/vid/avc1/2560x1440/WUw0Uh6bvfGc2fEn.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102011791656284160/img/JERxXaboCiao-xX8.jpg",
-            "durationMs": 15016
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Anshgrover23",
-        "company": "Ansh Grover",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102012086314578179",
-        "slug": "ansh-grover-578179",
-        "title": "Introducing Keep! Beautiful, living sky on the desktop. Quiet, and built for a Mac you already us…",
-        "product": "Ansh Grover",
-        "company": "Ansh Grover",
-        "description": "Introducing Keep! Beautiful, living sky on the desktop. Quiet, and built for a Mac you already use. It is a macOS menu bar agent. Local light, live weather, the next Calendar event, one intention for the day. Looking up should still feel like looking outside.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Anshgrover23/status/2102012086314578179",
-        "tweetId": "2102012086314578179",
-        "authorName": "Ansh Grover",
-        "authorHandle": "Anshgrover23",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2068962080611516416/Ai8DDahk.jpg",
-        "poster": "/posters/ansh-grover-578179.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102011791656284160/vid/avc1/2560x1440/WUw0Uh6bvfGc2fEn.mp4",
-        "publishedAt": "2026-09-21T12:28:29.000Z",
-        "durationSeconds": 15,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2102065462213279820",
       "tweetId": "2102065462213279820",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-25T10:20:52.707Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:08:30.774Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -426,71 +306,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2102018545668272382",
-      "tweetId": "2102018545668272382",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-25T10:20:51.327Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102018545668272382",
-        "tweetUrl": "https://x.com/motiondotdev/status/2102018545668272382",
-        "authorHandle": "motiondotdev",
-        "authorName": "Motion",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1967237939043135488/iP9UqXkF.png",
-        "text": "Introducing Motion Studio.\n\nEdit animations directly on your site with our intuitive visual editor and our new Ultramotion animation editing agent (powered by @typesafeai's Jev) for at least 10x faster edits than code LLMs. \n\nInspection and visual editing are free! https://t.co/aOpQkvHcHZ",
-        "createdAt": "2026-09-21T12:54:09.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102016311932964864/vid/avc1/1916x1080/XM5sfdRXMCrZzMVl.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102016311932964864/img/DnpupNIkzPEPePb-.jpg",
-            "durationMs": 18150
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "motiondotdev",
-        "company": "Motion",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102018545668272382",
-        "slug": "motion-272382",
-        "title": "Introducing Motion Studio. Edit animations directly on your site with our intuitive visual editor…",
-        "product": "Motion",
-        "company": "Motion",
-        "description": "Introducing Motion Studio. Edit animations directly on your site with our intuitive visual editor and our new Ultramotion animation editing agent (powered by @typesafeai's Jev) for at least 10x faster edits than code LLMs. Inspection and visual editing are free!",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/motiondotdev/status/2102018545668272382",
-        "tweetId": "2102018545668272382",
-        "authorName": "Motion",
-        "authorHandle": "motiondotdev",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1967237939043135488/iP9UqXkF.png",
-        "poster": "/posters/motion-272382.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102016311932964864/vid/avc1/1916x1080/XM5sfdRXMCrZzMVl.mp4",
-        "publishedAt": "2026-09-21T12:54:09.000Z",
-        "durationSeconds": 18,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2102141287738524089",
       "tweetId": "2102141287738524089",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-25T10:20:50.984Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:05:51.017Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -609,9 +429,9 @@
     {
       "id": "disc-2102091931681804604",
       "tweetId": "2102091931681804604",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-25T10:20:50.297Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:07:47.457Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -659,66 +479,6 @@
         "poster": "/posters/aneri-804604.webp",
         "videoUrl": "https://video.twimg.com/amplify_video/2102090976982663168/vid/avc1/1920x1080/BX4H_Cu1wV8xJ9Zj.mp4",
         "publishedAt": "2026-09-21T17:45:46.000Z",
-        "durationSeconds": 66,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2102078511775424801",
-      "tweetId": "2102078511775424801",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-25T10:20:49.945Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102078511775424801",
-        "tweetUrl": "https://x.com/ElevenLabs/status/2102078511775424801",
-        "authorHandle": "ElevenLabs",
-        "authorName": "ElevenLabs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047043946807754752/7xmvtysh.png",
-        "text": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade.\n\nGenerate video, image, voice, music and sound effects inside your project, then edit, caption, and export in the same place. https://t.co/kggpTdPKMt",
-        "createdAt": "2026-09-21T16:52:26.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102078440375717888/vid/avc1/1920x1080/TCya7ayPoxzekbL2.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102078440375717888/img/a12dOLuvhoi6I6kp.jpg",
-            "durationMs": 65685
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ElevenLabs",
-        "company": "ElevenLabs",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102078511775424801",
-        "slug": "elevenlabs-424801",
-        "title": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade. G…",
-        "product": "ElevenLabs",
-        "company": "ElevenLabs",
-        "description": "Introducing Studio 4.0 in @ElevenCreative. Our AI-native video editor just got a major upgrade. Generate video, image, voice, music and sound effects inside your project, then edit, caption, and export in the same place.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ElevenLabs/status/2102078511775424801",
-        "tweetId": "2102078511775424801",
-        "authorName": "ElevenLabs",
-        "authorHandle": "ElevenLabs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047043946807754752/7xmvtysh.png",
-        "poster": "/posters/elevenlabs-424801.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102078440375717888/vid/avc1/1920x1080/TCya7ayPoxzekbL2.mp4",
-        "publishedAt": "2026-09-21T16:52:26.000Z",
         "durationSeconds": 66,
         "featured": false,
         "status": "draft"
@@ -1273,66 +1033,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2101034808826851328/vid/avc1/1080x1080/geHO2dNn7R866i7M.mp4?tag=16",
         "publishedAt": "2026-09-18T19:45:11.000Z",
         "durationSeconds": 13,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100632411432476947",
-      "tweetId": "2100632411432476947",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-22T06:27:35.864Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100632411432476947",
-        "tweetUrl": "https://x.com/emkara/status/2100632411432476947",
-        "authorHandle": "emkara",
-        "authorName": "Emir Karabeg",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1936929305998630912/tA-7YngF.jpg",
-        "text": "Introducing Sim Search\n\nAgents can now use your credentials to build an agentic knowledge graph to do your high-context work.\n\nFull context building and adaptive learning. Live right now in Sim! https://t.co/s6YR9SW2Sk",
-        "createdAt": "2026-09-17T17:06:09.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100632155789598720/vid/avc1/1920x1080/2SmbGkTJcp-VxIlf.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100632155789598720/img/0bP7K5UZV2d8uLWM.jpg",
-            "durationMs": 79608
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "emkara",
-        "company": "Emir Karabeg",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100632411432476947",
-        "slug": "emir-karabeg-476947",
-        "title": "Introducing Sim Search Agents can now use your credentials to build an agentic knowledge graph to…",
-        "product": "Emir Karabeg",
-        "company": "Emir Karabeg",
-        "description": "Introducing Sim Search Agents can now use your credentials to build an agentic knowledge graph to do your high-context work. Full context building and adaptive learning. Live right now in Sim!",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/emkara/status/2100632411432476947",
-        "tweetId": "2100632411432476947",
-        "authorName": "Emir Karabeg",
-        "authorHandle": "emkara",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1936929305998630912/tA-7YngF.jpg",
-        "poster": "/posters/emir-karabeg-476947.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100632155789598720/vid/avc1/1920x1080/2SmbGkTJcp-VxIlf.mp4",
-        "publishedAt": "2026-09-17T17:06:09.000Z",
-        "durationSeconds": 80,
         "featured": false,
         "status": "draft"
       },
@@ -2074,9 +1774,9 @@
     {
       "id": "disc-2100672979734573389",
       "tweetId": "2100672979734573389",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-18T14:18:11.410Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:08:37.267Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2125,126 +1825,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2100672883533987840/vid/avc1/1320x2868/_xV9A3lazyRCHwgi.mp4",
         "publishedAt": "2026-09-17T19:47:21.000Z",
         "durationSeconds": 12,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100578015788794129",
-      "tweetId": "2100578015788794129",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:11.090Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100578015788794129",
-        "tweetUrl": "https://x.com/KhalidDevLog/status/2100578015788794129",
-        "authorHandle": "KhalidDevLog",
-        "authorName": "Khalid",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042628603486011392/LrX0UVWw.jpg",
-        "text": "Introducing Panelwind.\n\nAn agent-first ESLint plugin for @Expo design systems\n\nit reads your theme, components and variants, and knows what a class does on a device.\n\nInspired by @shadcn /lint — built for React Native and expo. https://t.co/o1aSfEgciI",
-        "createdAt": "2026-09-17T13:30:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100543655954075648/vid/avc1/1920x1080/TQp_gsklTfrFShTd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100543655954075648/img/7gjt2lhdvhADb8cy.jpg",
-            "durationMs": 43266
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "KhalidDevLog",
-        "company": "Khalid",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100578015788794129",
-        "slug": "khalid-794129",
-        "title": "Introducing Panelwind. An agent-first ESLint plugin for @Expo design systems it reads your theme,…",
-        "product": "Khalid",
-        "company": "Khalid",
-        "description": "Introducing Panelwind. An agent-first ESLint plugin for @Expo design systems it reads your theme, components and variants, and knows what a class does on a device. Inspired by @shadcn /lint — built for React Native and expo.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/KhalidDevLog/status/2100578015788794129",
-        "tweetId": "2100578015788794129",
-        "authorName": "Khalid",
-        "authorHandle": "KhalidDevLog",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2042628603486011392/LrX0UVWw.jpg",
-        "poster": "/posters/khalid-794129.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100543655954075648/vid/avc1/1920x1080/TQp_gsklTfrFShTd.mp4",
-        "publishedAt": "2026-09-17T13:30:00.000Z",
-        "durationSeconds": 43,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100593082466976116",
-      "tweetId": "2100593082466976116",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:10.758Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100593082466976116",
-        "tweetUrl": "https://x.com/konstipaulus/status/2100593082466976116",
-        "authorHandle": "konstipaulus",
-        "authorName": "konstantinpaulus",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1909750321703706624/DywhJjiN.jpg",
-        "text": "Introducing Diffusion Studio MCP + Chat.\n\nEdit videos by describing what you want. Right inside the app or by connecting an external AI agent.\n\nHere’s a quick tutorial 👇 https://t.co/jYwAO5MBKe",
-        "createdAt": "2026-09-17T14:29:52.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100585087305764864/vid/avc1/1728x1080/4bQACYceLeHZAjKp.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100585087305764864/img/HQV43PJP2jk7D29Z.jpg",
-            "durationMs": 436437
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "konstipaulus",
-        "company": "konstantinpaulus",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100593082466976116",
-        "slug": "konstantinpaulus-976116",
-        "title": "Introducing Diffusion Studio MCP + Chat. Edit videos by describing what you want. Right inside th…",
-        "product": "konstantinpaulus",
-        "company": "konstantinpaulus",
-        "description": "Introducing Diffusion Studio MCP + Chat. Edit videos by describing what you want. Right inside the app or by connecting an external AI agent. Here’s a quick tutorial 👇",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/konstipaulus/status/2100593082466976116",
-        "tweetId": "2100593082466976116",
-        "authorName": "konstantinpaulus",
-        "authorHandle": "konstipaulus",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1909750321703706624/DywhJjiN.jpg",
-        "poster": "/posters/konstantinpaulus-976116.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100585087305764864/vid/avc1/1728x1080/4bQACYceLeHZAjKp.mp4",
-        "publishedAt": "2026-09-17T14:29:52.000Z",
-        "durationSeconds": 436,
         "featured": false,
         "status": "draft"
       },
@@ -2440,65 +2020,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100631803782443249",
-      "tweetId": "2100631803782443249",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:09.462Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2100631803782443249",
-        "tweetUrl": "https://x.com/cohere/status/2100631803782443249",
-        "authorHandle": "cohere",
-        "authorName": "Cohere",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1650250832909152260/760DZ0cv.png",
-        "text": "North 2\n\nComing October 2026 https://t.co/DwwKY6EBkT",
-        "createdAt": "2026-09-17T17:03:44.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100595107070091265/vid/avc1/3840x2160/rzT-Z5mtBYzhg-_H.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HSbjClvWIAAcQ5M.jpg",
-            "durationMs": 16200
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cohere",
-        "company": "Cohere",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100631803782443249",
-        "slug": "cohere-443249",
-        "title": "North 2 Coming October 2026",
-        "product": "Cohere",
-        "company": "Cohere",
-        "description": "North 2 Coming October 2026",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cohere/status/2100631803782443249",
-        "tweetId": "2100631803782443249",
-        "authorName": "Cohere",
-        "authorHandle": "cohere",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1650250832909152260/760DZ0cv.png",
-        "poster": "/posters/cohere-443249.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100595107070091265/vid/avc1/3840x2160/rzT-Z5mtBYzhg-_H.mp4",
-        "publishedAt": "2026-09-17T17:03:44.000Z",
-        "durationSeconds": 16,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100701581109072332",
       "tweetId": "2100701581109072332",
       "reviewStatus": "pending",
@@ -2624,71 +2145,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100679997862330735",
-      "tweetId": "2100679997862330735",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:08.082Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2100679997862330735",
-        "tweetUrl": "https://x.com/OpenAI/status/2100679997862330735",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "We’re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT.\n\nPartners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms https://t.co/DjMgoTey8X",
-        "createdAt": "2026-09-17T20:15:14.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100677466490888192/vid/avc1/1920x1080/k2kA4r1VefGNSkkk.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100677466490888192/img/1tSHY7Q6iTwrf1rl.jpg",
-            "durationMs": 60060
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2100679997862330735",
-        "slug": "openai-330735",
-        "title": "We’re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT.…",
-        "product": "OpenAI",
-        "company": "OpenAI",
-        "description": "We’re also launching 26 partner-built plugins and 47 community plugins for legal work in ChatGPT. Partners including @thomsonreuters, @harvey, @WeAreLegora, and @imanageinc connect specialist tools and knowledge. Community plugins built by lawyers and legal engineers give firms",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2100679997862330735",
-        "tweetId": "2100679997862330735",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/openai-330735.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100677466490888192/vid/avc1/1920x1080/k2kA4r1VefGNSkkk.mp4",
-        "publishedAt": "2026-09-17T20:15:14.000Z",
-        "durationSeconds": 60,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100704818545209378",
       "tweetId": "2100704818545209378",
       "reviewStatus": "rejected",
@@ -2751,9 +2207,9 @@
     {
       "id": "disc-2100693323594015184",
       "tweetId": "2100693323594015184",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-18T14:18:07.086Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:08:02.142Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -2993,76 +2449,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100620377005203564",
-      "tweetId": "2100620377005203564",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:04.777Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100620377005203564",
-        "tweetUrl": "https://x.com/runwayml/status/2100620377005203564",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "Introducing Enhance Frame Rate\n\nOur new frame interpolation model that converts any footage to the specs you need, including 25, 30, 48, 60 or 120 fps, as well as NTSC's 59.94 standard. Get started at the link below. https://t.co/K47AXeOO0Y",
-        "createdAt": "2026-09-17T16:18:20.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100619993058611200/vid/avc1/1920x1080/ft1BQ2Iog6In0V9P.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100619993058611200/img/aKq_V676MYj4yUjt.jpg",
-            "durationMs": 38000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2100620377005203564",
-        "slug": "runway-203564",
-        "title": "Introducing Enhance Frame Rate Our new frame interpolation model that converts any footage to the…",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "Introducing Enhance Frame Rate Our new frame interpolation model that converts any footage to the specs you need, including 25, 30, 48, 60 or 120 fps, as well as NTSC's 59.94 standard. Get started at the link below.",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2100620377005203564",
-        "tweetId": "2100620377005203564",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-203564.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100619993058611200/vid/avc1/1920x1080/ft1BQ2Iog6In0V9P.mp4",
-        "publishedAt": "2026-09-17T16:18:20.000Z",
-        "durationSeconds": 38,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100622380439683541",
       "tweetId": "2100622380439683541",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-18T14:18:04.122Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-25T12:08:52.023Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3111,66 +2502,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2100622022686511104/vid/avc1/3424x2160/IrnomEfI0cEu25MA.mp4",
         "publishedAt": "2026-09-17T16:26:17.000Z",
         "durationSeconds": 16,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100629367986716804",
-      "tweetId": "2100629367986716804",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:02.701Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100629367986716804",
-        "tweetUrl": "https://x.com/Crowdreply_io/status/2100629367986716804",
-        "authorHandle": "Crowdreply_io",
-        "authorName": "CrowdReply",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2032162693382021120/4lcUTHh8.jpg",
-        "text": "Introducing Astra for Marketing    \n\njust enter your website into GPT-6 Astra and watch it outrank a company doing $6M/month in AI search in just 169 seconds using a single MCP\n\nThis is absolutely insane. https://t.co/WmC7SHNEOL",
-        "createdAt": "2026-09-17T16:54:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100629177208905728/vid/avc1/1920x1080/iXP2lW6B5JP07HW6.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100629177208905728/img/GyyPMpeFnZA89ekS.jpg",
-            "durationMs": 41840
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Crowdreply_io",
-        "company": "CrowdReply",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100629367986716804",
-        "slug": "crowdreply-716804",
-        "title": "Introducing Astra for Marketing just enter your website into GPT-6 Astra and watch it outrank a c…",
-        "product": "CrowdReply",
-        "company": "CrowdReply",
-        "description": "Introducing Astra for Marketing just enter your website into GPT-6 Astra and watch it outrank a company doing $6M/month in AI search in just 169 seconds using a single MCP This is absolutely insane.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Crowdreply_io/status/2100629367986716804",
-        "tweetId": "2100629367986716804",
-        "authorName": "CrowdReply",
-        "authorHandle": "Crowdreply_io",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2032162693382021120/4lcUTHh8.jpg",
-        "poster": "/posters/crowdreply-716804.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100629177208905728/vid/avc1/1920x1080/iXP2lW6B5JP07HW6.mp4",
-        "publishedAt": "2026-09-17T16:54:03.000Z",
-        "durationSeconds": 42,
         "featured": false,
         "status": "draft"
       },
@@ -3290,66 +2621,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2099773372921978880/vid/avc1/1920x1080/I63aYKAAUQ7J3ZHe.mp4",
         "publishedAt": "2026-09-15T08:15:48.000Z",
         "durationSeconds": 14,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2099883276072600000",
-      "tweetId": "2099883276072600000",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-17T13:18:41.181Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2099883276072600000",
-        "tweetUrl": "https://x.com/nizzyabi/status/2099883276072600000",
-        "authorHandle": "nizzyabi",
-        "authorName": "Nizzy",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1884987569961570304/TP3OWz64.jpg",
-        "text": "Introducing Keiki, the place to build customer facing AI agents for apps people already use. https://t.co/betRYuWzgm",
-        "createdAt": "2026-09-15T15:29:21.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099880975991754753/vid/avc1/1920x1080/29q-luNxZWNTDCAv.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099880975991754753/img/rBPqvQzIbKjkEZj7.jpg",
-            "durationMs": 57066
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "nizzyabi",
-        "company": "Nizzy",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2099883276072600000",
-        "slug": "nizzy-600000",
-        "title": "Introducing Keiki, the place to build customer facing AI agents for apps people already use.",
-        "product": "Nizzy",
-        "company": "Nizzy",
-        "description": "Introducing Keiki, the place to build customer facing AI agents for apps people already use.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/nizzyabi/status/2099883276072600000",
-        "tweetId": "2099883276072600000",
-        "authorName": "Nizzy",
-        "authorHandle": "nizzyabi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1884987569961570304/TP3OWz64.jpg",
-        "poster": "/posters/nizzy-600000.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099880975991754753/vid/avc1/1920x1080/29q-luNxZWNTDCAv.mp4",
-        "publishedAt": "2026-09-15T15:29:21.000Z",
-        "durationSeconds": 57,
         "featured": false,
         "status": "draft"
       },
@@ -3722,187 +2993,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100336425510269038",
-      "tweetId": "2100336425510269038",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-17T13:18:38.302Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2100336425510269038",
-        "tweetUrl": "https://x.com/amal_irgashev/status/2100336425510269038",
-        "authorHandle": "amal_irgashev",
-        "authorName": "Amal Irgashev",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2091745918957883392/x6ikN8rR.jpg",
-        "text": "Introducing Paid Media Agent\n\nAn open-source agent for paid campaign analysis, reporting and management, built with Managed Deep Agents\n\n✓ Compare spend, conversions and cost per lead across channels\n✓ Get weekly performance reports in Slack\n✓ Turn briefs into campaign drafts, https://t.co/Dk1ZA10iIq",
-        "createdAt": "2026-09-16T21:30:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100268087933272064/vid/avc1/3840x2160/58VDrtEpUb8L9frV.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100268087933272064/img/Ugqasa4oOS1UkDyC.jpg",
-            "durationMs": 45233
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "amal_irgashev",
-        "company": "Amal Irgashev",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100336425510269038",
-        "slug": "amal-irgashev-269038",
-        "title": "Introducing Paid Media Agent An open-source agent for paid campaign analysis, reporting and manag…",
-        "product": "Amal Irgashev",
-        "company": "Amal Irgashev",
-        "description": "Introducing Paid Media Agent An open-source agent for paid campaign analysis, reporting and management, built with Managed Deep Agents ✓ Compare spend, conversions and cost per lead across channels ✓ Get weekly performance reports in Slack ✓ Turn briefs into campaign drafts,",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/amal_irgashev/status/2100336425510269038",
-        "tweetId": "2100336425510269038",
-        "authorName": "Amal Irgashev",
-        "authorHandle": "amal_irgashev",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2091745918957883392/x6ikN8rR.jpg",
-        "poster": "/posters/amal-irgashev-269038.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100268087933272064/vid/avc1/3840x2160/58VDrtEpUb8L9frV.mp4",
-        "publishedAt": "2026-09-16T21:30:00.000Z",
-        "durationSeconds": 45,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2099922862488355298",
-      "tweetId": "2099922862488355298",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-17T13:18:37.938Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2099922862488355298",
-        "tweetUrl": "https://x.com/Spshulem/status/2099922862488355298",
-        "authorHandle": "Spshulem",
-        "authorName": "Spencer Shulem",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1749766988220534784/aagsUUZV.jpg",
-        "text": "AI is killing your company.\n\nIt should be making you more revenue.\n\nIntroducing BuildBetter: the first AI Head of Product.\n\nHere’s how it works 👇 https://t.co/XtPkdWfkN3",
-        "createdAt": "2026-09-15T18:06:39.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099919847152844800/vid/avc1/1920x1080/eajE77ruoJvJJcrN.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099919847152844800/img/0p5FfMF3Ru7k1toI.jpg",
-            "durationMs": 138500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "Spshulem",
-        "company": "Spencer Shulem",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2099922862488355298",
-        "slug": "spencer-shulem-355298",
-        "title": "AI is killing your company. It should be making you more revenue. Introducing BuildBetter: the fi…",
-        "product": "Spencer Shulem",
-        "company": "Spencer Shulem",
-        "description": "AI is killing your company. It should be making you more revenue. Introducing BuildBetter: the first AI Head of Product. Here’s how it works 👇",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/Spshulem/status/2099922862488355298",
-        "tweetId": "2099922862488355298",
-        "authorName": "Spencer Shulem",
-        "authorHandle": "Spshulem",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1749766988220534784/aagsUUZV.jpg",
-        "poster": "/posters/spencer-shulem-355298.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099919847152844800/vid/avc1/1920x1080/eajE77ruoJvJJcrN.mp4",
-        "publishedAt": "2026-09-15T18:06:39.000Z",
-        "durationSeconds": 139,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2099894590723465295",
-      "tweetId": "2099894590723465295",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-17T13:18:37.554Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2099894590723465295",
-        "tweetUrl": "https://x.com/zach_yadegari/status/2099894590723465295",
-        "authorHandle": "zach_yadegari",
-        "authorName": "Zach Yadegari",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1856777359250141184/BPdvNuwk.jpg",
-        "text": "Everyone’s been asking what’s next after selling Cal AI.\n\nIntroducing Persona.\n\nOthers couldn’t figure out the interface, we did.\n\nhttps://t.co/DcyS7cuula https://t.co/F3DCy6T2B4",
-        "createdAt": "2026-09-15T16:14:19.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2099881645474029569/vid/avc1/3840x2160/Fes0DkkOLDcp9Z5q.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2099881645474029569/img/HTtGrEN6ujf8opvQ.jpg",
-            "durationMs": 84300
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "zach_yadegari",
-        "company": "Zach Yadegari",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2099894590723465295",
-        "slug": "zach-yadegari-465295",
-        "title": "Everyone’s been asking what’s next after selling Cal AI. Introducing Persona. Others couldn’t fig…",
-        "product": "Zach Yadegari",
-        "company": "Zach Yadegari",
-        "description": "Everyone’s been asking what’s next after selling Cal AI. Introducing Persona. Others couldn’t figure out the interface, we did.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/zach_yadegari/status/2099894590723465295",
-        "tweetId": "2099894590723465295",
-        "authorName": "Zach Yadegari",
-        "authorHandle": "zach_yadegari",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1856777359250141184/BPdvNuwk.jpg",
-        "poster": "/posters/zach-yadegari-465295.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2099881645474029569/vid/avc1/3840x2160/Fes0DkkOLDcp9Z5q.mp4",
-        "publishedAt": "2026-09-15T16:14:19.000Z",
-        "durationSeconds": 84,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100357459827429534",
       "tweetId": "2100357459827429534",
       "reviewStatus": "pending",
@@ -4076,70 +3166,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2100346151153324033/vid/avc1/1920x1080/DIYaakZacEsSV7yV.mp4",
         "publishedAt": "2026-09-16T22:16:37.000Z",
         "durationSeconds": 48,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100307610037875156",
-      "tweetId": "2100307610037875156",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-17T13:18:35.306Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2100307610037875156",
-        "tweetUrl": "https://x.com/figma/status/2100307610037875156",
-        "authorHandle": "figma",
-        "authorName": "Figma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
-        "text": "Updated iOS and iPadOS 27 UI Kit, now with Duo https://t.co/6AKsvZiYGo",
-        "createdAt": "2026-09-16T19:35:30.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100307197058265088/vid/avc1/1920x1080/gLXVxNPbwL3ss87p.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100307197058265088/img/fGpOGSfdRKn2c-rx.jpg",
-            "durationMs": 18375
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "figma",
-        "company": "Figma",
-        "category": "design",
-        "tags": [
-          "design",
-          "ai"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2100307610037875156",
-        "slug": "figma-875156",
-        "title": "Updated iOS and iPadOS 27 UI Kit, now with Duo",
-        "product": "Figma",
-        "company": "Figma",
-        "description": "Updated iOS and iPadOS 27 UI Kit, now with Duo",
-        "category": "design",
-        "tags": [
-          "design",
-          "ai",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/figma/status/2100307610037875156",
-        "tweetId": "2100307610037875156",
-        "authorName": "Figma",
-        "authorHandle": "figma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
-        "poster": "/posters/figma-875156.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100307197058265088/vid/avc1/1920x1080/gLXVxNPbwL3ss87p.mp4",
-        "publishedAt": "2026-09-16T19:35:30.000Z",
-        "durationSeconds": 18,
         "featured": false,
         "status": "draft"
       },
