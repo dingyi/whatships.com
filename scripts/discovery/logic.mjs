@@ -2,6 +2,8 @@
  * Pure discovery helpers shared by the CLI runner and unit tests.
  */
 
+import { TITLE_MAX } from "../catalog-quality.mjs";
+
 export const DISCOVERY_ISSUE_LABEL = "discovery";
 export const DISCOVERY_SOURCE = "weekly-discovery";
 
@@ -146,37 +148,25 @@ export function buildDiscoverySlug(company, tweetId) {
     : `launch-${tweetId.slice(-8)}`;
 }
 
-export function truncateAtCodePoints(text, max) {
-  // Never split a surrogate pair (rolldown/serde_json rejects lone
-  // surrogate escapes in JSON modules with "unexpected end of hex escape").
-  let end = max;
-  while (end > 0 && /[\uD800-\uDBFF]/.test(text[end - 1])) {
-    end -= 1;
-  }
-  return text.slice(0, end);
-}
-
 export function guessTitle(text, company) {
-  const cleaned = text
+  const fallback = `${company} — launch video`;
+  const firstSentence = text
     .replace(/https?:\/\/\S+/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!cleaned) return `${company} — product launch video`;
-  const firstLine = cleaned.split("\n")[0]?.trim() ?? cleaned;
-  if (firstLine.length <= 100) return firstLine;
-  return `${truncateAtCodePoints(firstLine, 97).trimEnd()}…`;
+    .split(/\n|(?<=[.!?])\s/)[0]
+    ?.replace(/\s+/g, " ")
+    .trim()
+    .replace(/[.:]$/, "");
+  if (!firstSentence) return fallback;
+  return firstSentence.length <= TITLE_MAX ? firstSentence : fallback;
 }
 
-export function guessDescription(text, company) {
-  const cleaned = text
-    .replace(/https?:\/\/\S+/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!cleaned) {
-    return `A product launch or demo video from ${company}, discovered from X.`;
-  }
-  if (cleaned.length <= 280) return cleaned;
-  return `${truncateAtCodePoints(cleaned, 277).trimEnd()}…`;
+/**
+ * Drafts start without a description: the post text is not ours to publish
+ * as page copy, and a truncated copy of it is what the catalog quality gate
+ * rejects. The reviewer writes one line in /admin (the post sits next to it).
+ */
+export function guessDescription() {
+  return "";
 }
 
 export function buildCandidateDraft(post, watchlist) {
@@ -191,7 +181,7 @@ export function buildCandidateDraft(post, watchlist) {
     title: guessTitle(post.text, watchlist.company),
     product: watchlist.company,
     company: watchlist.company,
-    description: guessDescription(post.text, watchlist.company),
+    description: guessDescription(),
     category: watchlist.category,
     tags: [...(watchlist.tags ?? []), "auto-discovery"],
     tweetUrl: post.tweetUrl,

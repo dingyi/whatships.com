@@ -741,15 +741,16 @@
   {
     "id": "plv-xai-voice-agent-builder",
     "slug": "xai-voice-agent-builder",
-    "title": "xAI Voice Agent Builder — no-code voice agents with…",
+    "title": "xAI Voice Agent Builder — no-code Grok voice agents",
     "product": "Voice Agent Builder",
     "company": "xAI",
-    "description": "A no-code platform to create human-like voice agents with Grok Voice. Available at $0.05/min.",
+    "description": "xAI's Voice Agent Builder is a no-code way to create voice agents on Grok Voice, priced at $0.05 per minute.",
     "category": "ai",
     "tags": [
       "xai",
       "voice",
-      "grok"
+      "grok",
+      "agents"
     ],
     "tweetUrl": "https://x.com/SpaceXAI/status/2072342803787702422",
     "tweetId": "2072342803787702422",
@@ -1175,14 +1176,16 @@
   {
     "id": "plv-gpt-5-5",
     "slug": "gpt-5-5",
-    "title": "GPT-5.5 — a new class of intelligence for real work",
+    "title": "GPT-5.5 — OpenAI model for real work and agents",
     "product": "GPT-5.5",
     "company": "OpenAI",
-    "description": "Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done…",
+    "description": "OpenAI's GPT-5.5 is built to plan, use tools and check its work on long tasks, available in ChatGPT and Codex.",
     "category": "ai",
     "tags": [
       "openai",
-      "model"
+      "model",
+      "chatgpt",
+      "codex"
     ],
     "tweetUrl": "https://x.com/OpenAI/status/2047376561205325845",
     "tweetId": "2047376561205325845",
@@ -1228,10 +1231,10 @@
   {
     "id": "plv-chatgpt-images-2",
     "slug": "chatgpt-images-2",
-    "title": "ChatGPT Images 2.0",
+    "title": "ChatGPT Images 2.0 — sharper editing and layouts",
     "product": "ChatGPT Images 2.0",
     "company": "OpenAI",
-    "description": "Introducing ChatGPT Images 2.0 A state-of-the-art image model that can take on complex visual tasks and produce precise, immediately usable visuals, with sharper editing, richer layouts, and thinking-level intelligence. Video made with C…",
+    "description": "ChatGPT Images 2.0 handles complex visual tasks with sharper editing and richer layouts; the film was made with it.",
     "category": "ai",
     "tags": [
       "openai",
@@ -3022,13 +3025,15 @@
   {
     "id": "plv-cluely",
     "slug": "cluely",
-    "title": "Cluely is out.",
+    "title": "Cluely — launch film",
     "product": "Cluely",
     "company": "Roy",
-    "description": "Cluely is out. cheat on everything.",
-    "category": "other",
+    "description": "Cluely's launch film for its real-time AI assistant, released with the tagline \"cheat on everything\".",
+    "category": "ai",
     "tags": [
-      "cluely"
+      "cluely",
+      "ai",
+      "desktop"
     ],
     "tweetUrl": "https://x.com/im_roy_lee/status/1914061483149001132",
     "tweetId": "1914061483149001132",
@@ -3522,13 +3527,16 @@
   {
     "id": "plv-endex",
     "slug": "endex",
-    "title": "Endex — It’s official.",
+    "title": "Endex — AI agent inside Excel, $14M raise",
     "product": "Endex",
     "company": "Tarun Amasa",
-    "description": "It’s official. We’ve raised $14m led by @OpenAI Startup Fund to bring AI to Excel. Endex is the first AI agent to live inside Excel. For the past year, we've been working with financial firms. Toda…",
+    "description": "Endex raises $14M led by the OpenAI Startup Fund and opens its AI agent that works inside Excel to the public.",
     "category": "ai",
     "tags": [
-      "endex"
+      "agents",
+      "excel",
+      "fintech",
+      "funding"
     ],
     "tweetUrl": "https://x.com/TarunAmasa/status/1953130965355905140",
     "tweetId": "1953130965355905140",
@@ -3572,13 +3580,15 @@
   {
     "id": "plv-elevenlabs-music-api",
     "slug": "elevenlabs-music-api",
-    "title": "ElevenLabs Music API — the Eleven Music API.",
+    "title": "ElevenLabs Music API — licensed AI music for apps",
     "product": "ElevenLabs Music API",
     "company": "ElevenLabs",
-    "description": "Introducing the Eleven Music API. This is the first Music API for developers trained on licensed data and cleared for broad commercial use. You can now integrate the highest quality AI music into y…",
+    "description": "ElevenLabs opens the Eleven Music API, trained on licensed data and cleared for commercial use in developers' products.",
     "category": "developer-tools",
     "tags": [
-      "elevenlabs-music-api"
+      "elevenlabs",
+      "api",
+      "music"
     ],
     "tweetUrl": "https://x.com/ElevenLabs/status/1957489735527502301",
     "tweetId": "1957489735527502301",
@@ -3847,13 +3857,15 @@
   {
     "id": "plv-bolt-v2",
     "slug": "bolt-v2",
-    "title": "Bolt v2 — Today vibe coding goes pro.",
+    "title": "Bolt v2 — pro vibe coding with a built-in backend",
     "product": "Bolt v2",
     "company": "bolt.new",
-    "description": "Today vibe coding goes pro. Introducing Bolt v2: → World's best agents (Claude Code, Codex) → Built in backend (hosting, DB, storage, ...) → No error loops, no setup nightmares Now anyone can build…",
+    "description": "Bolt v2 pairs Claude Code and Codex agents with built-in hosting, database and storage so apps ship without setup.",
     "category": "developer-tools",
     "tags": [
-      "bolt-v2"
+      "developer-tools",
+      "agents",
+      "vibe-coding"
     ],
     "tweetUrl": "https://x.com/boltdotnew/status/1973063093849567591",
     "tweetId": "1973063093849567591",
@@ -4547,13 +4559,16 @@
   {
     "id": "plv-claude-cowork",
     "slug": "claude-cowork",
-    "title": "Claude Cowork — Cowork: Claude Code for the rest of…",
+    "title": "Claude Cowork — Claude Code for non-technical work",
     "product": "Claude Cowork",
     "company": "Claude",
-    "description": "Introducing Cowork: Claude Code for the rest of your work. Cowork lets you complete non-technical tasks much like how developers use Claude Code.",
-    "category": "developer-tools",
+    "description": "Anthropic introduces Cowork, which brings the Claude Code way of delegating tasks to everyday, non-technical work.",
+    "category": "productivity",
     "tags": [
-      "claude-cowork"
+      "claude",
+      "anthropic",
+      "agents",
+      "productivity"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2010805682434666759",
     "tweetId": "2010805682434666759",
@@ -4672,13 +4687,16 @@
   {
     "id": "plv-remotion-agent-skills",
     "slug": "remotion-agent-skills",
-    "title": "Remotion Agent Skills — Remotion now has Agent Skills…",
+    "title": "Remotion Agent Skills — make videos with Claude Code",
     "product": "Remotion Agent Skills",
     "company": "Remotion",
-    "description": "Remotion now has Agent Skills - make videos just with Claude Code! $ npx skills add remotion-dev/skills This animation was created just by prompting",
+    "description": "Remotion ships Agent Skills so Claude Code can build videos from prompts; the launch animation was made that way.",
     "category": "developer-tools",
     "tags": [
-      "remotion-agent-skills"
+      "remotion",
+      "claude-code",
+      "skills",
+      "video"
     ],
     "tweetUrl": "https://x.com/Remotion/status/2013626968386765291",
     "tweetId": "2013626968386765291",
@@ -4822,13 +4840,15 @@
   {
     "id": "plv-project-genie-genie-3",
     "slug": "project-genie-genie-3",
-    "title": "Project Genie (Genie 3) — Last August, we previewed…",
+    "title": "Project Genie — Genie 3 world model opens to Ultra",
     "product": "Project Genie (Genie 3)",
     "company": "Google AI",
-    "description": "Last August, we previewed Genie 3: a general-purpose world model that turns a single text prompt into a dynamic, interactive environment. Since then, trusted testers have taken it further than we e…",
+    "description": "Google opens Project Genie, built on the Genie 3 world model, to U.S. Google AI Ultra subscribers.",
     "category": "ai",
     "tags": [
-      "project-genie-genie-3"
+      "google",
+      "world-model",
+      "ai"
     ],
     "tweetUrl": "https://x.com/GoogleAI/status/2016929427784122627",
     "tweetId": "2016929427784122627",
@@ -4922,13 +4942,15 @@
   {
     "id": "plv-grok-imagine-1-0",
     "slug": "grok-imagine-1-0",
-    "title": "Grok Imagine 1.0, our biggest leap yet.",
+    "title": "Grok Imagine 1.0 — 10-second 720p video with audio",
     "product": "Grok Imagine 1.0",
     "company": "SpaceXAI",
-    "description": "Introducing Grok Imagine 1.0, our biggest leap yet. 1.0 unlocks 10-second videos, 720p resolution, and dramatically better audio. Imagine has generated 1.245 billion videos in the last 30 days alon…",
+    "description": "Grok Imagine 1.0 adds 10-second clips, 720p output and much better audio, after 1.245B videos in 30 days.",
     "category": "ai",
     "tags": [
-      "grok-imagine-1-0"
+      "grok",
+      "xai",
+      "video-generation"
     ],
     "tweetUrl": "https://x.com/SpaceXAI/status/2018164753810764061",
     "tweetId": "2018164753810764061",
@@ -5122,13 +5144,15 @@
   {
     "id": "plv-claude-opus-4-6",
     "slug": "claude-opus-4-6",
-    "title": "Claude Opus 4.6.",
+    "title": "Claude Opus 4.6 — 1M context and longer agentic runs",
     "product": "Claude Opus 4.6",
     "company": "Claude",
-    "description": "Introducing Claude Opus 4.6. Our smartest model got an upgrade. Opus 4.6 plans more carefully, sustains agentic tasks for longer, operates reliably in massive codebases, and catches its own mistake…",
+    "description": "Claude Opus 4.6 plans more carefully, sustains agentic work longer and adds 1M-token context in beta.",
     "category": "ai",
     "tags": [
-      "claude-opus-4-6"
+      "claude",
+      "anthropic",
+      "model"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2019467372609040752",
     "tweetId": "2019467372609040752",
@@ -5722,13 +5746,15 @@
   {
     "id": "plv-claude-code-security",
     "slug": "claude-code-security",
-    "title": "Claude Code Security, now in limited research preview.",
+    "title": "Claude Code Security — vulnerability scans and patches",
     "product": "Claude Code Security",
     "company": "Claude",
-    "description": "Introducing Claude Code Security, now in limited research preview. It scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix iss…",
+    "description": "Claude Code Security scans codebases for vulnerabilities and proposes patches for human review, in limited research preview.",
     "category": "developer-tools",
     "tags": [
-      "claude-code-security"
+      "claude-code",
+      "anthropic",
+      "security"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2024907535145468326",
     "tweetId": "2024907535145468326",
@@ -5972,13 +5998,15 @@
   {
     "id": "plv-perplexity-computer",
     "slug": "perplexity-computer",
-    "title": "Perplexity Computer.",
+    "title": "Perplexity Computer — one agent for end-to-end projects",
     "product": "Perplexity Computer",
     "company": "Perplexity",
-    "description": "Introducing Perplexity Computer. Computer unifies every current AI capability into one system. It can research, design, code, deploy, and manage any project end-to-end.",
-    "category": "design",
+    "description": "Perplexity Computer combines research, design, coding and deployment into one system that runs a project end to end.",
+    "category": "ai",
     "tags": [
-      "perplexity-computer"
+      "perplexity",
+      "agents",
+      "ai"
     ],
     "tweetUrl": "https://x.com/perplexity_ai/status/2026695550771540489",
     "tweetId": "2026695550771540489",
@@ -6097,13 +6125,16 @@
   {
     "id": "plv-claude-code-review-pr-agent-team",
     "slug": "claude-code-review-pr-agent-team",
-    "title": "Claude Code Review (PR agent team) — Code Review, a…",
+    "title": "Claude Code Review — agent team for every PR",
     "product": "Claude Code Review (PR agent team)",
     "company": "Claude",
-    "description": "Introducing Code Review, a new feature for Claude Code. When a PR opens, Claude dispatches a team of agents to hunt for bugs.",
+    "description": "Claude Code adds Code Review: when a pull request opens, a team of agents hunts for bugs in the change.",
     "category": "developer-tools",
     "tags": [
-      "claude-code-review-pr-agent-team"
+      "claude-code",
+      "anthropic",
+      "code-review",
+      "agents"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2031088171262554195",
     "tweetId": "2031088171262554195",
@@ -6197,13 +6228,15 @@
   {
     "id": "plv-okara-ai-cmo",
     "slug": "okara-ai-cmo",
-    "title": "Okara AI CMO — Today we're introducing the world's…",
+    "title": "Okara AI CMO — agents that grow your traffic",
     "product": "Okara AI CMO",
     "company": "Okara",
-    "description": "Today we're introducing the world's first AI CMO. Enter your website and it deploys a team of agents to help you get traffic and users. Try it now at",
+    "description": "Okara launches an AI CMO: enter your website and it deploys a team of agents to bring in traffic and users.",
     "category": "ai",
     "tags": [
-      "okara-ai-cmo"
+      "agents",
+      "marketing",
+      "ai"
     ],
     "tweetUrl": "https://x.com/askOkara/status/2033562024651968657",
     "tweetId": "2033562024651968657",
@@ -6322,13 +6355,16 @@
   {
     "id": "plv-claude-computer-control-desktop-agent",
     "slug": "claude-computer-control-desktop-agent",
-    "title": "Claude Computer Control (desktop agent) — You can now…",
+    "title": "Claude — computer use in Cowork and Claude Code",
     "product": "Claude Computer Control (desktop agent)",
     "company": "Claude",
-    "description": "You can now enable Claude to use your computer to complete tasks. It opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk. Research preview in Claud…",
+    "description": "Claude can now operate your Mac, opening apps, browsing and filling spreadsheets, as a research preview in Cowork and Claude Code.",
     "category": "developer-tools",
     "tags": [
-      "claude-computer-control-desktop-agent"
+      "claude",
+      "anthropic",
+      "agents",
+      "macos"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2036195789601374705",
     "tweetId": "2036195789601374705",
@@ -6597,13 +6633,16 @@
   {
     "id": "plv-claude-managed-agents",
     "slug": "claude-managed-agents",
-    "title": "Claude Managed Agents: everything you need to build…",
+    "title": "Claude Managed Agents — build and ship agents at scale",
     "product": "Claude Managed Agents",
     "company": "Claude",
-    "description": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale. It pairs an agent harness tuned for performance with production infrastructure, so you can go from protot…",
-    "category": "design",
+    "description": "Claude Managed Agents pairs a tuned agent harness with production infrastructure, now in public beta on the Claude Platform.",
+    "category": "developer-tools",
     "tags": [
-      "claude-managed-agents"
+      "claude",
+      "anthropic",
+      "agents",
+      "ai-infrastructure"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2041927687460024721",
     "tweetId": "2041927687460024721",
@@ -6722,13 +6761,15 @@
   {
     "id": "plv-claude-design",
     "slug": "claude-design",
-    "title": "Claude Design by Anthropic Labs: make prototypes,…",
+    "title": "Claude Design — prototypes and slides by chat",
     "product": "Claude Design",
     "company": "Claude",
-    "description": "Introducing Claude Design by Anthropic Labs: make prototypes, slides, and one-pagers by talking to Claude. Powered by Claude Opus 4.7, our most capable vision model. Available in research preview o…",
+    "description": "Anthropic Labs launches Claude Design, which turns conversation into prototypes, slides and one-pagers, powered by Claude Opus 4.7.",
     "category": "design",
     "tags": [
-      "claude-design"
+      "claude",
+      "anthropic",
+      "design"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2045156267690213649",
     "tweetId": "2045156267690213649",
@@ -6765,7 +6806,7 @@
     "publishedAt": "2026-04-18T21:27:37.000Z",
     "durationSeconds": 27,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 24536798,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -6815,7 +6856,7 @@
     "publishedAt": "2026-04-19T15:35:29.000Z",
     "durationSeconds": 10,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 20468916,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -7222,13 +7263,15 @@
   {
     "id": "plv-ltx-hdr-beta",
     "slug": "ltx-hdr-beta",
-    "title": "LTX HDR beta is now live.",
+    "title": "LTX HDR beta — high dynamic range AI video",
     "product": "LTX HDR beta",
     "company": "LTX",
-    "description": "LTX HDR beta is now live. Every AI video model before this one output 8-bit SDR only. Fine for social clips. The format falls apart the moment you try to grade. Highlights clip. Shadows crush. AI f…",
+    "description": "LTX launches an HDR beta, moving AI video past 8-bit SDR so footage holds up in grading and CGI compositing.",
     "category": "ai",
     "tags": [
-      "ltx-hdr-beta"
+      "video-generation",
+      "ai",
+      "hdr"
     ],
     "tweetUrl": "https://x.com/ltx_model/status/2047333864587018703",
     "tweetId": "2047333864587018703",
@@ -7690,7 +7733,7 @@
     "publishedAt": "2026-04-25T03:34:43.000Z",
     "durationSeconds": 27,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 18207191,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -8065,7 +8108,7 @@
     "publishedAt": "2026-04-29T07:30:13.000Z",
     "durationSeconds": 1487,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 12595386,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -8522,13 +8565,15 @@
   {
     "id": "plv-builder-review-agent",
     "slug": "builder-review-agent",
-    "title": "Builder Review Agent — the Builder Review Agent:…",
+    "title": "Builder Review Agent — in-browser testing of every PR",
     "product": "Builder Review Agent",
     "company": "Steve (Builder.io)",
-    "description": "Announcing the Builder Review Agent: in-browser testing of every PR Stop shipping broken code. Let agents verify every change actually works. • Clicks, types, and navigates • Covers critical flows,…",
+    "description": "Builder.io's Review Agent tests each pull request in a real browser and returns findings, repros and one-click fixes.",
     "category": "developer-tools",
     "tags": [
-      "builder-review-agent"
+      "developer-tools",
+      "agents",
+      "code-review"
     ],
     "tweetUrl": "https://x.com/Steve8708/status/2049875006667284543",
     "tweetId": "2049875006667284543",
@@ -8622,13 +8667,15 @@
   {
     "id": "plv-xai-voice-cloning-via-xai-api",
     "slug": "xai-voice-cloning-via-xai-api",
-    "title": "xAI Voice Cloning (via xAI API) — Voice Cloning is…",
+    "title": "xAI API — voice cloning in under two minutes",
     "product": "xAI Voice Cloning (via xAI API)",
     "company": "SpaceXAI",
-    "description": "Voice Cloning is now live via the xAI API! Create a custom voice in less than 2 minutes or select from our library of 80+ voices across 28 languages to personalize your voice agents, audiobooks, vi…",
+    "description": "xAI opens voice cloning on its API: build a custom voice in about two minutes or pick from 80+ voices in 28 languages.",
     "category": "developer-tools",
     "tags": [
-      "xai-voice-cloning-via-xai-api"
+      "xai",
+      "voice",
+      "api"
     ],
     "tweetUrl": "https://x.com/SpaceXAI/status/2050355373052223585",
     "tweetId": "2050355373052223585",
@@ -10222,13 +10269,15 @@
   {
     "id": "plv-chatgpt-personal-finance",
     "slug": "chatgpt-personal-finance",
-    "title": "ChatGPT Personal Finance — A preview for Pro users: a…",
+    "title": "ChatGPT — personal finance preview for Pro",
     "product": "ChatGPT Personal Finance",
     "company": "ChatGPT",
-    "description": "A preview for Pro users: a new personal finance experience in ChatGPT. Pro users in the U.S. can securely connect financial accounts, see where their money is going, and ask questions based on the…",
-    "category": "other",
+    "description": "ChatGPT previews a personal finance experience for U.S. Pro users: connect accounts, track spending and ask questions.",
+    "category": "ai",
     "tags": [
-      "chatgpt-personal-finance"
+      "chatgpt",
+      "openai",
+      "fintech"
     ],
     "tweetUrl": "https://x.com/ChatGPT/status/2055317612687675545",
     "tweetId": "2055317612687675545",
@@ -13870,13 +13919,15 @@
   {
     "id": "plv-go-gopuff-ai-shopping-assistant",
     "slug": "go-gopuff-ai-shopping-assistant",
-    "title": "Go (Gopuff AI shopping assistant) — Go.",
+    "title": "Gopuff Go — voice AI shopping assistant",
     "product": "Go (Gopuff AI shopping assistant)",
     "company": "Gopuff",
-    "description": "Meet Go. Gopuff's AI shopping genius, co-developed with SpaceXAI. Just say what you need. It's already on its way.",
+    "description": "Gopuff introduces Go, an AI shopping assistant built with SpaceXAI: say what you need and the order is placed.",
     "category": "ai",
     "tags": [
-      "go-gopuff-ai-shopping-assistant"
+      "ai",
+      "voice",
+      "consumer"
     ],
     "tweetUrl": "https://x.com/gopuff/status/2062142519723311382",
     "tweetId": "2062142519723311382",
@@ -14095,13 +14146,15 @@
   {
     "id": "plv-reve",
     "slug": "reve",
-    "title": "Reve — Today, we’re launching Reve 2.0, the best 4K…",
+    "title": "Reve 2.0 — 4K image model with precise layouts",
     "product": "Reve",
     "company": "Reve",
-    "description": "Today, we’re launching Reve 2.0, the best 4K image model in the world. We invented a new way to generate and edit any image using precise layouts. For the first time, it’s possible to create images…",
+    "description": "Reve 2.0 is a 4K image model that generates and edits images through precise, editable layouts.",
     "category": "ai",
     "tags": [
-      "reve"
+      "images",
+      "model",
+      "ai"
     ],
     "tweetUrl": "https://x.com/reve/status/2062260665121919101",
     "tweetId": "2062260665121919101",
@@ -14188,20 +14241,22 @@
     "publishedAt": "2026-06-04T00:54:09.000Z",
     "durationSeconds": 41,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 63346304,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
   {
     "id": "plv-pump-fun-go",
     "slug": "pump-fun-go",
-    "title": "pump fun GO: Pay ANYONE to do ANYTHING Create &…",
+    "title": "pump fun GO — bounties for any task",
     "product": "pump fun GO",
     "company": "Pump.fun",
-    "description": "Introducing pump fun GO: Pay ANYONE to do ANYTHING Create & complete bounties for ANY task and leverage the power of humans & money across the globe The world is at your fingertips. It’s time to GO 👇",
-    "category": "productivity",
+    "description": "Pump.fun launches GO, a marketplace for posting and completing paid bounties for any task.",
+    "category": "consumer",
     "tags": [
-      "pump-fun-go"
+      "crypto",
+      "marketplace",
+      "consumer"
     ],
     "tweetUrl": "https://x.com/Pumpfun/status/2062557004829233504",
     "tweetId": "2062557004829233504",
@@ -14568,13 +14623,15 @@
   {
     "id": "plv-claude-fable-5",
     "slug": "claude-fable-5",
-    "title": "Claude Fable 5: a Mythos-class model that we’ve made…",
+    "title": "Claude Fable 5 — Mythos-class model for general use",
     "product": "Claude Fable 5",
     "company": "Claude",
-    "description": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Its capabilities exceed those of any model we’ve ever made generally available.",
+    "description": "Anthropic releases Claude Fable 5, a Mythos-class model made safe for general use and its most capable public model yet.",
     "category": "ai",
     "tags": [
-      "claude-fable-5"
+      "claude",
+      "anthropic",
+      "model"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2064394146916229443",
     "tweetId": "2064394146916229443",
@@ -14786,7 +14843,7 @@
     "publishedAt": "2026-06-15T14:12:29.000Z",
     "durationSeconds": 94,
     "featured": false,
-    "status": "published",
+    "status": "draft",
     "views": 11214206,
     "viewsCapturedAt": "2026-09-14T18:14:45.729Z"
   },
@@ -15291,13 +15348,15 @@
   {
     "id": "plv-midjourney",
     "slug": "midjourney",
-    "title": "Midjourney — a new division of Midjourney called…",
+    "title": "Midjourney Medical — new division announced",
     "product": "Midjourney",
     "company": "Midjourney",
-    "description": "Announcing a new division of Midjourney called \"Midjourney Medical\"",
-    "category": "other",
+    "description": "Midjourney announces Midjourney Medical, a new division of the company.",
+    "category": "ai",
     "tags": [
-      "midjourney"
+      "midjourney",
+      "ai",
+      "health"
     ],
     "tweetUrl": "https://x.com/midjourney/status/2067421950314688759",
     "tweetId": "2067421950314688759",
@@ -15441,13 +15500,15 @@
   {
     "id": "plv-sakana-fugu",
     "slug": "sakana-fugu",
-    "title": "Sakana Fugu: A full multi-agent orchestration system…",
+    "title": "Sakana Fugu — multi-agent system behind one API",
     "product": "Sakana Fugu",
     "company": "Sakana AI",
-    "description": "Introducing Sakana Fugu: A full multi-agent orchestration system accessible via a single model API. Our ‘Fugu Ultra’ model matches the performance of Fable and Mythos, delivering frontier capabilit…",
+    "description": "Sakana AI launches Fugu, a multi-agent orchestration system served through a single model API, led by its Fugu Ultra model.",
     "category": "developer-tools",
     "tags": [
-      "sakana-fugu"
+      "agents",
+      "api",
+      "model"
     ],
     "tweetUrl": "https://x.com/SakanaAILabs/status/2068861630327443966",
     "tweetId": "2068861630327443966",
@@ -15741,13 +15802,15 @@
   {
     "id": "plv-openart-director",
     "slug": "openart-director",
-    "title": "OpenArt Director — The way videos are made is about…",
+    "title": "OpenArt Director — vibe directing for video",
     "product": "OpenArt Director",
     "company": "OpenArt",
-    "description": "The way videos are made is about to change. Introducing OpenArt Director - and a new way to create: VIBE DIRECTING. The same way vibe coding changed how software gets built, Vibe Directing changes…",
-    "category": "developer-tools",
+    "description": "OpenArt Director lets you create video by describing and refining it in conversation, pitched as vibe directing.",
+    "category": "ai",
     "tags": [
-      "openart-director"
+      "video-generation",
+      "ai",
+      "agents"
     ],
     "tweetUrl": "https://x.com/openart_ai/status/2069442038777397578",
     "tweetId": "2069442038777397578",
@@ -15816,13 +15879,16 @@
   {
     "id": "plv-claude-tag",
     "slug": "claude-tag",
-    "title": "Claude Tag, a new way for teams to work with Claude.",
+    "title": "Claude Tag — Claude as a teammate in Slack",
     "product": "Claude Tag",
     "company": "Claude",
-    "description": "Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it whi…",
+    "description": "Claude Tag adds Claude to Slack as a team member with scoped channels and tools, so teams can delegate by tagging it.",
     "category": "ai",
     "tags": [
-      "claude-tag"
+      "claude",
+      "anthropic",
+      "slack",
+      "agents"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2069468693017268244",
     "tweetId": "2069468693017268244",
@@ -16214,13 +16280,15 @@
   {
     "id": "plv-claude-science",
     "slug": "claude-science",
-    "title": "Claude Science, a new app designed with every stage…",
+    "title": "Claude Science — research app with 60+ databases",
     "product": "Claude Science",
     "company": "Claude",
-    "description": "Introducing Claude Science, a new app designed with every stage of research in mind. Artifacts traced to their code, environments managed on demand, and 60+ optional scientific databases that you c…",
-    "category": "developer-tools",
+    "description": "Claude Science is a research app with code-traced artifacts, managed environments and 60+ scientific databases, in beta.",
+    "category": "ai",
     "tags": [
-      "claude-science"
+      "claude",
+      "anthropic",
+      "science"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2072002740830842899",
     "tweetId": "2072002740830842899",
@@ -16264,13 +16332,16 @@
   {
     "id": "plv-claude-sonnet-5",
     "slug": "claude-sonnet-5",
-    "title": "Claude Sonnet 5, our most agentic Sonnet yet.",
+    "title": "Claude Sonnet 5 — Anthropic's most agentic Sonnet",
     "product": "Claude Sonnet 5",
     "company": "Claude",
-    "description": "Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and mor…",
+    "description": "Claude Sonnet 5 plans, uses browsers and terminals, and runs autonomously at a level that once took larger models.",
     "category": "ai",
     "tags": [
-      "claude-sonnet-5"
+      "claude",
+      "anthropic",
+      "model",
+      "agents"
     ],
     "tweetUrl": "https://x.com/claudeai/status/2072017450611142835",
     "tweetId": "2072017450611142835",
@@ -17346,10 +17417,10 @@
   {
     "id": "plv-x-money",
     "slug": "x-money",
-    "title": "𝕏 Money — your money, on the world’s most powerful…",
+    "title": "𝕏 Money — payments for U.S. Premium subscribers",
     "product": "𝕏 Money",
     "company": "X",
-    "description": "𝕏 Money is rolling out to U.S. Premium and Premium+ subscribers.",
+    "description": "𝕏 Money, payments built into 𝕏, begins rolling out to U.S. Premium and Premium+ subscribers.",
     "category": "consumer",
     "tags": [
       "x",
@@ -18906,14 +18977,15 @@
   {
     "id": "plv-friend",
     "slug": "friend",
-    "title": "Friend — Introducing Friend. Not Imaginary.",
+    "title": "Friend — AI companion pendant launch film",
     "product": "Friend",
     "company": "Avi",
-    "description": "introducing friend. not imaginary. order now at",
-    "category": "other",
+    "description": "Friend's launch film for its wearable AI companion, with orders opening alongside the post.",
+    "category": "hardware",
     "tags": [
-      "friend",
-      "launchgallery"
+      "hardware",
+      "wearables",
+      "ai"
     ],
     "tweetUrl": "https://x.com/AviSchiffmann/status/1818284595902922884",
     "tweetId": "1818284595902922884",
@@ -19296,14 +19368,15 @@
   {
     "id": "plv-waves",
     "slug": "waves",
-    "title": "Waves — Introducing Waves: Camera Glasses for Creators",
+    "title": "Waves — camera glasses for creators",
     "product": "Waves",
     "company": "Chris Samra",
-    "description": "introducing Waves, camera glasses for creators. record in stealth. livestream all day. pre-order now.",
+    "description": "Waves launches camera glasses built for creators, with stealth recording and all-day livestreaming, now on pre-order.",
     "category": "hardware",
     "tags": [
-      "waves",
-      "launchgallery"
+      "hardware",
+      "wearables",
+      "creators"
     ],
     "tweetUrl": "https://x.com/crsamra/status/1948050596029952000",
     "tweetId": "1948050596029952000",
@@ -19790,14 +19863,15 @@
   {
     "id": "plv-1x",
     "slug": "1x",
-    "title": "1X — NEO The Home Robot - Order Today",
+    "title": "1X NEO — home robot opens for orders",
     "product": "1X",
     "company": "1X",
-    "description": "NEO The Home Robot Order Today",
+    "description": "1X launches NEO, its humanoid home robot, with orders open from the launch post.",
     "category": "hardware",
     "tags": [
-      "1x",
-      "launchgallery"
+      "robotics",
+      "hardware",
+      "consumer"
     ],
     "tweetUrl": "https://x.com/1x_tech/status/1983233494575952138",
     "tweetId": "1983233494575952138",
@@ -20180,14 +20254,15 @@
   {
     "id": "plv-figma-3980",
     "slug": "figma-3980",
-    "title": "Figma — Made in Figma (2025)",
+    "title": "Figma — Made in Figma 2025 reel",
     "product": "Figma",
     "company": "Figma",
-    "description": "Made in Figma (2025) Like this ❤️ we designed it for you",
-    "category": "design",
+    "description": "Figma's Made in Figma 2025 reel, a showcase film of work designed in the tool.",
+    "category": "motion",
     "tags": [
       "figma",
-      "launchgallery"
+      "design",
+      "motion"
     ],
     "tweetUrl": "https://x.com/figma/status/2001715747505233980",
     "tweetId": "2001715747505233980",
@@ -20414,14 +20489,15 @@
   {
     "id": "plv-elevenlabs",
     "slug": "elevenlabs",
-    "title": "ElevenLabs Raises $500M at $11B Valuation",
+    "title": "ElevenLabs — $500M raise at an $11B valuation",
     "product": "ElevenLabs",
     "company": "ElevenLabs",
-    "description": "We raised $500M at an $11B valuation to transform how people interact with technology.",
-    "category": "other",
+    "description": "ElevenLabs announces a $500M round at an $11B valuation with a film about how people will talk to technology.",
+    "category": "ai",
     "tags": [
       "elevenlabs",
-      "launchgallery"
+      "voice",
+      "funding"
     ],
     "tweetUrl": "https://x.com/ElevenLabs/status/2019048384011854087",
     "tweetId": "2019048384011854087",
@@ -22078,14 +22154,15 @@
   {
     "id": "plv-perplexity-7166",
     "slug": "perplexity-7166",
-    "title": "Perplexity — Announcing Personal Computer: always-on…",
+    "title": "Perplexity Personal Computer — always-on Mac mini agent",
     "product": "Perplexity",
     "company": "Perplexity",
-    "description": "Announcing Personal Computer. Personal Computer is an always on, local merge with Perplexity Computer that works for you 24/7. It's personal, secure, and works across your files, apps, and sessions…",
+    "description": "Perplexity's Personal Computer runs Perplexity Computer locally on a Mac mini, working across your files and apps 24/7.",
     "category": "ai",
     "tags": [
       "perplexity",
-      "launchgallery"
+      "agents",
+      "macos"
     ],
     "tweetUrl": "https://x.com/perplexity_ai/status/2031790180521427166",
     "tweetId": "2031790180521427166",
@@ -23456,14 +23533,15 @@
   {
     "id": "plv-tuyo",
     "slug": "tuyo",
-    "title": "Tuyo — Buy Now, Pay Maybe",
+    "title": "Tuyo — the card that sometimes doesn't charge you",
     "product": "Tuyo",
     "company": "Tuyo",
-    "description": "We created a card that sometimes doesn't charge you. Buy Now, Pay Maybe.",
-    "category": "other",
+    "description": "Tuyo launches a payment card with a twist: some purchases are simply not charged, pitched as Buy Now, Pay Maybe.",
+    "category": "consumer",
     "tags": [
-      "tuyo",
-      "launchgallery"
+      "fintech",
+      "payments",
+      "consumer"
     ],
     "tweetUrl": "https://x.com/itstuyo/status/2052404971979550871",
     "tweetId": "2052404971979550871",
@@ -23716,14 +23794,15 @@
   {
     "id": "plv-hearing-aid-startup",
     "slug": "hearing-aid-startup",
-    "title": "Hearing Aid Startup — Reinvented hearing aid: $20 vs…",
+    "title": "$20 hearing aid — startup rethinks the ear",
     "product": "Hearing Aid Startup",
     "company": "Founders Inc",
-    "description": "They reinvented the hearing aid by studying the human ear Normal hearing aid: $4700 Theirs: $20",
-    "category": "other",
+    "description": "Founders Inc profiles a startup that redesigned the hearing aid by studying the human ear, at $20 versus $4,700.",
+    "category": "hardware",
     "tags": [
-      "hearing-aid-startup",
-      "launchgallery"
+      "hardware",
+      "health",
+      "consumer"
     ],
     "tweetUrl": "https://x.com/fdotinc/status/2054634415649874097",
     "tweetId": "2054634415649874097",
@@ -23820,14 +23899,15 @@
   {
     "id": "plv-mark",
     "slug": "mark",
-    "title": "Mark raises $1M for Mark II $159 AI bookmark",
+    "title": "Mark II — a $159 AI bookmark",
     "product": "Mark",
     "company": "Mark™",
-    "description": "We raised $1M dollars to reinvent how people read. Introducing Mark II - a $159 AI bookmark. Thread below",
-    "category": "ai",
+    "description": "Mark raises $1M and launches Mark II, a $159 AI bookmark meant to change how people read.",
+    "category": "hardware",
     "tags": [
-      "mark",
-      "launchgallery"
+      "hardware",
+      "ai",
+      "reading"
     ],
     "tweetUrl": "https://x.com/thinkwithmark/status/2054970441035354562",
     "tweetId": "2054970441035354562",
@@ -37329,14 +37409,15 @@
   {
     "id": "plv-moonshot-ai",
     "slug": "moonshot-ai",
-    "title": "Moonshot AI — Seeking the optimal conversion from…",
+    "title": "Kimi K3 — Moonshot AI launch film",
     "product": "Moonshot AI",
     "company": "Moonshot AI",
-    "description": "Seeking the optimal conversion from energy to intelligence",
+    "description": "Moonshot AI's launch film introducing Kimi K3.",
     "category": "ai",
     "tags": [
       "moonshot",
-      "ai"
+      "kimi",
+      "model"
     ],
     "tweetUrl": "https://x.com/Kimi_Moonshot/status/2077821890207547467",
     "tweetId": "2077821890207547467",

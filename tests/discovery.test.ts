@@ -148,6 +148,25 @@ describe("draft + issue helpers", () => {
     expect(body).toContain("Review checklist");
   });
 
+  it("never publishes truncated post text as draft copy", () => {
+    const long = buildCandidateDraft(
+      post({
+        tweetId: "3",
+        text: "We've raised a $64M Series A led by @kleinerperkins to build the platform for real-time voice AI. Try it https://t.co/x",
+      }),
+      readwise,
+    );
+    expect(long.title).toBe("Readwise — launch video");
+    expect(long.description).toBe("");
+
+    const short = buildCandidateDraft(
+      post({ tweetId: "4", text: "Introducing Readwise 2.0.\nNow on iOS https://t.co/y" }),
+      readwise,
+    );
+    expect(short.title).toBe("Introducing Readwise 2.0");
+    expect(short.title).not.toMatch(/…$/);
+  });
+
   it("ranks higher scores first", () => {
     const low = {
       post: post({ tweetId: "1", text: "x" }),

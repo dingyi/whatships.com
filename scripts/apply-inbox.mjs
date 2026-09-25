@@ -7,6 +7,10 @@
  *   node scripts/apply-inbox.mjs --dry-run
  *   node scripts/apply-inbox.mjs --keep-approved
  *
+ * Approved drafts must pass scripts/catalog-quality.mjs (title ≤ 55 chars,
+ * no truncated post text, a written description, 2+ real tags). Failing
+ * items are listed and nothing is written — fix them in /admin first.
+ *
  * After applying:
  *   pnpm posters:capture -- --force
  *   (or per-slug)
@@ -14,6 +18,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
+import { catalogQualityIssues } from "./catalog-quality.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const inboxPath = path.join(root, "src/data/inbox.json");
@@ -32,6 +38,20 @@ async function main() {
   );
   if (!approved.length) {
     console.log("No approved inbox items to apply.");
+    return;
+  }
+
+  const failing = approved
+    .map((item) => [item.draft.slug, catalogQualityIssues(item.draft)])
+    .filter(([, issues]) => issues.length > 0);
+  if (failing.length) {
+    for (const [slug, issues] of failing) {
+      console.error(`not ready ${slug}: ${issues.join(", ")}`);
+    }
+    console.error(
+      `${failing.length} approved item(s) fail the catalog quality bar; edit them in /admin and re-run.`,
+    );
+    process.exitCode = 1;
     return;
   }
 

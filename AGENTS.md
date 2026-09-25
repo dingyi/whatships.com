@@ -125,6 +125,19 @@ reduced-motion users keep the play chip; clicking still opens the player.
   call, not something the script can repair. Never fetch views at build
   time — the catalog stays a plain committed file, and `astro build` must
   not depend on a third party.
+- **Catalog quality gate**: `scripts/catalog-quality.mjs` defines the bar
+  (title ≤ 55 chars, no truncated `…` post text, a written description,
+  2+ real tags — source tags like `launchgallery` and the slug don't count).
+  `tests/catalog-quality.test.ts` enforces it for every published entry not
+  in `src/data/quality-backlog.json`, and fails if a listed entry already
+  passes — remove fixed slugs from the backlog, never add new ones.
+  `apply-inbox.mjs` refuses approved drafts that fail.
+- Backlog rewrites: `node scripts/rewrite-queue.mjs [--limit=50]` writes
+  `src/data/rewrites/batch-NNN.json` (most-viewed first, full post text from
+  fxtwitter). Fill `proposed` from `sourceText` only — no invented facts —
+  set `reviewStatus: "approved"`, then
+  `node scripts/apply-rewrites.mjs <batch>` (`--dry-run` first). Items with
+  `notes` flag reposts/third-party posts that need an editorial call.
 - Admin review queue: `src/data/inbox.json` + local-only `/admin`
   (`pnpm dev` → http://localhost:4321/admin/; never shipped in `astro build`).
   `scripts/apply-inbox.mjs` merges approved drafts.
