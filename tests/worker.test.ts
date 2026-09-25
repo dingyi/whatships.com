@@ -137,3 +137,68 @@ describe("site worker negotiation", () => {
     );
   });
 });
+
+describe("site worker www redirect", () => {
+  it("301s www to the apex with path and query preserved", async () => {
+    const response = await worker.fetch(
+      new Request("https://www.whatships.com/videos/foo/?q=1"),
+      env,
+    );
+    expect(response.status).toBe(301);
+    expect(response.headers.get("Location")).toBe(
+      "https://whatships.com/videos/foo/?q=1",
+    );
+    expect(await response.text()).toBe("");
+  });
+
+  it("preserves a trailing slash already present on the path", async () => {
+    const response = await worker.fetch(
+      new Request("https://www.whatships.com/about/"),
+      env,
+    );
+    expect(response.status).toBe(301);
+    expect(response.headers.get("Location")).toBe(
+      "https://whatships.com/about/",
+    );
+  });
+
+  it("matches www case-insensitively", async () => {
+    const response = await worker.fetch(
+      new Request("https://WWW.Whatships.com/llms.txt"),
+      env,
+    );
+    expect(response.status).toBe(301);
+    expect(response.headers.get("Location")).toBe(
+      "https://whatships.com/llms.txt",
+    );
+  });
+
+  it("301s when only the Host header is www", async () => {
+    const response = await worker.fetch(
+      new Request("https://whatships.com/developers/", {
+        headers: { Host: "WWW.whatships.com" },
+      }),
+      env,
+    );
+    expect(response.status).toBe(301);
+    expect(response.headers.get("Location")).toBe(
+      "https://whatships.com/developers/",
+    );
+  });
+
+  it("does not redirect the apex host", async () => {
+    const response = await worker.fetch(request("/"), env);
+    expect(response.status).toBe(200);
+    expect(response.headers.get("Location")).toBeNull();
+    expect(await response.text()).toContain("<html>home</html>");
+  });
+
+  it("does not redirect other hosts", async () => {
+    const response = await worker.fetch(
+      new Request("https://preview.whatships.com/"),
+      env,
+    );
+    expect(response.status).toBe(200);
+    expect(response.headers.get("Location")).toBeNull();
+  });
+});
