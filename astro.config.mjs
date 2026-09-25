@@ -15,6 +15,10 @@ function localAdmin() {
           pattern: "/admin",
           entrypoint: "./src/admin/index.astro",
         });
+        injectRoute({
+          pattern: "/admin/inbox.json",
+          entrypoint: "./src/admin/inbox.json.ts",
+        });
       },
     },
   };
