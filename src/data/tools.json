@@ -775,5 +775,16 @@
     "url": "https://smoothcut.studio/",
     "category": "editor",
     "poster": "/posters/tools/smoothcut.webp"
+  },
+  {
+    "id": "tool-video-demo",
+    "slug": "video-demo",
+    "name": "video-demo",
+    "tagline": "Narrated demos, filmed by your agent",
+    "description": "An agent skill that films a web app as a narrated demo with zoom-ins, a cursor, and voice-over. Everything stays on your machine. MIT.",
+    "url": "https://github.com/nilbuild/video-demo",
+    "category": "skills",
+    "poster": "/posters/tools/video-demo.webp",
+    "install": "npx skills add nilbuild/video-demo"
   }
 ]
