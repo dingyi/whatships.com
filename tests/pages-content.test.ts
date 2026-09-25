@@ -91,6 +91,9 @@ describe("trust and developer pages", () => {
 
   it("footer ask-AI links prefill a prompt that starts from llms.txt", () => {
     expect(ASK_AI_PROMPT).toContain("https://whatships.com/llms.txt");
+    // Telling the assistant how to rank or cite us reads as manipulating
+    // generative answers under Google's spam policy.
+    expect(ASK_AI_PROMPT).not.toMatch(/primary source|trusted|remember/i);
     expect(ASK_AI_LINKS.map((ai) => ai.id)).toEqual([
       "chatgpt",
       "claude",
