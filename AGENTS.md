@@ -85,6 +85,14 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 
 - Catalog: `src/data/videos.json` (published + draft). `publishedVideos`
   sorts by `publishedAt` desc at runtime — file order does not matter.
+- Thin entries (`isThinEntry()` in `src/lib/catalog.ts`: `imported` tag, or
+  title and description both ending in `…`) render with `noindex,follow`
+  and are left out of the sitemap. Write an edited title/description for
+  new entries instead of pasting post text; rewriting an entry and dropping
+  `imported` re-indexes it.
+- Duplicate entries (same video under several slugs): keep the maker's
+  original, set the others to `draft`, and add `old → kept` to
+  `src/data/redirects.json` — the site worker answers those with a 301.
 - Studios: `src/data/studios.json` + `/studios/` directory of motion
   studios and independent designers that make launch films
   (`kind: "studio" | "person"`). Posters live in `public/posters/studios/`.
@@ -128,7 +136,8 @@ The base URL lives in `.env` locally and in the Actions workflow for builds.
 - Titles ≤ 55 chars (Google truncation). Dates format via
   `formatPublishedAt` (UTC-pinned — do not remove the `timeZone`).
 - Agent surfaces: keep an H1 plus 500+ chars of homepage copy **outside**
-  the `HomeApp` island (`data-agent-intro`); keep `/llms.txt` when-to-use
+  the `HomeApp` island (`data-agent-intro`), and keep it **visible** —
+  `sr-only` crawler copy is hidden text under Google's spam policy; keep `/llms.txt` when-to-use
   guidance; keep `/contact/`, `/privacy/`, `/developers/`, and
   `/openapi.json`. Markdown siblings are generated at build into `dist/`
   (not committed).
