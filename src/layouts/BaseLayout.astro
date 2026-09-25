@@ -11,12 +11,14 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  noindex?: boolean;
 }
 
 const {
   title = SITE_NAME,
   description = SITE_META_DESCRIPTION,
   image = "/og-default.svg",
+  noindex = false,
 } = Astro.props;
 const site = Astro.site ?? SITE_URL;
 const canonicalURL = new URL(Astro.url.pathname, site);
@@ -29,6 +31,7 @@ const seoDescription = metaDescription(description);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={seoDescription} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
     <meta name="theme-color" content="#fafafa" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={title} />

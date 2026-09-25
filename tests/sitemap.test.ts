@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   catalogDateModified,
+  isThinEntry,
   publishedVideos,
   videoDateModified,
 } from "@/lib/catalog";
@@ -42,15 +43,24 @@ describe("sitemap", () => {
   const entries = sitemapEntries();
   const paths = entries.map((entry) => entry.path);
 
-  it("lists every published entry with a lastmod", () => {
-    for (const video of publishedVideos.slice(0, 25)) {
+  it("lists every indexable published entry with a lastmod", () => {
+    const indexable = publishedVideos.filter((video) => !isThinEntry(video));
+    for (const video of indexable.slice(0, 25)) {
       const entry = entries.find((item) => item.path === `/videos/${video.slug}/`);
       expect(entry, video.slug).toBeDefined();
       expect(entry?.lastmod).toBe(videoDateModified(video));
     }
     expect(paths.filter((path) => path.startsWith("/videos/") && !path.includes("/category/"))).toHaveLength(
-      publishedVideos.length,
+      indexable.length,
     );
+  });
+
+  it("leaves thin entries out", () => {
+    const thin = publishedVideos.filter(isThinEntry);
+    expect(thin.length).toBeGreaterThan(0);
+    for (const video of thin) {
+      expect(paths).not.toContain(`/videos/${video.slug}/`);
+    }
   });
 
   it("includes every paginated category page exactly once", () => {

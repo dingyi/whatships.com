@@ -67,6 +67,19 @@ export const publishedVideos = allVideos
       left.title.localeCompare(right.title),
   );
 
+/**
+ * Entries whose title and description are still the raw post text rather
+ * than an edited catalog line: bulk-imported rows, or both fields cut off
+ * mid-sentence. They stay browsable but are kept out of the search index
+ * (noindex + no sitemap) until someone rewrites them.
+ */
+export function isThinEntry(
+  video: Pick<LaunchVideo, "title" | "description" | "tags">,
+): boolean {
+  if (video.tags.includes("imported")) return true;
+  return video.title.endsWith("…") && video.description.endsWith("…");
+}
+
 export function categoryLabel(category: CategoryId) {
   return CATEGORIES.find((item) => item.id === category)?.label ?? category;
 }
