@@ -58793,5 +58793,55 @@
     "durationSeconds": 35,
     "featured": false,
     "status": "published"
+  },
+  {
+    "id": "plv-dashform",
+    "slug": "dashform",
+    "title": "Dashform — match a form to a screenshot of your site",
+    "product": "Dashform",
+    "company": "Dashform",
+    "description": "Dashform takes a screenshot of your website and creates a form that matches its visual style, so the funnel does not look like another company built it.",
+    "category": "ai",
+    "tags": [
+      "dashform",
+      "forms",
+      "screenshot"
+    ],
+    "tweetUrl": "https://x.com/AIDailyGuy/status/2098226785259532428",
+    "tweetId": "2098226785259532428",
+    "authorName": "Jake Z",
+    "authorHandle": "AIDailyGuy",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2071830995691520000/mLi30h9S.jpg",
+    "poster": "/posters/dashform.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2098226556154019840/vid/avc1/1920x1080/YYY2QbwSKFmlacWE.mp4",
+    "publishedAt": "2026-09-11T01:47:03.000Z",
+    "durationSeconds": 100,
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "id": "plv-yoya",
+    "slug": "yoya",
+    "title": "Yoya — conversational scheduling in 100 seconds",
+    "product": "Yoya",
+    "company": "Yoya",
+    "description": "Yoya is conversational scheduling: guests describe what they need through text or voice, Yoya finds a meeting time, and the host gets a meeting brief. Booking also works through AI agents via MCP.",
+    "category": "ai",
+    "tags": [
+      "yoya",
+      "scheduling",
+      "mcp"
+    ],
+    "tweetUrl": "https://x.com/AIDailyGuy/status/2096210418134090008",
+    "tweetId": "2096210418134090008",
+    "authorName": "Jake Z",
+    "authorHandle": "AIDailyGuy",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2071830995691520000/mLi30h9S.jpg",
+    "poster": "/posters/yoya.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2096210247052640256/vid/avc1/1280x720/umaToT8kOkP2dI6I.mp4",
+    "publishedAt": "2026-09-05T12:14:44.000Z",
+    "durationSeconds": 100,
+    "featured": false,
+    "status": "published"
   }
 ]
