@@ -7,7 +7,22 @@ import {
   PRODUCES,
   shouldPassthrough,
 } from "../../../src/lib/accept";
-import { NOT_FOUND_MARKDOWN } from "../../../src/lib/site";
+import {
+  NOT_FOUND_MARKDOWN,
+  SITE_DOMAIN,
+  SITE_URL,
+} from "../../../src/lib/site";
+import redirects from "../../../src/data/redirects.json";
+
+/** Retired entry URLs (merged duplicates) → the entry that replaced them. */
+const REDIRECTS: Record<string, string> = redirects;
+
+const WWW_HOST = `www.${SITE_DOMAIN}`;
+
+function isWwwHost(request: Request, url: URL): boolean {
+  const headerHost = request.headers.get("host")?.split(":")[0]?.toLowerCase();
+  return headerHost === WWW_HOST || url.hostname.toLowerCase() === WWW_HOST;
+}
 
 export interface Env {
   ASSETS: {
@@ -89,6 +104,7 @@ function logEvent(
 
 /** What representation a request was answered with, for the wide event. */
 type Served =
+  | "redirect"
   | "passthrough"
   | "html"
   | "markdown"
@@ -97,17 +113,30 @@ type Served =
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+
+    if (isWwwHost(request, url)) {
+      return new Response(null, {
+        status: 301,
+        headers: { Location: `${SITE_URL}${url.pathname}${url.search}` },
+      });
+    }
+
     const startedAt = Date.now();
     const ray = requestId(request);
-    const url = new URL(request.url);
     const pathname = url.pathname;
     const accept = request.headers.get("accept");
     const base = { worker: "site", ray, method: request.method, pathname };
 
     let response: Response;
     let served: Served;
+    const redirectTarget =
+      REDIRECTS[pathname.endsWith("/") ? pathname : `${pathname}/`];
     try {
-      if (shouldPassthrough(pathname)) {
+      if (redirectTarget) {
+        response = Response.redirect(new URL(redirectTarget, url).toString(), 301);
+        served = "redirect";
+      } else if (shouldPassthrough(pathname)) {
         response = withAssetCache(pathname, await env.ASSETS.fetch(request));
         served = "passthrough";
       } else {
