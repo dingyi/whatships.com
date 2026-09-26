@@ -15,7 +15,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-09-26-zh-summary.md
 - **作者**：@OpenRouter
 - **时间**：2026-09-25 22:21 UTC
 - **视频**：约 53 秒
-- **亮点**：Introducing typesafe/jev-router。由 Jev + @typesafeai 驱动的 cache-aware 模型路由器：每轮读 prompt，打难度 / 精度分，再选模型与 reasoning effort；优先保留同一模型以维护缓存，只有预期收益大于切换成本才换模型。线程称四项 agent 基准解决 237/423，比 Auto Router 7684 130 多 82%；五项基准中位 TTFT 更快。Jev 只读文本、ZDR、附件不传送。可在 OpenRouter Chat 看 routing insights。https://openrouter.ai/typesafe/jev-router 是本窗口浏览量最高的官方产品片。
+- **亮点**：Introducing typesafe/jev-router。由 Jev + @typesafeai 驱动的 cache-aware 模型路由器：每轮读 prompt，打难度 / 精度分，再选模型与 reasoning effort；优先保留同一模型以维护缓存，只有预期收益大于切换成本才换模型。线程称四项 agent 基准解决 237/423，比 Auto Router 的 130 多 82%；五项基准中位 TTFT 更快。Jev 只读文本、ZDR、附件不传送。可在 OpenRouter Chat 看 routing insights。https://openrouter.ai/typesafe/jev-router 是本窗口浏览量最高的官方产品片。
 - **互动**：约 426 赞、27 转发、39 引用、309 收藏、20.4 万+浏览
 - **分类建议**：ai / developer-tools
 - **链接**：https://x.com/OpenRouter/status/2103610898690855161
@@ -119,7 +119,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-09-26-zh-summary.md
 - **作者**：@NVIDIAHealth
 - **时间**：2026-09-25 13:00 UTC
 - **视频**：约 15 秒
-- **亮点**：Introducing MONAI Physio at MICCAI 2026。开源 Project MONAI 工具包：3D / 4D 医学影像 → 个性化心肿与呼吸数字双胞，用于仿真、可视化与可复现研究。
+- **亮点**：Introducing MONAI Physio at MICCAI 2026。开源 Project MONAI 工具包：3D / 4D 医学影像 → 个性化心脏与呼吸数字孪生，用于仿真、可视化与可复现研究。
 - **互动**：约 406 赞、65 转发、3 引用、214 收藏、1.9 万+浏览
 - **分类建议**：ai / other
 - **链接**：https://x.com/NVIDIAHealth/status/2103469569977262353
@@ -158,7 +158,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-09-26-zh-summary.md
 - **作者**：@samuel_uiux
 - **时间**：2026-09-24 10:52 UTC
 - **视频**：约 7 秒
-- **亮点**：indie 设计工具首发。压僻不想再用静态 mockup 呈现运动作品，做了 Swivel：导入设计、设备 / 光照 / 机位，浏览器直出最高 4K 视频 mockup。Beta 免费：https://swivelmotion.app 09-24 / 09-25 文档未收。
+- **亮点**：indie 设计工具首发。厌倦了用静态 mockup 呈现运动作品，做了 Swivel：导入设计、设备 / 光照 / 机位，浏览器直出最高 4K 视频 mockup。Beta 免费：https://swivelmotion.app 09-24 / 09-25 文档未收。
 - **互动**：约 135 赞、15 转发、5 引用、180 收藏、1.0 万+浏览
 - **分类建议**：design / motion
 - **链接**：https://x.com/samuel_uiux/status/2103075147972247837
@@ -210,7 +210,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-09-26-zh-summary.md
 - **作者**：@emilsnotes
 - **时间**：2026-09-24 19:51 UTC
 - **视频**：约 30 秒
-- **亮点**：Introducing AI-assisted web crawls。给 URL，返回 agent 可查的知识库；自动处理 JS 渲染 / PDF / 限流 / 去重 / 导航脚帜垃圾，并保持同步；出厂带 MCP 与 API。https://www.kapa.ai/
+- **亮点**：Introducing AI-assisted web crawls。给 URL，返回 agent 可查的知识库；自动处理 JS 渲染 / PDF / 限流 / 去重 / 导航页脚垃圾，并保持同步；出厂带 MCP 与 API。https://www.kapa.ai/
 - **互动**：约 26 赞、7 转发、1 引用、18 收藏、2000+浏览
 - **分类建议**：ai / developer-tools
 - **链接**：https://x.com/emilsnotes/status/2103210856330768494
@@ -252,7 +252,7 @@ Perplexity Portable Computer for Windows（AMD Ryzen AI Max）、GitHub Copilot 
 
 - 阅读量少于 500 的帖子（samautomation 发布片、Pexo 二创推广、部分 MCP 草稿等）
 - 加密货币 / 代币 / NFT / launchpad（ZAT、ObjectPad、Buttbrain、Orbio Agentic Launchpad、Askr 空投、TRENCHAI、FLETCH、ThesisArena、Reppo on-chain eval）
-- 政治 / 新闻评论（特朗宣传片、市政引见等）
+- 政治 / 新闻评论（特朗普宣传片、市政引见等）
 - 体育 / 娱乐 / 音乐发行（NASCAR Classics、MLB、Madison Beer Twitch、CheerTheory mix）
 - 纯游戏 demo / 武器解锁（Treyarch Roc 20mm、VORTEX 无代码做游戏纪录片）
 - 活动 / 会议预告（Cloudflare Connect 倒计时、Supabase Select / Hypership Day 赞助商片、Replit Hacking the 7 纪录片）
