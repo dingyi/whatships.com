@@ -59618,5 +59618,57 @@
     "status": "published",
     "views": 10736,
     "viewsCapturedAt": "2026-09-27T15:09:58.529Z"
+  },
+  {
+    "id": "plv-claude-motion-reel",
+    "slug": "claude-motion-reel",
+    "title": "Claude Motion Reel — made with Opus 5.5",
+    "product": "Claude Motion Reel",
+    "company": "Stephan Livera",
+    "description": "A 15-second motion reel made by asking Opus 5.5, on max effort, for a résumé showreel.",
+    "category": "motion",
+    "tags": [
+      "claude",
+      "showreel"
+    ],
+    "tweetUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+    "tweetId": "2103315922098470926",
+    "authorName": "Stephan Livera",
+    "authorHandle": "stephanlivera",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1362551718110580740/v-W5Q2uo.jpg",
+    "poster": "/posters/claude-motion-reel.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2103315748496302080/vid/avc1/1920x1080/Ug6RUqJ59vKTsnPX.mp4",
+    "publishedAt": "2026-09-25T02:49:28.000Z",
+    "durationSeconds": 15,
+    "featured": false,
+    "status": "published",
+    "views": 1694542,
+    "viewsCapturedAt": "2026-09-27T15:50:33.574Z"
+  },
+  {
+    "id": "plv-jerry-portfolio",
+    "slug": "jerry-portfolio",
+    "title": "Jerry — a growing motion portfolio",
+    "product": "Jerry",
+    "company": "Jerry",
+    "description": "A motion portfolio reel, posted as work Jerry says Opus 5.5 still cannot do.",
+    "category": "motion",
+    "tags": [
+      "portfolio",
+      "showreel"
+    ],
+    "tweetUrl": "https://x.com/Jerrythe2d/status/2104236249855017381",
+    "tweetId": "2104236249855017381",
+    "authorName": "Jerry",
+    "authorHandle": "Jerrythe2d",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1934316660455817216/gF5acDYC.jpg",
+    "poster": "/posters/jerry-portfolio.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104235363602776064/vid/avc1/1478x1080/Az_pVIm-hL_xxuc0.mp4",
+    "publishedAt": "2026-09-27T15:46:31.000Z",
+    "durationSeconds": 21,
+    "featured": false,
+    "status": "published",
+    "views": 58,
+    "viewsCapturedAt": "2026-09-27T15:50:33.574Z"
   }
 ]
