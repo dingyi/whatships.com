@@ -59566,5 +59566,57 @@
     "status": "published",
     "views": 47418,
     "viewsCapturedAt": "2026-09-27T14:58:07.256Z"
+  },
+  {
+    "id": "plv-selvedge-denim",
+    "slug": "selvedge-denim",
+    "title": "Selvedge denim — shader, kogei, and obsidian",
+    "product": "Selvedge Denim",
+    "company": "Bill Guo",
+    "description": "A shader inspired by Japanese selvedge denim, black kogei, and obsidian.",
+    "category": "motion",
+    "tags": [
+      "shader",
+      "kogei"
+    ],
+    "tweetUrl": "https://x.com/loficosmos1/status/2099656245200191690",
+    "tweetId": "2099656245200191690",
+    "authorName": "Bill (Yiqi) Guo",
+    "authorHandle": "loficosmos1",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1992366446517641216/PUN2bx8r.jpg",
+    "poster": "/posters/selvedge-denim.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2099655856476372993/vid/avc1/1934x1080/5UK_2ttOtxVryXN0.mp4",
+    "publishedAt": "2026-09-15T00:27:13.000Z",
+    "durationSeconds": 11,
+    "featured": false,
+    "status": "published",
+    "views": 29640,
+    "viewsCapturedAt": "2026-09-27T15:09:58.529Z"
+  },
+  {
+    "id": "plv-nolans-browser",
+    "slug": "nolans-browser",
+    "title": "Nolan's preferred browser — the type is tiny",
+    "product": "Nolan's Browser",
+    "company": "shawn",
+    "description": "It browses websites the way Nolan intended. The type is tiny, and you might need glasses.",
+    "category": "design",
+    "tags": [
+      "browser",
+      "typography"
+    ],
+    "tweetUrl": "https://x.com/zzzzshawn/status/2103204646789751140",
+    "tweetId": "2103204646789751140",
+    "authorName": "shawn.",
+    "authorHandle": "zzzzshawn",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1988271097331281925/5JkUdY-0.jpg",
+    "poster": "/posters/nolans-browser.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2103202583200636928/vid/avc1/1668x1080/Flxf8IDq-_eR11o3.mp4",
+    "publishedAt": "2026-09-24T19:27:18.000Z",
+    "durationSeconds": 36,
+    "featured": false,
+    "status": "published",
+    "views": 10736,
+    "viewsCapturedAt": "2026-09-27T15:09:58.529Z"
   }
 ]
