@@ -1,6 +1,310 @@
 {
-  "updatedAt": "2026-09-27T12:56:57.961Z",
+  "updatedAt": "2026-09-27T13:00:48.602Z",
   "items": [
+    {
+      "id": "disc-2103744245605732451",
+      "tweetId": "2103744245605732451",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-27T13:00:48.602Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2103744245605732451",
+        "tweetUrl": "https://x.com/devveeraa/status/2103744245605732451",
+        "authorHandle": "devveeraa",
+        "authorName": "Vignesh Marimuthu",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1851464998411030528/1Nq3pVyh.jpg",
+        "text": "ngl, looks way cool than I imagined. Built with Opus 5.5 https://t.co/uvJk0UdQ3L",
+        "createdAt": "2026-09-26T07:11:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2103743269482250241/vid/avc1/1280x720/js56PI6Vrg_lJ1j2.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103743269482250241/img/raUK1rXbPTdT8cD5.jpg",
+            "durationMs": 15000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "devveeraa",
+        "company": "Vignesh Marimuthu",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2103744245605732451",
+        "slug": "vignesh-marimuthu-732451",
+        "title": "MemDeck — remember anything",
+        "product": "MemDeck",
+        "company": "Vignesh Marimuthu",
+        "description": "",
+        "category": "productivity",
+        "tags": [
+          "memdeck",
+          "android",
+          "memory"
+        ],
+        "tweetUrl": "https://x.com/devveeraa/status/2103744245605732451",
+        "tweetId": "2103744245605732451",
+        "authorName": "Vignesh Marimuthu",
+        "authorHandle": "devveeraa",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1851464998411030528/1Nq3pVyh.jpg",
+        "poster": "/posters/vignesh-marimuthu-732451.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2103743269482250241/vid/avc1/1280x720/js56PI6Vrg_lJ1j2.mp4?tag=14",
+        "publishedAt": "2026-09-26T07:11:28.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Submitted via GitHub issue #232",
+      "issueUrl": "https://github.com/dingyi/whatships.com/issues/232"
+    },
+    {
+      "id": "disc-2103706285204255186",
+      "tweetId": "2103706285204255186",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-27T13:00:48.260Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2103706285204255186",
+        "tweetUrl": "https://x.com/aratamadao/status/2103706285204255186",
+        "authorHandle": "aratamadao",
+        "authorName": "aratama 璞",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1679283716731068416/imiFDP_G.jpg",
+        "text": "新曲「KAMI Circuit」をリファレンスにClaude Opus 5.5で作成して、約1時間後に届いたのが、この28秒です。\nいつかこういう日が来るとは思っていました。\nただ、それが「今日」でした。\n全人知覚のその実感が、また一段深くなりました。\n\nここに身体性とリアルタイム性をどう持ち込むか...\n\n── https://t.co/0EgEuIg1dU",
+        "createdAt": "2026-09-26T04:40:38.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2103702856218157056/vid/avc1/1080x1920/3i5qsuoysk-g1mEd.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103702856218157056/img/slCc5-KQQZukjaI0.jpg",
+            "durationMs": 28366
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "aratamadao",
+        "company": "aratama 璞",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2103706285204255186",
+        "slug": "aratama-255186",
+        "title": "KAMI Circuit — VJ visuals written by Opus 5.5",
+        "product": "Claude Opus 5.5",
+        "company": "Anthropic",
+        "description": "",
+        "category": "motion",
+        "tags": [
+          "claude",
+          "vj",
+          "shaders"
+        ],
+        "tweetUrl": "https://x.com/aratamadao/status/2103706285204255186",
+        "tweetId": "2103706285204255186",
+        "authorName": "aratama 璞",
+        "authorHandle": "aratamadao",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1679283716731068416/imiFDP_G.jpg",
+        "poster": "/posters/aratama-255186.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2103702856218157056/vid/avc1/1080x1920/3i5qsuoysk-g1mEd.mp4",
+        "publishedAt": "2026-09-26T04:40:38.000Z",
+        "durationSeconds": 28,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Submitted via GitHub issue #233 (fan film, not the official Opus 5.5 launch)",
+      "issueUrl": "https://github.com/dingyi/whatships.com/issues/233"
+    },
+    {
+      "id": "disc-2103637725421392330",
+      "tweetId": "2103637725421392330",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-27T13:00:47.905Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2103637725421392330",
+        "tweetUrl": "https://x.com/efrasefendi/status/2103637725421392330",
+        "authorHandle": "efrasefendi",
+        "authorName": "s ahmet",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089107419104219136/PbAV72J4.jpg",
+        "text": "No editor. No After Effects. No keyframes.\n\nJust one prompt to Claude Opus 5.5.\n\n15 minutes later: a complete app video — every frame coded, music generated in Python, sounds added, rendered. https://t.co/QEywp22vKl",
+        "createdAt": "2026-09-26T00:08:12.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2103637669683093504/vid/avc1/720x1280/sHUecSssCDqQ3LeP.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103637669683093504/img/yl2pSYe2ljb0Za4G.jpg",
+            "durationMs": 15000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "efrasefendi",
+        "company": "s ahmet",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2103637725421392330",
+        "slug": "s-ahmet-392330",
+        "title": "Plop — stop counting, start collecting",
+        "product": "Plop",
+        "company": "Plop Studio",
+        "description": "",
+        "category": "productivity",
+        "tags": [
+          "plop",
+          "timer",
+          "focus"
+        ],
+        "tweetUrl": "https://x.com/efrasefendi/status/2103637725421392330",
+        "tweetId": "2103637725421392330",
+        "authorName": "s ahmet",
+        "authorHandle": "efrasefendi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2089107419104219136/PbAV72J4.jpg",
+        "poster": "/posters/s-ahmet-392330.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2103637669683093504/vid/avc1/720x1280/sHUecSssCDqQ3LeP.mp4?tag=14",
+        "publishedAt": "2026-09-26T00:08:12.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Submitted via GitHub issue #234",
+      "issueUrl": "https://github.com/dingyi/whatships.com/issues/234"
+    },
+    {
+      "id": "disc-2102851025350623646",
+      "tweetId": "2102851025350623646",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-27T13:00:47.553Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2102851025350623646",
+        "tweetUrl": "https://x.com/InterhumanAI/status/2102851025350623646",
+        "authorHandle": "InterhumanAI",
+        "authorName": "Interhuman AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044422936216449024/RiGiLYD6.jpg",
+        "text": "Today, we’re introducing Inter-2, our next step in Socially Intelligent AI.\n\nInter-2 helps AI products understand how people communicate, beyond the words we use. It allows you to notice more by detecting social signals such as hesitation, agreement, confusion and skepticism in https://t.co/7uwepBGtVS",
+        "createdAt": "2026-09-23T20:02:08.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2102850740179853313/vid/avc1/1920x1080/lC5Vfzccq2Bg47UI.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102850740179853313/img/wVUkAm-Cq3MUOohT.jpg",
+            "durationMs": 23750
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "InterhumanAI",
+        "company": "Interhuman AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2102851025350623646",
+        "slug": "interhuman-ai-623646",
+        "title": "Inter-2 — social intelligence in real time",
+        "product": "Inter-2",
+        "company": "Interhuman AI",
+        "description": "",
+        "category": "ai",
+        "tags": [
+          "inter-2",
+          "interhuman"
+        ],
+        "tweetUrl": "https://x.com/InterhumanAI/status/2102851025350623646",
+        "tweetId": "2102851025350623646",
+        "authorName": "Interhuman AI",
+        "authorHandle": "InterhumanAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044422936216449024/RiGiLYD6.jpg",
+        "poster": "/posters/interhuman-ai-623646.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2102850740179853313/vid/avc1/1920x1080/lC5Vfzccq2Bg47UI.mp4",
+        "publishedAt": "2026-09-23T20:02:08.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Submitted via GitHub issue #235",
+      "issueUrl": "https://github.com/dingyi/whatships.com/issues/235"
+    },
+    {
+      "id": "disc-2103849476888866973",
+      "tweetId": "2103849476888866973",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-09-27T13:00:47.200Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2103849476888866973",
+        "tweetUrl": "https://x.com/vansh22b/status/2103849476888866973",
+        "authorHandle": "vansh22b",
+        "authorName": "Vansh",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097633013186334720/JGrRnJm1.jpg",
+        "text": "Omentir, A brief introduction. https://t.co/AYOBMkPnal",
+        "createdAt": "2026-09-26T14:09:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2103849331728252928/vid/avc1/1920x1080/m4SiPxESSgDyocbC.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103849331728252928/img/goBUocPg_8mU7RdI.jpg",
+            "durationMs": 100053
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "vansh22b",
+        "company": "Vansh",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2103849476888866973",
+        "slug": "vansh-866973",
+        "title": "Omentir — a brief introduction",
+        "product": "Omentir",
+        "company": "Omentir",
+        "description": "",
+        "category": "ai",
+        "tags": [
+          "omentir",
+          "ai"
+        ],
+        "tweetUrl": "https://x.com/vansh22b/status/2103849476888866973",
+        "tweetId": "2103849476888866973",
+        "authorName": "Vansh",
+        "authorHandle": "vansh22b",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097633013186334720/JGrRnJm1.jpg",
+        "poster": "/posters/vansh-866973.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2103849331728252928/vid/avc1/1920x1080/m4SiPxESSgDyocbC.mp4",
+        "publishedAt": "2026-09-26T14:09:37.000Z",
+        "durationSeconds": 100,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "Submitted via GitHub issue #238",
+      "issueUrl": "https://github.com/dingyi/whatships.com/issues/238"
+    },
     {
       "id": "disc-2103854608124969034",
       "tweetId": "2103854608124969034",
