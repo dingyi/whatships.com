@@ -167,6 +167,31 @@ describe("draft + issue helpers", () => {
     expect(short.title).not.toMatch(/…$/);
   });
 
+  it("names the product when Introducing runs past 55 characters", () => {
+    const draft = buildCandidateDraft(
+      post({
+        tweetId: "2103920741481848861",
+        authorName: "David",
+        authorHandle: "dzhng",
+        text: "Introducing jevgrep - a research agent CLI powered by jev from @typesafeai that reduces your coding agent cost by 40% (verified on SWE-bench)",
+      }),
+      {
+        handle: "dzhng",
+        company: "David",
+        category: "other",
+        tags: [],
+      },
+    );
+    expect(draft.product).toBe("jevgrep");
+    expect(draft.title).toBe("jevgrep — a research agent CLI powered by jev");
+    expect(draft.title.length).toBeLessThanOrEqual(55);
+    expect(draft.title).not.toMatch(/launch video/);
+    expect(draft.description).toBe(
+      "jevgrep is a research agent CLI powered by jev.",
+    );
+    expect(draft.description).not.toMatch(/…|\.\.\./);
+  });
+
   it("ranks higher scores first", () => {
     const low = {
       post: post({ tweetId: "1", text: "x" }),
