@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T13:00:48.602Z",
+  "updatedAt": "2026-09-27T14:30:59.688Z",
   "items": [
     {
       "id": "disc-2103744245605732451",
@@ -185,67 +185,6 @@
       "issueUrl": "https://github.com/dingyi/whatships.com/issues/234"
     },
     {
-      "id": "disc-2102851025350623646",
-      "tweetId": "2102851025350623646",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-27T13:00:47.553Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102851025350623646",
-        "tweetUrl": "https://x.com/InterhumanAI/status/2102851025350623646",
-        "authorHandle": "InterhumanAI",
-        "authorName": "Interhuman AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2044422936216449024/RiGiLYD6.jpg",
-        "text": "Today, we’re introducing Inter-2, our next step in Socially Intelligent AI.\n\nInter-2 helps AI products understand how people communicate, beyond the words we use. It allows you to notice more by detecting social signals such as hesitation, agreement, confusion and skepticism in https://t.co/7uwepBGtVS",
-        "createdAt": "2026-09-23T20:02:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102850740179853313/vid/avc1/1920x1080/lC5Vfzccq2Bg47UI.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102850740179853313/img/wVUkAm-Cq3MUOohT.jpg",
-            "durationMs": 23750
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "InterhumanAI",
-        "company": "Interhuman AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102851025350623646",
-        "slug": "interhuman-ai-623646",
-        "title": "Inter-2 — social intelligence in real time",
-        "product": "Inter-2",
-        "company": "Interhuman AI",
-        "description": "",
-        "category": "ai",
-        "tags": [
-          "inter-2",
-          "interhuman"
-        ],
-        "tweetUrl": "https://x.com/InterhumanAI/status/2102851025350623646",
-        "tweetId": "2102851025350623646",
-        "authorName": "Interhuman AI",
-        "authorHandle": "InterhumanAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2044422936216449024/RiGiLYD6.jpg",
-        "poster": "/posters/interhuman-ai-623646.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102850740179853313/vid/avc1/1920x1080/lC5Vfzccq2Bg47UI.mp4",
-        "publishedAt": "2026-09-23T20:02:08.000Z",
-        "durationSeconds": 24,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "Submitted via GitHub issue #235",
-      "issueUrl": "https://github.com/dingyi/whatships.com/issues/235"
-    },
-    {
       "id": "disc-2103849476888866973",
       "tweetId": "2103849476888866973",
       "reviewStatus": "pending",
@@ -427,9 +366,9 @@
     {
       "id": "disc-2103650767257083998",
       "tweetId": "2103650767257083998",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-27T12:56:57.327Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:04:56.795Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -796,9 +735,9 @@
     {
       "id": "disc-2103923557956993093",
       "tweetId": "2103923557956993093",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-27T12:56:55.064Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:26:59.033Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -852,66 +791,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2103923505436008448/vid/avc1/1818x1080/jhBaoW4tJleDraHP.mp4?tag=16",
         "publishedAt": "2026-09-26T19:03:59.000Z",
         "durationSeconds": 23,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2103863414573408647",
-      "tweetId": "2103863414573408647",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-27T12:56:54.741Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103863414573408647",
-        "tweetUrl": "https://x.com/try_caddy/status/2103863414573408647",
-        "authorHandle": "try_caddy",
-        "authorName": "Caddy",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2070257338733215744/UhL30dMP.jpg",
-        "text": "introducing the @try_caddy app.\n\nimagine a world where you never reply to another email. never miss another deadline.\n\nthat world starts now. https://t.co/JJN3qusSP9",
-        "createdAt": "2026-09-26T15:05:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103611510840827904/vid/avc1/3840x1800/OIP7wj8C5qIngbON.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103611510840827904/img/DIiYBOVlcW6BFwfi.jpg",
-            "durationMs": 50730
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "try_caddy",
-        "company": "Caddy",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103863414573408647",
-        "slug": "caddy-408647",
-        "title": "introducing the @try_caddy app",
-        "product": "Caddy",
-        "company": "Caddy",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/try_caddy/status/2103863414573408647",
-        "tweetId": "2103863414573408647",
-        "authorName": "Caddy",
-        "authorHandle": "try_caddy",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2070257338733215744/UhL30dMP.jpg",
-        "poster": "/posters/caddy-408647.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103611510840827904/vid/avc1/3840x1800/OIP7wj8C5qIngbON.mp4",
-        "publishedAt": "2026-09-26T15:05:00.000Z",
-        "durationSeconds": 51,
         "featured": false,
         "status": "draft"
       },
@@ -979,131 +858,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2103857966617174487",
-      "tweetId": "2103857966617174487",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-27T12:56:54.013Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103857966617174487",
-        "tweetUrl": "https://x.com/tarout_sa/status/2103857966617174487",
-        "authorHandle": "tarout_sa",
-        "authorName": "Tarout",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2102737418092781568/p1f9WrbK.jpg",
-        "text": "Introducing Tarout: the cloud built for coding agents.\n\nYour agent writes the app. Tarout puts it live.\n\nTell Claude Code, Cursor or Codex \"deploy this app on tarout\". It runs one command, and Tarout detects the framework, creates the app, attaches a Postgres database, deploys it https://t.co/dkoE2vcble",
-        "createdAt": "2026-09-26T14:43:21.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103857811054620672/vid/avc1/1920x1080/ex5WdXjorC0QkCrU.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103857811054620672/img/T0pvyD7hmfbLbIKR.jpg",
-            "durationMs": 47766
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tarout_sa",
-        "company": "Tarout",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103857966617174487",
-        "slug": "tarout-174487",
-        "title": "Introducing Tarout: the cloud built for coding agents",
-        "product": "Tarout",
-        "company": "Tarout",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tarout_sa/status/2103857966617174487",
-        "tweetId": "2103857966617174487",
-        "authorName": "Tarout",
-        "authorHandle": "tarout_sa",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2102737418092781568/p1f9WrbK.jpg",
-        "poster": "/posters/tarout-174487.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103857811054620672/vid/avc1/1920x1080/ex5WdXjorC0QkCrU.mp4",
-        "publishedAt": "2026-09-26T14:43:21.000Z",
-        "durationSeconds": 48,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2103873490730549558",
-      "tweetId": "2103873490730549558",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-27T12:56:53.652Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103873490730549558",
-        "tweetUrl": "https://x.com/1weiho/status/2103873490730549558",
-        "authorHandle": "1weiho",
-        "authorName": "Yiwei Ho",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1736400368245092352/NClwBCe1.jpg",
-        "text": "Introducing open-slide 2.0 🎉\n\nThe slide framework built for agents, now with:\n› A new visual editor\n› Editable pptx export\n› A redesigned UI\n\nLet your agent build the deck. Make the final touches yourself.\n\nHere's what's new ↓ https://t.co/KGhSPFgdo9",
-        "createdAt": "2026-09-26T15:45:02.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103870129566310400/vid/avc1/3840x2160/4w-Jn8FXZLnraXs5.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103870129566310400/img/6W0YqVXlydUR3s9H.jpg",
-            "durationMs": 78000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "1weiho",
-        "company": "Yiwei Ho",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103873490730549558",
-        "slug": "yiwei-ho-549558",
-        "title": "Introducing open-slide 2.0 🎉",
-        "product": "Yiwei Ho",
-        "company": "Yiwei Ho",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/1weiho/status/2103873490730549558",
-        "tweetId": "2103873490730549558",
-        "authorName": "Yiwei Ho",
-        "authorHandle": "1weiho",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1736400368245092352/NClwBCe1.jpg",
-        "poster": "/posters/yiwei-ho-549558.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103870129566310400/vid/avc1/3840x2160/4w-Jn8FXZLnraXs5.mp4",
-        "publishedAt": "2026-09-26T15:45:02.000Z",
-        "durationSeconds": 78,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2103768485725978749",
       "tweetId": "2103768485725978749",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-27T12:56:53.307Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:05:59.001Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1194,11 +953,11 @@
       },
       "draft": {
         "id": "plv-disc-2103920741481848861",
-        "slug": "jevgrep-848861",
-        "title": "jevgrep — a research agent CLI powered by jev",
-        "product": "jevgrep",
-        "company": "jevgrep",
-        "description": "jevgrep is a research agent CLI powered by jev.",
+        "slug": "david-848861",
+        "title": "David — launch video",
+        "product": "David",
+        "company": "David",
+        "description": "",
         "category": "other",
         "tags": [
           "auto-discovery"
@@ -1208,7 +967,7 @@
         "authorName": "David",
         "authorHandle": "dzhng",
         "authorAvatar": "https://pbs.twimg.com/profile_images/1816551258905620480/kGMg3Z6W.jpg",
-        "poster": "/posters/jevgrep-848861.webp",
+        "poster": "/posters/david-848861.webp",
         "videoUrl": "https://video.twimg.com/amplify_video/2103914409747996674/vid/avc1/1920x1080/Oq43-QenLD2iVJ-8.mp4",
         "publishedAt": "2026-09-26T18:52:48.000Z",
         "durationSeconds": 31,
@@ -1279,71 +1038,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2103571004543193098",
-      "tweetId": "2103571004543193098",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-27T12:56:52.183Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103571004543193098",
-        "tweetUrl": "https://x.com/iamdothash/status/2103571004543193098",
-        "authorHandle": "iamdothash",
-        "authorName": "Bjarne Øverli",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1949924518085980160/1t8CgNc1.jpg",
-        "text": "Introducing Flux\n\nFlux is your phone link for Omarchy. \n\nMany of the features\n\n→ Clipboard sync\n→ Fingerprint approval for sudo\n→ File transfer\n→ Phone notifications on the desktop\n→ Notification replies\n→ Notifications to the phone (flux notify)\n→ Build and job alerts https://t.co/NcpEApYqsq",
-        "createdAt": "2026-09-25T19:43:04.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103568720819798016/vid/avc1/2880x1800/ZFP5RjwwbjBxwTNd.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103568720819798016/img/v56RStDUOcHKh4HC.jpg",
-            "durationMs": 168000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "iamdothash",
-        "company": "Bjarne Øverli",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103571004543193098",
-        "slug": "bjarne-verli-193098",
-        "title": "Introducing Flux",
-        "product": "Bjarne Øverli",
-        "company": "Bjarne Øverli",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/iamdothash/status/2103571004543193098",
-        "tweetId": "2103571004543193098",
-        "authorName": "Bjarne Øverli",
-        "authorHandle": "iamdothash",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1949924518085980160/1t8CgNc1.jpg",
-        "poster": "/posters/bjarne-verli-193098.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103568720819798016/vid/avc1/2880x1800/ZFP5RjwwbjBxwTNd.mp4",
-        "publishedAt": "2026-09-25T19:43:04.000Z",
-        "durationSeconds": 168,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2103900178260586993",
       "tweetId": "2103900178260586993",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-27T12:56:51.850Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:24:39.724Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1374,11 +1073,11 @@
       },
       "draft": {
         "id": "plv-disc-2103900178260586993",
-        "slug": "seedance-25-586993",
-        "title": "Seedance 2.5 — in native 1080p on Higgsfield API",
-        "product": "Seedance 2.5",
-        "company": "Seedance 2.5",
-        "description": "Seedance 2.5 in native 1080p on Higgsfield API.",
+        "slug": "higgsfield-ai-586993",
+        "title": "Higgsfield AI 🧩 — launch video",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "",
         "category": "other",
         "tags": [
           "auto-discovery"
@@ -1388,7 +1087,7 @@
         "authorName": "Higgsfield AI 🧩",
         "authorHandle": "higgsfield",
         "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/seedance-25-586993.webp",
+        "poster": "/posters/higgsfield-ai-586993.webp",
         "videoUrl": "https://video.twimg.com/amplify_video/2103897440411901952/vid/avc1/1920x1080/ZQV88itc5NS0HKUY.mp4",
         "publishedAt": "2026-09-26T17:31:05.000Z",
         "durationSeconds": 22,
@@ -1434,11 +1133,11 @@
       },
       "draft": {
         "id": "plv-disc-2103489985861370313",
-        "slug": "higgsfield-production-skills-bundle-370313",
-        "title": "Higgsfield Production Skills Bundle",
-        "product": "Higgsfield Production Skills Bundle",
-        "company": "Higgsfield Production Skills Bundle",
-        "description": "Higgsfield Production Skills Bundle for Claude Opus 5.5.",
+        "slug": "higgsfield-ai-370313",
+        "title": "Higgsfield AI 🧩 — launch video",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "",
         "category": "other",
         "tags": [
           "auto-discovery"
@@ -1448,7 +1147,7 @@
         "authorName": "Higgsfield AI 🧩",
         "authorHandle": "higgsfield",
         "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
-        "poster": "/posters/higgsfield-production-skills-bundle-370313.webp",
+        "poster": "/posters/higgsfield-ai-370313.webp",
         "videoUrl": "https://video.twimg.com/amplify_video/2103489640418410496/vid/avc1/1920x1080/dJCe8ZIiT2FFzt3d.mp4",
         "publishedAt": "2026-09-25T14:21:08.000Z",
         "durationSeconds": 47,
@@ -1461,9 +1160,9 @@
     {
       "id": "disc-2103758974990319887",
       "tweetId": "2103758974990319887",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-27T12:56:51.194Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:25:49.853Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1756,66 +1455,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2102068298896887808/vid/avc1/3200x2000/S3Jdd1hCSDqrPB_B.mp4",
         "publishedAt": "2026-09-21T16:12:20.000Z",
         "durationSeconds": 24,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2102112693041938825",
-      "tweetId": "2102112693041938825",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-25T10:20:51.682Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2102112693041938825",
-        "tweetUrl": "https://x.com/shengkunye/status/2102112693041938825",
-        "authorHandle": "shengkunye",
-        "authorName": "Shengkun Ye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "text": "Introducing Jev + OpenRouter + tools.\n\nYou can now use Jev with 2,000 tools on Monid. Your agent picks the tools, Jev speeds the work up 30x.\n\n&gt; Score 2,000 leads\n&gt; Scan the TikTok viral video hooks\n&gt; Research fundraising of 200 companies\n&gt; Audit a site's SEO and rebuild the https://t.co/prr2faw40O",
-        "createdAt": "2026-09-21T19:08:16.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2102112249112604672/vid/avc1/1920x1080/2uBaqEr_8A6mJe4N.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102112249112604672/img/3lR6gxILRYKTiMF_.jpg",
-            "durationMs": 32300
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shengkunye",
-        "company": "Shengkun Ye",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2102112693041938825",
-        "slug": "shengkun-ye-938825",
-        "title": "Introducing Jev + OpenRouter + tools. You can now use Jev with 2,000 tools on Monid. Your agent p…",
-        "product": "Shengkun Ye",
-        "company": "Shengkun Ye",
-        "description": "Introducing Jev + OpenRouter + tools. You can now use Jev with 2,000 tools on Monid. Your agent picks the tools, Jev speeds the work up 30x. &gt; Score 2,000 leads &gt; Scan the TikTok viral video hooks &gt; Research fundraising of 200 companies &gt; Audit a site's SEO and reb…",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shengkunye/status/2102112693041938825",
-        "tweetId": "2102112693041938825",
-        "authorName": "Shengkun Ye",
-        "authorHandle": "shengkunye",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084850383487475712/waac6ALE.jpg",
-        "poster": "/posters/shengkun-ye-938825.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2102112249112604672/vid/avc1/1920x1080/2uBaqEr_8A6mJe4N.mp4",
-        "publishedAt": "2026-09-21T19:08:16.000Z",
-        "durationSeconds": 32,
         "featured": false,
         "status": "draft"
       },
@@ -3108,9 +2747,9 @@
     {
       "id": "disc-2101042933650571469",
       "tweetId": "2101042933650571469",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-22T06:27:31.706Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-27T14:05:34.062Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -3781,66 +3420,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100678711448334709",
-      "tweetId": "2100678711448334709",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:06.757Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2100678711448334709",
-        "tweetUrl": "https://x.com/krea_ai/status/2100678711448334709",
-        "authorHandle": "krea_ai",
-        "authorName": "Krea",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
-        "text": "introducing a new video editor in Krea Agent.\n\nnow you can work with generated clips on an editor to put scenes together, extend clips, add audio, and more!\n\ntry it now in https://t.co/bbEMOW9gVt https://t.co/7rOAopjGw3",
-        "createdAt": "2026-09-17T20:10:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100678268936675328/vid/avc1/3836x2160/FG5_OoxS0WhhGUbB.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100678268936675328/img/E2fYG9NEq07mA0e-.jpg",
-            "durationMs": 27583
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "krea_ai",
-        "company": "Krea",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100678711448334709",
-        "slug": "krea-334709",
-        "title": "introducing a new video editor in Krea Agent. now you can work with generated clips on an editor…",
-        "product": "Krea",
-        "company": "Krea",
-        "description": "introducing a new video editor in Krea Agent. now you can work with generated clips on an editor to put scenes together, extend clips, add audio, and more! try it now in",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/krea_ai/status/2100678711448334709",
-        "tweetId": "2100678711448334709",
-        "authorName": "Krea",
-        "authorHandle": "krea_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
-        "poster": "/posters/krea-334709.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100678268936675328/vid/avc1/3836x2160/FG5_OoxS0WhhGUbB.mp4",
-        "publishedAt": "2026-09-17T20:10:08.000Z",
-        "durationSeconds": 28,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100589658073698466",
       "tweetId": "2100589658073698466",
       "reviewStatus": "rejected",
@@ -4019,65 +3598,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2100622022686511104/vid/avc1/3424x2160/IrnomEfI0cEu25MA.mp4",
         "publishedAt": "2026-09-17T16:26:17.000Z",
         "durationSeconds": 16,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2100632677904744716",
-      "tweetId": "2100632677904744716",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:02.051Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2100632677904744716",
-        "tweetUrl": "https://x.com/claudeai/status/2100632677904744716",
-        "authorHandle": "claudeai",
-        "authorName": "Claude",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "text": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop.\n\nIn beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. https://t.co/GYzoKbxS23",
-        "createdAt": "2026-09-17T17:07:12.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100630446509813760/vid/avc1/1920x1080/cNdMUAzH3ECH7laO.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HSbyf9bWAAAV6Bd.jpg",
-            "durationMs": 82708
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "claudeai",
-        "company": "Claude",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2100632677904744716",
-        "slug": "claude-744716",
-        "title": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, a…",
-        "product": "Claude",
-        "company": "Claude",
-        "description": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop. In beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/claudeai/status/2100632677904744716",
-        "tweetId": "2100632677904744716",
-        "authorName": "Claude",
-        "authorHandle": "claudeai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "poster": "/posters/claude-744716.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100630446509813760/vid/avc1/1920x1080/cNdMUAzH3ECH7laO.mp4",
-        "publishedAt": "2026-09-17T17:07:12.000Z",
-        "durationSeconds": 83,
         "featured": false,
         "status": "draft"
       },
