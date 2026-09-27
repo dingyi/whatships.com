@@ -148,29 +148,103 @@ export function buildDiscoverySlug(company, tweetId) {
     : `launch-${tweetId.slice(-8)}`;
 }
 
-export function guessTitle(text, company) {
-  const fallback = `${company} — launch video`;
-  const firstSentence = text
-    .replace(/https?:\/\/\S+/g, "")
-    .split(/\n|(?<=[.!?])\s/)[0]
-    ?.replace(/\s+/g, " ")
-    .trim()
-    .replace(/[.:]$/, "");
-  if (!firstSentence) return fallback;
-  return firstSentence.length <= TITLE_MAX ? firstSentence : fallback;
+function firstSentence(text) {
+  const line = text.replace(/https?:\/\/\S+/g, " ").split(/\n/)[0] ?? "";
+  const sentence = line.split(/(?<=[.!?])\s/)[0] ?? "";
+  return sentence.replace(/\s+/g, " ").trim().replace(/[.:]+$/, "");
+}
+
+/** A title or sentence we are willing to publish: fits, and is not cut off. */
+function fits(value, max = TITLE_MAX) {
+  const text = value.replace(/\s+/g, " ").trim();
+  if (!text || text.length > max) return null;
+  if (/(…|\.\.\.)\s*$/.test(text)) return null;
+  return text;
 }
 
 /**
- * Drafts start without a description: the post text is not ours to publish
- * as page copy, and a truncated copy of it is what the catalog quality gate
- * rejects. The reviewer writes one line in /admin (the post sits next to it).
+ * Pull a product name out of "Introducing X — hook" without keeping a
+ * half-finished sentence. Long hooks are dropped, not sliced mid-thought.
  */
-export function guessDescription() {
-  return "";
+function extractIntro(sentence) {
+  const match = sentence.match(
+    /^(?:introducing|announcing|presenting|meet)\s*:?\s+(.+)$/i,
+  );
+  if (!match) return null;
+  const rest = match[1].trim();
+  const [head, ...tail] = rest.split(/\s+[—–-]\s+/);
+  let product = head.trim();
+  let hook = tail.join(" — ").trim();
+  product = product.replace(/^(?:the|our)\s+/i, "").trim();
+  const bound = product.match(/^(.*?)\s+((?:in|on|for|with)\s+.+)$/i);
+  if (
+    product.length > 40 &&
+    bound &&
+    bound[1].trim().length >= 2 &&
+    bound[1].trim().length <= 40
+  ) {
+    product = bound[1].trim();
+    hook = [bound[2].trim(), hook].filter(Boolean).join(" ").trim();
+  }
+  if (!product || product.length < 2 || product.length > 40) return null;
+  return { product, hook };
+}
+
+/** First self-contained clause, stopping before "that/which/from @…". */
+function leadingClause(hook) {
+  if (!hook) return "";
+  return hook
+    .replace(/@\w+/g, "")
+    .split(/\s+(?:that|which|so|because|from)\b/i)[0]
+    .replace(/[,:;]+$/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function guessTitle(text, company) {
+  const fallback = `${company} — launch video`;
+  const sentence = firstSentence(text);
+  const direct = fits(sentence);
+  if (direct) return direct;
+
+  const intro = extractIntro(sentence);
+  if (intro) {
+    const clause = leadingClause(intro.hook);
+    const withHook = clause ? fits(`${intro.product} — ${clause}`) : null;
+    if (withHook) return withHook;
+    const productOnly = fits(intro.product);
+    if (productOnly) return productOnly;
+  }
+  return fits(fallback) ?? company;
+}
+
+/**
+ * A finished sentence built from the product name and its first clause.
+ * Returns "" when that would just be a chopped-off tweet.
+ */
+export function guessDescription(text) {
+  const intro = extractIntro(firstSentence(text));
+  if (!intro) return "";
+  const clause = leadingClause(intro.hook).replace(/^(?:a|an|the)\s+/i, (word) =>
+    word.toLowerCase(),
+  );
+  if (!clause || clause.length < 8) return "";
+  const description = (
+    /^(?:in|on|for|with)\b/i.test(clause)
+      ? `${intro.product} ${clause}.`
+      : `${intro.product} is ${clause}.`
+  ).replace(/\s+/g, " ");
+  if (description.length > 220) return "";
+  if (/(…|\.\.\.)/.test(description)) return "";
+  return description;
 }
 
 export function buildCandidateDraft(post, watchlist) {
-  const slug = buildDiscoverySlug(watchlist.company, post.tweetId);
+  const intro = extractIntro(firstSentence(post.text ?? ""));
+  const companyIsAuthor =
+    Boolean(post.authorName) && watchlist.company === post.authorName;
+  const named = companyIsAuthor && intro ? intro.product : watchlist.company;
+  const slug = buildDiscoverySlug(named, post.tweetId);
   const videoUrl = pickBestVideoUrl(post.media);
   const durationMs =
     post.media.find((m) => m.durationMs != null)?.durationMs ?? null;
@@ -178,10 +252,10 @@ export function buildCandidateDraft(post, watchlist) {
   return {
     id: `plv-disc-${post.tweetId}`,
     slug,
-    title: guessTitle(post.text, watchlist.company),
-    product: watchlist.company,
-    company: watchlist.company,
-    description: guessDescription(),
+    title: guessTitle(post.text, named),
+    product: named,
+    company: named,
+    description: guessDescription(post.text),
     category: watchlist.category,
     tags: [...(watchlist.tags ?? []), "auto-discovery"],
     tweetUrl: post.tweetUrl,
