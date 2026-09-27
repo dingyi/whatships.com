@@ -74,5 +74,16 @@
     "kind": "studio",
     "xHandle": "laxachx",
     "poster": "/posters/studios/achx.webp"
+  },
+  {
+    "id": "studio-monalog",
+    "slug": "monalog",
+    "name": "Monalog",
+    "tagline": "A creative software studio",
+    "description": "Monalog designs and develops websites, products and apps that feel different.",
+    "url": "https://monalog.co/",
+    "kind": "studio",
+    "xHandle": "monalogco",
+    "poster": "/posters/studios/monalog.webp"
   }
 ]
