@@ -49,3 +49,24 @@ jobs:
         working-directory: workers/video-proxy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      # `wrangler deploy` returning 0 does not prove the Worker is reachable at
+      # its custom domain. A request without ?url= exercises the deployed code
+      # and returns its documented 400, which is the liveness signal that the
+      # proxy is up after deploy.
+      - name: Verify video proxy
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 10); do
+            resp=$(curl -sS --max-time 15 -w '\n%{http_code}' "https://proxy.whatships.com/?check=$(date +%s)" || true)
+            status=$(printf '%s' "$resp" | tail -n1)
+            body=$(printf '%s' "$resp" | sed '$d')
+            if [ "$status" = "400" ] && printf '%s' "$body" | grep -qF 'Missing ?url='; then
+              echo "Video proxy verified: live Worker answered with the expected 400"
+              exit 0
+            fi
+            echo "attempt $attempt/10: proxy status '${status:-<none>}'"
+            sleep 6
+          done
+          echo "::error::Video proxy did not answer at proxy.whatships.com after deploy"
+          exit 1
