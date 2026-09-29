@@ -60815,5 +60815,31 @@
     "status": "published",
     "views": 31974,
     "viewsCapturedAt": "2026-09-29T13:29:13.274Z"
+  },
+  {
+    "id": "plv-alchemix-v3",
+    "slug": "alchemix-v3",
+    "title": "Alchemix v3 — live on Base",
+    "product": "Alchemix v3",
+    "company": "Alchemix",
+    "description": "Alchemix v3 is live on Base. The film explains alUSDb redemptions of about four weeks, a 90% max LTV, and whether to loop, arb, or provide liquidity.",
+    "category": "other",
+    "tags": [
+      "crypto",
+      "defi"
+    ],
+    "tweetUrl": "https://x.com/scupytrooples/status/2103153637912698947",
+    "tweetId": "2103153637912698947",
+    "authorName": "scoopy trooples",
+    "authorHandle": "scupytrooples",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2085582898581962753/a-7_3Oyh.jpg",
+    "poster": "/posters/alchemix-v3.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2103153363731038208/vid/avc1/1920x1080/qjjd-q1QCE5xyTSL.mp4",
+    "publishedAt": "2026-09-24T16:04:36.000Z",
+    "durationSeconds": 165,
+    "featured": false,
+    "status": "published",
+    "views": 14214,
+    "viewsCapturedAt": "2026-09-29T14:04:18.606Z"
   }
 ]
