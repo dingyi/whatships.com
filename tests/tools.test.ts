@@ -49,6 +49,7 @@ describe("tool helpers", () => {
     expect(toolCategoryLabel("ai")).toBe("AI");
     expect(toolCategoryLabel("mockup")).toBe("Mockup");
     expect(toolCategoryLabel("skills")).toBe("Skills");
+    expect(toolCategoryLabel("resources")).toBe("Resources");
     expect(toolCategoryLabel("unknown" as never)).toBe("unknown");
   });
 

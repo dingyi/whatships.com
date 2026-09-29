@@ -826,5 +826,37 @@
     "url": "https://www.revid.ai/",
     "category": "ai",
     "poster": "/posters/tools/revid.webp"
+  },
+  {
+    "id": "tool-lemo-opuscar",
+    "slug": "lemo-opuscar",
+    "name": "Lemo-Opuscar",
+    "tagline": "43 film styles, made entirely in code",
+    "description": "Direct a short film made entirely in code. Pick one of 43 styles, bring your own story, and let your coding agent direct, draw, score, and mix it.",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "category": "skills",
+    "poster": "/posters/tools/lemo-opuscar.webp",
+    "install": "npx skills add lemomo-ai/lemo-opuscar"
+  },
+  {
+    "id": "tool-guizang-product-video",
+    "slug": "guizang-product-video",
+    "name": "Guizang Product Video",
+    "tagline": "Promo films built from the real product",
+    "description": "An agent skill that makes product and changelog films from the real UI, with storyboards, original music, and sound effects. Supports Claude Code and Codex.",
+    "url": "https://github.com/op7418/guizang-product-video-skill",
+    "category": "skills",
+    "poster": "/posters/tools/guizang-product-video.webp",
+    "install": "npx skills add op7418/guizang-product-video-skill"
+  },
+  {
+    "id": "tool-moving-image-archive",
+    "slug": "moving-image-archive",
+    "name": "Moving Image Archive",
+    "tagline": "Search archival footage by the shot",
+    "description": "Search, watch, and download public-domain archival footage by the shot.",
+    "url": "https://www.movingimagearchive.com/",
+    "category": "resources",
+    "poster": "/posters/tools/moving-image-archive.webp"
   }
 ]

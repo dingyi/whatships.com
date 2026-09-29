@@ -6,6 +6,7 @@ export const TOOL_CATEGORIES = [
   { id: "motion", label: "Motion" },
   { id: "mockup", label: "Mockup" },
   { id: "skills", label: "Skills" },
+  { id: "resources", label: "Resources" },
 ] as const;
 
 export type ToolCategoryId = (typeof TOOL_CATEGORIES)[number]["id"];
