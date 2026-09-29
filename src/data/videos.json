@@ -60841,5 +60841,31 @@
     "status": "published",
     "views": 14214,
     "viewsCapturedAt": "2026-09-29T14:04:18.606Z"
+  },
+  {
+    "id": "plv-framer-four-components",
+    "slug": "framer-four-components",
+    "title": "4 fun components you can build for your website",
+    "product": "Framer Agent",
+    "company": "Framer",
+    "description": "Four website components built with the Framer Agent: a glowing Start now button, gradient icon cards, a flipping card stack, and a stat that counts up.",
+    "category": "design",
+    "tags": [
+      "design",
+      "web"
+    ],
+    "tweetUrl": "https://x.com/framer/status/2100666871754440975",
+    "tweetId": "2100666871754440975",
+    "authorName": "Framer",
+    "authorHandle": "framer",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+    "poster": "/posters/framer-four-components.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2100666841605853184/vid/avc1/1920x1080/0j1mOAz_5n9835X2.mp4",
+    "publishedAt": "2026-09-17T19:23:05.000Z",
+    "durationSeconds": 14,
+    "featured": false,
+    "status": "published",
+    "views": 9478,
+    "viewsCapturedAt": "2026-09-29T15:50:08.308Z"
   }
 ]

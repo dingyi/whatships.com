@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T07:03:30.563Z",
+  "updatedAt": "2026-09-29T15:49:59.999Z",
   "items": [
     {
       "id": "disc-2104648360070091132",
@@ -122,9 +122,9 @@
     {
       "id": "disc-2104647329521520867",
       "tweetId": "2104647329521520867",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:34.794Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:40:17.635Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -374,9 +374,9 @@
     {
       "id": "disc-2104674987164782598",
       "tweetId": "2104674987164782598",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:32.381Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:37:09.913Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -978,9 +978,9 @@
     {
       "id": "disc-2104298872029741366",
       "tweetId": "2104298872029741366",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:22.572Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:38:14.263Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1834,9 +1834,9 @@
     {
       "id": "disc-2102061083645133050",
       "tweetId": "2102061083645133050",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-25T10:20:53.720Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:40:04.571Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -2507,9 +2507,9 @@
     {
       "id": "disc-2101027385734783283",
       "tweetId": "2101027385734783283",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-22T06:27:36.555Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:38:03.325Z",
       "score": 60,
       "reasons": [
         "has-video",
@@ -2812,9 +2812,9 @@
     {
       "id": "disc-2100993496077205840",
       "tweetId": "2100993496077205840",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-22T06:27:34.303Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:36:52.548Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3478,70 +3478,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2100666871754440975",
-      "tweetId": "2100666871754440975",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-18T14:18:09.784Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2100666871754440975",
-        "tweetUrl": "https://x.com/framer/status/2100666871754440975",
-        "authorHandle": "framer",
-        "authorName": "Framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "text": "Check out these 4 fun components you can build for your website with the Framer Agent. Prompts below ↓ https://t.co/41AtFmEjXD",
-        "createdAt": "2026-09-17T19:23:05.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2100666841605853184/vid/avc1/1920x1080/0j1mOAz_5n9835X2.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2100666841605853184/img/zgmhZshcGCvrsQY0.jpg",
-            "durationMs": 14366
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "framer",
-        "company": "Framer",
-        "category": "design",
-        "tags": [
-          "design",
-          "web"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2100666871754440975",
-        "slug": "framer-440975",
-        "title": "4 fun components you can build for your website",
-        "product": "Framer",
-        "company": "Framer",
-        "description": "",
-        "category": "design",
-        "tags": [
-          "design",
-          "web",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/framer/status/2100666871754440975",
-        "tweetId": "2100666871754440975",
-        "authorName": "Framer",
-        "authorHandle": "framer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
-        "poster": "/posters/framer-440975.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2100666841605853184/vid/avc1/1920x1080/0j1mOAz_5n9835X2.mp4?tag=16",
-        "publishedAt": "2026-09-17T19:23:05.000Z",
-        "durationSeconds": 14,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2100701581109072332",
       "tweetId": "2100701581109072332",
       "reviewStatus": "rejected",
@@ -4033,9 +3969,9 @@
     {
       "id": "disc-2100284304177909803",
       "tweetId": "2100284304177909803",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-17T13:18:40.817Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:38:31.774Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -4398,9 +4334,9 @@
     {
       "id": "disc-2100357459827429534",
       "tweetId": "2100357459827429534",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-17T13:18:37.184Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T15:39:07.965Z",
       "score": 38,
       "reasons": [
         "has-video",
