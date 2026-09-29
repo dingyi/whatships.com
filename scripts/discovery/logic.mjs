@@ -148,10 +148,45 @@ export function buildDiscoverySlug(company, tweetId) {
     : `launch-${tweetId.slice(-8)}`;
 }
 
+/** Mathematical monospace letters (𝚘𝚗𝚎) fold to ASCII so a skill name is readable. */
+function foldMathLetters(text) {
+  return text.replace(/[\u{1D670}-\u{1D6A3}]/gu, (char) => {
+    const code = char.codePointAt(0) ?? 0;
+    if (code >= 0x1d670 && code <= 0x1d689) {
+      return String.fromCharCode(65 + (code - 0x1d670));
+    }
+    if (code >= 0x1d68a && code <= 0x1d6a3) {
+      return String.fromCharCode(97 + (code - 0x1d68a));
+    }
+    return char;
+  });
+}
+
+function plain(text) {
+  return foldMathLetters(text ?? "")
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function firstSentence(text) {
-  const line = text.replace(/https?:\/\/\S+/g, " ").split(/\n/)[0] ?? "";
+  const line = foldMathLetters(text ?? "")
+    .replace(/https?:\/\/\S+/g, " ")
+    .split(/\n/)[0] ?? "";
   const sentence = line.split(/(?<=[.!?])\s/)[0] ?? "";
   return sentence.replace(/\s+/g, " ").trim().replace(/[.:]+$/, "");
+}
+
+function sentencesOf(text) {
+  return plain(text)
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.replace(/[.:]+$/, "").trim())
+    .filter(Boolean);
+}
+
+/** "450K+ views." is a boast, not a name. */
+function isStatSentence(sentence) {
+  return /^\s*[\d.,]+\s*[kKmM]?\+?\s+views\b/i.test(sentence);
 }
 
 /** A title or sentence we are willing to publish: fits, and is not cut off. */
@@ -166,15 +201,30 @@ function fits(value, max = TITLE_MAX) {
  * Pull a product name out of "Introducing X — hook" without keeping a
  * half-finished sentence. Long hooks are dropped, not sliced mid-thought.
  */
-function extractIntro(sentence) {
-  const match = sentence.match(
-    /^(?:introducing|announcing|presenting|meet)\s*:?\s+(.+)$/i,
-  );
+function extractIntro(text) {
+  const clean = plain(text).replace(/^\p{Extended_Pictographic}+\s*/u, "");
+  // "introducing"/"announcing" can sit after a teaser line. "meet" only
+  // counts at the start of a sentence — "nice to meet you" is not a launch.
+  const match =
+    clean.match(/\b(?:introducing|announcing)\b\s*:?\s+(.+)$/i) ??
+    clean.match(/(?:^|(?<=[.!?]\s))(?:presenting|meet)\b\s*:?\s+(.+)$/i);
   if (!match) return null;
-  const rest = match[1].trim();
-  const [head, ...tail] = rest.split(/\s+[—–-]\s+/);
-  let product = head.trim();
-  let hook = tail.join(" — ").trim();
+  const rest = match[1].replace(/[.:]+$/, "").trim();
+  const emojiParts = rest.split(/\s*\p{Extended_Pictographic}\uFE0F?\s*/u);
+  let product;
+  let hook;
+  if (
+    emojiParts.length > 1 &&
+    emojiParts[0].trim().length >= 2 &&
+    emojiParts[0].trim().length <= 40
+  ) {
+    product = emojiParts[0].trim();
+    hook = emojiParts.slice(1).join(" ").trim();
+  } else {
+    const parts = rest.split(/\s+[—–-]\s+|\s*[:,]\s+/);
+    product = parts[0].trim();
+    hook = parts.slice(1).join(", ").trim();
+  }
   product = product.replace(/^(?:the|our)\s+/i, "").trim();
   const bound = product.match(/^(.*?)\s+((?:in|on|for|with)\s+.+)$/i);
   if (
@@ -193,28 +243,140 @@ function extractIntro(sentence) {
 /** First self-contained clause, stopping before "that/which/from @…". */
 function leadingClause(hook) {
   if (!hook) return "";
-  return hook
-    .replace(/@\w+/g, "")
+  const sentence = hook.replace(/@\w+/g, " ").split(/(?<=[.!?])\s+/)[0] ?? hook;
+  return sentence
+    .replace(/[.!?]+$/, "")
     .split(/\s+(?:that|which|so|because|from)\b/i)[0]
     .replace(/[,:;]+$/, "")
+    .replace(/\s+(?:at|in|on|for|with|from|and)\s*$/i, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function decap(clause) {
+  return clause.replace(/^[A-Z](?![A-Z])/, (letter) => letter.toLowerCase());
+}
+
+const DANGLING =
+  /^(?:a|an|the|and|or|but|for|with|to|of|in|on|at|from|by|via|your)$/i;
+
+/** Longest complete prefix that still fits in a title. */
+function longestPhrase(phrase, room) {
+  const words = phrase.split(/\s+/).filter(Boolean);
+  for (let end = words.length; end >= 1; end--) {
+    const raw = words[end - 1];
+    const last = raw.replace(/[,:;]+$/, "");
+    if (DANGLING.test(last)) continue;
+    const next = words[end]?.replace(/[,:;]+$/g, "") ?? "";
+    // "workforce open|source" is a split word pair. A comma keeps "open source".
+    if (
+      next &&
+      !/[,:;]/.test(raw) &&
+      /^[a-z]/.test(next) &&
+      !DANGLING.test(next)
+    ) {
+      continue;
+    }
+    const cut = words.slice(0, end).join(" ").replace(/[,:;]+$/, "").trim();
+    if (!cut) continue;
+    if (end < words.length && cut.length < 8) break;
+    if (cut.length <= room) return cut;
+  }
+  return null;
+}
+
+function titleFromIntro(intro) {
+  const clause = decap(leadingClause(intro.hook));
+  if (clause) {
+    const room = TITLE_MAX - intro.product.length - " — ".length;
+    const cut = longestPhrase(clause, room);
+    if (cut) {
+      const title = fits(`${intro.product} — ${cut}`);
+      if (title) return title;
+    }
+  }
+  return fits(intro.product);
+}
+
+/**
+ * A product the post actually names, used when the opening line is too long
+ * to be a title and there is no Introducing clause.
+ */
+function namedProductTitle(text) {
+  const clean = plain(text);
+  const lead = clean.match(
+    /^((?:[A-Z0-9][\w.+]*|\d+(?:\.\d+)?)(?:\s+(?:[A-Z0-9][\w.+]*|\d+(?:\.\d+)?)){0,5})\s+(?:turns|lets|makes|keeps|shows|scans|vacuums|ships)\b/,
+  );
+  if (lead) {
+    const title = fits(lead[1]);
+    if (title) return title;
+  }
+  const generated = clean.match(
+    /\bgenerated in ([A-Z][\w+]*(?:\s+[A-Z][\w+]*){0,3})\b/,
+  );
+  if (generated) {
+    const title = fits(generated[1]);
+    if (title) return title;
+  }
+  const mac = clean.match(/\bon the ([A-Za-z][\w-]*) mac app\b/i);
+  if (mac) {
+    const name = mac[1].replace(/^[a-z]/, (letter) => letter.toUpperCase());
+    const title = fits(name);
+    if (title) return title;
+  }
+  const skill = clean.match(/(\/[\w-]+)\b/);
+  if (skill && /skill/i.test(clean)) {
+    const title = fits(skill[1]);
+    if (title) return title;
+  }
+  const site = clean.match(/\b(?:site|app)\s+([A-Z][A-Za-z0-9]+)\b/);
+  if (site) {
+    const title = fits(site[1]);
+    if (title) return title;
+  }
+  const opening = firstSentence(text).replace(
+    /\s*(?:[↓↑→←]|[\p{Extended_Pictographic}\uFE0F]+)+\s*$/u,
+    "",
+  );
+  const checkout = opening.match(/^check out (?:these\s+)?(.+)$/i);
+  if (checkout) {
+    const title = longestPhrase(checkout[1].replace(/[.:]+$/, ""), TITLE_MAX);
+    if (title && fits(title)) return fits(title);
+  }
+  const vacuums = clean.match(
+    /\b([A-Z][\w.+]*(?:\s+[A-Z0-9][\w.+]*){0,4})\s+vacuums\b/,
+  );
+  if (vacuums) {
+    const title = fits(vacuums[1]);
+    if (title) return title;
+  }
+  for (const part of sentencesOf(text)) {
+    if (isStatSentence(part) || fits(part)) continue;
+    const cut = part.split(/\s+\(|,\s+/)[0]?.trim() ?? "";
+    if (cut.length < 20 || cut.length >= part.length) continue;
+    const title = fits(cut);
+    if (title) return title;
+  }
+  return null;
 }
 
 export function guessTitle(text, company) {
   const fallback = `${company} — launch video`;
   const sentence = firstSentence(text);
-  const direct = fits(sentence);
+  const direct = !isStatSentence(sentence) ? fits(sentence) : null;
+  if (direct && /^(?:introducing|announcing|presenting|meet)\b/i.test(direct)) {
+    return direct;
+  }
+
+  const intro = extractIntro(text);
+  if (intro) {
+    const titled = titleFromIntro(intro);
+    if (titled) return titled;
+  }
   if (direct) return direct;
 
-  const intro = extractIntro(sentence);
-  if (intro) {
-    const clause = leadingClause(intro.hook);
-    const withHook = clause ? fits(`${intro.product} — ${clause}`) : null;
-    if (withHook) return withHook;
-    const productOnly = fits(intro.product);
-    if (productOnly) return productOnly;
-  }
+  const named = namedProductTitle(text);
+  if (named) return named;
   return fits(fallback) ?? company;
 }
 
@@ -223,7 +385,7 @@ export function guessTitle(text, company) {
  * Returns "" when that would just be a chopped-off tweet.
  */
 export function guessDescription(text) {
-  const intro = extractIntro(firstSentence(text));
+  const intro = extractIntro(text);
   if (!intro) return "";
   const clause = leadingClause(intro.hook).replace(/^(?:a|an|the)\s+/i, (word) =>
     word.toLowerCase(),
@@ -240,7 +402,7 @@ export function guessDescription(text) {
 }
 
 export function buildCandidateDraft(post, watchlist) {
-  const intro = extractIntro(firstSentence(post.text ?? ""));
+  const intro = extractIntro(post.text ?? "");
   const companyIsAuthor =
     Boolean(post.authorName) && watchlist.company === post.authorName;
   const named = companyIsAuthor && intro ? intro.product : watchlist.company;
