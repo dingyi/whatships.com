@@ -37,11 +37,10 @@ describe("trust and developer pages", () => {
     }
   });
 
-  it("puts homepage crawler copy outside the HomeApp island", () => {
+  it("keeps the H1 and hero copy outside the HomeApp island", () => {
     const source = readFileSync("src/pages/index.astro", "utf8");
     expect(source).toContain('data-agent-intro');
     expect(source).toContain("<h1>");
-    expect(source).toContain("HOMEPAGE_INTRO");
     const islandIndex = source.indexOf("<HomeApp");
     const introIndex = source.indexOf("data-agent-intro");
     expect(introIndex).toBeGreaterThan(0);
@@ -80,13 +79,15 @@ describe("trust and developer pages", () => {
     expect(index).toContain("firstPage");
     expect(index).toContain("rel=\"preload\"");
     expect(index).not.toContain("videos={publishedVideos}");
-    // GEO filler (quotations blockquote wall + agent FAQ dump) must stay out
-    // of the homepage; machine-facing surfaces (llms.txt, JSON-LD, markdown)
-    // carry that content instead.
+    // GEO filler (quotations blockquote wall + agent FAQ dump) and the long
+    // About text block must stay out of the homepage; machine-facing surfaces
+    // (llms.txt, JSON-LD, markdown sibling) carry that content instead.
     expect(index).not.toContain("SiteSources");
     expect(index).not.toContain("GEO_CITATIONS");
     expect(index).not.toContain("GEO_FAQS");
     expect(index).not.toContain("blockquote");
+    expect(index).not.toContain("home-about");
+    expect(index).not.toContain("HOMEPAGE_INTRO");
     expect(readFileSync("src/lib/site.ts", "utf8")).toContain(
       "https://llmstxt.org/",
     );

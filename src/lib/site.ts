@@ -100,10 +100,12 @@ export function metaDescription(text: string): string {
 export const HOMEPAGE_H1 = "Discover startup launch videos from X";
 
 /**
- * Homepage "About" copy. Rendered visibly in index.astro, outside the React
- * island, so AI crawlers that ignore custom elements still see 500+
- * characters of raw HTML. It must stay visible — hiding it (sr-only) would
- * be hidden text under Google's spam policy.
+ * Homepage "About" copy. Ships in the homepage markdown sibling and
+ * llms-full.txt (both generated in src/lib/markdown.ts) — it is NOT rendered
+ * in the visible HTML. The page keeps only the H1 + hero line outside the
+ * React island; the island itself is server-rendered, so crawlers still see
+ * the grid. Keep this at 500+ characters so agent surfaces carry the full
+ * directory description.
  */
 export const HOMEPAGE_INTRO = `What Ships (whatships.com) is an independent curated directory of startup launch videos from X. The catalog indexes product launch videos, first-look demos, and walkthroughs so founders, designers, and marketers can study how products announce themselves after the timeline has moved on.
 

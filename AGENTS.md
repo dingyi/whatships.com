@@ -167,12 +167,15 @@ reduced-motion users keep the play chip; clicking still opens the player.
   this idiom; motion tokens are defined in `src/styles/global.css`.
 - Titles ≤ 55 chars (Google truncation). Dates format via
   `formatPublishedAt` (UTC-pinned — do not remove the `timeZone`).
-- Agent surfaces: keep an H1 plus 500+ chars of homepage copy **outside**
-  the `HomeApp` island (`data-agent-intro`), and keep it **visible** —
-  `sr-only` crawler copy is hidden text under Google's spam policy; keep `/llms.txt` when-to-use
-  guidance; keep `/contact/`, `/privacy/`, `/developers/`, and
-  `/openapi.json`. Markdown siblings are generated at build into `dist/`
-  (not committed).
+- Agent surfaces: keep an H1 plus the one-line hero intro **outside** the
+  `HomeApp` island (`data-agent-intro`), and keep them **visible** — `sr-only`
+  crawler copy is hidden text under Google's spam policy. Do not re-add a long
+  About/text block to the homepage: the island is server-rendered (crawlers
+  see the grid in the raw HTML), and the full directory description ships in
+  the homepage markdown sibling + `llms-full.txt` (`src/lib/markdown.ts`).
+  Keep `/llms.txt` when-to-use guidance; keep `/contact/`, `/privacy/`,
+  `/developers/`, and `/openapi.json`. Markdown siblings are generated at
+  build into `dist/` (not committed).
 - Grid posters need both sizes; `poster` field always points to the 1440w
   file, code derives the `-960` variant.
 - Card overlays come in pairs: the view chip (`.video-card__views`) sits

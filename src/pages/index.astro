@@ -8,15 +8,12 @@ import { PAGE_SIZE, gridPoster, toDirectoryVideo } from "@/lib/directory";
 import { homepageJsonLd } from "@/lib/schema";
 import {
   HOMEPAGE_H1,
-  HOMEPAGE_INTRO,
   HOMEPAGE_TITLE,
   SITE_META_DESCRIPTION,
-  SITE_NAME,
 } from "@/lib/site";
 
 const firstPage = publishedVideos.slice(0, PAGE_SIZE).map(toDirectoryVideo);
 const lcpPoster = firstPage[0] ? gridPoster(firstPage[0].poster) : null;
-const introParagraphs = HOMEPAGE_INTRO.trim().split(/\n\n+/);
 // The ItemList mirrors the newest entries already in the HTML grid; capped so
 // the JSON-LD block stays small.
 const jsonLd = homepageJsonLd(
@@ -48,9 +45,11 @@ const jsonLd = homepageJsonLd(
     set:html={JSON.stringify(jsonLd)}
   />
   <PageHeader active="discover" client:idle />
-  {/* H1 and site intro live outside the HomeApp island (AGENTS.md) so agents
-      that skip custom elements still see them. Both are visible to people
-      too: crawler-only copy would be hidden text under Google's spam policy. */}
+  {/* H1 and site intro live outside the HomeApp island so agents that skip
+      custom elements still see them, and they stay visible to people:
+      crawler-only copy would be hidden text under Google's spam policy. The
+      long About copy ships in the homepage markdown sibling and
+      llms-full.txt (src/lib/markdown.ts) instead of the visible page. */}
   <main>
     <section class="hero" data-agent-intro>
       <div class="hero__inner">
@@ -66,14 +65,6 @@ const jsonLd = homepageJsonLd(
       totalCount={publishedVideos.length}
       client:idle
     />
-    <section
-      class="home-about"
-      aria-labelledby="home-about-title"
-      data-agent-intro
-    >
-      <h2 id="home-about-title">About {SITE_NAME}</h2>
-      {introParagraphs.map((paragraph) => <p>{paragraph}</p>)}
-    </section>
   </main>
 
   <SiteFooter />
