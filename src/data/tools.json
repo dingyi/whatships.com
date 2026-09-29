@@ -816,5 +816,15 @@
     "url": "https://renoise.ai/",
     "category": "ai",
     "poster": "/posters/tools/renoise.webp"
+  },
+  {
+    "id": "tool-revid",
+    "slug": "revid",
+    "name": "Revid",
+    "tagline": "Where short-form creators grow",
+    "description": "Turn prompts, scripts, URLs, product pages, audio, and PDFs into editable videos. Generate, edit, publish, and automate short-form content with Revid.",
+    "url": "https://www.revid.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/revid.webp"
   }
 ]
