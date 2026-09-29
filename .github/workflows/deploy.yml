@@ -67,3 +67,27 @@ jobs:
         run: pnpm exec wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      # A green `wrangler deploy` only proves the upload request returned 0,
+      # not that production is serving this commit. Read the build marker back
+      # from the live domain (the unique query string is a fresh cache key, so
+      # the check sees the deployed version rather than an edge copy of the
+      # previous one) and fail the run if it does not match. This is the signal
+      # that turns a dropped change from invisible into a red run.
+      - name: Verify deploy
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 10); do
+            body=$(curl -sS --max-time 15 "https://whatships.com/version.json?expected=$EXPECTED_COMMIT" || true)
+            served=$(printf '%s' "$body" | jq -r '.commit // empty' 2>/dev/null || true)
+            if [ "$served" = "$EXPECTED_COMMIT" ]; then
+              echo "Deploy verified: production is serving $served"
+              exit 0
+            fi
+            echo "attempt $attempt/10: production served commit '${served:-<no marker>}', expected $EXPECTED_COMMIT"
+            sleep 6
+          done
+          echo "::error::Production never served commit $EXPECTED_COMMIT after deploy"
+          exit 1
