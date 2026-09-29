@@ -12,3 +12,7 @@ test-results/
 # Local playback streams are generated artifacts (scripts/capture-posters.mjs),
 # too large for git. Playback uses the video proxy in production.
 public/streams/
+# Internal editorial scan notes — kept local, never for the public repo.
+discoveries/
+docs/discovery/
+docs/discovery-*.md
