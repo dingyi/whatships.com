@@ -786,5 +786,35 @@
     "category": "skills",
     "poster": "/posters/tools/video-demo.webp",
     "install": "npx skills add nilbuild/video-demo"
+  },
+  {
+    "id": "tool-viewport",
+    "slug": "viewport",
+    "name": "Viewport",
+    "tagline": "Screen recording for designers",
+    "description": "A macOS screen recorder for designers. Capture your work on a timeline, fine-tune every scroll, click, and easing, then export a polished video.",
+    "url": "https://viewport.theresonance.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/viewport.webp"
+  },
+  {
+    "id": "tool-evercut",
+    "slug": "evercut",
+    "name": "Evercut",
+    "tagline": "Capture, edit, and share anything on your screen",
+    "description": "A Mac app for screenshots and screen recordings. Annotate and beautify captures, edit video by timeline or transcript, then export or share.",
+    "url": "https://evercut.app/",
+    "category": "editor",
+    "poster": "/posters/tools/evercut.webp"
+  },
+  {
+    "id": "tool-renoise",
+    "slug": "renoise",
+    "name": "Renoise",
+    "tagline": "Create videos, images, and audio",
+    "description": "Create videos, images, and audio with leading AI models. Keep characters and products consistent, enhance media to 4K, and plan shots with Renoise Agent.",
+    "url": "https://renoise.ai/",
+    "category": "ai",
+    "poster": "/posters/tools/renoise.webp"
   }
 ]
