@@ -60737,5 +60737,57 @@
     "status": "published",
     "views": 104237,
     "viewsCapturedAt": "2026-09-29T07:29:51.012Z"
+  },
+  {
+    "id": "plv-bew-browser",
+    "slug": "bew-browser",
+    "title": "Bew Browser — a browser for builders",
+    "product": "Bew Browser",
+    "company": "Bew Browser",
+    "description": "Bew Browser is a developer-friendly browser with a custom interface built on WebKit. It is clean, fast, and made for Mac.",
+    "category": "developer-tools",
+    "tags": [
+      "browser",
+      "webkit"
+    ],
+    "tweetUrl": "https://x.com/aslanon/status/2104632173424967974",
+    "tweetId": "2104632173424967974",
+    "authorName": "Onur Aslan",
+    "authorHandle": "aslanon",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2036463624290471936/zkv9JSnz.jpg",
+    "poster": "/posters/bew-browser.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104631520065380352/vid/avc1/2238x1440/Qu_4md4wPAqTFafs.mp4",
+    "publishedAt": "2026-09-28T17:59:46.000Z",
+    "durationSeconds": 116,
+    "featured": false,
+    "status": "published",
+    "views": 18360,
+    "viewsCapturedAt": "2026-09-29T07:57:11.691Z"
+  },
+  {
+    "id": "plv-placify-2",
+    "slug": "placify-2",
+    "title": "Placify 2.0 — save a place, keep the journey",
+    "product": "Placify 2.0",
+    "company": "Placify",
+    "description": "Placify 2.0 turns a saved place into a trip and keeps the journey you actually took on your own map. It plans places, routes, stays, and transport by day, and adds Now, a daily review, and trip memories.",
+    "category": "consumer",
+    "tags": [
+      "travel",
+      "maps"
+    ],
+    "tweetUrl": "https://x.com/thexclu/status/2104466264726847652",
+    "tweetId": "2104466264726847652",
+    "authorName": "Clu",
+    "authorHandle": "thexclu",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/989440965030043648/Qhw8FNkq.jpg",
+    "poster": "/posters/placify-2.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104466030823362560/vid/avc1/1920x1080/ec-N_LFoi9dmD6Vz.mp4",
+    "publishedAt": "2026-09-28T07:00:31.000Z",
+    "durationSeconds": 44,
+    "featured": false,
+    "status": "published",
+    "views": 2955,
+    "viewsCapturedAt": "2026-09-29T07:57:11.691Z"
   }
 ]
