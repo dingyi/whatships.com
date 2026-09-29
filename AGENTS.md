@@ -36,6 +36,13 @@ a `pnpm` on `PATH` may be older than CI's.
   `workers/video-proxy/**` with its own `deploy-video-proxy` concurrency
   group, so a site failure cannot hold back a proxy fix and a proxy change
   no longer rides along in the site job.
+- **Each production job verifies its own deploy** before the run is
+  considered shipped. The site job reads `/version.json` back from
+  `whatships.com` and fails unless the served commit equals the pushed
+  one (`src/pages/version.json.ts` emits the commit from `GITHUB_SHA`);
+  the proxy job checks the live Worker still answers at
+  `proxy.whatships.com`. A deploy that never reached production turns
+  red instead of leaving the previous build serving silently.
 - Both production workflows serialize on their own concurrency group with
   `cancel-in-progress: false`, so a run already inside `wrangler deploy` is
   never killed by the next push (superseded runs that are still queued
