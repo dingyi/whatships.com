@@ -45,32 +45,52 @@ jobs:
         run: pnpm exec vitest run tests/video-proxy.test.ts
 
       - name: Deploy video proxy
-        run: pnpm exec wrangler deploy
+        id: deploy
+        run: |
+          deploy_out=$(pnpm exec wrangler deploy 2>&1 | tee /dev/stderr)
+          verify_base=$(printf '%s' "$deploy_out" | grep -oE 'https://[a-z0-9.-]+\.workers\.dev' | head -1 || true)
+          if [ -z "$verify_base" ]; then
+            echo "::warning::no workers.dev URL in wrangler output; verify falls back to the custom domain, which the zone's bot mitigation may challenge"
+            verify_base="https://proxy.whatships.com"
+          fi
+          echo "verify_base=$verify_base" >> "$GITHUB_OUTPUT"
         working-directory: workers/video-proxy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
-      # `wrangler deploy` returning 0 does not prove the Worker is reachable at
-      # its custom domain. A request without ?url= exercises the deployed code
-      # and returns its documented 400, which is the liveness signal that the
-      # proxy is up after deploy. Browser UA + body snippet on miss, for the
-      # same runner-IP bot-mitigation reason as the site verify step.
+      # `wrangler deploy` returning 0 does not prove the Worker is reachable.
+      # A request without ?url= exercises the deployed code and returns its
+      # documented 400 — the liveness signal. It targets the workers.dev URL
+      # for the same reason as the site verify: the whatships.com zone
+      # answers GitHub-hosted runner IPs with a 403 "Just a moment..."
+      # interstitial before the request reaches the Worker. The custom
+      # domain is probed once afterwards, warning-tier only.
       - name: Verify video proxy
+        env:
+          VERIFY_BASE: ${{ steps.deploy.outputs.verify_base }}
         run: |
           set -euo pipefail
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
           for attempt in $(seq 1 10); do
-            resp=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' "https://proxy.whatships.com/?check=$(date +%s)" || true)
+            resp=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' "$VERIFY_BASE/?check=$(date +%s)" || true)
             status=$(printf '%s' "$resp" | tail -n1)
             body=$(printf '%s' "$resp" | sed '$d')
             if [ "$status" = "400" ] && printf '%s' "$body" | grep -qF 'Missing ?url='; then
-              echo "Video proxy verified: live Worker answered with the expected 400"
+              echo "Video proxy verified: $VERIFY_BASE answered with the expected 400"
+              apex=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' "https://proxy.whatships.com/?check=$(date +%s)" || true)
+              apex_status=$(printf '%s' "$apex" | tail -n1)
+              apex_body=$(printf '%s' "$apex" | sed '$d')
+              if [ "$apex_status" = "400" ] && printf '%s' "$apex_body" | grep -qF 'Missing ?url='; then
+                echo "Custom domain read-back: proxy.whatships.com answered too"
+              else
+                echo "::warning::Custom domain read-back inconclusive (HTTP ${apex_status:-<none>}); a runner-IP miss is expected while the zone challenges datacenter traffic."
+              fi
               exit 0
             fi
-            echo "attempt $attempt/10: proxy status '${status:-<none>}'"
+            echo "attempt $attempt/10: $VERIFY_BASE status '${status:-<none>}'"
             snippet=$(printf '%s' "$body" | head -c 200 || true)
             echo "  body: $(printf '%s' "$snippet" | tr '\n' ' ')"
             sleep 6
           done
-          echo "::error::Video proxy did not answer at proxy.whatships.com after deploy"
+          echo "::error::Video proxy did not answer at $VERIFY_BASE after deploy"
           exit 1

@@ -64,42 +64,63 @@ jobs:
         run: rm -rf dist/streams dist/admin
 
       - name: Deploy
-        run: pnpm exec wrangler deploy
+        id: deploy
+        run: |
+          deploy_out=$(pnpm exec wrangler deploy 2>&1 | tee /dev/stderr)
+          verify_base=$(printf '%s' "$deploy_out" | grep -oE 'https://[a-z0-9.-]+\.workers\.dev' | head -1 || true)
+          if [ -z "$verify_base" ]; then
+            echo "::warning::no workers.dev URL in wrangler output; verify falls back to the apex, which the zone's bot mitigation may challenge"
+            verify_base="https://whatships.com"
+          fi
+          echo "verify_base=$verify_base" >> "$GITHUB_OUTPUT"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       # A green `wrangler deploy` only proves the upload request returned 0,
-      # not that production is serving this commit. Read the build marker back
-      # from the live domain and fail the run if it does not match. This is
-      # the signal that turns a dropped change from invisible into a red run.
+      # not that production is serving this commit. Read the build marker
+      # back over HTTP and fail the run if it does not match; this is the
+      # signal that turns a dropped change from invisible into a red run.
       #
-      # The request carries a browser User-Agent: it originates from a
-      # GitHub-hosted runner (datacenter ASN), where a bare `curl/8.x` UA can
-      # be challenged by the zone's bot mitigation before the request ever
-      # reaches the Worker. Every miss logs the HTTP status and the first
-      # bytes of the response, so a red run shows exactly what the edge
-      # returned instead of a bare "<no marker>".
+      # The read-back targets the deployment's workers.dev URL: the apex is
+      # inside the whatships.com zone, whose bot mitigation answers
+      # GitHub-hosted runner IPs (datacenter ASN) with a 403 "Just a
+      # moment..." interstitial before the request reaches the Worker — the
+      # apex check 403'd on every attempt from the day it landed while every
+      # deploy was actually live. workers.dev serves the same Worker +
+      # assets outside the zone's rules. The apex is still probed once
+      # afterwards, warning-tier only: a runner-IP miss there is expected
+      # while the zone challenges datacenter traffic.
       - name: Verify deploy
         env:
           EXPECTED_COMMIT: ${{ github.sha }}
+          VERIFY_BASE: ${{ steps.deploy.outputs.verify_base }}
         run: |
           set -euo pipefail
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
           for attempt in $(seq 1 20); do
-            resp=$(curl -sS --max-time 15 -A "$UA" \
-              -w '\n%{http_code}' \
-              "https://whatships.com/version.json?expected=$EXPECTED_COMMIT&attempt=$attempt" || true)
+            resp=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' \
+              "$VERIFY_BASE/version.json?expected=$EXPECTED_COMMIT&attempt=$attempt" || true)
             status=$(printf '%s' "$resp" | tail -n1)
             body=$(printf '%s' "$resp" | sed '$d')
             served=$(printf '%s' "$body" | jq -r '.commit // empty' 2>/dev/null || true)
             if [ "$served" = "$EXPECTED_COMMIT" ]; then
-              echo "Deploy verified: production is serving $served (HTTP $status)"
+              echo "Deploy verified: $VERIFY_BASE is serving $served (HTTP $status)"
+              apex=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' \
+                "https://whatships.com/version.json?expected=$EXPECTED_COMMIT" || true)
+              apex_status=$(printf '%s' "$apex" | tail -n1)
+              apex_body=$(printf '%s' "$apex" | sed '$d')
+              apex_served=$(printf '%s' "$apex_body" | jq -r '.commit // empty' 2>/dev/null || true)
+              if [ "$apex_served" = "$EXPECTED_COMMIT" ]; then
+                echo "Apex read-back: whatships.com is serving $apex_served too"
+              else
+                echo "::warning::Apex read-back inconclusive (HTTP ${apex_status:-<none>}, commit '${apex_served:-<no marker>}'). workers.dev confirmed the deploy; an apex miss from a runner IP usually means the zone challenged the request."
+              fi
               exit 0
             fi
-            echo "attempt $attempt/20: HTTP ${status:-<none>}, commit '${served:-<no marker>}' (expected $EXPECTED_COMMIT)"
+            echo "attempt $attempt/20: $VERIFY_BASE HTTP ${status:-<none>}, commit '${served:-<no marker>}' (expected $EXPECTED_COMMIT)"
             snippet=$(printf '%s' "$body" | head -c 300 || true)
             echo "  body: $(printf '%s' "$snippet" | tr '\n' ' ')"
             sleep 10
           done
-          echo "::error::Production never served commit $EXPECTED_COMMIT after deploy"
+          echo "::error::Deployment never served commit $EXPECTED_COMMIT at $VERIFY_BASE"
           exit 1

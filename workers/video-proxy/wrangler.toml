@@ -5,3 +5,11 @@ compatibility_date = "2026-07-29"
 # Custom domain on the whatships.com zone (Workers Custom Domain —
 # Cloudflare provisions the certificate automatically).
 routes = [{ pattern = "proxy.whatships.com", custom_domain = true }]
+
+# Same reason as the site worker: the deploy workflow verifies the deployed
+# Worker through its workers.dev URL because the whatships.com zone
+# challenges GitHub-hosted runner IPs with a 403 interstitial before they
+# reach the Worker. The proxy only relays video.twimg.com / pbs.twimg.com
+# (ALLOWED_HOSTS in src/index.js), so the workers.dev origin exposes no
+# capability the custom domain does not already have.
+workers_dev = true

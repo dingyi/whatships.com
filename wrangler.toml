@@ -9,6 +9,16 @@ routes = [
   { pattern = "www.whatships.com", custom_domain = true },
 ]
 
+# Keep the workers.dev origin enabled: the deploy workflow reads the build
+# marker back from it (whatships.<account>.workers.dev/version.json). The
+# apex sits behind the zone's bot mitigation, which answers GitHub-hosted
+# runner IPs (datacenter ASN) with a 403 "Just a moment..." interstitial
+# before the request reaches the Worker, so the apex cannot serve as the CI
+# read-back. workers.dev is outside the zone's rules and serves the same
+# Worker + assets; the apex remains the canonical origin for everything
+# user-facing (absolute URLs, sitemap, redirects).
+workers_dev = true
+
 # Astro static build output, served by Workers Static Assets.
 # The Worker runs first so Accept: text/markdown can negotiate.
 # Build first: node_modules/.bin/astro build
