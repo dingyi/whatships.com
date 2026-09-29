@@ -3,12 +3,6 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import VideoPlayerDialog from "@/components/VideoPlayerDialog";
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-} from "@/components/ui/select";
-import {
   CATEGORIES,
   authorAvatarSrc,
   categoryLabel,
@@ -18,7 +12,6 @@ import {
   formatViewsLabel,
   playbackUrl,
 } from "@/lib/catalog";
-import { ShapeProvider } from "@/lib/shape-context";
 import {
   clampPage,
   filterVideos,
@@ -338,40 +331,32 @@ export default function HomeApp({ videos, totalCount }: Props) {
         >
           <div className="directory-toolbar">
             <div className="directory-controls">
-              {/* Square shape: the toolbar chrome is noiced-style (0px
-                  corners), but the shared Select defaults to the "rounded"
-                  shape — without this the popup and items come out rounded
-                  while the trigger button is square. Context reaches the
-                  portalled SelectContent too. */}
-              <ShapeProvider defaultShape="square">
-                <Select
-                  value={category}
-                  onValueChange={(value) => {
-                    setCategory(value || "all");
-                    setPage(1);
-                  }}
-                >
-                  <SelectTrigger
-                    className="category-select"
-                    aria-label="Filter by category"
-                    placeholder="All categories"
-                  />
-                  <SelectContent>
-                    <SelectItem index={0} value="all">
-                      All categories
-                    </SelectItem>
-                    {CATEGORIES.map((item, index) => (
-                      <SelectItem
-                        key={item.id}
-                        index={index + 1}
-                        value={item.id}
-                      >
-                        {item.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </ShapeProvider>
+              <div
+                className="category-filters"
+                role="radiogroup"
+                aria-label="Filter by category"
+              >
+                {[
+                  { id: "all", label: "All" },
+                  ...CATEGORIES,
+                ].map((item) => (
+                  <label className="category-filter" key={item.id}>
+                    <input
+                      className="category-filter-input"
+                      type="radio"
+                      name="home-cat"
+                      id={`home-cat-${item.id}`}
+                      value={item.id}
+                      checked={category === item.id}
+                      onChange={() => {
+                        setCategory(item.id);
+                        setPage(1);
+                      }}
+                    />
+                    {item.label}
+                  </label>
+                ))}
+              </div>
               <ResultCount count={resultCount} />
             </div>
           </div>
