@@ -30,22 +30,18 @@ interface ActivePreview {
 
 let active: ActivePreview | null = null;
 let started = false;
+let previewSupported: boolean | null = null;
 
 function supported(): boolean {
-  if (document.documentElement.dataset.hoverPreview !== undefined) {
-    return document.documentElement.dataset.hoverPreview === "on";
+  // Same condition as the CSS media query that hides the play chip at first
+  // paint (global.css); evaluated once and cached. Touch and reduced-motion
+  // users keep the tap/press affordance instead of a hover preview.
+  if (previewSupported === null) {
+    const hoverable = window.matchMedia("(hover: hover) and (pointer: fine)");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    previewSupported = hoverable.matches && !reducedMotion.matches;
   }
-  const hoverable = window.matchMedia("(hover: hover) and (pointer: fine)");
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const on = hoverable.matches && !reducedMotion.matches;
-  if (on) {
-    // Lets CSS hide the play chip only where hover preview is live; touch
-    // and reduced-motion users keep the tap/press affordance.
-    document.documentElement.dataset.hoverPreview = "on";
-  } else {
-    document.documentElement.dataset.hoverPreview = "off";
-  }
-  return on;
+  return previewSupported;
 }
 
 function fadeOut(video: HTMLVideoElement, media: HTMLElement) {

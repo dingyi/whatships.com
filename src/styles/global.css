@@ -2144,7 +2144,10 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
    reduced-motion respected — see src/lib/hover-preview.ts). The preview sits
    under the view/duration chips; the play chip hides entirely on devices
    where previewing is live, since hover itself communicates playability —
-   touch and reduced-motion users keep it as the tap/press affordance. */
+   touch and reduced-motion users keep it as the tap/press affordance.
+   Hiding is the media query below (same condition as supported() in
+   hover-preview.ts), not a JS-set attribute, so the chip is hidden at
+   first paint and never flashes on load. */
 .video-card__preview {
   position: absolute;
   inset: 0;
@@ -2160,8 +2163,10 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
 .video-card__media.is-previewing .video-card__preview {
   opacity: 1;
 }
-:root[data-hover-preview="on"] .video-card__play {
-  display: none;
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .video-card__play {
+    display: none;
+  }
 }
 .video-card__duration,
 .video-card__views {
