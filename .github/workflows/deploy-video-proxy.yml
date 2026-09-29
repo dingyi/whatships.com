@@ -53,12 +53,14 @@ jobs:
       # `wrangler deploy` returning 0 does not prove the Worker is reachable at
       # its custom domain. A request without ?url= exercises the deployed code
       # and returns its documented 400, which is the liveness signal that the
-      # proxy is up after deploy.
+      # proxy is up after deploy. Browser UA + body snippet on miss, for the
+      # same runner-IP bot-mitigation reason as the site verify step.
       - name: Verify video proxy
         run: |
           set -euo pipefail
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
           for attempt in $(seq 1 10); do
-            resp=$(curl -sS --max-time 15 -w '\n%{http_code}' "https://proxy.whatships.com/?check=$(date +%s)" || true)
+            resp=$(curl -sS --max-time 15 -A "$UA" -w '\n%{http_code}' "https://proxy.whatships.com/?check=$(date +%s)" || true)
             status=$(printf '%s' "$resp" | tail -n1)
             body=$(printf '%s' "$resp" | sed '$d')
             if [ "$status" = "400" ] && printf '%s' "$body" | grep -qF 'Missing ?url='; then
@@ -66,6 +68,8 @@ jobs:
               exit 0
             fi
             echo "attempt $attempt/10: proxy status '${status:-<none>}'"
+            snippet=$(printf '%s' "$body" | head -c 200 || true)
+            echo "  body: $(printf '%s' "$snippet" | tr '\n' ' ')"
             sleep 6
           done
           echo "::error::Video proxy did not answer at proxy.whatships.com after deploy"

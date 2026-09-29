@@ -70,24 +70,36 @@ jobs:
 
       # A green `wrangler deploy` only proves the upload request returned 0,
       # not that production is serving this commit. Read the build marker back
-      # from the live domain (the unique query string is a fresh cache key, so
-      # the check sees the deployed version rather than an edge copy of the
-      # previous one) and fail the run if it does not match. This is the signal
-      # that turns a dropped change from invisible into a red run.
+      # from the live domain and fail the run if it does not match. This is
+      # the signal that turns a dropped change from invisible into a red run.
+      #
+      # The request carries a browser User-Agent: it originates from a
+      # GitHub-hosted runner (datacenter ASN), where a bare `curl/8.x` UA can
+      # be challenged by the zone's bot mitigation before the request ever
+      # reaches the Worker. Every miss logs the HTTP status and the first
+      # bytes of the response, so a red run shows exactly what the edge
+      # returned instead of a bare "<no marker>".
       - name: Verify deploy
         env:
           EXPECTED_COMMIT: ${{ github.sha }}
         run: |
           set -euo pipefail
-          for attempt in $(seq 1 10); do
-            body=$(curl -sS --max-time 15 "https://whatships.com/version.json?expected=$EXPECTED_COMMIT" || true)
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+          for attempt in $(seq 1 20); do
+            resp=$(curl -sS --max-time 15 -A "$UA" \
+              -w '\n%{http_code}' \
+              "https://whatships.com/version.json?expected=$EXPECTED_COMMIT&attempt=$attempt" || true)
+            status=$(printf '%s' "$resp" | tail -n1)
+            body=$(printf '%s' "$resp" | sed '$d')
             served=$(printf '%s' "$body" | jq -r '.commit // empty' 2>/dev/null || true)
             if [ "$served" = "$EXPECTED_COMMIT" ]; then
-              echo "Deploy verified: production is serving $served"
+              echo "Deploy verified: production is serving $served (HTTP $status)"
               exit 0
             fi
-            echo "attempt $attempt/10: production served commit '${served:-<no marker>}', expected $EXPECTED_COMMIT"
-            sleep 6
+            echo "attempt $attempt/20: HTTP ${status:-<none>}, commit '${served:-<no marker>}' (expected $EXPECTED_COMMIT)"
+            snippet=$(printf '%s' "$body" | head -c 300 || true)
+            echo "  body: $(printf '%s' "$snippet" | tr '\n' ' ')"
+            sleep 10
           done
           echo "::error::Production never served commit $EXPECTED_COMMIT after deploy"
           exit 1
