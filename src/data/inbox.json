@@ -1,71 +1,12 @@
 {
-  "updatedAt": "2026-09-29T06:20:44.339Z",
+  "updatedAt": "2026-09-29T07:03:30.563Z",
   "items": [
-    {
-      "id": "disc-2104722818541728096",
-      "tweetId": "2104722818541728096",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:36.172Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2104722818541728096",
-        "tweetUrl": "https://x.com/nothing/status/2104722818541728096",
-        "authorHandle": "nothing",
-        "authorName": "Nothing",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2026962551846957056/J0ultDtI.jpg",
-        "text": "Headphone (1) Pro is so over-engineered. There’s three drivers to boost details you didn’t know existed. \n\nOne makes bass deeper.\nAnother gives vocals more texture.\nThe third plays instruments like they’re live. https://t.co/WYlOWGpZPb",
-        "createdAt": "2026-09-28T23:59:58.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104720897508524032/vid/avc1/3840x2160/909VdnzujEPWZCVz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104720897508524032/img/VnR2DMOjsEm0TdYb.jpg",
-            "durationMs": 30000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "nothing",
-        "company": "Nothing",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104722818541728096",
-        "slug": "nothing-728096",
-        "title": "Headphone (1) Pro is so over-engineered",
-        "product": "Nothing",
-        "company": "Nothing",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/nothing/status/2104722818541728096",
-        "tweetId": "2104722818541728096",
-        "authorName": "Nothing",
-        "authorHandle": "nothing",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2026962551846957056/J0ultDtI.jpg",
-        "poster": "/posters/nothing-728096.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104720897508524032/vid/avc1/3840x2160/909VdnzujEPWZCVz.mp4",
-        "publishedAt": "2026-09-28T23:59:58.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
     {
       "id": "disc-2104648360070091132",
       "tweetId": "2104648360070091132",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:35.490Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:54:05.093Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -122,9 +63,9 @@
     {
       "id": "disc-2104718084812750901",
       "tweetId": "2104718084812750901",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:35.138Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:26.101Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -245,9 +186,9 @@
     {
       "id": "disc-2104653657216012791",
       "tweetId": "2104653657216012791",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:34.430Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:40.039Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -309,9 +250,9 @@
     {
       "id": "disc-2104629776619356375",
       "tweetId": "2104629776619356375",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:34.084Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:36:46.165Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -492,9 +433,9 @@
     {
       "id": "disc-2104637080559100386",
       "tweetId": "2104637080559100386",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:31.700Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:36:53.457Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -552,9 +493,9 @@
     {
       "id": "disc-2104662443503026177",
       "tweetId": "2104662443503026177",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:31.361Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:45.023Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -607,66 +548,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104662344081309696/vid/avc1/1818x1080/PQP2wnazKdd4s8Fj.mp4?tag=16",
         "publishedAt": "2026-09-28T20:00:03.000Z",
         "durationSeconds": 40,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104518808161706307",
-      "tweetId": "2104518808161706307",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:30.645Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104518808161706307",
-        "tweetUrl": "https://x.com/morphic/status/2104518808161706307",
-        "authorHandle": "morphic",
-        "authorName": "Morphic",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1842802567295668224/5a_rsbBc.jpg",
-        "text": "Introducing Morphic MCP.\n\nDirect your next shot from Claude, ChatGPT, VS Code and more, with everything saved to your Morphic library.\n\nhttps://t.co/PE21CtLr8Z https://t.co/GUZKjnF9nm",
-        "createdAt": "2026-09-28T10:29:18.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104518020999839744/vid/avc1/3840x2160/vSP68EGQevKG24sC.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104518020999839744/img/4OIK3s4dxXJtZWbt.jpg",
-            "durationMs": 22233
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "morphic",
-        "company": "Morphic",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104518808161706307",
-        "slug": "morphic-mcp-706307",
-        "title": "Introducing Morphic MCP",
-        "product": "Morphic MCP",
-        "company": "Morphic MCP",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/morphic/status/2104518808161706307",
-        "tweetId": "2104518808161706307",
-        "authorName": "Morphic",
-        "authorHandle": "morphic",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1842802567295668224/5a_rsbBc.jpg",
-        "poster": "/posters/morphic-mcp-706307.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104518020999839744/vid/avc1/3840x2160/vSP68EGQevKG24sC.mp4",
-        "publishedAt": "2026-09-28T10:29:18.000Z",
-        "durationSeconds": 22,
         "featured": false,
         "status": "draft"
       },
@@ -734,136 +615,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2104335476345987413",
-      "tweetId": "2104335476345987413",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:29.587Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2104335476345987413",
-        "tweetUrl": "https://x.com/dzhng/status/2104335476345987413",
-        "authorHandle": "dzhng",
-        "authorName": "David",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1816551258905620480/kGMg3Z6W.jpg",
-        "text": "By popular demand, I've skillified the process I used to create this launch video into a new skill, and used it to create its own promo video\n\nPlay it with sound :)\n\nPart of my skills repo:\nhttps://t.co/WcLfM9NhP6 https://t.co/mHJrtmYEX3",
-        "createdAt": "2026-09-27T22:20:48.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104334786433351680/vid/avc1/1920x1080/bKZ-HZe4g1Dc9BD6.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104334786433351680/img/Bt85hCIEhDRLjCMq.jpg",
-            "durationMs": 33856
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "dzhng",
-        "company": "David",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104335476345987413",
-        "slug": "david-987413",
-        "title": "David — launch video",
-        "product": "David",
-        "company": "David",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/dzhng/status/2104335476345987413",
-        "tweetId": "2104335476345987413",
-        "authorName": "David",
-        "authorHandle": "dzhng",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1816551258905620480/kGMg3Z6W.jpg",
-        "poster": "/posters/david-987413.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104334786433351680/vid/avc1/1920x1080/bKZ-HZe4g1Dc9BD6.mp4",
-        "publishedAt": "2026-09-27T22:20:48.000Z",
-        "durationSeconds": 34,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104698524885794938",
-      "tweetId": "2104698524885794938",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:29.231Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bavailable (?:today|now|on)\\b"
-      ],
-      "post": {
-        "tweetId": "2104698524885794938",
-        "tweetUrl": "https://x.com/runwayml/status/2104698524885794938",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "ElevenLabs v4 is now on Runway. The v4 model excels at narration and character dialogue with more expressiveness and natural intonation than ever before. \n\nAvailable today alongside the world's best image and video models. Try it now at the link below. https://t.co/c4AjEfxeQe",
-        "createdAt": "2026-09-28T22:23:26.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104698384259158016/vid/avc1/1920x1080/RnC56dfnLu1j8Awq.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104698384259158016/img/vF249dgUuDi9mvV2.jpg",
-            "durationMs": 66875
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2104698524885794938",
-        "slug": "runway-794938",
-        "title": "ElevenLabs v4 is now on Runway",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2104698524885794938",
-        "tweetId": "2104698524885794938",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-794938.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104698384259158016/vid/avc1/1920x1080/RnC56dfnLu1j8Awq.mp4",
-        "publishedAt": "2026-09-28T22:23:26.000Z",
-        "durationSeconds": 67,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2104646736652447854",
       "tweetId": "2104646736652447854",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:28.536Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:02.498Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -912,66 +668,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104644652158844928/vid/avc1/1920x1080/lL-yWaDujOaClrm7.mp4",
         "publishedAt": "2026-09-28T18:57:39.000Z",
         "durationSeconds": 128,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104633115620823187",
-      "tweetId": "2104633115620823187",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:26.441Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104633115620823187",
-        "tweetUrl": "https://x.com/claudeai/status/2104633115620823187",
-        "authorHandle": "claudeai",
-        "authorName": "Claude",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "text": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.\n\nIt’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. https://t.co/UvXD8mDTF1",
-        "createdAt": "2026-09-28T18:03:31.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104629272543399936/vid/avc1/1920x1080/psIdtRJzfm_fmopA.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTUthyeWIAAInna.jpg",
-            "durationMs": 13280
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "claudeai",
-        "company": "Claude",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104633115620823187",
-        "slug": "claude-sonnet-55-the-second-model-823187",
-        "title": "Claude Sonnet 5.5, the second model",
-        "product": "Claude Sonnet 5.5, the second model",
-        "company": "Claude Sonnet 5.5, the second model",
-        "description": "Claude Sonnet 5.5, the second model in the Claude 5.5 family.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/claudeai/status/2104633115620823187",
-        "tweetId": "2104633115620823187",
-        "authorName": "Claude",
-        "authorHandle": "claudeai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ.jpg",
-        "poster": "/posters/claude-sonnet-55-the-second-model-823187.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104629272543399936/vid/avc1/1920x1080/psIdtRJzfm_fmopA.mp4",
-        "publishedAt": "2026-09-28T18:03:31.000Z",
-        "durationSeconds": 13,
         "featured": false,
         "status": "draft"
       },
@@ -1099,9 +795,9 @@
     {
       "id": "disc-2104297163782316167",
       "tweetId": "2104297163782316167",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:23.666Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:54:42.858Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1163,9 +859,9 @@
     {
       "id": "disc-2104297263556075847",
       "tweetId": "2104297263556075847",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:23.304Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:07.175Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1223,9 +919,9 @@
     {
       "id": "disc-2104318653487288455",
       "tweetId": "2104318653487288455",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:22.943Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:54:39.475Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1344,131 +1040,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2103649716299001991",
-      "tweetId": "2103649716299001991",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:22.221Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103649716299001991",
-        "tweetUrl": "https://x.com/ravilevfx/status/2103649716299001991",
-        "authorHandle": "ravilevfx",
-        "authorName": "Ravile",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1860221669715116032/rrH7PBWu.jpg",
-        "text": "Introducing Pause 1.0 Flash😼\n\nBuilt to SPEED up editors and creators by 80x\nIt's fast and DIRT cheap!!!!\n\nBeta is out now (50% off) https://t.co/ITaP4ToD3o",
-        "createdAt": "2026-09-26T00:55:50.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103647121971064832/vid/avc1/1920x1080/3n6fIEK557fVR_Cs.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103647121971064832/img/gxesh-E9wEqgcL9Z.jpg",
-            "durationMs": 54016
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ravilevfx",
-        "company": "Ravile",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103649716299001991",
-        "slug": "pause-10-flash-001991",
-        "title": "Introducing Pause 1.0 Flash😼",
-        "product": "Pause 1.0 Flash😼",
-        "company": "Pause 1.0 Flash😼",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ravilevfx/status/2103649716299001991",
-        "tweetId": "2103649716299001991",
-        "authorName": "Ravile",
-        "authorHandle": "ravilevfx",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1860221669715116032/rrH7PBWu.jpg",
-        "poster": "/posters/pause-10-flash-001991.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103647121971064832/vid/avc1/1920x1080/3n6fIEK557fVR_Cs.mp4",
-        "publishedAt": "2026-09-26T00:55:50.000Z",
-        "durationSeconds": 54,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104293696195961321",
-      "tweetId": "2104293696195961321",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:21.272Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104293696195961321",
-        "tweetUrl": "https://x.com/primalrobin/status/2104293696195961321",
-        "authorHandle": "primalrobin",
-        "authorName": "Primal Robin",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999562817691672577/ae0n9km2.jpg",
-        "text": "3D animation used to cost thousands per video\n\nthis is $0.10 per minute\n\nIntroducing: Frontier 3D https://t.co/LE6acI8ZL1",
-        "createdAt": "2026-09-27T19:34:47.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104292376948748289/vid/avc1/1920x1080/Zx64a92i31e4ZqQ_.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104292376948748289/img/k231P_xFjQlAE9Wy.jpg",
-            "durationMs": 25000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "primalrobin",
-        "company": "Primal Robin",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104293696195961321",
-        "slug": "primal-robin-961321",
-        "title": "3D animation used to cost thousands per video",
-        "product": "Primal Robin",
-        "company": "Primal Robin",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/primalrobin/status/2104293696195961321",
-        "tweetId": "2104293696195961321",
-        "authorName": "Primal Robin",
-        "authorHandle": "primalrobin",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999562817691672577/ae0n9km2.jpg",
-        "poster": "/posters/primal-robin-961321.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104292376948748289/vid/avc1/1920x1080/Zx64a92i31e4ZqQ_.mp4",
-        "publishedAt": "2026-09-27T19:34:47.000Z",
-        "durationSeconds": 25,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2104173605420777827",
       "tweetId": "2104173605420777827",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:20.948Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:53:05.106Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1526,9 +1102,9 @@
     {
       "id": "disc-2104239778606751769",
       "tweetId": "2104239778606751769",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:20.628Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:37:56.487Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1584,71 +1160,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2104095674845286836",
-      "tweetId": "2104095674845286836",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:20.298Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104095674845286836",
-        "tweetUrl": "https://x.com/tornikegomareli/status/2104095674845286836",
-        "authorHandle": "tornikegomareli",
-        "authorName": "Tornike Gomareli",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082439901212016640/L3PYwQvb.jpg",
-        "text": "Introducing Spaces, simple plugin for @OmarchyLinux \n\n- Shows opened app in every workspace\n- Live Preview of the workspace on hover\n- Terminals running Claude Code get a badge, a spinner while the agent works, a pulsing ! when it needs your input, and a check mark when it is https://t.co/Lzgzgi5OjD",
-        "createdAt": "2026-09-27T06:27:55.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104088936079384576/vid/avc1/1920x1080/qCrrmQbgExi0oOvL.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104088936079384576/img/FWGK5P3q4yxnzS_W.jpg",
-            "durationMs": 10000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "tornikegomareli",
-        "company": "Tornike Gomareli",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104095674845286836",
-        "slug": "spaces-simple-plugin-for-omarchylinux-286836",
-        "title": "Introducing Spaces, simple plugin for @OmarchyLinux",
-        "product": "Spaces, simple plugin for @OmarchyLinux",
-        "company": "Spaces, simple plugin for @OmarchyLinux",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/tornikegomareli/status/2104095674845286836",
-        "tweetId": "2104095674845286836",
-        "authorName": "Tornike Gomareli",
-        "authorHandle": "tornikegomareli",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2082439901212016640/L3PYwQvb.jpg",
-        "poster": "/posters/spaces-simple-plugin-for-omarchylinux-286836.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104088936079384576/vid/avc1/1920x1080/qCrrmQbgExi0oOvL.mp4",
-        "publishedAt": "2026-09-27T06:27:55.000Z",
-        "durationSeconds": 10,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2104266076469236040",
       "tweetId": "2104266076469236040",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:19.632Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-29T06:54:19.028Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1696,125 +1212,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104264770203615232/vid/avc1/1920x1080/HjVKjecuOT_H1niP.mp4",
         "publishedAt": "2026-09-27T17:45:02.000Z",
         "durationSeconds": 8,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104328791514620165",
-      "tweetId": "2104328791514620165",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:19.307Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2104328791514620165",
-        "tweetUrl": "https://x.com/vibhu/status/2104328791514620165",
-        "authorHandle": "vibhu",
-        "authorName": "vibhu",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2061115398854995970/NlohW-pV.jpg",
-        "text": "I built a product that scans your credit card bill, finds all of your paid subscriptions, and lets you cancel them &amp; build your own version with AI in one click.\n\nWant access? https://t.co/5k6YQhRs0N",
-        "createdAt": "2026-09-27T21:54:15.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104328078226800640/vid/avc1/2960x1804/qNNih2dvdnUy1gXW.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104328078226800640/img/4IvS06xPjGItG9CB.jpg",
-            "durationMs": 33883
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "vibhu",
-        "company": "vibhu",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104328791514620165",
-        "slug": "vibhu-620165",
-        "title": "I built a product that scans your credit card bill",
-        "product": "vibhu",
-        "company": "vibhu",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/vibhu/status/2104328791514620165",
-        "tweetId": "2104328791514620165",
-        "authorName": "vibhu",
-        "authorHandle": "vibhu",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2061115398854995970/NlohW-pV.jpg",
-        "poster": "/posters/vibhu-620165.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104328078226800640/vid/avc1/2960x1804/qNNih2dvdnUy1gXW.mp4",
-        "publishedAt": "2026-09-27T21:54:15.000Z",
-        "durationSeconds": 34,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2103897479938777423",
-      "tweetId": "2103897479938777423",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-29T05:35:18.649Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2103897479938777423",
-        "tweetUrl": "https://x.com/byjasonz/status/2103897479938777423",
-        "authorHandle": "byjasonz",
-        "authorName": "Jason Zhao",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
-        "text": "introducing Space: a cloud filesystem built for work\n\ninstead of waiting, you can:\n→ mount one persistent drive for you and your agents\n→ instantly work in the cloud like local\n→ only stream the bytes you need\n→ no compression on any of your files\n\ntry it for yourself today https://t.co/K54mhAYNSl",
-        "createdAt": "2026-09-26T17:20:22.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2103895031987728384/vid/avc1/3840x2160/9PkaLI3ohn_fFxPm.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2103895031987728384/img/he-_wxnzUgbtt5_4.jpg",
-            "durationMs": 19619
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "byjasonz",
-        "company": "Jason Zhao",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2103897479938777423",
-        "slug": "space-a-cloud-filesystem-built-for-work-777423",
-        "title": "introducing Space: a cloud filesystem built for work",
-        "product": "Space: a cloud filesystem built for work",
-        "company": "Space: a cloud filesystem built for work",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/byjasonz/status/2103897479938777423",
-        "tweetId": "2103897479938777423",
-        "authorName": "Jason Zhao",
-        "authorHandle": "byjasonz",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
-        "poster": "/posters/space-a-cloud-filesystem-built-for-work-777423.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2103895031987728384/vid/avc1/3840x2160/9PkaLI3ohn_fFxPm.mp4",
-        "publishedAt": "2026-09-26T17:20:22.000Z",
-        "durationSeconds": 20,
         "featured": false,
         "status": "draft"
       },
