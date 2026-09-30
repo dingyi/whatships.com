@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T01:48:31.473Z",
+  "updatedAt": "2026-09-30T03:02:11.307Z",
   "items": [
     {
       "id": "disc-2104832310558536153",
@@ -1737,67 +1737,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104993936112779264/vid/avc1/1920x1080/b-lrt-VyRDdcfdQC.mp4",
         "publishedAt": "2026-09-29T17:57:25.000Z",
         "durationSeconds": 45,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104949571789148416",
-      "tweetId": "2104949571789148416",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:21.051Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bshipping\\b"
-      ],
-      "post": {
-        "tweetId": "2104949571789148416",
-        "tweetUrl": "https://x.com/hanghuang_/status/2104949571789148416",
-        "authorHandle": "hanghuang_",
-        "authorName": "Hang Huang",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2015864504534417408/J0BBAVv3.jpg",
-        "text": "We just raised an $8M seed round to kill AWS, GCP, and Azure.\n\nIntroducing https://t.co/9P0ZaN9A8I, the agent-native serverless cloud.\n\nYour team is shipping code like never before. But you're getting caught up in manual, tedious DevOps work trying to deploy it.\n\nInstaCloud https://t.co/4tM1hO7YRk",
-        "createdAt": "2026-09-29T15:01:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104840456416727040/vid/avc1/3840x2160/ycq1nrk_3slW_lUB.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104840456416727040/img/LemrpTfnJTDqnah4.jpg",
-            "durationMs": 147605
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "hanghuang_",
-        "company": "Hang Huang",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104949571789148416",
-        "slug": "hang-huang-148416",
-        "title": "We just raised an $8M seed round to kill AWS",
-        "product": "Hang Huang",
-        "company": "Hang Huang",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/hanghuang_/status/2104949571789148416",
-        "tweetId": "2104949571789148416",
-        "authorName": "Hang Huang",
-        "authorHandle": "hanghuang_",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2015864504534417408/J0BBAVv3.jpg",
-        "poster": "/posters/hang-huang-148416.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104840456416727040/vid/avc1/3840x2160/ycq1nrk_3slW_lUB.mp4",
-        "publishedAt": "2026-09-29T15:01:00.000Z",
-        "durationSeconds": 148,
         "featured": false,
         "status": "draft"
       },

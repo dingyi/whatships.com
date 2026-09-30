@@ -61131,5 +61131,83 @@
     "status": "published",
     "views": 9478,
     "viewsCapturedAt": "2026-09-29T15:50:08.308Z"
+  },
+  {
+    "id": "plv-instacloud",
+    "slug": "instacloud",
+    "title": "InstaCloud — agent-native serverless cloud",
+    "product": "InstaCloud",
+    "company": "InsForge",
+    "description": "InstaCloud raised an $8M seed for an agent-native serverless cloud that autoscales services and gives agents replica environments through MCP and the CLI.",
+    "category": "developer-tools",
+    "tags": [
+      "cloud",
+      "serverless"
+    ],
+    "tweetUrl": "https://x.com/hanghuang_/status/2104949571789148416",
+    "tweetId": "2104949571789148416",
+    "authorName": "Hang Huang",
+    "authorHandle": "hanghuang_",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2015864504534417408/J0BBAVv3.jpg",
+    "poster": "/posters/instacloud.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104840456416727040/vid/avc1/1920x1080/KwquOSN3KTzFeEpY.mp4",
+    "publishedAt": "2026-09-29T15:01:00.000Z",
+    "durationSeconds": 148,
+    "featured": false,
+    "status": "published",
+    "views": 773246,
+    "viewsCapturedAt": "2026-09-30T03:02:11.307Z"
+  },
+  {
+    "id": "plv-codex-cli",
+    "slug": "codex-cli",
+    "title": "Codex CLI — full-screen terminal refresh",
+    "product": "Codex CLI",
+    "company": "OpenAI",
+    "description": "Codex CLI now opens as a full-screen terminal, with clearer output and a way to manage parallel work from the command line.",
+    "category": "developer-tools",
+    "tags": [
+      "codex",
+      "cli"
+    ],
+    "tweetUrl": "https://x.com/OpenAIDevs/status/2104999323385929777",
+    "tweetId": "2104999323385929777",
+    "authorName": "OpenAI Developers",
+    "authorHandle": "OpenAIDevs",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt.jpg",
+    "poster": "/posters/codex-cli.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104999292457103360/vid/avc1/1920x1080/tzO7sYSYpoFG61CI.mp4",
+    "publishedAt": "2026-09-29T18:18:42.000Z",
+    "durationSeconds": 11,
+    "featured": false,
+    "status": "published",
+    "views": 143761,
+    "viewsCapturedAt": "2026-09-30T03:02:11.307Z"
+  },
+  {
+    "id": "plv-cube-computer",
+    "slug": "cube-computer",
+    "title": "Cube — a new home for your agents",
+    "product": "Cube",
+    "company": "Cube",
+    "description": "Cube is a new home for coding agents at cube.computer. They keep running after the laptop closes, including Claude Code, Codex, and OpenCode.",
+    "category": "developer-tools",
+    "tags": [
+      "agents",
+      "coding"
+    ],
+    "tweetUrl": "https://x.com/Paul_Rony/status/2104980836701646957",
+    "tweetId": "2104980836701646957",
+    "authorName": "Paul Rony",
+    "authorHandle": "Paul_Rony",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2093259898553319424/_ilRhcEi.jpg",
+    "poster": "/posters/cube-computer.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104980610926440448/vid/avc1/1920x1080/7_yRIFSEaVlzxWxT.mp4",
+    "publishedAt": "2026-09-29T17:05:14.000Z",
+    "durationSeconds": 15,
+    "featured": false,
+    "status": "published",
+    "views": 71908,
+    "viewsCapturedAt": "2026-09-30T03:02:11.307Z"
   }
 ]
