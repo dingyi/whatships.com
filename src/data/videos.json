@@ -61547,5 +61547,58 @@
     "status": "published",
     "views": 9147970,
     "viewsCapturedAt": "2026-09-30T03:57:40.526Z"
+  },
+  {
+    "id": "plv-angular-native",
+    "slug": "angular-native",
+    "title": "Introducing Angular Native",
+    "product": "Angular Native",
+    "company": "Angular Native",
+    "description": "Angular Native is in alpha. It brings Expo's developer experience to Angular, with native iOS and Android, the Expo SDK, Angular components, signals, dependency injection, and CSS and Tailwind.",
+    "category": "developer-tools",
+    "tags": [
+      "angular",
+      "expo"
+    ],
+    "tweetUrl": "https://x.com/ashh640/status/2104871228271899041",
+    "tweetId": "2104871228271899041",
+    "authorName": "Ashley Hunter",
+    "authorHandle": "ashh640",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1016658741343555584/AaHcw6Ht.jpg",
+    "poster": "/posters/angular-native.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2104871057102381056/vid/avc1/1920x1080/ylVNat6zaw5pTpyR.mp4",
+    "publishedAt": "2026-09-29T09:49:42.000Z",
+    "durationSeconds": 39,
+    "featured": false,
+    "status": "published",
+    "views": 339309,
+    "viewsCapturedAt": "2026-09-30T04:20:53.937Z"
+  },
+  {
+    "id": "plv-runway-agent-tagging",
+    "slug": "runway-agent-tagging",
+    "title": "If you have notes, Runway Agent has it handled",
+    "product": "Agent Tagging",
+    "company": "Runway",
+    "description": "Agent Tagging is now available. Tag Runway Agent anywhere your assets are to ask for edits, options, and fixes.",
+    "category": "ai",
+    "tags": [
+      "runway",
+      "video",
+      "agents"
+    ],
+    "tweetUrl": "https://x.com/runwayml/status/2105009229702799497",
+    "tweetId": "2105009229702799497",
+    "authorName": "Runway",
+    "authorHandle": "runwayml",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
+    "poster": "/posters/runway-agent-tagging.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2105008938458763264/vid/avc1/1920x1080/rppU5bqCJXMKElzr.mp4",
+    "publishedAt": "2026-09-29T18:58:04.000Z",
+    "durationSeconds": 94,
+    "featured": false,
+    "status": "published",
+    "views": 10116,
+    "viewsCapturedAt": "2026-09-30T04:20:53.937Z"
   }
 ]

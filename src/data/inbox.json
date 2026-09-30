@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-30T03:57:40.526Z",
+  "updatedAt": "2026-09-30T04:20:53.937Z",
   "items": [
     {
       "id": "disc-2104832310558536153",
       "tweetId": "2104832310558536153",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:31.472Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:10:18.137Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -69,9 +69,9 @@
     {
       "id": "disc-2105001582027067612",
       "tweetId": "2105001582027067612",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:31.127Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:10:35.822Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -129,9 +129,9 @@
     {
       "id": "disc-2105055190218924230",
       "tweetId": "2105055190218924230",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:30.412Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:14:58.518Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -381,9 +381,9 @@
     {
       "id": "disc-2104988839177855450",
       "tweetId": "2104988839177855450",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:27.504Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:10:58.671Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -436,70 +436,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104988813462528000/vid/avc1/1584x1080/776q4nyI6BIX2nk7.mp4?tag=16",
         "publishedAt": "2026-09-29T17:37:02.000Z",
         "durationSeconds": 22,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105009229702799497",
-      "tweetId": "2105009229702799497",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:27.155Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2105009229702799497",
-        "tweetUrl": "https://x.com/runwayml/status/2105009229702799497",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "If you have notes, Runway Agent has it handled. With Agent Tagging.\n\nNow you can simply tag Runway Agent anywhere your assets are to ask for edits, options and fixes. It's that easy.\n\nTry today at https://t.co/oVAkR4Bydd https://t.co/yjpVFthpqM",
-        "createdAt": "2026-09-29T18:58:04.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105008938458763264/vid/avc1/1920x1080/rppU5bqCJXMKElzr.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105008938458763264/img/jQOwY-mEO4NJpgBO.jpg",
-            "durationMs": 94133
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2105009229702799497",
-        "slug": "runway-799497",
-        "title": "If you have notes, Runway Agent has it handled",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2105009229702799497",
-        "tweetId": "2105009229702799497",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-799497.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105008938458763264/vid/avc1/1920x1080/rppU5bqCJXMKElzr.mp4",
-        "publishedAt": "2026-09-29T18:58:04.000Z",
-        "durationSeconds": 94,
         "featured": false,
         "status": "draft"
       },
@@ -745,66 +681,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104993105464434688/vid/avc1/1920x1080/GUJDaxd45MxtFCBZ.mp4",
         "publishedAt": "2026-09-29T17:59:49.000Z",
         "durationSeconds": 23,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104871228271899041",
-      "tweetId": "2104871228271899041",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:22.495Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104871228271899041",
-        "tweetUrl": "https://x.com/ashh640/status/2104871228271899041",
-        "authorHandle": "ashh640",
-        "authorName": "Ashley Hunter",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1016658741343555584/AaHcw6Ht.jpg",
-        "text": "🚀 Introducing Angular Native\n\nThe stunning developer experience and ecosystem of Expo, using the Angular framework you already know and love.\n\n• Real native iOS &amp; Android • Expo SDK &amp; ecosystem • Angular components, signals &amp; DI • CSS &amp; Tailwind out of the box https://t.co/bCNfu7DYZM",
-        "createdAt": "2026-09-29T09:49:42.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104871057102381056/vid/avc1/1920x1080/ylVNat6zaw5pTpyR.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTYBEwcXcAARK0R.jpg",
-            "durationMs": 39110
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ashh640",
-        "company": "Ashley Hunter",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104871228271899041",
-        "slug": "ashley-hunter-899041",
-        "title": "🚀 Introducing Angular Native",
-        "product": "Ashley Hunter",
-        "company": "Ashley Hunter",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ashh640/status/2104871228271899041",
-        "tweetId": "2104871228271899041",
-        "authorName": "Ashley Hunter",
-        "authorHandle": "ashh640",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1016658741343555584/AaHcw6Ht.jpg",
-        "poster": "/posters/ashley-hunter-899041.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104871057102381056/vid/avc1/1920x1080/ylVNat6zaw5pTpyR.mp4",
-        "publishedAt": "2026-09-29T09:49:42.000Z",
-        "durationSeconds": 39,
         "featured": false,
         "status": "draft"
       },
@@ -1619,9 +1495,9 @@
     {
       "id": "disc-2104651250255945902",
       "tweetId": "2104651250255945902",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:29.941Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:15:16.785Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1739,9 +1615,9 @@
     {
       "id": "disc-2104264916089864304",
       "tweetId": "2104264916089864304",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-29T05:35:25.121Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T04:15:55.807Z",
       "score": 24,
       "reasons": [
         "has-video"
