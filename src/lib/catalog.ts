@@ -148,12 +148,12 @@ export function formatViewsCount(views: number | null | undefined) {
 }
 
 /**
- * Chip label for a card: "1.1M views". Null when the snapshot is missing,
- * so callers can skip the chip entirely.
+ * Chip label for a card: "1.1M". Null when the snapshot is missing,
+ * so callers can skip the chip entirely. The count reads as views in
+ * context — the chip sits on a video card, next to the runtime chip.
  */
 export function formatViewsLabel(video: Pick<LaunchVideo, "views">) {
-  const compact = formatViews(video.views);
-  return compact == null ? null : `${compact} views`;
+  return formatViews(video.views);
 }
 
 /** "1,118,904 views on X · snapshot Sep 15, 2026" for tooltips / sr-only. */

@@ -71,7 +71,7 @@ describe("view snapshots", () => {
   });
 
   it("spells out the exact count and capture date for tooltips", () => {
-    expect(formatViewsLabel({ views: 1118904 })).toBe("1.1M views");
+    expect(formatViewsLabel({ views: 1118904 })).toBe("1.1M");
     expect(formatViewsCount(1118904)).toBe("1,118,904");
     expect(
       formatViewsDetail({
