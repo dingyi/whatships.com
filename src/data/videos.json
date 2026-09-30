@@ -4179,7 +4179,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-bearly-ai-research-tool",
@@ -8989,7 +8989,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-meteora-limit-orders",
@@ -10139,7 +10139,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-codex-6427",
@@ -13564,7 +13564,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-thesvg-org",
@@ -17887,7 +17887,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-p-image-ideogram",
@@ -20771,7 +20771,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-jam",
@@ -25802,7 +25802,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-iskra-light",
@@ -27942,8 +27942,8 @@
     "durationSeconds": 7,
     "featured": false,
     "status": "published",
-    "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "views": 1,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-candle-launches-love-letters-word-game",
@@ -29971,7 +29971,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-monako-glass-wearable-linux-computer",
@@ -30491,7 +30491,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-korso-launch",
@@ -33827,7 +33827,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-xona-tiktok-shop",
@@ -36397,7 +36397,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-manifestos-tech",
@@ -44687,7 +44687,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-ambitious",
@@ -48406,7 +48406,7 @@
     "featured": false,
     "status": "published",
     "views": null,
-    "viewsCapturedAt": "2026-09-14T18:20:29.553Z"
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-robocurve",
@@ -55637,7 +55637,9 @@
     "publishedAt": "2026-09-14T17:52:49.000Z",
     "durationSeconds": 100,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 9127,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-minirouter-presets",
@@ -55662,7 +55664,9 @@
     "publishedAt": "2026-09-14T23:59:19.000Z",
     "durationSeconds": 8,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2823,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-corespeed",
@@ -55687,7 +55691,9 @@
     "publishedAt": "2026-09-15T00:24:19.000Z",
     "durationSeconds": 74,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 19312,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-cluster-gtm",
@@ -55712,7 +55718,9 @@
     "publishedAt": "2026-09-14T20:16:56.000Z",
     "durationSeconds": 91,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 7125,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-sf-interface-numbers",
@@ -55737,7 +55745,9 @@
     "publishedAt": "2026-09-14T14:21:30.000Z",
     "durationSeconds": 9,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 17139,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-inspo-mcp",
@@ -55762,7 +55772,9 @@
     "publishedAt": "2026-09-14T17:14:28.000Z",
     "durationSeconds": 21,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 410049,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-obsidian-ui",
@@ -55787,7 +55799,9 @@
     "publishedAt": "2026-09-14T12:36:18.000Z",
     "durationSeconds": 122,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 268524,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-cline-desktop",
@@ -55812,7 +55826,9 @@
     "publishedAt": "2026-09-14T16:30:20.000Z",
     "durationSeconds": 33,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1004323,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-elevenlabs-mcp-media",
@@ -55837,7 +55853,9 @@
     "publishedAt": "2026-09-14T17:14:01.000Z",
     "durationSeconds": 44,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 4184269,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-studio",
@@ -55862,7 +55880,9 @@
     "publishedAt": "2026-09-10T14:56:39.000Z",
     "durationSeconds": 68,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 623,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-projects",
@@ -55887,7 +55907,9 @@
     "publishedAt": "2026-09-08T12:58:11.000Z",
     "durationSeconds": 16,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 486,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-homepage-8s",
@@ -55912,7 +55934,9 @@
     "publishedAt": "2026-08-03T06:45:16.000Z",
     "durationSeconds": 45,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2165,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-launch-film",
@@ -55937,7 +55961,9 @@
     "publishedAt": "2026-08-04T13:52:53.000Z",
     "durationSeconds": 37,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2085,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-recent",
@@ -55962,7 +55988,9 @@
     "publishedAt": "2026-08-22T17:51:45.000Z",
     "durationSeconds": 82,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 940,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-achx-2",
@@ -55987,7 +56015,9 @@
     "publishedAt": "2026-06-06T16:01:12.000Z",
     "durationSeconds": 64,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 23880,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-offline",
@@ -56012,7 +56042,9 @@
     "publishedAt": "2026-08-29T11:31:08.000Z",
     "durationSeconds": 65,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1489,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-linear-loops-update",
@@ -56037,7 +56069,9 @@
     "publishedAt": "2026-09-14T16:52:16.000Z",
     "durationSeconds": 28,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 108751,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-motion-mcp-codex",
@@ -56062,7 +56096,9 @@
     "publishedAt": "2026-09-14T16:53:57.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 94745,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-monid-astra-cold-calling",
@@ -56087,7 +56123,9 @@
     "publishedAt": "2026-09-15T23:41:28.000Z",
     "durationSeconds": 36,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 183796,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-framer-first-site",
@@ -56112,7 +56150,9 @@
     "publishedAt": "2026-09-15T18:56:59.000Z",
     "durationSeconds": 356,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 8743,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-elevenagents-dom",
@@ -56137,7 +56177,9 @@
     "publishedAt": "2026-09-15T15:04:41.000Z",
     "durationSeconds": 64,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 66304,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-superhuman-go-agents",
@@ -56162,7 +56204,9 @@
     "publishedAt": "2026-09-14T21:00:23.000Z",
     "durationSeconds": 15,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 3652,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-noupload",
@@ -56187,7 +56231,9 @@
     "publishedAt": "2026-09-15T10:01:52.000Z",
     "durationSeconds": 29,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 7437,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-mem0-gateway",
@@ -56212,7 +56258,9 @@
     "publishedAt": "2026-09-15T16:30:17.000Z",
     "durationSeconds": 92,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 34040,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-bg0",
@@ -56237,7 +56285,9 @@
     "publishedAt": "2026-09-15T15:26:08.000Z",
     "durationSeconds": 16,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 67882,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-ai-autocomplete",
@@ -56262,7 +56312,9 @@
     "publishedAt": "2026-09-15T16:26:40.000Z",
     "durationSeconds": 45,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 557882,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-brand-api",
@@ -56287,7 +56339,9 @@
     "publishedAt": "2026-09-15T17:14:49.000Z",
     "durationSeconds": 86,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 190051,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-gemini-3-8-live",
@@ -56312,7 +56366,9 @@
     "publishedAt": "2026-09-15T17:07:36.000Z",
     "durationSeconds": 77,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 259787,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-wonder-grok-bot",
@@ -56337,7 +56393,9 @@
     "publishedAt": "2026-09-15T16:21:33.000Z",
     "durationSeconds": 38,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 17312,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-kobra",
@@ -56362,7 +56420,9 @@
     "publishedAt": "2026-09-15T15:34:38.000Z",
     "durationSeconds": 37,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 30541,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-appzapper-3000",
@@ -56387,7 +56447,9 @@
     "publishedAt": "2026-09-14T13:53:27.000Z",
     "durationSeconds": 15,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 149955,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-hypit",
@@ -56412,7 +56474,9 @@
     "publishedAt": "2026-09-14T17:09:07.000Z",
     "durationSeconds": 63,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1133762,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-command-code-desktop",
@@ -56437,7 +56501,9 @@
     "publishedAt": "2026-09-16T15:42:04.000Z",
     "durationSeconds": 46,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 215673,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-rene",
@@ -56462,7 +56528,9 @@
     "publishedAt": "2026-09-16T18:19:33.000Z",
     "durationSeconds": 55,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1159840,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-claude-docs-slides",
@@ -56487,7 +56555,9 @@
     "publishedAt": "2026-09-16T16:20:20.000Z",
     "durationSeconds": 95,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 3469647,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-jev",
@@ -56512,7 +56582,9 @@
     "publishedAt": "2026-09-15T18:17:52.000Z",
     "durationSeconds": 176,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 39817532,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-devin-mac",
@@ -56537,7 +56609,9 @@
     "publishedAt": "2026-09-15T15:44:55.000Z",
     "durationSeconds": 46,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2023535,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-arrow-2",
@@ -56562,7 +56636,9 @@
     "publishedAt": "2026-09-16T18:45:56.000Z",
     "durationSeconds": 44,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2317300,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-launchvideo",
@@ -56587,7 +56663,9 @@
     "publishedAt": "2026-09-16T16:54:51.000Z",
     "durationSeconds": 16,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 59101,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-notchowl",
@@ -56612,7 +56690,9 @@
     "publishedAt": "2026-09-16T14:33:56.000Z",
     "durationSeconds": 25,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 55401,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-screenkite-2",
@@ -56637,7 +56717,9 @@
     "publishedAt": "2026-09-16T16:17:05.000Z",
     "durationSeconds": 44,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 212688,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-ihermes",
@@ -56662,7 +56744,9 @@
     "publishedAt": "2026-09-16T16:27:33.000Z",
     "durationSeconds": 27,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 173882,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-mercury-books",
@@ -56687,7 +56771,9 @@
     "publishedAt": "2026-09-16T16:13:38.000Z",
     "durationSeconds": 37,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 832745,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-elevenlabs-reception",
@@ -56712,7 +56798,9 @@
     "publishedAt": "2026-09-16T16:37:47.000Z",
     "durationSeconds": 33,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2317616,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-railway-sandboxes",
@@ -56737,7 +56825,9 @@
     "publishedAt": "2026-09-16T16:55:16.000Z",
     "durationSeconds": 40,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 73159,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-claude-cowork-chat",
@@ -56762,7 +56852,9 @@
     "publishedAt": "2026-09-16T16:20:19.000Z",
     "durationSeconds": 71,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 3282645,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-odyssey-3",
@@ -56787,7 +56879,9 @@
     "publishedAt": "2026-09-15T16:36:04.000Z",
     "durationSeconds": 97,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2319124,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-pencil-canvas",
@@ -56812,7 +56906,9 @@
     "publishedAt": "2026-09-17T13:00:00.000Z",
     "durationSeconds": 33,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 532960,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-astra-for-law",
@@ -56837,7 +56933,9 @@
     "publishedAt": "2026-09-17T20:15:13.000Z",
     "durationSeconds": 78,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 15860453,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-bend-2",
@@ -56862,7 +56960,9 @@
     "publishedAt": "2026-09-17T20:20:07.000Z",
     "durationSeconds": 260,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2075294,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-grok-bot-talk",
@@ -56887,7 +56987,9 @@
     "publishedAt": "2026-09-17T18:53:39.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 15349160,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-craft",
@@ -56912,7 +57014,9 @@
     "publishedAt": "2026-09-17T18:55:36.000Z",
     "durationSeconds": 14,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 149555,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-jina-ocr-v1",
@@ -56937,7 +57041,9 @@
     "publishedAt": "2026-09-17T16:05:36.000Z",
     "durationSeconds": 15,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 156988,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-kimi-work-remote",
@@ -56962,7 +57068,9 @@
     "publishedAt": "2026-09-09T10:40:56.000Z",
     "durationSeconds": 38,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 87381,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-aave-v3",
@@ -56987,7 +57095,9 @@
     "publishedAt": "2026-09-17T14:34:09.000Z",
     "durationSeconds": 22,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 102434,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-cap-v0-6-launch",
@@ -57012,7 +57122,9 @@
     "publishedAt": "2026-09-15T15:51:55.000Z",
     "durationSeconds": 72,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 71164,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-powermove",
@@ -57037,7 +57149,9 @@
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 18319,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-monid-free-search",
@@ -57062,7 +57176,9 @@
     "publishedAt": "2026-09-17T21:57:56.000Z",
     "durationSeconds": 35,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 529627,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-grok-bot-voice-notes",
@@ -57087,7 +57203,9 @@
     "publishedAt": "2026-09-18T18:24:21.000Z",
     "durationSeconds": 19,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 8550291,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-glyph",
@@ -57112,7 +57230,9 @@
     "publishedAt": "2026-09-18T16:10:32.000Z",
     "durationSeconds": 15,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 71007,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-compositor",
@@ -57137,7 +57257,9 @@
     "publishedAt": "2026-09-18T13:53:49.000Z",
     "durationSeconds": 35,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2182199,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-kool-brushez",
@@ -57162,7 +57284,9 @@
     "publishedAt": "2026-09-07T22:38:08.000Z",
     "durationSeconds": 17,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 43114,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-addys-ai",
@@ -57187,7 +57311,9 @@
     "publishedAt": "2026-09-17T14:43:02.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 15705,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-commons",
@@ -57212,7 +57338,9 @@
     "publishedAt": "2026-09-18T18:54:31.000Z",
     "durationSeconds": 75,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 9313,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-inco-splash",
@@ -57237,7 +57365,9 @@
     "publishedAt": "2026-09-19T00:07:09.000Z",
     "durationSeconds": 26,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 948755,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-tastecode",
@@ -57262,7 +57392,9 @@
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "durationSeconds": 44,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 124691,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-agentcloak",
@@ -57287,7 +57419,9 @@
     "publishedAt": "2026-09-18T14:47:53.000Z",
     "durationSeconds": 118,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2267253,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-sherpa-fiction",
@@ -57312,7 +57446,9 @@
     "publishedAt": "2026-09-18T18:45:48.000Z",
     "durationSeconds": 207,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 6199837,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-agentsky",
@@ -57337,7 +57473,9 @@
     "publishedAt": "2026-09-18T15:17:54.000Z",
     "durationSeconds": 78,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2709241,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-opencompany",
@@ -57362,7 +57500,9 @@
     "publishedAt": "2026-09-17T19:12:19.000Z",
     "durationSeconds": 102,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 19035,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-runntime",
@@ -57387,7 +57527,9 @@
     "publishedAt": "2026-09-17T14:40:57.000Z",
     "durationSeconds": 8,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 8530,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-nebula",
@@ -57412,7 +57554,9 @@
     "publishedAt": "2026-09-17T20:00:28.000Z",
     "durationSeconds": 86,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 20248,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-figma-weave-node",
@@ -57437,7 +57581,9 @@
     "publishedAt": "2026-09-17T16:33:18.000Z",
     "durationSeconds": 31,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 38328,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-nautilo",
@@ -57462,7 +57608,9 @@
     "publishedAt": "2026-09-17T15:15:52.000Z",
     "durationSeconds": 88,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 218663,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-memorable",
@@ -57487,7 +57635,9 @@
     "publishedAt": "2026-09-17T19:27:37.000Z",
     "durationSeconds": 55,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 327177,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-perplexity-computer-effort",
@@ -57512,7 +57662,9 @@
     "publishedAt": "2026-09-17T16:08:17.000Z",
     "durationSeconds": 11,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 174153,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-notion-skills-api",
@@ -57537,7 +57689,9 @@
     "publishedAt": "2026-09-17T16:15:34.000Z",
     "durationSeconds": 24,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 312023,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-lightreel-marketing-mcp",
@@ -57562,7 +57716,9 @@
     "publishedAt": "2026-09-17T15:00:38.000Z",
     "durationSeconds": 22,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1341517,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-mio-shared",
@@ -57587,7 +57743,9 @@
     "publishedAt": "2026-09-17T16:05:26.000Z",
     "durationSeconds": 51,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1178045,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-rowboat",
@@ -57612,7 +57770,9 @@
     "publishedAt": "2026-09-15T17:47:59.000Z",
     "durationSeconds": 47,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 46459,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-ascii-magic-v2",
@@ -57637,7 +57797,9 @@
     "publishedAt": "2026-09-16T17:25:42.000Z",
     "durationSeconds": 59,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 16572,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-headless-amplitude",
@@ -57662,7 +57824,9 @@
     "publishedAt": "2026-09-16T18:03:33.000Z",
     "durationSeconds": 74,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 10449,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-motion-mcp-chatgpt",
@@ -57687,7 +57851,9 @@
     "publishedAt": "2026-09-16T17:46:26.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 93017,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-legacy-mode",
@@ -57712,7 +57878,9 @@
     "publishedAt": "2026-09-15T14:23:40.000Z",
     "durationSeconds": 91,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 8876,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-browsergateway",
@@ -57737,7 +57905,9 @@
     "publishedAt": "2026-09-15T07:46:31.000Z",
     "durationSeconds": 38,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 642,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-capcut-spectrum",
@@ -57902,7 +58072,9 @@
     "publishedAt": "2026-09-22T13:40:17.000Z",
     "durationSeconds": 49,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 84305,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-runway-responsive-video",
@@ -57927,7 +58099,9 @@
     "publishedAt": "2026-09-21T13:59:55.000Z",
     "durationSeconds": 12,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 319188,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-alexandria",
@@ -57952,7 +58126,9 @@
     "publishedAt": "2026-09-22T15:54:12.000Z",
     "durationSeconds": 83,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 280910,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-quiver-2",
@@ -57977,7 +58153,9 @@
     "publishedAt": "2026-09-22T17:41:13.000Z",
     "durationSeconds": 29,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 371219,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-mirasim",
@@ -58002,7 +58180,9 @@
     "publishedAt": "2026-09-22T03:38:26.000Z",
     "durationSeconds": 72,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 56557,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-muse-for-marketing",
@@ -58027,7 +58207,9 @@
     "publishedAt": "2026-09-21T22:11:06.000Z",
     "durationSeconds": 29,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 286117,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-umbrelos-2-launch",
@@ -58052,7 +58234,9 @@
     "publishedAt": "2026-09-22T16:12:53.000Z",
     "durationSeconds": 656,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 94903,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-openmuse",
@@ -58077,7 +58261,9 @@
     "publishedAt": "2026-09-22T14:11:38.000Z",
     "durationSeconds": 66,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1130266,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-tesseract",
@@ -58102,7 +58288,9 @@
     "publishedAt": "2026-09-22T16:07:31.000Z",
     "durationSeconds": 32,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1843438,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-x-numbers",
@@ -58127,7 +58315,9 @@
     "publishedAt": "2026-09-22T16:57:46.000Z",
     "durationSeconds": 31,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2827632,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-claude-opus-5-5",
@@ -58152,7 +58342,9 @@
     "publishedAt": "2026-09-22T16:31:01.000Z",
     "durationSeconds": 20,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 27736310,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-bot-avatars",
@@ -58177,7 +58369,9 @@
     "publishedAt": "2026-09-22T16:12:00.000Z",
     "durationSeconds": 27,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 31321,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-runway-diffuse",
@@ -58202,7 +58396,9 @@
     "publishedAt": "2026-09-22T14:29:40.000Z",
     "durationSeconds": 56,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 56819,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-framer-skills",
@@ -58227,7 +58423,9 @@
     "publishedAt": "2026-09-22T14:41:56.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 59095,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-dramagic",
@@ -58252,7 +58450,9 @@
     "publishedAt": "2026-09-21T04:36:09.000Z",
     "durationSeconds": 93,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 606458,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-onlight",
@@ -58277,7 +58477,9 @@
     "publishedAt": "2026-09-19T12:26:19.000Z",
     "durationSeconds": 28,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 28032,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-cube-motion",
@@ -58302,7 +58504,9 @@
     "publishedAt": "2026-09-21T12:38:06.000Z",
     "durationSeconds": 35,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 70846,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-dashform",
@@ -58327,7 +58531,9 @@
     "publishedAt": "2026-09-11T01:47:03.000Z",
     "durationSeconds": 100,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 321,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-yoya",
@@ -58352,7 +58558,9 @@
     "publishedAt": "2026-09-05T12:14:44.000Z",
     "durationSeconds": 100,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 403,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-hyperframes-code2video-bench",
@@ -58377,7 +58585,9 @@
     "publishedAt": "2026-09-21T17:17:58.000Z",
     "durationSeconds": 88,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1660889,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-omilo",
@@ -58402,7 +58612,9 @@
     "publishedAt": "2026-09-21T15:28:08.000Z",
     "durationSeconds": 30,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 329914,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-keep",
@@ -58427,7 +58639,9 @@
     "publishedAt": "2026-09-21T12:28:29.000Z",
     "durationSeconds": 15,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1669,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-motion-studio",
@@ -58452,7 +58666,9 @@
     "publishedAt": "2026-09-21T12:54:09.000Z",
     "durationSeconds": 18,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 29405,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-elevenlabs-studio-4",
@@ -58477,7 +58693,9 @@
     "publishedAt": "2026-09-21T16:52:26.000Z",
     "durationSeconds": 66,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 349088,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-sim-search",
@@ -58502,7 +58720,9 @@
     "publishedAt": "2026-09-17T17:06:09.000Z",
     "durationSeconds": 80,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 101158,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-panelwind",
@@ -58527,7 +58747,9 @@
     "publishedAt": "2026-09-17T13:30:00.000Z",
     "durationSeconds": 43,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 1577,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-diffusion-studio-mcp",
@@ -58552,7 +58774,9 @@
     "publishedAt": "2026-09-17T14:29:52.000Z",
     "durationSeconds": 436,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2662,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-north-2",
@@ -58576,7 +58800,9 @@
     "publishedAt": "2026-09-17T17:03:44.000Z",
     "durationSeconds": 16,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 18358,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-chatgpt-legal-plugins",
@@ -58601,7 +58827,9 @@
     "publishedAt": "2026-09-17T20:15:14.000Z",
     "durationSeconds": 60,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 283565,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-runway-enhance-frame-rate",
@@ -58626,7 +58854,9 @@
     "publishedAt": "2026-09-17T16:18:20.000Z",
     "durationSeconds": 38,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 154069,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-astra-for-marketing",
@@ -58651,7 +58881,9 @@
     "publishedAt": "2026-09-17T16:54:03.000Z",
     "durationSeconds": 42,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 674466,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-keiki",
@@ -58676,7 +58908,9 @@
     "publishedAt": "2026-09-15T15:29:21.000Z",
     "durationSeconds": 57,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 37926,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-paid-media-agent",
@@ -58701,7 +58935,9 @@
     "publishedAt": "2026-09-16T21:30:00.000Z",
     "durationSeconds": 45,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 9438,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-buildbetter",
@@ -58726,7 +58962,9 @@
     "publishedAt": "2026-09-15T18:06:39.000Z",
     "durationSeconds": 139,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2117073,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-persona",
@@ -58751,7 +58989,9 @@
     "publishedAt": "2026-09-15T16:14:19.000Z",
     "durationSeconds": 84,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 2431780,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-figma-ios-27-kit",
@@ -58776,7 +59016,9 @@
     "publishedAt": "2026-09-16T19:35:30.000Z",
     "durationSeconds": 18,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 89059,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-x-ticker",
@@ -58801,7 +59043,9 @@
     "publishedAt": "2026-09-21T21:27:07.000Z",
     "durationSeconds": 40,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 5289529,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-imagineart-pinterest",
@@ -58826,7 +59070,9 @@
     "publishedAt": "2026-09-21T16:28:06.000Z",
     "durationSeconds": 26,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 9862,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-zingage",
@@ -58851,7 +59097,9 @@
     "publishedAt": "2026-09-21T02:04:28.000Z",
     "durationSeconds": 84,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 5538,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-inter-2",
@@ -58875,7 +59123,9 @@
     "publishedAt": "2026-09-23T20:02:08.000Z",
     "durationSeconds": 24,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 227,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-caddy",
@@ -58899,7 +59149,9 @@
     "publishedAt": "2026-09-26T15:05:00.000Z",
     "durationSeconds": 51,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 7446,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-tarout",
@@ -58923,7 +59175,9 @@
     "publishedAt": "2026-09-26T14:43:21.000Z",
     "durationSeconds": 48,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 26048,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-open-slide-2",
@@ -58947,7 +59201,9 @@
     "publishedAt": "2026-09-26T15:45:02.000Z",
     "durationSeconds": 78,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 124041,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-flux-omarchy",
@@ -58971,7 +59227,9 @@
     "publishedAt": "2026-09-25T19:43:04.000Z",
     "durationSeconds": 168,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 77621,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-jev-openrouter",
@@ -58995,7 +59253,9 @@
     "publishedAt": "2026-09-21T19:08:16.000Z",
     "durationSeconds": 32,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 18275,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-krea-agent-editor",
@@ -59019,7 +59279,9 @@
     "publishedAt": "2026-09-17T20:10:08.000Z",
     "durationSeconds": 28,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 13858,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-claude-code-projects",
@@ -59043,7 +59305,9 @@
     "publishedAt": "2026-09-17T17:07:12.000Z",
     "durationSeconds": 83,
     "featured": false,
-    "status": "published"
+    "status": "published",
+    "views": 3482125,
+    "viewsCapturedAt": "2026-09-30T02:10:32.214Z"
   },
   {
     "id": "plv-memdeck",
