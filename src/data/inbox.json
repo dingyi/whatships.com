@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T03:31:57.661Z",
+  "updatedAt": "2026-09-30T03:57:40.526Z",
   "items": [
     {
       "id": "disc-2104832310558536153",
@@ -127,67 +127,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2104724627230495067",
-      "tweetId": "2104724627230495067",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:30.774Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\blaunch(?:ing|ed)?\\b"
-      ],
-      "post": {
-        "tweetId": "2104724627230495067",
-        "tweetUrl": "https://x.com/koast_ai/status/2104724627230495067",
-        "authorHandle": "koast_ai",
-        "authorName": "Koast.ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1871606089558708224/bVnKuTUw.jpg",
-        "text": "Introducing the Koast MCP.\n\nYour ad operating system now runs from wherever you already work. Claude, Cursor, ChatGPT, any agent that speaks MCP.\n\nLaunch ads from a sentence, pull every account's numbers, push creative through the pipeline, or create new ad accounts on demand; https://t.co/tpm30Q9txe",
-        "createdAt": "2026-09-29T00:07:09.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104723991676047360/vid/avc1/2560x1440/eAulhLLvdRKG2xEA.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104723991676047360/img/9D2F2kKTjaBN1-H0.jpg",
-            "durationMs": 35050
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "koast_ai",
-        "company": "Koast.ai",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104724627230495067",
-        "slug": "koastai-495067",
-        "title": "Introducing the Koast MCP",
-        "product": "Koast.ai",
-        "company": "Koast.ai",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/koast_ai/status/2104724627230495067",
-        "tweetId": "2104724627230495067",
-        "authorName": "Koast.ai",
-        "authorHandle": "koast_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1871606089558708224/bVnKuTUw.jpg",
-        "poster": "/posters/koastai-495067.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104723991676047360/vid/avc1/2560x1440/eAulhLLvdRKG2xEA.mp4",
-        "publishedAt": "2026-09-29T00:07:09.000Z",
-        "durationSeconds": 35,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2105055190218924230",
       "tweetId": "2105055190218924230",
       "reviewStatus": "pending",
@@ -254,9 +193,9 @@
     {
       "id": "disc-2105069001131049028",
       "tweetId": "2105069001131049028",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:30.067Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:46:37.275Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -318,9 +257,9 @@
     {
       "id": "disc-2105073236572844497",
       "tweetId": "2105073236572844497",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:29.717Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:45:32.157Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -378,9 +317,9 @@
     {
       "id": "disc-2104934336206430527",
       "tweetId": "2104934336206430527",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:28.963Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:46:41.560Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -433,126 +372,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104934151245996034/vid/avc1/1920x1080/UNOWK0BrwlKKvSE5.mp4",
         "publishedAt": "2026-09-29T14:00:28.000Z",
         "durationSeconds": 6,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105022380666171834",
-      "tweetId": "2105022380666171834",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:28.253Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105022380666171834",
-        "tweetUrl": "https://x.com/byjasonz/status/2105022380666171834",
-        "authorHandle": "byjasonz",
-        "authorName": "Jason Zhao",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
-        "text": "introducing Space: the infinite filesystem\n\nafter mounting Space you can:\n→ use your files natively with any app or agent\n→ stream only the bytes you need\n→ build directly in the cloud (no downloads needed)\n→ keep your context portable between tasks\n\ntry Space for yourself https://t.co/mXXdInbIi7",
-        "createdAt": "2026-09-29T19:50:19.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104985637505921024/vid/avc1/3840x2160/QG_B1JIZnFKoce_W.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104985637505921024/img/4IjaQfprdXzKxvHK.jpg",
-            "durationMs": 66800
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "byjasonz",
-        "company": "Jason Zhao",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105022380666171834",
-        "slug": "space-171834",
-        "title": "introducing Space: the infinite filesystem",
-        "product": "Space",
-        "company": "Space",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/byjasonz/status/2105022380666171834",
-        "tweetId": "2105022380666171834",
-        "authorName": "Jason Zhao",
-        "authorHandle": "byjasonz",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL.jpg",
-        "poster": "/posters/space-171834.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104985637505921024/vid/avc1/3840x2160/QG_B1JIZnFKoce_W.mp4",
-        "publishedAt": "2026-09-29T19:50:19.000Z",
-        "durationSeconds": 67,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105072162537345421",
-      "tweetId": "2105072162537345421",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:27.885Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2105072162537345421",
-        "tweetUrl": "https://x.com/ConvergeAI_X/status/2105072162537345421",
-        "authorHandle": "ConvergeAI_X",
-        "authorName": "Converge.AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062928408380923904/YIzNBGOB.jpg",
-        "text": "Agent demos are easy. Running them reliably is the hard part.\n\nMeet Agent Foundation (a13n): an open-source, self-hosted foundation for agents with memory, sandboxes, computer use, and durable execution.\n\nhttps://t.co/uD4wt3uQdW https://t.co/QxnGZSKGQe",
-        "createdAt": "2026-09-29T23:08:08.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105071700685860864/vid/avc1/2560x1440/AGQKJblV3Nbf1Dn-.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105071700685860864/img/udXEC0XHhWL3GDLO.jpg",
-            "durationMs": 46043
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ConvergeAI_X",
-        "company": "Converge.AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105072162537345421",
-        "slug": "agent-foundation-a13n-345421",
-        "title": "Agent Foundation (a13n) — an open-source",
-        "product": "Agent Foundation (a13n)",
-        "company": "Agent Foundation (a13n)",
-        "description": "Agent Foundation (a13n) is an open-source, self-hosted foundation for agents with memory, sandboxes, computer use, and durable execution.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ConvergeAI_X/status/2105072162537345421",
-        "tweetId": "2105072162537345421",
-        "authorName": "Converge.AI",
-        "authorHandle": "ConvergeAI_X",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2062928408380923904/YIzNBGOB.jpg",
-        "poster": "/posters/agent-foundation-a13n-345421.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105071700685860864/vid/avc1/2560x1440/AGQKJblV3Nbf1Dn-.mp4",
-        "publishedAt": "2026-09-29T23:08:08.000Z",
-        "durationSeconds": 46,
         "featured": false,
         "status": "draft"
       },
@@ -688,136 +507,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2105067488484655364",
-      "tweetId": "2105067488484655364",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:26.808Z",
-      "reviewedAt": null,
-      "score": 56,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2105067488484655364",
-        "tweetUrl": "https://x.com/milindlabs/status/2105067488484655364",
-        "authorHandle": "milindlabs",
-        "authorName": "Milind S",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2041000459142627328/BPq9HFJ-.jpg",
-        "text": "Introducing MausBot, \n\nOpen-source, always-on agents powered by your existing AI subscriptions.\n\nTheir own computers\n\nBeautiful iOS &amp; Android apps\n\nRun locally or deploy to the cloud\n\nStart a task on your laptop. Check in from your phone.\n\nYour agents, everywhere. https://t.co/LBXNMRYfPr",
-        "createdAt": "2026-09-29T22:49:34.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105066375740108800/vid/avc1/1344x768/KHtgUhp7VLTJ-7Sz.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105066375740108800/img/hIJLl_FkaYAJ9qrI.jpg",
-            "durationMs": 15104
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "milindlabs",
-        "company": "Milind S",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105067488484655364",
-        "slug": "mausbot-655364",
-        "title": "Introducing MausBot,",
-        "product": "MausBot",
-        "company": "MausBot",
-        "description": "MausBot is Open-source, always-on agents powered by your existing AI subscriptions.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/milindlabs/status/2105067488484655364",
-        "tweetId": "2105067488484655364",
-        "authorName": "Milind S",
-        "authorHandle": "milindlabs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2041000459142627328/BPq9HFJ-.jpg",
-        "poster": "/posters/mausbot-655364.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105066375740108800/vid/avc1/1344x768/KHtgUhp7VLTJ-7Sz.mp4",
-        "publishedAt": "2026-09-29T22:49:34.000Z",
-        "durationSeconds": 15,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105046474791035215",
-      "tweetId": "2105046474791035215",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:26.449Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2105046474791035215",
-        "tweetUrl": "https://x.com/stripe/status/2105046474791035215",
-        "authorHandle": "stripe",
-        "authorName": "Stripe",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970187852572250113/hhDZmj7w.jpg",
-        "text": "Agents can now use Ramp cards to buy from businesses using Stripe via @MPP.\n\nGet your business agent-ready: https://t.co/Vnuyr5lDeJ. https://t.co/xrA8F6FaxH",
-        "createdAt": "2026-09-29T21:26:04.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105042856033550336/vid/avc1/1920x1080/Fl3X3tDZ6S2szAHR.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTagwELb0AAtLAA.jpg",
-            "durationMs": 31680
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "stripe",
-        "company": "Stripe",
-        "category": "developer-tools",
-        "tags": [
-          "payments",
-          "api"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2105046474791035215",
-        "slug": "stripe-035215",
-        "title": "Stripe — launch video",
-        "product": "Stripe",
-        "company": "Stripe",
-        "description": "",
-        "category": "developer-tools",
-        "tags": [
-          "payments",
-          "api",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/stripe/status/2105046474791035215",
-        "tweetId": "2105046474791035215",
-        "authorName": "Stripe",
-        "authorHandle": "stripe",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970187852572250113/hhDZmj7w.jpg",
-        "poster": "/posters/stripe-035215.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105042856033550336/vid/avc1/1920x1080/Fl3X3tDZ6S2szAHR.mp4",
-        "publishedAt": "2026-09-29T21:26:04.000Z",
-        "durationSeconds": 32,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2104964997633765737",
       "tweetId": "2104964997633765737",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:26.043Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:48:51.503Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -866,126 +560,6 @@
         "videoUrl": "https://video.twimg.com/ext_tw_video/2104964978134392832/pu/vid/avc1/1280x720/evC05GuioOzNL6yE.mp4?tag=12",
         "publishedAt": "2026-09-29T16:02:18.000Z",
         "durationSeconds": 10,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105028896882331891",
-      "tweetId": "2105028896882331891",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:25.694Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105028896882331891",
-        "tweetUrl": "https://x.com/elgato/status/2105028896882331891",
-        "authorHandle": "elgato",
-        "authorName": "Elgato",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1947641865320210432/HWX2GLbQ.jpg",
-        "text": "Introducing the ChatGPT &amp; Codex Stream Deck plugin.\n\nYour AI workflow is now on keys and dials:\n🚦 Monitor chat status\n💬 Send prompts\n🎙️ Dictate prompts\n🧭 Steer Codex tasks mid-run\n🎛️ Dial in model and reasoning effort \n📊 Preview usage and limits \n\nGet it free on Marketplace: https://t.co/DDNDv9rEjU",
-        "createdAt": "2026-09-29T20:16:13.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105017306250461184/vid/avc1/1080x1920/RJzfITa5V-MmHk80.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTaQuYvaQAAC9Fs.jpg",
-            "durationMs": 64964
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "elgato",
-        "company": "Elgato",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105028896882331891",
-        "slug": "elgato-331891",
-        "title": "Introducing the ChatGPT &amp; Codex Stream Deck plugin",
-        "product": "Elgato",
-        "company": "Elgato",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/elgato/status/2105028896882331891",
-        "tweetId": "2105028896882331891",
-        "authorName": "Elgato",
-        "authorHandle": "elgato",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1947641865320210432/HWX2GLbQ.jpg",
-        "poster": "/posters/elgato-331891.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105017306250461184/vid/avc1/1080x1920/RJzfITa5V-MmHk80.mp4",
-        "publishedAt": "2026-09-29T20:16:13.000Z",
-        "durationSeconds": 65,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105028261558493219",
-      "tweetId": "2105028261558493219",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:25.344Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105028261558493219",
-        "tweetUrl": "https://x.com/0xDesigner/status/2105028261558493219",
-        "authorHandle": "0xDesigner",
-        "authorName": "0xDesigner",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1971239347115450368/Ul-xn5JD.jpg",
-        "text": "i finally figured out a way to help your agents design better UI.\n\njust have them call me.\n\nintroducing the 0xdesigner MCP. https://t.co/dXlhSmf5km",
-        "createdAt": "2026-09-29T20:13:41.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105028236681879554/vid/avc1/1920x1080/bb5-6I2OR0v8M2QI.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105028236681879554/img/FbIkcr8rfzFTI9MP.jpg",
-            "durationMs": 12096
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "0xDesigner",
-        "company": "0xDesigner",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105028261558493219",
-        "slug": "0xdesigner-mcp-493219",
-        "title": "0xdesigner MCP",
-        "product": "0xdesigner MCP",
-        "company": "0xdesigner MCP",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/0xDesigner/status/2105028261558493219",
-        "tweetId": "2105028261558493219",
-        "authorName": "0xDesigner",
-        "authorHandle": "0xDesigner",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1971239347115450368/Ul-xn5JD.jpg",
-        "poster": "/posters/0xdesigner-mcp-493219.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105028236681879554/vid/avc1/1920x1080/bb5-6I2OR0v8M2QI.mp4",
-        "publishedAt": "2026-09-29T20:13:41.000Z",
-        "durationSeconds": 12,
         "featured": false,
         "status": "draft"
       },
@@ -1114,72 +688,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2104840500847263794",
-      "tweetId": "2104840500847263794",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:23.569Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2104840500847263794",
-        "tweetUrl": "https://x.com/shadcnlabs/status/2104840500847263794",
-        "authorHandle": "shadcnlabs",
-        "authorName": "Shadcn Labs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084970342263685120/rnqwys1u.jpg",
-        "text": "Introducing pdfcn\n\nBuild beautiful PDFs like you build your UI.\n\nPowered by Takumi + Forme.\nPick from 10+ themes, 40+ components &amp; blocks, then customize everything.\n\nOne command to get started. shadcn/ui compatible.\n\n100% Free. Open source. https://t.co/15qZPBhbps",
-        "createdAt": "2026-09-29T07:47:36.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104839168828551168/vid/avc1/1920x1080/YrVy5hfnqq6EYiFE.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104839168828551168/img/0j4S5p-56CTWZZZj.jpg",
-            "durationMs": 15000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "shadcnlabs",
-        "company": "Shadcn Labs",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104840500847263794",
-        "slug": "shadcn-labs-263794",
-        "title": "Introducing pdfcn",
-        "product": "Shadcn Labs",
-        "company": "Shadcn Labs",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/shadcnlabs/status/2104840500847263794",
-        "tweetId": "2104840500847263794",
-        "authorName": "Shadcn Labs",
-        "authorHandle": "shadcnlabs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084970342263685120/rnqwys1u.jpg",
-        "poster": "/posters/shadcn-labs-263794.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104839168828551168/vid/avc1/1920x1080/YrVy5hfnqq6EYiFE.mp4",
-        "publishedAt": "2026-09-29T07:47:36.000Z",
-        "durationSeconds": 15,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2104994569964388738",
       "tweetId": "2104994569964388738",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:22.862Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:49:05.301Z",
       "score": 24,
       "reasons": [
         "has-video"
@@ -1301,9 +814,9 @@
     {
       "id": "disc-2104987422308335828",
       "tweetId": "2104987422308335828",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:22.136Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:49:12.662Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -1488,9 +1001,9 @@
     {
       "id": "disc-2104986129686741046",
       "tweetId": "2104986129686741046",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-09-30T01:48:20.695Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-09-30T03:46:06.167Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1544,71 +1057,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104984622191067137/vid/avc1/1920x1080/XqwxcETJ-aUHrd3Q.mp4",
         "publishedAt": "2026-09-29T17:26:16.000Z",
         "durationSeconds": 8,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104984504133918973",
-      "tweetId": "2104984504133918973",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:20.348Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104984504133918973",
-        "tweetUrl": "https://x.com/OpenAI/status/2104984504133918973",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "Introducing dots, powered by GPT-6 Astra.\n\nRemarkably capable, always-on agents built to handle everything. https://t.co/inY5BZj3Kz",
-        "createdAt": "2026-09-29T17:19:49.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104984413113393152/vid/avc1/1920x1080/9gGn_oekezTJaPRZ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104984413113393152/img/ww-kV51l6J5DwxZJ.jpg",
-            "durationMs": 147818
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2104984504133918973",
-        "slug": "dots-918973",
-        "title": "Introducing dots, powered by GPT-6 Astra",
-        "product": "dots",
-        "company": "dots",
-        "description": "dots is powered by GPT-6 Astra.",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2104984504133918973",
-        "tweetId": "2104984504133918973",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/dots-918973.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104984413113393152/vid/avc1/1920x1080/9gGn_oekezTJaPRZ.mp4",
-        "publishedAt": "2026-09-29T17:19:49.000Z",
-        "durationSeconds": 148,
         "featured": false,
         "status": "draft"
       },
