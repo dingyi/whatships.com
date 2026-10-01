@@ -583,7 +583,7 @@ img {
   letter-spacing: 0.04em;
   line-height: 20px;
   text-transform: uppercase;
-  transition: color 120ms ease;
+  transition: color var(--duration-quick) ease;
 }
 .desktop-nav a:hover,
 .desktop-nav .is-active {
@@ -607,7 +607,7 @@ img {
   color: var(--muted-foreground);
   cursor: pointer;
   pointer-events: auto;
-  transition: color 120ms ease, background 120ms ease, border-color 120ms ease;
+  transition: color var(--duration-quick) ease, background var(--duration-quick) ease, border-color var(--duration-quick) ease;
 }
 .theme-toggle:hover {
   color: var(--foreground);
@@ -630,7 +630,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: opacity 120ms ease;
+  transition: opacity var(--duration-quick) ease;
 }
 .nav-submit:hover {
   opacity: 0.88;
@@ -673,6 +673,7 @@ img {
   text-align: left;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color var(--duration-quick) ease, background var(--duration-quick) ease;
 }
 .mobile-nav a:hover,
 .mobile-nav button:hover,
@@ -822,6 +823,7 @@ img {
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  transition: color var(--duration-quick) ease, border-color var(--duration-quick) ease;
 }
 .category-filter:hover {
   color: var(--foreground);
@@ -851,7 +853,7 @@ img {
   border-radius: 0;
   background: var(--muted);
   color: var(--muted-foreground);
-  transition: background 120ms ease, border-color 120ms ease;
+  transition: background var(--duration-quick) ease, border-color var(--duration-quick) ease;
 }
 .header-search:hover,
 .header-search:focus-within {
@@ -900,6 +902,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color var(--duration-quick) ease;
 }
 .header-search__clear:hover {
   color: var(--foreground);
@@ -1194,6 +1197,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color var(--duration-quick) ease, background var(--duration-quick) ease;
 }
 .pagination button:hover:not(:disabled),
 .pagination button.is-active {
@@ -1315,6 +1319,7 @@ img {
   align-items: center;
   padding: 7px 12px 7px 7px;
   border-radius: 10px;
+  transition: background var(--duration-quick) ease;
 }
 .search-result__thumb {
   display: block;
@@ -1431,6 +1436,7 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color var(--duration-quick) ease;
 }
 .footer-nav a:hover,
 .footer-nav button:hover {
@@ -2320,7 +2326,7 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   place-items: center;
   color: var(--card);
   background: rgb(0 0 0 / 18%);
-  transition: background 160ms ease;
+  transition: background var(--duration-quick) ease;
 }
 .detail-play-link:hover {
   background: rgb(0 0 0 / 28%);
@@ -2474,6 +2480,7 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  transition: color var(--duration-quick) ease, border-color var(--duration-quick) ease;
 }
 .submit-kind:hover {
   color: var(--foreground);
@@ -2576,6 +2583,7 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   font-weight: 500 !important;
   letter-spacing: 0.04em !important;
   text-transform: uppercase;
+  transition: opacity var(--duration-quick) ease;
 }
 .submit-button:hover {
   opacity: 0.88;
@@ -2620,6 +2628,7 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   letter-spacing: 0.04em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: background var(--duration-quick) ease;
 }
 .submit-secondary:hover,
 .submit-copy:hover {
@@ -2735,6 +2744,7 @@ a.nav-submit {
   background: var(--muted);
   color: var(--foreground);
   cursor: pointer;
+  transition: background var(--duration-quick) ease;
 }
 .video-player-dialog__close:hover {
   background: var(--accent);
@@ -3141,10 +3151,10 @@ a.nav-submit {
   color: var(--muted-foreground);
   cursor: pointer;
   transition:
-    background 120ms ease,
-    border-color 120ms ease,
-    color 120ms ease,
-    opacity 120ms ease;
+    background var(--duration-quick) ease,
+    border-color var(--duration-quick) ease,
+    color var(--duration-quick) ease,
+    opacity var(--duration-quick) ease;
 }
 .admin-download:hover {
   background: var(--accent);
@@ -3194,6 +3204,7 @@ a.nav-submit {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color var(--duration-quick) ease;
 }
 .admin-reset:hover {
   color: var(--foreground);
@@ -3291,6 +3302,7 @@ a.nav-submit {
   background: transparent;
   text-align: left;
   cursor: pointer;
+  transition: background var(--duration-quick) ease;
 }
 .admin-list__item:last-child {
   border-bottom: 0;
@@ -3432,7 +3444,7 @@ a.nav-submit {
   place-content: center;
   color: var(--foreground);
   background: color-mix(in oklab, var(--background) 25%, transparent);
-  transition: background 120ms ease;
+  transition: background var(--duration-quick) ease;
 }
 .admin-player__play svg {
   padding: 10px;
