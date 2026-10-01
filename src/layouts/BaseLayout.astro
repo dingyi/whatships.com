@@ -21,6 +21,13 @@ const {
 const site = Astro.site ?? SITE_URL;
 const canonicalURL = new URL(Astro.url.pathname, site);
 const seoDescription = metaDescription(description);
+// Warm the connection to the video proxy before the first hover-preview:
+// a cold DNS+TLS round trip to it is part of the hover latency. Media
+// requests are no-cors, so the hint must NOT carry `crossorigin` — a
+// crossorigin preconnect opens a separate connection <video> can't reuse.
+const proxyOrigin = import.meta.env.PUBLIC_VIDEO_PROXY_BASE
+  ? new URL(import.meta.env.PUBLIC_VIDEO_PROXY_BASE).origin
+  : null;
 ---
 
 <!doctype html>
@@ -45,6 +52,7 @@ const seoDescription = metaDescription(description);
     <link rel="alternate" type="text/markdown" title="Markdown" href={canonicalURL} />
     <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
     <link rel="preconnect" href="https://data.dex.group" crossorigin />
+    {proxyOrigin && <link rel="preconnect" href={proxyOrigin} />}
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <!-- Google tag (gtag.js) -->

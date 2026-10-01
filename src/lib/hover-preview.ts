@@ -11,6 +11,10 @@
  * Behavior contract:
  *  - One live preview stream at a time: entering a new card tears the
  *    previous one down (src removed so the socket is freed).
+ *  - The preview only fades in once the first frame is decoded
+ *    (`reveal()`); until then the transparent <video> leaves the poster
+ *    visible, so a slow load degrades to "poster, then crossfade" instead
+ *    of a blank box.
  *  - Leaving a card pauses and fades the video out but keeps the element
  *    and src, so re-hovering resumes instantly; playback restarts at 0.
  *  - A preview that errors once (dead URL, network) is flagged on the card
@@ -80,6 +84,33 @@ function previewFor(media: HTMLElement): HTMLVideoElement {
   return video;
 }
 
+/**
+ * Fade the preview in only once the element has a frame to paint. Until
+ * then the <video> is transparent (no CSS background), so the poster stays
+ * visible while the bytes flow — the load happens invisibly underneath it.
+ * A warm video (element + src kept between hovers) has readyState >=
+ * HAVE_CURRENT_DATA and shows instantly.
+ */
+function reveal(media: HTMLElement, video: HTMLVideoElement) {
+  if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+    video.classList.add("is-previewing");
+    media.classList.add("is-previewing");
+    return;
+  }
+  video.addEventListener(
+    "loadeddata",
+    () => {
+      // The pointer may have moved on (or to another card) while the frame
+      // decoded; only fade in if this card is still the hovered preview.
+      if (active?.media === media && !video.paused) {
+        video.classList.add("is-previewing");
+        media.classList.add("is-previewing");
+      }
+    },
+    { once: true },
+  );
+}
+
 function activate(media: HTMLElement) {
   if (active && active.media !== media) {
     release(active);
@@ -108,8 +139,7 @@ function activate(media: HTMLElement) {
   void video.play().catch(() => {
     if (active?.media === media) fadeOut(video, media);
   });
-  video.classList.add("is-previewing");
-  media.classList.add("is-previewing");
+  reveal(media, video);
 }
 
 function deactivate(media: HTMLElement) {

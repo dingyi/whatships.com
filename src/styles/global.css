@@ -2183,7 +2183,9 @@ html.dark .ask-ai-link:focus-visible .ask-ai-icon[data-mono="true"],
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: var(--n-100);
+  /* No background: until the first frame decodes the element paints
+     nothing, so the poster stays visible while the video loads. A light
+     background here is what produced the white flash on hover. */
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--duration-quick) var(--ease-smooth-out);
