@@ -858,5 +858,26 @@
     "url": "https://www.movingimagearchive.com/",
     "category": "resources",
     "poster": "/posters/tools/moving-image-archive.webp"
+  },
+  {
+    "id": "tool-jacky-motion",
+    "slug": "jacky-motion",
+    "name": "Jacky Motion",
+    "tagline": "Turn voiceover scripts into motion HTML",
+    "description": "Turns a Chinese voiceover script into record-ready motion HTML, with optional SRT autoplay, B-roll frames, and 16:9 or 3:4 layouts. MIT.",
+    "url": "https://github.com/Jackywxsz/Jacky-motion",
+    "category": "skills",
+    "poster": "/posters/tools/jacky-motion.webp",
+    "install": "npx skills add Jackywxsz/Jacky-motion"
+  },
+  {
+    "id": "tool-fframes",
+    "slug": "fframes",
+    "name": "fframes",
+    "tagline": "Video vibe coding framework that is actually fast",
+    "description": "Write your video in Rust and SVG and render it on the GPU. A coding agent can install fframes, design the motion, and render an MP4. MIT.",
+    "url": "https://fframes.studio/",
+    "category": "editor",
+    "poster": "/posters/tools/fframes.webp"
   }
 ]
