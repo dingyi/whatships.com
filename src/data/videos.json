@@ -61860,5 +61860,57 @@
     "status": "published",
     "views": 860748,
     "viewsCapturedAt": "2026-10-01T13:16:58.652Z"
+  },
+  {
+    "id": "plv-platen",
+    "slug": "platen",
+    "title": "Platen — a little fun note app",
+    "product": "Platen",
+    "company": "Platen",
+    "description": "A little note app made to be fun, inspired by old tech.",
+    "category": "productivity",
+    "tags": [
+      "notes",
+      "writing"
+    ],
+    "tweetUrl": "https://x.com/raffiki_art/status/2105047227060351011",
+    "tweetId": "2105047227060351011",
+    "authorName": "Jerry Nkongolo",
+    "authorHandle": "raffiki_art",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1661253346634678274/XldSRlg_.jpg",
+    "poster": "/posters/platen.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2105047186304057344/vid/avc1/886x1920/jn2xP6_NXmnPvy3C.mp4",
+    "publishedAt": "2026-09-29T21:29:03.000Z",
+    "durationSeconds": 15,
+    "featured": false,
+    "status": "published",
+    "views": 291786,
+    "viewsCapturedAt": "2026-10-01T13:36:24.630Z"
+  },
+  {
+    "id": "plv-sudo",
+    "slug": "sudo",
+    "title": "Introducing Sudo",
+    "product": "Sudo",
+    "company": "New Matter",
+    "description": "A delightful music player for the songs you love.",
+    "category": "hardware",
+    "tags": [
+      "music",
+      "hardware"
+    ],
+    "tweetUrl": "https://x.com/newmatterinc/status/2105354131729006726",
+    "tweetId": "2105354131729006726",
+    "authorName": "New Matter",
+    "authorHandle": "newmatterinc",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2090829316737085440/W0mYpsbz.jpg",
+    "poster": "/posters/sudo.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2105354082114228224/vid/avc1/1080x1080/0DdyGiL66mEiGkS0.mp4",
+    "publishedAt": "2026-09-30T17:48:35.000Z",
+    "durationSeconds": 24,
+    "featured": false,
+    "status": "published",
+    "views": 1558421,
+    "viewsCapturedAt": "2026-10-01T13:36:24.630Z"
   }
 ]
