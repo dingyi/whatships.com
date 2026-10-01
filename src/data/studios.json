@@ -85,5 +85,16 @@
     "kind": "studio",
     "xHandle": "monalogco",
     "poster": "/posters/studios/monalog.webp"
+  },
+  {
+    "id": "person-isaac-edits",
+    "slug": "isaac-edits",
+    "name": "isaac.edits",
+    "tagline": "Launch videos for startup clients",
+    "description": "Independent video editor making launch films and product introductions for startup clients.",
+    "url": "https://x.com/isaacedits_",
+    "kind": "person",
+    "xHandle": "isaacedits_",
+    "poster": "/posters/studios/isaac-edits.webp"
   }
 ]
