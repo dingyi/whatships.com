@@ -96,5 +96,16 @@
     "kind": "person",
     "xHandle": "isaacedits_",
     "poster": "/posters/studios/isaac-edits.webp"
+  },
+  {
+    "id": "studio-flowjam",
+    "slug": "flowjam",
+    "name": "Flowjam",
+    "tagline": "We make launch videos for AI startups",
+    "description": "A studio that makes story-driven launch videos for AI founders. Clients include HeyGen, Bloom, Origami, Minerva, and other YC startups.",
+    "url": "https://www.flowjam.com/",
+    "kind": "studio",
+    "xHandle": "theadampetty",
+    "poster": "/posters/studios/flowjam.webp"
   }
 ]
