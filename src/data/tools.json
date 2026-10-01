@@ -208,7 +208,9 @@
     "url": "https://github.com/oil-oil/oil-motion",
     "category": "skills",
     "poster": "/posters/tools/oil-motion.webp",
-    "install": "npx skills add oil-oil/oil-motion"
+    "install": "npx skills add oil-oil/oil-motion",
+    "stars": 2475,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-pika",
@@ -339,7 +341,9 @@
     "url": "https://www.remotion.dev/docs/ai/skills",
     "category": "skills",
     "poster": "/posters/tools/remotion-skills.webp",
-    "install": "npx skills add remotion-dev/skills"
+    "install": "npx skills add remotion-dev/skills",
+    "stars": 4795,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-video-production-skills",
@@ -350,7 +354,9 @@
     "url": "https://github.com/Pluviobyte/video-production-skills",
     "category": "skills",
     "poster": "/posters/tools/video-production-skills.webp",
-    "install": "npx skills add Pluviobyte/video-production-skills"
+    "install": "npx skills add Pluviobyte/video-production-skills",
+    "stars": 665,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-raylight",
@@ -401,7 +407,9 @@
     "url": "https://github.com/diffusionstudio/skills",
     "category": "skills",
     "poster": "/posters/tools/diffusion-studio-skills.webp",
-    "install": "npx skills add diffusionstudio/skills"
+    "install": "npx skills add diffusionstudio/skills",
+    "stars": 145,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-kite",
@@ -432,7 +440,9 @@
     "url": "https://github.com/eternityspring/shuohao-skills",
     "category": "skills",
     "poster": "/posters/tools/shuohao-skills.webp",
-    "install": "npx skills add eternityspring/shuohao-skills"
+    "install": "npx skills add eternityspring/shuohao-skills",
+    "stars": 4020,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-prequel",
@@ -583,7 +593,9 @@
     "url": "https://github.com/gnipbao/codex-whiteboard-video-skill",
     "category": "skills",
     "poster": "/posters/tools/codex-whiteboard-video.webp",
-    "install": "npx skills add gnipbao/codex-whiteboard-video-skill"
+    "install": "npx skills add gnipbao/codex-whiteboard-video-skill",
+    "stars": 320,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-creavit-studio",
@@ -724,7 +736,9 @@
     "url": "https://github.com/s1dashu/director",
     "category": "skills",
     "poster": "/posters/tools/director.webp",
-    "install": "npx skills add s1dashu/director"
+    "install": "npx skills add s1dashu/director",
+    "stars": 784,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-launchvideo",
@@ -785,7 +799,9 @@
     "url": "https://github.com/nilbuild/video-demo",
     "category": "skills",
     "poster": "/posters/tools/video-demo.webp",
-    "install": "npx skills add nilbuild/video-demo"
+    "install": "npx skills add nilbuild/video-demo",
+    "stars": 188,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-viewport",
@@ -836,7 +852,9 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "category": "skills",
     "poster": "/posters/tools/lemo-opuscar.webp",
-    "install": "npx skills add lemomo-ai/lemo-opuscar"
+    "install": "npx skills add lemomo-ai/lemo-opuscar",
+    "stars": 738,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-guizang-product-video",
@@ -847,7 +865,9 @@
     "url": "https://github.com/op7418/guizang-product-video-skill",
     "category": "skills",
     "poster": "/posters/tools/guizang-product-video.webp",
-    "install": "npx skills add op7418/guizang-product-video-skill"
+    "install": "npx skills add op7418/guizang-product-video-skill",
+    "stars": 652,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-moving-image-archive",
@@ -868,7 +888,9 @@
     "url": "https://github.com/Jackywxsz/Jacky-motion",
     "category": "skills",
     "poster": "/posters/tools/jacky-motion.webp",
-    "install": "npx skills add Jackywxsz/Jacky-motion"
+    "install": "npx skills add Jackywxsz/Jacky-motion",
+    "stars": 229,
+    "starsCapturedAt": "2026-10-01T13:01:57.206Z"
   },
   {
     "id": "tool-fframes",

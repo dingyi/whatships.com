@@ -4,6 +4,8 @@ import SiteFooter from "@/components/SiteFooter.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import {
   TOOL_CATEGORIES,
+  formatStars,
+  formatStarsDetail,
   gridPoster,
   publishedTools,
   toolCategoryLabel,
@@ -53,9 +55,11 @@ import {
         {
           publishedTools.map((tool, index) => {
             const small = gridPoster(tool.poster);
-            const bust = tool.category === "skills" ? "?v=3" : "";
+            const bust = tool.category === "skills" ? "?v=4" : "";
             const host = toolHost(tool.url);
             const category = toolCategoryLabel(tool.category);
+            const stars = formatStars(tool.stars);
+            const starsDetail = formatStarsDetail(tool);
             return (
               <article class="video-card" id={tool.id} data-category={tool.category}>
                 <span class="corner one" aria-hidden="true" />
@@ -81,6 +85,31 @@ import {
                       width="1440"
                       height="810"
                     />
+                    {
+                      tool.category === "skills" && stars && (
+                        <span
+                          class="video-card__stars"
+                          title={starsDetail ?? undefined}
+                          aria-hidden="true"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="10"
+                            height="10"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2.4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M12 2.6 15 9l7 .8-5.2 4.7 1.5 6.9L12 17.9 5.7 21.4l1.5-6.9L2 9.8 9 9Z" />
+                          </svg>
+                          {stars}
+                        </span>
+                      )
+                    }
                   </a>
                   <div class="video-card__body">
                     <div>
@@ -90,7 +119,11 @@ import {
                         </a>
                       </h2>
                       <p class="video-card__location">{tool.tagline}</p>
-                      <p class="video-card__meta">{host}</p>
+                      {/* Host line only for non-skill tools — skills cards
+                          carry the GitHub stars chip instead. */}
+                      {tool.category !== "skills" && (
+                        <p class="video-card__meta">{host}</p>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -163,6 +196,7 @@ import {
     cursor: pointer;
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
+    transition: color var(--duration-quick) ease, border-color var(--duration-quick) ease;
   }
   .tool-filter:hover {
     color: var(--foreground);
@@ -187,9 +221,37 @@ import {
     line-height: 16px;
     text-transform: uppercase;
   }
-  /* 12px card pad + 16px kicker + 8px kicker margin + 9px media inset. */
+  /* 12px card pad + 16px kicker + 8px kicker margin + 9px media inset. The
+     external arrow sits bottom-right so it never collides with the stars
+     chip in the media's top-right corner. */
   .directory .video-card__external {
-    top: 45px;
+    top: auto;
+    bottom: 21px;
+  }
+  /* GitHub stars chip, top-right of the preview — agentskills.me-style pill
+     (rounded, stacked over the poster) on the site's mono chrome. Star
+     counts are a snapshot; the title carries the exact count + date. */
+  .directory .video-card__stars {
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgb(15 23 42 / 55%);
+    color: rgb(255 255 255 / 95%);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+  }
+  .directory .video-card__stars svg {
+    flex: none;
   }
   @media (max-width: 699px) {
     .tool-filter {
