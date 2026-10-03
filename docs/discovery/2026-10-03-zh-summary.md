@@ -1,6 +1,8 @@
 # 2026-10-03 产品发布视频发现汇总（Grok X 深度搜索）
 
-使用 Grok 内置 X 搜索功能（x_keyword_search / x_semantic_search / x_thread_fetch），针对产品设计、科技公司、AI 公司及个人开发者发布的带视频帖子进行深度查询。筛选关键词包括 Introducing / just shipped / now live / now available / plugin / MCP / agent / Codex / Claude Code 等，并覆盖 watchlist 账号与高互动独立开发者。时间范围：2026-10-01 下午至 2026-10-03 上午 CST（与 10-01 文档互补，不重复 09-30 / 10-01 已入队条目）。已排除阅读量少于 500 的帖子，以及政治、纯娱乐、体育、音乐发行、加密货币代币 / NFT、纯游戏剧情与无关教程。抽查 tweetId 未出现在 `src/data/videos.json` 代码搜索结果中。
+使用 Grok 内置 X 搜索功能（x_keyword_search / x_semantic_search / x_thread_fetch），针对产品设计、科技公司、AI 公司及个人开发者发布的带视频帖子进行深度查询。筛选关键词包括 Introducing / just shipped / now live / now available / plugin / MCP / agent / Codex / Claude Code 等，并覆盖 watchlist 账号与高互动独立开发者。时间范围：2026-10-01 下午至 2026-10-03 13:16 UTC（约 CST 21:16；与 10-01 文档互补，不重复 09-30 / 10-01 已入队条目）。已排除阅读量少于 500 的帖子，以及政治、纯娱乐、体育、音乐发行、加密货币代币 / NFT、纯游戏剧情与无关教程。抽查 tweetId 未出现在 `src/data/videos.json` 代码搜索结果中。
+
+本文件在已有 PR #273 上补扫：原 21 条保留；新增 AgentCraft、Auday、MyGo、Codex Mobile Dev，以及 Motionfly / Pewbeam / claude-lightbox 跟进。
 
 审核后可运行：
 
@@ -107,7 +109,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-03-zh-summary.md
 - **时间**：2026-10-02 21:47 UTC
 - **视频**：约 7 秒
 - **亮点**：watchlist 账号官方能力片。Jev 进入 AI SDK for Python。演示两则实验：边打字分辨 Python / English，以及逐决策写 Python。`uv add ai`。https://vercel.com/blog/jev-for-python-engineers
-- **互动**：约 83 赞、8 转发、1 引用、13 回复、34 收藏、1.6 万+浏览
+- **互动**：约 83 赞、8 转发、1 引用、13 回复、34 收藏、1.6 万+浏览（补扫时约 5.5 万浏览）
 - **分类建议**：developer-tools / ai
 - **链接**：https://x.com/vercel/status/2106139101422567748
 - **tweetId**：2106139101422567748
@@ -120,7 +122,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-03-zh-summary.md
 - **时间**：2026-10-02 17:56 UTC
 - **视频**：约 29 秒
 - **亮点**：watchlist 账号官方能力片。把设计交付拉近 CSS，handoff 即 ship。与 10-01 文档的 Custom animation styles / Lottie 不是同一条能力片，建议独立入库。评论区仍在追 relative units。
-- **互动**：约 289 赞、22 转发、10 回复、113 收藏、1.4 万+浏览
+- **互动**：约 289 赞、22 转发、10 回复、113 收藏、1.4 万+浏览（补扫时约 2.4 万浏览）
 - **分类建议**：design / developer-tools
 - **链接**：https://x.com/figma/status/2106080919954313434
 - **tweetId**：2106080919954313434
@@ -133,7 +135,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-03-zh-summary.md
 - **时间**：2026-10-02 20:33 UTC
 - **视频**：约 28 秒
 - **亮点**：text-to-cad plugin 已在 Codex 上线。可生成 STEP / STL / 3MF / GLB，并做打印、钣金、CNC、注塑的 DFM；可接到 Bambu、SendCutSend 等制造服务。开源免费，在 Codex 桌面应用内本地运行。indie 制造工具首发片，收藏明显高于赞。
-- **互动**：约 235 赞、19 转发、5 引用、10 回复、259 收藏、9200+浏览
+- **互动**：约 235 赞、19 转发、5 引用、10 回复、259 收藏、9200+浏览（补扫时约 944 赞、1093 收藏、4.7 万浏览）
 - **分类建议**：developer-tools / design
 - **链接**：https://x.com/earthtojake/status/2106120308037947785
 - **tweetId**：2106120308037947785
@@ -283,20 +285,76 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-03-zh-summary.md
 
 ---
 
-## 22. 其他高信号 / 跟进
+## 22. AgentCraft — Minecraft 里的多 agent harness（补扫）
+
+- **作者**：@BlendiByl（eng @fal，前 @remade_ai）
+- **时间**：2026-10-03 03:34 UTC
+- **视频**：约 56 秒
+- **亮点**：Introducing AgentCraft。开源多 agent harness，跑在 Minecraft 里：lead 拆目标，worker 在各自 git worktree 并行构建，需要人决时走到玩家面前。合并前在游戏里看真实 diff。Claude Agent SDK，自带 API key，指向自己的仓库。https://github.com/blendi-remade/agentcraft 产品是编码 agent 工作台，不是游戏发行片。补扫浏览量最高的新入口。
+- **互动**：约 3529 赞、139 转发、56 引用、76 回复、1625 收藏、16.4 万+浏览
+- **分类建议**：ai / developer-tools
+- **链接**：https://x.com/BlendiByl/status/2106226258984264042
+- **tweetId**：2106226258984264042
+
+---
+
+## 23. Auday — Apple Watch 全天 AI 录音（补扫）
+
+- **作者**：@auday_ai
+- **时间**：2026-10-03 07:12 UTC
+- **视频**：约 90 秒
+- **亮点**：Introducing Auday，已上 Product Hunt 与 App Store。把 Apple Watch 变成全天录音器：语音之外结合健康、实时压力与位置，回看转录、时间线、亮点与 AI 对话。宣称几乎全部本地运行，自带 API key，无后端。买断 $9.99 首发价。消费硬件 + AI 产品首发长片。
+- **互动**：约 133 赞、6 转发、9 回复、83 收藏、22.5 万+浏览
+- **分类建议**：ai / consumer / hardware
+- **链接**：https://x.com/auday_ai/status/2106281145545719983
+- **tweetId**：2106281145545719983
+
+---
+
+## 24. MyGo — Go 桌面应用框架（补扫）
+
+- **作者**：@localhost_5173（EGOIST）
+- **时间**：2026-10-03 10:25 UTC
+- **视频**：约 24 秒
+- **亮点**：Introducing MyGo。纯 Go 桌面框架，webview 或原生 UI，定位在 GPUI 与 Tauri 之间，强调编译快。https://mygo.egoist.dev indie 开发者工具首发片。
+- **互动**：约 432 赞、38 转发、7 引用、28 回复、219 收藏、1.7 万+浏览
+- **分类建议**：developer-tools
+- **链接**：https://x.com/localhost_5173/status/2106329895752388803
+- **tweetId**：2106329895752388803
+
+---
+
+## 25. Codex Mobile Dev — 移动端调试插件（补扫，窗口内漏网）
+
+- **作者**：@lauridskern（Margelo / Callstack）
+- **时间**：2026-10-02 15:46 UTC
+- **视频**：约 20 秒（线程另有日志与性能两条短片）
+- **亮点**：Introducing Mobile Dev。把移动端开发工具放进 Codex：流式日志修 bug，并让 Codex 使用应用做性能剖析。插件仓库 https://github.com/callstackincubator/codex-mobile-dev-plugin 与 text-to-CAD 是不同 Codex 插件。原 10-03 早扫未收录。
+- **互动**：约 198 赞、44 转发、18 引用、28 回复、137 收藏、3.1 万+浏览
+- **分类建议**：developer-tools / ai
+- **链接**：https://x.com/lauridskern/status/2106048205460803809
+- **tweetId**：2106048205460803809
+
+---
+
+## 26. 其他高信号 / 跟进
 
 - **Claude Code mods 讲解**（@lydiahallie，约 201 秒，4.8 万+浏览）：Anthropic 员工说明 mods 是带特殊函数的插件，可让代码在 Claude Code 内当中间件跑。教程而非新产品入口，可与 clawdhouse / image-viewer 对照。https://x.com/lydiahallie/status/2106127556491821499
 - **Claude Code 2.1.288**（@ClaudeCodeLog，约 41 秒，1.2 万+浏览）：非官方 changelog。新增从提示直接跑 bash、可委派多步任务的 agent 命令、空提示按上方向键恢复 Ctrl+C 清掉的草稿。能力变更，不是官方产品片。https://x.com/ClaudeCodeLog/status/2106119715764531420
 - **Claude 能力展示线程**（@claudeai）：可剖开的喷气发动机 3D（Opus 5.5，约 3.1 万浏览）、纸折城市（Sonnet 5.5）、跟随真实天气的西雅图像素漫步。模型演示，不是新入口。https://x.com/claudeai/status/2106125478956507480
 - **Runway Summit 圆桌**（@runwayml，约 85 秒，6100+浏览）：Canva / ElevenLabs / Nebius 谈创意工具与 agent，非产品首发。https://x.com/runwayml/status/2106039692877762635
 - **Liquid d1 桌面整理复现**（@helloiamleonie，约 7 秒，6100+浏览）：用 d1 复现 Jev 整理桌面，模型已在 OpenRouter。案例片。https://x.com/helloiamleonie/status/2105762398657482849
+- **Motionfly 2.0**（@Motionfly_co，约 66 秒，1.0 万浏览）：声称用 1000+ 发布片训练，示例是给 Notion AI 生成的 launch video。产品是生成工具，成片是模板化样片，建议与官方发布片分开审。https://x.com/Motionfly_co/status/2106259342550806993
+- **Pewbeam Alerts**（@darasoba，约 25 秒，1500+浏览）：演示软件新增定向警报，不打断演讲流。功能片，浏览刚过阈值。https://x.com/darasoba/status/2106280699216965805
+- **claude-lightbox**（@arihantbansal，约 21 秒，约 850 浏览）：Claude CLI mod，粘贴图片全屏预览并可由后台 agent 配字幕。与 image-viewer 不同客户端。https://x.com/arihantbansal/status/2106348428699824561
 
 ## 已排除或低于阈值（不入队）
 
-- 阅读量 <500：Dropday.ai（416）、402compute 演示（697 但属链上钱包 / 代币演示，且互动注水）、多个 indie 回复链只有 YouTube 外链。
-- 加密 / 代币：Community Coins、filled 卡牌终端邮件、ZKdesk 金库 agent、Percolator 实盘卡片。
-- 政治、体育、音乐、纯游戏过场：SpaceX 新闻转载、NHL、K-pop、独立游戏预告。
-- 疑似营销叙事而非可注册产品：Night Shift “5 agents overnight” 转帖。
+- 阅读量 <500：Dropday.ai（416）、Framer 模板 Nexli（487）、多个 indie 回复链只有 YouTube 外链。
+- 加密 / 代币：Community Coins、Binance Wallet 功能片、cotch.fun、1win Token、Pons MCP 链上支付、OSBook Agent Quest、Hunter NFT。
+- 政治、体育、音乐、纯游戏过场：SpaceX 新闻转载、NHL、K-pop、独立游戏预告、hololive Blu-ray、Disney Twisted-Wonderland、Cyber Paranoia OST。
+- 疑似营销叙事而非可注册产品：Night Shift “5 agents overnight” 转帖、AgentEpstein 采集向 skill。
+- 非产品片：Notion 万圣节蝙蝠短片、Cloudflare Birthday Week 员工访谈。
 
 ## 已在目录或 09-30 / 10-01 文档中出现（仅交叉引用，不重复入队）
 
