@@ -901,5 +901,38 @@
     "url": "https://fframes.studio/",
     "category": "editor",
     "poster": "/posters/tools/fframes.webp"
+  },
+  {
+    "id": "tool-one-prompt-video",
+    "slug": "one-prompt-video",
+    "name": "One Prompt Video",
+    "tagline": "One sentence, a finished voiceover video",
+    "description": "Three agent skills that turn one prompt into a finished voiceover video: a script, a talking-head, B-roll, a HyperFrames composite, and a frame check.",
+    "url": "https://github.com/huangbai-AI/one-prompt-video-skills",
+    "category": "skills",
+    "poster": "/posters/tools/one-prompt-video.webp",
+    "install": "npx skills add huangbai-AI/one-prompt-video-skills",
+    "stars": 80,
+    "starsCapturedAt": "2026-10-03T15:40:00.000Z"
+  },
+  {
+    "id": "tool-motionfly",
+    "slug": "motionfly",
+    "name": "Motionfly",
+    "tagline": "AI Product Launch Video Generator",
+    "description": "Create product launch videos, SaaS explainers, and app launch videos with AI, from a prompt to a polished video in seconds.",
+    "url": "https://motionfly.co/",
+    "category": "ai",
+    "poster": "/posters/tools/motionfly.webp"
+  },
+  {
+    "id": "tool-aloud",
+    "slug": "aloud",
+    "name": "Aloud",
+    "tagline": "Feedback your coding agent can run",
+    "description": "Point at anything you're building, an app, a site, or a design, and say what's off. Aloud records the screen with you and hands your coding agent a plan with the pictures in it.",
+    "url": "https://www.aloud.sh/",
+    "category": "editor",
+    "poster": "/posters/tools/aloud.webp"
   }
 ]
