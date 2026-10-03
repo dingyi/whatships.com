@@ -1,6 +1,6 @@
 # 2026-10-01 产品发布视频发现汇总（Grok X 深度搜索）
 
-使用 Grok 内置 X 搜索功能（x_keyword_search / x_semantic_search / x_thread_fetch），针对产品设计、科技公司、AI 公司及个人开发者发布的带视频帖子进行深度查询。筛选关键词包括 Introducing / just shipped / just launched / now live / now available / plugin / MCP / agent / desktop / workflows 等，并覆盖 watchlist 账号与高互动独立开发者。时间范围：2026-09-30 上午至 2026-10-01 上午 CST（以 Runway AI Summit、Figma Motion、Gemini skills 窗口为主）。已排除阅读量少于 500 的帖子，以及政治、纯娱乐、体育、音乐发行、加密货币代币/NFT、纯游戏与无关教程。与 09-30 已发现文档互补，不重复已入队 / 已上站条目。
+使用 Grok 内置 X 搜索功能（x_keyword_search / x_semantic_search / x_thread_fetch），针对产品设计、科技公司、AI 公司及个人开发者发布的带视频帖子进行深度查询。筛选关键词包括 Introducing / just shipped / just launched / now live / now available / plugin / MCP / agent / desktop / workflows 等，并覆盖 watchlist 账号与高互动独立开发者。时间范围：2026-09-30 上午至 2026-10-01 上午 CST（以 Runway AI Summit、Figma Motion、Gemini skills 窗口为主；2026-10-01 08:13 CDT 上午补扫，补入 Reflect Open 等未入队条目）。已排除阅读量少于 500 的帖子，以及政治、纯娱乐、体育、音乐发行、加密货币代币/NFT、纯游戏与无关教程。与 09-30 已发现文档互补，不重复已入队 / 已上站条目。
 
 审核后可运行：
 
@@ -348,8 +348,65 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-01-zh-summary.md
 
 ---
 
-## 27. 其他高信号 / 跟进
 
+## 27. Reflect Open — 退出 beta 的本地 Markdown 笔记
+
+- **作者**：@reflectnotes
+- **时间**：2026-09-30 16:59 UTC
+- **视频**：约 52 秒（线程另有 6 段功能短片，约 21–35 秒）
+- **亮点**：上午补扫补入。Reflect Open 今日退出 beta：反向链接、即时搜索，笔记是普通 Markdown 文件，agent 可读。无 Reflect 账号 / 云数据库；可指向 Claude Code 或 Codex，一键装 skill。内置自带 key 的 AI chat（OpenAI / Anthropic / Google / OpenRouter / 本地），私密笔记不进模型。iPhone / iPad 支持会议级音频备忘与转写。iCloud Drive 或 Git 同步。Tauri 原生应用，Mac 免费无试用限制。https://reflect.app https://github.com/team-reflect/reflect-open 收藏比赞比高，适合作为 productivity 首发主帖，线程短片可合并审。
+- **互动**：约 213 赞、16 转发、3 引用、19 回复、227 收藏、3.3 万+浏览
+- **分类建议**：productivity / ai
+- **链接**：https://x.com/reflectnotes/status/2105341653468774723
+- **tweetId**：2105341653468774723
+
+---
+
+## 28. Todoist — 无日期时长与看板子任务
+
+- **作者**：@amix3k（Todoist）
+- **时间**：2026-09-30 19:14 UTC
+- **视频**：约 152 秒
+- **亮点**：上午补扫补入。Todoist web 与 desktop 上线：任务可只加 duration、不必绑日期/时间；看板视图可见子任务。官方功能 walkthrough，非营销模板。
+- **互动**：约 138 赞、1 转发、36 回复、28 收藏、6700+浏览
+- **分类建议**：productivity
+- **链接**：https://x.com/amix3k/status/2105375678749110698
+- **tweetId**：2105375678749110698
+
+---
+
+## 29. Blender × visionOS Spatial Preview
+
+- **作者**：@Adrian_Schr
+- **时间**：2026-09-30 21:54 UTC
+- **视频**：约 24 秒
+- **亮点**：上午补扫补入。visionOS 27 的 Spatial Preview 上线后，作者做了开源工具：一键把 Blender 场景以 3D 推到 Vision Pro。免费开源，链接在评论。硬件/设计工具首发短片。
+- **互动**：约 112 赞、12 转发、5 回复、46 收藏、5600+浏览
+- **分类建议**：design / hardware / developer-tools
+- **链接**：https://x.com/Adrian_Schr/status/2105416059524190245
+- **tweetId**：2105416059524190245
+
+---
+
+## 30. lore — agent 输出的确定性护栏
+
+- **作者**：@maanav
+- **时间**：2026-09-30 19:17 UTC
+- **视频**：约 12 秒
+- **亮点**：上午补扫补入。开源 lore：agent 输出可以过 JSON schema 但语义仍错；lore 用世界规则与状态做确定性校验。indie 开发者工具首发短片。
+- **互动**：约 61 赞、7 转发、1 引用、4 回复、13 收藏、3900+浏览
+- **分类建议**：developer-tools / ai
+- **链接**：https://x.com/maanav/status/2105376410357698820
+- **tweetId**：2105376410357698820
+
+---
+
+## 31. 其他高信号 / 跟进
+
+- **Grokipedia v0.3**（@Grokipedia，文本首发约 271 万浏览；@cb_doge 设计预览约 25 秒、5.0 万+浏览）：官方帖无视频，设计预览可作 motion/design 候选，确认是否产品入口再入库。https://x.com/Grokipedia/status/2105413402218873178 https://x.com/cb_doge/status/2105411823877177471
+- **Nebius AI Cloud Q3**（@nebiusai，约 33 秒，2800+浏览）：季度 shipping 汇总，非单点首发。https://x.com/nebiusai/status/2105623455639220248
+- **Novita × MiMo-V2.6**（@novita_labs，约 21 秒，4500+浏览）：模型上架短片，非独立产品 App。https://x.com/novita_labs/status/2105324289528570363
+- **Incident Arena** 浏览升至约 3.1 万，仍按 benchmark 处理，不升主条目。
 - **Figma Motion ICYMI**（@figma，约 36 秒，125 万+浏览）：Custom styles + Lottie 导出已上线，音频 / 文字动画下周。建议与主条目 1 合并。https://x.com/figma/status/2105335770584416309
 - **Runway Praxis-1 讲台片**（@runwayml，约 75 秒，4700+浏览）：Andy Chen 讲解 + 早期准入。https://x.com/runwayml/status/2105419393928929671
 - **Runway Ads 讲台片**（@runwayml，约 48 秒，5400+浏览）：CPO Anthony Maggio 介绍。https://x.com/runwayml/status/2105401636277637479
