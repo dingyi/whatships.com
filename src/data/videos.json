@@ -62224,5 +62224,83 @@
     "status": "published",
     "views": 65686,
     "viewsCapturedAt": "2026-10-03T16:06:21.352Z"
+  },
+  {
+    "id": "plv-cua-spaces",
+    "slug": "cua-spaces",
+    "title": "Cua Spaces — a free Space for every agent",
+    "product": "Cua Spaces",
+    "company": "Cua",
+    "description": "Built on Cua Driver and their virtualization stack, rolling out on macOS. Free and source-available.",
+    "category": "developer-tools",
+    "tags": [
+      "agents",
+      "macos"
+    ],
+    "tweetUrl": "https://x.com/trycua/status/2106057192285548763",
+    "tweetId": "2106057192285548763",
+    "authorName": "Cua",
+    "authorHandle": "trycua",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2106056584929361920/XJWz9bZS.jpg",
+    "poster": "/posters/cua-spaces.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2106055991124963328/vid/avc1/1920x1080/4gUCVdbeAS_YI6iM.mp4",
+    "publishedAt": "2026-10-02T16:22:17.000Z",
+    "durationSeconds": 34,
+    "featured": false,
+    "status": "published",
+    "views": 441504,
+    "viewsCapturedAt": "2026-10-04T17:15:25.381Z"
+  },
+  {
+    "id": "plv-opendots",
+    "slug": "opendots",
+    "title": "OpenDots — always-on AI coworkers",
+    "product": "OpenDots",
+    "company": "OpenDots",
+    "description": "Self-hostable, always-on AI coworkers that work with any agent harness.",
+    "category": "ai",
+    "tags": [
+      "agents",
+      "open-source"
+    ],
+    "tweetUrl": "https://x.com/ataiiam/status/2105710796198322659",
+    "tweetId": "2105710796198322659",
+    "authorName": "Atai Barkai",
+    "authorHandle": "ataiiam",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1649413157893316608/qAX0jKbI.jpg",
+    "poster": "/posters/opendots.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2105710720109473792/vid/avc1/1920x1080/jhszzEIon3oDaZ_c.mp4",
+    "publishedAt": "2026-10-01T17:25:50.000Z",
+    "durationSeconds": 67,
+    "featured": false,
+    "status": "published",
+    "views": 1022023,
+    "viewsCapturedAt": "2026-10-04T17:15:25.381Z"
+  },
+  {
+    "id": "plv-mobile-dev",
+    "slug": "mobile-dev",
+    "title": "Introducing Mobile Dev",
+    "product": "Mobile Dev",
+    "company": "Mobile Dev",
+    "description": "Full mobile-dev tooling in your Codex app, with a live iOS simulator beside the chat.",
+    "category": "developer-tools",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "tweetUrl": "https://x.com/lauridskern/status/2106048205460803809",
+    "tweetId": "2106048205460803809",
+    "authorName": "Laurids 🇪🇺🇺🇦🇵🇸",
+    "authorHandle": "lauridskern",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/2018400631367626752/Fw6cjDbB.jpg",
+    "poster": "/posters/mobile-dev.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2106043391574159360/vid/avc1/1578x1080/aw-A4P9Eyv4-Ie19.mp4",
+    "publishedAt": "2026-10-02T15:46:35.000Z",
+    "durationSeconds": 20,
+    "featured": false,
+    "status": "published",
+    "views": 38563,
+    "viewsCapturedAt": "2026-10-04T17:15:25.381Z"
   }
 ]

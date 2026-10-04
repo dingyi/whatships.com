@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T08:47:17.970Z",
+  "updatedAt": "2026-10-04T17:15:25.381Z",
   "items": [
     {
       "id": "disc-2105376410357698820",
@@ -234,66 +234,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104982548606562304/vid/avc1/1920x1080/6TggXVhiQA0OHj7D.mp4",
         "publishedAt": "2026-09-30T16:59:00.000Z",
         "durationSeconds": 52,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2106048205460803809",
-      "tweetId": "2106048205460803809",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-04T08:47:16.672Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2106048205460803809",
-        "tweetUrl": "https://x.com/lauridskern/status/2106048205460803809",
-        "authorHandle": "lauridskern",
-        "authorName": "Laurids 🇪🇺🇺🇦🇵🇸",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2018400631367626752/Fw6cjDbB.jpg",
-        "text": "Introducing Mobile Dev: full mobile dev tooling right in your Codex app ✨ https://t.co/ISRoXMBcPx",
-        "createdAt": "2026-10-02T15:46:35.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106043391574159360/vid/avc1/2864x1958/iQIwOoNMFwruhTfe.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106043391574159360/img/7bciAe-LQ7rF35B3.jpg",
-            "durationMs": 20000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "lauridskern",
-        "company": "Laurids 🇪🇺🇺🇦🇵🇸",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106048205460803809",
-        "slug": "mobile-dev-803809",
-        "title": "Mobile Dev — full mobile dev tooling right",
-        "product": "Mobile Dev",
-        "company": "Mobile Dev",
-        "description": "Mobile Dev is full mobile dev tooling right in your Codex app ✨.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/lauridskern/status/2106048205460803809",
-        "tweetId": "2106048205460803809",
-        "authorName": "Laurids 🇪🇺🇺🇦🇵🇸",
-        "authorHandle": "lauridskern",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2018400631367626752/Fw6cjDbB.jpg",
-        "poster": "/posters/mobile-dev-803809.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106043391574159360/vid/avc1/2864x1958/iQIwOoNMFwruhTfe.mp4",
-        "publishedAt": "2026-10-02T15:46:35.000Z",
-        "durationSeconds": 20,
         "featured": false,
         "status": "draft"
       },
