@@ -1,132 +1,12 @@
 {
-  "updatedAt": "2026-10-05T14:34:30.531Z",
+  "updatedAt": "2026-10-05T15:09:02.962Z",
   "items": [
-    {
-      "id": "disc-2107078811925746132",
-      "tweetId": "2107078811925746132",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T14:34:30.531Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2107078811925746132",
-        "tweetUrl": "https://x.com/WeAreLegora/status/2107078811925746132",
-        "authorHandle": "WeAreLegora",
-        "authorName": "Legora",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2035991206371774464/M5zQPOWU.jpg",
-        "text": "Introducing Skills.\n\nTeach the Legora Agent how you work.\n\nLaw firms and in-house teams can now teach the Legora Agent their standards, processes and preferences through Skills, making their way of working scale across every task.\n\nEvery legal team has its own way of working: the https://t.co/B7IFftgV4k",
-        "createdAt": "2026-10-05T12:01:51.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2107078733215498241/vid/avc1/1920x1080/on8O_QxR1ma3TUBa.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107078733215498241/img/hWcZNtfAhe4EVnYw.jpg",
-            "durationMs": 46966
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "WeAreLegora",
-        "company": "Legora",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2107078811925746132",
-        "slug": "legora-746132",
-        "title": "Introducing Skills",
-        "product": "Legora",
-        "company": "Legora",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/WeAreLegora/status/2107078811925746132",
-        "tweetId": "2107078811925746132",
-        "authorName": "Legora",
-        "authorHandle": "WeAreLegora",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2035991206371774464/M5zQPOWU.jpg",
-        "poster": "/posters/legora-746132.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2107078733215498241/vid/avc1/1920x1080/on8O_QxR1ma3TUBa.mp4",
-        "publishedAt": "2026-10-05T12:01:51.000Z",
-        "durationSeconds": 47,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2107063260386140483",
-      "tweetId": "2107063260386140483",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T14:34:30.212Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2107063260386140483",
-        "tweetUrl": "https://x.com/olucurious/status/2107063260386140483",
-        "authorHandle": "olucurious",
-        "authorName": "Kay",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1729184187452698624/vtDh2-c7.jpg",
-        "text": "Hello Twitter 👋\n\nIntroducing Watchtower: self-hosted error tracking, and a drop-in replacement for Sentry &amp; AppSignal.\n\n→ Slack, Linear &amp; email alerts\n→ MCP server for coding agents\n→ One Go binary + Postgres\n\nStarted as something I built and self-hosted on my homelab for my https://t.co/n31QQkLOA4",
-        "createdAt": "2026-10-05T11:00:03.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106900972039446528/vid/avc1/1920x1080/F6FJCi7xgmpm8OeL.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106900972039446528/img/_asc6ph8kSfKV434.jpg",
-            "durationMs": 30016
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "olucurious",
-        "company": "Kay",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2107063260386140483",
-        "slug": "watchtower-140483",
-        "title": "Watchtower — self-hosted error tracking",
-        "product": "Watchtower",
-        "company": "Watchtower",
-        "description": "Watchtower is self-hosted error tracking, and a drop-in replacement for Sentry &amp; AppSignal.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/olucurious/status/2107063260386140483",
-        "tweetId": "2107063260386140483",
-        "authorName": "Kay",
-        "authorHandle": "olucurious",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1729184187452698624/vtDh2-c7.jpg",
-        "poster": "/posters/watchtower-140483.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106900972039446528/vid/avc1/1920x1080/F6FJCi7xgmpm8OeL.mp4",
-        "publishedAt": "2026-10-05T11:00:03.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
     {
       "id": "disc-2106987472668545400",
       "tweetId": "2106987472668545400",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T14:34:29.895Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:52:18.794Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -185,9 +65,9 @@
     {
       "id": "disc-2107049990942294179",
       "tweetId": "2107049990942294179",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T14:34:29.583Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:55:53.442Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -243,71 +123,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2106966617469096260",
-      "tweetId": "2106966617469096260",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T14:34:29.267Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bjust shipped\\b"
-      ],
-      "post": {
-        "tweetId": "2106966617469096260",
-        "tweetUrl": "https://x.com/iyaaansr/status/2106966617469096260",
-        "authorHandle": "iyaaansr",
-        "authorName": "Iyan Saputra🔮",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2101184930554454016/IkdC1XSW.jpg",
-        "text": "Just shipped @Cloudflare  d1-studio 🚀\n\nA zero-config browser studio for Cloudflare D1, local or remote.\n\nNo ORM, no schema file. It reads your existing wrangler config.\n\nhttps://t.co/O8L7ZgfHPD https://t.co/bV1rtOqG4T",
-        "createdAt": "2026-10-05T04:36:01.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106966492474699776/vid/avc1/1920x1080/aOlEsUxsPkEDAVG1.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106966492474699776/img/ErczPl1dURnonknj.jpg",
-            "durationMs": 30000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "iyaaansr",
-        "company": "Iyan Saputra🔮",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106966617469096260",
-        "slug": "iyan-saputra-096260",
-        "title": "Just shipped @Cloudflare d1-studio 🚀",
-        "product": "Iyan Saputra🔮",
-        "company": "Iyan Saputra🔮",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/iyaaansr/status/2106966617469096260",
-        "tweetId": "2106966617469096260",
-        "authorName": "Iyan Saputra🔮",
-        "authorHandle": "iyaaansr",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2101184930554454016/IkdC1XSW.jpg",
-        "poster": "/posters/iyan-saputra-096260.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106966492474699776/vid/avc1/1920x1080/aOlEsUxsPkEDAVG1.mp4",
-        "publishedAt": "2026-10-05T04:36:01.000Z",
-        "durationSeconds": 30,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2106989893423681646",
       "tweetId": "2106989893423681646",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T14:34:28.958Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:53:32.867Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -365,9 +185,9 @@
     {
       "id": "disc-2106873833978540280",
       "tweetId": "2106873833978540280",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T14:34:28.645Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:59:57.397Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -415,66 +235,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2106872268487790592/vid/avc1/720x1280/Rd5lc5xf7P14zpGv.mp4?tag=14",
         "publishedAt": "2026-10-04T22:27:20.000Z",
         "durationSeconds": 135,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2107047524662157818",
-      "tweetId": "2107047524662157818",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T14:34:28.288Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bopen[- ]source\\b"
-      ],
-      "post": {
-        "tweetId": "2107047524662157818",
-        "tweetUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
-        "authorHandle": "xevrion_the1",
-        "authorName": "xevrion",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2071564153282871296/vgxF-UEx.jpg",
-        "text": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source. https://t.co/wVaXd2Fjk9",
-        "createdAt": "2026-10-05T09:57:31.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2107047398661091328/vid/avc1/1920x1080/MJNBuLtjYkuYLJbB.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107047398661091328/img/26QGCV66ai4Yy8Mx.jpg",
-            "durationMs": 15019
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "xevrion_the1",
-        "company": "xevrion",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2107047524662157818",
-        "slug": "xevrion-157818",
-        "title": "i screenshot everything and can never find anything",
-        "product": "xevrion",
-        "company": "xevrion",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
-        "tweetId": "2107047524662157818",
-        "authorName": "xevrion",
-        "authorHandle": "xevrion_the1",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2071564153282871296/vgxF-UEx.jpg",
-        "poster": "/posters/xevrion-157818.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2107047398661091328/vid/avc1/1920x1080/MJNBuLtjYkuYLJbB.mp4",
-        "publishedAt": "2026-10-05T09:57:31.000Z",
-        "durationSeconds": 15,
         "featured": false,
         "status": "draft"
       },
@@ -782,125 +542,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2106802998236078564",
-      "tweetId": "2106802998236078564",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:44.960Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2106802998236078564",
-        "tweetUrl": "https://x.com/davidmilr/status/2106802998236078564",
-        "authorHandle": "davidmilr",
-        "authorName": "David Miller",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2105059631844270080/GLynd1E1.jpg",
-        "text": "Create and play mashups with friends in one click.\n\nIntroducing Melty! https://t.co/KTSLt75Ryb",
-        "createdAt": "2026-10-04T17:45:51.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106800398350585856/vid/avc1/1920x1080/E6Y9mdP7G9MtJljy.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTzcQZlaAAARaYr.jpg",
-            "durationMs": 44000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "davidmilr",
-        "company": "David Miller",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106802998236078564",
-        "slug": "melty-078564",
-        "title": "Melty!",
-        "product": "Melty!",
-        "company": "Melty!",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/davidmilr/status/2106802998236078564",
-        "tweetId": "2106802998236078564",
-        "authorName": "David Miller",
-        "authorHandle": "davidmilr",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2105059631844270080/GLynd1E1.jpg",
-        "poster": "/posters/melty-078564.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106800398350585856/vid/avc1/1920x1080/E6Y9mdP7G9MtJljy.mp4",
-        "publishedAt": "2026-10-04T17:45:51.000Z",
-        "durationSeconds": 44,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2106308982918750435",
-      "tweetId": "2106308982918750435",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:44.327Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2106308982918750435",
-        "tweetUrl": "https://x.com/samuel_uiux/status/2106308982918750435",
-        "authorHandle": "samuel_uiux",
-        "authorName": "Samuel Irinyemi || product Designer",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1922516169027653632/nk3iBMZ-.jpg",
-        "text": "Meet @Swivelmotion a 3D device mockups and kinetic typography in one browser studio. Drop in your screens, type your words, and export a film.\nPut your work on real devices, move the camera, set the light, bring your headlines to life and add sound. When it's ready, export it as https://t.co/KrDhJre3By",
-        "createdAt": "2026-10-03T09:02:49.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106308846410997761/vid/avc1/3840x2160/HV1Eq8o1MfT3bFLh.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106308846410997761/img/18qyp-Bow6zs04gH.jpg",
-            "durationMs": 42666
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "samuel_uiux",
-        "company": "Samuel Irinyemi || product Designer",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106308982918750435",
-        "slug": "samuel-irinyemi-product-designer-750435",
-        "title": "Drop in your screens",
-        "product": "Samuel Irinyemi || product Designer",
-        "company": "Samuel Irinyemi || product Designer",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/samuel_uiux/status/2106308982918750435",
-        "tweetId": "2106308982918750435",
-        "authorName": "Samuel Irinyemi || product Designer",
-        "authorHandle": "samuel_uiux",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1922516169027653632/nk3iBMZ-.jpg",
-        "poster": "/posters/samuel-irinyemi-product-designer-750435.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106308846410997761/vid/avc1/3840x2160/HV1Eq8o1MfT3bFLh.mp4",
-        "publishedAt": "2026-10-03T09:02:49.000Z",
-        "durationSeconds": 43,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2106483089752879368",
       "tweetId": "2106483089752879368",
       "reviewStatus": "pending",
@@ -962,9 +603,9 @@
     {
       "id": "disc-2106380661502419081",
       "tweetId": "2106380661502419081",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:43.671Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:56:26.591Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1143,71 +784,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2106481559176196140",
-      "tweetId": "2106481559176196140",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:42.190Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2106481559176196140",
-        "tweetUrl": "https://x.com/kitlangton/status/2106481559176196140",
-        "authorHandle": "kitlangton",
-        "authorName": "Kit Langton",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2101948952249794560/-lVMeh7H.jpg",
-        "text": "Introducing 𝟸𝚙𝚊𝚜𝚜𝚠𝚘𝚛𝚍 https://t.co/kG9PerEuza",
-        "createdAt": "2026-10-03T20:28:34.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106481313142493184/vid/avc1/1920x1080/fXfWEAt4j-8RKTaq.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106481313142493184/img/4iAcm2xp605i8Osz.jpg",
-            "durationMs": 60183
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "kitlangton",
-        "company": "Kit Langton",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106481559176196140",
-        "slug": "2password-196140",
-        "title": "Introducing 𝟸password",
-        "product": "𝟸password",
-        "company": "𝟸password",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/kitlangton/status/2106481559176196140",
-        "tweetId": "2106481559176196140",
-        "authorName": "Kit Langton",
-        "authorHandle": "kitlangton",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2101948952249794560/-lVMeh7H.jpg",
-        "poster": "/posters/2password-196140.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106481313142493184/vid/avc1/1920x1080/fXfWEAt4j-8RKTaq.mp4",
-        "publishedAt": "2026-10-03T20:28:34.000Z",
-        "durationSeconds": 60,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2106174390564159515",
       "tweetId": "2106174390564159515",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:41.854Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:54:34.840Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -1383,71 +964,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2106510026105893226",
-      "tweetId": "2106510026105893226",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:40.564Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2106510026105893226",
-        "tweetUrl": "https://x.com/BniWael/status/2106510026105893226",
-        "authorHandle": "BniWael",
-        "authorName": "ProxySoul",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047361525346648065/on50qptq.jpg",
-        "text": "Introducing Empryo for iPhone, iPad and Apple Watch.\n\nYour coding agent keeps working on your computer, and you steer it from your pocket: on the same Wi-Fi, over Tailscale or from anywhere, end-to-end encrypted.\n\nAlso in Empryo 3.9:\n→ The engine outlives the window: quit the https://t.co/QgPKfwJpdH",
-        "createdAt": "2026-10-03T22:21:41.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2106453752634875904/vid/avc1/1920x1080/j1kkHIrh7NQ7Ijea.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106453752634875904/img/fdfpydJ0ULOqK2hN.jpg",
-            "durationMs": 206400
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "BniWael",
-        "company": "ProxySoul",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2106510026105893226",
-        "slug": "empryo-for-iphone-893226",
-        "title": "Introducing Empryo for iPhone, iPad and Apple Watch",
-        "product": "Empryo for iPhone",
-        "company": "Empryo for iPhone",
-        "description": "Empryo for iPhone is iPad and Apple Watch.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/BniWael/status/2106510026105893226",
-        "tweetId": "2106510026105893226",
-        "authorName": "ProxySoul",
-        "authorHandle": "BniWael",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047361525346648065/on50qptq.jpg",
-        "poster": "/posters/empryo-for-iphone-893226.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2106453752634875904/vid/avc1/1920x1080/j1kkHIrh7NQ7Ijea.mp4",
-        "publishedAt": "2026-10-03T22:21:41.000Z",
-        "durationSeconds": 206,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2106403336136122597",
       "tweetId": "2106403336136122597",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:40.248Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:56:45.835Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1505,9 +1026,9 @@
     {
       "id": "disc-2106431413373616254",
       "tweetId": "2106431413373616254",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:39.931Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:56:48.291Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1690,9 +1211,9 @@
     {
       "id": "disc-2105723245722812598",
       "tweetId": "2105723245722812598",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:38.546Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:57:07.861Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1808,71 +1329,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2105693024013467905",
-      "tweetId": "2105693024013467905",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:36.959Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105693024013467905",
-        "tweetUrl": "https://x.com/MicrosoftAI/status/2105693024013467905",
-        "authorHandle": "MicrosoftAI",
-        "authorName": "Microsoft AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1978536786759667712/6mqJjdOT.jpg",
-        "text": "Introducing 3 new models: MAI-Transcribe-2-Streaming, MAI-Voice-2.1 and MAI-Voice-2.1-Flash.\n\nAccurate streaming transcription. Natural speech and less waiting between turns.\n\nBuild voice agents that keep the conversation moving! https://t.co/QB6Yr9UiyK",
-        "createdAt": "2026-10-01T16:15:13.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105692973694349312/vid/avc1/1920x1080/8DHi90mpbvis2fT4.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/media/HTjspUrXcAAGhI8.png",
-            "durationMs": 18005
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "MicrosoftAI",
-        "company": "Microsoft AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105693024013467905",
-        "slug": "3-new-models-467905",
-        "title": "3 new models — MAI-Transcribe-2-Streaming",
-        "product": "3 new models",
-        "company": "3 new models",
-        "description": "3 new models is MAI-Transcribe-2-Streaming, MAI-Voice-2.1 and MAI-Voice-2.1-Flash.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/MicrosoftAI/status/2105693024013467905",
-        "tweetId": "2105693024013467905",
-        "authorName": "Microsoft AI",
-        "authorHandle": "MicrosoftAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1978536786759667712/6mqJjdOT.jpg",
-        "poster": "/posters/3-new-models-467905.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105692973694349312/vid/avc1/1920x1080/8DHi90mpbvis2fT4.mp4?tag=16",
-        "publishedAt": "2026-10-01T16:15:13.000Z",
-        "durationSeconds": 18,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2105688987340038524",
       "tweetId": "2105688987340038524",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:36.625Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:57:22.156Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -1930,9 +1391,9 @@
     {
       "id": "disc-2105704169009246248",
       "tweetId": "2105704169009246248",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:36.300Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:57:31.850Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2050,9 +1511,9 @@
     {
       "id": "disc-2105802555708080444",
       "tweetId": "2105802555708080444",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:34.974Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:57:37.369Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -2110,9 +1571,9 @@
     {
       "id": "disc-2105705650688778588",
       "tweetId": "2105705650688778588",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:34.649Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T15:00:22.776Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -2225,366 +1686,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2105695069684789249/vid/avc1/3840x2160/4K124IJmTzAOx3DK.mp4",
         "publishedAt": "2026-10-01T16:23:41.000Z",
         "durationSeconds": 42,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105734605621825738",
-      "tweetId": "2105734605621825738",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:33.351Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105734605621825738",
-        "tweetUrl": "https://x.com/bfl_ai/status/2105734605621825738",
-        "authorHandle": "bfl_ai",
-        "authorName": "Black Forest Labs",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1954888731053142016/NDyG-4-j.jpg",
-        "text": "Introducing FLUX 3 Image.\n\nControl every pixel.\n\nMake precise multi-turn edits without changing any other pixel.\n\nLay out the image exactly how you want using bounding boxes.\n\nGenerate in up to 4K to preserve details.\n\nUse up to 10 references to compose an image.\n\nCommercial https://t.co/u7XqRzxkGr",
-        "createdAt": "2026-10-01T19:00:27.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105734521354063872/vid/avc1/1920x1080/zALbC_wWlXgFy7_G.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105734521354063872/img/XZucD59s23Ol44Zb.jpg",
-            "durationMs": 48725
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "bfl_ai",
-        "company": "Black Forest Labs",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105734605621825738",
-        "slug": "black-forest-labs-825738",
-        "title": "Introducing FLUX 3 Image",
-        "product": "Black Forest Labs",
-        "company": "Black Forest Labs",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/bfl_ai/status/2105734605621825738",
-        "tweetId": "2105734605621825738",
-        "authorName": "Black Forest Labs",
-        "authorHandle": "bfl_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1954888731053142016/NDyG-4-j.jpg",
-        "poster": "/posters/black-forest-labs-825738.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105734521354063872/vid/avc1/1920x1080/zALbC_wWlXgFy7_G.mp4",
-        "publishedAt": "2026-10-01T19:00:27.000Z",
-        "durationSeconds": 49,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105718770518167941",
-      "tweetId": "2105718770518167941",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:33.031Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105718770518167941",
-        "tweetUrl": "https://x.com/kanjun/status/2105718770518167941",
-        "authorHandle": "kanjun",
-        "authorName": "Kanjun 🐙",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1590195431362830337/QODg4OwY.jpg",
-        "text": "What should the future of personal computing look like?\n\nWe built it 😈\n\nIntroducing Imbue Studio: https://t.co/Ry8maGy3mN",
-        "createdAt": "2026-10-01T17:57:31.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105718251456217088/vid/avc1/1920x1080/jk_9LjCSlJdhUWZo.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105718251456217088/img/uf7AI4_8KknyDacU.jpg",
-            "durationMs": 135635
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "kanjun",
-        "company": "Kanjun 🐙",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105718770518167941",
-        "slug": "imbue-studio-167941",
-        "title": "Imbue Studio",
-        "product": "Imbue Studio",
-        "company": "Imbue Studio",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/kanjun/status/2105718770518167941",
-        "tweetId": "2105718770518167941",
-        "authorName": "Kanjun 🐙",
-        "authorHandle": "kanjun",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1590195431362830337/QODg4OwY.jpg",
-        "poster": "/posters/imbue-studio-167941.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105718251456217088/vid/avc1/1920x1080/jk_9LjCSlJdhUWZo.mp4",
-        "publishedAt": "2026-10-01T17:57:31.000Z",
-        "durationSeconds": 136,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105689511371878793",
-      "tweetId": "2105689511371878793",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:32.617Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105689511371878793",
-        "tweetUrl": "https://x.com/klashsarma/status/2105689511371878793",
-        "authorHandle": "klashsarma",
-        "authorName": "Kailash Sarma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2105735041850470400/KOvIaJgi.jpg",
-        "text": "Today we’re introducing Relay\n\nWe raised $20M from Google, Point72 &amp; the founder of Reddit to build it.\n\n1) Drop your website\n2) Relay will create your content\n3) Automatically distributes to our network of 50,000 U.S. creators\n4) Drive millions of views and insights for your https://t.co/XXaRShB1vZ",
-        "createdAt": "2026-10-01T16:01:15.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105684864687116288/vid/avc1/3840x2160/9StXGL6wH8lHNA7P.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105684864687116288/img/5I4LYiiVxX-AXQQ4.jpg",
-            "durationMs": 95866
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "klashsarma",
-        "company": "Kailash Sarma",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105689511371878793",
-        "slug": "relay-we-raised-20m-from-google-878793",
-        "title": "Relay We raised $20M from Google — point72 &amp",
-        "product": "Relay We raised $20M from Google",
-        "company": "Relay We raised $20M from Google",
-        "description": "Relay We raised $20M from Google is Point72 &amp; the founder of Reddit to build it.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/klashsarma/status/2105689511371878793",
-        "tweetId": "2105689511371878793",
-        "authorName": "Kailash Sarma",
-        "authorHandle": "klashsarma",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2105735041850470400/KOvIaJgi.jpg",
-        "poster": "/posters/relay-we-raised-20m-from-google-878793.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105684864687116288/vid/avc1/3840x2160/9StXGL6wH8lHNA7P.mp4",
-        "publishedAt": "2026-10-01T16:01:15.000Z",
-        "durationSeconds": 96,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105591908659540474",
-      "tweetId": "2105591908659540474",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:32.298Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105591908659540474",
-        "tweetUrl": "https://x.com/synthesiaIO/status/2105591908659540474",
-        "authorHandle": "synthesiaIO",
-        "authorName": "Synthesia 🎥",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084574382152720384/MTpZYoQN.png",
-        "text": "Introducing Sessions: Interactive Avatars that coach, interview, and guide 🗣️\n\nThat means you can finally:\n\n✔️ Have 1:1s with your entire company.\n✔️ Interview 100 customers a day.\n✔️ Train 1,000 sales reps at once.\n\nThink of it as a video call, but on the other side is an Avatar https://t.co/3pWTCLsRgL",
-        "createdAt": "2026-10-01T09:33:25.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105591527678287872/vid/avc1/1920x1080/tGJLaseY-x21tfqX.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105591527678287872/img/iajj2OtaBVg71ILb.jpg",
-            "durationMs": 92760
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "synthesiaIO",
-        "company": "Synthesia 🎥",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105591908659540474",
-        "slug": "sessions-540474",
-        "title": "Sessions — interactive Avatars",
-        "product": "Sessions",
-        "company": "Sessions",
-        "description": "Sessions is Interactive Avatars.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/synthesiaIO/status/2105591908659540474",
-        "tweetId": "2105591908659540474",
-        "authorName": "Synthesia 🎥",
-        "authorHandle": "synthesiaIO",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2084574382152720384/MTpZYoQN.png",
-        "poster": "/posters/sessions-540474.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105591527678287872/vid/avc1/1920x1080/tGJLaseY-x21tfqX.mp4",
-        "publishedAt": "2026-10-01T09:33:25.000Z",
-        "durationSeconds": 93,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105689901349958107",
-      "tweetId": "2105689901349958107",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:31.975Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105689901349958107",
-        "tweetUrl": "https://x.com/leslie_rh7/status/2105689901349958107",
-        "authorHandle": "leslie_rh7",
-        "authorName": "Leslie",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2021565676885032960/4r7f-UF4.jpg",
-        "text": "Introducing @hyperknow_ai: a new way to learn.\n\nThe AI professor that turns any learning goal into a 1-on-1, interactive and systematic course.\n\nWhile all other AIs are rushing to replace your thinking,\nwe raised $1M to bring back that simple excitement of understanding something https://t.co/KlgZTjSB6I",
-        "createdAt": "2026-10-01T16:02:48.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105684454874267648/vid/avc1/2878x2160/n2MfjypKjAqcjnLb.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105684454874267648/img/wBFLCHCcOcbxb4xC.jpg",
-            "durationMs": 147191
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "leslie_rh7",
-        "company": "Leslie",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105689901349958107",
-        "slug": "hyperknow-ai-958107",
-        "title": "Introducing @hyperknow_ai: a new way to learn",
-        "product": "@hyperknow_ai",
-        "company": "@hyperknow_ai",
-        "description": "@hyperknow_ai is a new way to learn.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/leslie_rh7/status/2105689901349958107",
-        "tweetId": "2105689901349958107",
-        "authorName": "Leslie",
-        "authorHandle": "leslie_rh7",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2021565676885032960/4r7f-UF4.jpg",
-        "poster": "/posters/hyperknow-ai-958107.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105684454874267648/vid/avc1/2878x2160/n2MfjypKjAqcjnLb.mp4",
-        "publishedAt": "2026-10-01T16:02:48.000Z",
-        "durationSeconds": 147,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105697121190178891",
-      "tweetId": "2105697121190178891",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-05T03:24:31.629Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2105697121190178891",
-        "tweetUrl": "https://x.com/ComfyUI/status/2105697121190178891",
-        "authorHandle": "ComfyUI",
-        "authorName": "ComfyUI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047708517570887680/vasvAmZR.jpg",
-        "text": "Comfy Agent is now available to everyone in Comfy Cloud.\n\nIt plans, builds, and fixes ComfyUI workflows right on your canvas.\n\nWe strongly believe creators shouldn’t choose between ambition and complexity. Comfy Agent is our answer. While it handles the technical part of Comfy, https://t.co/mpwNWvoHaY",
-        "createdAt": "2026-10-01T16:31:30.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105696786711212034/vid/avc1/1920x1080/fl51ey9xMFgzxsfQ.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105696786711212034/img/l_y2ciQzsBxFej-8.jpg",
-            "durationMs": 45078
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ComfyUI",
-        "company": "ComfyUI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2105697121190178891",
-        "slug": "comfyui-178891",
-        "title": "Comfy Agent is now available to everyone in Comfy Cloud",
-        "product": "ComfyUI",
-        "company": "ComfyUI",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ComfyUI/status/2105697121190178891",
-        "tweetId": "2105697121190178891",
-        "authorName": "ComfyUI",
-        "authorHandle": "ComfyUI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2047708517570887680/vasvAmZR.jpg",
-        "poster": "/posters/comfyui-178891.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105696786711212034/vid/avc1/1920x1080/fl51ey9xMFgzxsfQ.mp4",
-        "publishedAt": "2026-10-01T16:31:30.000Z",
-        "durationSeconds": 45,
         "featured": false,
         "status": "draft"
       },
@@ -2773,9 +1874,9 @@
     {
       "id": "disc-2106092270747361596",
       "tweetId": "2106092270747361596",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-04T08:47:15.395Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:55:23.917Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -3076,9 +2177,9 @@
     {
       "id": "disc-2106057035884478609",
       "tweetId": "2106057035884478609",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-04T08:47:13.221Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:59:26.734Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3635,9 +2736,9 @@
     {
       "id": "disc-2106119916479037742",
       "tweetId": "2106119916479037742",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-04T08:47:09.061Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T15:01:55.471Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -4005,9 +3106,9 @@
     {
       "id": "disc-2105340351703908727",
       "tweetId": "2105340351703908727",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-01T12:50:18.480Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:55:26.151Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -4065,9 +3166,9 @@
     {
       "id": "disc-2105375133003325768",
       "tweetId": "2105375133003325768",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-01T12:50:17.851Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T15:01:58.776Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -4123,75 +3224,11 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2105365494085951662",
-      "tweetId": "2105365494085951662",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-01T12:50:17.541Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2105365494085951662",
-        "tweetUrl": "https://x.com/runwayml/status/2105365494085951662",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "At today's AI Summit, Runway CTO Kamil Sindi shared more on our first World Interface Model, Solaris. A new kind of operating system that builds itself as you interact with it. Every frame is generated in real-time in response to your intention.\n\nIn his keynote, Kamil shared a https://t.co/xE5y35V2CD",
-        "createdAt": "2026-09-30T18:33:44.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105363442718978048/vid/avc1/1920x1080/en3VrY3TImYZ_E0N.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105363442718978048/img/6aO7SVGwfGQOZ9F2.jpg",
-            "durationMs": 74500
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2105365494085951662",
-        "slug": "runway-951662",
-        "title": "At today's AI Summit",
-        "product": "Runway",
-        "company": "Runway",
-        "description": "",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2105365494085951662",
-        "tweetId": "2105365494085951662",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/runway-951662.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105363442718978048/vid/avc1/1920x1080/en3VrY3TImYZ_E0N.mp4",
-        "publishedAt": "2026-09-30T18:33:44.000Z",
-        "durationSeconds": 75,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2105353453815861370",
       "tweetId": "2105353453815861370",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-01T12:50:17.231Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T15:00:29.813Z",
       "score": 20,
       "reasons": [
         "has-video"
@@ -4253,9 +3290,9 @@
     {
       "id": "disc-2105376370838974842",
       "tweetId": "2105376370838974842",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-01T12:50:16.587Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-05T14:53:22.541Z",
       "score": 56,
       "reasons": [
         "has-video",
@@ -4365,71 +3402,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2105338867679375360/vid/avc1/3024x1826/rL6Red1QpZJkFl0h.mp4",
         "publishedAt": "2026-09-30T16:48:04.000Z",
         "durationSeconds": 25,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2105358708599619790",
-      "tweetId": "2105358708599619790",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-01T12:50:15.329Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2105358708599619790",
-        "tweetUrl": "https://x.com/runwayml/status/2105358708599619790",
-        "authorHandle": "runwayml",
-        "authorName": "Runway",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "text": "Introducing Praxis-1, an open-weight World Action Model that turns our video pre-training expertise into real world control for robots.\n\nRobot demonstration data is limited. But video data is infinite. Praxis-1 extends our bet that the best policy models will learn from video, https://t.co/iTkFRoB3fk",
-        "createdAt": "2026-09-30T18:06:46.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2105358445440630784/vid/avc1/1920x1080/jv2tTFo18bF06Wbg.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105358445440630784/img/_H2Pd8YKQ0N17LCc.jpg",
-            "durationMs": 114531
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "runwayml",
-        "company": "Runway",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2105358708599619790",
-        "slug": "praxis-1-619790",
-        "title": "Praxis-1 — an open-weight World Action Model",
-        "product": "Praxis-1",
-        "company": "Praxis-1",
-        "description": "Praxis-1 is an open-weight World Action Model.",
-        "category": "ai",
-        "tags": [
-          "video",
-          "generative",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/runwayml/status/2105358708599619790",
-        "tweetId": "2105358708599619790",
-        "authorName": "Runway",
-        "authorHandle": "runwayml",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB.jpg",
-        "poster": "/posters/praxis-1-619790.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2105358445440630784/vid/avc1/1920x1080/jv2tTFo18bF06Wbg.mp4",
-        "publishedAt": "2026-09-30T18:06:46.000Z",
-        "durationSeconds": 115,
         "featured": false,
         "status": "draft"
       },
@@ -5127,66 +4099,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2104971967908515908",
-      "tweetId": "2104971967908515908",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:24.995Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2104971967908515908",
-        "tweetUrl": "https://x.com/connortbot/status/2104971967908515908",
-        "authorHandle": "connortbot",
-        "authorName": "Connor Loi",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1884472048887414785/oVrNDmk7.jpg",
-        "text": "Introducing Replicas V3: the most flexible and cost-efficient cloud agent on the market.\n\n- Run Claude Code, Codex inside VMs\n- Bring any subscription or API keys\n- Delegate from Slack, Linear, desktop app, or your phone\n\nNow proactive, and more powerful than ever. https://t.co/8LU9knvUoe",
-        "createdAt": "2026-09-29T16:30:00.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104800460721037312/vid/avc1/1920x1080/cfLM_e-O-mPRmvSO.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104800460721037312/img/gjdyflOnuLwLYnnH.jpg",
-            "durationMs": 122048
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "connortbot",
-        "company": "Connor Loi",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104971967908515908",
-        "slug": "replicas-v3-515908",
-        "title": "Replicas V3 — the most flexible",
-        "product": "Replicas V3",
-        "company": "Replicas V3",
-        "description": "Replicas V3 is the most flexible and cost-efficient cloud agent on the market., Run Claude Code, Codex inside VMs, Bring any subscription or API keys, Delegate.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/connortbot/status/2104971967908515908",
-        "tweetId": "2104971967908515908",
-        "authorName": "Connor Loi",
-        "authorHandle": "connortbot",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1884472048887414785/oVrNDmk7.jpg",
-        "poster": "/posters/replicas-v3-515908.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104800460721037312/vid/avc1/1920x1080/cfLM_e-O-mPRmvSO.mp4",
-        "publishedAt": "2026-09-29T16:30:00.000Z",
-        "durationSeconds": 122,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2105003566351908892",
       "tweetId": "2105003566351908892",
       "reviewStatus": "rejected",
@@ -5369,65 +4281,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2104987159128403968/vid/avc1/1366x768/LDhuEpsKnIhjlh-G.mp4",
         "publishedAt": "2026-09-29T17:31:24.000Z",
         "durationSeconds": 20,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2104986841145602351",
-      "tweetId": "2104986841145602351",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-09-30T01:48:21.753Z",
-      "reviewedAt": null,
-      "score": 20,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2104986841145602351",
-        "tweetUrl": "https://x.com/ChatGPT/status/2104986841145602351",
-        "authorHandle": "ChatGPT",
-        "authorName": "ChatGPT",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081980424666935296/qU5G7mQg.jpg",
-        "text": "ChatGPT Space is your new home for creating and collaborating with your team and AI.\n\nIn Space, you can work with pages—a new kind of interactive document with charts, images, checklists, and dashboards. ChatGPT can build pages for you based on the work you need to get done or https://t.co/uY04wMOb9j",
-        "createdAt": "2026-09-29T17:29:06.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2104986456280399872/vid/avc1/1080x1080/hk7TCrFkfWzfa1vp.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2104986456280399872/img/lN3skjsUlNYerN8E.jpg",
-            "durationMs": 60000
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "ChatGPT",
-        "company": "ChatGPT",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2104986841145602351",
-        "slug": "chatgpt-602351",
-        "title": "ChatGPT — launch video",
-        "product": "ChatGPT",
-        "company": "ChatGPT",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/ChatGPT/status/2104986841145602351",
-        "tweetId": "2104986841145602351",
-        "authorName": "ChatGPT",
-        "authorHandle": "ChatGPT",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2081980424666935296/qU5G7mQg.jpg",
-        "poster": "/posters/chatgpt-602351.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2104986456280399872/vid/avc1/1080x1080/hk7TCrFkfWzfa1vp.mp4",
-        "publishedAt": "2026-09-29T17:29:06.000Z",
-        "durationSeconds": 60,
         "featured": false,
         "status": "draft"
       },
