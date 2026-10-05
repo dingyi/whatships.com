@@ -957,5 +957,18 @@
     "url": "https://github.com/cneuralnetwork/editdatvid",
     "category": "editor",
     "poster": "/posters/tools/editdatvid.webp"
+  },
+  {
+    "id": "tool-minimax-h3-video-reverse",
+    "slug": "minimax-h3-video-reverse",
+    "name": "MiniMax H3 Video Reverse",
+    "tagline": "From a reference clip to MiniMax H3 prompts",
+    "description": "An agent skill that watches a reference video, restates what happened, then writes MiniMax H3 text-to-video or shot-by-shot image-to-video prompts. AUTO, T2VA, I2V, and DUAL. MIT.",
+    "url": "https://github.com/gnipbao/minimax-h3-video-reverse-skill",
+    "category": "skills",
+    "poster": "/posters/tools/minimax-h3-video-reverse.webp",
+    "install": "npx skills add gnipbao/minimax-h3-video-reverse-skill",
+    "stars": 211,
+    "starsCapturedAt": "2026-10-05T15:23:54.604Z"
   }
 ]
