@@ -934,5 +934,28 @@
     "url": "https://www.aloud.sh/",
     "category": "editor",
     "poster": "/posters/tools/aloud.webp"
+  },
+  {
+    "id": "tool-cinetic",
+    "slug": "cinetic",
+    "name": "cinetic",
+    "tagline": "Cinematic launch films, directed by your agent",
+    "description": "An agent skill that directs a short film from a brief. It picks a story, draws from a 273-technique library, brands, scores, and renders in Remotion or HyperFrames. MIT.",
+    "url": "https://github.com/Leonxlnx/cinetic",
+    "category": "skills",
+    "poster": "/posters/tools/cinetic.webp",
+    "install": "npx skills add Leonxlnx/cinetic",
+    "stars": 40,
+    "starsCapturedAt": "2026-10-05T04:24:17.877Z"
+  },
+  {
+    "id": "tool-editdatvid",
+    "slug": "editdatvid",
+    "name": "EditDatVid",
+    "tagline": "A private, browser-native video editor",
+    "description": "A Chromium-first PWA video editor. Projects, proxies, autosaves, and renders stay on your device. No backend, accounts, telemetry, or upload path. MIT.",
+    "url": "https://github.com/cneuralnetwork/editdatvid",
+    "category": "editor",
+    "poster": "/posters/tools/editdatvid.webp"
   }
 ]
