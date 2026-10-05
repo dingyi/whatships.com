@@ -1,6 +1,486 @@
 {
-  "updatedAt": "2026-10-05T04:11:09.689Z",
+  "updatedAt": "2026-10-05T14:34:30.531Z",
   "items": [
+    {
+      "id": "disc-2107078811925746132",
+      "tweetId": "2107078811925746132",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:30.531Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107078811925746132",
+        "tweetUrl": "https://x.com/WeAreLegora/status/2107078811925746132",
+        "authorHandle": "WeAreLegora",
+        "authorName": "Legora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2035991206371774464/M5zQPOWU.jpg",
+        "text": "Introducing Skills.\n\nTeach the Legora Agent how you work.\n\nLaw firms and in-house teams can now teach the Legora Agent their standards, processes and preferences through Skills, making their way of working scale across every task.\n\nEvery legal team has its own way of working: the https://t.co/B7IFftgV4k",
+        "createdAt": "2026-10-05T12:01:51.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107078733215498241/vid/avc1/1920x1080/on8O_QxR1ma3TUBa.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107078733215498241/img/hWcZNtfAhe4EVnYw.jpg",
+            "durationMs": 46966
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "WeAreLegora",
+        "company": "Legora",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107078811925746132",
+        "slug": "legora-746132",
+        "title": "Introducing Skills",
+        "product": "Legora",
+        "company": "Legora",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/WeAreLegora/status/2107078811925746132",
+        "tweetId": "2107078811925746132",
+        "authorName": "Legora",
+        "authorHandle": "WeAreLegora",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2035991206371774464/M5zQPOWU.jpg",
+        "poster": "/posters/legora-746132.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107078733215498241/vid/avc1/1920x1080/on8O_QxR1ma3TUBa.mp4",
+        "publishedAt": "2026-10-05T12:01:51.000Z",
+        "durationSeconds": 47,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107063260386140483",
+      "tweetId": "2107063260386140483",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:30.212Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107063260386140483",
+        "tweetUrl": "https://x.com/olucurious/status/2107063260386140483",
+        "authorHandle": "olucurious",
+        "authorName": "Kay",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1729184187452698624/vtDh2-c7.jpg",
+        "text": "Hello Twitter 👋\n\nIntroducing Watchtower: self-hosted error tracking, and a drop-in replacement for Sentry &amp; AppSignal.\n\n→ Slack, Linear &amp; email alerts\n→ MCP server for coding agents\n→ One Go binary + Postgres\n\nStarted as something I built and self-hosted on my homelab for my https://t.co/n31QQkLOA4",
+        "createdAt": "2026-10-05T11:00:03.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2106900972039446528/vid/avc1/1920x1080/F6FJCi7xgmpm8OeL.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106900972039446528/img/_asc6ph8kSfKV434.jpg",
+            "durationMs": 30016
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "olucurious",
+        "company": "Kay",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107063260386140483",
+        "slug": "watchtower-140483",
+        "title": "Watchtower — self-hosted error tracking",
+        "product": "Watchtower",
+        "company": "Watchtower",
+        "description": "Watchtower is self-hosted error tracking, and a drop-in replacement for Sentry &amp; AppSignal.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/olucurious/status/2107063260386140483",
+        "tweetId": "2107063260386140483",
+        "authorName": "Kay",
+        "authorHandle": "olucurious",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1729184187452698624/vtDh2-c7.jpg",
+        "poster": "/posters/watchtower-140483.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2106900972039446528/vid/avc1/1920x1080/F6FJCi7xgmpm8OeL.mp4",
+        "publishedAt": "2026-10-05T11:00:03.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2106987472668545400",
+      "tweetId": "2106987472668545400",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:29.895Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2106987472668545400",
+        "tweetUrl": "https://x.com/Samyak0606/status/2106987472668545400",
+        "authorHandle": "Samyak0606",
+        "authorName": "Samyak Jain",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068324009616486400/Iq1JEvAC.jpg",
+        "text": "Introducing cache-warmer!\n\nA Claude Code mod that keeps your idle sessions warm, so coming back after a break doesn't re-read the whole conversation at full price.\n\nSame limit, same plan. Come back 16× cheaper.\n\nFree &amp; open source. Install command below 👇 https://t.co/uXcJ4aCinf",
+        "createdAt": "2026-10-05T05:58:54.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2106987030446280704/vid/avc1/1280x720/MuUJMZmLnutECjET.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106987030446280704/img/wqTA6D_y1Q_Ll641.jpg",
+            "durationMs": 31700
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Samyak0606",
+        "company": "Samyak Jain",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2106987472668545400",
+        "slug": "samyak-jain-545400",
+        "title": "Introducing cache-warmer!",
+        "product": "Samyak Jain",
+        "company": "Samyak Jain",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Samyak0606/status/2106987472668545400",
+        "tweetId": "2106987472668545400",
+        "authorName": "Samyak Jain",
+        "authorHandle": "Samyak0606",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068324009616486400/Iq1JEvAC.jpg",
+        "poster": "/posters/samyak-jain-545400.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2106987030446280704/vid/avc1/1280x720/MuUJMZmLnutECjET.mp4?tag=14",
+        "publishedAt": "2026-10-05T05:58:54.000Z",
+        "durationSeconds": 32,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107049990942294179",
+      "tweetId": "2107049990942294179",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:29.583Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107049990942294179",
+        "tweetUrl": "https://x.com/VivixLabs_HQ/status/2107049990942294179",
+        "authorHandle": "VivixLabs_HQ",
+        "authorName": "Vivix.AI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080631265091620864/dwY7G8N-.jpg",
+        "text": "We broke AI video’s quality–speed–cost trade-off.\n\nAnd turned it into an endless livestream you can play.\n\nIntroducing Meme Arena, powered by Vivix W1, our real-time interactive video model.\n\nHigh-quality video. Real-time generation. Dramatically lower costs. Together, they make https://t.co/dAkQFpMdFz",
+        "createdAt": "2026-10-05T10:07:19.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107049464670363649/vid/avc1/2524x1730/tzOMM3qwC1N3UMWb.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107049464670363649/img/qP_8wMrPpnX44Eqb.jpg",
+            "durationMs": 120244
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "VivixLabs_HQ",
+        "company": "Vivix.AI",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107049990942294179",
+        "slug": "meme-arena-294179",
+        "title": "Meme Arena — powered by Vivix W1",
+        "product": "Meme Arena",
+        "company": "Meme Arena",
+        "description": "Meme Arena is powered by Vivix W1, our real-time interactive video model.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/VivixLabs_HQ/status/2107049990942294179",
+        "tweetId": "2107049990942294179",
+        "authorName": "Vivix.AI",
+        "authorHandle": "VivixLabs_HQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2080631265091620864/dwY7G8N-.jpg",
+        "poster": "/posters/meme-arena-294179.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107049464670363649/vid/avc1/2524x1730/tzOMM3qwC1N3UMWb.mp4",
+        "publishedAt": "2026-10-05T10:07:19.000Z",
+        "durationSeconds": 120,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2106966617469096260",
+      "tweetId": "2106966617469096260",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:29.267Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2106966617469096260",
+        "tweetUrl": "https://x.com/iyaaansr/status/2106966617469096260",
+        "authorHandle": "iyaaansr",
+        "authorName": "Iyan Saputra🔮",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2101184930554454016/IkdC1XSW.jpg",
+        "text": "Just shipped @Cloudflare  d1-studio 🚀\n\nA zero-config browser studio for Cloudflare D1, local or remote.\n\nNo ORM, no schema file. It reads your existing wrangler config.\n\nhttps://t.co/O8L7ZgfHPD https://t.co/bV1rtOqG4T",
+        "createdAt": "2026-10-05T04:36:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2106966492474699776/vid/avc1/1920x1080/aOlEsUxsPkEDAVG1.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106966492474699776/img/ErczPl1dURnonknj.jpg",
+            "durationMs": 30000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "iyaaansr",
+        "company": "Iyan Saputra🔮",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2106966617469096260",
+        "slug": "iyan-saputra-096260",
+        "title": "Just shipped @Cloudflare d1-studio 🚀",
+        "product": "Iyan Saputra🔮",
+        "company": "Iyan Saputra🔮",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/iyaaansr/status/2106966617469096260",
+        "tweetId": "2106966617469096260",
+        "authorName": "Iyan Saputra🔮",
+        "authorHandle": "iyaaansr",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2101184930554454016/IkdC1XSW.jpg",
+        "poster": "/posters/iyan-saputra-096260.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2106966492474699776/vid/avc1/1920x1080/aOlEsUxsPkEDAVG1.mp4",
+        "publishedAt": "2026-10-05T04:36:01.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2106989893423681646",
+      "tweetId": "2106989893423681646",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:28.958Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2106989893423681646",
+        "tweetUrl": "https://x.com/dora_lee_1344/status/2106989893423681646",
+        "authorHandle": "dora_lee_1344",
+        "authorName": "Dora Lee",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1982570392842653696/BfQ-4SiW.jpg",
+        "text": "Introducing PIP v2 in @AsideAI \n\nAside Auto PIP now uses a native macOS Picture-in-Picture window.\nI built a bridge between Chromium's VideoFrame buffers and AVFoundation to make it happen\n\nwill be ship in next version https://t.co/b4WmD3pOe0",
+        "createdAt": "2026-10-05T06:08:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2106988836383510530/vid/avc1/3340x2160/oUWWX_sbNh73g1sb.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106988836383510530/img/4_8qquUHkpmp611T.jpg",
+            "durationMs": 24625
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dora_lee_1344",
+        "company": "Dora Lee",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2106989893423681646",
+        "slug": "pip-v2-681646",
+        "title": "Introducing PIP v2 in @AsideAI",
+        "product": "PIP v2",
+        "company": "PIP v2",
+        "description": "PIP v2 in Aside Auto PIP now uses a native macOS Picture-in-Picture window.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dora_lee_1344/status/2106989893423681646",
+        "tweetId": "2106989893423681646",
+        "authorName": "Dora Lee",
+        "authorHandle": "dora_lee_1344",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1982570392842653696/BfQ-4SiW.jpg",
+        "poster": "/posters/pip-v2-681646.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2106988836383510530/vid/avc1/3340x2160/oUWWX_sbNh73g1sb.mp4",
+        "publishedAt": "2026-10-05T06:08:31.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2106873833978540280",
+      "tweetId": "2106873833978540280",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:28.645Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2106873833978540280",
+        "tweetUrl": "https://x.com/markkeeper2/status/2106873833978540280",
+        "authorHandle": "markkeeper2",
+        "authorName": "Mark Keeper",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1493151799787859970/eP0WfAAR.jpg",
+        "text": "I built an Hermes Agent that lives inside my phone. \nNo laptop. No server.\n@NousResearch @Teknium \nIt thinks in the Dynamic Island, asks before running risky commands, builds live 3D apps, Canvas, and remembers what I tell it.\n\n2 min demo 👇\nhttps://t.co/tiSi3BNQL8 https://t.co/5THBDQxi09",
+        "createdAt": "2026-10-04T22:27:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2106872268487790592/vid/avc1/720x1280/Rd5lc5xf7P14zpGv.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2106872268487790592/img/I_n2aAuIbt1w3ZYQ.jpg",
+            "durationMs": 135133
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "markkeeper2",
+        "company": "Mark Keeper",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2106873833978540280",
+        "slug": "mark-keeper-540280",
+        "title": "I built an Hermes Agent that lives inside my phone",
+        "product": "Mark Keeper",
+        "company": "Mark Keeper",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/markkeeper2/status/2106873833978540280",
+        "tweetId": "2106873833978540280",
+        "authorName": "Mark Keeper",
+        "authorHandle": "markkeeper2",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1493151799787859970/eP0WfAAR.jpg",
+        "poster": "/posters/mark-keeper-540280.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2106872268487790592/vid/avc1/720x1280/Rd5lc5xf7P14zpGv.mp4?tag=14",
+        "publishedAt": "2026-10-04T22:27:20.000Z",
+        "durationSeconds": 135,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107047524662157818",
+      "tweetId": "2107047524662157818",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-05T14:34:28.288Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2107047524662157818",
+        "tweetUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
+        "authorHandle": "xevrion_the1",
+        "authorName": "xevrion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2071564153282871296/vgxF-UEx.jpg",
+        "text": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source. https://t.co/wVaXd2Fjk9",
+        "createdAt": "2026-10-05T09:57:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107047398661091328/vid/avc1/1920x1080/MJNBuLtjYkuYLJbB.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107047398661091328/img/26QGCV66ai4Yy8Mx.jpg",
+            "durationMs": 15019
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "xevrion_the1",
+        "company": "xevrion",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107047524662157818",
+        "slug": "xevrion-157818",
+        "title": "i screenshot everything and can never find anything",
+        "product": "xevrion",
+        "company": "xevrion",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
+        "tweetId": "2107047524662157818",
+        "authorName": "xevrion",
+        "authorHandle": "xevrion_the1",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2071564153282871296/vgxF-UEx.jpg",
+        "poster": "/posters/xevrion-157818.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107047398661091328/vid/avc1/1920x1080/MJNBuLtjYkuYLJbB.mp4",
+        "publishedAt": "2026-10-05T09:57:31.000Z",
+        "durationSeconds": 15,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2106910092620689432",
       "tweetId": "2106910092620689432",
