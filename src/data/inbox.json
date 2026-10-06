@@ -1,6 +1,1398 @@
 {
-  "updatedAt": "2026-10-05T15:09:02.962Z",
+  "updatedAt": "2026-10-06T14:39:46.898Z",
   "items": [
+    {
+      "id": "disc-2107263148814483714",
+      "tweetId": "2107263148814483714",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:46.897Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107263148814483714",
+        "tweetUrl": "https://x.com/ericmigi/status/2107263148814483714",
+        "authorHandle": "ericmigi",
+        "authorName": "Eric Migicovsky",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1014695017460318208/AIQ3Oqtb.jpg",
+        "text": "(re)Introducing the Pebble Sports app, now for Pebble Time 2 and Round 2! \n\nLive scores for MLB, College Football, Men's College Basketball, NFL, NBA, NHL and Premier League. \n\nWhat more could any sports fan ask for? (send us your feature requests!)\n\nhttps://t.co/u8CYmtGH00 https://t.co/RONoWOr811",
+        "createdAt": "2026-10-06T00:14:20.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107263060327153664/vid/avc1/1080x1080/14_ycz8I5ao4JzO-.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107263060327153664/img/CW7MhWuFWgaG9uMa.jpg",
+            "durationMs": 43686
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ericmigi",
+        "company": "Eric Migicovsky",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107263148814483714",
+        "slug": "pebble-sports-app-483714",
+        "title": "Pebble Sports app — now for Pebble Time 2 and Round 2",
+        "product": "Pebble Sports app",
+        "company": "Pebble Sports app",
+        "description": "Pebble Sports app is now for Pebble Time 2 and Round 2.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ericmigi/status/2107263148814483714",
+        "tweetId": "2107263148814483714",
+        "authorName": "Eric Migicovsky",
+        "authorHandle": "ericmigi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1014695017460318208/AIQ3Oqtb.jpg",
+        "poster": "/posters/pebble-sports-app-483714.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107263060327153664/vid/avc1/1080x1080/14_ycz8I5ao4JzO-.mp4",
+        "publishedAt": "2026-10-06T00:14:20.000Z",
+        "durationSeconds": 44,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107231455177036167",
+      "tweetId": "2107231455177036167",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:46.566Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107231455177036167",
+        "tweetUrl": "https://x.com/raztronaut/status/2107231455177036167",
+        "authorHandle": "raztronaut",
+        "authorName": "razi",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990947708928917504/cJx4pHVR.jpg",
+        "text": "Introducing Lifelong for Caregivers.\n\nA dedicated experience for people who look after someone else's health.\n\nOut now! https://t.co/M40lMNgyt5",
+        "createdAt": "2026-10-05T22:08:24.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2105651280605827072/vid/avc1/1920x1080/e8sQOCg2QoUKm-FN.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2105651280605827072/img/xus4QnZ6h5OcWR-S.jpg",
+            "durationMs": 34133
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "raztronaut",
+        "company": "razi",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107231455177036167",
+        "slug": "lifelong-036167",
+        "title": "Introducing Lifelong for Caregivers",
+        "product": "Lifelong",
+        "company": "Lifelong",
+        "description": "Lifelong for Caregivers.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/raztronaut/status/2107231455177036167",
+        "tweetId": "2107231455177036167",
+        "authorName": "razi",
+        "authorHandle": "raztronaut",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1990947708928917504/cJx4pHVR.jpg",
+        "poster": "/posters/lifelong-036167.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2105651280605827072/vid/avc1/1920x1080/e8sQOCg2QoUKm-FN.mp4",
+        "publishedAt": "2026-10-05T22:08:24.000Z",
+        "durationSeconds": 34,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107140278624944590",
+      "tweetId": "2107140278624944590",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:46.236Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107140278624944590",
+        "tweetUrl": "https://x.com/nutlope/status/2107140278624944590",
+        "authorHandle": "nutlope",
+        "authorName": "Hassan",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1727415759859552256/9rqaxXUR.jpg",
+        "text": "Introducing Together Link!\n\nA CLI to run open models inside your favorite coding harness, with:\n\n→ Auto routing that picks a model based on your task\n→ Support for claude code, codex, opencode, &amp; more\n→ Built in spend &amp; usage trackings https://t.co/KPiGLgPAlY",
+        "createdAt": "2026-10-05T16:06:05.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107139989553205248/vid/avc1/1920x1080/JcB2JiqpjWoplQXr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107139989553205248/img/Mtgf52r2HqoMXH7Q.jpg",
+            "durationMs": 57050
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "nutlope",
+        "company": "Hassan",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107140278624944590",
+        "slug": "hassan-944590",
+        "title": "Introducing Together Link!",
+        "product": "Hassan",
+        "company": "Hassan",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/nutlope/status/2107140278624944590",
+        "tweetId": "2107140278624944590",
+        "authorName": "Hassan",
+        "authorHandle": "nutlope",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1727415759859552256/9rqaxXUR.jpg",
+        "poster": "/posters/hassan-944590.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107139989553205248/vid/avc1/1920x1080/JcB2JiqpjWoplQXr.mp4",
+        "publishedAt": "2026-10-05T16:06:05.000Z",
+        "durationSeconds": 57,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107255152008949951",
+      "tweetId": "2107255152008949951",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:45.898Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2107255152008949951",
+        "tweetUrl": "https://x.com/dabit3/status/2107255152008949951",
+        "authorHandle": "dabit3",
+        "authorName": "nader dabit",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1951619597695672321/c1FsysWP.jpg",
+        "text": "Today we shipped Memory and Dreaming in Devin: persistent self-cleaning memory for agent sessions.\n\nThe standard is OSS and also works across any harness in any environment. ⚡ https://t.co/vFscgaI0yN",
+        "createdAt": "2026-10-05T23:42:33.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107252322212417538/vid/avc1/1920x1080/lUSMmuRaWpZgufBA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107252322212417538/img/tXostSMAIBqEDbAE.jpg",
+            "durationMs": 73300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "dabit3",
+        "company": "nader dabit",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107255152008949951",
+        "slug": "nader-dabit-949951",
+        "title": "nader dabit — launch video",
+        "product": "nader dabit",
+        "company": "nader dabit",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/dabit3/status/2107255152008949951",
+        "tweetId": "2107255152008949951",
+        "authorName": "nader dabit",
+        "authorHandle": "dabit3",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1951619597695672321/c1FsysWP.jpg",
+        "poster": "/posters/nader-dabit-949951.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107252322212417538/vid/avc1/1920x1080/lUSMmuRaWpZgufBA.mp4",
+        "publishedAt": "2026-10-05T23:42:33.000Z",
+        "durationSeconds": 73,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107269392874782873",
+      "tweetId": "2107269392874782873",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:45.187Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2107269392874782873",
+        "tweetUrl": "https://x.com/theo/status/2107269392874782873",
+        "authorHandle": "theo",
+        "authorName": "Theo - t3.gg",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2106484435382333440/vXOVE8EX.jpg",
+        "text": "We just shipped in-app visualization capabilities in T3 Code. This enables agents to build cool dynamic experiences within the thread.\n\nHuge shoutout to @davis7 for pushing us on this (and building most of it). Didn't expect to dig it so much. https://t.co/Xj8u1c2mT6",
+        "createdAt": "2026-10-06T00:39:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107269076750139392/vid/avc1/2822x2160/M3PdbGm3-x1S2uMB.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107269076750139392/img/OSW3NAK4YzeZQI3D.jpg",
+            "durationMs": 24198
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "theo",
+        "company": "Theo - t3.gg",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107269392874782873",
+        "slug": "theo-t3gg-782873",
+        "title": "Huge shoutout to @davis7 for pushing us on this",
+        "product": "Theo - t3.gg",
+        "company": "Theo - t3.gg",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/theo/status/2107269392874782873",
+        "tweetId": "2107269392874782873",
+        "authorName": "Theo - t3.gg",
+        "authorHandle": "theo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2106484435382333440/vXOVE8EX.jpg",
+        "poster": "/posters/theo-t3gg-782873.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107269076750139392/vid/avc1/2822x2160/M3PdbGm3-x1S2uMB.mp4",
+        "publishedAt": "2026-10-06T00:39:09.000Z",
+        "durationSeconds": 24,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107131198975938901",
+      "tweetId": "2107131198975938901",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:44.854Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107131198975938901",
+        "tweetUrl": "https://x.com/AniC_dev/status/2107131198975938901",
+        "authorHandle": "AniC_dev",
+        "authorName": "Anicet",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1968045619248877568/XrGi-opy.jpg",
+        "text": "introducing boat, the best sandbox infra for agents\n\n&gt; full VMs, up to 2k concurrent self-serve\n&gt; desktop + browser included\n&gt; super low prices\n\nclaude designed &amp; rendered this video on a cluster of boat VMs\n\ntry it: https://t.co/7XB0X7YlMK https://t.co/Dfxo3hYlBQ",
+        "createdAt": "2026-10-05T15:30:01.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107017295247912960/vid/avc1/1920x1080/URgyalKTaRe2GsPA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107017295247912960/img/91eAGB0AuOzQtUpD.jpg",
+            "durationMs": 132376
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "AniC_dev",
+        "company": "Anicet",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107131198975938901",
+        "slug": "boat-938901",
+        "title": "introducing boat, the best sandbox infra for agents",
+        "product": "boat",
+        "company": "boat",
+        "description": "boat is the best sandbox infra for agents &gt; full VMs, up to 2k concurrent self-serve &gt; desktop + browser included &gt; super low prices claude designed &amp; rendered this video on a cluster of boat VMs try it.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/AniC_dev/status/2107131198975938901",
+        "tweetId": "2107131198975938901",
+        "authorName": "Anicet",
+        "authorHandle": "AniC_dev",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1968045619248877568/XrGi-opy.jpg",
+        "poster": "/posters/boat-938901.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107017295247912960/vid/avc1/1920x1080/URgyalKTaRe2GsPA.mp4",
+        "publishedAt": "2026-10-05T15:30:01.000Z",
+        "durationSeconds": 132,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107267342594142626",
+      "tweetId": "2107267342594142626",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:44.524Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2107267342594142626",
+        "tweetUrl": "https://x.com/unusual_whales/status/2107267342594142626",
+        "authorHandle": "unusual_whales",
+        "authorName": "unusual_whales",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7.png",
+        "text": "BREAKING: Unusual Whales is now available inside ChatGPT.\n\nOur new plugin is live.\n\nOptions flow, market data and trading insights, right where you chat.\n\nTry it now: https://t.co/Q2LPcKADr2 https://t.co/lxNfCWZNmG",
+        "createdAt": "2026-10-06T00:31:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107261333846835200/vid/avc1/960x540/s9PeJvOmYw5ea_DH.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107261333846835200/img/xN1Yi-lkJHeDQt7p.jpg",
+            "durationMs": 11640
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "unusual_whales",
+        "company": "unusual_whales",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107267342594142626",
+        "slug": "unusual-whales-142626",
+        "title": "unusual_whales — launch video",
+        "product": "unusual_whales",
+        "company": "unusual_whales",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/unusual_whales/status/2107267342594142626",
+        "tweetId": "2107267342594142626",
+        "authorName": "unusual_whales",
+        "authorHandle": "unusual_whales",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7.png",
+        "poster": "/posters/unusual-whales-142626.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107261333846835200/vid/avc1/960x540/s9PeJvOmYw5ea_DH.mp4",
+        "publishedAt": "2026-10-06T00:31:00.000Z",
+        "durationSeconds": 12,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107152124891246978",
+      "tweetId": "2107152124891246978",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:44.193Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2107152124891246978",
+        "tweetUrl": "https://x.com/trycua/status/2107152124891246978",
+        "authorHandle": "trycua",
+        "authorName": "Cua",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2106056584929361920/XJWz9bZS.jpg",
+        "text": "1/ Agent cursors were never much to look at.\n\nToday we're introducing 6 new cursor motions in Cua Driver, each hand-crafted and perfectly timed. We studied how people aim a mouse, built 82 motions in a playground, and kept the best six.\n\nIt's all open source: https://t.co/QRO0myHEPD",
+        "createdAt": "2026-10-05T16:53:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107150564920340480/vid/avc1/1280x720/TiBVikYeETUje-RM.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107150564920340480/img/PZSmPqK-pHKq9c0F.jpg",
+            "durationMs": 30000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "trycua",
+        "company": "Cua",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107152124891246978",
+        "slug": "6-new-cursor-motions-in-cua-driver-246978",
+        "title": "6 new cursor motions in Cua Driver — each hand-crafted",
+        "product": "6 new cursor motions in Cua Driver",
+        "company": "6 new cursor motions in Cua Driver",
+        "description": "6 new cursor motions in Cua Driver is each hand-crafted and perfectly timed.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/trycua/status/2107152124891246978",
+        "tweetId": "2107152124891246978",
+        "authorName": "Cua",
+        "authorHandle": "trycua",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2106056584929361920/XJWz9bZS.jpg",
+        "poster": "/posters/6-new-cursor-motions-in-cua-driver-246978.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107150564920340480/vid/avc1/1280x720/TiBVikYeETUje-RM.mp4",
+        "publishedAt": "2026-10-05T16:53:10.000Z",
+        "durationSeconds": 30,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107112781854245256",
+      "tweetId": "2107112781854245256",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:43.865Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bavailable (?:today|now|on)\\b"
+      ],
+      "post": {
+        "tweetId": "2107112781854245256",
+        "tweetUrl": "https://x.com/higgsfield/status/2107112781854245256",
+        "authorHandle": "higgsfield",
+        "authorName": "Higgsfield AI 🧩",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "text": "Officially, every viral AI influencer was made on Higgsfield.\n\nMake one with your face or from scratch. Then jump on viral trends with Genjutsu.\n\nTry up to 5 generations free.\n\nAvailable now in Higgsfield and via ChatGPT Extension.\n\nCredits: @JeanPhilMadame https://t.co/GTlaBmGiQX",
+        "createdAt": "2026-10-05T14:16:50.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107111382588243968/vid/avc1/1920x1080/GfUBBqFaYQawYM7M.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107111382588243968/img/FCdBpIoA9lzsM72l.jpg",
+            "durationMs": 49375
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "higgsfield",
+        "company": "Higgsfield AI 🧩",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107112781854245256",
+        "slug": "higgsfield-ai-245256",
+        "title": "Higgsfield AI 🧩 — launch video",
+        "product": "Higgsfield AI 🧩",
+        "company": "Higgsfield AI 🧩",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/higgsfield/status/2107112781854245256",
+        "tweetId": "2107112781854245256",
+        "authorName": "Higgsfield AI 🧩",
+        "authorHandle": "higgsfield",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS.jpg",
+        "poster": "/posters/higgsfield-ai-245256.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107111382588243968/vid/avc1/1920x1080/GfUBBqFaYQawYM7M.mp4",
+        "publishedAt": "2026-10-05T14:16:50.000Z",
+        "durationSeconds": 49,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107342212417884459",
+      "tweetId": "2107342212417884459",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:43.496Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2107342212417884459",
+        "tweetUrl": "https://x.com/shadeed9/status/2107342212417884459",
+        "authorHandle": "shadeed9",
+        "authorName": "Ahmad Shadeed",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1797295749866164224/1SD8Fh7G.jpg",
+        "text": "Debugging multi-layer CSS gradients/masks in the DevTools is painful, so I built a tool to help me visualize each layer. It works for CSS art/drawings, too.\n\nCheck it out: https://t.co/fg6kj0HNmB https://t.co/iwJRJslNxE",
+        "createdAt": "2026-10-06T05:28:30.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107342153554808832/vid/avc1/1214x720/_JiHMZ2iwgT1pRRd.mp4?tag=14",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107342153554808832/img/khKZ_ZF71Sjfh0vL.jpg",
+            "durationMs": 16900
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shadeed9",
+        "company": "Ahmad Shadeed",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107342212417884459",
+        "slug": "ahmad-shadeed-884459",
+        "title": "Ahmad Shadeed — launch video",
+        "product": "Ahmad Shadeed",
+        "company": "Ahmad Shadeed",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shadeed9/status/2107342212417884459",
+        "tweetId": "2107342212417884459",
+        "authorName": "Ahmad Shadeed",
+        "authorHandle": "shadeed9",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1797295749866164224/1SD8Fh7G.jpg",
+        "poster": "/posters/ahmad-shadeed-884459.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107342153554808832/vid/avc1/1214x720/_JiHMZ2iwgT1pRRd.mp4?tag=14",
+        "publishedAt": "2026-10-06T05:28:30.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107244105285726653",
+      "tweetId": "2107244105285726653",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:42.959Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107244105285726653",
+        "tweetUrl": "https://x.com/BennettBuhner/status/2107244105285726653",
+        "authorHandle": "BennettBuhner",
+        "authorName": "BenIt Pro Max Ultra",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1900365953461796864/kiSBqOMf.jpg",
+        "text": "Introducing Cursor for Android!!! 🔥\n\n- Create and manage Projects and agents. \n- Work across machines and the cloud. \n- Oversee agents working in Live Notifications.\n- Plan, assert goals, and tag skills.\n- Take over agent desktops and pin your favorites. \n\nRelease on GH below! https://t.co/UNQnXMc6c7",
+        "createdAt": "2026-10-05T22:58:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107238835935453184/vid/avc1/1920x1080/XTHTOiDUXCWZ3vd5.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107238835935453184/img/mA99Q_4Pu_xhDrvw.jpg",
+            "durationMs": 32554
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "BennettBuhner",
+        "company": "BenIt Pro Max Ultra",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107244105285726653",
+        "slug": "cursor-for-android-726653",
+        "title": "Introducing Cursor for Android!!!",
+        "product": "Cursor for Android!!!",
+        "company": "Cursor for Android!!!",
+        "description": "Cursor for Android!!! is - Create and manage Projects and agents.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/BennettBuhner/status/2107244105285726653",
+        "tweetId": "2107244105285726653",
+        "authorName": "BenIt Pro Max Ultra",
+        "authorHandle": "BennettBuhner",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1900365953461796864/kiSBqOMf.jpg",
+        "poster": "/posters/cursor-for-android-726653.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107238835935453184/vid/avc1/1920x1080/XTHTOiDUXCWZ3vd5.mp4",
+        "publishedAt": "2026-10-05T22:58:40.000Z",
+        "durationSeconds": 33,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107242656267149387",
+      "tweetId": "2107242656267149387",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:42.611Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107242656267149387",
+        "tweetUrl": "https://x.com/nerdynikhil/status/2107242656267149387",
+        "authorHandle": "nerdynikhil",
+        "authorName": "Nikhil Barik",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2008620400771756032/EluMrfKq.jpg",
+        "text": "Introducing Letra for macOS  🎉  \n\nI got tired of retyping text I could literally see on my screen.  \n\nSo I built https://t.co/zJM8ZFWzYG\n\nPress ⇧⌘2, drag over anything (videos, zoom screen shares, PDFs, screenshots, handwritings) and the text is on your clipboard.  \n\nRuns https://t.co/aHdQOfrQIS",
+        "createdAt": "2026-10-05T22:52:54.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107242265613901824/vid/avc1/1920x1080/6VumAHhovWeBiEny.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107242265613901824/img/QCzSG3Llg0TZy5a1.jpg",
+            "durationMs": 56000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "nerdynikhil",
+        "company": "Nikhil Barik",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107242656267149387",
+        "slug": "letra-for-macos-149387",
+        "title": "Introducing Letra for macOS  🎉",
+        "product": "Letra for macOS ",
+        "company": "Letra for macOS ",
+        "description": "Letra for macOS  is I got tired of retyping text I could literally see on my screen.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/nerdynikhil/status/2107242656267149387",
+        "tweetId": "2107242656267149387",
+        "authorName": "Nikhil Barik",
+        "authorHandle": "nerdynikhil",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2008620400771756032/EluMrfKq.jpg",
+        "poster": "/posters/letra-for-macos-149387.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107242265613901824/vid/avc1/1920x1080/6VumAHhovWeBiEny.mp4",
+        "publishedAt": "2026-10-05T22:52:54.000Z",
+        "durationSeconds": 56,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107228465183506630",
+      "tweetId": "2107228465183506630",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:42.281Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107228465183506630",
+        "tweetUrl": "https://x.com/hxiao/status/2107228465183506630",
+        "authorHandle": "hxiao",
+        "authorName": "Han Xiao @ COLM 2026",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072791567040122880/SfRvH9pE.jpg",
+        "text": "Introducing omni-macos: a semantic Finder for Apple Silicon. It was first released months ago, but now getting really good and becoming my daily productivity.\n\nOver the last few months I've kept improving fully local, on-device semantic search for my everyday agentic use. The https://t.co/MxTGALOBOm",
+        "createdAt": "2026-10-05T21:56:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107221259931254784/vid/avc1/1920x1080/Ugy4ljslaIyl1cAF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107221259931254784/img/GAeNMOAsI_CoZkr6.jpg",
+            "durationMs": 144766
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "hxiao",
+        "company": "Han Xiao @ COLM 2026",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107228465183506630",
+        "slug": "omni-macos-506630",
+        "title": "omni-macos — a semantic Finder for Apple Silicon",
+        "product": "omni-macos",
+        "company": "omni-macos",
+        "description": "omni-macos is a semantic Finder for Apple Silicon.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/hxiao/status/2107228465183506630",
+        "tweetId": "2107228465183506630",
+        "authorName": "Han Xiao @ COLM 2026",
+        "authorHandle": "hxiao",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2072791567040122880/SfRvH9pE.jpg",
+        "poster": "/posters/omni-macos-506630.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107221259931254784/vid/avc1/1920x1080/Ugy4ljslaIyl1cAF.mp4",
+        "publishedAt": "2026-10-05T21:56:31.000Z",
+        "durationSeconds": 145,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107214422657872064",
+      "tweetId": "2107214422657872064",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:41.948Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2107214422657872064",
+        "tweetUrl": "https://x.com/framer/status/2107214422657872064",
+        "authorHandle": "framer",
+        "authorName": "Framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "text": "Improve your site’s SEO with the Framer Agent. Use the /seo-check skill in the Agent chat to review and improve page metadata, social previews, image alt text, and other essential SEO settings. https://t.co/pLAlKwUHcQ",
+        "createdAt": "2026-10-05T21:00:43.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107214369730007040/vid/avc1/1818x1080/ld44x2mGkTYfdzqP.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107214369730007040/img/UHa0HbDvq3_TgcAX.jpg",
+            "durationMs": 21633
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "framer",
+        "company": "Framer",
+        "category": "design",
+        "tags": [
+          "design",
+          "web"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2107214422657872064",
+        "slug": "framer-872064",
+        "title": "Improve your site’s SEO with the Framer Agent",
+        "product": "Framer",
+        "company": "Framer",
+        "description": "",
+        "category": "design",
+        "tags": [
+          "design",
+          "web",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/framer/status/2107214422657872064",
+        "tweetId": "2107214422657872064",
+        "authorName": "Framer",
+        "authorHandle": "framer",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW.jpg",
+        "poster": "/posters/framer-872064.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107214369730007040/vid/avc1/1818x1080/ld44x2mGkTYfdzqP.mp4?tag=16",
+        "publishedAt": "2026-10-05T21:00:43.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107372754773172545",
+      "tweetId": "2107372754773172545",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:41.611Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107372754773172545",
+        "tweetUrl": "https://x.com/posva/status/2107372754773172545",
+        "authorHandle": "posva",
+        "authorName": "Eduardo.𝚟𝚞𝚎",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1912132719737257984/tcMpZ3lB.jpg",
+        "text": "Introducing medula!\nDevtools for your agents for React, Vue, Svelte, and Solid\nDirectly change internal state of components for those hard-to-debug tasks\nBuilt with devframe and its mcp\nhttps://t.co/AZ7FfR7Bgv https://t.co/E5Y4huKFyA",
+        "createdAt": "2026-10-06T07:29:52.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/ext_tw_video/2107372707973099520/pu/vid/avc1/1280x720/VK5WWeoi1ggXCsSO.mp4?tag=12",
+            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2107372707973099520/pu/img/DS7VCbohWUCa9Bxl.jpg",
+            "durationMs": 37400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "posva",
+        "company": "Eduardo.𝚟𝚞𝚎",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107372754773172545",
+        "slug": "medula-devtools-172545",
+        "title": "Introducing medula!",
+        "product": "medula! Devtools",
+        "company": "medula! Devtools",
+        "description": "medula! Devtools for your agents for React Vue, Svelte, and Solid Directly change internal state of components for those hard-to-debug tasks Built with devframe and its mcp.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/posva/status/2107372754773172545",
+        "tweetId": "2107372754773172545",
+        "authorName": "Eduardo.𝚟𝚞𝚎",
+        "authorHandle": "posva",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1912132719737257984/tcMpZ3lB.jpg",
+        "poster": "/posters/medula-devtools-172545.webp",
+        "videoUrl": "https://video.twimg.com/ext_tw_video/2107372707973099520/pu/vid/avc1/1280x720/VK5WWeoi1ggXCsSO.mp4?tag=12",
+        "publishedAt": "2026-10-06T07:29:52.000Z",
+        "durationSeconds": 37,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107245849344421931",
+      "tweetId": "2107245849344421931",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:41.283Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107245849344421931",
+        "tweetUrl": "https://x.com/omarships/status/2107245849344421931",
+        "authorHandle": "omarships",
+        "authorName": "Omar Ghandour",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067799660329041920/Q3uSWNHN.jpg",
+        "text": "Introducing Agently: the agent Apple couldn't build. 🤯\n\nIt takes control of your Mac, connected to your company's brain and every tool your team uses. Built around what needs your attention.\n\nPersonal AGI starts today.\n\nPS: wait for the last 10 seconds 👀 https://t.co/ZmGYTXut4k",
+        "createdAt": "2026-10-05T23:05:35.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107239307983380481/vid/avc1/3840x2160/cdRu7MgIhMcB-uDn.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107239307983380481/img/v6c1AeSEzhHMaKwA.jpg",
+            "durationMs": 88833
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "omarships",
+        "company": "Omar Ghandour",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107245849344421931",
+        "slug": "agently-the-agent-apple-couldnt-build-421931",
+        "title": "Introducing Agently: the agent Apple couldn't build",
+        "product": "Agently: the agent Apple couldn't build.",
+        "company": "Agently: the agent Apple couldn't build.",
+        "description": "Agently: the agent Apple couldn't build. is It takes control of your Mac, connected to your company's brain and every tool your team uses.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/omarships/status/2107245849344421931",
+        "tweetId": "2107245849344421931",
+        "authorName": "Omar Ghandour",
+        "authorHandle": "omarships",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2067799660329041920/Q3uSWNHN.jpg",
+        "poster": "/posters/agently-the-agent-apple-couldnt-build-421931.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107239307983380481/vid/avc1/3840x2160/cdRu7MgIhMcB-uDn.mp4",
+        "publishedAt": "2026-10-05T23:05:35.000Z",
+        "durationSeconds": 89,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107188490991804789",
+      "tweetId": "2107188490991804789",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:40.952Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2107188490991804789",
+        "tweetUrl": "https://x.com/o_kwasniewski/status/2107188490991804789",
+        "authorHandle": "o_kwasniewski",
+        "authorName": "Oskar",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1552224776051113984/D63mOB1f.jpg",
+        "text": "Built a test suite for T3 Code with e2e ⚡\n\n40 tests, testing 6 coding agents (Codex, Claude, Grok, OpenCode, Pi, Antigravity) mocked at CLI level\n\nIt already caught a small bug: Stop doesn't stop a turn that's still starting https://t.co/u0n2skpXGh",
+        "createdAt": "2026-10-05T19:17:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107187210613092352/vid/avc1/3426x2160/wYBRlwWjn4ktdPCW.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107187210613092352/img/z6ujTdQZ8xoX14Xq.jpg",
+            "durationMs": 80233
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "o_kwasniewski",
+        "company": "Oskar",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107188490991804789",
+        "slug": "oskar-804789",
+        "title": "Built a test suite for T3 Code with e2e ⚡",
+        "product": "Oskar",
+        "company": "Oskar",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/o_kwasniewski/status/2107188490991804789",
+        "tweetId": "2107188490991804789",
+        "authorName": "Oskar",
+        "authorHandle": "o_kwasniewski",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1552224776051113984/D63mOB1f.jpg",
+        "poster": "/posters/oskar-804789.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107187210613092352/vid/avc1/3426x2160/wYBRlwWjn4ktdPCW.mp4",
+        "publishedAt": "2026-10-05T19:17:40.000Z",
+        "durationSeconds": 80,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107333887026491811",
+      "tweetId": "2107333887026491811",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:40.628Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107333887026491811",
+        "tweetUrl": "https://x.com/getondesign/status/2107333887026491811",
+        "authorHandle": "getondesign",
+        "authorName": "On Design",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095208864933158918/t0stp3ef.jpg",
+        "text": "Introducing https://t.co/LlSKlpCiCn\n\nA new home for designers, creatives, people building the future — together.\n\nWelcome home, friends ✨🤝✨ https://t.co/lf5VPmiOSB",
+        "createdAt": "2026-10-06T04:55:25.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107333782697373698/vid/avc1/1440x1080/r8RufJ5KLX0PrsG-.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107333782697373698/img/3sssRhEfTPEu9V2G.jpg",
+            "durationMs": 32500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "getondesign",
+        "company": "On Design",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107333887026491811",
+        "slug": "a-new-home-for-designers-491811",
+        "title": "Introducing",
+        "product": "A new home for designers",
+        "company": "A new home for designers",
+        "description": "A new home for designers is creatives, people building the future, together.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/getondesign/status/2107333887026491811",
+        "tweetId": "2107333887026491811",
+        "authorName": "On Design",
+        "authorHandle": "getondesign",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2095208864933158918/t0stp3ef.jpg",
+        "poster": "/posters/a-new-home-for-designers-491811.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107333782697373698/vid/avc1/1440x1080/r8RufJ5KLX0PrsG-.mp4?tag=16",
+        "publishedAt": "2026-10-06T04:55:25.000Z",
+        "durationSeconds": 33,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107183336724836358",
+      "tweetId": "2107183336724836358",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:40.281Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bnow (?:live|available|shipping)\\b"
+      ],
+      "post": {
+        "tweetId": "2107183336724836358",
+        "tweetUrl": "https://x.com/figma/status/2107183336724836358",
+        "authorHandle": "figma",
+        "authorName": "Figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "text": "Text animation and audio are now available in Figma Motion (!!) https://t.co/NXtyYdE30H",
+        "createdAt": "2026-10-05T18:57:11.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107174169490472960/vid/avc1/1920x1080/mP0FGVywXbKYX1jf.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107174169490472960/img/obRLC6Eu5qtx9oMu.jpg",
+            "durationMs": 45166
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "figma",
+        "company": "Figma",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2107183336724836358",
+        "slug": "figma-836358",
+        "title": "Figma — launch video",
+        "product": "Figma",
+        "company": "Figma",
+        "description": "",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/figma/status/2107183336724836358",
+        "tweetId": "2107183336724836358",
+        "authorName": "Figma",
+        "authorHandle": "figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "poster": "/posters/figma-836358.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107174169490472960/vid/avc1/1920x1080/mP0FGVywXbKYX1jf.mp4",
+        "publishedAt": "2026-10-05T18:57:11.000Z",
+        "durationSeconds": 45,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107186717426069928",
+      "tweetId": "2107186717426069928",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:39.946Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107186717426069928",
+        "tweetUrl": "https://x.com/VesenceAI/status/2107186717426069928",
+        "authorHandle": "VesenceAI",
+        "authorName": "Vesence",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2102243797115801600/mspC5VCw.jpg",
+        "text": "Introducing Vesence Inbox. \n\nTalk your way to inbox zero in seconds.\n\nJust click, speak, and let your agent handle the rest.\n\nFree trial available.\n\nGet started today → https://t.co/TcMALXCZp5 https://t.co/e9lmMjJ1Hr",
+        "createdAt": "2026-10-05T19:10:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107185503028334592/vid/avc1/1920x1080/1VrR3yhdrLR0HHdE.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107185503028334592/img/hkixmLx9EmQuSRaf.jpg",
+            "durationMs": 25493
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "VesenceAI",
+        "company": "Vesence",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107186717426069928",
+        "slug": "vesence-069928",
+        "title": "Introducing Vesence Inbox",
+        "product": "Vesence",
+        "company": "Vesence",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/VesenceAI/status/2107186717426069928",
+        "tweetId": "2107186717426069928",
+        "authorName": "Vesence",
+        "authorHandle": "VesenceAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2102243797115801600/mspC5VCw.jpg",
+        "poster": "/posters/vesence-069928.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107185503028334592/vid/avc1/1920x1080/1VrR3yhdrLR0HHdE.mp4",
+        "publishedAt": "2026-10-05T19:10:37.000Z",
+        "durationSeconds": 25,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107141004482793827",
+      "tweetId": "2107141004482793827",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:39.599Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2107141004482793827",
+        "tweetUrl": "https://x.com/cursor_ai/status/2107141004482793827",
+        "authorHandle": "cursor_ai",
+        "authorName": "Cursor",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
+        "text": "You can now steer Cursor SDK agents while they run.\n\nrun.steer() adds your message to the next turn. If a subagent is mid-task, it moves to the background and keeps working. https://t.co/1GHeV6kfKC",
+        "createdAt": "2026-10-05T16:08:58.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107140983238664192/vid/avc1/1920x1080/iklCY9iMje6jt9NA.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107140983238664192/img/dFp4dVG_35ypZOWO.jpg",
+            "durationMs": 19733
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cursor_ai",
+        "company": "Cursor",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2107141004482793827",
+        "slug": "cursor-793827",
+        "title": "You can now steer Cursor SDK agents while they run",
+        "product": "Cursor",
+        "company": "Cursor",
+        "description": "",
+        "category": "developer-tools",
+        "tags": [
+          "ide",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/cursor_ai/status/2107141004482793827",
+        "tweetId": "2107141004482793827",
+        "authorName": "Cursor",
+        "authorHandle": "cursor_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
+        "poster": "/posters/cursor-793827.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107140983238664192/vid/avc1/1920x1080/iklCY9iMje6jt9NA.mp4?tag=16",
+        "publishedAt": "2026-10-05T16:08:58.000Z",
+        "durationSeconds": 20,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107148754633507237",
+      "tweetId": "2107148754633507237",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:38.842Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2107148754633507237",
+        "tweetUrl": "https://x.com/genex_games/status/2107148754633507237",
+        "authorHandle": "genex_games",
+        "authorName": "Genex",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978921429753020416/dojn4cO0.jpg",
+        "text": "Introducing Genex\n\nThe desktop app to build games with AI\n\n→ Open source, MIT \n→ Local models, or Claude Code / ChatGPT sub \n→ Self-improving harness for game dev\n→ Three.js + Blender, Meshy &amp; other tools \n→ Unity &amp; Unreal plugins soon\n\nhttps://t.co/SLnYUcDydg https://t.co/2B7M8Cpsdl",
+        "createdAt": "2026-10-05T16:39:46.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107142018635841536/vid/avc1/1920x1080/XD5q5JaiklhdPURG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107142018635841536/img/G7lQB-w2QLI378jf.jpg",
+            "durationMs": 62283
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "genex_games",
+        "company": "Genex",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107148754633507237",
+        "slug": "genex-the-desktop-app-to-build-games-507237",
+        "title": "Introducing Genex",
+        "product": "Genex The desktop app to build games",
+        "company": "Genex The desktop app to build games",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/genex_games/status/2107148754633507237",
+        "tweetId": "2107148754633507237",
+        "authorName": "Genex",
+        "authorHandle": "genex_games",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978921429753020416/dojn4cO0.jpg",
+        "poster": "/posters/genex-the-desktop-app-to-build-games-507237.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107142018635841536/vid/avc1/1920x1080/XD5q5JaiklhdPURG.mp4",
+        "publishedAt": "2026-10-05T16:39:46.000Z",
+        "durationSeconds": 62,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2107165034463867001",
+      "tweetId": "2107165034463867001",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-06T14:39:38.498Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2107165034463867001",
+        "tweetUrl": "https://x.com/cognition/status/2107165034463867001",
+        "authorHandle": "cognition",
+        "authorName": "Cognition",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
+        "text": "Introducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: https://t.co/b6qzEJsaeT https://t.co/G3o1WQqQbN",
+        "createdAt": "2026-10-05T17:44:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2107159507671367680/vid/avc1/1920x1080/W3npxTA9K6wI6FqE.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107159507671367680/img/WRaVdmwpRGmIdM6y.jpg",
+            "durationMs": 34400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cognition",
+        "company": "Cognition",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2107165034463867001",
+        "slug": "dreaming-867001",
+        "title": "Dreaming — across sessions, Devin builds a memory graph",
+        "product": "Dreaming",
+        "company": "Dreaming",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/cognition/status/2107165034463867001",
+        "tweetId": "2107165034463867001",
+        "authorName": "Cognition",
+        "authorHandle": "cognition",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
+        "poster": "/posters/dreaming-867001.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2107159507671367680/vid/avc1/1920x1080/W3npxTA9K6wI6FqE.mp4",
+        "publishedAt": "2026-10-05T17:44:28.000Z",
+        "durationSeconds": 34,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2106987472668545400",
       "tweetId": "2106987472668545400",
