@@ -107,5 +107,16 @@
     "kind": "studio",
     "xHandle": "theadampetty",
     "poster": "/posters/studios/flowjam.webp"
+  },
+  {
+    "id": "studio-ravie",
+    "slug": "ravie",
+    "name": "Ravie",
+    "tagline": "Make important moments impossible to miss",
+    "description": "A ten-person creative studio that turns product launches and moments of change into design and motion. Clients include Google, Calendly, Coinbase, Epic Games, and Ozone.",
+    "url": "https://www.ravie.co/",
+    "kind": "studio",
+    "xHandle": "ravie_co",
+    "poster": "/posters/studios/ravie.webp"
   }
 ]
