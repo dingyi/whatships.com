@@ -970,5 +970,15 @@
     "install": "npx skills add gnipbao/minimax-h3-video-reverse-skill",
     "stars": 211,
     "starsCapturedAt": "2026-10-05T15:23:54.604Z"
+  },
+  {
+    "id": "tool-hyperframes",
+    "slug": "hyperframes",
+    "name": "HyperFrames",
+    "tagline": "The video editor built for agents",
+    "description": "A video editor for coding agents. Write HTML, CSS, and seekable animations, then render deterministic MP4s. Native Mac and Linux app, open sourced by HeyGen under Apache-2.0.",
+    "url": "https://www.hyperframes.dev/",
+    "category": "editor",
+    "poster": "/posters/tools/hyperframes.webp"
   }
 ]
