@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:13:07.082Z",
+  "updatedAt": "2026-10-08T06:25:05.440Z",
   "items": [
     {
       "id": "disc-2107506453590274373",
@@ -1212,71 +1212,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4",
         "publishedAt": "2026-10-07T18:01:16.000Z",
         "durationSeconds": 11,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2107894997538525580",
-      "tweetId": "2107894997538525580",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-08T06:12:59.076Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bavailable (?:today|now|on)\\b"
-      ],
-      "post": {
-        "tweetId": "2107894997538525580",
-        "tweetUrl": "https://x.com/OpenAI/status/2107894997538525580",
-        "authorHandle": "OpenAI",
-        "authorName": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "text": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone.\n\nIntelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. https://t.co/XL2gDCPBwG",
-        "createdAt": "2026-10-07T18:05:04.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/media/HUDAEy0a4AAdfz8.jpg",
-            "durationMs": 70111
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "OpenAI",
-        "company": "OpenAI",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2107894997538525580",
-        "slug": "openai-525580",
-        "title": "GPT-6 and Intelligent UI",
-        "product": "OpenAI",
-        "company": "OpenAI",
-        "description": "",
-        "category": "ai",
-        "tags": [
-          "openai",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/OpenAI/status/2107894997538525580",
-        "tweetId": "2107894997538525580",
-        "authorName": "OpenAI",
-        "authorHandle": "OpenAI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
-        "poster": "/posters/openai-525580.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4",
-        "publishedAt": "2026-10-07T18:05:04.000Z",
-        "durationSeconds": 70,
         "featured": false,
         "status": "draft"
       },
