@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:25:05.440Z",
+  "updatedAt": "2026-10-08T06:47:35.909Z",
   "items": [
     {
       "id": "disc-2107506453590274373",
@@ -1934,70 +1934,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2107566428283183104/vid/avc1/1920x1080/koyOP1_fb7Qb331X.mp4",
         "publishedAt": "2026-10-06T20:19:47.000Z",
         "durationSeconds": 139,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2107618653701296162",
-      "tweetId": "2107618653701296162",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-08T06:12:53.773Z",
-      "reviewedAt": null,
-      "score": 24,
-      "reasons": [
-        "has-video"
-      ],
-      "post": {
-        "tweetId": "2107618653701296162",
-        "tweetUrl": "https://x.com/cursor_ai/status/2107618653701296162",
-        "authorHandle": "cursor_ai",
-        "authorName": "Cursor",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
-        "text": "You can now control agents on your computer from your phone.\n\nCheck in, reply, or start new tasks from the Cursor iOS app. https://t.co/11dcZhRyrx",
-        "createdAt": "2026-10-06T23:46:59.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2107618630796218368/vid/avc1/1920x1080/UqdhGT6DGdKaso0R.mp4?tag=16",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2107618630796218368/img/epNZSmr7AGxF5tDa.jpg",
-            "durationMs": 38800
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "cursor_ai",
-        "company": "Cursor",
-        "category": "developer-tools",
-        "tags": [
-          "ide",
-          "agents"
-        ]
-      },
-      "draft": {
-        "id": "plv-disc-2107618653701296162",
-        "slug": "cursor-296162",
-        "title": "Cursor — launch video",
-        "product": "Cursor",
-        "company": "Cursor",
-        "description": "",
-        "category": "developer-tools",
-        "tags": [
-          "ide",
-          "agents",
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/cursor_ai/status/2107618653701296162",
-        "tweetId": "2107618653701296162",
-        "authorName": "Cursor",
-        "authorHandle": "cursor_ai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X.jpg",
-        "poster": "/posters/cursor-296162.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2107618630796218368/vid/avc1/1920x1080/UqdhGT6DGdKaso0R.mp4?tag=16",
-        "publishedAt": "2026-10-06T23:46:59.000Z",
-        "durationSeconds": 39,
         "featured": false,
         "status": "draft"
       },
