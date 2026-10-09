@@ -1,8 +1,8 @@
 # 2026-10-09 产品发布视频发现汇总（Grok X 深度搜索）
 
-使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-08 15:35 UTC 至 2026-10-09 00:49 UTC（约 CST 23:35 至次日 08:49），补 10-08 文档截稿（约 01:11 UTC）之后的高信号片。与 10-07 / 10-08 文档互补，不重复 GPT-6 / Intelligent UI、Claude Haiku 5.5、ChatGPT 插件走查、Copilot 本地路由、Envato Burst、fal H3 Max Relight、Jog、Builder.io skill、Runway 进 ChatGPT Astra、Figma agent 跨文件、Framer 设计系统 skill。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
+使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-08 上午至 2026-10-09 13:20 UTC（约 CDT 08:20）。与 10-07 / 10-08 文档互补，不重复 GPT-6 / Intelligent UI、Claude Haiku 5.5、ChatGPT 插件走查、Copilot 本地路由、Envato Burst、fal H3 Max Relight、Jog、Builder.io skill、Runway 进 ChatGPT Astra、Figma agent 跨文件、Framer 设计系统 skill。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
 
-GitHub code search（`repo:dingyi/whatships.com`）未命中下列 tweetId。`videos.json` 超过 1MB 未能全文拉取，以仓库搜索未命中且未出现在已合入的 discovery 文档为准。
+PR #294 已合入截至 00:49 UTC 的 18 条。本次补 `discoveries/2026-10-09-product-launch-videos.md`，并加今天上午 19–22。GitHub code search（`repo:dingyi/whatships.com`）未命中下列 tweetId。`videos.json` 超过 1MB 未能全文拉取，以仓库搜索未命中且未出现在已合入的 discovery 文档为准。
 
 审核后可运行：
 
@@ -246,12 +246,67 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-09-zh-summary.md
 
 ---
 
+## 19. Restyles
+
+- **作者**：@viktoroddy（Design Rocket）
+- **时间**：2026-10-09 09:35 UTC
+- **视频**：约 324 秒
+- **亮点**：Introducing Restyles。完整走查：拿一个喜欢的提示词，说它应该变成什么，看它重建自己。片子里做了四次。免费试用 https://motionsites.ai/restyle 。收藏高于赞，偏设计工具发布。
+- **互动**：约 23 赞、2 转发、2 引用、5 回复、15 收藏、2200+浏览
+- **分类建议**：design / ai
+- **链接**：https://x.com/viktoroddy/status/2108491429131833417
+- **tweetId**：2108491429131833417
+
+---
+
+## 20. Shipper Astra for Shopify
+
+- **作者**：@chhddavid（@shipper_now）
+- **时间**：2026-10-09 09:18 UTC
+- **视频**：约 26 秒
+- **亮点**：Introducing Astra for Shopify。输入网站 URL，Shipper 把店铺转成原生移动应用。跟帖给了 https://shipper.now 。浏览刚过 500。
+- **互动**：约 5 赞、1 转发、1 引用、1 回复、2 收藏、560+浏览
+- **分类建议**：developer-tools / consumer
+- **链接**：https://x.com/chhddavid/status/2108487246538236014
+- **tweetId**：2108487246538236014
+
+---
+
+## 21. OpenCode iOS 0.34.1
+
+- **作者**：@ryanvogel（@opencode / @anomalyco）
+- **时间**：2026-10-09 12:43 UTC
+- **视频**：约 5 秒
+- **亮点**：OpenCode iOS 0.34.1。帖子写的是过去 24 小时里上线的内容。片子很短，是版本说明不是长走查。
+- **互动**：约 37 赞、2 转发、1 回复、6 收藏、1000+浏览
+- **分类建议**：developer-tools
+- **链接**：https://x.com/ryanvogel/status/2108538892227838157
+- **tweetId**：2108538892227838157
+
+---
+
+## 22. yoagent
+
+- **作者**：@yuanhao
+- **时间**：2026-10-09 07:30 UTC
+- **视频**：约 47 秒
+- **亮点**：再次介绍 yoagent，给自进化 agent yoyo 用的 agent loop 库。讲循环的 5 种失败模式、Extension 契约，以及 rutis、DSH、pi 插件怎么接进来。可以跑在 Cloudflare Workers。收藏高于赞。不是当天从零首发，yoyo 自 3 月起已在跑。
+- **互动**：约 20 赞、5 转发、2 引用、8 回复、18 收藏、920+浏览
+- **分类建议**：ai / developer-tools
+- **链接**：https://x.com/yuanhao/status/2108460164411994236
+- **tweetId**：2108460164411994236
+
+---
+
 ## 跟进，不单独入队
 
 - MagicPath 在 ChatGPT 里的设计走查（Figma 导入、站点 remix、GitHub 组件、Mobbin 流程），是功能讲解不是新产品首发：https://x.com/lukas_margerie/status/2108225181726429460
 - Framer 的 Typesafe / Jev 站点是客户案例（4 天上线、480 万访问），不是新功能首发：https://x.com/framer/status/2108285896923759007
 - Replit 的调研报告后续动作片是使用提示，不是新功能首发：https://x.com/Replit/status/2108316518488371413
 - Google AMIE 是《柳叶刀》前瞻临床研究沟通片，不是面向用户的产品发布：https://x.com/Google/status/2108324514442461225
+- Higgsfield Katana 社区预设：https://x.com/higgsfield/status/2108401556232327237
+- Nace NDI 开发者向 15 秒片：https://x.com/NaceAI/status/2108420944146629080
+- Dune 查询文件夹与图表时间范围是功能小片，且偏加密数据：https://x.com/hagaetc/status/2108526571053052209
 
 ## 已入队，不重复
 
@@ -259,4 +314,4 @@ GPT-6 与 Intelligent UI、Claude Haiku 5.5、ChatGPT 插件扩展走查、GitHu
 
 ## 排除
 
-政治与执法宣传、体育节目、音乐与动画发行、代币 / NFT / 交易所社区层（PairIt、HEROES、Quip Points）、纯游戏（HoloCozy Steam demo）、播客（GitHub Podcast）、恶搞片（Joma 的 ChatGPT for Dishwashing）、Jetson 教程，以及阅读量低于 500 的帖子（含 TeaserKit，浏览约 355）。
+政治与执法宣传、体育节目、音乐与动画发行、代币 / NFT / 交易所社区层（PairIt、HEROES、Quip Points、ChainGPT Pad、Agent Desk、PulseGrid、Tokkers、LinqKit）、纯游戏（HoloCozy、Civica、Prospice、Dandelion Void、levelsio 浏览器 DOOM / Urban Terror）、播客、恶搞片（Joma 的 ChatGPT for Dishwashing）、Jetson 教程、Canva 分镜使用提示，以及阅读量低于 500 的帖子（含 TeaserKit 约 355、BlitzRecorder 约 154）。
