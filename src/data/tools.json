@@ -980,5 +980,15 @@
     "url": "https://www.hyperframes.dev/",
     "category": "editor",
     "poster": "/posters/tools/hyperframes.webp"
+  },
+  {
+    "id": "tool-videoeditor-fyi",
+    "slug": "videoeditor-fyi",
+    "name": "Video Editor",
+    "tagline": "A web screen recorder. No signups, no tracking",
+    "description": "A browser video editor that records your screen, camera, and microphone, then edits on a timeline. Projects stay in the browser. No signups, no tracking, nothing uploaded.",
+    "url": "https://videoeditor.fyi/",
+    "category": "editor",
+    "poster": "/posters/tools/videoeditor-fyi.webp"
   }
 ]
