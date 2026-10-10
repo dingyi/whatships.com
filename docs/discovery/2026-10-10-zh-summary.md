@@ -1,6 +1,6 @@
 # 2026-10-10 产品发布视频发现汇总（Grok X 深度搜索）
 
-使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-09 16:00 UTC 至 2026-10-10 01:15 UTC（约 CST 00:00 至 09:15），补 10-09 文档之后的高信号片。与 10-08 / 10-09 文档互补，不重复 Claude Dashboards/Motion、GPT-6.1 Sol Ultrafast、Higgsfield Katana、Nace NDI、Photon A2A 等。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
+使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-09 16:00 UTC 至 2026-10-10 13:20 UTC（约 CST 00:00 至 08:20），补 10-09 文档之后的高信号片。与 10-08 / 10-09 文档互补，不重复 Claude Dashboards/Motion、GPT-6.1 Sol Ultrafast、Higgsfield Katana、Nace NDI、Photon A2A 等。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
 
 GitHub code search（`repo:dingyi/whatships.com`）未命中下列 tweetId。`videos.json` 超过 1MB 未能全文拉取，以仓库搜索未命中且未出现在已合入的 discovery 文档为准。
 
@@ -18,7 +18,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-10-zh-summary.md
 - **时间**：2026-10-09 16:02 UTC
 - **视频**：约 103 秒
 - **亮点**：正式发布 Pine Computer。为 AI 重建的云端计算机，不是把人类电脑套给 agent。读结构化浏览器状态而非截图，支持并行多任务、长作业跨应用/文件，提供 Server SDK 与 Web SDK（可嵌入实时桌面，人工接管后交还）。私人 beta，博客给出 SaaS-Bench 对比（更小模型在正确计算机上超过更大模型 + Codex）。https://pinecomputer.io
-- **互动**：约 8214 赞、745 转发、320 引用、490 回复、2889 收藏、2056 万+浏览
+- **互动**：约 8584 赞、752 转发、344 引用、551 回复、3123 收藏、2300 万+浏览
 - **分类建议**：ai / developer-tools
 - **链接**：https://x.com/StanleyWei4748/status/2108588887790784897
 - **tweetId**：2108588887790784897
@@ -96,7 +96,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-10-zh-summary.md
 - **时间**：2026-10-09 20:54 UTC
 - **视频**：约 28 秒
 - **亮点**：功能上线片。Agent 现在可通过 Vercel CLI 直接购买域名。https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli
-- **互动**：约 69 赞、3 转发、7 引用、5 回复、16 收藏、1.7 万+浏览
+- **互动**：约 116 赞、5 转发、15 引用、11 回复、35 收藏、3.6 万+浏览
 - **分类建议**：developer-tools / ai
 - **链接**：https://x.com/vercel_dev/status/2108662483473125448
 - **tweetId**：2108662483473125448
@@ -122,7 +122,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-10-zh-summary.md
 - **时间**：2026-10-09 23:18 UTC 与 18:54 UTC
 - **视频**：约 15 秒 / 24 秒
 - **亮点**：功能更新片。Settings 现在可搜索；工作区管理员可设置 sidebar presets（新成员默认侧边栏，成员可从 + 菜单添加并自定义）。
-- **互动**：搜索约 83 赞、4 转发、4977 浏览；presets 约 114 赞、1 转发、9507 浏览
+- **互动**：搜索约 180 赞、9 转发、20699 浏览；presets 约 166 赞、5 转发、14970 浏览
 - **分类建议**：productivity
 - **链接**：https://x.com/NotionHQ/status/2108698564545380584 （搜索）；https://x.com/NotionHQ/status/2108632089579147488 （presets）
 - **tweetId**：2108698564545380584 / 2108632089579147488
@@ -135,7 +135,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-10-zh-summary.md
 - **时间**：2026-10-09 23:45 UTC
 - **视频**：约 422 秒（周更综合片）
 - **亮点**：周更汇总。1) Replit Desktop for Windows 私人预览（与 Microsoft / NVIDIA 合作，本地隔离沙箱）；2) 单聊天跨项目工作；3) TikTok Ads MCP，可从 Replit 创建、发布并跟踪广告。https://replit.com/lp/desktop-preview
-- **互动**：约 9 赞、2 转发、2121 浏览
+- **互动**：约 37 赞、8 转发、5176 浏览
 - **分类建议**：developer-tools / ai
 - **链接**：https://x.com/Replit/status/2108705386886742349
 - **tweetId**：2108705386886742349
@@ -172,6 +172,8 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-10-zh-summary.md
 
 - Coinbase Advanced 键盘快捷键（Brian Armstrong 用 AI 工具自己船到生产），是功能更新而非新产品发布：https://x.com/brian_armstrong/status/2108597711612305863
 - Higgsfield Katana 做出的 PHYLLA 风格发布片是技能展示，不是新产品首发。
+- ArchDev 新功能（公共路线图、Catch-Up 代码审查），产品已发布，浏览约 2450：https://x.com/CalvinGrunewald/status/2108690208090710239
+- OpenWork 连接器在 OpenCode，浏览约 978：https://x.com/benjaminshafii/status/2108696545461936339
 
 ## 已入队，不重复
 
@@ -179,4 +181,4 @@ Claude Dashboards 与 Motion、GPT-6.1 Sol Ultrafast、Higgsfield Katana、Nace 
 
 ## 排除
 
-代币 / NFT / memecoin 发布（Pixelpad、FreshSend、QAI、Bunker bounty 等）、纯游戏 demo、政治与军事宣传、体育、低阅读量帖子（<500），以及无关教程与娱乐内容。
+代币 / NFT / memecoin 发布（Pixelpad、FreshSend、QAI、Bunker bounty、Merrymen TRENCHER、Neriapad 等）、纯游戏 demo、政治与军事宣传、体育、低阅读量帖子（<500），以及无关教程与娱乐内容。
