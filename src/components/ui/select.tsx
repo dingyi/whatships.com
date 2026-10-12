@@ -16,7 +16,7 @@ import {
 } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { Select as SelectPrimitive } from "@base-ui/react/select";
+import { Select as SelectPrimitive, type SelectRootActions } from "@base-ui/react/select";
 import type { IconComponent } from "@/lib/icon-context";
 import { cn } from "@/lib/utils";
 import { spring, exitFallbackMs } from "@/lib/springs";
@@ -38,7 +38,7 @@ import { Elevated } from "@/lib/elevated";
 interface SelectContextValue {
   value: string;
   open: boolean;
-  actionsRef: React.RefObject<{ unmount: () => void } | null>;
+  actionsRef: React.RefObject<SelectRootActions | null>;
 }
 
 const SelectContext = createContext<SelectContextValue | null>(null);
@@ -111,7 +111,7 @@ function Select({
 }: SelectProps) {
   const [internalValue, setInternalValue] = useState(defaultValue ?? "");
   const [open, setOpen] = useState(false);
-  const actionsRef = useRef<{ unmount: () => void } | null>(null);
+  const actionsRef = useRef<SelectRootActions | null>(null);
   const currentValue = value !== undefined ? value : internalValue;
 
   const items = useMemo(() => collectSelectItems(children), [children]);
