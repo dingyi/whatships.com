@@ -990,5 +990,25 @@
     "url": "https://videoeditor.fyi/",
     "category": "editor",
     "poster": "/posters/tools/videoeditor-fyi.webp"
+  },
+  {
+    "id": "tool-clap",
+    "slug": "clap",
+    "name": "Clap",
+    "tagline": "Capture anything. Make it look incredible.",
+    "description": "Capture screenshots, recordings and whole scrolling pages on Mac or Windows, then mark them up, frame them beautifully and share them in seconds. Made by UI8.",
+    "url": "https://clap.io/",
+    "category": "editor",
+    "poster": "/posters/tools/clap.webp"
+  },
+  {
+    "id": "tool-openscreen",
+    "slug": "openscreen",
+    "name": "OpenScreen",
+    "tagline": "Beautiful demos on the first take.",
+    "description": "Turn screen recordings into polished demos with automatic zooms, styled backgrounds and an editable cursor. Free and open source for Windows, macOS and Linux. No watermark.",
+    "url": "https://getopenscreen.com/",
+    "category": "editor",
+    "poster": "/posters/tools/openscreen.webp"
   }
 ]
