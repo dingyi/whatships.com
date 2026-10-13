@@ -1020,5 +1020,15 @@
     "url": "https://tryteasr.com/",
     "category": "ai",
     "poster": "/posters/tools/teasr.webp"
+  },
+  {
+    "id": "tool-takes",
+    "slug": "takes",
+    "name": "Takes",
+    "tagline": "You talk. Takes does the rest.",
+    "description": "A free Mac app with a teleprompter for talking-head videos. Claude Code storyboards, cuts the edit and drafts posts for LinkedIn, X, YouTube and Shorts.",
+    "url": "https://gettakes.app/",
+    "category": "editor",
+    "poster": "/posters/tools/takes.webp"
   }
 ]
