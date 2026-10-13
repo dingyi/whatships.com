@@ -1010,5 +1010,15 @@
     "url": "https://getopenscreen.com/",
     "category": "editor",
     "poster": "/posters/tools/openscreen.webp"
+  },
+  {
+    "id": "tool-teasr",
+    "slug": "teasr",
+    "name": "Teasr",
+    "tagline": "Turn your website into a video",
+    "description": "Paste your website and Teasr makes a motion video in your brand, with original music, in about 8 minutes.",
+    "url": "https://tryteasr.com/",
+    "category": "ai",
+    "poster": "/posters/tools/teasr.webp"
   }
 ]
