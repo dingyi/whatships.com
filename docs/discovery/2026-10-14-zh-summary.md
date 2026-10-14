@@ -1,6 +1,6 @@
 # 2026-10-14 产品发布视频发现汇总（Grok X 深度搜索）
 
-使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-12 至 2026-10-14 09:15 CST（约 UTC 10-12 00:00 至 10-14 01:15）。与前序文档互补，不重复已合入条目。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
+使用 Grok 内置 X 搜索（x_keyword_search / x_semantic_search / x_thread_fetch）。窗口：2026-10-13 上午至 2026-10-14 上午 CST。与前序文档互补，不重复已合入条目。排除阅读 < 500，以及政治、娱乐、体育、音乐、代币 / NFT、纯游戏与无关教程。不改 `src/data/videos.json` 或 `inbox.json`。
 
 GitHub code search（`repo:dingyi/whatships.com`）未命中下列 tweetId。以仓库搜索未命中且未出现在已合入的 discovery 文档为准。
 
@@ -12,7 +12,20 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 1. Gemini 4 Argon 在 Gemini App 与 Antigravity 集成
+## 1. Kylon 公司 harness
+
+- **作者**：@quinn_leng（@kylon_ai）
+- **时间**：2026-10-13 15:53 UTC
+- **视频**：约 67 秒（线程多段）
+- **亮点**：Introducing Kylon。首个公司级 harness，统一人类、agents 与工具。无论使用 Codex、Claude、Devin、Gemini CLI、Cursor 等，Kylon 让它们在同一房间协作、构建与交付。支持大量集成（Gmail、Slack、Notion、GitHub、Figma 等）。团队可共同构建、标注、交付应用，甚至用它制作发布视频。https://app.kylon.io
+- **互动**：约 936 赞、108 转发、233 引用、262 回复、841 收藏、111 万+浏览
+- **分类建议**：ai / developer-tools / productivity
+- **链接**：https://x.com/quinn_leng/status/2110036327286886731
+- **tweetId**：2110036327286886731
+
+---
+
+## 2. Gemini 4 Argon 在 Gemini App 与 Antigravity 集成
 
 - **作者**：@GeminiApp（Google）
 - **时间**：2026-10-13 16:08 UTC
@@ -25,7 +38,33 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 2. Figma Make 集成 Gemini 4 Argon
+## 3. XERJ Corpus Hub
+
+- **作者**：@d0znpp
+- **时间**：2026-10-13 16:04 UTC
+- **视频**：约 42 秒（线程多片）
+- **亮点**：introducing XERJ Corpus Hub，AI agents 的参考记忆。为任务提供 corpus，让 agent 在索引专家知识中找答案并应用到代码/研究/项目。支持任何模型，免费开源 Apache 2。一行 prompt 安装并索引项目。比传统 grep 快 10×、便宜 20×。https://xerj.org
+- **互动**：约 2202 赞、34 转发、30 引用、43 回复、141 收藏、6.1 万+浏览
+- **分类建议**：ai / developer-tools
+- **链接**：https://x.com/d0znpp/status/2110038855047164404
+- **tweetId**：2110038855047164404
+
+---
+
+## 4. Scuba 共享上下文引擎
+
+- **作者**：@noah_weiss（@withscuba）
+- **时间**：2026-10-13 16:53 UTC
+- **视频**：约 56 秒
+- **亮点**：Introducing Scuba。团队与 agents 的共享上下文引擎。捕获任何想法、分享关键内容，保持人与 agent 对齐。模型不再受智能限制，而是上下文约束。支持 Slack、Claude、ChatGPT、Cursor 及任何 MCP 工具。从隐身走出，融资 $34M（Accel、IVP 等）。
+- **互动**：约 129 赞、13 转发、9 引用、32 回复、50 收藏、1.4 万+浏览
+- **分类建议**：ai / productivity
+- **链接**：https://x.com/noah_weiss/status/2110051267007455555
+- **tweetId**：2110051267007455555
+
+---
+
+## 5. Figma Make 集成 Gemini 4 Argon
 
 - **作者**：@figma
 - **时间**：2026-10-13 23:14 UTC
@@ -38,7 +77,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 3. Devin 集成 Pylon
+## 6. Devin 集成 Pylon
 
 - **作者**：@cognition
 - **时间**：2026-10-13 18:01 UTC
@@ -51,7 +90,7 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 4. TasteSkill v2
+## 7. TasteSkill v2
 
 - **作者**：@LexnLin（个人开发者）
 - **时间**：2026-10-13 21:34 UTC
@@ -64,7 +103,33 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 5. diffr 结构化 Diff 库
+## 8. Scenario Blender 插件
+
+- **作者**：@emmanuel_2m（scenario.com）
+- **时间**：2026-10-14 12:09 UTC
+- **视频**：约 79 秒
+- **亮点**：开源整个 3D 团队给 Blender。Introducing Scenario plugin。可在 Blender 内使用，或让 Claude Code 通过 MCP 运行。包含 Concept Artist、3D Artist、Animator、Surfacing、Layout、Camera、Render、Sound Designer 等技能文件夹。评论 BLENDER 获取 GitHub。
+- **互动**：约 110 赞、18 转发、1 引用、46 回复、141 收藏、4700+浏览
+- **分类建议**：ai / design / developer-tools
+- **链接**：https://x.com/emmanuel_2m/status/2110342352665473156
+- **tweetId**：2110342352665473156
+
+---
+
+## 9. Eleven reverse engineering
+
+- **作者**：@chiziaruhoma
+- **时间**：2026-10-13 15:51 UTC
+- **视频**：约 50 秒
+- **亮点**：Introducing Eleven：用 agent 进行逆向工程。可打开 Mac apps、Android APKs、Windows/Linux binaries，以伪代码、汇编、图或 hex 阅读每个函数。支持与 Claude、Codex、Gemini、Cursor 等 agent 交互。可重命名函数、留笔记、安全 patch、对比构建、lldb 调试。免费开源。
+- **互动**：约 608 赞、106 转发、8 引用、40 回复、556 收藏、2.3 万+浏览
+- **分类建议**：developer-tools / ai
+- **链接**：https://x.com/chiziaruhoma/status/2110035757691703722
+- **tweetId**：2110035757691703722
+
+---
+
+## 10. diffr 结构化 Diff 库
 
 - **作者**：@sidharthkmenon（个人开发者）
 - **时间**：2026-10-13 21:12 UTC
@@ -77,80 +142,16 @@ node scripts/rebuild-inbox.mjs --from docs/discovery/2026-10-14-zh-summary.md
 
 ---
 
-## 6. Replit 多项目从新聊天启动
-
-- **作者**：@Replit
-- **时间**：2026-10-13 21:00 UTC
-- **视频**：约 13 秒
-- **亮点**：Replit Agent 现可从新聊天直接找到并工作于现有项目，无需先打开项目。说“给我的项目加搜索”即可，Agent 用项目文件与上下文作为后台任务运行编辑。同一聊天可跨多个项目更新定价、设计风格等。功能推出片。
-- **互动**：约 17 赞、2 转发、4 回复、3 收藏、2900+浏览
-- **分类建议**：developer-tools / ai
-- **链接**：https://x.com/Replit/status/2110113354899660944
-- **tweetId**：2110113354899660944
-
----
-
-## 7. ana kate 周期与孕期跟踪 App
-
-- **作者**：@conservmillen
-- **时间**：2026-10-14 00:38 UTC
-- **视频**：约 168 秒
-- **亮点**：发布 ana kate，面向基督徒女性的周期与孕期跟踪 App。从经期到产后，提供科学基础且根植于圣经的身体与孕期洞察。构建近两年，现开放等待列表。产品发布视频。
-- **互动**：约 65 赞、6 转发、1 引用、7 回复、4 收藏、4600+浏览
-- **分类建议**：consumer
-- **链接**：https://x.com/conservmillen/status/2110168251711779183
-- **tweetId**：2110168251711779183
-
----
-
-## 8. Gojiberry AI GTM Feedback Loop
-
-- **作者**：@gojiberryai
-- **时间**：2026-10-13 19:00 UTC
-- **视频**：约 64 秒
-- **亮点**：发布 GTM feedback loop。从结果、消息、目标与跨千次活动学习，自动适配下一步行动。无需盲目跟进或猜测什么有效，用真实数据驱动更智能活动。一个活动学习，全部活动更智能。产品更新视频。
-- **互动**：约 28 赞、5 转发、4 引用、6 回复、22 收藏、3800+浏览
-- **分类建议**：ai / productivity
-- **链接**：https://x.com/gojiberryai/status/2110083256553279831
-- **tweetId**：2110083256553279831
-
----
-
-## 9. Montage Agent Skill
-
-- **作者**：@swaglord__420
-- **时间**：2026-10-13 19:50 UTC
-- **视频**：约 59 秒
-- **亮点**：Introducing montage! 一个 agent skill，用于把你与朋友的照片与视频拼接成 mp4。描述氛围并指向素材堆，agent 排序、选择动作镜头、丢弃噪声与重复，交出视频。支持 Live Photos、Google Photos 导出等。可适配节奏并导出到 CapCut 等。
-- **互动**：约 25 赞、1 回复、8 收藏、880+浏览
-- **分类建议**：ai / productivity / consumer
-- **链接**：https://x.com/swaglord__420/status/2110095975620702386
-- **tweetId**：2110095975620702386
-
----
-
-## 10. bInference 设备端私密 AI 聊天
-
-- **作者**：@getbinference
-- **时间**：2026-10-13 20:35 UTC
-- **视频**：约 36 秒
-- **亮点**：AI 聊天现仅存在你的设备上。用 passkey 加密锁定，服务器无副本。可导出为单一封闭文件，或用 QR 代码从手机迁移到笔记本。支持 250+ 模型（提供商不保留数据）。可查看每一个请求。产品发布视频。
-- **互动**：约 40 赞、11 转发、1 引用、2 回复、1 收藏、1100+浏览
-- **分类建议**：ai / consumer
-- **链接**：https://x.com/getbinference/status/2110107180150202803
-- **tweetId**：2110107180150202803
-
----
-
 ## 跟进，不单独入队
 
 - Nebius Hark Pro 现已上线（实时 AI 推理）：更像公司宣传片而非深度产品 demo。
 - MotorMind 零样本机器人操控：更偏研究论文与实验演示。
 - PBS PS5 Broadcast Stream：硬件级 payload，非主流产品发布。
+- Replit 多项目从新聊天启动、ana kate、Gojiberry、Montage、bInference 等低互动或消费类补充条目。
 
 ## 已入队，不重复
 
-前序文档中的 Claude Dashboards、Codex Composer、Pine Computer、Maritime 等。
+前序文档中的 Claude Dashboards、Codex Composer、Pine Computer、Maritime、The X Subscription、Muse Wonder 等。
 
 ## 排除
 
