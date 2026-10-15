@@ -180,4 +180,18 @@ describe("buildCatalogDraft + issue URL", () => {
       url: "https://mouad.work/",
     })).toContain("Designer%3A+Mouad");
   });
+
+  it("adds [Fast-Track] prefix and fast-track label when fastTrack is enabled", () => {
+    const submission = {
+      ...emptySubmission("video"),
+      tweetUrl: "https://x.com/linear/status/2079233260161323371",
+      product: "Linear Loops",
+      company: "Linear",
+      videoCategory: "productivity" as const,
+      fastTrack: true,
+    };
+    const url = buildGitHubIssueUrl(submission);
+    expect(url).toContain("%5BFast-Track%5D");
+    expect(url).toContain("labels=submission%2Cfast-track");
+  });
 });

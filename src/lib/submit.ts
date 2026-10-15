@@ -27,6 +27,7 @@ export interface CatalogSubmission {
   description: string;
   install: string;
   xHandle: string;
+  fastTrack?: boolean;
 }
 
 export interface SubmissionErrors {
@@ -71,6 +72,7 @@ export function emptySubmission(
     description: "",
     install: "",
     xHandle: "",
+    fastTrack: false,
   };
 }
 
@@ -329,15 +331,16 @@ export function buildCatalogDraft(submission: CatalogSubmission) {
 }
 
 export function buildIssueTitle(submission: CatalogSubmission) {
+  const prefix = submission.fastTrack ? "[Fast-Track] " : "";
   if (submission.kind === "video") {
     const product = submission.product.trim() || "Untitled product";
     const company = submission.company.trim() || "Unknown";
-    return `Launch video: ${product} (${company})`;
+    return `${prefix}Launch video: ${product} (${company})`;
   }
   const name = submission.name.trim() || "Untitled";
-  if (submission.kind === "tool") return `Tool: ${name}`;
-  if (submission.kind === "studio") return `Studio: ${name}`;
-  return `Designer: ${name}`;
+  if (submission.kind === "tool") return `${prefix}Tool: ${name}`;
+  if (submission.kind === "studio") return `${prefix}Studio: ${name}`;
+  return `${prefix}Designer: ${name}`;
 }
 
 function videoIssueBody(submission: CatalogSubmission) {
@@ -350,6 +353,12 @@ function videoIssueBody(submission: CatalogSubmission) {
   return [
     "## Launch video submission",
     "",
+    ...(submission.fastTrack
+      ? [
+          "> ⚡ **Fast-Track Review Requested via Waffo** (Priority 24h editorial review)",
+          "",
+        ]
+      : []),
     "### Source",
     "",
     `- **Tweet URL:** ${tweet?.tweetUrl ?? submission.tweetUrl.trim()}`,
@@ -455,10 +464,13 @@ export function buildIssueBody(submission: CatalogSubmission) {
 }
 
 export function buildGitHubIssueUrl(submission: CatalogSubmission) {
+  const labels = submission.fastTrack
+    ? [...SUBMIT_ISSUE_LABELS, "fast-track"]
+    : SUBMIT_ISSUE_LABELS;
   const params = new URLSearchParams({
     title: buildIssueTitle(submission),
     body: buildIssueBody(submission),
-    labels: SUBMIT_ISSUE_LABELS.join(","),
+    labels: labels.join(","),
   });
   return `https://github.com/${SUBMIT_REPO}/issues/new?${params.toString()}`;
 }
