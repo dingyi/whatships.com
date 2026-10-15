@@ -1,12 +1,372 @@
 {
-  "updatedAt": "2026-10-14T05:21:41.734Z",
+  "updatedAt": "2026-10-15T12:25:34.415Z",
   "items": [
+    {
+      "id": "disc-2110342352665473156",
+      "tweetId": "2110342352665473156",
+      "reviewStatus": "rejected",
+      "discoveredAt": "2026-10-15T11:59:42.155Z",
+      "reviewedAt": "2026-10-15T12:20:04.652Z",
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110342352665473156",
+        "tweetUrl": "https://x.com/emmanuel_2m/status/2110342352665473156",
+        "authorHandle": "emmanuel_2m",
+        "authorName": "Emm | scenario.com",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001814557698736128/CrN0Vcl1.jpg",
+        "text": "We just open-sourced an entire 3D team for Blender.\n\nIntroducing the Scenario plugin.\n\nUse it inside Blender, or let Claude Code run it through MCP.\n\n📁/scenario-plugin\n┃\n┣ 📁 Concept Artist\n┃ ┣ 📁 Concept Art From a Prompt\n┃ ┗ 📁 References From Your Viewport\n┃\n┣ 📁 3D https://t.co/VmQiww02mf",
+        "createdAt": "2026-10-14T12:09:59.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110341167745282048/vid/avc1/1920x1080/m0kAWre8eLhiSKiF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110341167745282048/img/hVJk4bJns62H7gmk.jpg",
+            "durationMs": 79375
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "emmanuel_2m",
+        "company": "Emm | scenario.com",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110342352665473156",
+        "slug": "scenario-plugin-use-it-inside-blender-473156",
+        "title": "Scenario plugin. Use it inside Blender — or let Claude",
+        "product": "Scenario plugin. Use it inside Blender",
+        "company": "Scenario plugin. Use it inside Blender",
+        "description": "Scenario plugin. Use it inside Blender is or let Claude Code run it through MCP.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/emmanuel_2m/status/2110342352665473156",
+        "tweetId": "2110342352665473156",
+        "authorName": "Emm | scenario.com",
+        "authorHandle": "emmanuel_2m",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2001814557698736128/CrN0Vcl1.jpg",
+        "poster": "/posters/scenario-plugin-use-it-inside-blender-473156.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110341167745282048/vid/avc1/1920x1080/m0kAWre8eLhiSKiF.mp4",
+        "publishedAt": "2026-10-14T12:09:59.000Z",
+        "durationSeconds": 79,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110038855047164404",
+      "tweetId": "2110038855047164404",
+      "reviewStatus": "rejected",
+      "discoveredAt": "2026-10-15T11:59:41.460Z",
+      "reviewedAt": "2026-10-15T12:20:22.868Z",
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110038855047164404",
+        "tweetUrl": "https://x.com/d0znpp/status/2110038855047164404",
+        "authorHandle": "d0znpp",
+        "authorName": "Ivan Novikov",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1199051161191342080/zVG3jFlj.jpg",
+        "text": "introducing XERJ Corpus Hub, reference memory for AI agents.\n\ngive your agent a corpus for your task. watch it become superintelligent.\n\n&gt; finds the answers in indexed expert knowledge \n&gt; applies them to your code, research, and projects \n&gt; works with any model. \n\nfree and OSS https://t.co/NT5Zo3SjlC",
+        "createdAt": "2026-10-13T16:04:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110038675488681984/vid/avc1/1920x1080/8iF2wbEC5LfP5_xa.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110038675488681984/img/3lusfljr_ZS3gs1g.jpg",
+            "durationMs": 42494
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "d0znpp",
+        "company": "Ivan Novikov",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110038855047164404",
+        "slug": "xerj-corpus-hub-164404",
+        "title": "XERJ Corpus Hub — reference memory for AI agents",
+        "product": "XERJ Corpus Hub",
+        "company": "XERJ Corpus Hub",
+        "description": "XERJ Corpus Hub is reference memory for AI agents.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/d0znpp/status/2110038855047164404",
+        "tweetId": "2110038855047164404",
+        "authorName": "Ivan Novikov",
+        "authorHandle": "d0znpp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1199051161191342080/zVG3jFlj.jpg",
+        "poster": "/posters/xerj-corpus-hub-164404.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110038675488681984/vid/avc1/1920x1080/8iF2wbEC5LfP5_xa.mp4",
+        "publishedAt": "2026-10-13T16:04:00.000Z",
+        "durationSeconds": 42,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110405269171921243",
+      "tweetId": "2110405269171921243",
+      "reviewStatus": "rejected",
+      "discoveredAt": "2026-10-15T11:59:40.151Z",
+      "reviewedAt": "2026-10-15T12:20:01.362Z",
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110405269171921243",
+        "tweetUrl": "https://x.com/keplerccccc/status/2110405269171921243",
+        "authorHandle": "keplerccccc",
+        "authorName": "Kaiyuan Eric Chen",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2074269670040113153/P6BR7zfK.jpg",
+        "text": "We gave Claude and GPT a phone video of a robot wiping. In an hour, each built a full-dynamics digital twin.\nIntroducing RoboSimStudio 🤖: an open and interactive toolkit for Agentic Robotics, enabling Fable, Astra and Argon AI agents to model sponges 🧽, cables 🧵 and cloth 👔. https://t.co/BXf5sLXq51",
+        "createdAt": "2026-10-14T16:20:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110404855122829312/vid/avc1/1280x720/0OSOLyi6Lu5jBV4R.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110404855122829312/img/t_S4-ZJpEElAJD4q.jpg",
+            "durationMs": 54033
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "keplerccccc",
+        "company": "Kaiyuan Eric Chen",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110405269171921243",
+        "slug": "robosimstudio-921243",
+        "title": "RoboSimStudio — : an open and interactive toolkit",
+        "product": "RoboSimStudio",
+        "company": "RoboSimStudio",
+        "description": "RoboSimStudio is : an open and interactive toolkit for Agentic Robotics, enabling Fable, Astra and Argon AI agents to model sponges , cables and cloth.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/keplerccccc/status/2110405269171921243",
+        "tweetId": "2110405269171921243",
+        "authorName": "Kaiyuan Eric Chen",
+        "authorHandle": "keplerccccc",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2074269670040113153/P6BR7zfK.jpg",
+        "poster": "/posters/robosimstudio-921243.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110404855122829312/vid/avc1/1280x720/0OSOLyi6Lu5jBV4R.mp4",
+        "publishedAt": "2026-10-14T16:20:00.000Z",
+        "durationSeconds": 54,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110397646145778075",
+      "tweetId": "2110397646145778075",
+      "reviewStatus": "rejected",
+      "discoveredAt": "2026-10-15T11:59:39.201Z",
+      "reviewedAt": "2026-10-15T12:22:25.880Z",
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110397646145778075",
+        "tweetUrl": "https://x.com/willruben/status/2110397646145778075",
+        "authorHandle": "willruben",
+        "authorName": "Will Ruben",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2109716167577247745/O1gakzbk.jpg",
+        "text": "Today, we’re introducing the Workmate Workforce.\n\nA team of custom, collaborative AI agents built around how your company already works.\n\nWorkmates work just like remote colleagues. They're supported by our flexible, model-agnostic AI platform and the @workmate team of https://t.co/Z11MG9l2I3",
+        "createdAt": "2026-10-14T15:49:42.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110397131601158144/vid/avc1/854x480/XibVVGu_RIU-K0Bo.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110397131601158144/img/SpeJNNfhaqsBD1J5.jpg",
+            "durationMs": 68359
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "willruben",
+        "company": "Will Ruben",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110397646145778075",
+        "slug": "workmate-workforce-a-team-of-custom-778075",
+        "title": "Workmate Workforce. A team of custom — collaborative",
+        "product": "Workmate Workforce. A team of custom",
+        "company": "Workmate Workforce. A team of custom",
+        "description": "Workmate Workforce. A team of custom is collaborative AI agents built around how your company already works.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/willruben/status/2110397646145778075",
+        "tweetId": "2110397646145778075",
+        "authorName": "Will Ruben",
+        "authorHandle": "willruben",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2109716167577247745/O1gakzbk.jpg",
+        "poster": "/posters/workmate-workforce-a-team-of-custom-778075.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110397131601158144/vid/avc1/854x480/XibVVGu_RIU-K0Bo.mp4",
+        "publishedAt": "2026-10-14T15:49:42.000Z",
+        "durationSeconds": 68,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110437830468210804",
+      "tweetId": "2110437830468210804",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-15T11:59:38.878Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110437830468210804",
+        "tweetUrl": "https://x.com/anandPa94/status/2110437830468210804",
+        "authorHandle": "anandPa94",
+        "authorName": "Anand Paj",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1855770768312762368/Kz_RJd5l.jpg",
+        "text": "We just solved attribution for AI Agents. \nIntroducing Journeys.\n\nAI agents are visiting your product. Now you can see what they’re trying to do, what converts, and what’s making them churn.\n\nWith Journeys, you can:\n- See the moment AI agents visit your product\n- Follow the paths https://t.co/PKmalJeEbD",
+        "createdAt": "2026-10-14T18:29:23.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110434672434200576/vid/avc1/3840x2160/kZz0OMwwf_qHNMYA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110434672434200576/img/GmVoZB6yoDLTrefm.jpg",
+            "durationMs": 56033
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "anandPa94",
+        "company": "Anand Paj",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110437830468210804",
+        "slug": "anand-paj-210804",
+        "title": "We just solved attribution for AI Agents",
+        "product": "Anand Paj",
+        "company": "Anand Paj",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/anandPa94/status/2110437830468210804",
+        "tweetId": "2110437830468210804",
+        "authorName": "Anand Paj",
+        "authorHandle": "anandPa94",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1855770768312762368/Kz_RJd5l.jpg",
+        "poster": "/posters/anand-paj-210804.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110434672434200576/vid/avc1/3840x2160/kZz0OMwwf_qHNMYA.mp4",
+        "publishedAt": "2026-10-14T18:29:23.000Z",
+        "durationSeconds": 56,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110360787780800611",
+      "tweetId": "2110360787780800611",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-15T11:59:38.208Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110360787780800611",
+        "tweetUrl": "https://x.com/MireloAI/status/2110360787780800611",
+        "authorHandle": "MireloAI",
+        "authorName": "Mirelo",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2056684878804987904/SKxWDUAT.jpg",
+        "text": "AI Videos finally sound real.\n\nIntroducing Mirelo SFX 2.0.\n\nIt watches your video, cuts the music you never prompted, keeps the dialogue, and builds a full sound design synced to the action and consistent across any length clips.\n\nYou’ve made it look right. We’ll make it sound https://t.co/tJbrwanjMz",
+        "createdAt": "2026-10-14T13:23:15.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110360533803130880/vid/avc1/1920x1080/_DLwKSObAdxQxi2h.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110360533803130880/img/5zr539rN6-iuzBZ8.jpg",
+            "durationMs": 73208
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "MireloAI",
+        "company": "Mirelo",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110360787780800611",
+        "slug": "mirelo-sfx-20-it-watches-your-video-800611",
+        "title": "Mirelo SFX 2.0. It watches your video",
+        "product": "Mirelo SFX 2.0. It watches your video",
+        "company": "Mirelo SFX 2.0. It watches your video",
+        "description": "Mirelo SFX 2.0. It watches your video is cuts the music you never prompted, keeps the dialogue, and builds a full sound design synced to the action and consistent across any length clips.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/MireloAI/status/2110360787780800611",
+        "tweetId": "2110360787780800611",
+        "authorName": "Mirelo",
+        "authorHandle": "MireloAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2056684878804987904/SKxWDUAT.jpg",
+        "poster": "/posters/mirelo-sfx-20-it-watches-your-video-800611.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110360533803130880/vid/avc1/1920x1080/_DLwKSObAdxQxi2h.mp4",
+        "publishedAt": "2026-10-14T13:23:15.000Z",
+        "durationSeconds": 73,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2110107180150202803",
       "tweetId": "2110107180150202803",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-14T04:38:35.161Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-15T12:20:18.648Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -55,66 +415,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2110106622164910080/vid/avc1/1920x1080/Hg--r6vfYFDIR8JB.mp4",
         "publishedAt": "2026-10-13T20:35:30.000Z",
         "durationSeconds": 36,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2110083256553279831",
-      "tweetId": "2110083256553279831",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-14T04:38:34.545Z",
-      "reviewedAt": null,
-      "score": 38,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2110083256553279831",
-        "tweetUrl": "https://x.com/gojiberryai/status/2110083256553279831",
-        "authorHandle": "gojiberryai",
-        "authorName": "Gojiberry AI",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073007039291281409/7PE18Ytl.jpg",
-        "text": "Today, we're introducing the GTM feedback loop.\n\nIt learns from your results, messages, targeting, and what works across thousands of campaigns. \n\nThen it automatically adapts your next move.\n\nNo more blind follow-ups.\nNo more guessing what works.\nJust smarter campaigns powered https://t.co/8RYMh7Sm3H",
-        "createdAt": "2026-10-13T19:00:26.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2110082423417368576/vid/avc1/1920x1080/P5fNUVQS2TGjdg9Z.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110082423417368576/img/1MhMmtbVCr7JLxFa.jpg",
-            "durationMs": 64199
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "gojiberryai",
-        "company": "Gojiberry AI",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2110083256553279831",
-        "slug": "gojiberry-ai-279831",
-        "title": "Today, we're introducing the GTM feedback loop",
-        "product": "Gojiberry AI",
-        "company": "Gojiberry AI",
-        "description": "",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/gojiberryai/status/2110083256553279831",
-        "tweetId": "2110083256553279831",
-        "authorName": "Gojiberry AI",
-        "authorHandle": "gojiberryai",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2073007039291281409/7PE18Ytl.jpg",
-        "poster": "/posters/gojiberry-ai-279831.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2110082423417368576/vid/avc1/1920x1080/P5fNUVQS2TGjdg9Z.mp4",
-        "publishedAt": "2026-10-13T19:00:26.000Z",
-        "durationSeconds": 64,
         "featured": false,
         "status": "draft"
       },
@@ -733,66 +1033,6 @@
       "issueUrl": null
     },
     {
-      "id": "disc-2109707495820464356",
-      "tweetId": "2109707495820464356",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-13T18:53:48.719Z",
-      "reviewedAt": null,
-      "score": 42,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b"
-      ],
-      "post": {
-        "tweetId": "2109707495820464356",
-        "tweetUrl": "https://x.com/gkoberger/status/2109707495820464356",
-        "authorHandle": "gkoberger",
-        "authorName": "Gregory Koberger",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/855488676343668736/lSQSlvk3.jpg",
-        "text": "Your API is now your product, and it needs to move as fast as you do.\n\nIntroducing Restless.\n\nEvery call, support question, pull request, and error message leaves your API better for the next agent. https://t.co/7ULqCgRtku",
-        "createdAt": "2026-10-12T18:07:18.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2109707281252368384/vid/avc1/1440x1080/XWBHgyRHAJcHOccG.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2109707281252368384/img/cjL_F3RXGsKBFaKX.jpg",
-            "durationMs": 75040
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "gkoberger",
-        "company": "Gregory Koberger",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2109707495820464356",
-        "slug": "restless-every-call-464356",
-        "title": "Restless. Every call — support question, pull request",
-        "product": "Restless. Every call",
-        "company": "Restless. Every call",
-        "description": "Restless. Every call is support question, pull request, and error message leaves your API better for the next agent.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/gkoberger/status/2109707495820464356",
-        "tweetId": "2109707495820464356",
-        "authorName": "Gregory Koberger",
-        "authorHandle": "gkoberger",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/855488676343668736/lSQSlvk3.jpg",
-        "poster": "/posters/restless-every-call-464356.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2109707281252368384/vid/avc1/1440x1080/XWBHgyRHAJcHOccG.mp4",
-        "publishedAt": "2026-10-12T18:07:18.000Z",
-        "durationSeconds": 75,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
       "id": "disc-2109783335296008414",
       "tweetId": "2109783335296008414",
       "reviewStatus": "rejected",
@@ -1027,67 +1267,6 @@
         "videoUrl": "https://video.twimg.com/amplify_video/2108754573192024064/vid/avc1/1528x1080/jmf249aRS47ZTr97.mp4",
         "publishedAt": "2026-10-10T03:01:18.000Z",
         "durationSeconds": 109,
-        "featured": false,
-        "status": "draft"
-      },
-      "notes": "",
-      "issueUrl": null
-    },
-    {
-      "id": "disc-2109188868067213785",
-      "tweetId": "2109188868067213785",
-      "reviewStatus": "pending",
-      "discoveredAt": "2026-10-12T07:04:14.559Z",
-      "reviewedAt": null,
-      "score": 60,
-      "reasons": [
-        "has-video",
-        "signal:\\bintroduc(?:e|ing)\\b",
-        "signal:\\bnow (?:live|available|shipping)\\b"
-      ],
-      "post": {
-        "tweetId": "2109188868067213785",
-        "tweetUrl": "https://x.com/slopwithfrens/status/2109188868067213785",
-        "authorHandle": "slopwithfrens",
-        "authorName": "SLOP WITH FRENS",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2108058246053335040/qrLU-DbN.jpg",
-        "text": "introducing SLOP WITH FRIENDS, a multiplayer app that turns your bad ideas into code.\n\nnow available for everyone.\n\nhttps://t.co/28fmCMwVE5 https://t.co/IJqIVL7Yfp",
-        "createdAt": "2026-10-11T07:46:27.000Z",
-        "media": [
-          {
-            "type": "video",
-            "videoUrl": "https://video.twimg.com/amplify_video/2109187557166546944/vid/avc1/1280x720/Ygc6-uT4opny1dpc.mp4",
-            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2109187557166546944/img/GH29dggAQf82ckBg.jpg",
-            "durationMs": 75600
-          }
-        ]
-      },
-      "watchlist": {
-        "handle": "slopwithfrens",
-        "company": "SLOP WITH FRENS",
-        "category": "other",
-        "tags": []
-      },
-      "draft": {
-        "id": "plv-disc-2109188868067213785",
-        "slug": "slop-with-friends-213785",
-        "title": "SLOP WITH FRIENDS — a multiplayer app",
-        "product": "SLOP WITH FRIENDS",
-        "company": "SLOP WITH FRIENDS",
-        "description": "SLOP WITH FRIENDS is a multiplayer app.",
-        "category": "other",
-        "tags": [
-          "auto-discovery"
-        ],
-        "tweetUrl": "https://x.com/slopwithfrens/status/2109188868067213785",
-        "tweetId": "2109188868067213785",
-        "authorName": "SLOP WITH FRENS",
-        "authorHandle": "slopwithfrens",
-        "authorAvatar": "https://pbs.twimg.com/profile_images/2108058246053335040/qrLU-DbN.jpg",
-        "poster": "/posters/slop-with-friends-213785.webp",
-        "videoUrl": "https://video.twimg.com/amplify_video/2109187557166546944/vid/avc1/1280x720/Ygc6-uT4opny1dpc.mp4",
-        "publishedAt": "2026-10-11T07:46:27.000Z",
-        "durationSeconds": 76,
         "featured": false,
         "status": "draft"
       },
@@ -3335,9 +3514,9 @@
     {
       "id": "disc-2107904801812144559",
       "tweetId": "2107904801812144559",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-08T06:13:03.344Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-15T12:21:22.352Z",
       "score": 38,
       "reasons": [
         "has-video",
@@ -3518,9 +3697,9 @@
     {
       "id": "disc-2107898953379500223",
       "tweetId": "2107898953379500223",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-08T06:13:01.655Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-15T12:21:57.301Z",
       "score": 42,
       "reasons": [
         "has-video",
@@ -5872,9 +6051,9 @@
     {
       "id": "disc-2106445557535220101",
       "tweetId": "2106445557535220101",
-      "reviewStatus": "pending",
+      "reviewStatus": "rejected",
       "discoveredAt": "2026-10-05T03:24:39.601Z",
-      "reviewedAt": null,
+      "reviewedAt": "2026-10-15T12:21:31.603Z",
       "score": 24,
       "reasons": [
         "has-video"
