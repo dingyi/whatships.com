@@ -67414,5 +67414,57 @@
     "status": "published",
     "views": 262542,
     "viewsCapturedAt": "2026-10-15T12:30:44.828Z"
+  },
+  {
+    "id": "plv-ramp-glass",
+    "slug": "ramp-glass",
+    "title": "Ramp Glass — an AI workspace for the company",
+    "product": "Glass",
+    "company": "Ramp",
+    "description": "An AI workspace that keeps a company's knowledge and reusable skills, lets a teammate join a session, and shows what each project costs. Early access is open.",
+    "category": "ai",
+    "tags": [
+      "knowledge",
+      "workspace"
+    ],
+    "tweetUrl": "https://x.com/tryramp/status/2110007780589613121",
+    "tweetId": "2110007780589613121",
+    "authorName": "Ramp",
+    "authorHandle": "tryramp",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1874912926496169984/YxMH3TkP.jpg",
+    "poster": "/posters/ramp-glass.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2110006054516035585/vid/avc1/1920x1080/IJMY-EcCyFMkdDUV.mp4",
+    "publishedAt": "2026-10-13T14:00:31.000Z",
+    "durationSeconds": 108,
+    "featured": false,
+    "status": "published",
+    "views": 207669,
+    "viewsCapturedAt": "2026-10-15T13:33:04.793Z"
+  },
+  {
+    "id": "plv-cmf-speaker-sm",
+    "slug": "cmf-speaker-sm",
+    "title": "CMF Speaker S&M — pack your sound",
+    "product": "Speaker S&M",
+    "company": "CMF by Nothing",
+    "description": "CMF's first portable speakers, a smaller S and a larger M. Two matching units pair in stereo, and Party Mode plays across more speakers.",
+    "category": "hardware",
+    "tags": [
+      "audio",
+      "speakers"
+    ],
+    "tweetUrl": "https://x.com/cmfbynothing/status/2109630165756395668",
+    "tweetId": "2109630165756395668",
+    "authorName": "CMF by Nothing",
+    "authorHandle": "cmfbynothing",
+    "authorAvatar": "https://pbs.twimg.com/profile_images/1809267552389902336/yEm_aue9.jpg",
+    "poster": "/posters/cmf-speaker-sm.webp",
+    "videoUrl": "https://video.twimg.com/amplify_video/2109525162899148800/vid/avc1/3840x2160/8HccLGHJGLt_Ibys.mp4",
+    "publishedAt": "2026-10-12T13:00:01.000Z",
+    "durationSeconds": 32,
+    "featured": false,
+    "status": "published",
+    "views": 175607,
+    "viewsCapturedAt": "2026-10-15T13:33:04.793Z"
   }
 ]
