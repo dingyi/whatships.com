@@ -1,6 +1,612 @@
 {
-  "updatedAt": "2026-10-15T12:25:34.415Z",
+  "updatedAt": "2026-10-16T00:06:31.844Z",
   "items": [
+    {
+      "id": "disc-2110498941892723075",
+      "tweetId": "2110498941892723075",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:31.844Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110498941892723075",
+        "tweetUrl": "https://x.com/AIsaOneHQ/status/2110498941892723075",
+        "authorHandle": "AIsaOneHQ",
+        "authorName": "AIsa",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084947704275435520/d81UqHYN.jpg",
+        "text": "Introducing Grok Bot for AI SEO\n\nYour agent can now:\n\n&gt; ask ChatGPT, Claude, Gemini and Perplexity what your buyers ask\n&gt; check Google's AI Overviews and AI Mode too\n&gt; see which brands they recommend first, and why https://t.co/uFHGttfKk9",
+        "createdAt": "2026-10-14T22:32:13.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110492992825896960/vid/avc1/3840x2160/mamAULRQCVm-UcOw.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110492992825896960/img/cXFgnWx0oX8eWU7R.jpg",
+            "durationMs": 27410
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "AIsaOneHQ",
+        "company": "AIsa",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110498941892723075",
+        "slug": "grok-bot-for-ai-seo-your-agent-can-now-723075",
+        "title": "Introducing Grok Bot for AI SEO",
+        "product": "Grok Bot for AI SEO Your agent can now",
+        "company": "Grok Bot for AI SEO Your agent can now",
+        "description": "Grok Bot for AI SEO Your agent can now is &gt; ask ChatGPT, Claude, Gemini and Perplexity what your buyers ask &gt; check Google's AI Overviews and AI Mode too &gt; see.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/AIsaOneHQ/status/2110498941892723075",
+        "tweetId": "2110498941892723075",
+        "authorName": "AIsa",
+        "authorHandle": "AIsaOneHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2084947704275435520/d81UqHYN.jpg",
+        "poster": "/posters/grok-bot-for-ai-seo-your-agent-can-now-723075.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110492992825896960/vid/avc1/3840x2160/mamAULRQCVm-UcOw.mp4",
+        "publishedAt": "2026-10-14T22:32:13.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110510647989403899",
+      "tweetId": "2110510647989403899",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:31.537Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110510647989403899",
+        "tweetUrl": "https://x.com/Andrey__HQ/status/2110510647989403899",
+        "authorHandle": "Andrey__HQ",
+        "authorName": "Andrey",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2023432753182826497/LVfuFePn.jpg",
+        "text": "Introducing: X on AgentWeb\n\nYou can now let ANY agent see everything that's happening on X, not just Grok Bot\n\nSimply ask your agent to sign up on https://t.co/PPed8nqup5\n\nAvailable to everyone https://t.co/4Y8RnbV8Rs",
+        "createdAt": "2026-10-14T23:18:44.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110509926393016320/vid/avc1/1920x1080/muPRh7ZTLLD3Zsld.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110509926393016320/img/awDS8XMnBPdgSwGM.jpg",
+            "durationMs": 39016
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "Andrey__HQ",
+        "company": "Andrey",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110510647989403899",
+        "slug": "andrey-403899",
+        "title": "Introducing: X on AgentWeb",
+        "product": "Andrey",
+        "company": "Andrey",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/Andrey__HQ/status/2110510647989403899",
+        "tweetId": "2110510647989403899",
+        "authorName": "Andrey",
+        "authorHandle": "Andrey__HQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2023432753182826497/LVfuFePn.jpg",
+        "poster": "/posters/andrey-403899.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110509926393016320/vid/avc1/1920x1080/muPRh7ZTLLD3Zsld.mp4",
+        "publishedAt": "2026-10-14T23:18:44.000Z",
+        "durationSeconds": 39,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110379851412840654",
+      "tweetId": "2110379851412840654",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:31.228Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110379851412840654",
+        "tweetUrl": "https://x.com/OpacityHQ/status/2110379851412840654",
+        "authorHandle": "OpacityHQ",
+        "authorName": "Zoah (formerly Opacity)",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094904171841593344/vWBYIf8K.jpg",
+        "text": "Introducing Zoah MCP: your agent, now on the design canvas.\n\nWhatever agent you use can now work across your whole Zoah project. Every edit lands on a branch you review before it merges. https://t.co/K68hLL9XhS",
+        "createdAt": "2026-10-14T14:39:00.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110319457696665600/vid/avc1/1920x1080/VyAE5C9D9EdhSzTk.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110319457696665600/img/ktDn-qN092jWjofB.jpg",
+            "durationMs": 137625
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpacityHQ",
+        "company": "Zoah (formerly Opacity)",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110379851412840654",
+        "slug": "zoah-mcp-840654",
+        "title": "Zoah MCP — your agent, now on the design canvas",
+        "product": "Zoah MCP",
+        "company": "Zoah MCP",
+        "description": "Zoah MCP is your agent, now on the design canvas.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpacityHQ/status/2110379851412840654",
+        "tweetId": "2110379851412840654",
+        "authorName": "Zoah (formerly Opacity)",
+        "authorHandle": "OpacityHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2094904171841593344/vWBYIf8K.jpg",
+        "poster": "/posters/zoah-mcp-840654.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110319457696665600/vid/avc1/1920x1080/VyAE5C9D9EdhSzTk.mp4",
+        "publishedAt": "2026-10-14T14:39:00.000Z",
+        "durationSeconds": 138,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110637576935891122",
+      "tweetId": "2110637576935891122",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:30.887Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110637576935891122",
+        "tweetUrl": "https://x.com/shipper_now/status/2110637576935891122",
+        "authorHandle": "shipper_now",
+        "authorName": "Shipper",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
+        "text": "Introducing epstein.md 👋\n\nA 927,400+ Character .MD File that's specifically trained to skip every vibe coded AI Slop design principle.\n\n- no box shadows\n- no emojis\n- no  '🟢 LIVE ' badges\n- 0 blue/purple gradients\n\n&amp; religiously ignores 350 most common AI words (delve, vibe, https://t.co/xVjrYENlrw",
+        "createdAt": "2026-10-15T07:43:06.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110637539019329536/vid/avc1/1920x1080/hHj1aSHwA-kHCfHW.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110637539019329536/img/-EW8kqpqqHN-NCAS.jpg",
+            "durationMs": 26583
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "shipper_now",
+        "company": "Shipper",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110637576935891122",
+        "slug": "epsteinmd-891122",
+        "title": "Introducing epstein.md 👋",
+        "product": "epstein.md",
+        "company": "epstein.md",
+        "description": "epstein.md is a 927,400+ Character .MD File.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/shipper_now/status/2110637576935891122",
+        "tweetId": "2110637576935891122",
+        "authorName": "Shipper",
+        "authorHandle": "shipper_now",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2085872856664080384/FjAv76gQ.jpg",
+        "poster": "/posters/epsteinmd-891122.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110637539019329536/vid/avc1/1920x1080/hHj1aSHwA-kHCfHW.mp4?tag=16",
+        "publishedAt": "2026-10-15T07:43:06.000Z",
+        "durationSeconds": 27,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110432986466545932",
+      "tweetId": "2110432986466545932",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:30.533Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bjust shipped\\b"
+      ],
+      "post": {
+        "tweetId": "2110432986466545932",
+        "tweetUrl": "https://x.com/alexkehr/status/2110432986466545932",
+        "authorHandle": "alexkehr",
+        "authorName": "Alex Kehr",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2047254543667216384/2WW1ELF3.jpg",
+        "text": "just shipped Motion Capture to Taste 👅\n\nsee a beautiful interaction in an app and wish you could recreate it?\n\nplug your iPhone into the Taste Mac app, record any interaction you love, and get a breakdown of how it works and a prompt to recreate it with AI.\n\nyou can even https://t.co/55DNLG6MFh",
+        "createdAt": "2026-10-14T18:10:08.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110432714700787712/vid/avc1/1920x1080/e8XckmF1xLRUMbHC.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110432714700787712/img/y3Tq0I84wyrQjD-a.jpg",
+            "durationMs": 36011
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "alexkehr",
+        "company": "Alex Kehr",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110432986466545932",
+        "slug": "alex-kehr-545932",
+        "title": "just shipped Motion Capture to Taste 👅",
+        "product": "Alex Kehr",
+        "company": "Alex Kehr",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/alexkehr/status/2110432986466545932",
+        "tweetId": "2110432986466545932",
+        "authorName": "Alex Kehr",
+        "authorHandle": "alexkehr",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2047254543667216384/2WW1ELF3.jpg",
+        "poster": "/posters/alex-kehr-545932.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110432714700787712/vid/avc1/1920x1080/e8XckmF1xLRUMbHC.mp4",
+        "publishedAt": "2026-10-14T18:10:08.000Z",
+        "durationSeconds": 36,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110500262628806787",
+      "tweetId": "2110500262628806787",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:30.226Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2110500262628806787",
+        "tweetUrl": "https://x.com/ArtificialAnlys/status/2110500262628806787",
+        "authorHandle": "ArtificialAnlys",
+        "authorName": "Artificial Analysis",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07.jpg",
+        "text": "Welcome to the era of embodied AI.\n\nWe are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a https://t.co/fCwpnDlvB2",
+        "createdAt": "2026-10-14T22:37:28.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110499701737013248/vid/avc1/1080x1080/vhcl-RQs-2xFKkaq.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110499701737013248/img/vHKr2FFwFHnn-Xyt.jpg",
+            "durationMs": 44309
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ArtificialAnlys",
+        "company": "Artificial Analysis",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110500262628806787",
+        "slug": "artificial-analysis-806787",
+        "title": "Welcome to the era of embodied AI",
+        "product": "Artificial Analysis",
+        "company": "Artificial Analysis",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ArtificialAnlys/status/2110500262628806787",
+        "tweetId": "2110500262628806787",
+        "authorName": "Artificial Analysis",
+        "authorHandle": "ArtificialAnlys",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07.jpg",
+        "poster": "/posters/artificial-analysis-806787.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110499701737013248/vid/avc1/1080x1080/vhcl-RQs-2xFKkaq.mp4",
+        "publishedAt": "2026-10-14T22:37:28.000Z",
+        "durationSeconds": 44,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110515064126259687",
+      "tweetId": "2110515064126259687",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:29.919Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110515064126259687",
+        "tweetUrl": "https://x.com/jackson_felty/status/2110515064126259687",
+        "authorHandle": "jackson_felty",
+        "authorName": "jaxn",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978180171275636736/7y_WJv4r.jpg",
+        "text": "introducing torii: your agents, your subscriptions, your machine.\n\ngrok bot and dots are built on the same idea: with today's frontier models, you can hand work to an agent manager instead of babysitting each agent yourself.\n\nbut they all want you locked into their ecosystem. so https://t.co/R2gl6LofcO",
+        "createdAt": "2026-10-14T23:36:17.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110514141421256704/vid/avc1/1920x1080/mXCvqpwLDPrmPZzu.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110514141421256704/img/S9UXzRYoVEeq6ijS.jpg",
+            "durationMs": 50500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "jackson_felty",
+        "company": "jaxn",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110515064126259687",
+        "slug": "torii-259687",
+        "title": "torii — your agents, your subscriptions, your machine",
+        "product": "torii",
+        "company": "torii",
+        "description": "torii is your agents, your subscriptions, your machine.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/jackson_felty/status/2110515064126259687",
+        "tweetId": "2110515064126259687",
+        "authorName": "jaxn",
+        "authorHandle": "jackson_felty",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1978180171275636736/7y_WJv4r.jpg",
+        "poster": "/posters/torii-259687.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110514141421256704/vid/avc1/1920x1080/mXCvqpwLDPrmPZzu.mp4",
+        "publishedAt": "2026-10-14T23:36:17.000Z",
+        "durationSeconds": 51,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110466271880028192",
+      "tweetId": "2110466271880028192",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:29.615Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2110466271880028192",
+        "tweetUrl": "https://x.com/sidbing/status/2110466271880028192",
+        "authorHandle": "sidbing",
+        "authorName": "sidbing 🪽",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044658266781937664/62z9u6jw.jpg",
+        "text": "connectors for hermes agent!\n\n- launching today w/ 50+ connectors.\n- available to everyone (no account needed!)\n- link your nous portal account to auto-sync all connectors and settings.\n- connect and alias multiple accounts.\n- limit a connector based on read/write/destructive https://t.co/a1KLKCsvZ9",
+        "createdAt": "2026-10-14T20:22:24.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110461043067797504/vid/avc1/1920x1080/W7U-mxRZloaYJxsE.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110461043067797504/img/b4tLtKqqiX8J08WS.jpg",
+            "durationMs": 68400
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "sidbing",
+        "company": "sidbing 🪽",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110466271880028192",
+        "slug": "sidbing-028192",
+        "title": "connectors for hermes agent!",
+        "product": "sidbing 🪽",
+        "company": "sidbing 🪽",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/sidbing/status/2110466271880028192",
+        "tweetId": "2110466271880028192",
+        "authorName": "sidbing 🪽",
+        "authorHandle": "sidbing",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2044658266781937664/62z9u6jw.jpg",
+        "poster": "/posters/sidbing-028192.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110461043067797504/vid/avc1/1920x1080/W7U-mxRZloaYJxsE.mp4",
+        "publishedAt": "2026-10-14T20:22:24.000Z",
+        "durationSeconds": 68,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110656515996832231",
+      "tweetId": "2110656515996832231",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:29.290Z",
+      "reviewedAt": null,
+      "score": 74,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\brebuilt\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2110656515996832231",
+        "tweetUrl": "https://x.com/davidhaz/status/2110656515996832231",
+        "authorHandle": "davidhaz",
+        "authorName": "David Haz",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A.jpg",
+        "text": "Introducing React Bits 2.0\n\nThe library you know, rebuilt. Components now look sharper, move smoother and start from presets, and our design tools were fully rebuilt from scratch.\n\n216 animated React components, free and open source as always.\n\nhttps://t.co/jUcC0mRz8J https://t.co/Qkz18tlIEO",
+        "createdAt": "2026-10-15T08:58:22.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110654994445647872/vid/avc1/3840x2160/BJRBW2KHluVq9TDF.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110654994445647872/img/NeZqi9TM5v4GwHdQ.jpg",
+            "durationMs": 37766
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "davidhaz",
+        "company": "David Haz",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110656515996832231",
+        "slug": "react-bits-20-the-library-you-know-832231",
+        "title": "Introducing React Bits 2.0",
+        "product": "React Bits 2.0 The library you know",
+        "company": "React Bits 2.0 The library you know",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/davidhaz/status/2110656515996832231",
+        "tweetId": "2110656515996832231",
+        "authorName": "David Haz",
+        "authorHandle": "davidhaz",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A.jpg",
+        "poster": "/posters/react-bits-20-the-library-you-know-832231.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110654994445647872/vid/avc1/3840x2160/BJRBW2KHluVq9TDF.mp4",
+        "publishedAt": "2026-10-15T08:58:22.000Z",
+        "durationSeconds": 38,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110618179982749940",
+      "tweetId": "2110618179982749940",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-16T00:06:28.970Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110618179982749940",
+        "tweetUrl": "https://x.com/figma/status/2110618179982749940",
+        "authorHandle": "figma",
+        "authorName": "Figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "text": "Today at Config India, we announced new ways of building in Figma\n\n→ Collab with code on the canvas with Code Layers (open beta) \n→ Shape and share context with Specs (open beta) \n→ Give your agent more design system context with Guidelines (open beta) and Code Sources (closed https://t.co/etHAz3dBEV",
+        "createdAt": "2026-10-15T06:26:02.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110617950222979073/vid/avc1/3840x2160/D-jaNq42TguHPOgx.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110617950222979073/img/SPi3-2DxBI9oBkU5.jpg",
+            "durationMs": 50000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "figma",
+        "company": "Figma",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2110618179982749940",
+        "slug": "figma-749940",
+        "title": "Today at Config India",
+        "product": "Figma",
+        "company": "Figma",
+        "description": "",
+        "category": "design",
+        "tags": [
+          "design",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/figma/status/2110618179982749940",
+        "tweetId": "2110618179982749940",
+        "authorName": "Figma",
+        "authorHandle": "figma",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq__.jpg",
+        "poster": "/posters/figma-749940.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110617950222979073/vid/avc1/3840x2160/D-jaNq42TguHPOgx.mp4",
+        "publishedAt": "2026-10-15T06:26:02.000Z",
+        "durationSeconds": 50,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
     {
       "id": "disc-2110342352665473156",
       "tweetId": "2110342352665473156",
