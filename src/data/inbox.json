@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:25:34.415Z",
+  "updatedAt": "2026-10-16T00:06:31.844Z",
   "items": [
     {
       "id": "disc-2110342352665473156",
@@ -30896,6 +30896,803 @@
         "status": "draft"
       },
       "notes": "Rejected: SHIPPING MONDAY v65 / allthemapis not publishing.",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110857277494169647",
+      "tweetId": "2110857277494169647",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.503Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110857277494169647",
+        "tweetUrl": "https://x.com/supabase/status/2110857277494169647",
+        "authorHandle": "supabase",
+        "authorName": "Supabase",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ.jpg",
+        "text": "People have been asking to run Supabase locally without Docker for a while. You can do that now. 🐳\n\nPlus, every coding agent gets its own local project, so one can reset its database while another is mid test run.\n\nhttps://t.co/RZCPtRNfGv https://t.co/bc2WbKRw28",
+        "createdAt": "2026-10-15T22:16:07.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/ext_tw_video/2110857143616192512/pu/vid/avc1/1280x720/MzlTwOoc8hPZz1bI.mp4?tag=12",
+            "previewImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2110857143616192512/pu/img/8x59ejez6bjXFXkW.jpg",
+            "durationMs": 89708
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "supabase",
+        "company": "Supabase",
+        "category": "developer-tools",
+        "tags": [
+          "backend",
+          "database"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2110857277494169647",
+        "slug": "supabase-169647",
+        "title": "Supabase — launch video",
+        "product": "Supabase",
+        "company": "Supabase",
+        "description": "",
+        "category": "developer-tools",
+        "tags": [
+          "backend",
+          "database",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/supabase/status/2110857277494169647",
+        "tweetId": "2110857277494169647",
+        "authorName": "Supabase",
+        "authorHandle": "supabase",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ.jpg",
+        "poster": "/posters/supabase-169647.webp",
+        "videoUrl": "https://video.twimg.com/ext_tw_video/2110857143616192512/pu/vid/avc1/1280x720/MzlTwOoc8hPZz1bI.mp4?tag=12",
+        "publishedAt": "2026-10-15T22:16:07.000Z",
+        "durationSeconds": 90,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2111050345384452508",
+      "tweetId": "2111050345384452508",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.451Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2111050345384452508",
+        "tweetUrl": "https://x.com/jasonzhou1993/status/2111050345384452508",
+        "authorHandle": "jasonzhou1993",
+        "authorName": "Jason Zhou",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1613651966663749632/AuQiWkVc.jpg",
+        "text": "Introducing OpenSource Free WebAccess\n\n- 100% FREE Web search &amp; fetch @Tiny_Fish \n- Any web page &amp; data, agent can access\n- Routing each request to the vendor best at that task\n- Benchmark on cost/speed/token-efficiency\n\nTry it at https://t.co/Byw2cCljgM\n\nRepo link below 👇 https://t.co/EJaGi3p5nH",
+        "createdAt": "2026-10-16T11:03:18.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2111047497967902720/vid/avc1/1920x1080/t57OvGdUsyTFTBGr.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2111047497967902720/img/1S-fc3hzQF0Cv6F_.jpg",
+            "durationMs": 37800
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "jasonzhou1993",
+        "company": "Jason Zhou",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2111050345384452508",
+        "slug": "opensource-free-webaccess-452508",
+        "title": "Introducing OpenSource Free WebAccess",
+        "product": "OpenSource Free WebAccess",
+        "company": "OpenSource Free WebAccess",
+        "description": "OpenSource Free WebAccess is 100% FREE Web search &amp; fetch , Any web page &amp; data, agent can access, Routing each request to the vendor best.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/jasonzhou1993/status/2111050345384452508",
+        "tweetId": "2111050345384452508",
+        "authorName": "Jason Zhou",
+        "authorHandle": "jasonzhou1993",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1613651966663749632/AuQiWkVc.jpg",
+        "poster": "/posters/opensource-free-webaccess-452508.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2111047497967902720/vid/avc1/1920x1080/t57OvGdUsyTFTBGr.mp4",
+        "publishedAt": "2026-10-16T11:03:18.000Z",
+        "durationSeconds": 38,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2111023212129829086",
+      "tweetId": "2111023212129829086",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.394Z",
+      "reviewedAt": null,
+      "score": 78,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b",
+        "signal:\\bopen[- ]source\\b"
+      ],
+      "post": {
+        "tweetId": "2111023212129829086",
+        "tweetUrl": "https://x.com/OpenDesignHQ/status/2111023212129829086",
+        "authorHandle": "OpenDesignHQ",
+        "authorName": "OpenDesign",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu.jpg",
+        "text": "Introducing OpenDesign Motion.\nThe open-source alternative to Claude Motion.\n\nCreate beautiful motion videos with any agent, any model. No Opus 5.5 required.\n\nThis entire launch video was made in OpenDesign.\nMore demos below ↓ https://t.co/PoW66AX17U",
+        "createdAt": "2026-10-16T09:15:29.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110996800614301696/vid/avc1/1920x1080/0kmoZ9QvN0vl4BnA.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110996800614301696/img/X0cUllAy6pZXBPSE.jpg",
+            "durationMs": 37300
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenDesignHQ",
+        "company": "OpenDesign",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2111023212129829086",
+        "slug": "opendesign-829086",
+        "title": "Introducing OpenDesign Motion",
+        "product": "OpenDesign",
+        "company": "OpenDesign",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpenDesignHQ/status/2111023212129829086",
+        "tweetId": "2111023212129829086",
+        "authorName": "OpenDesign",
+        "authorHandle": "OpenDesignHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu.jpg",
+        "poster": "/posters/opendesign-829086.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110996800614301696/vid/avc1/1920x1080/0kmoZ9QvN0vl4BnA.mp4",
+        "publishedAt": "2026-10-16T09:15:29.000Z",
+        "durationSeconds": 37,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110789854242218066",
+      "tweetId": "2110789854242218066",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.350Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110789854242218066",
+        "tweetUrl": "https://x.com/PhotonHQ/status/2110789854242218066",
+        "authorHandle": "PhotonHQ",
+        "authorName": "Photon",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097119413908705280/b_V0NXfh.jpg",
+        "text": "We are giving $100 to everyone building messaging agents.\n\nIntroducing Photon 2.0: bring your agent to iMessage, voice, email, WhatsApp, Telegram, and SMS in one click.\n\nClaim your credits → https://t.co/EFwmHIqytY https://t.co/brxu8jisik",
+        "createdAt": "2026-10-15T17:48:12.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110783324927234048/vid/avc1/1920x1080/xcnVfQljafKrLAZ7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110783324927234048/img/8ay16Ls95nZx8BPm.jpg",
+            "durationMs": 21833
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "PhotonHQ",
+        "company": "Photon",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110789854242218066",
+        "slug": "photon-20-218066",
+        "title": "Photon 2.0 — bring your agent to iMessage, voice, email",
+        "product": "Photon 2.0",
+        "company": "Photon 2.0",
+        "description": "Photon 2.0 is bring your agent to iMessage, voice, email, WhatsApp, Telegram, and SMS in one click.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/PhotonHQ/status/2110789854242218066",
+        "tweetId": "2110789854242218066",
+        "authorName": "Photon",
+        "authorHandle": "PhotonHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2097119413908705280/b_V0NXfh.jpg",
+        "poster": "/posters/photon-20-218066.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110783324927234048/vid/avc1/1920x1080/xcnVfQljafKrLAZ7.mp4",
+        "publishedAt": "2026-10-15T17:48:12.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110853125389029437",
+      "tweetId": "2110853125389029437",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.302Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110853125389029437",
+        "tweetUrl": "https://x.com/NotionHQ/status/2110853125389029437",
+        "authorHandle": "NotionHQ",
+        "authorName": "Notion",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "text": "New: Your buttons just got a brain 🧠\n\nButton automations can now message your agents. Add a prompt to a button, and anyone on your team can trigger a workflow with a click. https://t.co/u3L7lcAnlc",
+        "createdAt": "2026-10-15T21:59:37.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110846737241788416/vid/avc1/1920x1080/kn2C7DZlP6mA0L6j.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110846737241788416/img/1IXaVa352qOHNDcj.jpg",
+            "durationMs": 17133
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "NotionHQ",
+        "company": "Notion",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2110853125389029437",
+        "slug": "notion-029437",
+        "title": "New: Your buttons just got a brain 🧠",
+        "product": "Notion",
+        "company": "Notion",
+        "description": "",
+        "category": "productivity",
+        "tags": [
+          "workspace",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/NotionHQ/status/2110853125389029437",
+        "tweetId": "2110853125389029437",
+        "authorName": "Notion",
+        "authorHandle": "NotionHQ",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c.jpg",
+        "poster": "/posters/notion-029437.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110846737241788416/vid/avc1/1920x1080/kn2C7DZlP6mA0L6j.mp4",
+        "publishedAt": "2026-10-15T21:59:37.000Z",
+        "durationSeconds": 17,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110824137531019567",
+      "tweetId": "2110824137531019567",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.250Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110824137531019567",
+        "tweetUrl": "https://x.com/envato/status/2110824137531019567",
+        "authorHandle": "envato",
+        "authorName": "Envato",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1818803532323340289/2PEnMjZQ.jpg",
+        "text": "Pure AI: six fingers and a vibe.\n\nPure stock: the same photo your competitor used last week. \n\nSo why choose between? Start with something real. Riff until it's right.\n\n30M+ artist-created assets. Now editable with AI on Envato. https://t.co/9iqGegoeJS",
+        "createdAt": "2026-10-15T20:04:26.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110823896882565121/vid/avc1/1920x1080/9dpcx4q0Qkd4uBPK.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110823896882565121/img/gNI3vXu-4VTUn3rw.jpg",
+            "durationMs": 34500
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "envato",
+        "company": "Envato",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110824137531019567",
+        "slug": "envato-019567",
+        "title": "Pure AI: six fingers and a vibe",
+        "product": "Envato",
+        "company": "Envato",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/envato/status/2110824137531019567",
+        "tweetId": "2110824137531019567",
+        "authorName": "Envato",
+        "authorHandle": "envato",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1818803532323340289/2PEnMjZQ.jpg",
+        "poster": "/posters/envato-019567.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110823896882565121/vid/avc1/1920x1080/9dpcx4q0Qkd4uBPK.mp4",
+        "publishedAt": "2026-10-15T20:04:26.000Z",
+        "durationSeconds": 35,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110797830361436604",
+      "tweetId": "2110797830361436604",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.197Z",
+      "reviewedAt": null,
+      "score": 20,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110797830361436604",
+        "tweetUrl": "https://x.com/OpenAI/status/2110797830361436604",
+        "authorHandle": "OpenAI",
+        "authorName": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "text": "New voices. Better accents. And less \"checking...\"\n\nGPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese.\n\nRolling out today to all users. Coming soon to the API. https://t.co/L6K8ZUC1xm",
+        "createdAt": "2026-10-15T18:19:54.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110784796872024064/vid/avc1/1920x1080/8Vu0_v7N3caBHxH7.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/media/HUsEKcobYAAf2Bg.jpg",
+            "durationMs": 40733
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "OpenAI",
+        "company": "OpenAI",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2110797830361436604",
+        "slug": "openai-436604",
+        "title": "New voices",
+        "product": "OpenAI",
+        "company": "OpenAI",
+        "description": "",
+        "category": "ai",
+        "tags": [
+          "openai",
+          "agents",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/OpenAI/status/2110797830361436604",
+        "tweetId": "2110797830361436604",
+        "authorName": "OpenAI",
+        "authorHandle": "OpenAI",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW.jpg",
+        "poster": "/posters/openai-436604.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110784796872024064/vid/avc1/1920x1080/8Vu0_v7N3caBHxH7.mp4",
+        "publishedAt": "2026-10-15T18:19:54.000Z",
+        "durationSeconds": 41,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110788459803938944",
+      "tweetId": "2110788459803938944",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.143Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110788459803938944",
+        "tweetUrl": "https://x.com/vercel/status/2110788459803938944",
+        "authorHandle": "vercel",
+        "authorName": "Vercel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT.png",
+        "text": "Vercel Drives is generally available. You can now run stateful agents on Vercel.\n\nhttps://t.co/tbogIYouct https://t.co/etKyIfIQr4",
+        "createdAt": "2026-10-15T17:42:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110788429055410176/vid/avc1/1920x1080/2Feh9ibv_wEZMyRL.mp4?tag=16",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110788429055410176/img/Ihdyq20u8QnzT6yH.jpg",
+            "durationMs": 21700
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "vercel",
+        "company": "Vercel",
+        "category": "developer-tools",
+        "tags": [
+          "vercel",
+          "ai"
+        ]
+      },
+      "draft": {
+        "id": "plv-disc-2110788459803938944",
+        "slug": "vercel-938944",
+        "title": "Vercel Drives is generally available",
+        "product": "Vercel",
+        "company": "Vercel",
+        "description": "",
+        "category": "developer-tools",
+        "tags": [
+          "vercel",
+          "ai",
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/vercel/status/2110788459803938944",
+        "tweetId": "2110788459803938944",
+        "authorName": "Vercel",
+        "authorHandle": "vercel",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT.png",
+        "poster": "/posters/vercel-938944.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110788429055410176/vid/avc1/1920x1080/2Feh9ibv_wEZMyRL.mp4?tag=16",
+        "publishedAt": "2026-10-15T17:42:40.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110790097369010292",
+      "tweetId": "2110790097369010292",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.094Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110790097369010292",
+        "tweetUrl": "https://x.com/cognition/status/2110790097369010292",
+        "authorHandle": "cognition",
+        "authorName": "Cognition",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
+        "text": "Introducing Devin Oncall: Devin automatically investigates alerts and bugs, helping your team diagnose and resolve production incidents.\n\nDevin Oncall already handles thousands of alerts every day for some of the world’s largest companies. Let it become your SRE today. https://t.co/Nza88HwIKd",
+        "createdAt": "2026-10-15T17:49:10.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110779438744940544/vid/avc1/1920x1080/PDzpNMxXN__xkuOG.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110779438744940544/img/MZ6a-YBIFezHQYXB.jpg",
+            "durationMs": 55180
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "cognition",
+        "company": "Cognition",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110790097369010292",
+        "slug": "devin-oncall-010292",
+        "title": "Devin Oncall — devin automatically investigates alerts",
+        "product": "Devin Oncall",
+        "company": "Devin Oncall",
+        "description": "Devin Oncall is Devin automatically investigates alerts and bugs, helping your team diagnose and resolve production incidents.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/cognition/status/2110790097369010292",
+        "tweetId": "2110790097369010292",
+        "authorName": "Cognition",
+        "authorHandle": "cognition",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/1765909640364068865/MvH-m0gd.jpg",
+        "poster": "/posters/devin-oncall-010292.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110779438744940544/vid/avc1/1920x1080/PDzpNMxXN__xkuOG.mp4",
+        "publishedAt": "2026-10-15T17:49:10.000Z",
+        "durationSeconds": 55,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110842064686514654",
+      "tweetId": "2110842064686514654",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:37.048Z",
+      "reviewedAt": null,
+      "score": 38,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110842064686514654",
+        "tweetUrl": "https://x.com/usebeelineapp/status/2110842064686514654",
+        "authorHandle": "usebeelineapp",
+        "authorName": "Beeline",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098975876889108482/RzZX0RCK.jpg",
+        "text": "Introducing Beeline, a team chat for humans and agents.\n\nWeb: https://t.co/OmzZnFJDEY\nGH: https://t.co/NODnlON6eN\n\nAI is transforming the way we work, but it is hard for teams to use AI together. Today's harnesses are solo-user control planes, and keeping context aligned across a https://t.co/HmVqDaxWOH",
+        "createdAt": "2026-10-15T21:15:40.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110839141902565377/vid/avc1/1920x1080/FgA_PzuNW9wHHbto.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110839141902565377/img/xIcdaGWfKWW1QWs2.jpg",
+            "durationMs": 83794
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "usebeelineapp",
+        "company": "Beeline",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110842064686514654",
+        "slug": "beeline-514654",
+        "title": "Introducing Beeline, a team chat for humans and agents",
+        "product": "Beeline",
+        "company": "Beeline",
+        "description": "Beeline is a team chat for humans and agents.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/usebeelineapp/status/2110842064686514654",
+        "tweetId": "2110842064686514654",
+        "authorName": "Beeline",
+        "authorHandle": "usebeelineapp",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2098975876889108482/RzZX0RCK.jpg",
+        "poster": "/posters/beeline-514654.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110839141902565377/vid/avc1/1920x1080/FgA_PzuNW9wHHbto.mp4",
+        "publishedAt": "2026-10-15T21:15:40.000Z",
+        "durationSeconds": 84,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110878517197975717",
+      "tweetId": "2110878517197975717",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:36.998Z",
+      "reviewedAt": null,
+      "score": 56,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b",
+        "signal:\\blaunch(?:ing|ed)?\\b"
+      ],
+      "post": {
+        "tweetId": "2110878517197975717",
+        "tweetUrl": "https://x.com/LexnLin/status/2110878517197975717",
+        "authorHandle": "LexnLin",
+        "authorName": "Leon Lin",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030215945751248896/UIEzJ9Vq.jpg",
+        "text": "Introducing earshot\n\nOpus 5.5 can build a whole launch video in code but still produces sloppy sfx.\n\nso we built earshot. it's ears for AI coding agents. they can now hear sounds, judge them and even make their own good sounds.\n\nevery sound in this video was made with code. https://t.co/W2ODtk0JCe",
+        "createdAt": "2026-10-15T23:40:31.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110876468330762240/vid/avc1/1920x1080/fyYfXuf0TcK6diL2.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110876468330762240/img/nXaPIQx4Abn6LqTp.jpg",
+            "durationMs": 22000
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "LexnLin",
+        "company": "Leon Lin",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110878517197975717",
+        "slug": "leon-lin-975717",
+        "title": "Introducing earshot",
+        "product": "Leon Lin",
+        "company": "Leon Lin",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/LexnLin/status/2110878517197975717",
+        "tweetId": "2110878517197975717",
+        "authorName": "Leon Lin",
+        "authorHandle": "LexnLin",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2030215945751248896/UIEzJ9Vq.jpg",
+        "poster": "/posters/leon-lin-975717.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110876468330762240/vid/avc1/1920x1080/fyYfXuf0TcK6diL2.mp4",
+        "publishedAt": "2026-10-15T23:40:31.000Z",
+        "durationSeconds": 22,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110748819847630872",
+      "tweetId": "2110748819847630872",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:36.874Z",
+      "reviewedAt": null,
+      "score": 42,
+      "reasons": [
+        "has-video",
+        "signal:\\bintroduc(?:e|ing)\\b"
+      ],
+      "post": {
+        "tweetId": "2110748819847630872",
+        "tweetUrl": "https://x.com/ridd_design/status/2110748819847630872",
+        "authorHandle": "ridd_design",
+        "authorName": "Ridd 🤿",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2066916620249800704/h-23QV3C.jpg",
+        "text": "introducing @inflight\n\nthe missing feedback layer for prototypes\n\n⇢  works with any agent\n⇢  supports pinned comments + video\n⇢  turns feedback into next steps for Claude https://t.co/cav49Nw8Rj",
+        "createdAt": "2026-10-15T15:05:09.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110744555825827840/vid/avc1/1920x1080/-9R8Lb9m6N_h2y7b.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110744555825827840/img/Gry5GU9kejQuN5DE.jpg",
+            "durationMs": 82083
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "ridd_design",
+        "company": "Ridd 🤿",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110748819847630872",
+        "slug": "inflight-the-missing-feedback-layer-630872",
+        "title": "introducing @inflight",
+        "product": "@inflight the missing feedback layer",
+        "company": "@inflight the missing feedback layer",
+        "description": "@inflight the missing feedback layer for prototypes ⇢ works with any agent ⇢ supports pinned comments + video ⇢ turns feedback into next steps for Claude.",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/ridd_design/status/2110748819847630872",
+        "tweetId": "2110748819847630872",
+        "authorName": "Ridd 🤿",
+        "authorHandle": "ridd_design",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2066916620249800704/h-23QV3C.jpg",
+        "poster": "/posters/inflight-the-missing-feedback-layer-630872.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110744555825827840/vid/avc1/1920x1080/-9R8Lb9m6N_h2y7b.mp4",
+        "publishedAt": "2026-10-15T15:05:09.000Z",
+        "durationSeconds": 82,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
+      "issueUrl": null
+    },
+    {
+      "id": "disc-2110760037128012146",
+      "tweetId": "2110760037128012146",
+      "reviewStatus": "pending",
+      "discoveredAt": "2026-10-17T00:07:36.821Z",
+      "reviewedAt": null,
+      "score": 24,
+      "reasons": [
+        "has-video"
+      ],
+      "post": {
+        "tweetId": "2110760037128012146",
+        "tweetUrl": "https://x.com/krea_ai/status/2110760037128012146",
+        "authorHandle": "krea_ai",
+        "authorName": "Krea",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
+        "text": "today we open the beta for Krea 3, a new frontier for image editing.\n\n- end-to-end 2k edits in under 8s.\n- matches Nano Banana Pro or GPT Image 2.5 quality.\n- bounding box control and precise multi-turn edits.\n\nlearn and get access 👇 https://t.co/eVQTfy69m1",
+        "createdAt": "2026-10-15T15:49:43.000Z",
+        "media": [
+          {
+            "type": "video",
+            "videoUrl": "https://video.twimg.com/amplify_video/2110759471916191744/vid/avc1/1280x720/0pqr89mFq2Qv_rB1.mp4",
+            "previewImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2110759471916191744/img/2UxPNzulVwQSnBjY.jpg",
+            "durationMs": 59950
+          }
+        ]
+      },
+      "watchlist": {
+        "handle": "krea_ai",
+        "company": "Krea",
+        "category": "other",
+        "tags": []
+      },
+      "draft": {
+        "id": "plv-disc-2110760037128012146",
+        "slug": "krea-012146",
+        "title": "today we open the beta for Krea 3",
+        "product": "Krea",
+        "company": "Krea",
+        "description": "",
+        "category": "other",
+        "tags": [
+          "auto-discovery"
+        ],
+        "tweetUrl": "https://x.com/krea_ai/status/2110760037128012146",
+        "tweetId": "2110760037128012146",
+        "authorName": "Krea",
+        "authorHandle": "krea_ai",
+        "authorAvatar": "https://pbs.twimg.com/profile_images/2052148578588753920/deUXA7cZ.jpg",
+        "poster": "/posters/krea-012146.webp",
+        "videoUrl": "https://video.twimg.com/amplify_video/2110759471916191744/vid/avc1/1280x720/0pqr89mFq2Qv_rB1.mp4",
+        "publishedAt": "2026-10-15T15:49:43.000Z",
+        "durationSeconds": 60,
+        "featured": false,
+        "status": "draft"
+      },
+      "notes": "",
       "issueUrl": null
     }
   ]
